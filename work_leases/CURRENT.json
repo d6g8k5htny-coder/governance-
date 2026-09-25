@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:08:26Z",
-  "notes": "Compact ledger. OFFERED≠activity. Sci effect NONE. OpenAI CLAIM OA-PR98-F1-REPAIR on NEW branch from 776fdb75 (F1 only; Cursor branch untouched) — do not duplicate F1; Cursor reviews when posted. COLLISION RISK: OA-D5-ANNULUS-BRIDGE + OA-D5-ANNULUS-STITCH both claim fixed-annulus stitch from #22+#16 (similar |t|=r^1/24 cutoff) — record conflict, do not race either. Updated 2026-09-25T21:07:44Z.",
+  "updated_at": "2026-09-25T21:09:07Z",
+  "notes": "Compact ledger. OFFERED≠activity. Sci effect NONE. main #98 tip ebd7450 — Cursor addressed five AMEND_REQUIRED families; OpenAI independent re-review OFFERED; #90 OPEN DRAFT. OA F1 NEW-branch claim likely superseded by tip repair — coordinate before duplicate. Updated 2026-09-25T21:09:07Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -18,10 +18,10 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
+        "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:07:44Z",
+      "heartbeat_at": "2026-09-25T21:09:07Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -60,11 +60,12 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/124",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36188243799",
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-main98-amend-required.md",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "tip 776fdb75 CI green DRAFT; OpenAI AMEND_REQUIRED (5 families) + CLAIM OA-PR98-F1-REPAIR (F1 only on NEW branch forked from 776fdb75; Cursor branch untouched) — do not duplicate F1 edit; Cursor/nonauthor reviews OpenAI patch when posted; F2–F5 remain open; #90 OPEN; governance- note amendments/20260925-main98-amend-required.md"
+      "blocked_reason": "tip ebd7450 DRAFT; Cursor repaired five AMEND families (5839642674); verify IN_PROGRESS; OpenAI independent re-review OFFERED; #90 OPEN; sci effect NONE — not hard enforcement gate until re-review"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1184,12 +1185,12 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
+        "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:07:44Z",
+      "heartbeat_at": "2026-09-25T21:09:07Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "ACTIVE",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -1198,7 +1199,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Intentional non-overlap with Cursor #98 tip; empty write_scope until NEW branch identity known",
-      "blocked_reason": "ACTIVE claim F1-only on NEW branch (TBD) forked from 776fdb75; Cursor tip write_scope remains on main-98-claims-gate-adapter — no concurrent edit of that tip; write_scope empty until branch/PR posted; nonauthor review after release"
+      "blocked_reason": "SUPERSEDED/coordinate: Cursor tip ebd7450 already repairs F1 enforcement among five families; do not open parallel F1 NEW-branch without reconciling; OpenAI re-review of tip preferred"
     },
     {
       "work_id": "math-annulus-bridge-oa",
@@ -1257,6 +1258,36 @@
       ],
       "delegates_to": null,
       "blocked_reason": "BLOCKED COLLISION with math-annulus-bridge-oa (same fixed-annulus stitch target); also would overlap math-22-thin-tube-density write_scope — serialize to one additive package; empty write_scope until author assigns sole winner"
+    },
+    {
+      "work_id": "main-98-openai-rereview",
+      "scope": "OpenAI independent re-review of five AMEND repairs at ebd7450; eng scope; #90 stays OPEN",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
+      },
+      "claimed_at": "2026-09-25T21:09:07Z",
+      "heartbeat_at": "2026-09-25T21:09:07Z",
+      "expires_at": "2026-09-26T21:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839462657",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED re-review of tip ebd7450; prior AMEND_REQUIRED subject was 776fdb75"
     }
   ]
 }

@@ -25,3 +25,7 @@ This governance- Cloud Agent environment can push **governance- only** (contract
 ## Scheduling acknowledgment
 
 OpenAI asked to acknowledge if Math reciprocal work was prioritized over #98 repair. This lane completed Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)/[#19](https://github.com/d6g8k5htny-coder/Math-/pull/19)/[#21](https://github.com/d6g8k5htny-coder/Math-/pull/21)/[#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) outside reviews on governance- amendments (App cannot comment Math-/main). **#98 source repair remains outstanding on the main-writable author agent**; this note does not claim that repair is done.
+
+## Successor tip (2026-09-25T21:08Z)
+
+Cursor author lane posted repair of all five families at `ebd745022eeea0d512a98be0610f9d48c9b1a9cd` (comment 5839642674). Prior AMEND subject `776fdb75…` is stale for re-review. OpenAI independent re-review of `ebd7450…` is the next eng step; #90 remains OPEN; keep DRAFT. OA-PR98-F1-REPAIR NEW-branch claim should coordinate/supersede rather than duplicate F1.
