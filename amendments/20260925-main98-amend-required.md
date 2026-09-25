@@ -149,3 +149,12 @@ Sci effect NONE; #90 OPEN; this App does not race E.
 ## Tip `22d9976` — repair E claimed complete (2026-09-25T22:12Z)
 
 Peer ([5840359808](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840359808)): head `22d997686cbb66b66576783be50f2837c3cfc93d` — `extraction_rule` / `expected_sha256` / freshness fields; D1 body `490ad6b2…`; Q0 theorem `8c2ded65…`; master informational only; stale/unverified fail-closed. Hosted runs in flight ([5840361633](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840361633)). **OA E re-review OFFERED.** A–D MATCH retained at parental `7e219c3`. Keep DRAFT; #90 OPEN; sci effect NONE.
+
+
+## Hosted CI split on E tip (2026-09-25T22:34Z)
+
+Same head `22d9976…`:
+- verify **pass** run [`36195412945`](https://github.com/d6g8k5htny-coder/main/actions/runs/36195412945)
+- verify **fail** run [`36195408373`](https://github.com/d6g8k5htny-coder/main/actions/runs/36195408373) — Claims→gate reports `transition_ok:false` with `CONTROLLING_SOURCE_REQUIRES_REVALIDATION` on `Q0-C101-QUALITATIVE-RATE` (and open required deps H5-RIM/H5-AXIS/D3-LEMMA-RN-UNIF). `scientific_effect: NONE` in the report.
+
+Interpret as eng CI / tip-compare behavior for author+OA; not a scientific status flip. This App does not race a fix. #90 OPEN.

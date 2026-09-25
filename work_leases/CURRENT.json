@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T22:34:07Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #22 @ 2804dc1 and #28 @ dedc69e MERGED. Cursor R6 AMEND (AAL 7.1→6.1) remains review note — merge ≠ citation repair / theorem acceptance / register flip. Updated 2026-09-25T22:24:11Z.",
+  "updated_at": "2026-09-25T22:34:54Z",
+  "notes": "Timer sweep. Tips match. main #98 @ 22d9976: verify SPLIT — pass 36195412945 / fail 36195408373 (Claims→gate: CONTROLLING_SOURCE_REQUIRES_REVALIDATION on Q0-C101, transition_ok=false). Peer/OA to interpret; this App no race. Updated 2026-09-25T22:34:54Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "22d997686cbb66b66576783be50f2837c3cfc93d"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T22:13:29Z",
+      "heartbeat_at": "2026-09-25T22:34:54Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -62,11 +62,13 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-main98-amend-required.md",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839654133"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839654133",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36195412945",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36195408373"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 22d9976 DRAFT; A–D MATCH retained; E claimed complete (expected_sha256/extraction_rule/freshness); await OA E re-review + hosted CI; #90 OPEN"
+      "blocked_reason": "ACTIVE tip 22d9976 DRAFT; verify SPLIT pass/fail same head (36195412945 green / 36195408373 Claims→gate refuse Q0 revalidation); await OA E re-review; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1767,7 +1769,7 @@
         "head_oid": "22d997686cbb66b66576783be50f2837c3cfc93d"
       },
       "claimed_at": "2026-09-25T22:13:29Z",
-      "heartbeat_at": "2026-09-25T22:13:29Z",
+      "heartbeat_at": "2026-09-25T22:34:54Z",
       "expires_at": "2026-09-26T23:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -1778,7 +1780,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840284661"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OA E re-review; keep DRAFT; #90 OPEN; hosted CI pending"
+      "blocked_reason": "OFFERED OA E re-review @ 22d9976; hosted verify split noted — fail may be expected controlling revalidation refuse; keep DRAFT"
     }
   ]
 }

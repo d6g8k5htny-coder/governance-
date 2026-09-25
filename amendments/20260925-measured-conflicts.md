@@ -41,7 +41,7 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH×7; D6 analytic **AMEND** F10 p=1 wording / slices 1,3–6 ACCEPT (`amendments/20260925-math18-d6-analytic-review.md`); keep DRAFT |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `22d9976…` E complete (subobject digests); **OA E re-review OFFERED**; A–D MATCH retained; #90 OPEN |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `22d9976…` E complete; verify **SPLIT** (pass `36195412945` / fail `36195408373` Q0 revalidation refuse); **OA E re-review OFFERED**; #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
