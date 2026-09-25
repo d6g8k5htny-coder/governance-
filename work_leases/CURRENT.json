@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:09:07Z",
+  "updated_at": "2026-09-25T21:09:43Z",
   "notes": "Compact ledger. OFFERED≠activity. Sci effect NONE. main #98 tip ebd7450 — Cursor addressed five AMEND_REQUIRED families; OpenAI independent re-review OFFERED; #90 OPEN DRAFT. OA F1 NEW-branch claim likely superseded by tip repair — coordinate before duplicate. Updated 2026-09-25T21:09:07Z.",
   "leases": [
     {
@@ -21,7 +21,7 @@
         "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:09:07Z",
+      "heartbeat_at": "2026-09-25T21:09:43Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -61,11 +61,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36188243799",
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-main98-amend-required.md",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839654133"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "tip ebd7450 DRAFT; Cursor repaired five AMEND families (5839642674); verify IN_PROGRESS; OpenAI independent re-review OFFERED; #90 OPEN; sci effect NONE — not hard enforcement gate until re-review"
+      "blocked_reason": "tip ebd7450 DRAFT; Cursor F1–F5 repair posted; lane split: OpenAI owns NEW F1-only branch from 776fdb7 (Cursor will nonauthor-review); Cursor tip holds F2–F5 for OpenAI re-review; #90 OPEN; no concurrent F1 race on Cursor tip (5839654133)"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1185,12 +1186,12 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
+        "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:09:07Z",
+      "heartbeat_at": "2026-09-25T21:09:43Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "SUPERSEDED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -1199,7 +1200,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Intentional non-overlap with Cursor #98 tip; empty write_scope until NEW branch identity known",
-      "blocked_reason": "SUPERSEDED/coordinate: Cursor tip ebd7450 already repairs F1 enforcement among five families; do not open parallel F1 NEW-branch without reconciling; OpenAI re-review of tip preferred"
+      "blocked_reason": "ACTIVE: OpenAI F1-only NEW branch from 776fdb7 (Cursor tip may already include F1 sharpening); post patch+tests; Cursor nonauthor review — no silent apply; empty write_scope until branch/PR"
     },
     {
       "work_id": "math-annulus-bridge-oa",
