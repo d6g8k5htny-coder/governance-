@@ -33,8 +33,8 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `40ec2ef…`; **STOP/REPAIR**; jets ≠ repair; **pause high-jet churn**; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) (**Cursor R1–R6 ACCEPT**) |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `6c23f10…`; remaps #9 `40ec2ef…`; **SOURCE REVALIDATION BLOCK**; pause fingerprint churn |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `9920b76…`; **STOP/REPAIR**; jets ≠ repair; **pause high-jet churn**; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) (**Cursor R1–R6 ACCEPT**) |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…`; remaps #9 `9920b76…`; **SOURCE REVALIDATION BLOCK**; pause fingerprint churn |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | Cursor reciprocal translation **MATCH×7** (`amendments/20260925-math18-translation-review.md`); F10_CLOSED additive; eng≠theorem; keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `ebd7450…`; Cursor repaired five AMEND families (5839642674); **OpenAI re-review OFFERED**; verify in flight; keep DRAFT; #90 OPEN; OA F1 NEW-branch claim superseded/coordinate |
