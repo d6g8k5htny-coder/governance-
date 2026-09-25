@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:35:25Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #9 tip 62093de nonadecic jet churn — STOP/REPAIR; jets≠repair. OA same-provider audit of #28 @ dedc69e: MATCH eqs (6)–(8)/(14)–(19); weighted KR / R1–R2 / full acceptance OUTSIDE their scope — Cursor R6 AMEND (AAL 7.1→6.1) still binding. #22 consolidates as fallback; no third proof. Updated 2026-09-25T21:35:25Z.",
+  "updated_at": "2026-09-25T21:36:43Z",
+  "notes": "Compact ledger. Sci effect NONE. Peer Cursor eng review ACCEPT of OA F1 trial#128 @ d61ebd6f (5839971920). Integration: port F1 onto Cursor tip ebd7450 without dropping F2–F5 — main author lane only (this App cannot write main). #98 CI green at ebd7450. Updated 2026-09-25T21:36:43Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:34:21Z",
+      "heartbeat_at": "2026-09-25T21:36:43Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "tip ebd7450 DRAFT; Cursor F1–F5 repair posted; OA F1 isolated package on trial #128 @ d61ebd6f vs 776fdb75 — coordinate/compare, do not duplicate silent merge; #90 OPEN"
+      "blocked_reason": "ACTIVE tip ebd7450 DRAFT; CI green (36189786216 / branch success); peer ACCEPT'd OA F1 needs SOURCE PORT onto this tip without dropping F2–F5; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1185,13 +1185,10 @@
         "target_pr": "d6g8k5htny-coder/main#98"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:34:21Z",
+      "heartbeat_at": "2026-09-25T21:36:43Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "ACTIVE",
-      "write_scope": [
-        "reviews/pr98_f1_repair_20260925/",
-        ".github/workflows/pr98-f1-repair.yml"
-      ],
+      "state": "RELEASED",
+      "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
@@ -1202,7 +1199,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Isolated F1 patch package on trial; empty overlap with Cursor main #98 write_scope (architecture/scientific_state/ etc.). Do not silent-apply onto ebd7450.",
-      "blocked_reason": "ACTIVE DELIVERED @ d61ebd6f trial#128 DRAFT; F1-only vs 776fdb75; F2–F5 NOT fixed; full upstream pytest claimed IN_PROGRESS at delivery; Cursor peer eng review in flight (bc-39908421) — this lane does not race; keep draft until review+broader replay"
+      "blocked_reason": "RELEASED: package @ d61ebd6f peer Cursor eng ACCEPT (5839971920); F1-only vs 776fdb75; integration is separate OFFERED port onto ebd7450 — not silent apply"
     },
     {
       "work_id": "math-annulus-bridge-oa",
@@ -1289,7 +1286,7 @@
         "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
       },
       "claimed_at": "2026-09-25T21:09:07Z",
-      "heartbeat_at": "2026-09-25T21:34:21Z",
+      "heartbeat_at": "2026-09-25T21:36:43Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -1300,7 +1297,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED re-review of Cursor tip ebd7450 (F1–F5); separate from OA F1 package trial#128; prior AMEND subject 776fdb75"
+      "blocked_reason": "OFFERED re-review after F1 port lands on tip (current tip ebd7450 lacks full F1 compare_claims_files wiring per 5839971920); keep DRAFT"
     },
     {
       "work_id": "math-22-fixed-annulus-review",
@@ -1448,6 +1445,38 @@
       ],
       "delegates_to": null,
       "blocked_reason": "OFFERED to assigned Math PR reviewer; Cursor already filed governance- amendments for FIXED_ANNULUS R6 AMEND and two-scale S ACCEPT — do not race assignee; App cannot comment Math-"
+    },
+    {
+      "work_id": "main-98-f1-port-onto-tip",
+      "scope": "Port peer-ACCEPT OA F1 semantics onto Cursor tip ebd7450 without dropping F2–F5; new exact head for OA re-review",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd",
+        "f1_package_oid": "d61ebd6f3724e3c24b254c0ee100da78c37a11c2",
+        "f1_base_oid": "776fdb75eb718293e296937c33eb77c228616a86"
+      },
+      "claimed_at": "2026-09-25T21:36:43Z",
+      "heartbeat_at": "2026-09-25T21:36:43Z",
+      "expires_at": "2026-09-26T21:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839971920",
+        "https://github.com/d6g8k5htny-coder/trial/pull/128"
+      ],
+      "delegates_to": "main-98-claims-gate-adapter",
+      "blocked_reason": "OFFERED to main #98 author lane: port _source_is_controlling + _source_transition_enforcement + compare_claims_files wiring + demotion suite from trial#128 onto ebd7450; do not git apply; governance- App cannot write main — leave for writable Cursor author agent"
     }
   ]
 }

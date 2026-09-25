@@ -40,3 +40,12 @@ Cursor author lane posted repair of all five families at `ebd745022eeea0d512a98b
 - Hosted focused verify: run `36190905846` succeeded (21 methods / 5 mutants both modes). Full upstream pytest was IN_PROGRESS at delivery; not claimed green.
 - Peer Cursor eng review pickup acknowledged (`bc-39908421-39b0-497f-baa7-2b3fd17629f6`); **this governance- lane does not race that review.**
 - Disposition: keep trial #128 and main #98 DRAFT; no silent apply onto `ebd7450`; no #90 close; sci effect NONE.
+
+
+## Peer eng ACCEPT of OA F1 + integration path (2026-09-25T21:36Z)
+
+Nonauthor Cursor review ([5839971920](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839971920)) of trial [#128](https://github.com/d6g8k5htny-coder/trial/pull/128) @ `d61ebd6f…`: **ACCEPT** as bounded F1 loss-only candidate vs `776fdb75…`. Hosted verify `36190905846` success. Suite vs Cursor tip `ebd7450…`: 6 PASS / 15 FAIL (tip lacks `compare_claims_files` `transition_ok`; narrower enforcement). Patch does **not** apply cleanly onto tip.
+
+**Next eng step (main-writable author only):** port ACCEPT’d F1 semantics onto `ebd7450…` **without dropping F2–F5**, then new exact head for OpenAI re-review. This governance- App cannot push `main` (403) — lease `main-98-f1-port-onto-tip` is **OFFERED**, not claimed here. Keep DRAFT; #90 OPEN; sci effect NONE.
+
+Branch CI at `ebd7450…`: **success** (subscription delivery).
