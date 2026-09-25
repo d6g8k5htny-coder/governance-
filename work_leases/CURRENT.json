@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:27:32Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 tip 9896386 STOP; #20 tip 6a41ea9 BLOCKED; #21 density ACTIVE; #98 CI green DRAFT.",
+  "updated_at": "2026-09-25T20:30:44Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #15 MERGED @ ac868b2 (eng integrity only; head 8c4c946) \u2014 NOT theorem acceptance; #90/#98 remain open. #9 STOP; #20 BLOCKED; #21 density ACTIVE.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -153,14 +153,15 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/transition-integrity-v2-20260925",
         "pr": 15,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a"
+        "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a",
+        "merge_oid": "ac868b2b31d0995b75dd697f19d4c94735179a38"
       },
       "claimed_at": "2026-09-25T18:11:00Z",
-      "heartbeat_at": "2026-09-25T20:09:54Z",
+      "heartbeat_at": "2026-09-25T20:30:44Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [
         "frontiers/downstream_gate_20260925/",
         ".github/workflows/downstream-gate.yml"
@@ -175,11 +176,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838230615",
         "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838558852",
         "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838821860",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math15-eng-review.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math15-eng-review.md",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5839128927",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/ac868b2b31d0995b75dd697f19d4c94735179a38"
       ],
       "delegates_to": null,
-      "blocked_reason": "undrafted; replay green; Cursor eng ACCEPT @ 8c4c946 filed on governance- (amendments/20260925-math15-eng-review.md) \u2014 mirror to Math- from Math-writable lane; sci effect NONE; #90/#98 remain separate; OpenAI will not self-merge",
-      "lanes_note": "Write scope frontiers/downstream_gate_20260925/ overlaps Math- #20 fingerprint-sync draft \u2014 do not race; #15 eng APPROVE binds 8c4c946 only"
+      "lanes_note": "Merged eng package only; sci effect NONE; main #98/#90 separate; Cursor eng ACCEPT also on governance- amendments/20260925-math15-eng-review.md"
     },
     {
       "work_id": "main-95-formal-lemma-pilot",
@@ -356,7 +358,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:27:32Z",
+      "heartbeat_at": "2026-09-25T20:30:44Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -787,7 +789,7 @@
         "head_oid": "6a41ea9704f914f95faed6cca3e5f6db70f7f9ed"
       },
       "claimed_at": "2026-09-25T19:48:00Z",
-      "heartbeat_at": "2026-09-25T20:27:32Z",
+      "heartbeat_at": "2026-09-25T20:30:44Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -805,7 +807,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/20#issuecomment-5838927456"
       ],
       "delegates_to": "math-15-transition-integrity",
-      "blocked_reason": "SOURCE REVALIDATION BLOCK stands: tip 6a41ea9 remaps unrepaired #9 9896386; PR17/PR19 apply; overlaps #15"
+      "blocked_reason": "SOURCE REVALIDATION BLOCK: maps unrepaired #9 tips; #15 eng gate now on Math- main \u2014 do not race further fingerprint sync of falsified pins onto landed gate; PR17/PR19 apply"
     },
     {
       "work_id": "trial-121-p15-assumption-probe",
@@ -853,12 +855,12 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/transition-integrity-v2-20260925",
         "pr": 15,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a"
       },
       "claimed_at": "2026-09-25T20:09:54Z",
-      "heartbeat_at": "2026-09-25T20:09:54Z",
+      "heartbeat_at": "2026-09-25T20:30:44Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
