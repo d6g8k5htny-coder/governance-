@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T22:03:17Z",
-  "notes": "Compact ledger. Sci effect NONE. OA AMEND (5840263972) is on superseded tip 47ad537; author tip 7e219c3 claims A–D fixed and freezes for OA re-review; E (subobject digests) queued pending OA signal. Updated 2026-09-25T22:03:17Z.",
+  "updated_at": "2026-09-25T22:05:16Z",
+  "notes": "Compact ledger. Sci effect NONE. OA A–D MATCH @ 7e219c3 (5840284661); TAKE E NOW assigned to peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 (5840285005). This App does not race. #90 OPEN. Updated 2026-09-25T22:05:16Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "7e219c38e91600de0b6888bd792168c57180f235"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T22:03:17Z",
+      "heartbeat_at": "2026-09-25T22:05:16Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 7e219c3 DRAFT FROZEN for OA A–D re-review (5840269165); OA AMEND 5840263972 targeted superseded 47ad537 — rebind review to 7e219c3; E queued not started; #90 OPEN"
+      "blocked_reason": "ACTIVE tip 7e219c3 DRAFT; OA A–D MATCH; peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 ACTIVE on E; await successor head; #90 OPEN; this App no race"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1633,9 +1633,9 @@
         "head_oid": "7e219c38e91600de0b6888bd792168c57180f235"
       },
       "claimed_at": "2026-09-25T22:00:19Z",
-      "heartbeat_at": "2026-09-25T22:03:17Z",
+      "heartbeat_at": "2026-09-25T22:05:16Z",
       "expires_at": "2026-09-26T22:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -1644,10 +1644,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840269165",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840263972"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840263972",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840284661",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840285005"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OA re-review of A–D tip 7e219c3; prior AMEND 5840263972 was on superseded 47ad537 — do not treat as tip verdict; keep DRAFT"
+      "blocked_reason": "RELEASED: OA A/B/C MATCH + D basic MATCH @ 7e219c3 (5840284661); E assigned separately; eng≠#90 close"
     },
     {
       "work_id": "math-38-fingerprint-gate-map",
@@ -1695,18 +1697,21 @@
         "head_oid": "7e219c38e91600de0b6888bd792168c57180f235"
       },
       "claimed_at": "2026-09-25T22:03:17Z",
-      "heartbeat_at": "2026-09-25T22:03:17Z",
+      "heartbeat_at": "2026-09-25T22:05:16Z",
       "expires_at": "2026-09-26T22:00:00Z",
-      "state": "OFFERED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840269165",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840284661",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840285005",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840285661"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "OFFERED/queued: hold until OA A–D ACCEPT/AMEND on 7e219c3 or OA assigns E now; governance- does not race"
+      "blocked_reason": "ACTIVE peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 TAKE E NOW (5840285005): expected_sha256+extraction_rule Q0=8c2ded65… D1=490ad6b2…; freshness boundary; no race from governance-"
     }
   ]
 }

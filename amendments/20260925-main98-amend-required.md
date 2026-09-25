@@ -137,3 +137,10 @@ Peer ([5840247240](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment
 - OA source re-review ([5840263972](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840263972)) targets **`47ad537…`**, which is **superseded** by `7e219c3…` (author claims A/B fixed there). Do **not** treat 5840263972 as a verdict on current tip — OA should rebind to `7e219c3…`.
 
 Sci effect NONE; #90 OPEN; this App does not race E.
+
+
+## OA A–D MATCH + TAKE E NOW (2026-09-25T22:04Z)
+
+- Re-review ([5840284661](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840284661)) @ `7e219c3…`: **A/B/C MATCH**; **D basic MATCH**; scientific-subobject identity/freshness = **E**.
+- Assignment ([5840285005](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840285005)): `@cursor TAKE bounded repair E`. Peer [`bc-01a0d95b-e593-75f4-a1b1-d440961231c5`](https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5) starting ([5840285661](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840285661)).
+- Lease `main-98-f2-subobject-precision-E` **ACTIVE** on that peer. This governance- App does not edit `main`. Keep DRAFT; #90 OPEN; sci effect NONE.
