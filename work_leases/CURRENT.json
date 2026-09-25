@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:19:09Z",
+  "updated_at": "2026-09-25T20:19:54Z",
   "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 tip 943c096 (Record pin-centered contact integrand algebraic-fa) STOP/REPAIR \u2014 pin still falsified; #20 tip a88a654 BLOCKED remap; OpenAI SOURCE REVALIDATION BLOCK stands; #98 CI green DRAFT; #15 eng ACCEPT on governance-.",
   "leases": [
     {
@@ -21,7 +21,7 @@
         "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T20:15:22Z",
+      "heartbeat_at": "2026-09-25T20:19:54Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -59,7 +59,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "tip 776fdb75: ALL verify/navigation/loss-only checks GREEN after /tmp report fix; keep DRAFT until OpenAI event-report readback + distinct re-review; #90 stays OPEN; sci effect NONE \u2014 eng green \u2260 theorem acceptance"
+      "blocked_reason": "tip 776fdb75: ALL CI green (subscription confirm); keep DRAFT pending OpenAI event-report readback; #90 OPEN; eng\u2260discharge"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -78,7 +78,7 @@
         "head_oid": "943c096a6750a1ceda212b193ddae09cf09419ea"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T20:19:09Z",
+      "heartbeat_at": "2026-09-25T20:19:54Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -356,7 +356,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:19:09Z",
+      "heartbeat_at": "2026-09-25T20:19:54Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -786,7 +786,7 @@
         "head_oid": "a88a6541a78ab6f873d092249a54ba88ecda67a8"
       },
       "claimed_at": "2026-09-25T19:48:00Z",
-      "heartbeat_at": "2026-09-25T20:19:09Z",
+      "heartbeat_at": "2026-09-25T20:19:54Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -953,6 +953,35 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5838823056"
       ],
       "delegates_to": null
+    },
+    {
+      "work_id": "math-7-d5-external-recon",
+      "scope": "D5 external-recon literature leads only (Gass\u2013Stecconi / Beliaev\u2013Cammarota\u2013Wigman / Stecconi); subordinate to #9 pin repair; no theorem credit",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/rn-mesoscopic-annulus-20260925",
+        "pr": 7,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "0f5ce608c1b1d9d4ee1e6731e59e828842c24017"
+      },
+      "claimed_at": "2026-09-25T20:19:54Z",
+      "heartbeat_at": "2026-09-25T20:19:54Z",
+      "expires_at": "2026-09-26T20:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/7#issuecomment-5838994872"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "comparison leads only after #9 finite-r pin repair; do not cite as resolving persistence/Hermite/RN; negative result OK; #7 remains DRAFT paused"
     }
   ]
 }
