@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:10:30Z",
+  "updated_at": "2026-09-25T19:12:30Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -21,7 +21,7 @@
         "head_oid": "044928047dc330724bd7829744d7898dee2cada5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T18:42:30Z",
+      "heartbeat_at": "2026-09-25T19:12:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -44,10 +44,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837182021",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837267538",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837281996",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36172226452"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36172226452",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838126619",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477"
       ],
       "delegates_to": null,
-      "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip"
+      "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
+      "blocked_reason": "AMEND_REQUIRED: deploy real before/after CI boundary + strict depends_on/as_of validation; tip self-audit insufficient"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -325,7 +328,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:10:30Z",
+      "heartbeat_at": "2026-09-25T19:12:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -491,6 +494,38 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/109"
+      ],
+      "delegates_to": null
+    },
+    {
+      "work_id": "math-16-openai-review-package",
+      "scope": "Review-only: finite-r pin counterexample + adapter before/after probes (evidence for #9/#98); no status writes",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/downstream-boundary-review-20260925",
+        "pr": 16,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
+      },
+      "claimed_at": "2026-09-25T19:00:00Z",
+      "heartbeat_at": "2026-09-25T19:12:30Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "reviews/downstream_boundary_20260925/",
+        ".github/workflows/downstream-boundary-review.yml"
+      ],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477"
       ],
       "delegates_to": null
     }
