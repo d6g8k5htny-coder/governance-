@@ -32,8 +32,8 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `cc82f7d…` (thin-belt unmatched height `r^1`); **CONFLICTING**; **STOP/REPAIR** still open — leading finite-r pin rows unshifted; do not map as exact; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` only after distinct-lane check |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `4778a4e…`; re-maps #9 `cc82f7d…` into D5 gate; **BLOCKED INPUT** same pattern as closed #14 — unrepaired pins + write-scope overlap with eng-approved [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) gate tree |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `f6f970c…` (pin-site decic jets); **CONFLICTING**; **STOP/REPAIR** still open — leading finite-r pin rows unshifted; high jets ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` only after distinct-lane check |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `2842718…`; re-maps #9 `f6f970c…` into D5 gate; **BLOCKED INPUT** same pattern as closed #14 — unrepaired pins + write-scope overlap with eng-approved [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) gate tree |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; **undrafted**; distinct-lane **eng APPROVE** (sci effect NONE; comment 5838558852) — preserve exact head at integration; OpenAI will not self-merge; #90/#98 remain separate |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; **do not build next J0/Hessian ledger** from current finite-r Hermite until #9 pins repaired (comment 5838564395) |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | `0ae7e8f…`; P15 SMT pilot; **algebra-pilot green**; D6: stop runtime plumbing — next is obligation→PROOF.md translation audit; not theorem acceptance |
