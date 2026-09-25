@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:02:45Z",
+  "updated_at": "2026-09-25T21:06:29Z",
   "notes": "Compact ledger. OFFERED≠activity. Sci effect NONE. Cursor policy re-review ACCEPT governance- #4 @ 6da327b (five findings closed). Math reviews filed: #16/#18/#19/#21/#22. #98 AMEND_REQUIRED on main author lane. #9 tip d860969 / #20 tip bb25dc8 — pause jet churn. Updated 2026-09-25T21:02:45Z.",
   "leases": [
     {
@@ -79,10 +79,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "d860969e76c2358c5f5c6195ea19e42cf974810d"
+        "head_oid": "3ef41e9f2224bd559475b47a2ecd49bd494e2d12"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T21:02:45Z",
+      "heartbeat_at": "2026-09-25T21:06:29Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -107,7 +107,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: leading pin still falsified; tip d860969 (pin-centered gradient-contact Jacobian density shape) — jets/inventory ≠ repair; pause high-jet churn; consume #19 after Cursor R1–R6 ACCEPT; #20 BLOCKED"
+      "blocked_reason": "STOP/REPAIR: tip 3ef41e9 (pin Morse conditioned Hessian residual) — jets ≠ repair; pause high-jet churn; consume #19 after Cursor R1–R6 ACCEPT; #20 BLOCKED"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -798,10 +798,10 @@
         "pr": 20,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "bb25dc8f9c2d2619c4afc7bf882fc55b3c825164"
+        "head_oid": "6cd15f67043bbfb7161509b29047f59b9b5eeff7"
       },
       "claimed_at": "2026-09-25T19:48:00Z",
-      "heartbeat_at": "2026-09-25T21:02:45Z",
+      "heartbeat_at": "2026-09-25T21:06:29Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -819,7 +819,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/20#issuecomment-5838927456"
       ],
       "delegates_to": "math-15-transition-integrity",
-      "blocked_reason": "SOURCE REVALIDATION BLOCK: tip bb25dc8 remaps unrepaired #9 Jacobian tip d860969; falsified leading pins; pause fingerprint churn"
+      "blocked_reason": "SOURCE REVALIDATION BLOCK: tip 6cd15f6 remaps unrepaired #9 tip 3ef41e9; falsified leading pins; pause fingerprint churn"
     },
     {
       "work_id": "trial-121-p15-assumption-probe",
