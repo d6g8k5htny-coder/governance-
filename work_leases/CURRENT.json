@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:45:00Z",
+  "updated_at": "2026-09-25T19:46:00Z",
   "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 under STOP/REPAIR; repair candidate is #19; #14 must not refresh fingerprints.",
   "leases": [
     {
@@ -107,14 +107,14 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "cursor/d5-chart-j0-on-hotfix-91fa",
         "pr": 14,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
         "head_oid": "4f272f9765dedfa581161580aac09b7800dae6f6"
       },
       "claimed_at": "2026-09-25T17:55:00Z",
-      "heartbeat_at": "2026-09-25T19:43:30Z",
+      "heartbeat_at": "2026-09-25T19:46:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "BLOCKED",
+      "state": "SUPERSEDED",
       "write_scope": [
         "frontiers/downstream_gate_20260925/GRAPH.json",
         "frontiers/downstream_gate_20260925/RESULTS.json",
@@ -126,10 +126,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/14",
         "https://github.com/d6g8k5htny-coder/Math-/pull/14#issuecomment-5838163743",
         "https://github.com/d6g8k5htny-coder/Math-/pull/14#issuecomment-5838164795",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517301"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517301",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/14#issuecomment-5838544578"
       ],
       "delegates_to": "math-9-mesoscopic-chart-j0",
-      "blocked_reason": "STOP forbids PR14 fingerprint refresh until #9 finite-r repair accepted"
+      "blocked_reason": "PR closed SUPERSEDED/BLOCKED INPUT \u2014 mapped known-bad #9 fingerprints"
     },
     {
       "work_id": "math-15-transition-integrity",
@@ -342,7 +343,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:45:00Z",
+      "heartbeat_at": "2026-09-25T19:46:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -595,10 +596,10 @@
         "pr": 19,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "7d295ae11e9d48584520ccc1499596bfd77e4fac"
+        "head_oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T19:45:00Z",
+      "heartbeat_at": "2026-09-25T19:46:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -609,10 +610,12 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/19",
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517533",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838534592"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838534592",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838539517",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838539973"
       ],
       "delegates_to": null,
-      "blocked_reason": "self-audit OK on cubic witness; regularity wording fix + distinct-lane review required before consume"
+      "blocked_reason": "C^6 wording repair at ee8629f; distinct-lane review required; bind this head not 7d295ae"
     },
     {
       "work_id": "math-16-transverse-review-offer",

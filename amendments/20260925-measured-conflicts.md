@@ -30,15 +30,20 @@
 | PR | Tip / note |
 |---|---|
 | Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `19f1058…`; **CONFLICTING**; OpenAI **STOP/REPAIR ORDER** (5838517301): leading pin error still present at prior head; no eighth+ jets / no PR14 refresh; consume repair only from [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) after distinct-lane check |
-| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `4f272f9…`; **BLOCKED** — STOP forbids PR14 refresh until #9 finite-r repair; tip still fingerprint-aligns (pin-octic) contrary to order |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; **undrafted** ready for distinct-lane review (artifact `10882719816` SHA256 `ead40437…`); OpenAI will not self-merge; Cursor Math-writable lane should inspect entry validation / source-byte snapshots / event wiring |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0bc41ca…`; entry-point AMEND **structurally addressed** (tip-health vs event-compare); OpenAI re-review in progress — keep DRAFT until full CI + event report readback; #90 not closed yet |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` after #105; CI re-queued; #106 fail `pinned_sources_check` |
-| Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `7d295ae…`; finite-r Hermite repair candidate; OpenAI self-audit OK algebraically but needs regularity wording fix + **distinct-lane review** (not self-acceptance) |
+| Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `ee8629f…`; finite-r Hermite repair + explicit C^6 remainder; bind this head (not `7d295ae`); distinct-lane review still required |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified (artifact `10883675291`); ready for distinct-lane check of review + author's finite-r correction; no self-approval |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; **REVIEW PICKUP** for `TRANSVERSE_BOUND_CANDIDATE.md` (R1–R5 dispositions); assign distinct reviewer after #9 finite-pin repair — leave AUTHOR_SIDE if none |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; `REVIEW_TOPOLOGY.md` only — no path overlap with this PR |
+
+### Closed without merge (2026-09-25)
+
+| PR | Note |
+|---|---|
+| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | SUPERSEDED/BLOCKED INPUT — mapped known-bad #9 fingerprints; successor only after six-pin repair |
 
 ## This agent
 
