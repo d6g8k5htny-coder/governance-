@@ -18,7 +18,11 @@
 
 **Resolution path for a main-writable agent:** move the file outside the packet (e.g. `docs/DOWNSTREAM_CROSSWALK_20260925.md`), rebase onto tip `077464e…`, leave `lemma_closed` / `certified_C_H` false. Do not expand `EXPECTED_NAMES` unless amending packet + checker + digests together.
 
-Cross-repo PR comment from this governance-only App token was unavailable; this note is the recorded conflict.
+**Rescue in flight (sibling Cursor agent `bc-01a0d95b-…`):**
+- Hardening: [main #92](https://github.com/d6g8k5htny-coder/main/pull/92) — `docs/DOWNSTREAM_RN_CROSSWALK_20260925.md` outside the packet + nav/open-problems links + regression refusing packet placement. Comment on #87 points here as supersession-by-placement.
+- Default home: [main #93](https://github.com/d6g8k5htny-coder/main/pull/93) — surface the crosswalk / Math- #7 draft from default `main`.
+
+Cross-repo PR comment from this governance-only App token was unavailable at first recording; the sibling agent posted the #87 comment and opened #92/#93.
 
 ## 2. Math- #7 review challenges (mesoscopic reduction)
 
