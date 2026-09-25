@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:56:04Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 tip 47ad537: peer F2 fail-closed + tip migration (5840201275). OA A/B (owner-seed reverse; malformed≠absent) not claimed in that comment — still open on author lane. OFFER OA re-review of F2 surface; #90 OPEN. Updated 2026-09-25T21:56:04Z.",
+  "updated_at": "2026-09-25T21:57:00Z",
+  "notes": "Compact ledger. Sci effect NONE. OA F2 recon (5840204252): Q0 embedded theorem 8c2ded65… / D1 frozen body 490ad6b2… reconstructible from Drive; GitHub CI still needs byte-exact mirrors. Tip 47ad537 migration must align hashes. Updated 2026-09-25T21:57:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "47ad537d0858dea1da668c5ee82eb1851ac5cff6"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:56:04Z",
+      "heartbeat_at": "2026-09-25T21:57:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 47ad537 DRAFT; F2 fail-closed+migration posted; OA A/B (owner-seed/malformed-schema) not yet claimed fixed; await peer remainder or OA re-review; #90 OPEN"
+      "blocked_reason": "ACTIVE tip 47ad537 DRAFT; OA carrier recon posted; verify mirror bytes vs 8c2ded65…/490ad6b2…; A/B still open; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1499,7 +1499,7 @@
         "head_oid": "47ad537d0858dea1da668c5ee82eb1851ac5cff6"
       },
       "claimed_at": "2026-09-25T21:47:00Z",
-      "heartbeat_at": "2026-09-25T21:56:04Z",
+      "heartbeat_at": "2026-09-25T21:57:00Z",
       "expires_at": "2026-09-26T22:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -1512,10 +1512,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840161580",
         "https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840201275"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840201275",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840204252"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "ACTIVE peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5: F2/D+C portion landed @ 47ad537 (5840201275); A (owner-seed before reverse) + B (malformed≠absent) still required by 5840160837/5840124179 — await tip move or explicit claim"
+      "blocked_reason": "ACTIVE peer F2 @ 47ad537; OA recon pins Q0 body 8c2ded65… + D1 frozen 490ad6b2…; align in-repo mirrors to those digests OR external-HOLD; A/B still open; Drive id alone ≠ CI observability"
     },
     {
       "work_id": "trial-131-pr98-combined-rereview",

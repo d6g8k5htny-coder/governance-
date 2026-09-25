@@ -105,3 +105,15 @@ Peer author ([5840201275](https://github.com/d6g8k5htny-coder/main/pull/98#issue
 - Addresses primarily [5840102914](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914) / assignment items C–D.
 
 **Not claimed in that post:** A (owner-seed before reverse / F1 bypass) and B (malformed historical schema ≠ absent) from [5840124179](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179) / [5840160837](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837). Lease remains ACTIVE for peer remainder. OA re-review of F2 surface **OFFERED**. Keep DRAFT; #90 OPEN; sci effect NONE.
+
+
+## OA F2 carrier recon (2026-09-25T21:56Z)
+
+Read-only Drive inspection ([5840204252](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840204252)):
+
+| Node | Carrier | Extracted identity |
+|---|---|---|
+| `Q0-C101-QUALITATIVE-RATE` | Drive `Q0_MASTER.md` (`19nO3CU8…`) | embedded theorem 3957 B SHA256 `8c2ded652973…dab0706bc` |
+| `D1-v2.2(1)` | Drive `D1_ASSEMBLY_v2_2.md` (`1v4z492i…`) | frozen body 18311 B SHA256 `490ad6b2f141…749b235f6` |
+
+Neither file is currently observable via GitHub CI without a byte-exact repo mirror (or explicit external frozen-digest + HOLD). Tip `47ad537` already noted Drive `490ad6b2…` ≠ current D1 mirror tip — **align or HOLD**. Sci effect NONE.
