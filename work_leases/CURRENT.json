@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T23:57:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #18 routing: SMT MATCH already done; OA redirects peer to D6 analytic parent slices — Cursor D6 AMEND F10 already on governance- (amendments/20260925-math18-d6-analytic-review.md). Peer may re-verify; do not race duplicate. Updated 2026-09-25T23:57:30Z.",
+  "updated_at": "2026-09-25T23:58:49Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #9 CLOSED UNMERGED — SUPERSEDED BLOCKED INPUT (5841262266): PROOF still falsified six-pin leading rows; jets≠repair. Consume merged #19/#21/#22/#28. Updated 2026-09-25T23:58:49Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -87,15 +87,15 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "cursor/rn-mesoscopic-chart-j0-91fa",
         "pr": 9,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
         "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
-        "oid": "7665b82cfbc964c5917340b2dafd9a91377aed7d"
+        "oid": "e65fb1f63475773a8d4416b06b00247715cbc87c"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T23:56:32Z",
+      "heartbeat_at": "2026-09-25T23:58:49Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "BLOCKED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -114,10 +114,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36182105947",
         "https://github.com/d6g8k5htny-coder/Math-/pull/20#issuecomment-5838927456",
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5840255614"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5840255614",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5841262266"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip 7665b82 tetratetracontic AP jets (n=44); jets≠repair; consume #19 first"
+      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED BLOCKED INPUT (5841262266): PROOF still f_x/(J_grad) without y1^2-1/4; six-pin counterexample stands; do not consume formulas/fingerprints; future work starts from merged #19 finite-r"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",

@@ -37,7 +37,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `7665b82…`; **STOP/REPAIR**; tetratetracontic jets (n=44); jets≠repair |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | **CLOSED UNMERGED** SUPERSEDED BLOCKED INPUT (5841262266); falsified six-pin leading rows; do not consume |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
@@ -59,6 +59,7 @@
 | PR | Note |
 |---|---|
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | SUPERSEDED/BLOCKED INPUT — mapped known-bad #9 fingerprints; successor only after six-pin repair |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | CLOSED UNMERGED SUPERSEDED BLOCKED INPUT — falsified leading pins; jets≠repair (5841262266) |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | SUPERSEDED/BLOCKED INPUT — closed unmerged after #19/#21 land; history preserved |
 | Math- [#37](https://github.com/d6g8k5htny-coder/Math-/pull/37) | Section9 Borel repair MERGED @ `694b7ff…`; xAI C1–C6 ACCEPT (scoped) |
 | Math- [#47](https://github.com/d6g8k5htny-coder/Math-/pull/47) | CLOSED UNMERGED duplicate of #37 |
