@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:27:29Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #28 BRIDGE @ dedc69e: Cursor R3–R4–R7 ACCEPT, R6 AMEND (AAL Thm 7.1 cite). #22 STITCH 2804dc1 separate (also R6 AMEND). Updated 2026-09-25T21:26:34Z.",
+  "updated_at": "2026-09-25T21:28:23Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #19 e93eade and #21 b420099 MERGED (deterministic finite-r + inner-axial density packages). Cursor R1–R6 / (2)–(8) ACCEPT remain eng/math notes — merge ≠ theorem acceptance / register flip. Updated 2026-09-25T21:28:05Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -623,17 +623,15 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-finite-r-hermite-repair-20260925",
         "pr": 19,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "e93eade078cac2e8b14aa39d402a3043b7cdb1c7"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T20:52:00Z",
+      "heartbeat_at": "2026-09-25T21:28:23Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
-      "write_scope": [
-        "reviews/d5_finite_r_hermite_repair_20260925/"
-      ],
+      "state": "RELEASED",
+      "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
@@ -648,7 +646,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839294562"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT; C6 follow-through delivered @ e93eade; Cursor outside math review ACCEPT R1–R6 filed on governance- amendments/20260925-math19-finite-r-review.md — App cannot comment Math-; sci effect NONE; does not self-merge or flip registers; eng replay ≠ theorem"
+      "blocked_reason": "RELEASED/MERGED PR @ e93eade (merge f11e4c7); Cursor R1–R6 ACCEPT on governance-; sci effect NONE — package landed, not theorem acceptance"
     },
     {
       "work_id": "math-16-transverse-review-offer",
@@ -930,12 +928,12 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-finite-r-hermite-repair-20260925",
         "pr": 19,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "e93eade078cac2e8b14aa39d402a3043b7cdb1c7"
       },
       "claimed_at": "2026-09-25T20:48:00Z",
-      "heartbeat_at": "2026-09-25T20:52:00Z",
+      "heartbeat_at": "2026-09-25T21:28:05Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -947,7 +945,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math19-finite-r-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: R1–R6 / M1–M7 / S1–S4 ACCEPT at e93eade filed on governance- amendments/20260925-math19-finite-r-review.md; App cannot comment Math- — mirror if needed; sci effect NONE; not density/theorem acceptance"
+      "blocked_reason": "RELEASED: review ACCEPT filed before merge; tip merge does not flip scientific status"
     },
     {
       "work_id": "math-18-smt-translation-review",
@@ -1021,18 +1019,15 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-inner-axial-density-20260925",
         "pr": 21,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "b420099b2440da3a8ba62f7000feacc9fc88069b"
       },
       "claimed_at": "2026-09-25T20:25:04Z",
-      "heartbeat_at": "2026-09-25T20:56:30Z",
+      "heartbeat_at": "2026-09-25T21:28:23Z",
       "expires_at": "2026-09-26T20:00:00Z",
-      "state": "ACTIVE",
-      "write_scope": [
-        "frontiers/axial_density_20260925/",
-        ".github/workflows/axial-density-review.yml"
-      ],
+      "state": "RELEASED",
+      "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
@@ -1043,7 +1038,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Isolated branch from Math main; will not edit #9/#19 fingerprints/claim graph/Vault99",
-      "blocked_reason": "DRAFT AUTHOR-SIDE; hosted replay green ≠ theorem; Cursor outside math review ACCEPT (2)–(8) filed on governance- amendments/20260925-math21-axial-density-review.md; sci effect NONE; no weighted count / remaining-belt / RN-24-jet status change; do not race write_scope"
+      "blocked_reason": "RELEASED/MERGED PR @ b420099 (merge c3cee9b); Cursor (2)–(8) ACCEPT on governance-; sci effect NONE — inner axial package landed, not RN closure"
     },
     {
       "work_id": "math-22-thin-tube-density",
@@ -1154,12 +1149,12 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-inner-axial-density-20260925",
         "pr": 21,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "b420099b2440da3a8ba62f7000feacc9fc88069b"
       },
       "claimed_at": "2026-09-25T20:50:00Z",
-      "heartbeat_at": "2026-09-25T20:52:00Z",
+      "heartbeat_at": "2026-09-25T21:28:05Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1170,7 +1165,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math21-axial-density-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: (2)–(8) ACCEPT at b420099 filed on governance- amendments/20260925-math21-axial-density-review.md; App cannot comment Math-; sci effect NONE; inner axial belt only; not full thin-belt/count"
+      "blocked_reason": "RELEASED: (2)–(8) ACCEPT filed before merge; merge ≠ theorem acceptance"
     },
     {
       "work_id": "main-98-openai-f1-repair",

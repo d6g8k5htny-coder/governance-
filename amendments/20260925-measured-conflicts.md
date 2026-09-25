@@ -16,6 +16,8 @@
 | RN_SIDE24_CELL errata E1 pointer (nav only) | main [#109](https://github.com/d6g8k5htny-coder/main/pull/109) → hardening tip `fcad723…` |
 | CONTRIBUTION_PLAN stale next-items retired (LPW REFUTED via lpw README) | main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) → hardening tip `e3cd7d4…` |
 | Hard gate + own-node + REFUTED HOLD | Math- [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8)+[#11](https://github.com/d6g8k5htny-coder/Math-/pull/11)+[#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) @ `baca69c…` |
+| Finite-r Hermite repair (deterministic C6; sci effect NONE) | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` merged |
+| Inner axial density candidate package (sci effect NONE; not theorem) | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) @ `b420099…` merged |
 | Transition-integrity eng package (sci effect NONE; not theorem acceptance) | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) @ `8c4c946…` merged |
 
 ## Process rules proven
@@ -43,8 +45,8 @@
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` all-height annulus BRIDGE; **Cursor R6 AMEND** / R3–R4–R7 ACCEPT (`amendments/20260925-math28-annulus-bridge-review.md`); separate from #22 STITCH |
 | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `2804dc1…` FIXED_ANNULUS stitch additive; core/two-scale = `b2e1652…`; **Cursor R6 AMEND** (AAL Thm 7.1 cite) / R1–R5+R7–R8 ACCEPT (`amendments/20260925-math22-fixed-annulus-review.md`); height-windowed only |
-| Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` AUTHOR-SIDE; hosted replay green ≠ theorem; **Cursor (2)–(8) ACCEPT** (`amendments/20260925-math21-axial-density-review.md`); inner axial belt only; do not race |
-| Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` C6 follow-through; **Cursor R1–R6 ACCEPT** (`amendments/20260925-math19-finite-r-review.md`); bind this head not `ee8629f`; sci effect NONE; #22 tube lane separate |
+| Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` **MERGED**; Cursor (2)–(8) ACCEPT on governance-; inner axial only; merge ≠ RN closure |
+| Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` **MERGED**; Cursor R1–R6 ACCEPT on governance-; merge ≠ theorem acceptance; sci effect NONE |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; **Cursor R1–R5 ACCEPT** (`amendments/20260925-math16-transverse-review.md`); fixed-η transverse count only — **not** PR9 acceptance; do not race |
 | Outside reviews (#15/#16/#18/#19/#21/#22) | #15 eng ACCEPT; #16 R1–R5 ACCEPT; #18 MATCH×7; #19 R1–R6 ACCEPT; #21 (2)–(8) ACCEPT; #22 R1–R8+S ACCEPT — all on governance-; #98 AMEND_REQUIRED on main author lane |
