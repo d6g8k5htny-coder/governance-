@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T23:47:43Z",
+  "updated_at": "2026-09-25T23:51:39Z",
   "notes": "Compact ledger. Sci effect NONE. OA E re-review @ cc6a578: AMEND_REQUIRED E6 (coverage_repair can mask simultaneous semantic claim change). Repair OFFERED to main author peer. #90 OPEN. Updated 2026-09-25T23:47:43Z.",
   "leases": [
     {
@@ -88,10 +88,10 @@
         "pr_state": "open",
         "issue": null,
         "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
-        "oid": "2e1a6af72046c38f042b0490bc6fd0ce8fd147e4"
+        "oid": "e65fb1f63475773a8d4416b06b00247715cbc87c"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T23:46:41Z",
+      "heartbeat_at": "2026-09-25T23:51:39Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [],
@@ -115,7 +115,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5840255614"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip 2e1a6af dotetracontic jet enumeration; jets≠repair; consume #19 first"
+      "blocked_reason": "STOP/REPAIR: tip e65fb1f tritetracontic AO jet enumeration (n=43); jets≠repair; consume #19 first"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
