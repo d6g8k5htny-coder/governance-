@@ -28,7 +28,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `6e50d98…`; **CONFLICTING**; **replay green**; axial compensation density still open per OpenAI review |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `fb5bd52…`; **CONFLICTING**; **replay green**; axial compensation density still open per OpenAI review |
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `6df5444…`; successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12); **replay green** (×2) |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; **replay FAIL** until SOURCE_FILES regenerated |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
