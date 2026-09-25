@@ -163,3 +163,8 @@ Interpret as eng CI / tip-compare behavior for author+OA; not a scientific statu
 ## Tip `cc6a578` — CI repair after E (2026-09-25T22:49Z)
 
 Peer ([5840690084](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840690084)): head `cc6a578b26f14a16025f4c955fe5efdd65890b1f`. Push-event Claims→gate fail on `22d9976` was same-carrier E binding precision upgrade tripping F1 retained-controlling; fix treats that as `coverage_repair` when path+carrier unchanged and object hash validated. Body drift still refuses. Hosted CI queued `36198204473`. **OA re-review OFFERED** on this tip. Keep DRAFT; #90 OPEN; sci effect NONE.
+
+
+## Hosted verify GREEN on `cc6a578` (2026-09-25T23:05Z)
+
+Runs [`36198204473`](https://github.com/d6g8k5htny-coder/main/actions/runs/36198204473) and [`36198208817`](https://github.com/d6g8k5htny-coder/main/actions/runs/36198208817) **pass**. OA re-review of E+coverage_repair tip still **OFFERED**. Keep DRAFT; #90 OPEN; sci effect NONE.
