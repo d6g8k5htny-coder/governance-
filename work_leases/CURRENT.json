@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:53:10Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #18 formal-translation re-review assigned to peer bc-075f842d-5f23-484f-988c-96674fe5cb98 (5840171283); tip 0ae7e8f unchanged — Cursor MATCH×7 already on governance-; this lane does not race. Updated 2026-09-25T21:53:10Z.",
+  "updated_at": "2026-09-25T21:56:04Z",
+  "notes": "Compact ledger. Sci effect NONE. main #98 tip 47ad537: peer F2 fail-closed + tip migration (5840201275). OA A/B (owner-seed reverse; malformed≠absent) not claimed in that comment — still open on author lane. OFFER OA re-review of F2 surface; #90 OPEN. Updated 2026-09-25T21:56:04Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -18,10 +18,10 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
+        "head_oid": "47ad537d0858dea1da668c5ee82eb1851ac5cff6"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:51:56Z",
+      "heartbeat_at": "2026-09-25T21:56:04Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 6e3f774 DRAFT; peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 owns bounded A–D repair; await new exact head; #90 OPEN; this governance- lane does not edit main"
+      "blocked_reason": "ACTIVE tip 47ad537 DRAFT; F2 fail-closed+migration posted; OA A/B (owner-seed/malformed-schema) not yet claimed fixed; await peer remainder or OA re-review; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1496,10 +1496,10 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
+        "head_oid": "47ad537d0858dea1da668c5ee82eb1851ac5cff6"
       },
       "claimed_at": "2026-09-25T21:47:00Z",
-      "heartbeat_at": "2026-09-25T21:51:56Z",
+      "heartbeat_at": "2026-09-25T21:56:04Z",
       "expires_at": "2026-09-26T22:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -1511,10 +1511,11 @@
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36193241784",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840161580",
-        "https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5"
+        "https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840201275"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "ACTIVE peer author bc-01a0d95b-e593-75f4-a1b1-d440961231c5: bounded A–D repair (owner-seed/malformed-schema/cross-repo/controlling observability) on 6e3f774; this App watches only — no race"
+      "blocked_reason": "ACTIVE peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5: F2/D+C portion landed @ 47ad537 (5840201275); A (owner-seed before reverse) + B (malformed≠absent) still required by 5840160837/5840124179 — await tip move or explicit claim"
     },
     {
       "work_id": "trial-131-pr98-combined-rereview",
@@ -1581,6 +1582,37 @@
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE peer bc-075f842d-5f23-484f-988c-96674fe5cb98; prior governance- MATCH×7 at same tip stands; this App does not race second review"
+    },
+    {
+      "work_id": "main-98-openai-rereview-47ad537",
+      "scope": "OpenAI re-review of tip 47ad537 F2 fail-closed+migration; note A/B may still be open",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "47ad537d0858dea1da668c5ee82eb1851ac5cff6"
+      },
+      "claimed_at": "2026-09-25T21:56:04Z",
+      "heartbeat_at": "2026-09-25T21:56:04Z",
+      "expires_at": "2026-09-26T22:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840201275",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED OA re-review of F2 surface @ 47ad537; full A–D close needs A/B tip claim"
     }
   ]
 }

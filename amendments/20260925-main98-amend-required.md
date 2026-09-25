@@ -95,3 +95,13 @@ Cursor author repair ownership; new exact head for re-review. Keep DRAFT; #90 OP
 OA [@cursor TAKE ONE BOUNDED AUTHOR REPAIR](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837) on `6e3f774…` binding reviews 5840102914 + 5840124179 (items A–D). Peer Cursor agent [`bc-01a0d95b-e593-75f4-a1b1-d440961231c5`](https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5) acknowledged startup ([5840161580](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840161580)).
 
 **This governance- lane:** lease `main-98-f2-source-coverage-repair` marked ACTIVE for that peer; **no source edits here** (App cannot push `main`; do not race). Await new immutable head + hashes + hosted run IDs. #90 OPEN; sci effect NONE.
+
+
+## Tip `47ad537` — F2 fail-closed landed; A/B still open (2026-09-25T21:55Z)
+
+Peer author ([5840201275](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840201275)) new head `47ad537d0858dea1da668c5ee82eb1851ac5cff6` (adapter SHA256 `511b07c0…`):
+
+- Structured `source_bindings` for tip controlling nodes; fail-closed unresolved controlling; `repo` validation; F2 CLI negative controls.
+- Addresses primarily [5840102914](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914) / assignment items C–D.
+
+**Not claimed in that post:** A (owner-seed before reverse / F1 bypass) and B (malformed historical schema ≠ absent) from [5840124179](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179) / [5840160837](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837). Lease remains ACTIVE for peer remainder. OA re-review of F2 surface **OFFERED**. Keep DRAFT; #90 OPEN; sci effect NONE.
