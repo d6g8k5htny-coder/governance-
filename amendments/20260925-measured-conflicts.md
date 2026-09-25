@@ -32,8 +32,8 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `8b30cfb…` (dodecic jets); **CONFLICTING**; **STOP/REPAIR** still open — leading finite-r pin rows unshifted; high jets ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` only after distinct-lane check |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `92f1961…`; re-maps #9 `8b30cfb…` into D5 gate; **BLOCKED INPUT** same pattern as closed #14 — unrepaired pins + write-scope overlap with eng-approved [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) gate tree |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `8b30cfb…` (dodecic); **CONFLICTING**; **STOP/REPAIR** + OpenAI revalidation — unshifted `6k y1^2` still present; jets ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` after distinct-lane check |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `92f1961…`; **SOURCE REVALIDATION BLOCK** (5838927456): mapped #9 still has falsified unshifted `6k y1^2` / height rows — PR17/PR19 apply; jets ≠ repair; need AMEND provenance not fingerprint sync; overlaps [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; Cursor eng **ACCEPT** (V1–V5) filed in `amendments/20260925-math15-eng-review.md` (Math- comment blocked by App write); sci effect NONE; #90/#98 separate |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; **do not build next J0/Hessian ledger** from current finite-r Hermite until #9 pins repaired (comment 5838564395) |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | `0ae7e8f…`; P15 SMT pilot green; translation audit + H5/H6 probe in trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) @ `391f6a8…` (main issue [#113](https://github.com/d6g8k5htny-coder/main/issues/113)); same-provider ≠ acceptance; owner: **optional diagnostic only** (no platform); keep DRAFT |
