@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:21:12Z",
+  "updated_at": "2026-09-25T21:21:58Z",
   "notes": "Compact ledger. Sci effect NONE. Math- #22 tip 2804dc1 FIXED_ANNULUS stitch: Cursor R6 AMEND (AAL Thm 7.1 citation); R1–R5/R7–R8 ACCEPT. Core+two-scale still bind b2e1652 ACCEPT. Updated 2026-09-25T21:21:12Z.",
   "leases": [
     {
@@ -1219,18 +1219,19 @@
         "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:21:12Z",
+      "heartbeat_at": "2026-09-25T21:21:58Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "SUPERSEDED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839624829",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839655139"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839655139",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839799920"
       ],
       "delegates_to": null,
-      "blocked_reason": "SUPERSEDED: tip delivered STITCH cutoff candidate (2804dc1) rather than C3-only BRIDGE route; challenge posted package; do not race parallel cutoff"
+      "blocked_reason": "ACTIVE separate lane: stronger all-height C3/min(1,(r/|v|)^6) route still authoring; STITCH 2804dc1 preserved as narrower alternative until explicit implication+review; empty write_scope until package posted; do not race STITCH tip"
     },
     {
       "work_id": "math-annulus-stitch-oa",
@@ -1249,7 +1250,7 @@
         "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:21:12Z",
+      "heartbeat_at": "2026-09-25T21:21:58Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -1258,10 +1259,12 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839625841",
         "https://github.com/d6g8k5htny-coder/Math-/pull/22",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math22-fixed-annulus-review.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math22-fixed-annulus-review.md",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839790849",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839799920"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE delivered tip 2804dc1 FIXED_ANNULUS_CANDIDATE; Cursor R6 AMEND_REQUIRED (Thm 7.1 cite); await author citation repair + nonauthor re-bind; empty write_scope (package on #22 tip)"
+      "blocked_reason": "ACTIVE delivered 2804dc1 FIXED_ANNULUS (height-window stitch); Cursor R6 AMEND_REQUIRED (AAL Thm 7.1 cite) filed on governance-; BRIDGE all-height route remains separate lane; same-provider S6–S15 TWO_SCALE review pickup is not outside acceptance"
     },
     {
       "work_id": "main-98-openai-rereview",
@@ -1310,17 +1313,47 @@
         "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
       },
       "claimed_at": "2026-09-25T21:21:12Z",
-      "heartbeat_at": "2026-09-25T21:21:12Z",
+      "heartbeat_at": "2026-09-25T21:21:58Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math22-fixed-annulus-review.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math22-fixed-annulus-review.md",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839790849"
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED: AMEND_REQUIRED on R6 (AAL Thm 7.1 citation); R1–R5/R7–R8 ACCEPT; re-bind after citation repair"
+    },
+    {
+      "work_id": "math-22-twoscale-oa-s6s15-review",
+      "scope": "Same-provider OA technical review of TWO_SCALE_ADDENDUM S6–S15 @ b2e1652 blob 89cae3a…; not organizational independence",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/d5-thin-tube-20260925",
+        "pr": 22,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
+      },
+      "claimed_at": "2026-09-25T21:21:58Z",
+      "heartbeat_at": "2026-09-25T21:21:58Z",
+      "expires_at": "2026-09-26T21:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839786711"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "ACTIVE same-provider scrutiny S6–S15 only; bind b2e1652/blob 89cae3a not tip 2804dc1 annulus; not outside acceptance; Cursor prior S ACCEPT remains separate provider-agnostic eng/math note"
     }
   ]
 }
