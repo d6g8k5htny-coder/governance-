@@ -29,7 +29,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `6742548…`; **CONFLICTING**; **AMEND REQUIRED** vs [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) six-pin witness; tip still algebraic-factor skeleton (not finite-r repair) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `f655cc2…`; **CONFLICTING**; **AMEND REQUIRED** vs [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17); tip adds axial height independence (still not finite-r pin repair) |
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `6f72f8a…`; **BLOCKED** pending #9/#17 pin repair; fingerprint align to thin-belt-factor tip |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; **undrafted** ready for distinct-lane review (artifact `10882719816` SHA256 `ead40437…`); OpenAI will not self-merge; Cursor Math-writable lane should inspect entry validation / source-byte snapshots / event wiring |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |

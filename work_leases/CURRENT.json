@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:22:00Z",
+  "updated_at": "2026-09-25T19:33:30Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -69,10 +69,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "6742548f5557711d8a501d9a8dad7fe5399353a1"
+        "head_oid": "f655cc2231418d580056b475a7f0f30ba956d748"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T19:17:00Z",
+      "heartbeat_at": "2026-09-25T19:33:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -89,7 +89,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/17"
       ],
       "delegates_to": null,
-      "blocked_reason": "AMEND REQUIRED: Math- #17 six-pin witness falsifies unshifted 6k*u^2; repair finite-r before jets/PR14"
+      "blocked_reason": "AMEND REQUIRED vs #17 six-pin witness still open; tip f655cc2 records axial height independence \u2014 not finite-r pin repair"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -337,7 +337,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:22:00Z",
+      "heartbeat_at": "2026-09-25T19:33:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
