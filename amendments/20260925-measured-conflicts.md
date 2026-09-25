@@ -34,7 +34,7 @@
 | PR | Tip / note |
 |---|---|
 | Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `3242d1f…` (Enumerate pin-site tridecic contact jets G_*_next); **CONFLICTING**; **STOP/REPAIR** + revalidation — unshifted `6k y1^2` still present; jets ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) after distinct-lane check |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `6a41ea9…`; remaps #9 `3242d1f…`; **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply; jets ≠ repair; overlaps [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `a311928…`; remaps #9 `3242d1f…`; **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply; jets ≠ repair; overlaps [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | `0ae7e8f…`; P15 SMT pilot green; translation audit + H5/H6 probe in trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) @ `391f6a8…` (main issue [#113](https://github.com/d6g8k5htny-coder/main/issues/113)); same-provider ≠ acceptance; owner: **optional diagnostic only** (no platform); **CI green** @ `391f6a8…`; keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `776fdb75…`; `/tmp` report fix; **ALL CI green**; keep DRAFT pending OpenAI event-report readback; #90 OPEN; eng≠discharge |
