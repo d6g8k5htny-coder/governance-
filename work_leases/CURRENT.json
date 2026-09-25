@@ -1,0 +1,314 @@
+{
+  "schema": "governance.work-leases/v1",
+  "scientific_authority": false,
+  "updated_at": "2026-09-25T18:29:35Z",
+  "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE.",
+  "leases": [
+    {
+      "work_id": "main-98-claims-gate-adapter",
+      "scope": "Thin claims_gate_adapter + scientific-state schema pilot (#95/#90 loss-only cases); promotion_permission false",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "044928047dc330724bd7829744d7898dee2cada5"
+      },
+      "claimed_at": "2026-09-25T18:00:00Z",
+      "heartbeat_at": "2026-09-25T18:29:00Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "architecture/scientific_state/",
+        "tools/claims_gate_adapter.py",
+        "tools/scientific_state_check.py",
+        "tools/semantic_digest.py",
+        "tools/closure_pipeline.py",
+        "tools/run_checks.py",
+        "tests/test_claims_gate_adapter.py",
+        "tests/test_scientific_state.py",
+        "tests/test_semantic_digest.py",
+        "engine/bridge/work_order.py",
+        ".github/workflows/ci.yml"
+      ],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837182021",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837267538"
+      ],
+      "delegates_to": null,
+      "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip"
+    },
+    {
+      "work_id": "math-9-mesoscopic-chart-j0",
+      "scope": "RN mesoscopic chart J0 algebra / boundary / thin-belt; author-side only; axial compensation density still open",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/rn-mesoscopic-chart-j0-91fa",
+        "pr": 9,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "8b615b1c767e476ba04ca46134c7bc4cf976bf38"
+      },
+      "claimed_at": "2026-09-25T16:00:00Z",
+      "heartbeat_at": "2026-09-25T18:28:59Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "frontiers/mesoscopic_chart_j0_20260925/"
+      ],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5837281473"
+      ],
+      "delegates_to": null
+    },
+    {
+      "work_id": "math-14-chart-j0-gate-map",
+      "scope": "Map PR9 chart-J0 fingerprint into post-PR13 D5 hard gate; do not expand PR7",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/d5-chart-j0-on-hotfix-91fa",
+        "pr": 14,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "1fd5ead1b8cb0678b5f3d3d58fec4da706d82c63"
+      },
+      "claimed_at": "2026-09-25T17:55:00Z",
+      "heartbeat_at": "2026-09-25T18:26:13Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "frontiers/downstream_gate_20260925/GRAPH.json",
+        "frontiers/downstream_gate_20260925/RESULTS.json",
+        "frontiers/downstream_gate_20260925/SOURCE_FILES.json"
+      ],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/14"
+      ],
+      "delegates_to": "math-9-mesoscopic-chart-j0"
+    },
+    {
+      "work_id": "math-15-transition-integrity",
+      "scope": "Fail-closed edge-only / complete-record dependency transitions; SOURCE_FILES regen required",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/transition-integrity-v2-20260925",
+        "pr": 15,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "7eb4afe0d02518aa5adb832d125f1319a686c59e"
+      },
+      "claimed_at": "2026-09-25T18:11:00Z",
+      "heartbeat_at": "2026-09-25T18:14:52Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "BLOCKED",
+      "write_scope": [
+        "frontiers/downstream_gate_20260925/hard_gate.py",
+        "frontiers/downstream_gate_20260925/test_hard_gate.py"
+      ],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36171889414"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "replay FAIL: source identity mismatches hard_gate.py,test_hard_gate.py until SOURCE_FILES regenerated"
+    },
+    {
+      "work_id": "main-95-formal-lemma-pilot",
+      "scope": "Formal-lemma / certified-statement pilot under #95; separate from #98 adapter land",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": null,
+        "pr": null,
+        "pr_state": null,
+        "issue": 95,
+        "head_oid": null
+      },
+      "claimed_at": "2026-09-25T17:00:00Z",
+      "heartbeat_at": "2026-09-25T17:00:00Z",
+      "expires_at": "2026-09-26T17:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [
+        "architecture/scientific_state/formal/"
+      ],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [],
+      "delegates_to": null
+    },
+    {
+      "work_id": "lane-d1-offer",
+      "scope": "D1 inventable / dependency work — unclaimed offer",
+      "owner": {"provider": null, "model": null, "agent": null},
+      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "claimed_at": "2026-09-25T18:00:00Z",
+      "heartbeat_at": "2026-09-25T18:00:00Z",
+      "expires_at": "2026-09-26T18:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D1",
+      "scientific_authority": false,
+      "evidence": [],
+      "delegates_to": null
+    },
+    {
+      "work_id": "lane-d2-offer",
+      "scope": "D2 inventable / dependency work — unclaimed offer",
+      "owner": {"provider": null, "model": null, "agent": null},
+      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "claimed_at": "2026-09-25T18:00:00Z",
+      "heartbeat_at": "2026-09-25T18:00:00Z",
+      "expires_at": "2026-09-26T18:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D2",
+      "scientific_authority": false,
+      "evidence": [],
+      "delegates_to": null
+    },
+    {
+      "work_id": "lane-d3-offer",
+      "scope": "D3 inventable / dependency work — unclaimed offer",
+      "owner": {"provider": null, "model": null, "agent": null},
+      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "claimed_at": "2026-09-25T18:00:00Z",
+      "heartbeat_at": "2026-09-25T18:00:00Z",
+      "expires_at": "2026-09-26T18:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D3",
+      "scientific_authority": false,
+      "evidence": [],
+      "delegates_to": null
+    },
+    {
+      "work_id": "lane-d4-offer",
+      "scope": "D4 inventable / dependency work — unclaimed offer",
+      "owner": {"provider": null, "model": null, "agent": null},
+      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "claimed_at": "2026-09-25T18:00:00Z",
+      "heartbeat_at": "2026-09-25T18:00:00Z",
+      "expires_at": "2026-09-26T18:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D4",
+      "scientific_authority": false,
+      "evidence": [],
+      "delegates_to": null
+    },
+    {
+      "work_id": "lane-d6-offer",
+      "scope": "D6 inventable / dependency work — unclaimed offer",
+      "owner": {"provider": null, "model": null, "agent": null},
+      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "claimed_at": "2026-09-25T18:00:00Z",
+      "heartbeat_at": "2026-09-25T18:00:00Z",
+      "expires_at": "2026-09-26T18:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D6",
+      "scientific_authority": false,
+      "evidence": [],
+      "delegates_to": null
+    },
+    {
+      "work_id": "gov-3-process-amendments",
+      "scope": "governance- process amendments, measured conflicts, work-lease ledger",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/governance-",
+        "branch": "cursor/process-packet-scope-ab08",
+        "pr": 3,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "2268490bd55850029bffe02b865bc969a3dca166"
+      },
+      "claimed_at": "2026-09-25T16:20:00Z",
+      "heartbeat_at": "2026-09-25T18:29:35Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "README.md",
+        "AGENTS.md",
+        "amendments/",
+        "work_leases/"
+      ],
+      "dependency_lane": "GOV",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/governance-/pull/3",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/3#issuecomment-5837167455"
+      ],
+      "delegates_to": null
+    },
+    {
+      "work_id": "gov-4-review-topology",
+      "scope": "REVIEW_TOPOLOGY.md two-key policy (OpenAI-authored; distinct-lane review requested)",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/governance-",
+        "branch": null,
+        "pr": 4,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80"
+      },
+      "claimed_at": "2026-09-25T18:10:00Z",
+      "heartbeat_at": "2026-09-25T18:10:51Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "REVIEW_TOPOLOGY.md"
+      ],
+      "dependency_lane": "GOV",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/governance-/pull/4"
+      ],
+      "delegates_to": null
+    }
+  ]
+}

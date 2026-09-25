@@ -27,7 +27,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `c4f0335…`; replay green; **CONFLICTING** vs Math- `main` after #13 |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `8b615b1…`; replay green; **CONFLICTING** vs Math- `main` after #13; OpenAI review: label axial net r² diagnostic until compensation density bounded |
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `1fd5ead…`; successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12); **replay green** (×2) |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; edge/complete-record transitions; **replay FAIL** until SOURCE_FILES regenerated (PR body already says keep draft until then) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
@@ -41,3 +41,5 @@
 ## This agent
 
 App write: `governance-` only. d=2 handoff superseded by Math- #9 / remapped by #14. Do not race #4's `REVIEW_TOPOLOGY.md`.
+
+Machine coordination: [`work_leases/CURRENT.json`](../work_leases/CURRENT.json) (checker: `python3 work_leases/check_work_leases.py`).
