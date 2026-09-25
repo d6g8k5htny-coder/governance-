@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T18:38:40Z",
+  "updated_at": "2026-09-25T18:42:30Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE.",
   "leases": [
     {
@@ -21,7 +21,7 @@
         "head_oid": "044928047dc330724bd7829744d7898dee2cada5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T18:35:00Z",
+      "heartbeat_at": "2026-09-25T18:42:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -43,7 +43,8 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837182021",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837267538",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837281996"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837281996",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36172226452"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip"
@@ -62,10 +63,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "3af4ac35d081c05a1d476d68a88da406a974f0da"
+        "head_oid": "e02f48571049149ca2eafe00e9c16bc189dba49c"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T18:38:40Z",
+      "heartbeat_at": "2026-09-25T18:42:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -93,10 +94,10 @@
         "pr": 14,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "65f0d81d00fcfc129a19406bf90dd25b0013052e"
+        "head_oid": "f5b046fb77c3ae5dd7936a1715d14b60c9709ef4"
       },
       "claimed_at": "2026-09-25T17:55:00Z",
-      "heartbeat_at": "2026-09-25T18:38:40Z",
+      "heartbeat_at": "2026-09-25T18:42:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -319,7 +320,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T18:38:40Z",
+      "heartbeat_at": "2026-09-25T18:42:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
