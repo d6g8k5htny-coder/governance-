@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:26:34Z",
+  "updated_at": "2026-09-25T21:27:14Z",
   "notes": "Compact ledger. Sci effect NONE. Math- #28 BRIDGE @ dedc69e: Cursor R3–R4–R7 ACCEPT, R6 AMEND (AAL Thm 7.1 cite). #22 STITCH 2804dc1 separate (also R6 AMEND). Updated 2026-09-25T21:26:34Z.",
   "leases": [
     {
@@ -1346,17 +1346,18 @@
         "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
       },
       "claimed_at": "2026-09-25T21:21:58Z",
-      "heartbeat_at": "2026-09-25T21:21:58Z",
+      "heartbeat_at": "2026-09-25T21:27:14Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839786711"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839786711",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839845752"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE same-provider scrutiny S6–S15 only; bind b2e1652/blob 89cae3a not tip 2804dc1 annulus; not outside acceptance; Cursor prior S ACCEPT remains separate provider-agnostic eng/math note"
+      "blocked_reason": "RELEASED same-provider MATCH on S6–S15 @ b2e1652/blob 89cae3a (Drive review 8661B); no org-independence credit; S16–S21 + FIXED_ANNULUS not accepted by this review; PR27 assigned S6–S21 / PR26 assigned fixed-annulus stitch — do not race"
     },
     {
       "work_id": "math-28-annulus-bridge-review",
@@ -1386,6 +1387,64 @@
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED: AMEND_REQUIRED R6 (AAL Thm 7.1); R3/R4/R7 ACCEPT on C3/min and crossover; re-bind after citation repair"
+    },
+    {
+      "work_id": "math-26-fixed-annulus-review-offer",
+      "scope": "Assigned nonauthor review of #22 FIXED_ANNULUS stitch @ 2804dc1; retain pending two-scale imports",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/d5-thin-tube-20260925",
+        "pr": 26,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
+      },
+      "claimed_at": "2026-09-25T21:27:14Z",
+      "heartbeat_at": "2026-09-25T21:27:14Z",
+      "expires_at": "2026-09-26T21:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839823654"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED to assigned Math PR reviewer; Cursor already filed governance- amendments for FIXED_ANNULUS R6 AMEND and two-scale S ACCEPT — do not race assignee; App cannot comment Math-"
+    },
+    {
+      "work_id": "math-27-twoscale-s16s21-review-offer",
+      "scope": "Assigned nonauthor review of TWO_SCALE S16–S21 @ b2e1652",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/d5-thin-tube-20260925",
+        "pr": 27,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
+      },
+      "claimed_at": "2026-09-25T21:27:14Z",
+      "heartbeat_at": "2026-09-25T21:27:14Z",
+      "expires_at": "2026-09-26T21:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839820791"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED to assigned Math PR reviewer; Cursor already filed governance- amendments for FIXED_ANNULUS R6 AMEND and two-scale S ACCEPT — do not race assignee; App cannot comment Math-"
     }
   ]
 }
