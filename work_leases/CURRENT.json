@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:18:30Z",
+  "updated_at": "2026-09-25T19:20:30Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -142,7 +142,7 @@
         "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a"
       },
       "claimed_at": "2026-09-25T18:11:00Z",
-      "heartbeat_at": "2026-09-25T19:18:00Z",
+      "heartbeat_at": "2026-09-25T19:20:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -155,10 +155,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/15",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36171889414",
         "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5837841897",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36177977545"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36177977545",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838230615"
       ],
       "delegates_to": null,
-      "blocked_reason": "replay green on 8c4c946; DRAFT awaiting distinct-lane review (Cursor Math-writable); no concurrent edit"
+      "blocked_reason": "undrafted; replay green; awaiting distinct-lane Cursor Math review \u2014 OpenAI will not self-approve"
     },
     {
       "work_id": "main-95-formal-lemma-pilot",
@@ -335,7 +336,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:18:30Z",
+      "heartbeat_at": "2026-09-25T19:20:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [

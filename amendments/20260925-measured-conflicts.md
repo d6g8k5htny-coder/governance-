@@ -31,7 +31,7 @@
 |---|---|
 | Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `6742548…`; **CONFLICTING**; **AMEND REQUIRED** vs [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) six-pin witness; tip still algebraic-factor skeleton (not finite-r repair) |
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `6f72f8a…`; **BLOCKED** pending #9/#17 pin repair; fingerprint align to thin-belt-factor tip |
-| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green** (67-test/24-mutant package); DRAFT awaiting distinct-lane review — do not concurrent-edit; supplies snapshot CLI contract for main #98 AMEND |
+| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; **undrafted** ready for distinct-lane review (artifact `10882719816` SHA256 `ead40437…`); OpenAI will not self-merge; Cursor Math-writable lane should inspect entry validation / source-byte snapshots / event wiring |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `4b983b9…`; Cursor tip deploys before/after CLI + strict `depends_on`/`as_of`; CI re-queued; awaiting OpenAI re-review of AMEND_REQUIRED |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` after #105; CI re-queued; #106 fail `pinned_sources_check` |
