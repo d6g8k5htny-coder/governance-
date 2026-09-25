@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T22:01:37Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #9: OA STOP/REPAIR REASSERTED @ 2235a0f (5840255614) — PROOF still falsified J_grad rows; then tip moved to 30838c5 DOCOsic jets — still jets≠repair. PR38 CLOSED BLOCKED_INPUT. Updated 2026-09-25T22:01:37Z.",
+  "updated_at": "2026-09-25T22:03:17Z",
+  "notes": "Compact ledger. Sci effect NONE. OA AMEND (5840263972) is on superseded tip 47ad537; author tip 7e219c3 claims A–D fixed and freezes for OA re-review; E (subobject digests) queued pending OA signal. Updated 2026-09-25T22:03:17Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "7e219c38e91600de0b6888bd792168c57180f235"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T22:00:19Z",
+      "heartbeat_at": "2026-09-25T22:03:17Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 7e219c3 DRAFT; peer A–D claimed complete; await OA re-review + hosted CI; subobject digest precision (5840226963) may remain; #90 OPEN"
+      "blocked_reason": "ACTIVE tip 7e219c3 DRAFT FROZEN for OA A–D re-review (5840269165); OA AMEND 5840263972 targeted superseded 47ad537 — rebind review to 7e219c3; E queued not started; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1602,7 +1602,7 @@
         "head_oid": "47ad537d0858dea1da668c5ee82eb1851ac5cff6"
       },
       "claimed_at": "2026-09-25T21:56:04Z",
-      "heartbeat_at": "2026-09-25T22:00:19Z",
+      "heartbeat_at": "2026-09-25T22:03:17Z",
       "expires_at": "2026-09-26T22:00:00Z",
       "state": "SUPERSEDED",
       "write_scope": [],
@@ -1614,7 +1614,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179"
       ],
       "delegates_to": null,
-      "blocked_reason": "SUPERSEDED by tip 7e219c3; see main-98-openai-rereview-7e219c3"
+      "blocked_reason": "SUPERSEDED: tip left 47ad537; OA AMEND 5840263972 on that head is historical — rebind to 7e219c3"
     },
     {
       "work_id": "main-98-openai-rereview-7e219c3",
@@ -1633,7 +1633,7 @@
         "head_oid": "7e219c38e91600de0b6888bd792168c57180f235"
       },
       "claimed_at": "2026-09-25T22:00:19Z",
-      "heartbeat_at": "2026-09-25T22:00:19Z",
+      "heartbeat_at": "2026-09-25T22:03:17Z",
       "expires_at": "2026-09-26T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -1642,10 +1642,12 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840247240",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840269165",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840263972"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OA re-review of combined A–D tip; keep DRAFT; #90 OPEN"
+      "blocked_reason": "OFFERED OA re-review of A–D tip 7e219c3; prior AMEND 5840263972 was on superseded 47ad537 — do not treat as tip verdict; keep DRAFT"
     },
     {
       "work_id": "math-38-fingerprint-gate-map",
@@ -1674,6 +1676,37 @@
       ],
       "delegates_to": null,
       "blocked_reason": "SUPERSEDED/CLOSED BLOCKED_INPUT — fingerprint map of unrepaired #9; same class as #14/#20"
+    },
+    {
+      "work_id": "main-98-f2-subobject-precision-E",
+      "scope": "Queued repair E: extraction_rule+expected_sha256 (Q0 8c2ded65 / D1 490ad6b2); freshness boundary; drop whole-master Q0 controlling bind",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]",
+        "run_id": "bc-01a0d95b-e593-75f4-a1b1-d440961231c5"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "7e219c38e91600de0b6888bd792168c57180f235"
+      },
+      "claimed_at": "2026-09-25T22:03:17Z",
+      "heartbeat_at": "2026-09-25T22:03:17Z",
+      "expires_at": "2026-09-26T22:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840269165",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963"
+      ],
+      "delegates_to": "main-98-claims-gate-adapter",
+      "blocked_reason": "OFFERED/queued: hold until OA A–D ACCEPT/AMEND on 7e219c3 or OA assigns E now; governance- does not race"
     }
   ]
 }

@@ -129,3 +129,11 @@ On tip `47ad537…` ([5840226963](https://github.com/d6g8k5htny-coder/main/pull/
 Peer ([5840247240](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840247240)): head `7e219c38e91600de0b6888bd792168c57180f235` — A owner-seed before reverse; B malformed≠absent; C cross-repo unsupported; D tip structured bindings retained from `47ad537`. F1 suite hash unchanged. Local 70 methods green; hosted CI pending.
 
 **Residual watch:** [5840226963](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963) asked for explicit scientific-subobject digests (`extraction_rule` + expected Q0 `8c2ded65…` / D1 `490ad6b2…`); A–D post does not claim that field. OA re-review **OFFERED** on this tip. Keep DRAFT; #90 OPEN; sci effect NONE.
+
+
+## Tip freeze + superseded-head AMEND (2026-09-25T22:02Z)
+
+- Author coordination ([5840269165](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840269165)): tip `7e219c3…` frozen for hosted CI + OA A–D re-review; repair **E** (subobject digests) queued pending OA signal (a hold vs b assign-now).
+- OA source re-review ([5840263972](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840263972)) targets **`47ad537…`**, which is **superseded** by `7e219c3…` (author claims A/B fixed there). Do **not** treat 5840263972 as a verdict on current tip — OA should rebind to `7e219c3…`.
+
+Sci effect NONE; #90 OPEN; this App does not race E.

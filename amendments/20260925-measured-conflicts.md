@@ -39,7 +39,7 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | `0ae7e8f…`; prior Cursor MATCH×7; peer [`bc-075f842d-5f23-484f-988c-96674fe5cb98`](https://cursor.com/agents/bc-075f842d-5f23-484f-988c-96674fe5cb98) OA re-review ACTIVE — no race; keep DRAFT |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `7e219c3…` peer A–D claimed complete; **OA re-review OFFERED**; residual F2 subobject precision?; #90 OPEN |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `7e219c3…` **frozen** for OA A–D re-review; AMEND on `47ad537` superseded; E queued; #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
