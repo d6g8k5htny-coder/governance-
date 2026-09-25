@@ -41,6 +41,7 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
+| Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `35eddbb…` thin-tube density continuation; AUTHOR-SIDE; hosted 15-test green ≠ theorem; R1–R8 review OFFERED; does not edit/accept #19; do not race |
 | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` AUTHOR-SIDE; hosted replay+Drive landing green (36185607110) — **≠ density theorem**; distinct review of PROOF.md (2)-(8) open; do not race |
 | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `ee8629f…`; author follow-through on C6 domain + constraint-solved tests (5839177785) — author-side ≠ outside acceptance; tip move stales review bind; distinct-lane review still required |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |

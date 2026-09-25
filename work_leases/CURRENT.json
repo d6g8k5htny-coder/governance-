@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:35:17Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #19 author follow-through (C6 domain/tests) @ ee8629f; tip may move \u2014 rebind reviews; #15 MERGED eng; #21 AUTHOR-SIDE; #9 STOP; #20 BLOCKED; #98 green DRAFT.",
+  "updated_at": "2026-09-25T20:36:18Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #22 @35eddbb thin-tube density continuation ACTIVE (OA-D5-THIN-TUBE release for nonauthor review); #21 still AUTHOR-SIDE; #15 MERGED eng; #9 STOP; #20 BLOCKED; #98 green DRAFT.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -358,7 +358,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:35:17Z",
+      "heartbeat_at": "2026-09-25T20:36:18Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -618,7 +618,7 @@
         "head_oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T20:34:03Z",
+      "heartbeat_at": "2026-09-25T20:36:18Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -633,7 +633,8 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838539517",
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838539973",
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839057633",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839177785"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839177785",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889"
       ],
       "delegates_to": null,
       "blocked_reason": "AUTHOR follow-through on tip ee8629f: expand C6 domain to midpoint\u2192pins/witness segments + uniform Taylor remainder constants + constraint-solved tests (not copied formulas); author-side validation \u2260 outside acceptance; tip move stales prior review bind; thin-tube (#21) may use corrected leading rows provisionally with separate Gaussian moment assumptions"
@@ -1023,6 +1024,68 @@
       "delegates_to": null,
       "lanes_note": "Isolated branch from Math main; will not edit #9/#19 fingerprints/claim graph/Vault99",
       "blocked_reason": "DRAFT AUTHOR-SIDE CANDIDATE; hosted replay green (run 36185607110) + Drive landing verified \u2014 green execution \u2260 analytic density theorem; distinct nonauthor review of PROOF.md (2)-(8) still open; no weighted count / remaining-belt / RN-24-jet status change; do not race write_scope"
+    },
+    {
+      "work_id": "math-22-thin-tube-density",
+      "scope": "OA-D5-THIN-TUBE continuation: finite-r pin rederive + compensation density bound on physical tube (r*u,r^2*v); AUTHOR-SIDE draft; NOT full annulus",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/d5-thin-tube-20260925",
+        "pr": 22,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "35eddbb5ab7dee33a659b64d8e9b0efeec16b70d"
+      },
+      "claimed_at": "2026-09-25T20:36:18Z",
+      "heartbeat_at": "2026-09-25T20:36:18Z",
+      "expires_at": "2026-09-26T20:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        ".github/workflows/rn-thin-tube.yml",
+        "frontiers/rn_thin_tube_20260925/"
+      ],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36186512540"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "DRAFT AUTHOR-SIDE; hosted 15-test green \u2260 analytic theorem; distinct nonauthor review of PROOF.md R1\u2013R8 requested; does not edit/accept #19; sci effect NONE; do not race write_scope"
+    },
+    {
+      "work_id": "math-22-thin-tube-review-offer",
+      "scope": "Distinct nonauthor analytic review of Math- #22 PROOF.md R1\u2013R8 @ 35eddbb; no edit then approve",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/d5-thin-tube-20260925",
+        "pr": 22,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "35eddbb5ab7dee33a659b64d8e9b0efeec16b70d"
+      },
+      "claimed_at": "2026-09-25T20:36:18Z",
+      "heartbeat_at": "2026-09-25T20:36:18Z",
+      "expires_at": "2026-09-26T20:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889"
+      ],
+      "delegates_to": null
     }
   ]
 }
