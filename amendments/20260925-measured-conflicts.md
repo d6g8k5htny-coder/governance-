@@ -32,12 +32,12 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `c393f6b…` (undecic jets); **CONFLICTING**; **STOP/REPAIR** still open — leading finite-r pin rows unshifted; high jets ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` only after distinct-lane check |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `5a6671c…`; re-maps #9 `c393f6b…` into D5 gate; **BLOCKED INPUT** same pattern as closed #14 — unrepaired pins + write-scope overlap with eng-approved [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) gate tree |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `8b30cfb…` (dodecic jets); **CONFLICTING**; **STOP/REPAIR** still open — leading finite-r pin rows unshifted; high jets ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` only after distinct-lane check |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `92f1961…`; re-maps #9 `8b30cfb…` into D5 gate; **BLOCKED INPUT** same pattern as closed #14 — unrepaired pins + write-scope overlap with eng-approved [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) gate tree |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; Cursor eng **ACCEPT** (V1–V5) filed in `amendments/20260925-math15-eng-review.md` (Math- comment blocked by App write); sci effect NONE; #90/#98 separate |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; **do not build next J0/Hessian ledger** from current finite-r Hermite until #9 pins repaired (comment 5838564395) |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | `0ae7e8f…`; P15 SMT pilot green; translation audit + H5/H6 probe in trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) @ `391f6a8…` (main issue [#113](https://github.com/d6g8k5htny-coder/main/issues/113)); same-provider ≠ acceptance; owner: **optional diagnostic only** (no platform); keep DRAFT |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `776fdb75…`; `/tmp` report fix landed; **verify still IN_PROGRESS**; keep DRAFT; #90 OPEN |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `776fdb75…`; `/tmp` report fix; **ALL CI green**; keep DRAFT pending OpenAI event-report readback; #90 OPEN; eng≠discharge |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
