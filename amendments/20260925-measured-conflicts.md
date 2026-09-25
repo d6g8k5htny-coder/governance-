@@ -35,10 +35,10 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `30838c5…`; **STOP/REPAIR REASSERTED** (5840255614) — falsified leading rows remain; docosic tip **jets≠repair**; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `838810b…`; **STOP/REPAIR**; tricosic jets after reassert; jets≠repair |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
-| Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
-| Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | `0ae7e8f…`; prior Cursor MATCH×7; peer [`bc-075f842d-5f23-484f-988c-96674fe5cb98`](https://cursor.com/agents/bc-075f842d-5f23-484f-988c-96674fe5cb98) OA re-review ACTIVE — no race; keep DRAFT |
+| Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
+| Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH×7; D6 analytic **AMEND** F10 p=1 wording / slices 1,3–6 ACCEPT (`amendments/20260925-math18-d6-analytic-review.md`); keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `7e219c3…` OA **A–D MATCH**; peer **E ACTIVE** (`bc-01a0d95b-e593-75f4-a1b1-d440961231c5`); #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
