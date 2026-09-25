@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:39:58Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Watch pulse: #9 tip e8d60cc STOP; #20 a311928 BLOCKED; #15 MERGED eng; #21/#22 AUTHOR-SIDE density; #19 ee8629f; #98 CI green DRAFT; gov-#4 AMEND_REQUIRED.",
+  "updated_at": "2026-09-25T20:42:22Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #19 tip e93eade C6 follow-through delivered \u2014 prior ee8629f review binds STALE; outside math review still required at new digest; #22 tube lane separate; #9 STOP; #15 MERGED eng.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -359,7 +359,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
+      "heartbeat_at": "2026-09-25T20:42:22Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -616,10 +616,10 @@
         "pr": 19,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"
+        "head_oid": "e93eade078cac2e8b14aa39d402a3043b7cdb1c7"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
+      "heartbeat_at": "2026-09-25T20:42:22Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -635,10 +635,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838539973",
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839057633",
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839177785",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839294562"
       ],
       "delegates_to": null,
-      "blocked_reason": "AUTHOR follow-through on tip ee8629f: expand C6 domain to midpoint\u2192pins/witness segments + uniform Taylor remainder constants + constraint-solved tests (not copied formulas); author-side validation \u2260 outside acceptance; tip move stales prior review bind; thin-tube (#21) may use corrected leading rows provisionally with separate Gaussian moment assumptions"
+      "blocked_reason": "DRAFT author-side @ e93eade: C6_REMAINDERS.md + constraint-solved tests delivered; outside math review STILL REQUIRED at this digest (M1-M7/S1-S4); prior ee8629f binds stale; author-side \u2260 acceptance; #22 tube lane untouched"
     },
     {
       "work_id": "math-16-transverse-review-offer",
@@ -906,7 +907,7 @@
     },
     {
       "work_id": "math-19-finite-r-math-review",
-      "scope": "Outside math review R1\u2013R6 of finite-r Hermite repair @ ee8629f; bind head; no trust finite_r_contact.py",
+      "scope": "Outside math review R1\u2013R6 / M1-M7/S1-S4 of finite-r Hermite repair @ e93eade (C6 follow-through); bind this head not ee8629f; no edit then approve",
       "owner": {
         "provider": null,
         "model": null,
@@ -918,17 +919,18 @@
         "pr": 19,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"
+        "head_oid": "e93eade078cac2e8b14aa39d402a3043b7cdb1c7"
       },
       "claimed_at": "2026-09-25T20:09:54Z",
-      "heartbeat_at": "2026-09-25T20:34:03Z",
+      "heartbeat_at": "2026-09-25T20:42:22Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838822251"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838822251",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839294562"
       ],
       "delegates_to": null,
       "blocked_reason": "OFFERED review will need rebinding if #19 tip moves past ee8629f for C6 domain amend"

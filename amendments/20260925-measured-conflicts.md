@@ -33,7 +33,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `e8d60cc…` (Enumerate pin-site tetradecic contact jets I_*_next); **CONFLICTING**; **STOP/REPAIR** + revalidation — unshifted `6k y1^2` still present; jets ≠ repair; complementary [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) ≠ pin fix; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) after distinct-lane check |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `e8d60cc…` (Enumerate pin-site tetradecic contact jets I_*_next); **CONFLICTING**; **STOP/REPAIR** + revalidation — unshifted `6k y1^2` still present; jets ≠ repair; complementary [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) ≠ pin fix; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` after distinct-lane check |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `dd05be8…`; remaps unrepaired #9 (live `e8d60cc…`); **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply; jets ≠ repair; overlaps [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | `0ae7e8f…`; P15 SMT pilot green; translation audit + H5/H6 probe in trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) @ `391f6a8…` (main issue [#113](https://github.com/d6g8k5htny-coder/main/issues/113)); same-provider ≠ acceptance; owner: **optional diagnostic only** (no platform); **CI green** @ `391f6a8…`; keep DRAFT |
@@ -43,7 +43,7 @@
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `35eddbb…` thin-tube density continuation; AUTHOR-SIDE; hosted 15-test green ≠ theorem; R1–R8 review OFFERED; does not edit/accept #19; do not race |
 | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` AUTHOR-SIDE; hosted replay+Drive landing green (36185607110) — **≠ density theorem**; distinct review of PROOF.md (2)-(8) open; do not race |
-| Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `ee8629f…`; author follow-through on C6 domain + constraint-solved tests (5839177785) — author-side ≠ outside acceptance; tip move stales review bind; distinct-lane review still required |
+| Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` C6 follow-through delivered (5839294562) — **bind this head not `ee8629f`**; outside math review still required (M1–M7/S1–S4); author-side ≠ acceptance; #22 tube lane separate |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; **REVIEW PICKUP** for `TRANSVERSE_BOUND_CANDIDATE.md` (R1–R5); assign distinct reviewer after #9 finite-pin repair — leave AUTHOR_SIDE if none |
 | Outside reviews (#15/#16/#18/#19) | Assignments posted 5838821860/2651/2251/3056 — #15 eng ACCEPT on governance-; #16/#18/#19 still OFFERED |
