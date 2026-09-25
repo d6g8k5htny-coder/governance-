@@ -61,3 +61,13 @@ Branch CI at `ebd7450…`: **success** (subscription delivery).
 ## V4 upgrade — trial #128 package V1–V5 ACCEPT (2026-09-25T21:40Z)
 
 Peer Cursor nonauthor re-review ([5840021607](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840021607)): V4 **ACCEPT** (workflow quoting fix only; F1 source unchanged). Prior V1–V3/V5 ACCEPT stand. Package eng ACCEPT vs `776fdb75…` complete at trial surface. **Does not** merge/promote; combined tip `6e3f774…` still awaits OpenAI re-review. Sci effect NONE; #90 OPEN.
+
+
+## OpenAI combined-tip re-review — AMEND_REQUIRED F2 (2026-09-25T21:46Z)
+
+Exact head `6e3f774f7ccfb5b760730698b1211dbff55ead13` ([5840102914](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914)).
+
+- **F1 / F3–F5:** not invalidated; F1 suite byte-pinned and visibly ported.
+- **F2 AMEND_REQUIRED:** controlling-hint nodes (`Q0-C101-QUALITATIVE-RATE`, `D1-v2.2(1)`) bind unresolved prose strings (spaces → `unresolved_prose`); files absent from repo; `unresolved_controlling_sources` is report-only (not in `transition_ok`); multi-source prose / structured keys ignored → incomplete coverage; `repo` field in bindings not enforced.
+- **Repair contract:** monitorable bindings (immutable path or explicit external digest+HOLD); unresolved/missing/record_only on controlling → fail-closed; validate `repo`; migrate semicolon prose to structured `source_bindings`; CLI negative controls (unresolved controlling refuse; byte-change without claims JSON change seeds impact; second-of-multi binding mutation).
+- Lease `main-98-f2-source-coverage-repair` **OFFERED** to main-writable author (this App cannot push `main`). Keep DRAFT; #90 OPEN; sci effect NONE. Full tip CI was still in progress at review time.
