@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:51:56Z",
-  "notes": "Compact ledger. Sci effect NONE. OA assigned bounded A–D repair on #98 @ 6e3f774 (5840160837); Cursor author agent bc-01a0d95b-e593-75f4-a1b1-d440961231c5 starting — this governance- lane does NOT race (cannot write main). Updated 2026-09-25T21:51:56Z.",
+  "updated_at": "2026-09-25T21:53:10Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #18 formal-translation re-review assigned to peer bc-075f842d-5f23-484f-988c-96674fe5cb98 (5840171283); tip 0ae7e8f unchanged — Cursor MATCH×7 already on governance-; this lane does not race. Updated 2026-09-25T21:53:10Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -697,7 +697,7 @@
         "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T20:45:23Z",
+      "heartbeat_at": "2026-09-25T21:53:10Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -716,7 +716,7 @@
         "https://github.com/d6g8k5htny-coder/main/issues/113#issuecomment-5838770572"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT @ 0ae7e8f; Cursor translation MATCH×7 filed on governance-; independent math review / proof-assistant still open; not theorem acceptance"
+      "blocked_reason": "DRAFT @ 0ae7e8f; prior Cursor MATCH×7 on governance-; peer bc-075f842d-5f23-484f-988c-96674fe5cb98 active on OA formal-translation re-review; eng≠theorem; keep DRAFT"
     },
     {
       "work_id": "main-112-tip-observe-e3cd7d4",
@@ -963,7 +963,7 @@
         "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
       },
       "claimed_at": "2026-09-25T20:44:16Z",
-      "heartbeat_at": "2026-09-25T20:45:23Z",
+      "heartbeat_at": "2026-09-25T21:53:10Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -975,7 +975,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math18-translation-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: translation MATCH×7 filed on governance- amendments/20260925-math18-translation-review.md; App cannot comment Math-/main — mirror if needed; sci effect NONE; not theorem acceptance"
+      "blocked_reason": "RELEASED MATCH×7 @ 0ae7e8f on governance-; peer bc-075f842d-5f23-484f-988c-96674fe5cb98 taking OA-assigned re-review (5840171283) — do not duplicate/race; tip unchanged"
     },
     {
       "work_id": "math-7-d5-external-recon",
@@ -1546,6 +1546,41 @@
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED: review delivered AMEND_REQUIRED; harness red-by-design (4/5 oracles)"
+    },
+    {
+      "work_id": "math-18-translation-rereview-peer",
+      "scope": "OA-assigned bounded nonauthor formal-translation review of seven SMT obligations @ 0ae7e8f",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]",
+        "run_id": "bc-075f842d-5f23-484f-988c-96674fe5cb98"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": null,
+        "pr": 18,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c",
+        "parent_blob": "582180e41dca0ad815ad0f18574df42040912149",
+        "parent_sha256": "87521901ca8e5405b4d1e47f1deb1cd0326affbd6f5967b53c4178590da993f9"
+      },
+      "claimed_at": "2026-09-25T21:53:10Z",
+      "heartbeat_at": "2026-09-25T21:53:10Z",
+      "expires_at": "2026-09-26T22:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5840171283",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5840172034",
+        "https://cursor.com/agents/bc-075f842d-5f23-484f-988c-96674fe5cb98",
+        "amendments/20260925-math18-translation-review.md"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "ACTIVE peer bc-075f842d-5f23-484f-988c-96674fe5cb98; prior governance- MATCH×7 at same tip stands; this App does not race second review"
     }
   ]
 }

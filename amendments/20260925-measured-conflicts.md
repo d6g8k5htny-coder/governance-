@@ -38,7 +38,7 @@
 | Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `2235a0f…`; **STOP/REPAIR**; henicosic jet tip; jets≠repair; **pause**; consume merged [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
-| Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | Cursor reciprocal translation **MATCH×7** (`amendments/20260925-math18-translation-review.md`); F10_CLOSED additive; eng≠theorem; keep DRAFT |
+| Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | `0ae7e8f…`; prior Cursor MATCH×7; peer [`bc-075f842d-5f23-484f-988c-96674fe5cb98`](https://cursor.com/agents/bc-075f842d-5f23-484f-988c-96674fe5cb98) OA re-review ACTIVE — no race; keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `6e3f774…`; OA assigned A–D repair; peer Cursor [`bc-01a0d95b-e593-75f4-a1b1-d440961231c5`](https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5) **ACTIVE**; do not race; #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |

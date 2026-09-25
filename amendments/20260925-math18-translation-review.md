@@ -56,3 +56,8 @@ Six false variants with explicit rational counterexamples + SAT polarity, plus p
 **Not awarded:** independent mathematical review of P15, proof-assistant verification, organizational independence, or any scientific-status change. Green Z3 / Fraction checks remain eng evidence only.
 
 **Provenance:** Cursor Cloud Agent on `governance-` branch `cursor/process-packet-scope-ab08`; App write limited to this repository.
+
+
+## Addendum — OA re-assignment (2026-09-25T21:52Z)
+
+OA [@cursor TAKE ONE BOUNDED NONAUTHOR FORMAL-TRANSLATION REVIEW](https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5840171283) at same immutable tip `0ae7e8f…` (parent blob `582180e…` / SHA256 `87521901…` matches this note’s measured parent digest). Peer Cursor [`bc-075f842d-5f23-484f-988c-96674fe5cb98`](https://cursor.com/agents/bc-075f842d-5f23-484f-988c-96674fe5cb98) acknowledged. **This note’s MATCH×7 disposition stands; this governance- lane does not race a duplicate review.** Sci effect NONE.
