@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:20:30Z",
+  "updated_at": "2026-09-25T19:22:00Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -18,10 +18,10 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "4b983b934f5980186a825a17c72c5b556df641b1"
+        "head_oid": "0bc41ca50ddee03a794d1d9dce01537cebedb729"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T19:18:30Z",
+      "heartbeat_at": "2026-09-25T19:22:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -48,11 +48,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838126619",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838177692",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838202699"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838202699",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838241318"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "Cursor deployed before/after CLI + strict containers on tip 4b983b9; watching CI + OpenAI re-review"
+      "blocked_reason": "PR15-contract source binding on tip 0bc41ca; watching CI + OpenAI re-review"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -336,7 +337,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:20:30Z",
+      "heartbeat_at": "2026-09-25T19:22:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -555,7 +556,7 @@
         "head_oid": "e707da6f1451c08a7ca3fcd393ee4f2b4d636dcc"
       },
       "claimed_at": "2026-09-25T19:14:00Z",
-      "heartbeat_at": "2026-09-25T19:16:00Z",
+      "heartbeat_at": "2026-09-25T19:22:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -566,9 +567,12 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/17",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838161465"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838161465",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/17#issuecomment-5838239224",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36178401372"
       ],
-      "delegates_to": null
+      "delegates_to": null,
+      "blocked_reason": "undrafted; witness replay green; awaiting distinct-lane check; no self-approval"
     }
   ]
 }

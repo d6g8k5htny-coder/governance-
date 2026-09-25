@@ -33,9 +33,9 @@
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `6f72f8a…`; **BLOCKED** pending #9/#17 pin repair; fingerprint align to thin-belt-factor tip |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; **undrafted** ready for distinct-lane review (artifact `10882719816` SHA256 `ead40437…`); OpenAI will not self-merge; Cursor Math-writable lane should inspect entry validation / source-byte snapshots / event wiring |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `4b983b9…`; Cursor tip deploys before/after CLI + strict `depends_on`/`as_of`; CI re-queued; awaiting OpenAI re-review of AMEND_REQUIRED |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0bc41ca…`; before/after CLI + PR15-contract source-file binding + REFUTED preservation; CI re-queued; awaiting OpenAI re-review |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` after #105; CI re-queued; #106 fail `pinned_sources_check` |
-| Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; OpenAI D5 pin-compatibility review (six-pin Fraction witness + 16 tests); REVIEW.md sha256 `105831c6…` |
+| Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified (artifact `10883675291`); ready for distinct-lane check of review + author's finite-r correction; no self-approval |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; OpenAI review package: finite-r pin counterexample + real before/after adapter probes (evidence for #9/#98 findings); not a status flip |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; `REVIEW_TOPOLOGY.md` only — no path overlap with this PR |
 
