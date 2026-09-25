@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T23:27:11Z",
+  "updated_at": "2026-09-25T23:31:34Z",
   "notes": "Timer sweep. main #98 @ cc6a578 verify CI GREEN (36198204473/36198208817). Math- #9 tip afe02f3 tetratriacontic jets — STOP/REPAIR. Updated 2026-09-25T23:06:39Z.",
   "leases": [
     {
@@ -88,10 +88,10 @@
         "pr_state": "open",
         "issue": null,
         "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
-        "oid": "e36a300d3ac1d9135f8bcb522cab14069f5ff873"
+        "oid": "45421832d20754b5e345f71a7438dfbc3a1762d7"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T23:27:11Z",
+      "heartbeat_at": "2026-09-25T23:31:34Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [],
@@ -115,7 +115,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5840255614"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip e36a300 octatriacontic jet enumeration; jets≠repair; consume #19 first"
+      "blocked_reason": "STOP/REPAIR: tip 4542183 nonatriacontic jet enumeration; jets≠repair; consume #19 first"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
