@@ -35,7 +35,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `2235a0f…`; **STOP/REPAIR**; henicosic jet tip; jets≠repair; **pause**; consume merged [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `30838c5…`; **STOP/REPAIR REASSERTED** (5840255614) — falsified leading rows remain; docosic tip **jets≠repair**; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | `0ae7e8f…`; prior Cursor MATCH×7; peer [`bc-075f842d-5f23-484f-988c-96674fe5cb98`](https://cursor.com/agents/bc-075f842d-5f23-484f-988c-96674fe5cb98) OA re-review ACTIVE — no race; keep DRAFT |
@@ -58,6 +58,7 @@
 |---|---|
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | SUPERSEDED/BLOCKED INPUT — mapped known-bad #9 fingerprints; successor only after six-pin repair |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | SUPERSEDED/BLOCKED INPUT — closed unmerged after #19/#21 land; history preserved |
+| Math- [#38](https://github.com/d6g8k5htny-coder/Math-/pull/38) | BLOCKED_INPUT closed — fingerprint sync of unrepaired #9 (5840255614) |
 
 ## This agent
 
