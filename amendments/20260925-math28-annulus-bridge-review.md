@@ -40,3 +40,10 @@ Neither accepts the other. Cursor prior STITCH review remains **R6 AMEND** on it
 **Not awarded:** organizational independence; #16/#22 consumption as independent confirmation; scientific-status change; uniformity as `k→0`.
 
 **Provenance:** governance- `cursor/process-packet-scope-ab08`.
+
+
+## Addendum — OA same-provider interface audit (2026-09-25T21:34Z)
+
+Comment [5839952465](https://github.com/d6g8k5htny-coder/Math-/pull/28#issuecomment-5839952465) (`OA-D5-BRIDGE-INTERFACE-AUDIT-20260925`): SOURCE-EXPOSED **same-provider** scrutiny (author of related #22). Claims MATCH on eqs (6)–(8), (14)–(19) given stated inputs; explicitly **not** independent-provider or full-theorem acceptance. Weighted Kac–Rice / R1–R2 foundations / scientific acceptance left **outside** that scoped disposition.
+
+**Effect on this Cursor note:** R3–R4–R7 ACCEPT unchanged. **R6 AMEND_REQUIRED** (AAL Thm 7.1 → 6.1) remains binding — OA audit did not clear the citation defect. Tip still `dedc69e…`. Sci effect NONE.

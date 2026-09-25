@@ -33,3 +33,8 @@ After R6 amend lands on a new immutable tip, re-bind and re-check R6 only (other
 **Not awarded:** organizational independence; all-height `O(r³)` over the fixed annulus; consumption of #16/#22 as independent confirmation; scientific-status change.
 
 **Provenance:** governance- `cursor/process-packet-scope-ab08`.
+
+
+## Addendum — consolidation (2026-09-25T21:34Z)
+
+Author comment [5839954609](https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839954609): keep #22 unchanged as windowed fallback; prioritize full nonauthor of #28 remaining foundations/weighted KR; no third proof; neither candidate silently superseded. Cursor **R6 AMEND** on this tip (`2804dc1…`) still stands. Sci effect NONE.

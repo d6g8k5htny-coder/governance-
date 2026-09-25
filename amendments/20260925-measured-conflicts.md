@@ -35,7 +35,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `bec78a8…`; **STOP/REPAIR**; octadecic jet tip; jets≠repair; **pause**; consume merged [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `62093de…`; **STOP/REPAIR**; nonadecic jet tip; jets≠repair; **pause**; consume merged [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | Cursor reciprocal translation **MATCH×7** (`amendments/20260925-math18-translation-review.md`); F10_CLOSED additive; eng≠theorem; keep DRAFT |
@@ -43,8 +43,8 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
-| Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` delivery RELEASE; **Cursor R6 AMEND** / R3–R4–R7 ACCEPT; tip unchanged; keep DRAFT |
-| Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `2804dc1…` FIXED_ANNULUS stitch additive; core/two-scale = `b2e1652…`; **Cursor R6 AMEND** (AAL Thm 7.1 cite) / R1–R5+R7–R8 ACCEPT (`amendments/20260925-math22-fixed-annulus-review.md`); height-windowed only |
+| Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…`; OA same-provider MATCH (not independent); **Cursor R6 AMEND** stands; keep DRAFT |
+| Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `2804dc1…` STITCH fallback (consolidation); Cursor R6 AMEND; no third proof |
 | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` **MERGED**; Cursor (2)–(8) ACCEPT on governance-; inner axial only; merge ≠ RN closure |
 | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` **MERGED**; Cursor R1–R6 ACCEPT on governance-; merge ≠ theorem acceptance; sci effect NONE |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |
