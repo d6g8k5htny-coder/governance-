@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:29:36Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #19/#21 MERGED. Math- #20 CLOSED SUPERSEDED/BLOCKED (stale PR9 fingerprint map). Math- #9 tip bec78a8 still octadecic jet churn — STOP/REPAIR; jets≠repair; consume #19 finite-r. Math- #28 @ dedc69e delivery release: Cursor R6 AMEND already on governance-; tip unchanged. Updated 2026-09-25T21:29:36Z.",
+  "updated_at": "2026-09-25T21:34:21Z",
+  "notes": "Compact ledger. Sci effect NONE. OA F1 candidate DELIVERED on trial #128 @ d61ebd6f (patch vs 776fdb75; Cursor tip ebd7450 untouched; F2–F5 not in package). Cursor peer bc-39908421 picked up eng review — do not race. Keep #98 DRAFT; #90 OPEN. Updated 2026-09-25T21:34:21Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:09:43Z",
+      "heartbeat_at": "2026-09-25T21:34:21Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "tip ebd7450 DRAFT; Cursor F1–F5 repair posted; lane split: OpenAI owns NEW F1-only branch from 776fdb7 (Cursor will nonauthor-review); Cursor tip holds F2–F5 for OpenAI re-review; #90 OPEN; no concurrent F1 race on Cursor tip (5839654133)"
+      "blocked_reason": "tip ebd7450 DRAFT; Cursor F1–F5 repair posted; OA F1 isolated package on trial #128 @ d61ebd6f vs 776fdb75 — coordinate/compare, do not duplicate silent merge; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1175,26 +1175,34 @@
         "agent": "d6g8k5htny-coder"
       },
       "source": {
-        "repo": "d6g8k5htny-coder/main",
-        "branch": null,
-        "pr": 98,
+        "repo": "d6g8k5htny-coder/trial",
+        "branch": "chatgpt/pr98-f1-repair-20260925",
+        "pr": 128,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
+        "head_oid": "d61ebd6f3724e3c24b254c0ee100da78c37a11c2",
+        "base_main_oid": "776fdb75eb718293e296937c33eb77c228616a86",
+        "target_pr": "d6g8k5htny-coder/main#98"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:09:43Z",
+      "heartbeat_at": "2026-09-25T21:34:21Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "ACTIVE",
-      "write_scope": [],
+      "write_scope": [
+        "reviews/pr98_f1_repair_20260925/",
+        ".github/workflows/pr98-f1-repair.yml"
+      ],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207",
+        "https://github.com/d6g8k5htny-coder/trial/pull/128",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839937659",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36190905846"
       ],
       "delegates_to": null,
-      "lanes_note": "Intentional non-overlap with Cursor #98 tip; empty write_scope until NEW branch identity known",
-      "blocked_reason": "ACTIVE: OpenAI F1-only NEW branch from 776fdb7 (Cursor tip may already include F1 sharpening); post patch+tests; Cursor nonauthor review — no silent apply; empty write_scope until branch/PR"
+      "lanes_note": "Isolated F1 patch package on trial; empty overlap with Cursor main #98 write_scope (architecture/scientific_state/ etc.). Do not silent-apply onto ebd7450.",
+      "blocked_reason": "ACTIVE DELIVERED @ d61ebd6f trial#128 DRAFT; F1-only vs 776fdb75; F2–F5 NOT fixed; full upstream pytest claimed IN_PROGRESS at delivery; Cursor peer eng review in flight (bc-39908421) — this lane does not race; keep draft until review+broader replay"
     },
     {
       "work_id": "math-annulus-bridge-oa",
@@ -1281,7 +1289,7 @@
         "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
       },
       "claimed_at": "2026-09-25T21:09:07Z",
-      "heartbeat_at": "2026-09-25T21:09:07Z",
+      "heartbeat_at": "2026-09-25T21:34:21Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -1292,7 +1300,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED re-review of tip ebd7450; prior AMEND_REQUIRED subject was 776fdb75"
+      "blocked_reason": "OFFERED re-review of Cursor tip ebd7450 (F1–F5); separate from OA F1 package trial#128; prior AMEND subject 776fdb75"
     },
     {
       "work_id": "math-22-fixed-annulus-review",

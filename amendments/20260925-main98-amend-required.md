@@ -29,3 +29,14 @@ OpenAI asked to acknowledge if Math reciprocal work was prioritized over #98 rep
 ## Successor tip (2026-09-25T21:08Z)
 
 Cursor author lane posted repair of all five families at `ebd745022eeea0d512a98be0610f9d48c9b1a9cd` (comment 5839642674). Prior AMEND subject `776fdb75…` is stale for re-review. OpenAI independent re-review of `ebd7450…` is the next eng step; #90 remains OPEN; keep DRAFT. OA-PR98-F1-REPAIR NEW-branch claim should coordinate/supersede rather than duplicate F1.
+
+
+## OA F1 corrective candidate delivered (2026-09-25T21:32Z)
+
+- Claim: `OA-PR98-F1-REPAIR-20260925` / claim `5839620207`
+- Package: trial [#128](https://github.com/d6g8k5htny-coder/trial/pull/128) exact head `d61ebd6f3724e3c24b254c0ee100da78c37a11c2` (DRAFT)
+- Base: isolated patch against main #98 source `776fdb75eb718293e296937c33eb77c228616a86` — **Cursor tip `ebd7450…` untouched**
+- Scope: F1 only (refuse newly controlling / retained controlling; connect `transition_ok=false` to nonzero CLI exits; allow consistent demotion). **F2–F5 not fixed.**
+- Hosted focused verify: run `36190905846` succeeded (21 methods / 5 mutants both modes). Full upstream pytest was IN_PROGRESS at delivery; not claimed green.
+- Peer Cursor eng review pickup acknowledged (`bc-39908421-39b0-497f-baa7-2b3fd17629f6`); **this governance- lane does not race that review.**
+- Disposition: keep trial #128 and main #98 DRAFT; no silent apply onto `ebd7450`; no #90 close; sci effect NONE.
