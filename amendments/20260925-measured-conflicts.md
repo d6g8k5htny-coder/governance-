@@ -42,7 +42,7 @@
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | prior MATCH×7 + D6 AMEND F10; peer formal-translation re-review ACTIVE (`bc-075f842d`); keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `2d3374c…` E6 repaired; **OA re-review OFFERED**; #90 OPEN |
-| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section9 AMEND successor Math [#47](https://github.com/d6g8k5htny-coder/Math-/pull/47) @ `1a3afa2…`; peer [`bc-4ff21625-bfbf-5a05-a6f7-db92c607c720`](https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720) **ACTIVE** — no race |
+| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section9 AMEND repaired via Math [#37](https://github.com/d6g8k5htny-coder/Math-/pull/37) **MERGED** `694b7ff…` (xAI C1–C6); #47 closed duplicate; residual-independence unclaimed |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
@@ -60,6 +60,8 @@
 |---|---|
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | SUPERSEDED/BLOCKED INPUT — mapped known-bad #9 fingerprints; successor only after six-pin repair |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | SUPERSEDED/BLOCKED INPUT — closed unmerged after #19/#21 land; history preserved |
+| Math- [#37](https://github.com/d6g8k5htny-coder/Math-/pull/37) | Section9 Borel repair MERGED @ `694b7ff…`; xAI C1–C6 ACCEPT (scoped) |
+| Math- [#47](https://github.com/d6g8k5htny-coder/Math-/pull/47) | CLOSED UNMERGED duplicate of #37 |
 | Math- [#38](https://github.com/d6g8k5htny-coder/Math-/pull/38) | BLOCKED_INPUT closed — fingerprint sync of unrepaired #9 (5840255614) |
 
 ## This agent
