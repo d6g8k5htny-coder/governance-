@@ -39,3 +39,8 @@
 This is **not** ACCEPT of an unrestricted prize theorem, not Gaussian/RN closure, and not a status flip. SMT MATCH×7 does not discharge these analytic/combinatorial interfaces beyond the algebraic identities they encode.
 
 **Re-bind** after a tip/parent wording repair (or an explicit parent erratum sentence). Sci effect NONE.
+
+
+## Addendum — OA routing correction (2026-09-25T23:57Z)
+
+Comment [5841253934](https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5841253934): do **not** redo SMT MATCH; use the D6 analytic parent six-slice lease (5840296378). This file **is** that disposition (AMEND F10 p=1 wording; slices 1,3–6 ACCEPT). Peer `bc-075f842d-5f23-484f-988c-96674fe5cb98` may confirm independently; this note is not retracted. Sci effect NONE.
