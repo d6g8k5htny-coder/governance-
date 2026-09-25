@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:28:23Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #19 e93eade and #21 b420099 MERGED (deterministic finite-r + inner-axial density packages). Cursor R1–R6 / (2)–(8) ACCEPT remain eng/math notes — merge ≠ theorem acceptance / register flip. Updated 2026-09-25T21:28:05Z.",
+  "updated_at": "2026-09-25T21:29:36Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #19/#21 MERGED. Math- #20 CLOSED SUPERSEDED/BLOCKED (stale PR9 fingerprint map). Math- #9 tip bec78a8 still octadecic jet churn — STOP/REPAIR; jets≠repair; consume #19 finite-r. Math- #28 @ dedc69e delivery release: Cursor R6 AMEND already on governance-; tip unchanged. Updated 2026-09-25T21:29:36Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -82,12 +82,13 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02"
+        "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
+        "oid": "bec78a8f63bc3fa01eb801c1ef8879da475aee04"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T21:23:43Z",
+      "heartbeat_at": "2026-09-25T21:29:36Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
+      "state": "BLOCKED",
       "write_scope": [
         "frontiers/mesoscopic_chart_j0_20260925/"
       ],
@@ -110,7 +111,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip 9920b76 (Add thin-belt conditioned Hessian residual and det skeleton) — jets ≠ repair; pause high-jet churn; consume #19 after Cursor R1–R6 ACCEPT; #20 BLOCKED"
+      "blocked_reason": "STOP/REPAIR: tip bec78a8 continues pin-site octadecic jet enumeration on falsified leading pins; jets≠repair; #19 finite-r MERGED — consume corrected interface; pause high-jet churn"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -797,18 +798,16 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "cursor/d5-chart-j0-on-hotfix-91fa",
         "pr": 20,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
-        "head_oid": "36fb7eb377f32ad6d793916f64fb393af633c732"
+        "head_oid": "36fb7eb377f32ad6d793916f64fb393af633c732",
+        "oid": "36fb7eb377f32ad6d793916f64fb393af633c732"
       },
       "claimed_at": "2026-09-25T19:48:00Z",
-      "heartbeat_at": "2026-09-25T21:23:43Z",
+      "heartbeat_at": "2026-09-25T21:29:36Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "BLOCKED",
-      "write_scope": [
-        "frontiers/downstream_gate_20260925/",
-        ".github/workflows/downstream-gate.yml"
-      ],
+      "state": "SUPERSEDED",
+      "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
@@ -820,7 +819,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/20#issuecomment-5838927456"
       ],
       "delegates_to": "math-15-transition-integrity",
-      "blocked_reason": "SOURCE REVALIDATION BLOCK: tip 36fb7eb remaps unrepaired #9 tip 9920b76; pause fingerprint churn"
+      "blocked_reason": "SUPERSEDED/CLOSED: stale fingerprint-sync of #9 chart into D5 hard gate after #19 finite-r landed; history preserved; successor must bind corrected finite-r + reviewed subinterfaces"
     },
     {
       "work_id": "trial-121-p15-assumption-probe",
@@ -1211,10 +1210,11 @@
         "pr": 28,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"
+        "head_oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd",
+        "oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:26:34Z",
+      "heartbeat_at": "2026-09-25T21:29:36Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -1229,7 +1229,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math28-annulus-bridge-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE delivered as Math- #28 tip dedc69e; Cursor review AMEND_REQUIRED R6 citation / R3–R4–R7 ACCEPT (amendments/20260925-math28-annulus-bridge-review.md); separate from #22 STITCH; sci effect NONE"
+      "blocked_reason": "ACTIVE author tip @ dedc69e; delivery/bounded-write RELEASE posted; Cursor R6 AMEND (AAL 7.1→6.1) already filed on governance-; keep DRAFT; no merge/sci accept; no transfer of #19/#21 ACCEPT to all-height claim"
     },
     {
       "work_id": "math-annulus-stitch-oa",
@@ -1371,7 +1371,7 @@
         "head_oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"
       },
       "claimed_at": "2026-09-25T21:26:34Z",
-      "heartbeat_at": "2026-09-25T21:26:34Z",
+      "heartbeat_at": "2026-09-25T21:29:36Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1381,7 +1381,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math28-annulus-bridge-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: AMEND_REQUIRED R6 (AAL Thm 7.1); R3/R4/R7 ACCEPT on C3/min and crossover; re-bind after citation repair"
+      "blocked_reason": "RELEASED review @ dedc69e: R3–R4–R7 ACCEPT; R6 AMEND_REQUIRED (AAL Thm 7.1); delivery release tip unchanged — re-review only after citation repair tip move"
     },
     {
       "work_id": "math-26-fixed-annulus-review-offer",

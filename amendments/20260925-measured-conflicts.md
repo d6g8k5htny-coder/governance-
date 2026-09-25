@@ -28,22 +28,22 @@
 4. New hardening `verify` commands need `closure_pipeline` allowlisting (#98 hit this).
 5. Math- exact-replay pins (`SOURCE_FILES` / workflow hashes): editing `hard_gate.py` / `test_hard_gate.py` without regenerating identities fails with `ValueError: source identity mismatches: hard_gate.py,test_hard_gate.py` (Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) @ `7eb4afe…`, run `36171889414`).
 6. Citing a register tab from new prose requires updating `registers/CONSUMERS.json` in the **same** change: `consumers_check` compares recorded vs scanned prose consumers (main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) @ `36fe375…` body claimed the map update; tip file list is only `docs/CONTRIBUTION_PLAN.md` → `NEW lpw_fold_dispositions: prose consumers differ`).
-7. Do not refresh D5 hard-gate fingerprints from a STOP/REPAIR chart tip (Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) closed SUPERSEDED; [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) is the same blocked-input pattern while [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) leading pins remain unshifted).
+7. Do not refresh D5 hard-gate fingerprints from a STOP/REPAIR chart tip (Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) and [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) closed SUPERSEDED/BLOCKED INPUT; [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) leading pins remain unshifted — jets≠repair even after [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) merge).
 8. CI that writes a new top-level directory (e.g. `artifacts/` via `--write-report`) must keep `REPOSITORY_TOP_LEVEL` / ignore lists in sync, or verify fails even when the feature under test is green (main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) run `36179103673`).
 
 ## Still open (do not race)
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `9920b76…`; **STOP/REPAIR**; jets ≠ repair; **pause high-jet churn**; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) (**Cursor R1–R6 ACCEPT**) |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…`; remaps #9 `9920b76…`; **SOURCE REVALIDATION BLOCK**; pause fingerprint churn |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `bec78a8…`; **STOP/REPAIR**; octadecic jet tip; jets≠repair; **pause**; consume merged [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | Cursor reciprocal translation **MATCH×7** (`amendments/20260925-math18-translation-review.md`); F10_CLOSED additive; eng≠theorem; keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `ebd7450…`; Cursor repaired five AMEND families (5839642674); **OpenAI re-review OFFERED**; verify in flight; keep DRAFT; #90 OPEN; OA F1 NEW-branch claim superseded/coordinate |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
-| Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` all-height annulus BRIDGE; **Cursor R6 AMEND** / R3–R4–R7 ACCEPT (`amendments/20260925-math28-annulus-bridge-review.md`); separate from #22 STITCH |
+| Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` delivery RELEASE; **Cursor R6 AMEND** / R3–R4–R7 ACCEPT; tip unchanged; keep DRAFT |
 | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `2804dc1…` FIXED_ANNULUS stitch additive; core/two-scale = `b2e1652…`; **Cursor R6 AMEND** (AAL Thm 7.1 cite) / R1–R5+R7–R8 ACCEPT (`amendments/20260925-math22-fixed-annulus-review.md`); height-windowed only |
 | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` **MERGED**; Cursor (2)–(8) ACCEPT on governance-; inner axial only; merge ≠ RN closure |
 | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` **MERGED**; Cursor R1–R6 ACCEPT on governance-; merge ≠ theorem acceptance; sci effect NONE |
@@ -57,6 +57,7 @@
 | PR | Note |
 |---|---|
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | SUPERSEDED/BLOCKED INPUT — mapped known-bad #9 fingerprints; successor only after six-pin repair |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | SUPERSEDED/BLOCKED INPUT — closed unmerged after #19/#21 land; history preserved |
 
 ## This agent
 
