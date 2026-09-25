@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T22:13:29Z",
+  "updated_at": "2026-09-25T22:15:42Z",
   "notes": "Compact ledger. Sci effect NONE. main #98 tip 22d9976 peer E complete (subobject digests + freshness); OA E re-review OFFERED. #9 tip e70d029 tetracosic jets — STOP/REPAIR. Updated 2026-09-25T22:13:29Z.",
   "leases": [
     {
@@ -83,10 +83,10 @@
         "pr_state": "open",
         "issue": null,
         "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
-        "oid": "e70d029a7a73da0f70577594ba54001980676ad2"
+        "oid": "b7f69cc1da41ccb72e885d038acfe99327b52936"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T22:13:29Z",
+      "heartbeat_at": "2026-09-25T22:15:42Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [],
@@ -110,7 +110,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5840255614"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip e70d029 tetracosic jet enumeration; jets≠repair; falsified leading rows; consume #19"
+      "blocked_reason": "STOP/REPAIR: tip b7f69cc pentacosic jet enumeration; jets≠repair; falsified leading rows remain; consume #19 finite-r first"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
