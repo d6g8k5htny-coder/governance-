@@ -82,3 +82,7 @@ Adding a register-tab citation in Markdown under a scanned prose root requires u
 ### Work-lease / collision ledger
 
 Coordination ownership is recorded under [`work_leases/`](work_leases/README.md) (`CURRENT.json` + `check_work_leases.py`). `OFFERED` is never activity; `ACTIVE` requires fresh evidence and a live heartbeat; overlapping `ACTIVE` write scopes fail unless delegated; a closed/merged PR cannot remain `ACTIVE`. `scientific_authority` is always false. This is not a claim database and does not replace review topology ([#4](https://github.com/d6g8k5htny-coder/governance-/pull/4)).
+
+### Hardening top-level checkout list vs CI artifact dirs
+
+When a verify step writes under a new top-level directory (for example `artifacts/` via `event-compare --write-report`), either ignore that name in the checkout self-authority test or add it to `REPOSITORY_TOP_LEVEL`. Measured on main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) run `36179103673`: claims→gate steps were green while `test_repository_top_level_list_matches_the_checkout` failed on `{'artifacts'}`. Fix the ignore/allowlist in the same change as the report path; do not treat the failure as a claims-gate logic regression.

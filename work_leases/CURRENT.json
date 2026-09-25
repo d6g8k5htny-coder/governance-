@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:46:00Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 under STOP/REPAIR; repair candidate is #19; #14 must not refresh fingerprints.",
+  "updated_at": "2026-09-25T19:51:00Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 tip ae14887 (nonic jets) still under STOP/REPAIR \u2014 leading pin unshifted; #20 re-maps #9 fingerprints (SUPERSEDED-#14 pattern) \u2014 BLOCKED vs unrepaired pins + overlaps #15 gate tree; #15 eng APPROVE @ 8c4c946; #19 repair @ ee8629f; #98 verify fail artifacts/; #18 SMT pilot green.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "0bc41ca50ddee03a794d1d9dce01537cebedb729"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T19:45:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -51,11 +51,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838202699",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838241318",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838524103",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838525477"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838525477",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36179103673",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838588691"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "entry-point structurally fixed; OpenAI re-review in progress; keep DRAFT until full CI + event report readback"
+      "blocked_reason": "entry-point structurally fixed; OpenAI re-review: run 36179103673 COMPLETE/FAILURE \u2014 claims\u2192gate steps green; unit suite fails test_repository_top_level_list_matches_the_checkout ({'artifacts'} missing from REPOSITORY_TOP_LEVEL, likely from event-compare --write-report artifacts/claims-gate-impact.json); keep DRAFT until green verify + event report readback"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -71,10 +73,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "19f1058ae4580e3d491920be2523aba066645588"
+        "head_oid": "ae148871ae26af59cfb6b3badd3f1352b206b29f"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T19:43:30Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -90,10 +92,13 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838161465",
         "https://github.com/d6g8k5htny-coder/Math-/pull/17",
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517301",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517533"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517533",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36181763127",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838539973",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/20"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR ORDER: leading pin error still present; pause jets; consume #19 repair after distinct-lane check"
+      "blocked_reason": "STOP/REPAIR ORDER still in force despite continued high jets (octic 19f1058 \u2192 gap-mark 907d6b8 \u2192 nonic ae14887); leading finite-r pin rows remain unshifted; CONFLICTING; do not map as exact; consume only #19 ee8629f after distinct-lane check; no PR14/#20-style fingerprint refresh on unrepaired chart"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -149,7 +154,7 @@
         "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a"
       },
       "claimed_at": "2026-09-25T18:11:00Z",
-      "heartbeat_at": "2026-09-25T19:20:30Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -163,10 +168,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36171889414",
         "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5837841897",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36177977545",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838230615"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838230615",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838558852"
       ],
       "delegates_to": null,
-      "blocked_reason": "undrafted; replay green; awaiting distinct-lane Cursor Math review \u2014 OpenAI will not self-approve"
+      "blocked_reason": "undrafted; replay green; distinct-lane eng APPROVE @ 8c4c946 (sci effect NONE); preserve exact reviewed head at integration; #90/#98 adapter remains separate; OpenAI will not self-merge",
+      "lanes_note": "Write scope frontiers/downstream_gate_20260925/ overlaps Math- #20 fingerprint-sync draft \u2014 do not race; #15 eng APPROVE binds 8c4c946 only"
     },
     {
       "work_id": "main-95-formal-lemma-pilot",
@@ -340,10 +347,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
+        "head_oid": "77430162a86d90e4078890a50af45eacada0d47b"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:46:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -377,7 +384,7 @@
         "head_oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80"
       },
       "claimed_at": "2026-09-25T18:10:00Z",
-      "heartbeat_at": "2026-09-25T18:10:51Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -438,7 +445,7 @@
         "head_oid": "e8f585d2b1109018b08a1c9f03cd54cff0db41ca"
       },
       "claimed_at": "2026-09-25T18:14:00Z",
-      "heartbeat_at": "2026-09-25T19:18:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -530,7 +537,7 @@
         "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
       },
       "claimed_at": "2026-09-25T19:00:00Z",
-      "heartbeat_at": "2026-09-25T19:45:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -564,7 +571,7 @@
         "head_oid": "e707da6f1451c08a7ca3fcd393ee4f2b4d636dcc"
       },
       "claimed_at": "2026-09-25T19:14:00Z",
-      "heartbeat_at": "2026-09-25T19:22:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -599,7 +606,7 @@
         "head_oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T19:46:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -644,6 +651,143 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838519626"
       ],
       "delegates_to": null
+    },
+    {
+      "work_id": "math-18-p15-smt-pilot",
+      "scope": "P15 source-bound exact-real SMT pilot (7 obligations / 6 false variants); not theorem acceptance",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/p15-smt-pilot-20260925-1918",
+        "pr": 18,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
+      },
+      "claimed_at": "2026-09-25T19:43:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "frontiers/formal_p15_20260925/",
+        ".github/workflows/p15-formal-pilot.yml"
+      ],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/18",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36181720956",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5838567894",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5838586207"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "DRAFT; algebra-pilot green @ 0ae7e8f; D6: stop runtime plumbing \u2014 next is translation audit (7 SMT obligations \u2192 PROOF.md lines; list outside-SMT remainder); not theorem acceptance"
+    },
+    {
+      "work_id": "main-112-tip-observe-e3cd7d4",
+      "scope": "tip-observe hardening e3cd7d48 after #105 into inventable observe fields only",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/tip-observe-fcad7236-c5d9",
+        "pr": 112,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
+      },
+      "claimed_at": "2026-09-25T19:44:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "docs/math_status/",
+        "docs/math_status_probes/"
+      ],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/112"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "CI pending; observation-only; serialize with #111 if both touch PACKET.json"
+    },
+    {
+      "work_id": "main-111-rn-unif-walkdown-scope",
+      "scope": "RN-UNIF walk-down over-claim scope fixes (ledger \u00a72); flags unchanged; eng\u2260discharge",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/rn-unif-walkdown-scope-fixes-848aea2a",
+        "pr": 111,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598"
+      },
+      "claimed_at": "2026-09-25T19:16:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "docs/math_status/",
+        "docs/RN_INNER_WEDGE.md",
+        "claims/graph.json",
+        "attestations/records/",
+        "tests/test_attestations.py"
+      ],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/111"
+      ],
+      "delegates_to": "main-112-tip-observe-e3cd7d4",
+      "lanes_note": "PACKET.json overlap with #112 \u2014 serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
+      "blocked_reason": "verify green @ 7b874c0; eng\u2260discharge; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN; serialize PACKET.json with tip-observe #112"
+    },
+    {
+      "work_id": "math-20-chart-j0-gate-map",
+      "scope": "Re-map PR9 chart-J0 fingerprint into post-PR13 D5 hard gate (successor of closed #14)",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/d5-chart-j0-on-hotfix-91fa",
+        "pr": 20,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "d104e962c47ba1905031a015044e1834c9131c56"
+      },
+      "claimed_at": "2026-09-25T19:48:00Z",
+      "heartbeat_at": "2026-09-25T19:51:00Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "BLOCKED",
+      "write_scope": [
+        "frontiers/downstream_gate_20260925/",
+        ".github/workflows/downstream-gate.yml"
+      ],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/20",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/14",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517301"
+      ],
+      "delegates_to": "math-15-transition-integrity",
+      "blocked_reason": "BLOCKED INPUT pattern (same as SUPERSEDED #14): maps unrepaired #9 tip fingerprints (body cites 907d6b8; #9 already advanced to ae14887 nonic) while STOP/REPAIR still open; write_scope overlaps ACTIVE #15 eng-approved gate tree \u2014 do not race or self-merge"
     }
   ]
 }
