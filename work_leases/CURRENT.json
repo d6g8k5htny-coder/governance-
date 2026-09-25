@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T23:55:42Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #47 CLOSED duplicate; Section9 repair is Math- #37 @ 694b7ff MERGED (xAI C1–C6 ACCEPT); residual-independence still unclaimed. Updated 2026-09-25T23:55:42Z.",
+  "updated_at": "2026-09-25T23:56:32Z",
+  "notes": "Compact ledger. Sci effect NONE. Peer #47 Section9 verdict (5841246244) is moot — #47 CLOSED duplicate; authoritative repair Math- #37 MERGED with xAI C1–C6 ACCEPT. Updated 2026-09-25T23:56:23Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -90,10 +90,10 @@
         "pr_state": "open",
         "issue": null,
         "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
-        "oid": "e65fb1f63475773a8d4416b06b00247715cbc87c"
+        "oid": "7665b82cfbc964c5917340b2dafd9a91377aed7d"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T23:51:39Z",
+      "heartbeat_at": "2026-09-25T23:56:32Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [],
@@ -117,7 +117,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5840255614"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip e65fb1f tritetracontic AO jet enumeration (n=43); jets≠repair; consume #19 first"
+      "blocked_reason": "STOP/REPAIR: tip 7665b82 tetratetracontic AP jets (n=44); jets≠repair; consume #19 first"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -741,7 +741,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-25T23:55:42Z",
+      "heartbeat_at": "2026-09-25T23:56:23Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -754,7 +754,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe; Section9 AMEND repaired via Math- #37 MERGED (not #47); full-field residual-independence still unclaimed fallback; sci effect NONE"
+      "blocked_reason": "ACTIVE observe; Section9 closed via #37 MERGED; #47 peer AMEND moot; residual-independence still unclaimed"
     },
     {
       "work_id": "main-111-rn-unif-walkdown-scope",
@@ -1869,7 +1869,7 @@
         "parent_sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7"
       },
       "claimed_at": "2026-09-25T23:53:10Z",
-      "heartbeat_at": "2026-09-25T23:55:42Z",
+      "heartbeat_at": "2026-09-25T23:56:23Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "SUPERSEDED",
       "write_scope": [],
@@ -1882,10 +1882,11 @@
         "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720",
         "https://github.com/d6g8k5htny-coder/Math-/pull/47#issuecomment-5841240071",
         "https://github.com/d6g8k5htny-coder/Math-/pull/37",
-        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841240461"
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841240461",
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841246244"
       ],
       "delegates_to": null,
-      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED: duplicates Math- #37 Section9 repair already MERGED @ 694b7ff / bbe61973; release peer review without second disposition"
+      "blocked_reason": "SUPERSEDED/CLOSED: peer disposition 5841246244 on #47 is moot (duplicate of #37); do not treat as second truth lineage vs MERGED #37 xAI ACCEPT"
     },
     {
       "work_id": "main-98-openai-rereview-2d3374c",
@@ -1935,7 +1936,7 @@
         "repair_sha256": "845abf9f9c99d672c2a10a887b5a2e7206a3d2de3d876f35f75ff6e2dc13e62f"
       },
       "claimed_at": "2026-09-25T23:55:42Z",
-      "heartbeat_at": "2026-09-25T23:55:42Z",
+      "heartbeat_at": "2026-09-25T23:56:23Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1946,7 +1947,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841240461"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED @ 694b7ff; xAI C1–C6 ACCEPT scoped; not Theorem A/C/cap/residual-independence/RN; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED @ 694b7ff; xAI C1–C6 ACCEPT is authoritative Section9 repair; #47 peer AMEND on attribution is not a parallel lineage"
     }
   ]
 }

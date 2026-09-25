@@ -37,12 +37,12 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `e65fb1f…`; **STOP/REPAIR**; tritetracontic jets (n=43); jets≠repair |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `7665b82…`; **STOP/REPAIR**; tetratetracontic jets (n=44); jets≠repair |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | prior MATCH×7 + D6 AMEND F10; peer formal-translation re-review ACTIVE (`bc-075f842d`); keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `2d3374c…` E6 repaired; **OA re-review OFFERED**; #90 OPEN |
-| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section9 AMEND repaired via Math [#37](https://github.com/d6g8k5htny-coder/Math-/pull/37) **MERGED** `694b7ff…` (xAI C1–C6); #47 closed duplicate; residual-independence unclaimed |
+| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section9 via Math [#37](https://github.com/d6g8k5htny-coder/Math-/pull/37) MERGED; #47 closed; peer #47 AMEND **moot**; residual-independence unclaimed |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
