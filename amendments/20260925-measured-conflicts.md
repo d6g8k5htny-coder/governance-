@@ -18,9 +18,10 @@ Pin lesson: do not edit byte-pinned `docs/OPEN_PROBLEMS.md` for discovery links;
 | Item | Status |
 |---|---|
 | Gate + own-node eligibility | Math- [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8)+[#11](https://github.com/d6g8k5htny-coder/Math-/pull/11) **MERGED**; `CONTROLLING_ELIGIBLE={PROVED_REVIEWED}` on Math- `main` (28 tests OK locally) |
-| Remaining hole | Required `REFUTED` still counts as terminal on tip; a self-`PROVED_REVIEWED` node with required REFUTED dep can become CONTROLLING (measured on Math- main). Fix: Math- [#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) (draft hotfix: only PROVED_REVIEWED/SUPERSEDED_NONBLOCKING satisfy required edges) |
-| D5 chart graph | Math- [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12) maps [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) chart-J0 into the gate graph |
+| Remaining hole | Pre-#13 Math tip treated required `REFUTED` as terminal. Math- [#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) draft: `REQUIRED_SATISFIED={PROVED_REVIEWED}` + `refuted_required_hold`; synthetic PROVED+required-REFUTED → HOLD; **replay CI green** on tip after RESULTS pin refresh. |
+| D5 chart graph | Math- [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12) maps [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) chart-J0 into the gate graph (**replay green**) |
 | Redundant | Math- [#10](https://github.com/d6g8k5htny-coder/Math-/pull/10) same-branch eligibility PR likely closeable |
+| ENV-RESCOV node note | main [#99](https://github.com/d6g8k5htny-coder/main/pull/99) **CI all green** (packet digest co-update); still DRAFT |
 
 ## 3. Mesoscopic algebra
 
