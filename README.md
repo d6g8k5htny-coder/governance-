@@ -70,3 +70,11 @@ Hardening tip after crosswalk/ENV-RESCOV/SIDE24 inventable lands: `848aea2…` (
 ### Hardening `closure_pipeline` CI allowlist
 
 New commands added to the hardening `verify` job must also be declared in the scoped automated closure plan. Undeclared steps fail with `FAIL closure_pipeline: unsupported or dynamic CI command: '…'` (measured on main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) when wiring `python tools/scientific_state_check.py`). Fix the allowlist/plan in the same change as the workflow edit.
+
+### Math- exact-replay source identities
+
+The downstream hard-gate workflow pins byte identities for `hard_gate.py`, `test_hard_gate.py` and related `SOURCE_FILES`. Editing those sources without regenerating the pins fails immediately with `ValueError: source identity mismatches: …` (measured on Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) @ `7eb4afe…`). Keep the PR draft until identities, RESULTS and `run_validation` are regenerated on the final tree; do not treat a failed pin check as a mathematical objection.
+
+### Hardening `consumers_check` prose map
+
+Adding a register-tab citation in Markdown under a scanned prose root requires updating `registers/CONSUMERS.json` in the same change. `tools/consumers_check.py` compares recorded vs scanned prose consumers and fails with `NEW …: prose consumers differ` when they diverge (measured on main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) @ `36fe375…`: tip touched only `docs/CONTRIBUTION_PLAN.md` while the PR body claimed a CONSUMERS map update). A pass is coverage of this repository only; it moves no scientific status.

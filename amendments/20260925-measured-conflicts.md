@@ -20,18 +20,24 @@
 2. Do not casually edit twelve-project-pinned `OPEN_PROBLEMS.md` (#107 used archive-pinned errata instead).
 3. Gate: own-node `PROVED_REVIEWED` + required deps in `REQUIRED_SATISFIED`; required `REFUTED`/`BLOCKED_ABSENT` HOLD.
 4. New hardening `verify` commands need `closure_pipeline` allowlisting (#98 hit this).
+5. Math- exact-replay pins (`SOURCE_FILES` / workflow hashes): editing `hard_gate.py` / `test_hard_gate.py` without regenerating identities fails with `ValueError: source identity mismatches: hard_gate.py,test_hard_gate.py` (Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) @ `7eb4afe…`, run `36171889414`).
+6. Citing a register tab from new prose requires updating `registers/CONSUMERS.json` in the **same** change: `consumers_check` compares recorded vs scanned prose consumers (main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) @ `36fe375…` body claimed the map update; tip file list is only `docs/CONTRIBUTION_PLAN.md` → `NEW lpw_fold_dispositions: prose consumers differ`).
 
 ## Still open (do not race)
 
-| PR | Note |
+| PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | chart-J0 package; replay green; still draft |
-| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12): map #9 into post-#13 D5 gate |
-| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | fail-closed edge-only / complete-record dependency transitions |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `c4f0335…`; replay green; **CONFLICTING** vs Math- `main` after #13 |
+| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `1fd5ead…`; successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12); **replay green** (×2) |
+| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; edge/complete-record transitions; **replay FAIL** until SOURCE_FILES regenerated (PR body already says keep draft until then) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | schema pilot; allowlist fixed (`d765efa`); verify re-queued |
-| main [#108](https://github.com/d6g8k5htny-coder/main/pull/108)–[#110](https://github.com/d6g8k5htny-coder/main/pull/110) | tip-observe / errata pointer / cellcount pin drafts |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; schema pilot; allowlist fixed (`d765efa`); verify still pending/queued |
+| main [#108](https://github.com/d6g8k5htny-coder/main/pull/108) | `92b10b0…`; tip-observe; one verify pass, one pending |
+| main [#109](https://github.com/d6g8k5htny-coder/main/pull/109) | `86feed0…`; errata pointer; one verify pass, one pending |
+| main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | cellcount pins; #106 fail `pinned_sources_check` on `research/cover/ledger.py` digest drift |
+| main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) | `36fe375…`; consumers map missing (see rule 6) |
+| governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; `REVIEW_TOPOLOGY.md` only — no path overlap with this PR; OpenAI-authored, asks distinct-lane review |
 
 ## This agent
 
-App write: `governance-` only. d=2 handoff superseded by Math- #9.
+App write: `governance-` only. d=2 handoff superseded by Math- #9 / remapped by #14. Do not race #4's `REVIEW_TOPOLOGY.md`.
