@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:17:00Z",
+  "updated_at": "2026-09-25T19:18:00Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -106,7 +106,7 @@
         "head_oid": "6f72f8af1ee24622c7a8c48d1684b57bdc71a02c"
       },
       "claimed_at": "2026-09-25T17:55:00Z",
-      "heartbeat_at": "2026-09-25T19:17:00Z",
+      "heartbeat_at": "2026-09-25T19:18:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -141,7 +141,7 @@
         "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a"
       },
       "claimed_at": "2026-09-25T18:11:00Z",
-      "heartbeat_at": "2026-09-25T19:10:30Z",
+      "heartbeat_at": "2026-09-25T19:18:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -153,10 +153,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/15",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36171889414",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5837841897"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5837841897",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36177977545"
       ],
       "delegates_to": null,
-      "blocked_reason": "SOURCE_FILES/RESULTS regenerated on tip 8c4c946 (67-test/24-mutant claim); watching replay \u2014 Cursor review after green"
+      "blocked_reason": "replay green on 8c4c946; DRAFT awaiting distinct-lane review (Cursor Math-writable); no concurrent edit"
     },
     {
       "work_id": "main-95-formal-lemma-pilot",
@@ -333,7 +334,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:17:00Z",
+      "heartbeat_at": "2026-09-25T19:18:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -425,10 +426,10 @@
         "pr": 110,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "0c217428f204b83e35e5c1ffca3bac6f1c97bdd9"
+        "head_oid": "e8f585d2b1109018b08a1c9f03cd54cff0db41ca"
       },
       "claimed_at": "2026-09-25T18:14:00Z",
-      "heartbeat_at": "2026-09-25T18:56:00Z",
+      "heartbeat_at": "2026-09-25T19:18:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
