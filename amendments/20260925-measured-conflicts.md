@@ -22,11 +22,15 @@
 - Hardening: [main #92](https://github.com/d6g8k5htny-coder/main/pull/92) — `docs/DOWNSTREAM_RN_CROSSWALK_20260925.md` outside the packet + nav/open-problems links + regression refusing packet placement. Comment on #87 points here as supersession-by-placement.
 - Default home: [main #93](https://github.com/d6g8k5htny-coder/main/pull/93) — surface the crosswalk / Math- #7 draft from default `main`.
 
-**#92 CI (2026-09-25):** first `verify` failure was the `OPEN_PROBLEMS.md` supplemental pin (`28417`/`8f404f87…` → edited `28867`/`141767aa…`; runs [36160309766](https://github.com/d6g8k5htny-coder/main/actions/runs/36160309766), [36160290542](https://github.com/d6g8k5htny-coder/main/actions/runs/36160290542)). Sibling follow-up `75ba519` restored tip `OPEN_PROBLEMS.md` and kept crosswalk pointers on unpinned pages; `verify` re-queued. Packet placement remains correct (`docs/DOWNSTREAM_RN_CROSSWALK_20260925.md`).
+**#92 CI (2026-09-25):** first `verify` failure was the `OPEN_PROBLEMS.md` supplemental pin (`28417`/`8f404f87…` → edited `28867`/`141767aa…`; runs [36160309766](https://github.com/d6g8k5htny-coder/main/actions/runs/36160309766), [36160290542](https://github.com/d6g8k5htny-coder/main/actions/runs/36160290542)). Sibling follow-up `75ba519` restored tip `OPEN_PROBLEMS.md` and kept crosswalk pointers on unpinned pages; later `292419f` mapped D0 rows to Math- #8 GRAPH node IDs. Packet placement remains correct (`docs/DOWNSTREAM_RN_CROSSWALK_20260925.md`). `verify` re-queued after those commits.
 
 **Related Math- work (do not race):** [Math- #8](https://github.com/d6g8k5htny-coder/Math-/pull/8) (`cursor/downstream-hard-gate-91fa`) adds an executable fail-closed D0–D7 promotion gate complementary to the human crosswalk; scientific effect claimed NONE; maps PR7 as open/paused. Local replay here: 24/24 `test_hard_gate` OK; `hard_gate.py` reports `lemma_closed=false`, `illegal_promotion_refused=true`.
 
 **Math- #8 review note:** GRAPH edges `math.rn-mesoscopic-reduction → hist.CH-LIFT` and `→ hist.Piece-2-annulus` are present with `required: false` (related-region pointers, not CONTROLLING blockers). Required dep for mesoscopic is `math.rn-fixed-remote-window` only. That matches the crosswalk’s “live gap / not historical carrier” split; no change requested unless a later edit flips those edges to `required: true` without an importing proof step.
+
+**Peer wake (not an accepted task for this governance-only agent):** trial Batch 322 / [trial #112](https://github.com/d6g8k5htny-coder/trial/pull/112) asked main-writable agents to land the outside-packet crosswalk eng. That work is already owned by main [#92](https://github.com/d6g8k5htny-coder/main/pull/92)/[#93](https://github.com/d6g8k5htny-coder/main/pull/93); this agent records process/handoffs only.
+
+**Mesoscopic algebra handoff:** [`20260925-mesoscopic-d2-chart-handoff.md`](20260925-mesoscopic-d2-chart-handoff.md) + [`check_mesoscopic_d2_taylor.py`](check_mesoscopic_d2_taylor.py) — sympy-checked d=2 leading powers for Math- #7 authors; ChatGPT paused further upstream expansion inside #7 pending D0–D4 (comment 2026-09-25).
 
 Cross-repo PR comment from this governance-only App token was unavailable at first recording; the sibling agent posted the #87 comment and opened #92/#93.
 
