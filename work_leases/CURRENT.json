@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:16:00Z",
+  "updated_at": "2026-09-25T19:17:00Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -21,7 +21,7 @@
         "head_oid": "044928047dc330724bd7829744d7898dee2cada5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T19:12:30Z",
+      "heartbeat_at": "2026-09-25T19:17:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -46,11 +46,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5837281996",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36172226452",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838126619",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838177692"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "AMEND_REQUIRED: deploy real before/after CI boundary + strict depends_on/as_of validation; tip self-audit insufficient"
+      "blocked_reason": "AMEND_REQUIRED: real base\u2192head CI + source FILE bytes; reuse Math- #15 snapshot CLI contract; tip self-audit insufficient"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -66,10 +67,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "d85f4ec41a035a829e9a235cefbe7425fed2fa85"
+        "head_oid": "6742548f5557711d8a501d9a8dad7fe5399353a1"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T19:16:00Z",
+      "heartbeat_at": "2026-09-25T19:17:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -102,10 +103,10 @@
         "pr": 14,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "f79f38d5d931c5ae1541c89df3dcbe7463931125"
+        "head_oid": "6f72f8af1ee24622c7a8c48d1684b57bdc71a02c"
       },
       "claimed_at": "2026-09-25T17:55:00Z",
-      "heartbeat_at": "2026-09-25T19:16:00Z",
+      "heartbeat_at": "2026-09-25T19:17:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -332,7 +333,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:16:00Z",
+      "heartbeat_at": "2026-09-25T19:17:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -452,14 +453,15 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "cursor/contribution-plan-crosswalk-lpw-identity",
         "pr": 105,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "91a5e9a5435b642784177a690efc4b38630cb11f"
+        "head_oid": "91a5e9a5435b642784177a690efc4b38630cb11f",
+        "merge_oid": "e3cd7d4873c51e69529616e9efe5d20286ef9d11"
       },
       "claimed_at": "2026-09-25T18:19:00Z",
-      "heartbeat_at": "2026-09-25T18:55:00Z",
+      "heartbeat_at": "2026-09-25T19:16:01Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [
         "docs/CONTRIBUTION_PLAN.md"
       ],

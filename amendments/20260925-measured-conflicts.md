@@ -14,7 +14,7 @@
 | SIDE24_CELL square importers | main [#102](https://github.com/d6g8k5htny-coder/main/pull/102) @ `848aea2…` |
 | tip-observe `848aea2…` (observe fields only) | main [#108](https://github.com/d6g8k5htny-coder/main/pull/108) → hardening tip `f244312…` |
 | RN_SIDE24_CELL errata E1 pointer (nav only) | main [#109](https://github.com/d6g8k5htny-coder/main/pull/109) → hardening tip `fcad723…` |
-| Hard gate + own-node + REFUTED HOLD | Math- [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8)+[#11](https://github.com/d6g8k5htny-coder/Math-/pull/11)+[#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) @ `baca69c…` |
+| CONTRIBUTION_PLAN stale next-items retired (LPW REFUTED via lpw README) | Hard gate + own-node + REFUTED HOLD | Math- [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8)+[#11](https://github.com/d6g8k5htny-coder/Math-/pull/11)+[#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) @ `baca69c…` |
 
 ## Process rules proven
 
@@ -29,13 +29,12 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `d85f4ec…`; **CONFLICTING**; **AMEND REQUIRED** — [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) @ `e707da6…` six-pin witness falsifies unshifted `6k*u^2` (need `6k*(u^2-1/4)`); stop higher-jet enum |
-| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `f79f38d…`; **BLOCKED** — do not map #9 digest until [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) pin witness addressed; keep chart node noncontrolling |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `6742548…`; **CONFLICTING**; **AMEND REQUIRED** vs [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) six-pin witness; tip still algebraic-factor skeleton (not finite-r repair) |
+| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `6f72f8a…`; **BLOCKED** pending #9/#17 pin repair |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; OpenAI completed source-bound transition gate + SOURCE_FILES/RESULTS regen (67-test/24-mutant claim); **replay pending**; Cursor distinct-lane review after green — do not concurrent-edit |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; verify green; OpenAI **AMEND_REQUIRED** (5838126619 / 5838127477): CI runs tip self-audit only — need real before/after base→head boundary + malformed depends_on/as_of fail-closed; Cursor owns repair |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; verify green; OpenAI **AMEND_REQUIRED** — wire real base→head CI (reuse Math- #15 snapshot CLI contract); tip self-audit ≠ change propagation; Cursor owns repair |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `0c21742…`; CI re-queued after #109; #106 fail `pinned_sources_check` on `research/cover/ledger.py` |
-| main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) | `91a5e9a…`; retip routes LPW_CONSTANT via `research/lpw/README.md` (already in CONSUMERS) instead of citing the tab from CONTRIBUTION_PLAN; verify re-queued |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; OpenAI D5 pin-compatibility review (six-pin Fraction witness + 16 tests); REVIEW.md sha256 `105831c6…` |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; OpenAI review package: finite-r pin counterexample + real before/after adapter probes (evidence for #9/#98 findings); not a status flip |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; `REVIEW_TOPOLOGY.md` only — no path overlap with this PR |
