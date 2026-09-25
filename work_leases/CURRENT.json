@@ -78,7 +78,7 @@
         "head_oid": "3242d1ff76d01bda320556315a6971045fab530f"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T20:34:03Z",
+      "heartbeat_at": "2026-09-25T20:34:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -102,7 +102,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/20#issuecomment-5838927456"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR + OpenAI revalidation: leading pin still falsified; tip 9896386 (Inventory algebraic-factor \u00d7 height-r combined skeletons) \u2014 jets \u2260 repair; consume #19 ee8629f after distinct-lane check; #20 BLOCKED"
+      "blocked_reason": "STOP/REPAIR + OpenAI revalidation: leading pin still falsified; tip 3242d1f (Enumerate pin-site tridecic contact jets G_*_next) \u2014 jets \u2260 repair; consume #19 after distinct-lane check; #20 BLOCKED"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
