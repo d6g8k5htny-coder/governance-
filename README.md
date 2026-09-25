@@ -66,3 +66,7 @@ Live on Math- `main` after [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8
 - Green CI / hashes / same-author review remain non-discharge. Gate scientific effect: NONE.
 
 Hardening tip after crosswalk/ENV-RESCOV lands: `eeebb28…` (via [#97](https://github.com/d6g8k5htny-coder/main/pull/97)/[#99](https://github.com/d6g8k5htny-coder/main/pull/99)/[#100](https://github.com/d6g8k5htny-coder/main/pull/100)).
+
+### Hardening `closure_pipeline` CI allowlist
+
+New commands added to the hardening `verify` job must also be declared in the scoped automated closure plan. Undeclared steps fail with `FAIL closure_pipeline: unsupported or dynamic CI command: '…'` (measured on main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) when wiring `python tools/scientific_state_check.py`). Fix the allowlist/plan in the same change as the workflow edit.
