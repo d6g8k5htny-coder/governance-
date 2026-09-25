@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T18:29:35Z",
+  "updated_at": "2026-09-25T18:31:00Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE.",
   "leases": [
     {
@@ -173,9 +173,20 @@
     },
     {
       "work_id": "lane-d1-offer",
-      "scope": "D1 inventable / dependency work — unclaimed offer",
-      "owner": {"provider": null, "model": null, "agent": null},
-      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "scope": "D1 inventable / dependency work \u2014 unclaimed offer",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": null,
+        "branch": null,
+        "pr": null,
+        "pr_state": null,
+        "issue": null,
+        "head_oid": null
+      },
       "claimed_at": "2026-09-25T18:00:00Z",
       "heartbeat_at": "2026-09-25T18:00:00Z",
       "expires_at": "2026-09-26T18:00:00Z",
@@ -188,9 +199,20 @@
     },
     {
       "work_id": "lane-d2-offer",
-      "scope": "D2 inventable / dependency work — unclaimed offer",
-      "owner": {"provider": null, "model": null, "agent": null},
-      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "scope": "D2 inventable / dependency work \u2014 unclaimed offer",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": null,
+        "branch": null,
+        "pr": null,
+        "pr_state": null,
+        "issue": null,
+        "head_oid": null
+      },
       "claimed_at": "2026-09-25T18:00:00Z",
       "heartbeat_at": "2026-09-25T18:00:00Z",
       "expires_at": "2026-09-26T18:00:00Z",
@@ -203,9 +225,20 @@
     },
     {
       "work_id": "lane-d3-offer",
-      "scope": "D3 inventable / dependency work — unclaimed offer",
-      "owner": {"provider": null, "model": null, "agent": null},
-      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "scope": "D3 inventable / dependency work \u2014 unclaimed offer",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": null,
+        "branch": null,
+        "pr": null,
+        "pr_state": null,
+        "issue": null,
+        "head_oid": null
+      },
       "claimed_at": "2026-09-25T18:00:00Z",
       "heartbeat_at": "2026-09-25T18:00:00Z",
       "expires_at": "2026-09-26T18:00:00Z",
@@ -218,9 +251,20 @@
     },
     {
       "work_id": "lane-d4-offer",
-      "scope": "D4 inventable / dependency work — unclaimed offer",
-      "owner": {"provider": null, "model": null, "agent": null},
-      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "scope": "D4 inventable / dependency work \u2014 unclaimed offer",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": null,
+        "branch": null,
+        "pr": null,
+        "pr_state": null,
+        "issue": null,
+        "head_oid": null
+      },
       "claimed_at": "2026-09-25T18:00:00Z",
       "heartbeat_at": "2026-09-25T18:00:00Z",
       "expires_at": "2026-09-26T18:00:00Z",
@@ -233,9 +277,20 @@
     },
     {
       "work_id": "lane-d6-offer",
-      "scope": "D6 inventable / dependency work — unclaimed offer",
-      "owner": {"provider": null, "model": null, "agent": null},
-      "source": {"repo": null, "branch": null, "pr": null, "pr_state": null, "issue": null, "head_oid": null},
+      "scope": "D6 inventable / dependency work \u2014 unclaimed offer",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": null,
+        "branch": null,
+        "pr": null,
+        "pr_state": null,
+        "issue": null,
+        "head_oid": null
+      },
       "claimed_at": "2026-09-25T18:00:00Z",
       "heartbeat_at": "2026-09-25T18:00:00Z",
       "expires_at": "2026-09-26T18:00:00Z",
@@ -260,10 +315,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "2268490bd55850029bffe02b865bc969a3dca166"
+        "head_oid": "34a87a250568a097b68f6584a7d33988073d2695"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T18:29:35Z",
+      "heartbeat_at": "2026-09-25T18:31:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
