@@ -117,3 +117,8 @@ Read-only Drive inspection ([5840204252](https://github.com/d6g8k5htny-coder/mai
 | `D1-v2.2(1)` | Drive `D1_ASSEMBLY_v2_2.md` (`1v4z492i…`) | frozen body 18311 B SHA256 `490ad6b2f141…749b235f6` |
 
 Neither file is currently observable via GitHub CI without a byte-exact repo mirror (or explicit external frozen-digest + HOLD). Tip `47ad537` already noted Drive `490ad6b2…` ≠ current D1 mirror tip — **align or HOLD**. Sci effect NONE.
+
+
+## OA F2 precision — carrier ≠ scientific subobject (2026-09-25T21:58Z)
+
+On tip `47ad537…` ([5840226963](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963)): path-byte monitoring detects mirror edits but does not certify the scientific object. Prefer `{path, extraction_rule, expected_sha256, source_drive_id, role}` or a pinned extracted mirror whose **entire** bytes equal D1 frozen body `490ad6b2…` / Q0 theorem `8c2ded65…`. Startup/CI must validate those digests before monitorable controlling provenance. Drive freshness remains an external sync obligation. **F2 not closed.** A/B still open. Sci effect NONE.
