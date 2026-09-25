@@ -41,7 +41,7 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
-| Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `b2e1652…`; Cursor R1–R8+S ACCEPT on governance-; **COLLISION**: OA ANNULUS-BRIDGE + ANNULUS-STITCH both claim fixed-annulus stitch (`|t|~r^{1/24}`) — serialize; do not race |
+| Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `b2e1652…`; Cursor R1–R8+S ACCEPT; author **ANNULUS-BRIDGE** refining C3/`min(1,(r/\|v\|)^6)` all-height fixed-annulus route (STITCH cutoff **SUPERSEDED**); challenge that interface — do not race overlapping cutoff |
 | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` AUTHOR-SIDE; hosted replay green ≠ theorem; **Cursor (2)–(8) ACCEPT** (`amendments/20260925-math21-axial-density-review.md`); inner axial belt only; do not race |
 | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` C6 follow-through; **Cursor R1–R6 ACCEPT** (`amendments/20260925-math19-finite-r-review.md`); bind this head not `ee8629f`; sci effect NONE; #22 tube lane separate |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |

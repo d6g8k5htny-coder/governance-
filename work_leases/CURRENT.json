@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:09:43Z",
+  "updated_at": "2026-09-25T21:11:06Z",
   "notes": "Compact ledger. OFFERED≠activity. Sci effect NONE. main #98 tip ebd7450 — Cursor addressed five AMEND_REQUIRED families; OpenAI independent re-review OFFERED; #90 OPEN DRAFT. OA F1 NEW-branch claim likely superseded by tip repair — coordinate before duplicate. Updated 2026-09-25T21:09:07Z.",
   "leases": [
     {
@@ -1062,7 +1062,7 @@
         "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
       },
       "claimed_at": "2026-09-25T20:36:18Z",
-      "heartbeat_at": "2026-09-25T21:07:44Z",
+      "heartbeat_at": "2026-09-25T21:11:06Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1078,7 +1078,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT; tip b2e1652; Cursor R1–R8+S ACCEPT on governance-; two-scale write released; annulus BRIDGE+STITCH pickups BLOCKED COLLISION pending serialize; sci effect NONE"
+      "blocked_reason": "DRAFT; tip b2e1652; Cursor R1–R8+S ACCEPT on governance-; author BRIDGE refining C3/M3 annulus factor (STITCH cutoff SUPERSEDED); sci effect NONE"
     },
     {
       "work_id": "math-22-thin-tube-review-offer",
@@ -1204,7 +1204,7 @@
     },
     {
       "work_id": "math-annulus-bridge-oa",
-      "scope": "OA-D5-ANNULUS-BRIDGE-20260925: fixed scaled-annulus stitch via two-scale inner + PR16 outer at |t|~r^(1/24); additive package; not tube rewrite",
+      "scope": "OA-D5-ANNULUS-BRIDGE: additive candidate extending two-scale Y→conditional C3; S4 gain min(1,(r/|v|)^6) for all-height fixed-annulus O(r^3); not cutoff stitch",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -1219,17 +1219,18 @@
         "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:07:44Z",
+      "heartbeat_at": "2026-09-25T21:11:06Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "BLOCKED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839624829"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839624829",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839655139"
       ],
       "delegates_to": null,
-      "blocked_reason": "BLOCKED COLLISION with math-annulus-stitch-oa (same |t|~r^(1/24) fixed-annulus stitch); serialize; empty write_scope until sole winner; same-provider ≠ independent accept of #16/#22"
+      "blocked_reason": "ACTIVE design refinement (5839655139): prefer C3/M3 three-Hessian factor over height-covariance cutoff; challenge that interface — do not start overlapping |t|=r^(1/24) cutoff proof; empty write_scope until additive package posted; same-provider ≠ independent accept"
     },
     {
       "work_id": "math-annulus-stitch-oa",
@@ -1248,9 +1249,9 @@
         "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:07:44Z",
+      "heartbeat_at": "2026-09-25T21:11:06Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "BLOCKED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -1258,7 +1259,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839625841"
       ],
       "delegates_to": null,
-      "blocked_reason": "BLOCKED COLLISION with math-annulus-bridge-oa (same fixed-annulus stitch target); also would overlap math-22-thin-tube-density write_scope — serialize to one additive package; empty write_scope until author assigns sole winner"
+      "blocked_reason": "SUPERSEDED by BRIDGE design refinement: cutoff/height-covariance stitch discouraged; challenge C3/M3 min(1,(r/|v|)^6) interface instead of overlapping cutoff proof"
     },
     {
       "work_id": "main-98-openai-rereview",
