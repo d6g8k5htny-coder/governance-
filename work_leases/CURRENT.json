@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:43:30Z",
+  "updated_at": "2026-09-25T19:45:00Z",
   "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 under STOP/REPAIR; repair candidate is #19; #14 must not refresh fingerprints.",
   "leases": [
     {
@@ -21,7 +21,7 @@
         "head_oid": "0bc41ca50ddee03a794d1d9dce01537cebedb729"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T19:22:00Z",
+      "heartbeat_at": "2026-09-25T19:45:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -49,11 +49,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838177692",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838202699",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838241318"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838241318",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838524103",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838525477"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "PR15-contract source binding on tip 0bc41ca; watching CI + OpenAI re-review"
+      "blocked_reason": "entry-point structurally fixed; OpenAI re-review in progress; keep DRAFT until full CI + event report readback"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -340,7 +342,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:43:30Z",
+      "heartbeat_at": "2026-09-25T19:45:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -512,7 +514,7 @@
     },
     {
       "work_id": "math-16-openai-review-package",
-      "scope": "Review-only: finite-r pin counterexample + adapter before/after probes (evidence for #9/#98); no status writes",
+      "scope": "Review package + TRANSVERSE_BOUND_CANDIDATE.md awaiting distinct reviewer (R1\u2013R5); tip 32b80ee",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -527,7 +529,7 @@
         "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
       },
       "claimed_at": "2026-09-25T19:00:00Z",
-      "heartbeat_at": "2026-09-25T19:12:30Z",
+      "heartbeat_at": "2026-09-25T19:45:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -538,9 +540,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/16",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838519626"
       ],
-      "delegates_to": null
+      "delegates_to": null,
+      "blocked_reason": "REVIEW PICKUP requested: assign distinct lane for transverse candidate; leave AUTHOR_SIDE if none"
     },
     {
       "work_id": "math-17-pin-compatibility-review",
@@ -594,7 +598,7 @@
         "head_oid": "7d295ae11e9d48584520ccc1499596bfd77e4fac"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T19:43:30Z",
+      "heartbeat_at": "2026-09-25T19:45:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -604,7 +608,37 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/19",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517533"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517533",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838534592"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "self-audit OK on cubic witness; regularity wording fix + distinct-lane review required before consume"
+    },
+    {
+      "work_id": "math-16-transverse-review-offer",
+      "scope": "Distinct-lane review of TRANSVERSE_BOUND_CANDIDATE.md at 32b80ee (R1\u2013R5); do not edit then approve",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/downstream-boundary-review-20260925",
+        "pr": 16,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
+      },
+      "claimed_at": "2026-09-25T19:45:00Z",
+      "heartbeat_at": "2026-09-25T19:45:00Z",
+      "expires_at": "2026-09-26T19:45:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838519626"
       ],
       "delegates_to": null
     }
