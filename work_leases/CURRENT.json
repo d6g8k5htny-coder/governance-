@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T18:59:00Z",
+  "updated_at": "2026-09-25T19:04:30Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -63,10 +63,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "34f4ef4c892109202014c14626f32b4e3f631d9e"
+        "head_oid": "d85f4ec41a035a829e9a235cefbe7425fed2fa85"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T18:59:00Z",
+      "heartbeat_at": "2026-09-25T19:04:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -81,7 +81,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5837929852"
       ],
       "delegates_to": null,
-      "blocked_reason": "AMEND REQUIRED open (finite-r pin midpoint terms); tip 34f4ef4 continues higher-jet enum contrary to OpenAI STOP \u2014 repair still owed before status use"
+      "blocked_reason": "AMEND REQUIRED open (finite-r pin midpoint terms); tip d85f4ec adds algebraic-factor skeleton \u2014 still not the finite-r pin repair OpenAI required"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -97,10 +97,10 @@
         "pr": 14,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "73d73779bf7695f4180e7418aec8ed090843f492"
+        "head_oid": "f79f38d5d931c5ae1541c89df3dcbe7463931125"
       },
       "claimed_at": "2026-09-25T17:55:00Z",
-      "heartbeat_at": "2026-09-25T18:59:00Z",
+      "heartbeat_at": "2026-09-25T19:04:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -114,7 +114,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/14"
       ],
       "delegates_to": "math-9-mesoscopic-chart-j0",
-      "blocked_reason": "Fingerprint align to pin-septic tip 73d7377 does not discharge #9 AMEND REQUIRED; hold ingest"
+      "blocked_reason": "Fingerprint align to algebraic-factor tip; #9 AMEND REQUIRED still unpaid"
     },
     {
       "work_id": "math-15-transition-integrity",
@@ -325,7 +325,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T18:59:00Z",
+      "heartbeat_at": "2026-09-25T19:04:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [

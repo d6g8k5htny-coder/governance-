@@ -29,8 +29,8 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `34f4ef4…`; **CONFLICTING**; OpenAI **AMEND REQUIRED** (5837911695 / 5837929852) still open — tip meantime advanced `Enumerate pin-site septic contact jets` (higher-jet enum continues despite STOP request); replay re-queued |
-| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `73d7377…`; tip `Align chart-J0 gate fingerprint with pin-septic tip` — **still HOLD** vs OpenAI AMEND REQUIRED on #9 (must not treat as corrected chart algebra) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `d85f4ec…`; **CONFLICTING**; OpenAI **AMEND REQUIRED** (5837911695 / 5837929852) still open — tip meantime advanced `Enumerate pin-site septic contact jets` (higher-jet enum continues despite STOP request); replay re-queued |
+| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `f79f38d…`; tip `Align chart-J0 gate fingerprint with pin-septic tip` — **still HOLD** vs OpenAI AMEND REQUIRED on #9 (must not treat as corrected chart algebra) |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; OpenAI WORK PICKUP for SOURCE_FILES/RESULTS regen — **do not concurrent-edit**; Cursor review after final digest |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; #90 loss-only adapter + #95 v1.1; **verify green** (×2); still DRAFT pending OpenAI re-review |
