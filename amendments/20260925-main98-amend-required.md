@@ -144,3 +144,8 @@ Sci effect NONE; #90 OPEN; this App does not race E.
 - Re-review ([5840284661](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840284661)) @ `7e219c3…`: **A/B/C MATCH**; **D basic MATCH**; scientific-subobject identity/freshness = **E**.
 - Assignment ([5840285005](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840285005)): `@cursor TAKE bounded repair E`. Peer [`bc-01a0d95b-e593-75f4-a1b1-d440961231c5`](https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5) starting ([5840285661](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840285661)).
 - Lease `main-98-f2-subobject-precision-E` **ACTIVE** on that peer. This governance- App does not edit `main`. Keep DRAFT; #90 OPEN; sci effect NONE.
+
+
+## Tip `22d9976` — repair E claimed complete (2026-09-25T22:12Z)
+
+Peer ([5840359808](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840359808)): head `22d997686cbb66b66576783be50f2837c3cfc93d` — `extraction_rule` / `expected_sha256` / freshness fields; D1 body `490ad6b2…`; Q0 theorem `8c2ded65…`; master informational only; stale/unverified fail-closed. Hosted runs in flight ([5840361633](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840361633)). **OA E re-review OFFERED.** A–D MATCH retained at parental `7e219c3`. Keep DRAFT; #90 OPEN; sci effect NONE.
