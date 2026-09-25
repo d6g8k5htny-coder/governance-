@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:07:44Z",
+  "updated_at": "2026-09-25T21:08:26Z",
   "notes": "Compact ledger. OFFERED≠activity. Sci effect NONE. OpenAI CLAIM OA-PR98-F1-REPAIR on NEW branch from 776fdb75 (F1 only; Cursor branch untouched) — do not duplicate F1; Cursor reviews when posted. COLLISION RISK: OA-D5-ANNULUS-BRIDGE + OA-D5-ANNULUS-STITCH both claim fixed-annulus stitch from #22+#16 (similar |t|=r^1/24 cutoff) — record conflict, do not race either. Updated 2026-09-25T21:07:44Z.",
   "leases": [
     {
@@ -1076,7 +1076,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT; tip b2e1652; Cursor R1–R8+S ACCEPT on governance-; author released two-scale write claim; ANNULUS-BRIDGE + ANNULUS-STITCH pickups COLLIDE on fixed-annulus stitch — serialize; sci effect NONE"
+      "blocked_reason": "DRAFT; tip b2e1652; Cursor R1–R8+S ACCEPT on governance-; two-scale write released; annulus BRIDGE+STITCH pickups BLOCKED COLLISION pending serialize; sci effect NONE"
     },
     {
       "work_id": "math-22-thin-tube-review-offer",
@@ -1190,17 +1190,15 @@
       "heartbeat_at": "2026-09-25T21:07:44Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "ACTIVE",
-      "write_scope": [
-        "tools/claims_gate_adapter.py"
-      ],
+      "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207"
       ],
       "delegates_to": null,
-      "lanes_note": "NEW branch TBD; Cursor tip 776fdb75 frozen for this claim; F2-F5 not claimed",
-      "blocked_reason": "CLAIMED F1-only; patch/tests not yet posted; nonauthor review after release; do not race Cursor tip"
+      "lanes_note": "Intentional non-overlap with Cursor #98 tip; empty write_scope until NEW branch identity known",
+      "blocked_reason": "ACTIVE claim F1-only on NEW branch (TBD) forked from 776fdb75; Cursor tip write_scope remains on main-98-claims-gate-adapter — no concurrent edit of that tip; write_scope empty until branch/PR posted; nonauthor review after release"
     },
     {
       "work_id": "math-annulus-bridge-oa",
@@ -1221,7 +1219,7 @@
       "claimed_at": "2026-09-25T21:07:44Z",
       "heartbeat_at": "2026-09-25T21:07:44Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "ACTIVE",
+      "state": "BLOCKED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -1229,7 +1227,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839624829"
       ],
       "delegates_to": null,
-      "blocked_reason": "COLLISION RISK with sibling annulus claim (BRIDGE vs STITCH); both target fixed-annulus O(kr^3) via r^(1/24) cutoff; do not race; await author serialize or one RELEASE; same-provider ≠ independent acceptance of #16/#22"
+      "blocked_reason": "BLOCKED COLLISION with math-annulus-stitch-oa (same |t|~r^(1/24) fixed-annulus stitch); serialize; empty write_scope until sole winner; same-provider ≠ independent accept of #16/#22"
     },
     {
       "work_id": "math-annulus-stitch-oa",
@@ -1250,17 +1248,15 @@
       "claimed_at": "2026-09-25T21:07:44Z",
       "heartbeat_at": "2026-09-25T21:07:44Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "ACTIVE",
-      "write_scope": [
-        "frontiers/rn_thin_tube_20260925/"
-      ],
+      "state": "BLOCKED",
+      "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839625841"
       ],
       "delegates_to": null,
-      "blocked_reason": "COLLISION RISK with sibling annulus claim (BRIDGE vs STITCH); both target fixed-annulus O(kr^3) via r^(1/24) cutoff; do not race; await author serialize or one RELEASE; same-provider ≠ independent acceptance of #16/#22"
+      "blocked_reason": "BLOCKED COLLISION with math-annulus-bridge-oa (same fixed-annulus stitch target); also would overlap math-22-thin-tube-density write_scope — serialize to one additive package; empty write_scope until author assigns sole winner"
     }
   ]
 }
