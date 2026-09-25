@@ -28,13 +28,13 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `05518f1…`; **CONFLICTING**; replay re-queued; axial compensation density still open per OpenAI review |
-| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `827678d…`; successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12); replay re-queued after tip sync |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `05518f1…`; **CONFLICTING**; **replay green**; axial compensation density still open per OpenAI review |
+| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `827678d…`; successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12); **replay green** (×2) |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; **replay FAIL** until SOURCE_FILES regenerated |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; #90 loss-only adapter + #95 v1.1; one verify green, one pending; peer adding `required` True→False edge seed |
 | main [#109](https://github.com/d6g8k5htny-coder/main/pull/109) | `7389b88…`; errata pointer (retipped after #108) |
-| main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | cellcount pins; #106 fail `pinned_sources_check` on `research/cover/ledger.py` |
+| main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `518594d…` (`tests/test_cover.py` only); CI re-queued after #108 retip; #106 fail `pinned_sources_check` on `research/cover/ledger.py` |
 | main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) | `36fe375…`; consumers map missing (see rule 6) |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; `REVIEW_TOPOLOGY.md` only — no path overlap with this PR |
 
