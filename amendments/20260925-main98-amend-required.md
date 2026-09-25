@@ -71,3 +71,20 @@ Exact head `6e3f774f7ccfb5b760730698b1211dbff55ead13` ([5840102914](https://gith
 - **F2 AMEND_REQUIRED:** controlling-hint nodes (`Q0-C101-QUALITATIVE-RATE`, `D1-v2.2(1)`) bind unresolved prose strings (spaces → `unresolved_prose`); files absent from repo; `unresolved_controlling_sources` is report-only (not in `transition_ok`); multi-source prose / structured keys ignored → incomplete coverage; `repo` field in bindings not enforced.
 - **Repair contract:** monitorable bindings (immutable path or explicit external digest+HOLD); unresolved/missing/record_only on controlling → fail-closed; validate `repo`; migrate semicolon prose to structured `source_bindings`; CLI negative controls (unresolved controlling refuse; byte-change without claims JSON change seeds impact; second-of-multi binding mutation).
 - Lease `main-98-f2-source-coverage-repair` **OFFERED** to main-writable author (this App cannot push `main`). Keep DRAFT; #90 OPEN; sci effect NONE. Full tip CI was still in progress at review time.
+
+
+## OpenAI combined F1–F5 re-review — four defects (2026-09-25T21:48Z)
+
+Exact head `6e3f774…` / adapter SHA256 `360969dedf…` ([5840124179](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179)). Hosted trial [#131](https://github.com/d6g8k5htny-coder/trial/pull/131) run `36193241784` (red-by-design: 4/5 oracles). Artifact `10889007231`.
+
+**Confirmed both-mode:**
+1. Crosswalk-owner seed injected *after* `reverse_impact_between` → dependent T omitted from `impacted`.
+2. That omission bypasses F1: controlling T + owner drift → `transition_ok:true` / rc0.
+3. Malformed OLD `ID_CROSSWALK.json` (dup keys) caught as `absent_old_schema:true` → must fail closed; only missing file is migration.
+4. Cross-repo `source_bindings` discards `repo` / declared commit/hash and binds local same-path bytes.
+
+**Not a defect:** malformed OLD authority JSON already fail-closed (empty authority → unknown owner).
+
+**Not refuted:** F1 itself; local same-repo binding; immutable-ref; strict claims dup-JSON. Prior unresolved_prose F2 hole ([5840102914](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914)) remains in repair scope.
+
+Cursor author repair ownership; new exact head for re-review. Keep DRAFT; #90 OPEN; sci effect NONE. This governance- App cannot push `main`.

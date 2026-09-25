@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:47:00Z",
-  "notes": "Compact ledger. Sci effect NONE. OpenAI combined-tip re-review @ 6e3f774: F1/F3–F5 stand; AMEND_REQUIRED F2 source coverage (unresolved_prose controlling nodes not fail-closed / not monitorable). #90 OPEN; keep DRAFT. Updated 2026-09-25T21:47:00Z.",
+  "updated_at": "2026-09-25T21:48:58Z",
+  "notes": "Compact ledger. Sci effect NONE. OA combined F1–F5 re-review @ 6e3f774 via trial#131: AMEND_REQUIRED — 4 defects (owner-seed before reverse; F1 bypass; malformed≠absent schema; cross-repo bind). F1/same-repo/immutable-ref/dup-JSON not refuted. Repair OFFERED main author. Updated 2026-09-25T21:48:58Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:47:00Z",
+      "heartbeat_at": "2026-09-25T21:48:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 6e3f774 DRAFT; OA AMEND_REQUIRED F2 (unresolved_prose controlling / report-only unresolved_controlling_sources); F1/F3–F5 stand; repair on main author lane; #90 OPEN; verify CI may still be in flight"
+      "blocked_reason": "ACTIVE tip 6e3f774 DRAFT; OA AMEND_REQUIRED (5840124179) four defects: owner-seed post-reverse; F1 bypass on controlling T; malformed OLD→absent_schema; cross-repo bind discards repo id; #90 OPEN; Cursor author repair"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1483,7 +1483,7 @@
     },
     {
       "work_id": "main-98-f2-source-coverage-repair",
-      "scope": "F2 repair: monitorable bindings for controlling sources; unresolved_prose/missing/record_only fail-closed; honor repo field; multi-binding mutation CLI negative controls",
+      "scope": "OA AMEND repair @ 6e3f774: (1) authority-owner seeds before reverse closure / rerun reverse; (2) malformed historical schema fail-closed ≠ absent; (3) validate source_bindings.repo + no silent local bind; (4) unresolved_prose controlling fail-closed; CLI negative controls for all",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1498,17 +1498,50 @@
         "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
       },
       "claimed_at": "2026-09-25T21:47:00Z",
-      "heartbeat_at": "2026-09-25T21:47:00Z",
+      "heartbeat_at": "2026-09-25T21:48:58Z",
       "expires_at": "2026-09-26T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36193241784"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "OFFERED to main #98 author lane per OA AMEND contract; governance- App cannot write main — do not race peer; keep DRAFT; #90 OPEN"
+      "blocked_reason": "OFFERED to main #98 author: four confirmed both-mode defects (trial#131); plus prior unresolved_prose F2 hole; return new exact head for OA re-review; governance- cannot write main"
+    },
+    {
+      "work_id": "trial-131-pr98-combined-rereview",
+      "scope": "OA combined F1–F5 re-review harness/evidence for main #98 tip 6e3f774",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "branch": "chatgpt/pr98-combined-rereview-20260925",
+        "pr": 131,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "1998e6ea401512f1027044ab8a7f9f571f20b355",
+        "subject_main_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
+      },
+      "claimed_at": "2026-09-25T21:48:58Z",
+      "heartbeat_at": "2026-09-25T21:48:58Z",
+      "expires_at": "2026-09-26T22:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36193241784"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED: review delivered AMEND_REQUIRED; harness red-by-design (4/5 oracles)"
     }
   ]
 }
