@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:36:52Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #22 @35eddbb thin-tube density continuation ACTIVE (OA-D5-THIN-TUBE release for nonauthor review); #21 still AUTHOR-SIDE; #15 MERGED eng; #9 STOP; #20 BLOCKED; #98 green DRAFT.",
+  "updated_at": "2026-09-25T20:39:58Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Watch pulse: #9 tip e8d60cc STOP; #20 a311928 BLOCKED; #15 MERGED eng; #21/#22 AUTHOR-SIDE density; #19 ee8629f; #98 CI green DRAFT; gov-#4 AMEND_REQUIRED.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T20:19:54Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -75,10 +75,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "3242d1ff76d01bda320556315a6971045fab530f"
+        "head_oid": "e8d60ccaad16893ee0b51e4187f0b19d53bafc41"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T20:36:52Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -103,7 +103,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR + OpenAI revalidation: leading pin still falsified; high jets \u2260 repair; OpenAI points to complementary #22 thin-tube candidate @ 35eddbb (NOT a fix/accept of unshifted #9 rows; NOT a fingerprint for #20); consume #19 after distinct-lane check; #20 BLOCKED"
+      "blocked_reason": "STOP/REPAIR + OpenAI revalidation: leading pin still falsified; tip e8d60cc (Enumerate pin-site tetradecic contact jets I_*_next) \u2014 jets \u2260 repair; complementary #22 \u2260 pin fix; consume #19 after distinct-lane check; #20 BLOCKED"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -160,7 +160,7 @@
         "merge_oid": "ac868b2b31d0995b75dd697f19d4c94735179a38"
       },
       "claimed_at": "2026-09-25T18:11:00Z",
-      "heartbeat_at": "2026-09-25T20:30:44Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "RELEASED",
       "write_scope": [
@@ -359,7 +359,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:36:52Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -393,7 +393,7 @@
         "head_oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80"
       },
       "claimed_at": "2026-09-25T18:10:00Z",
-      "heartbeat_at": "2026-09-25T20:06:39Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -457,7 +457,7 @@
         "head_oid": "e8f585d2b1109018b08a1c9f03cd54cff0db41ca"
       },
       "claimed_at": "2026-09-25T18:14:00Z",
-      "heartbeat_at": "2026-09-25T20:06:39Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -619,7 +619,7 @@
         "head_oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T20:36:18Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -724,7 +724,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-25T20:06:39Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -756,7 +756,7 @@
         "head_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598"
       },
       "claimed_at": "2026-09-25T19:16:00Z",
-      "heartbeat_at": "2026-09-25T20:06:39Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -789,10 +789,10 @@
         "pr": 20,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "a311928706011b60c54721212bbd0cbeab693c2b"
+        "head_oid": "dd05be8d32acefd9a24b1908cb42210fc8fa978d"
       },
       "claimed_at": "2026-09-25T19:48:00Z",
-      "heartbeat_at": "2026-09-25T20:35:17Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -810,7 +810,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/20#issuecomment-5838927456"
       ],
       "delegates_to": "math-15-transition-integrity",
-      "blocked_reason": "SOURCE REVALIDATION BLOCK stands: tip a311928 remaps unrepaired #9 3242d1f; PR17/PR19 apply; overlaps landed #15 gate"
+      "blocked_reason": "SOURCE REVALIDATION BLOCK: tip dd05be8 remaps unrepaired #9 (live tip now e8d60cc); may be stale vs live #9; PR17/PR19 apply; do not treat as corrected chart"
     },
     {
       "work_id": "trial-121-p15-assumption-probe",
@@ -829,7 +829,7 @@
         "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191"
       },
       "claimed_at": "2026-09-25T20:05:12Z",
-      "heartbeat_at": "2026-09-25T20:16:21Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1007,7 +1007,7 @@
         "head_oid": "b420099b2440da3a8ba62f7000feacc9fc88069b"
       },
       "claimed_at": "2026-09-25T20:25:04Z",
-      "heartbeat_at": "2026-09-25T20:31:28Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1043,7 +1043,7 @@
         "head_oid": "35eddbb5ab7dee33a659b64d8e9b0efeec16b70d"
       },
       "claimed_at": "2026-09-25T20:36:18Z",
-      "heartbeat_at": "2026-09-25T20:36:52Z",
+      "heartbeat_at": "2026-09-25T20:39:58Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
