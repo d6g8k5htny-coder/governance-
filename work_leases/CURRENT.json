@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T18:51:30Z",
+  "updated_at": "2026-09-25T18:54:30Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE.",
   "leases": [
     {
@@ -63,10 +63,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "fb5bd52d87f25671e72b0100f59773dbd69fb646"
+        "head_oid": "25141b9154b5afcaa16e526f1d9055a2a4e2483d"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T18:50:30Z",
+      "heartbeat_at": "2026-09-25T18:54:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -321,7 +321,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T18:51:30Z",
+      "heartbeat_at": "2026-09-25T18:54:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -456,6 +456,37 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/105"
+      ],
+      "delegates_to": null
+    },
+    {
+      "work_id": "main-109-side24-errata-pointer",
+      "scope": "RN_SIDE24_CELL pointer to frozen OPEN_PROBLEMS errata E1 (navigation only)",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": null,
+        "pr": 109,
+        "pr_state": "merged",
+        "issue": null,
+        "head_oid": "7389b888f2b6adac99a8215dc6176aff918cc16c",
+        "merge_oid": "fcad72366743f5244eb26a0164e106419de78137"
+      },
+      "claimed_at": "2026-09-25T18:08:00Z",
+      "heartbeat_at": "2026-09-25T18:53:35Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [
+        "docs/inventable/"
+      ],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/109"
       ],
       "delegates_to": null
     }
