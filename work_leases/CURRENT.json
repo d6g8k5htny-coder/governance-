@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:34:30Z",
-  "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
+  "updated_at": "2026-09-25T19:43:30Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 under STOP/REPAIR; repair candidate is #19; #14 must not refresh fingerprints.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -69,10 +69,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "f655cc2231418d580056b475a7f0f30ba956d748"
+        "head_oid": "19f1058ae4580e3d491920be2523aba066645588"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T19:33:30Z",
+      "heartbeat_at": "2026-09-25T19:43:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -86,10 +86,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5837911695",
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5837929852",
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838161465",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/17"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/17",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517301",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517533"
       ],
       "delegates_to": null,
-      "blocked_reason": "AMEND REQUIRED vs #17 six-pin witness still open; tip f655cc2 records axial height independence \u2014 not finite-r pin repair"
+      "blocked_reason": "STOP/REPAIR ORDER: leading pin error still present; pause jets; consume #19 repair after distinct-lane check"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -105,10 +107,10 @@
         "pr": 14,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "ff037fb67f3e6d015b18b0dec8ce511dcb3e0cd7"
+        "head_oid": "4f272f9765dedfa581161580aac09b7800dae6f6"
       },
       "claimed_at": "2026-09-25T17:55:00Z",
-      "heartbeat_at": "2026-09-25T19:34:30Z",
+      "heartbeat_at": "2026-09-25T19:43:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -121,10 +123,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/14",
         "https://github.com/d6g8k5htny-coder/Math-/pull/14#issuecomment-5838163743",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/14#issuecomment-5838164795"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/14#issuecomment-5838164795",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517301"
       ],
       "delegates_to": "math-9-mesoscopic-chart-j0",
-      "blocked_reason": "Fingerprint align to axial-height tip ff037fb; #9/#17 pin AMEND still unpaid"
+      "blocked_reason": "STOP forbids PR14 fingerprint refresh until #9 finite-r repair accepted"
     },
     {
       "work_id": "math-15-transition-integrity",
@@ -337,7 +340,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:34:30Z",
+      "heartbeat_at": "2026-09-25T19:43:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -573,6 +576,37 @@
       ],
       "delegates_to": null,
       "blocked_reason": "undrafted; witness replay green; awaiting distinct-lane check; no self-approval"
+    },
+    {
+      "work_id": "math-19-finite-r-hermite-repair",
+      "scope": "D5 repair candidate: finite-r Hermite contact rows before blow-up; separate package, does not edit #9",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/d5-finite-r-hermite-repair-20260925",
+        "pr": 19,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "7d295ae11e9d48584520ccc1499596bfd77e4fac"
+      },
+      "claimed_at": "2026-09-25T19:43:00Z",
+      "heartbeat_at": "2026-09-25T19:43:30Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "reviews/d5_finite_r_hermite_repair_20260925/"
+      ],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838517533"
+      ],
+      "delegates_to": null
     }
   ]
 }
