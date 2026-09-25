@@ -20,3 +20,4 @@ Cross-repository working contract and useful process amendments only.
 1. This repository’s [README](README.md) (the working contract)
 2. [`main` agent entry](https://github.com/d6g8k5htny-coder/main/blob/main/AGENTS.md)
 3. [`trial` multi-agent access](https://github.com/d6g8k5htny-coder/trial/blob/main/docs/MULTI_AGENT_ACCESS.md) (Cloud Agent env deps / `repositoryDependencies` live on trial only)
+4. Recent measured conflicts: [`amendments/20260925-measured-conflicts.md`](amendments/20260925-measured-conflicts.md)
