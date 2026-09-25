@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:36:43Z",
-  "notes": "Compact ledger. Sci effect NONE. Peer Cursor eng review ACCEPT of OA F1 trial#128 @ d61ebd6f (5839971920). Integration: port F1 onto Cursor tip ebd7450 without dropping F2–F5 — main author lane only (this App cannot write main). #98 CI green at ebd7450. Updated 2026-09-25T21:36:43Z.",
+  "updated_at": "2026-09-25T21:39:06Z",
+  "notes": "Compact ledger. Sci effect NONE. main #98 tip 6e3f774: Cursor author ported peer-ACCEPT OA F1 onto tip with F2–F5 retained. trial#128 hosted SUCCESS (3388 pytest). OA re-review of combined tip OFFERED. Peer V4 rebind to d61ebd6f is bc-39908421 — do not race. Updated 2026-09-25T21:39:06Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -18,10 +18,10 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
+        "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:36:43Z",
+      "heartbeat_at": "2026-09-25T21:39:06Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip ebd7450 DRAFT; CI green (36189786216 / branch success); peer ACCEPT'd OA F1 needs SOURCE PORT onto this tip without dropping F2–F5; #90 OPEN"
+      "blocked_reason": "ACTIVE tip 6e3f774 DRAFT; F1 ACCEPT'd package ported + F2–F5 retained; await OpenAI re-review of combined tip; #90 OPEN; CI in flight"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1185,7 +1185,7 @@
         "target_pr": "d6g8k5htny-coder/main#98"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:36:43Z",
+      "heartbeat_at": "2026-09-25T21:39:06Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1199,7 +1199,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Isolated F1 patch package on trial; empty overlap with Cursor main #98 write_scope (architecture/scientific_state/ etc.). Do not silent-apply onto ebd7450.",
-      "blocked_reason": "RELEASED: package @ d61ebd6f peer Cursor eng ACCEPT (5839971920); F1-only vs 776fdb75; integration is separate OFFERED port onto ebd7450 — not silent apply"
+      "blocked_reason": "RELEASED package @ d61ebd6f; hosted SUCCESS 36190905846 (3388 pytest); peer V4 rebind requested of bc-39908421 — not this lane; F2–F5 unrepaired in package"
     },
     {
       "work_id": "math-annulus-bridge-oa",
@@ -1283,10 +1283,10 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd"
+        "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
       },
       "claimed_at": "2026-09-25T21:09:07Z",
-      "heartbeat_at": "2026-09-25T21:36:43Z",
+      "heartbeat_at": "2026-09-25T21:39:06Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -1294,10 +1294,12 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839462657",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839642674",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840007500",
+        "https://github.com/d6g8k5htny-coder/trial/pull/128#issuecomment-5840002044"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED re-review after F1 port lands on tip (current tip ebd7450 lacks full F1 compare_claims_files wiring per 5839971920); keep DRAFT"
+      "blocked_reason": "OFFERED OpenAI re-review of combined tip 6e3f774 (F1 port + F2–F5); prior AMEND subject 776fdb75 superseded; keep DRAFT; #90 OPEN"
     },
     {
       "work_id": "math-22-fixed-annulus-review",
@@ -1460,14 +1462,14 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd",
+        "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13",
         "f1_package_oid": "d61ebd6f3724e3c24b254c0ee100da78c37a11c2",
         "f1_base_oid": "776fdb75eb718293e296937c33eb77c228616a86"
       },
       "claimed_at": "2026-09-25T21:36:43Z",
-      "heartbeat_at": "2026-09-25T21:36:43Z",
+      "heartbeat_at": "2026-09-25T21:39:06Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -1476,7 +1478,7 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/128"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "OFFERED to main #98 author lane: port _source_is_controlling + _source_transition_enforcement + compare_claims_files wiring + demotion suite from trial#128 onto ebd7450; do not git apply; governance- App cannot write main — leave for writable Cursor author agent"
+      "blocked_reason": "RELEASED: Cursor author ported F1 onto tip 6e3f774 (comment 5840007500); suite byte-identical to OA; no silent git apply"
     }
   ]
 }

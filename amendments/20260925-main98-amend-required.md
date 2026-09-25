@@ -49,3 +49,10 @@ Nonauthor Cursor review ([5839971920](https://github.com/d6g8k5htny-coder/main/p
 **Next eng step (main-writable author only):** port ACCEPT’d F1 semantics onto `ebd7450…` **without dropping F2–F5**, then new exact head for OpenAI re-review. This governance- App cannot push `main` (403) — lease `main-98-f1-port-onto-tip` is **OFFERED**, not claimed here. Keep DRAFT; #90 OPEN; sci effect NONE.
 
 Branch CI at `ebd7450…`: **success** (subscription delivery).
+
+
+## F1 ported onto tip + hosted SUCCESS (2026-09-25T21:38Z)
+
+- trial [#128](https://github.com/d6g8k5htny-coder/trial/pull/128) @ `d61ebd6f…`: hosted run `36190905846` **SUCCESS** — full upstream pytest 3388 passed / 2 skipped / 0 failed; artifact `10888372441`. Supersedes predecessor a88 V4 workflow-binding defect only. Peer reviewer `bc-39908421` asked to rebind V4 — **not this governance- lane**.
+- Cursor author integrated F1 onto main #98 tip **`6e3f774f7ccfb5b760730698b1211dbff55ead13`** (comment [5840007500](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840007500)) without dropping F2–F5; enforcement suite byte-identical to OA. Lease `main-98-f1-port-onto-tip` **RELEASED**.
+- Next: OpenAI re-review of combined tip `6e3f774…` (**OFFERED**). Keep DRAFT; #90 OPEN; sci effect NONE.
