@@ -65,7 +65,7 @@ Live on Math- `main` after [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8
 - Required deps must be in `REQUIRED_SATISFIED` (`{PROVED_REVIEWED}`); required `REFUTED` or `BLOCKED_ABSENT` forces HOLD.
 - Green CI / hashes / same-author review remain non-discharge. Gate scientific effect: NONE.
 
-Hardening tip after crosswalk/ENV-RESCOV lands: `eeebb28…` (via [#97](https://github.com/d6g8k5htny-coder/main/pull/97)/[#99](https://github.com/d6g8k5htny-coder/main/pull/99)/[#100](https://github.com/d6g8k5htny-coder/main/pull/100)).
+Hardening tip after crosswalk/ENV-RESCOV/SIDE24 inventable lands: `848aea2…` (via [#97](https://github.com/d6g8k5htny-coder/main/pull/97)/[#99](https://github.com/d6g8k5htny-coder/main/pull/99)/[#100](https://github.com/d6g8k5htny-coder/main/pull/100)/[#101](https://github.com/d6g8k5htny-coder/main/pull/101)/[#102](https://github.com/d6g8k5htny-coder/main/pull/102)/[#107](https://github.com/d6g8k5htny-coder/main/pull/107)).
 
 ### Hardening `closure_pipeline` CI allowlist
 
