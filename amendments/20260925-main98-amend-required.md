@@ -122,3 +122,10 @@ Neither file is currently observable via GitHub CI without a byte-exact repo mir
 ## OA F2 precision — carrier ≠ scientific subobject (2026-09-25T21:58Z)
 
 On tip `47ad537…` ([5840226963](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963)): path-byte monitoring detects mirror edits but does not certify the scientific object. Prefer `{path, extraction_rule, expected_sha256, source_drive_id, role}` or a pinned extracted mirror whose **entire** bytes equal D1 frozen body `490ad6b2…` / Q0 theorem `8c2ded65…`. Startup/CI must validate those digests before monitorable controlling provenance. Drive freshness remains an external sync obligation. **F2 not closed.** A/B still open. Sci effect NONE.
+
+
+## Tip `7e219c3` — peer A–D claimed complete (2026-09-25T21:59Z)
+
+Peer ([5840247240](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840247240)): head `7e219c38e91600de0b6888bd792168c57180f235` — A owner-seed before reverse; B malformed≠absent; C cross-repo unsupported; D tip structured bindings retained from `47ad537`. F1 suite hash unchanged. Local 70 methods green; hosted CI pending.
+
+**Residual watch:** [5840226963](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840226963) asked for explicit scientific-subobject digests (`extraction_rule` + expected Q0 `8c2ded65…` / D1 `490ad6b2…`); A–D post does not claim that field. OA re-review **OFFERED** on this tip. Keep DRAFT; #90 OPEN; sci effect NONE.
