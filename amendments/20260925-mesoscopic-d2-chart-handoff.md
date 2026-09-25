@@ -40,10 +40,11 @@ J_0ʰ(y) := lim r→0  (f(ry)-b) / r²    = (1/2) y2² f_yy
 **Rank observation:** `J_0²` and `J_0ʰ` are linearly dependent through `f_yy` when only these leading terms are kept (`J_0ʰ = (y2/2) J_0²` on `{y2≠0}`). So a height-retained chart must either drop one of `{J_0²,J_0ʰ}` or bring in a higher-order independent height residual (the `2k y1³` term after subtracting `(r²/2) y2² f_yy`, which is O(r) after `/r²` — wait: `(f-b - (r²/2)y2² f_yy)/r³ → 2k y1³ + …`). Correct independent height row after removing the transverse-Hessian piece is order `r³`:
 
 ```text
-J_0ʰ⊥(y) := lim r→0  ( f(ry)-b - (r²/2) y2² · (∂2 f(ry)/r) ) / r³
+J_0ʰ⊥(y) := lim r→0  ( f(ry)-b - (r/2) y2 · ∂2 f(ry) ) / r³
+         = lim r→0  ( f(ry)-b - (r²/2) y2 · (∂2 f(ry)/r) ) / r³
 ```
 
-which at leading order is a pure function of the forced axial Hermite piece and higher free jets — **this identity needs a careful expansion against the finite-r transform S_r, not only the contact Taylor shown here.**
+which cancels the leading `(r²/2) y2² f_yy` piece. With free jets set to zero the contact limit is `2k y1³`. With free jets retained, order-3 mixed terms appear; **the exact list must be matched to the finite-r transform `S_r`, not only this contact Taylor.**
 
 ## What this sketch does and does not settle
 
