@@ -33,8 +33,8 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `b1ea962…` (Enumerate pin-site pentadecic contact jets J_*_next); **CONFLICTING**; **STOP/REPAIR** — unshifted pins; jets ≠ repair; complementary [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) ≠ pin fix; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` after distinct-lane check |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `559ae82…`; remaps #9 `b1ea962…`; **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `29e8bdc…` (Enumerate pin-site hexadecic contact jets K_*_next); **STOP/REPAIR** — unshifted pins; jets ≠ repair; **pause high-jet churn**; complementary [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) ≠ pin fix; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` (**Cursor R1–R6 ACCEPT** on governance-) |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `fb2ab83…`; remaps #9 `29e8bdc…`; **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply; pause fingerprint churn |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | Cursor reciprocal translation **MATCH×7** (`amendments/20260925-math18-translation-review.md`); F10_CLOSED additive; eng≠theorem; keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `776fdb75…`; **CI green**; OpenAI reciprocal eng review CLAIMED (5839320734); Cursor reciprocal = #18+#121 translation; keep DRAFT; #90 OPEN |
@@ -42,11 +42,11 @@
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `35eddbb…` thin-tube density continuation; AUTHOR-SIDE; hosted 15-test green ≠ theorem; R1–R8 review OFFERED; does not edit/accept #19; do not race |
-| Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` AUTHOR-SIDE; hosted replay+Drive landing green (36185607110) — **≠ density theorem**; distinct review of PROOF.md (2)-(8) open; do not race |
-| Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` C6 follow-through delivered (5839294562) — **bind this head not `ee8629f`**; outside math review still required (M1–M7/S1–S4); author-side ≠ acceptance; #22 tube lane separate |
+| Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` AUTHOR-SIDE; hosted replay green ≠ theorem; **Cursor (2)–(8) ACCEPT** (`amendments/20260925-math21-axial-density-review.md`); inner axial belt only; do not race |
+| Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` C6 follow-through; **Cursor R1–R6 ACCEPT** (`amendments/20260925-math19-finite-r-review.md`); bind this head not `ee8629f`; sci effect NONE; #22 tube lane separate |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; **REVIEW PICKUP** for `TRANSVERSE_BOUND_CANDIDATE.md` (R1–R5); assign distinct reviewer after #9 finite-pin repair — leave AUTHOR_SIDE if none |
-| Outside reviews (#15/#16/#18/#19) | Assignments posted 5838821860/2651/2251/3056 — #15 eng ACCEPT on governance-; #16/#18/#19 still OFFERED |
+| Outside reviews (#15/#16/#18/#19/#21) | #15 eng ACCEPT; #18 translation MATCH×7; #19 R1–R6 ACCEPT; #21 (2)–(8) ACCEPT — all on governance- amendments; #16 still OFFERED; App cannot comment Math-/main |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; distinct-lane **AMEND_REQUIRED** (same-account≠provider; stale Current application; STOP pause; schema vs #98) — see `amendments/20260925-review-topology-notes.md` |
 
 ### Closed without merge (2026-09-25)
