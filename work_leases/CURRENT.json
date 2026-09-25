@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T18:31:00Z",
+  "updated_at": "2026-09-25T18:32:00Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE.",
   "leases": [
     {
@@ -315,10 +315,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "34a87a250568a097b68f6584a7d33988073d2695"
+        "head_oid": "21eaebfb571fd02e37fe05fa44c0d493486bab9f"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T18:31:00Z",
+      "heartbeat_at": "2026-09-25T18:32:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
