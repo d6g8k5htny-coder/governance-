@@ -59,4 +59,8 @@ When a file inside `docs/math_status/` must change, update the body and the matc
 
 ### Math- hard gate (`#90` integrity control)
 
-[Math- #8](https://github.com/d6g8k5htny-coder/Math-/pull/8) + own-node eligibility [Math- #11](https://github.com/d6g8k5htny-coder/Math-/pull/11) are **merged** (2026-09-25). The live gate refuses CONTROLLING unless required transitive deps are terminal **and** the node’s own classification is in `CONTROLLING_ELIGIBLE` (currently `{PROVED_REVIEWED}`). Pre-fix measurement: deps-terminal alone could set `controlling=true` on an `AUTHOR_SIDE_CANDIDATE`. Green CI / hashes / same-author review remain non-discharge. Scientific effect of the gate itself: NONE.
+[Math- #8](https://github.com/d6g8k5htny-coder/Math-/pull/8) + own-node eligibility [Math- #11](https://github.com/d6g8k5htny-coder/Math-/pull/11) are **merged** (2026-09-25). The live gate refuses CONTROLLING unless required transitive deps are terminal **and** the node’s own classification is in `CONTROLLING_ELIGIBLE` (currently `{PROVED_REVIEWED}`).
+
+**Remaining measured gap (Math- tip):** `REFUTED` is still a terminal classification for required edges, so a self-`PROVED_REVIEWED` node whose required dependency is `REFUTED` can become CONTROLLING. Draft fix: Math- [#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) (only `PROVED_REVIEWED` / `SUPERSEDED_NONBLOCKING` satisfy required premises; required `REFUTED`/`BLOCKED_ABSENT` force HOLD). Do not treat green CI as discharge. Scientific effect of the gate itself: NONE.
+
+Hardening crosswalk land: inventable [#97](https://github.com/d6g8k5htny-coder/main/pull/97) merged at tip `388a22c…`.
