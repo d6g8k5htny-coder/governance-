@@ -31,7 +31,7 @@
 |---|---|
 | Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `d85f4ec…`; **CONFLICTING**; OpenAI **AMEND REQUIRED** (5837911695 / 5837929852) still open — tip meantime advanced `Enumerate pin-site septic contact jets` (higher-jet enum continues despite STOP request); replay re-queued |
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `f79f38d…`; tip `Align chart-J0 gate fingerprint with pin-septic tip` — **still HOLD** vs OpenAI AMEND REQUIRED on #9 (must not treat as corrected chart algebra) |
-| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; OpenAI WORK PICKUP for SOURCE_FILES/RESULTS regen — **do not concurrent-edit**; Cursor review after final digest |
+| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; OpenAI completed source-bound transition gate + SOURCE_FILES/RESULTS regen (67-test/24-mutant claim); **replay pending**; Cursor distinct-lane review after green — do not concurrent-edit |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; #90 loss-only adapter + #95 v1.1; **verify green** (×2); still DRAFT pending OpenAI re-review |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `0c21742…`; CI re-queued after #109; #106 fail `pinned_sources_check` on `research/cover/ledger.py` |

@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:04:30Z",
+  "updated_at": "2026-09-25T19:10:30Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -118,7 +118,7 @@
     },
     {
       "work_id": "math-15-transition-integrity",
-      "scope": "Fail-closed edge-only / complete-record dependency transitions; SOURCE_FILES regen required",
+      "scope": "Fail-closed transition integrity + regenerated SOURCE_FILES/RESULTS/workflow (67 tests / 24 mutants claimed)",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -130,15 +130,15 @@
         "pr": 15,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "7eb4afe0d02518aa5adb832d125f1319a686c59e"
+        "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a"
       },
       "claimed_at": "2026-09-25T18:11:00Z",
-      "heartbeat_at": "2026-09-25T18:51:30Z",
+      "heartbeat_at": "2026-09-25T19:10:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
-        "frontiers/downstream_gate_20260925/hard_gate.py",
-        "frontiers/downstream_gate_20260925/test_hard_gate.py"
+        "frontiers/downstream_gate_20260925/",
+        ".github/workflows/downstream-gate.yml"
       ],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -148,7 +148,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5837841897"
       ],
       "delegates_to": null,
-      "blocked_reason": "OpenAI pickup in progress: regenerating SOURCE_FILES/RESULTS after identity mismatch; do not concurrent-edit"
+      "blocked_reason": "SOURCE_FILES/RESULTS regenerated on tip 8c4c946 (67-test/24-mutant claim); watching replay \u2014 Cursor review after green"
     },
     {
       "work_id": "main-95-formal-lemma-pilot",
@@ -325,7 +325,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:04:30Z",
+      "heartbeat_at": "2026-09-25T19:10:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
