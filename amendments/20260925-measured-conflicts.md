@@ -32,9 +32,9 @@
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; edge/complete-record transitions; **replay FAIL** until SOURCE_FILES regenerated (PR body already says keep draft until then) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; schema pilot; allowlist fixed (`d765efa`); verify still pending/queued |
-| main [#108](https://github.com/d6g8k5htny-coder/main/pull/108) | `92b10b0…`; tip-observe; one verify pass, one pending |
-| main [#109](https://github.com/d6g8k5htny-coder/main/pull/109) | `86feed0…`; errata pointer; one verify pass, one pending |
-| main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | cellcount pins; #106 fail `pinned_sources_check` on `research/cover/ledger.py` digest drift |
+| main [#108](https://github.com/d6g8k5htny-coder/main/pull/108) | `92b10b0…`; tip-observe; one verify pass (`36171701033`), one still pending |
+| main [#109](https://github.com/d6g8k5htny-coder/main/pull/109) | `86feed0…`; errata pointer; **verify green** (×2) |
+| main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | cellcount pins; #106 fail `pinned_sources_check` on `research/cover/ledger.py` digest drift; #110 verify still pending |
 | main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) | `36fe375…`; consumers map missing (see rule 6) |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; `REVIEW_TOPOLOGY.md` only — no path overlap with this PR; OpenAI-authored, asks distinct-lane review |
 
