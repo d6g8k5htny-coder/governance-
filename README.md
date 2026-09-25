@@ -46,3 +46,9 @@ Live measurement (2026-09-25): main draft [#87](https://github.com/d6g8k5htny-co
 ### Cloud Agent write scope follows the launch environment
 
 A personal Cloud Agent environment's App token can push only the repositories listed for that environment. Measured on a governance-only launch: push to `governance-` succeeds; push to `main`, `Math-` and `trial` returns `Permission denied to cursor[bot]` (403). Durable write available to trial-based runs (`MAIN_PUSH_TOKEN` / device) is a separate vector; see [`trial` multi-agent access](https://github.com/d6g8k5htny-coder/trial/blob/main/docs/MULTI_AGENT_ACCESS.md). Mid-flight App tokens do not gain sibling-repo write. Publish math in `Math-`, campaign/review text in `main`, and eng tests in `trial`; use this repository for contract and process amendments only.
+
+### Hardening supplemental pins (`twelve_project_check`)
+
+On the hardening branch, `tools/twelve_project_check.py` byte-pins `docs/OPEN_PROBLEMS.md` (and one RN5 mirror) in `SUPPLEMENTAL_DEPENDENCIES`. Editing that file without refreshing the pin fails verify with a terse `REJECTED: ValueError: one or more of the twelve projects failed`, even when the scientific edit is only a navigation paragraph.
+
+Live measurement (2026-09-25): main [#92](https://github.com/d6g8k5htny-coder/main/pull/92) first failed for that pin after adding a crosswalk pointer to `OPEN_PROBLEMS.md`; the follow-up commit restored tip bytes and kept discovery links on unpinned pages (`RESEARCH_INDEX.md`, `NAVIGATION.json`, the crosswalk itself). Prefer unpinned surfaces for new route pointers, or update the pin and re-run the twelve-project check in the same change.
