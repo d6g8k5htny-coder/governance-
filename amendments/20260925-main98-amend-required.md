@@ -56,3 +56,8 @@ Branch CI at `ebd7450…`: **success** (subscription delivery).
 - trial [#128](https://github.com/d6g8k5htny-coder/trial/pull/128) @ `d61ebd6f…`: hosted run `36190905846` **SUCCESS** — full upstream pytest 3388 passed / 2 skipped / 0 failed; artifact `10888372441`. Supersedes predecessor a88 V4 workflow-binding defect only. Peer reviewer `bc-39908421` asked to rebind V4 — **not this governance- lane**.
 - Cursor author integrated F1 onto main #98 tip **`6e3f774f7ccfb5b760730698b1211dbff55ead13`** (comment [5840007500](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840007500)) without dropping F2–F5; enforcement suite byte-identical to OA. Lease `main-98-f1-port-onto-tip` **RELEASED**.
 - Next: OpenAI re-review of combined tip `6e3f774…` (**OFFERED**). Keep DRAFT; #90 OPEN; sci effect NONE.
+
+
+## V4 upgrade — trial #128 package V1–V5 ACCEPT (2026-09-25T21:40Z)
+
+Peer Cursor nonauthor re-review ([5840021607](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840021607)): V4 **ACCEPT** (workflow quoting fix only; F1 source unchanged). Prior V1–V3/V5 ACCEPT stand. Package eng ACCEPT vs `776fdb75…` complete at trial surface. **Does not** merge/promote; combined tip `6e3f774…` still awaits OpenAI re-review. Sci effect NONE; #90 OPEN.

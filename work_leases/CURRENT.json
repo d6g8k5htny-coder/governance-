@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:39:06Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 tip 6e3f774: Cursor author ported peer-ACCEPT OA F1 onto tip with F2–F5 retained. trial#128 hosted SUCCESS (3388 pytest). OA re-review of combined tip OFFERED. Peer V4 rebind to d61ebd6f is bc-39908421 — do not race. Updated 2026-09-25T21:39:06Z.",
+  "updated_at": "2026-09-25T21:40:30Z",
+  "notes": "Compact ledger. Sci effect NONE. trial#128 V4 upgraded ACCEPT (5840021607); package V1–V5 ACCEPT vs 776fdb75 — eng only; #90 OPEN. main #98 tip 6e3f774 awaits OpenAI re-review. Math- #9 tip c86df88 icosic jet churn — STOP/REPAIR; jets≠repair. Updated 2026-09-25T21:40:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:39:06Z",
+      "heartbeat_at": "2026-09-25T21:40:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -83,10 +83,10 @@
         "pr_state": "open",
         "issue": null,
         "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
-        "oid": "62093dedefb9fc469b43b1ec642cacdb05fd020a"
+        "oid": "c86df88c788263e049f8f2f7bbf910de688f7de3"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T21:35:25Z",
+      "heartbeat_at": "2026-09-25T21:40:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -111,7 +111,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip 62093de continues pin-site nonadecic jet enumeration; jets≠repair; #19 finite-r MERGED — consume corrected interface; pause high-jet churn"
+      "blocked_reason": "STOP/REPAIR: tip c86df88 continues pin-site icosic jet enumeration; jets≠repair; #19 finite-r MERGED — consume corrected interface; pause high-jet churn"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -1185,7 +1185,7 @@
         "target_pr": "d6g8k5htny-coder/main#98"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:39:06Z",
+      "heartbeat_at": "2026-09-25T21:40:30Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1199,7 +1199,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Isolated F1 patch package on trial; empty overlap with Cursor main #98 write_scope (architecture/scientific_state/ etc.). Do not silent-apply onto ebd7450.",
-      "blocked_reason": "RELEASED package @ d61ebd6f; hosted SUCCESS 36190905846 (3388 pytest); peer V4 rebind requested of bc-39908421 — not this lane; F2–F5 unrepaired in package"
+      "blocked_reason": "RELEASED @ d61ebd6f; V1–V5 eng ACCEPT (V4 upgraded 5840021607); hosted SUCCESS; F2–F5 unrepaired in package; eng≠#90 close"
     },
     {
       "work_id": "math-annulus-bridge-oa",
@@ -1286,7 +1286,7 @@
         "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
       },
       "claimed_at": "2026-09-25T21:09:07Z",
-      "heartbeat_at": "2026-09-25T21:39:06Z",
+      "heartbeat_at": "2026-09-25T21:40:30Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -1299,7 +1299,7 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/128#issuecomment-5840002044"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OpenAI re-review of combined tip 6e3f774 (F1 port + F2–F5); prior AMEND subject 776fdb75 superseded; keep DRAFT; #90 OPEN"
+      "blocked_reason": "OFFERED OpenAI re-review of combined tip 6e3f774 (F1 port + F2–F5); trial#128 package V1–V5 ACCEPT is separate surface; keep DRAFT; #90 OPEN"
     },
     {
       "work_id": "math-22-fixed-annulus-review",
