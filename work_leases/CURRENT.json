@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:36:18Z",
+  "updated_at": "2026-09-25T20:36:52Z",
   "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #22 @35eddbb thin-tube density continuation ACTIVE (OA-D5-THIN-TUBE release for nonauthor review); #21 still AUTHOR-SIDE; #15 MERGED eng; #9 STOP; #20 BLOCKED; #98 green DRAFT.",
   "leases": [
     {
@@ -78,7 +78,7 @@
         "head_oid": "3242d1ff76d01bda320556315a6971045fab530f"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T20:35:17Z",
+      "heartbeat_at": "2026-09-25T20:36:52Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -99,10 +99,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838539973",
         "https://github.com/d6g8k5htny-coder/Math-/pull/20",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36182105947",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/20#issuecomment-5838927456"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/20#issuecomment-5838927456",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR + OpenAI revalidation: leading pin still falsified; tip 3242d1f (Enumerate pin-site tridecic contact jets G_*_next) \u2014 jets \u2260 repair; consume #19 after distinct-lane check; #20 BLOCKED"
+      "blocked_reason": "STOP/REPAIR + OpenAI revalidation: leading pin still falsified; high jets \u2260 repair; OpenAI points to complementary #22 thin-tube candidate @ 35eddbb (NOT a fix/accept of unshifted #9 rows; NOT a fingerprint for #20); consume #19 after distinct-lane check; #20 BLOCKED"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
@@ -358,7 +359,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:36:18Z",
+      "heartbeat_at": "2026-09-25T20:36:52Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1042,7 +1043,7 @@
         "head_oid": "35eddbb5ab7dee33a659b64d8e9b0efeec16b70d"
       },
       "claimed_at": "2026-09-25T20:36:18Z",
-      "heartbeat_at": "2026-09-25T20:36:18Z",
+      "heartbeat_at": "2026-09-25T20:36:52Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1054,7 +1055,8 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889",
         "https://github.com/d6g8k5htny-coder/Math-/pull/22",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36186512540"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36186512540",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
       "blocked_reason": "DRAFT AUTHOR-SIDE; hosted 15-test green \u2260 analytic theorem; distinct nonauthor review of PROOF.md R1\u2013R8 requested; does not edit/accept #19; sci effect NONE; do not race write_scope"
