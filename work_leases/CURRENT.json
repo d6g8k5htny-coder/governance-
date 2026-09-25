@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:34:03Z",
+  "updated_at": "2026-09-25T20:34:41Z",
   "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #19 author follow-through (C6 domain/tests) @ ee8629f; tip may move \u2014 rebind reviews; #15 MERGED eng; #21 AUTHOR-SIDE; #9 STOP; #20 BLOCKED; #98 green DRAFT.",
   "leases": [
     {
@@ -78,7 +78,7 @@
         "head_oid": "3242d1ff76d01bda320556315a6971045fab530f"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T20:34:20Z",
+      "heartbeat_at": "2026-09-25T20:34:41Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -358,7 +358,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:34:03Z",
+      "heartbeat_at": "2026-09-25T20:34:41Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -790,7 +790,7 @@
         "head_oid": "6a41ea9704f914f95faed6cca3e5f6db70f7f9ed"
       },
       "claimed_at": "2026-09-25T19:48:00Z",
-      "heartbeat_at": "2026-09-25T20:34:03Z",
+      "heartbeat_at": "2026-09-25T20:34:41Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
