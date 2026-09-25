@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:56:11Z",
+  "updated_at": "2026-09-25T19:56:27Z",
   "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 tip cc82f7d (thin-belt unmatched height r^1) still STOP/REPAIR; #20 tip 4778a4e re-maps that fingerprint \u2014 BLOCKED INPUT; #15 eng APPROVE; #98 tip 776fdb75 CI pending; #110 verify green; gov-#4 AMEND_REQUIRED (distinct-lane policy review filed).",
   "leases": [
     {
@@ -350,10 +350,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "83afa8df736620c89e220c4863067f478ddf64fa"
+        "head_oid": "0219510e2ac03ad2b7945108107c5e97014bb8ac"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:56:11Z",
+      "heartbeat_at": "2026-09-25T19:56:27Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
