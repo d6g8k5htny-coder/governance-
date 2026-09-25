@@ -28,8 +28,8 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `e02f485…`; **CONFLICTING**; **replay green**; axial compensation density still open per OpenAI review |
-| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `f5b046f…`; successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12); **replay green** (×2) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `6e50d98…`; **CONFLICTING**; **replay green**; axial compensation density still open per OpenAI review |
+| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `6df5444…`; successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12); **replay green** (×2) |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; **replay FAIL** until SOURCE_FILES regenerated |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; #90 loss-only adapter + #95 v1.1; **verify green** (×2); still DRAFT pending OpenAI re-review |
