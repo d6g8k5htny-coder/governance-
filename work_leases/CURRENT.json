@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:30:44Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #15 MERGED @ ac868b2 (eng integrity only; head 8c4c946) \u2014 NOT theorem acceptance; #90/#98 remain open. #9 STOP; #20 BLOCKED; #21 density ACTIVE.",
+  "updated_at": "2026-09-25T20:31:28Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #15 MERGED eng-only; #21 @ b420099 AUTHOR-SIDE (replay+Drive green \u2260 theorem); #9 STOP; #20 BLOCKED; #98 CI green DRAFT.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -358,7 +358,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:30:44Z",
+      "heartbeat_at": "2026-09-25T20:31:28Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1003,7 +1003,7 @@
         "head_oid": "b420099b2440da3a8ba62f7000feacc9fc88069b"
       },
       "claimed_at": "2026-09-25T20:25:04Z",
-      "heartbeat_at": "2026-09-25T20:25:30Z",
+      "heartbeat_at": "2026-09-25T20:31:28Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1014,11 +1014,13 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839057633",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/21"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/21",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/21#issuecomment-5839138951",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36185607110"
       ],
       "delegates_to": null,
       "lanes_note": "Isolated branch from Math main; will not edit #9/#19 fingerprints/claim graph/Vault99",
-      "blocked_reason": "DRAFT author-side; independent review open; not independent of earlier OpenAI work; no parent theorem promotion; do not race this write_scope; #9/#19 untouched"
+      "blocked_reason": "DRAFT AUTHOR-SIDE CANDIDATE; hosted replay green (run 36185607110) + Drive landing verified \u2014 green execution \u2260 analytic density theorem; distinct nonauthor review of PROOF.md (2)-(8) still open; no weighted count / remaining-belt / RN-24-jet status change; do not race write_scope"
     }
   ]
 }
