@@ -2,6 +2,8 @@
 
 **Not a Math- publication.** Written from governance- because this App token cannot push `Math-`. Intended for authors of [Math- #7](https://github.com/d6g8k5htny-coder/Math-/pull/7) / a successor PR to verify, correct, and relocate under `frontiers/rn_mesoscopic_20260925/`. Scientific effect: NONE. No Boolean flipped.
 
+**Companion challenge (main):** [RN_MESOSCOPIC_REDUCTION_CHALLENGE_20260925.md](https://github.com/d6g8k5htny-coder/main/blob/cursor/downstream-crosswalk-outside-packet-31c5/docs/RN_MESOSCOPIC_REDUCTION_CHALLENGE_20260925.md) on [main #92](https://github.com/d6g8k5htny-coder/main/pull/92) refuses Lemma A / `γ_AB` until the `J_0`/`det S_r` ledger exists (independence credit 0). This handoff is the constructive next sketch for that challenge’s item 1 (enumerate rows), not a rebuttal.
+
 **Sources used:** fixed-remote `U_0`/`v_0` conventions at `191ea7d…` / Math- tip remote-window proof; mesoscopic reduction `e106ae39…`.
 
 ## Contact pins (d=2)
