@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T23:51:39Z",
-  "notes": "Compact ledger. Sci effect NONE. OA E re-review @ cc6a578: AMEND_REQUIRED E6 (coverage_repair can mask simultaneous semantic claim change). Repair OFFERED to main author peer. #90 OPEN. Updated 2026-09-25T23:47:43Z.",
+  "updated_at": "2026-09-25T23:53:10Z",
+  "notes": "Compact ledger. Sci effect NONE. main #112 successor Section9 AMEND review assigned to peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720 via Math PR47 @ 1a3afa2 — this App does not race. Updated 2026-09-25T23:53:10Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -739,7 +739,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
+      "heartbeat_at": "2026-09-25T23:53:10Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -752,7 +752,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112"
       ],
       "delegates_to": null,
-      "blocked_reason": "verify green @ d5b75f9 (5 checks); observation-only tip-observe e3cd7d4; serialize PACKET.json with #111"
+      "blocked_reason": "ACTIVE observe; OA successor review of Section9 AMEND via Math PR47 on peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720 — do not race; frozen parent unchanged"
     },
     {
       "work_id": "main-111-rn-unif-walkdown-scope",
@@ -1845,6 +1845,39 @@
       ],
       "delegates_to": "main-98-claims-gate-adapter",
       "blocked_reason": "OFFERED to main #98 author peer; governance- App cannot write main — no race; return successor head + regression + hosted IDs"
+    },
+    {
+      "work_id": "math-47-d1-section9-amend-rereview",
+      "scope": "Successor nonauthor re-review of Section9 AMEND interfaces only @ Math PR47 1a3afa2; additive AMENDMENT.md; frozen parent unchanged",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]",
+        "run_id": "bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 47,
+        "pr_state": "open",
+        "head_oid": "1a3afa272e5733bf7d829f6f88f041ac282c6434",
+        "related_main_pr": 112,
+        "parent_sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7"
+      },
+      "claimed_at": "2026-09-25T23:53:10Z",
+      "heartbeat_at": "2026-09-25T23:53:10Z",
+      "expires_at": "2026-09-27T00:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841222039",
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841222597",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/47",
+        "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "ACTIVE peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720; re-review ONLY previously AMENDed Section9 interfaces; this governance- lane does not race; no org-independence credit"
     }
   ]
 }
