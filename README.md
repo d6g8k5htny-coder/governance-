@@ -53,6 +53,10 @@ On the hardening branch, `tools/twelve_project_check.py` byte-pins `docs/OPEN_PR
 
 Live measurement (2026-09-25): main [#92](https://github.com/d6g8k5htny-coder/main/pull/92) first failed for that pin after adding a crosswalk pointer to `OPEN_PROBLEMS.md`; the follow-up commit restored tip bytes and kept discovery links on unpinned pages (`RESEARCH_INDEX.md`, `NAVIGATION.json`, the crosswalk itself). Prefer unpinned surfaces for new route pointers, or update the pin and re-run the twelve-project check in the same change.
 
-### Math- hard gate is integrity control, not full #90 eligibility
+### Packet transcription amendments
 
-[Math- #8](https://github.com/d6g8k5htny-coder/Math-/pull/8) implements a fail-closed dependency graph and refuses CONTROLLING when required transitive deps are nonterminal or `BLOCKED_ABSENT`. Measured gap: `apply_promotion` may set `controlling=true` while the node’s own classification remains `AUTHOR_SIDE_CANDIDATE` / `AUTHOR_SIDE_REDUCTION` once deps alone are terminal. That is weaker than treating CONTROLLING as theorem control under [#90](https://github.com/d6g8k5htny-coder/main/issues/90). Main [#92](https://github.com/d6g8k5htny-coder/main/pull/92) prose now marks the gate as in-development with that eligibility hole. A Math- successor should require a controlling-eligible self-classification (e.g. `PROVED_REVIEWED`) before setting `controlling`, without flipping `lemma_closed`.
+When a file inside `docs/math_status/` must change, update the body and the matching `PACKET.json` transcription digest/bytes in the **same** commit (live case: main [#99](https://github.com/d6g8k5htny-coder/main/pull/99) on `STATUS_RN_UNIF.md`). Do not add unexpected sibling filenames under `docs/math_status/`; put new node notes under a non-packet path such as `docs/math_status_nodes/`. Refreshing a digest does not excuse a flag leaving `false`.
+
+### Math- hard gate (`#90` integrity control)
+
+[Math- #8](https://github.com/d6g8k5htny-coder/Math-/pull/8) + own-node eligibility [Math- #11](https://github.com/d6g8k5htny-coder/Math-/pull/11) are **merged** (2026-09-25). The live gate refuses CONTROLLING unless required transitive deps are terminal **and** the node’s own classification is in `CONTROLLING_ELIGIBLE` (currently `{PROVED_REVIEWED}`). Pre-fix measurement: deps-terminal alone could set `controlling=true` on an `AUTHOR_SIDE_CANDIDATE`. Green CI / hashes / same-author review remain non-discharge. Scientific effect of the gate itself: NONE.
