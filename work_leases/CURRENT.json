@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:18:00Z",
+  "updated_at": "2026-09-25T19:18:30Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE. Math- #9 AMEND REQUIRED (finite-r pins) unresolved while tip continues higher-jet enum.",
   "leases": [
     {
@@ -18,10 +18,10 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "044928047dc330724bd7829744d7898dee2cada5"
+        "head_oid": "4b983b934f5980186a825a17c72c5b556df641b1"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T19:17:00Z",
+      "heartbeat_at": "2026-09-25T19:18:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -47,11 +47,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36172226452",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838126619",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838177692"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838177692",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838202699"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "AMEND_REQUIRED: real base\u2192head CI + source FILE bytes; reuse Math- #15 snapshot CLI contract; tip self-audit insufficient"
+      "blocked_reason": "Cursor deployed before/after CLI + strict containers on tip 4b983b9; watching CI + OpenAI re-review"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -334,7 +335,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:18:00Z",
+      "heartbeat_at": "2026-09-25T19:18:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
