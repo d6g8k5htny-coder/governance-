@@ -35,7 +35,7 @@
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `0449280…`; #90 loss-only adapter + #95 v1.1; **verify green** (×2); still DRAFT pending OpenAI re-review |
 | main [#109](https://github.com/d6g8k5htny-coder/main/pull/109) | `7389b88…`; errata pointer (retipped after #108) |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `518594d…` (`tests/test_cover.py` only); CI re-queued after #108 retip; #106 fail `pinned_sources_check` on `research/cover/ledger.py` |
-| main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) | `36fe375…`; consumers map missing (see rule 6) |
+| main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) | `2440881…`; retip routes LPW_CONSTANT via `research/lpw/README.md` (already in CONSUMERS) instead of citing the tab from CONTRIBUTION_PLAN; verify re-queued |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; `REVIEW_TOPOLOGY.md` only — no path overlap with this PR |
 
 ## This agent

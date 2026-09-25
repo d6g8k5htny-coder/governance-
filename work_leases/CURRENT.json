@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T18:44:30Z",
+  "updated_at": "2026-09-25T18:49:00Z",
   "notes": "Compact ledger from live surfaces. OFFERED is not activity. Scientific effect NONE.",
   "leases": [
     {
@@ -320,7 +320,7 @@
         "head_oid": "7dacb1e7c7f7e17c2fb2bca9d1a55dfdaa80a464"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T18:44:30Z",
+      "heartbeat_at": "2026-09-25T18:49:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -425,6 +425,36 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/110"
+      ],
+      "delegates_to": null
+    },
+    {
+      "work_id": "main-105-contribution-plan",
+      "scope": "Retire stale CONTRIBUTION_PLAN next-items; LPW identity REFUTED via lpw README crosswalk",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/contribution-plan-crosswalk-lpw-identity",
+        "pr": 105,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "2440881a32914c86768c87c36f01355031052b4d"
+      },
+      "claimed_at": "2026-09-25T18:19:00Z",
+      "heartbeat_at": "2026-09-25T18:49:00Z",
+      "expires_at": "2026-09-26T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "docs/CONTRIBUTION_PLAN.md"
+      ],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/105"
       ],
       "delegates_to": null
     }
