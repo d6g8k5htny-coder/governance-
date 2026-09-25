@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:06:29Z",
-  "notes": "Compact ledger. OFFERED≠activity. Sci effect NONE. Cursor policy re-review ACCEPT governance- #4 @ 6da327b (five findings closed). Math reviews filed: #16/#18/#19/#21/#22. #98 AMEND_REQUIRED on main author lane. #9 tip d860969 / #20 tip bb25dc8 — pause jet churn. Updated 2026-09-25T21:02:45Z.",
+  "updated_at": "2026-09-25T21:07:44Z",
+  "notes": "Compact ledger. OFFERED≠activity. Sci effect NONE. OpenAI CLAIM OA-PR98-F1-REPAIR on NEW branch from 776fdb75 (F1 only; Cursor branch untouched) — do not duplicate F1; Cursor reviews when posted. COLLISION RISK: OA-D5-ANNULUS-BRIDGE + OA-D5-ANNULUS-STITCH both claim fixed-annulus stitch from #22+#16 (similar |t|=r^1/24 cutoff) — record conflict, do not race either. Updated 2026-09-25T21:07:44Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:02:45Z",
+      "heartbeat_at": "2026-09-25T21:07:44Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -59,11 +59,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839320734",
         "https://github.com/d6g8k5htny-coder/trial/pull/124",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36188243799",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-main98-amend-required.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-main98-amend-required.md",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "tip 776fdb75 CI green DRAFT; OpenAI EXECUTED NONAUTHOR REVIEW AMEND_REQUIRED for #90 enforcement (5 boundary families; trial #124 @ 4381b43; run 36188243799) — repair on main author lane; governance- recorded amendments/20260925-main98-amend-required.md; #90 OPEN; Cursor Math reciprocal reviews (#18/#19/#21/#22) filed on governance- (cannot push main)"
+      "blocked_reason": "tip 776fdb75 CI green DRAFT; OpenAI AMEND_REQUIRED (5 families) + CLAIM OA-PR98-F1-REPAIR (F1 only on NEW branch forked from 776fdb75; Cursor branch untouched) — do not duplicate F1 edit; Cursor/nonauthor reviews OpenAI patch when posted; F2–F5 remain open; #90 OPEN; governance- note amendments/20260925-main98-amend-required.md"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1059,7 +1060,7 @@
         "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
       },
       "claimed_at": "2026-09-25T20:36:18Z",
-      "heartbeat_at": "2026-09-25T21:02:45Z",
+      "heartbeat_at": "2026-09-25T21:07:44Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1075,7 +1076,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT AUTHOR-SIDE; tip b2e1652; hosted CI green ≠ theorem; Cursor R1–R8+S ACCEPT on governance- amendments/20260925-math22-thin-tube-review.md (App cannot comment Math-); sci effect NONE"
+      "blocked_reason": "DRAFT; tip b2e1652; Cursor R1–R8+S ACCEPT on governance-; author released two-scale write claim; ANNULUS-BRIDGE + ANNULUS-STITCH pickups COLLIDE on fixed-annulus stitch — serialize; sci effect NONE"
     },
     {
       "work_id": "math-22-thin-tube-review-offer",
@@ -1168,6 +1169,98 @@
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED: (2)–(8) ACCEPT at b420099 filed on governance- amendments/20260925-math21-axial-density-review.md; App cannot comment Math-; sci effect NONE; inner axial belt only; not full thin-belt/count"
+    },
+    {
+      "work_id": "main-98-openai-f1-repair",
+      "scope": "OpenAI F1-only corrective candidate: refuse unsupported new controlling / retained controlling; allow demotion; NEW branch from 776fdb75; not Cursor #98 tip edit",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": null,
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
+      },
+      "claimed_at": "2026-09-25T21:07:44Z",
+      "heartbeat_at": "2026-09-25T21:07:44Z",
+      "expires_at": "2026-09-26T21:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "tools/claims_gate_adapter.py"
+      ],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839620207"
+      ],
+      "delegates_to": null,
+      "lanes_note": "NEW branch TBD; Cursor tip 776fdb75 frozen for this claim; F2-F5 not claimed",
+      "blocked_reason": "CLAIMED F1-only; patch/tests not yet posted; nonauthor review after release; do not race Cursor tip"
+    },
+    {
+      "work_id": "math-annulus-bridge-oa",
+      "scope": "OA-D5-ANNULUS-BRIDGE-20260925: fixed scaled-annulus stitch via two-scale inner + PR16 outer at |t|~r^(1/24); additive package; not tube rewrite",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": null,
+        "pr": 22,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
+      },
+      "claimed_at": "2026-09-25T21:07:44Z",
+      "heartbeat_at": "2026-09-25T21:07:44Z",
+      "expires_at": "2026-09-26T21:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839624829"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "COLLISION RISK with sibling annulus claim (BRIDGE vs STITCH); both target fixed-annulus O(kr^3) via r^(1/24) cutoff; do not race; await author serialize or one RELEASE; same-provider ≠ independent acceptance of #16/#22"
+    },
+    {
+      "work_id": "math-annulus-stitch-oa",
+      "scope": "OA-D5-ANNULUS-STITCH-20260925: fixed scaled-annulus stitch via two-scale inner + PR16 outer at |t|~r^(1/24); additive package; not tube rewrite",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/d5-thin-tube-20260925",
+        "pr": 22,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
+      },
+      "claimed_at": "2026-09-25T21:07:44Z",
+      "heartbeat_at": "2026-09-25T21:07:44Z",
+      "expires_at": "2026-09-26T21:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "frontiers/rn_thin_tube_20260925/"
+      ],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839625841"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "COLLISION RISK with sibling annulus claim (BRIDGE vs STITCH); both target fixed-annulus O(kr^3) via r^(1/24) cutoff; do not race; await author serialize or one RELEASE; same-provider ≠ independent acceptance of #16/#22"
     }
   ]
 }
