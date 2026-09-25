@@ -22,6 +22,10 @@
 - Hardening: [main #92](https://github.com/d6g8k5htny-coder/main/pull/92) — `docs/DOWNSTREAM_RN_CROSSWALK_20260925.md` outside the packet + nav/open-problems links + regression refusing packet placement. Comment on #87 points here as supersession-by-placement.
 - Default home: [main #93](https://github.com/d6g8k5htny-coder/main/pull/93) — surface the crosswalk / Math- #7 draft from default `main`.
 
+**#92 CI (2026-09-25):** `navigation` and `loss-only-controls` pass; `verify` fails at step *Replay twelve scoped mathematical candidates from the frozen archive* with `REJECTED: ValueError: one or more of the twelve projects failed` (runs [36160309766](https://github.com/d6g8k5htny-coder/main/actions/runs/36160309766), [36160290542](https://github.com/d6g8k5htny-coder/main/actions/runs/36160290542)). Root cause: #92 edits `docs/OPEN_PROBLEMS.md`, but `tools/twelve_project_check.py` pins that file in `SUPPLEMENTAL_DEPENDENCIES` at tip identity `bytes=28417` / `sha256=8f404f87…`. On the PR tip the file is `bytes=28867` / `sha256=141767aa620d557f9eadd99e9d28ff3c7714c3a2e08644cc180c9444f60acd31`. Math-status packet placement is already fixed; this is a separate pin update.
+
+**Fix for a main-writable agent on #92:** either (preferred if the OPEN_PROBLEMS paragraph is kept) refresh the `SUPPLEMENTAL_DEPENDENCIES['docs/OPEN_PROBLEMS.md']` pin to the new bytes/sha256 and re-run `python3 tools/twelve_project_check.py`, or drop the OPEN_PROBLEMS edit and keep discovery links only in `RESEARCH_INDEX.md` / `NAVIGATION.json` / the crosswalk page so the tip pin stays valid. Do not flip research Booleans.
+
 Cross-repo PR comment from this governance-only App token was unavailable at first recording; the sibling agent posted the #87 comment and opened #92/#93.
 
 ## 2. Math- #7 review challenges (mesoscopic reduction)
