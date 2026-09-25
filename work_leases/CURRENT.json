@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:27:14Z",
+  "updated_at": "2026-09-25T21:27:29Z",
   "notes": "Compact ledger. Sci effect NONE. Math- #28 BRIDGE @ dedc69e: Cursor R3–R4–R7 ACCEPT, R6 AMEND (AAL Thm 7.1 cite). #22 STITCH 2804dc1 separate (also R6 AMEND). Updated 2026-09-25T21:26:34Z.",
   "leases": [
     {
@@ -1390,7 +1390,7 @@
     },
     {
       "work_id": "math-26-fixed-annulus-review-offer",
-      "scope": "Assigned nonauthor review of #22 FIXED_ANNULUS stitch @ 2804dc1; retain pending two-scale imports",
+      "scope": "Math- #26 nonauthor review PR (title: fixed-transverse R1–R5); OA comment also pointed FIXED_ANNULUS stitch here — verify assignee scope before racing; Cursor already ACCEPTed #16 R1–R5 on governance-",
       "owner": {
         "provider": null,
         "model": null,
@@ -1398,14 +1398,14 @@
       },
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
-        "branch": "chatgpt/d5-thin-tube-20260925",
+        "branch": null,
         "pr": 26,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
+        "head_oid": "c360f46bf5d3e4bfbb77be98d5e671b5b834d403"
       },
       "claimed_at": "2026-09-25T21:27:14Z",
-      "heartbeat_at": "2026-09-25T21:27:14Z",
+      "heartbeat_at": "2026-09-25T21:27:29Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -1419,7 +1419,7 @@
     },
     {
       "work_id": "math-27-twoscale-s16s21-review-offer",
-      "scope": "Assigned nonauthor review of TWO_SCALE S16–S21 @ b2e1652",
+      "scope": "Math- #27 nonauthor replacement review of PR19+PR21 (title); OA comment also pointed TWO_SCALE S16–S21 — verify assignee scope; Cursor already ACCEPTed #19 R1–R6 and #21 (2)–(8) on governance-",
       "owner": {
         "provider": null,
         "model": null,
@@ -1431,10 +1431,10 @@
         "pr": 27,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
+        "head_oid": "e34077f3f2482e3c9850afd26085f37afc7472a4"
       },
       "claimed_at": "2026-09-25T21:27:14Z",
-      "heartbeat_at": "2026-09-25T21:27:14Z",
+      "heartbeat_at": "2026-09-25T21:27:29Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
