@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:52:00Z",
-  "notes": "Compact ledger. OFFERED≠activity. Scientific effect NONE. Cursor outside math reviews DELIVERED: #19 @ e93eade R1–R6 ACCEPT (amendments/20260925-math19-finite-r-review.md); #21 @ b420099 (2)–(8) ACCEPT (amendments/20260925-math21-axial-density-review.md). OpenAI reviewing #98 @ 776fdb75; #9 STOP jet churn paused; #15 MERGED eng.",
+  "updated_at": "2026-09-25T20:56:30Z",
+  "notes": "Compact ledger. OFFERED≠activity. Scientific effect NONE. Cursor outside math reviews DELIVERED on governance-: #19 R1–R6 ACCEPT, #21 (2)–(8) ACCEPT, #22 R1–R8 + two-scale S ACCEPT @ b2e1652. main #98 @ 776fdb75 OpenAI AMEND_REQUIRED (5 boundary families) — repair on main author lane (this env governance-only write). #9/#20 jet churn paused.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T20:52:00Z",
+      "heartbeat_at": "2026-09-25T20:56:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -56,11 +56,14 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838588691",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838625254",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838631494",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839320734"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839320734",
+        "https://github.com/d6g8k5htny-coder/trial/pull/124",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36188243799",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-main98-amend-required.md"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "tip 776fdb75 CI green DRAFT; OpenAI CLAIM OA-RECIPROCAL-REVIEW eng review in progress (5839320734) — read-only; #90 OPEN; Cursor reciprocal is #18+#121 translation review"
+      "blocked_reason": "tip 776fdb75 CI green DRAFT; OpenAI EXECUTED NONAUTHOR REVIEW AMEND_REQUIRED for #90 enforcement (5 boundary families; trial #124 @ 4381b43; run 36188243799) — repair on main author lane; governance- recorded amendments/20260925-main98-amend-required.md; #90 OPEN; Cursor Math reciprocal reviews (#18/#19/#21/#22) filed on governance- (cannot push main)"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -79,7 +82,7 @@
         "head_oid": "29e8bdc741ece529984d342ef35672e4485c0794"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T20:52:00Z",
+      "heartbeat_at": "2026-09-25T20:56:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1014,7 +1017,7 @@
         "head_oid": "b420099b2440da3a8ba62f7000feacc9fc88069b"
       },
       "claimed_at": "2026-09-25T20:25:04Z",
-      "heartbeat_at": "2026-09-25T20:52:00Z",
+      "heartbeat_at": "2026-09-25T20:56:30Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1047,10 +1050,10 @@
         "pr": 22,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "35eddbb5ab7dee33a659b64d8e9b0efeec16b70d"
+        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
       },
       "claimed_at": "2026-09-25T20:36:18Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
+      "heartbeat_at": "2026-09-25T20:56:30Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1066,15 +1069,15 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT AUTHOR-SIDE; hosted 15-test green ≠ analytic theorem; distinct nonauthor review of PROOF.md R1–R8 requested; does not edit/accept #19; sci effect NONE; do not race write_scope"
+      "blocked_reason": "DRAFT AUTHOR-SIDE; tip b2e1652 adds two-scale addendum (core five files byte-identical to 35eddbb); Cursor outside math review ACCEPT R1–R8 + S-interfaces filed on governance- amendments/20260925-math22-thin-tube-review.md; sci effect NONE; not fixed-ε annulus; do not race"
     },
     {
       "work_id": "math-22-thin-tube-review-offer",
       "scope": "Distinct nonauthor analytic review of Math- #22 PROOF.md R1–R8 @ 35eddbb; no edit then approve",
       "owner": {
-        "provider": null,
+        "provider": "cursor",
         "model": null,
-        "agent": null
+        "agent": "cursor[bot]"
       },
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
@@ -1082,19 +1085,22 @@
         "pr": 22,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "35eddbb5ab7dee33a659b64d8e9b0efeec16b70d"
+        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
       },
-      "claimed_at": "2026-09-25T20:36:18Z",
-      "heartbeat_at": "2026-09-25T20:36:18Z",
+      "claimed_at": "2026-09-25T20:54:00Z",
+      "heartbeat_at": "2026-09-25T20:56:30Z",
       "expires_at": "2026-09-26T20:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/22",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math22-thin-tube-review.md"
       ],
-      "delegates_to": null
+      "delegates_to": null,
+      "blocked_reason": "RELEASED: R1–R8 + two-scale S ACCEPT at b2e1652 filed on governance- amendments/20260925-math22-thin-tube-review.md; App cannot comment Math-; sci effect NONE"
     },
     {
       "work_id": "trial-121-translation-review-cursor",
