@@ -26,9 +26,11 @@
 | PR | Note |
 |---|---|
 | Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | chart-J0 package; replay green; still draft |
-| Math- [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12) | CLOSED stale pre-#13 — successor rebase needed |
+| Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | successor to closed [#12](https://github.com/d6g8k5htny-coder/Math-/pull/12): map #9 into post-#13 D5 gate |
+| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | fail-closed edge-only / complete-record dependency transitions |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | schema pilot; was fail on closure allowlist; verify re-queued |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | schema pilot; allowlist fixed (`d765efa`); verify re-queued |
+| main [#108](https://github.com/d6g8k5htny-coder/main/pull/108)–[#110](https://github.com/d6g8k5htny-coder/main/pull/110) | tip-observe / errata pointer / cellcount pin drafts |
 
 ## This agent
 
