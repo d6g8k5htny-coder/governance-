@@ -34,7 +34,7 @@
 |---|---|
 | Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `03c2602…` (thin-belt alg×height-r skeleton); **CONFLICTING**; **STOP/REPAIR** still open — leading finite-r pin rows unshifted; skeletons ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` only after distinct-lane check |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `8b81c19…`; re-maps #9 `03c2602…` into D5 gate; **BLOCKED INPUT** same pattern as closed #14 — unrepaired pins + write-scope overlap with eng-approved [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) gate tree |
-| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; **undrafted**; distinct-lane **eng APPROVE** (sci effect NONE; comment 5838558852) — preserve exact head at integration; OpenAI will not self-merge; #90/#98 remain separate |
+| Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; Cursor eng **ACCEPT** (V1–V5) filed in `amendments/20260925-math15-eng-review.md` (Math- comment blocked by App write); sci effect NONE; #90/#98 separate |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; **do not build next J0/Hessian ledger** from current finite-r Hermite until #9 pins repaired (comment 5838564395) |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | `0ae7e8f…`; P15 SMT pilot green; translation audit + H5/H6 probe in trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) @ `391f6a8…` (main issue [#113](https://github.com/d6g8k5htny-coder/main/issues/113)); same-provider ≠ acceptance; keep DRAFT |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `776fdb75…`; `/tmp` report fix landed; **verify still IN_PROGRESS**; keep DRAFT; #90 OPEN |
@@ -44,6 +44,7 @@
 | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `ee8629f…`; finite-r Hermite repair + explicit C^6 remainder; bind this head (not `7d295ae`); distinct-lane review still required |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; **REVIEW PICKUP** for `TRANSVERSE_BOUND_CANDIDATE.md` (R1–R5); assign distinct reviewer after #9 finite-pin repair — leave AUTHOR_SIDE if none |
+| Outside reviews (#15/#16/#18/#19) | Assignments posted 5838821860/2651/2251/3056 — #15 eng ACCEPT on governance-; #16/#18/#19 still OFFERED |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `da195ed…`; distinct-lane **AMEND_REQUIRED** (same-account≠provider; stale Current application; STOP pause; schema vs #98) — see `amendments/20260925-review-topology-notes.md` |
 
 ### Closed without merge (2026-09-25)

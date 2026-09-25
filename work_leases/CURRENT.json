@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:06:39Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 tip 03c2602 (thin-belt alg\u00d7height-r skeleton) STOP/REPAIR; #20 tip 8b81c19 remaps it \u2014 BLOCKED INPUT; #15 eng APPROVE; #18+trial#121 translation probe; #98 776fdb75 CI still pending; gov-#4 AMEND_REQUIRED.",
+  "updated_at": "2026-09-25T20:09:54Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Cursor eng REVIEW of Math- #15 @ 8c4c946 delivered on governance- (amendments/20260925-math15-eng-review.md; Math- comment blocked by App write scope). Outside review assignments also OPEN for #16/#18/#19. #9 03c2602 STOP; #20 8b81c19 BLOCKED; #98 CI pending.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -157,7 +157,7 @@
         "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a"
       },
       "claimed_at": "2026-09-25T18:11:00Z",
-      "heartbeat_at": "2026-09-25T20:06:39Z",
+      "heartbeat_at": "2026-09-25T20:09:54Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -172,10 +172,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5837841897",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36177977545",
         "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838230615",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838558852"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838558852",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838821860",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math15-eng-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "undrafted; replay green; distinct-lane eng APPROVE @ 8c4c946 (sci effect NONE); preserve exact reviewed head at integration; #90/#98 adapter remains separate; OpenAI will not self-merge",
+      "blocked_reason": "undrafted; replay green; Cursor eng ACCEPT @ 8c4c946 filed on governance- (amendments/20260925-math15-eng-review.md) \u2014 mirror to Math- from Math-writable lane; sci effect NONE; #90/#98 remain separate; OpenAI will not self-merge",
       "lanes_note": "Write scope frontiers/downstream_gate_20260925/ overlaps Math- #20 fingerprint-sync draft \u2014 do not race; #15 eng APPROVE binds 8c4c946 only"
     },
     {
@@ -353,7 +355,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:06:39Z",
+      "heartbeat_at": "2026-09-25T20:09:54Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -648,14 +650,15 @@
         "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
       },
       "claimed_at": "2026-09-25T19:45:00Z",
-      "heartbeat_at": "2026-09-25T19:45:00Z",
+      "heartbeat_at": "2026-09-25T20:09:54Z",
       "expires_at": "2026-09-26T19:45:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838519626"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838519626",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838822651"
       ],
       "delegates_to": null
     },
@@ -833,6 +836,120 @@
       ],
       "delegates_to": null,
       "blocked_reason": "DRAFT; author-side probe + translation crosswalk; same-provider \u2260 independent acceptance; no Math-/#98 edits; distinct review requested"
+    },
+    {
+      "work_id": "math-15-eng-review-cursor",
+      "scope": "Outside eng integrity review of Math- #15 @ 8c4c946 (V1\u2013V5); Cursor lane",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/transition-integrity-v2-20260925",
+        "pr": 15,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a"
+      },
+      "claimed_at": "2026-09-25T20:09:54Z",
+      "heartbeat_at": "2026-09-25T20:09:54Z",
+      "expires_at": "2026-09-26T20:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/15#issuecomment-5838821860",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math15-eng-review.md"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "Cursor eng ACCEPT delivered on governance- amendment; Math- mirror pending App write"
+    },
+    {
+      "work_id": "math-16-transverse-analytic-review",
+      "scope": "Outside analytic review R1\u2013R5 of TRANSVERSE_BOUND_CANDIDATE.md @ 32b80ee; no edit",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/downstream-boundary-review-20260925",
+        "pr": 16,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
+      },
+      "claimed_at": "2026-09-25T20:09:54Z",
+      "heartbeat_at": "2026-09-25T20:09:54Z",
+      "expires_at": "2026-09-26T20:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838822651"
+      ],
+      "delegates_to": null
+    },
+    {
+      "work_id": "math-19-finite-r-math-review",
+      "scope": "Outside math review R1\u2013R6 of finite-r Hermite repair @ ee8629f; bind head; no trust finite_r_contact.py",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/d5-finite-r-hermite-repair-20260925",
+        "pr": 19,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"
+      },
+      "claimed_at": "2026-09-25T20:09:54Z",
+      "heartbeat_at": "2026-09-25T20:09:54Z",
+      "expires_at": "2026-09-26T20:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5838822251"
+      ],
+      "delegates_to": null
+    },
+    {
+      "work_id": "math-18-smt-translation-review",
+      "scope": "Outside formal-translation review of #18 @ 0ae7e8f vs parent PROOF blob 582180e4\u2026",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/p15-smt-pilot-20260925-1918",
+        "pr": 18,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
+      },
+      "claimed_at": "2026-09-25T20:09:54Z",
+      "heartbeat_at": "2026-09-25T20:09:54Z",
+      "expires_at": "2026-09-26T20:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5838823056"
+      ],
+      "delegates_to": null
     }
   ]
 }
