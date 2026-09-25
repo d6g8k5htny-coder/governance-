@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:42:22Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #19 tip e93eade C6 follow-through delivered \u2014 prior ee8629f review binds STALE; outside math review still required at new digest; #22 tube lane separate; #9 STOP; #15 MERGED eng.",
+  "updated_at": "2026-09-25T20:45:23Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Cursor reciprocal translation review of #18+#121 DELIVERED (amendments/20260925-math18-translation-review.md): 7/7 MATCH, F10_CLOSED additive; OpenAI reviewing #98 @ 776fdb75; #19 e93eade; #9 STOP; #15 MERGED eng.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "776fdb75eb718293e296937c33eb77c228616a86"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
+      "heartbeat_at": "2026-09-25T20:44:16Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -55,11 +55,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36179103673",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838588691",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838625254",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838631494"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838631494",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839320734"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "tip 776fdb75: ALL CI green (subscription confirm); keep DRAFT pending OpenAI event-report readback; #90 OPEN; eng\u2260discharge"
+      "blocked_reason": "tip 776fdb75 CI green DRAFT; OpenAI CLAIM OA-RECIPROCAL-REVIEW eng review in progress (5839320734) \u2014 read-only; #90 OPEN; Cursor reciprocal is #18+#121 translation review"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -75,10 +76,10 @@
         "pr": 9,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "e8d60ccaad16893ee0b51e4187f0b19d53bafc41"
+        "head_oid": "b1ea962cccddea7d177fa29fb3830a63f8ea29b2"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
+      "heartbeat_at": "2026-09-25T20:44:16Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -359,7 +360,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:42:22Z",
+      "heartbeat_at": "2026-09-25T20:45:23Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -619,7 +620,7 @@
         "head_oid": "e93eade078cac2e8b14aa39d402a3043b7cdb1c7"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T20:42:22Z",
+      "heartbeat_at": "2026-09-25T20:44:16Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -687,7 +688,7 @@
         "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-25T20:06:39Z",
+      "heartbeat_at": "2026-09-25T20:45:23Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -706,7 +707,7 @@
         "https://github.com/d6g8k5htny-coder/main/issues/113#issuecomment-5838770572"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT @ 0ae7e8f (algebra-pilot green); author-side translation audit + bounded H5/H6 probe delivered in trial #121 @ 391f6a8 / main issue #113 \u2014 same-provider \u2260 independent acceptance; distinct review of translations still requested; no PR18 source change"
+      "blocked_reason": "DRAFT @ 0ae7e8f; Cursor translation MATCH\u00d77 filed on governance-; independent math review / proof-assistant still open; not theorem acceptance"
     },
     {
       "work_id": "main-112-tip-observe-e3cd7d4",
@@ -790,10 +791,10 @@
         "pr": 20,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "dd05be8d32acefd9a24b1908cb42210fc8fa978d"
+        "head_oid": "559ae82b9ad179b5c8b63b23cf6442e492e77af1"
       },
       "claimed_at": "2026-09-25T19:48:00Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
+      "heartbeat_at": "2026-09-25T20:44:16Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -830,7 +831,7 @@
         "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191"
       },
       "claimed_at": "2026-09-25T20:05:12Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
+      "heartbeat_at": "2026-09-25T20:45:23Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -939,9 +940,9 @@
       "work_id": "math-18-smt-translation-review",
       "scope": "Outside formal-translation review of #18 @ 0ae7e8f vs parent PROOF blob 582180e4\u2026",
       "owner": {
-        "provider": null,
+        "provider": "cursor",
         "model": null,
-        "agent": null
+        "agent": "cursor[bot]"
       },
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
@@ -951,17 +952,20 @@
         "issue": null,
         "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
       },
-      "claimed_at": "2026-09-25T20:09:54Z",
-      "heartbeat_at": "2026-09-25T20:09:54Z",
+      "claimed_at": "2026-09-25T20:44:16Z",
+      "heartbeat_at": "2026-09-25T20:45:23Z",
       "expires_at": "2026-09-26T20:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5838823056"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5838823056",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839320734",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math18-translation-review.md"
       ],
-      "delegates_to": null
+      "delegates_to": null,
+      "blocked_reason": "RELEASED: translation MATCH\u00d77 filed on governance- amendments/20260925-math18-translation-review.md; App cannot comment Math-/main \u2014 mirror if needed; sci effect NONE; not theorem acceptance"
     },
     {
       "work_id": "math-7-d5-external-recon",
@@ -1090,6 +1094,37 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839213889"
       ],
       "delegates_to": null
+    },
+    {
+      "work_id": "trial-121-translation-review-cursor",
+      "scope": "Cursor reciprocal: review trial #121 seven-obligation parent crosswalk @ 391f6a8 with Math- #18",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "branch": "chatgpt/p15-assumption-probe-20260925",
+        "pr": 121,
+        "pr_state": "open",
+        "issue": null,
+        "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191"
+      },
+      "claimed_at": "2026-09-25T20:44:16Z",
+      "heartbeat_at": "2026-09-25T20:45:23Z",
+      "expires_at": "2026-09-26T20:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839320734",
+        "https://github.com/d6g8k5htny-coder/trial/pull/121",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math18-translation-review.md"
+      ],
+      "delegates_to": "math-18-smt-translation-review",
+      "blocked_reason": "RELEASED: translation MATCH\u00d77 filed on governance- amendments/20260925-math18-translation-review.md; App cannot comment Math-/main \u2014 mirror if needed; sci effect NONE; not theorem acceptance"
     }
   ]
 }

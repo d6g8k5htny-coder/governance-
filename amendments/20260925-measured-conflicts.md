@@ -33,11 +33,11 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `e8d60cc…` (Enumerate pin-site tetradecic contact jets I_*_next); **CONFLICTING**; **STOP/REPAIR** + revalidation — unshifted `6k y1^2` still present; jets ≠ repair; complementary [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) ≠ pin fix; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` after distinct-lane check |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `dd05be8…`; remaps unrepaired #9 (live `e8d60cc…`); **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply; jets ≠ repair; overlaps [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `b1ea962…` (Enumerate pin-site pentadecic contact jets J_*_next); **CONFLICTING**; **STOP/REPAIR** — unshifted pins; jets ≠ repair; complementary [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) ≠ pin fix; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` after distinct-lane check |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `559ae82…`; remaps #9 `b1ea962…`; **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
-| Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | `0ae7e8f…`; P15 SMT pilot green; translation audit + H5/H6 probe in trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) @ `391f6a8…` (main issue [#113](https://github.com/d6g8k5htny-coder/main/issues/113)); same-provider ≠ acceptance; owner: **optional diagnostic only** (no platform); **CI green** @ `391f6a8…`; keep DRAFT |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `776fdb75…`; `/tmp` report fix; **ALL CI green**; keep DRAFT pending OpenAI event-report readback; #90 OPEN; eng≠discharge |
+| Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | Cursor reciprocal translation **MATCH×7** (`amendments/20260925-math18-translation-review.md`); F10_CLOSED additive; eng≠theorem; keep DRAFT |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `776fdb75…`; **CI green**; OpenAI reciprocal eng review CLAIMED (5839320734); Cursor reciprocal = #18+#121 translation; keep DRAFT; #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
