@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:48:58Z",
+  "updated_at": "2026-09-25T21:51:03Z",
   "notes": "Compact ledger. Sci effect NONE. OA combined F1–F5 re-review @ 6e3f774 via trial#131: AMEND_REQUIRED — 4 defects (owner-seed before reverse; F1 bypass; malformed≠absent schema; cross-repo bind). F1/same-repo/immutable-ref/dup-JSON not refuted. Repair OFFERED main author. Updated 2026-09-25T21:48:58Z.",
   "leases": [
     {
@@ -83,10 +83,10 @@
         "pr_state": "open",
         "issue": null,
         "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
-        "oid": "dd23703482d7d3f55a8dcaa82bc0d6077551bc93"
+        "oid": "2235a0fa20b436e96ca09fce08b9a5e0bac5fce6"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T21:44:56Z",
+      "heartbeat_at": "2026-09-25T21:51:03Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -111,7 +111,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip dd23703 adds thin-belt height residual after gradient contact — still residual/jet churn on falsified pins; jets≠repair; consume merged #19; pause"
+      "blocked_reason": "STOP/REPAIR: tip 2235a0f henicosic jet enumeration on falsified pins; jets≠repair; consume merged #19; pause high-jet churn"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",

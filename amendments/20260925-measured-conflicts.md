@@ -35,7 +35,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `dd23703…`; **STOP/REPAIR**; height-residual tip; jets≠repair; **pause**; consume merged [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `2235a0f…`; **STOP/REPAIR**; henicosic jet tip; jets≠repair; **pause**; consume merged [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18)+trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) | Cursor reciprocal translation **MATCH×7** (`amendments/20260925-math18-translation-review.md`); F10_CLOSED additive; eng≠theorem; keep DRAFT |
