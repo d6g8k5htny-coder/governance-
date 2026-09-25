@@ -32,8 +32,8 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `cc663ba…` (Record pin-centered unmatched height r^1 after Morse leading order); **CONFLICTING**; **STOP/REPAIR** + OpenAI revalidation — unshifted `6k y1^2` still present; jets ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` after distinct-lane check |
-| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `23b5363…`; remaps #9 `cc663ba…`; **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply; jets ≠ repair; overlaps [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `3a9f9e0…` (Record pin-centered algebraic-factor × height-r combined skeleton); **CONFLICTING**; **STOP/REPAIR** + revalidation — unshifted `6k y1^2` still present; jets ≠ repair; consume [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `ee8629f…` after distinct-lane check |
+| Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `0b9fd32…`; remaps #9 `3a9f9e0…`; **SOURCE REVALIDATION BLOCK** — falsified pins; PR17/PR19 apply; jets ≠ repair; overlaps [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `8c4c946…`; **replay green**; Cursor eng **ACCEPT** (V1–V5) filed in `amendments/20260925-math15-eng-review.md` (Math- comment blocked by App write); sci effect NONE; #90/#98 separate |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | DRAFT; no J0/Hessian until #9 pins repaired; D5 external-recon leads only (comment 5838994872) — subordinate to pin repair; no theorem credit |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | `0ae7e8f…`; P15 SMT pilot green; translation audit + H5/H6 probe in trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121) @ `391f6a8…` (main issue [#113](https://github.com/d6g8k5htny-coder/main/issues/113)); same-provider ≠ acceptance; owner: **optional diagnostic only** (no platform); **CI green** @ `391f6a8…`; keep DRAFT |
@@ -41,6 +41,7 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
+| Math- thin-tube pickup | OpenAI OA-D5-THIN-TUBE (5839057633): new `frontiers/rn_thin_tube_20260925/` from six pins only — NOT full annulus; do not race; no #9/#19 edits |
 | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `ee8629f…`; finite-r Hermite repair + explicit C^6 remainder; bind this head (not `7d295ae`); distinct-lane review still required |
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; **REVIEW PICKUP** for `TRANSVERSE_BOUND_CANDIDATE.md` (R1–R5); assign distinct reviewer after #9 finite-pin repair — leave AUTHOR_SIDE if none |
