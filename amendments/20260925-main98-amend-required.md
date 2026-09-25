@@ -168,3 +168,14 @@ Peer ([5840690084](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment
 ## Hosted verify GREEN on `cc6a578` (2026-09-25T23:05Z)
 
 Runs [`36198204473`](https://github.com/d6g8k5htny-coder/main/actions/runs/36198204473) and [`36198208817`](https://github.com/d6g8k5htny-coder/main/actions/runs/36198208817) **pass**. OA re-review of E+coverage_repair tip still **OFFERED**. Keep DRAFT; #90 OPEN; sci effect NONE.
+
+
+## OA E re-review — AMEND_REQUIRED E6 (2026-09-25T23:47Z)
+
+Exact head `cc6a578…` ([5841184125](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841184125)).
+
+**E6:** `_is_binding_precision_repair` can remove a controlling node from `retained_impacted` even when non-binding semantic identity also changed in the same transition (e.g. `statement` + legacy→`frozen_body` migration). Coverage repair must exempt **only** binding-identity migration; refuse if semantic digest / classification / version / edges / authority also changed. Required negative control: unchanged carrier + precision upgrade + statement change ⇒ nonzero CLI / T remains `controlling_impacted`.
+
+Secondary (non-blocking): require uniqueness of `frozen_body` markers.
+
+Lease `main-98-e6-coverage-repair-semantic` **OFFERED** to main-writable author. This App does not race. Keep DRAFT; #90 OPEN; sci effect NONE. Green CI does not discharge E6.
