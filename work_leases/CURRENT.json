@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T20:25:04Z",
-  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 tip 3a9f9e0 STOP; #20 tip 0b9fd32 BLOCKED; OpenAI WORK PICKUP thin-tube candidate from six pins (OA-D5-THIN-TUBE) \u2014 frontiers/rn_thin_tube_20260925 only; do not race; #19 head still ee8629f.",
+  "updated_at": "2026-09-25T20:25:30Z",
+  "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #21 @b420099 inner axial density ACTIVE (thin-tube pickup); do not race; #9 STOP; #20 BLOCKED; #98 CI green DRAFT.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -356,7 +356,7 @@
         "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T20:25:04Z",
+      "heartbeat_at": "2026-09-25T20:25:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -985,8 +985,8 @@
       "blocked_reason": "comparison leads only after #9 finite-r pin repair; do not cite as resolving persistence/Hermite/RN; negative result OK; #7 remains DRAFT paused"
     },
     {
-      "work_id": "math-thin-tube-compensation-density",
-      "scope": "OA-D5-THIN-TUBE: narrow candidate from six finite-r pins \u2014 residual gradient, contact covariance, compensation density, weighted count on A<=|x/r|<B, |z|<=K r^2 tube only; NOT full annulus / height-absorption / pin-collision",
+      "work_id": "math-21-inner-axial-density",
+      "scope": "Math- #21 D5 inner axial belt: exact-pin exponential Gaussian density candidate (OA-D5-THIN-TUBE); tube-only; NOT full annulus/height-absorption/pin-collision",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -994,27 +994,29 @@
       },
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
-        "branch": null,
-        "pr": null,
-        "pr_state": null,
+        "branch": "chatgpt/d5-inner-axial-density-20260925",
+        "pr": 21,
+        "pr_state": "open",
         "issue": null,
-        "head_oid": null
+        "head_oid": "b420099b2440da3a8ba62f7000feacc9fc88069b"
       },
       "claimed_at": "2026-09-25T20:25:04Z",
-      "heartbeat_at": "2026-09-25T20:25:04Z",
+      "heartbeat_at": "2026-09-25T20:25:30Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
-        "frontiers/rn_thin_tube_20260925/"
+        "frontiers/axial_density_20260925/",
+        ".github/workflows/axial-density-review.yml"
       ],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839057633"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839057633",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/21"
       ],
       "delegates_to": null,
       "lanes_note": "Isolated branch from Math main; will not edit #9/#19 fingerprints/claim graph/Vault99",
-      "blocked_reason": "author-side pickup; independent review remains open; not independent of earlier OpenAI work; no parent theorem promotion; do not race frontiers/rn_thin_tube_20260925/"
+      "blocked_reason": "DRAFT author-side; independent review open; not independent of earlier OpenAI work; no parent theorem promotion; do not race this write_scope; #9/#19 untouched"
     }
   ]
 }
