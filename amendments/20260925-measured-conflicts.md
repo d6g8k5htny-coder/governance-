@@ -37,7 +37,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `6bd591b…`; **STOP/REPAIR**; hexatriacontic jets; jets≠repair |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `489b17e…`; **STOP/REPAIR**; heptatriacontic jets; jets≠repair |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH×7; D6 analytic **AMEND** F10 p=1 wording / slices 1,3–6 ACCEPT (`amendments/20260925-math18-d6-analytic-review.md`); keep DRAFT |
