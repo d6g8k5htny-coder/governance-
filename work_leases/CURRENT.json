@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T19:56:27Z",
+  "updated_at": "2026-09-25T19:56:46Z",
   "notes": "Compact ledger. OFFERED\u2260activity. Scientific effect NONE. Math- #9 tip cc82f7d (thin-belt unmatched height r^1) still STOP/REPAIR; #20 tip 4778a4e re-maps that fingerprint \u2014 BLOCKED INPUT; #15 eng APPROVE; #98 tip 776fdb75 CI pending; #110 verify green; gov-#4 AMEND_REQUIRED (distinct-lane policy review filed).",
   "leases": [
     {
@@ -350,10 +350,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "0219510e2ac03ad2b7945108107c5e97014bb8ac"
+        "head_oid": "652c6beb85ccd688584affcc33ddfc658afe127a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-25T19:56:27Z",
+      "heartbeat_at": "2026-09-25T19:56:46Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -387,7 +387,7 @@
         "head_oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80"
       },
       "claimed_at": "2026-09-25T18:10:00Z",
-      "heartbeat_at": "2026-09-25T19:56:11Z",
+      "heartbeat_at": "2026-09-25T19:56:46Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -397,7 +397,8 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/governance-/pull/4",
-        "https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5838585361"
+        "https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5838585361",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5838678000"
       ],
       "delegates_to": null,
       "blocked_reason": "distinct-lane AMEND_REQUIRED filed (notes + PR comment); same-account\u2260provider, stale Current application, STOP pause, schema vs #98"
