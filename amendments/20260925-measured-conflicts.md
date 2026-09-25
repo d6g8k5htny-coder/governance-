@@ -43,7 +43,7 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | `d5b75f9…`; tip-observe `e3cd7d4…` after #105; **verify green**; serialize `PACKET.json` with #111 |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
-| Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…`; OA same-provider MATCH (not independent); **Cursor R6 AMEND** stands; keep DRAFT |
+| Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…`; OA same-provider MATCH R1–R7 (not independent); **Cursor R6 AMEND** (AAL 7.1 still cited L243); keep DRAFT |
 | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `2804dc1…` STITCH fallback (consolidation); Cursor R6 AMEND; no third proof |
 | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` **MERGED**; Cursor (2)–(8) ACCEPT on governance-; inner axial only; merge ≠ RN closure |
 | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` **MERGED**; Cursor R1–R6 ACCEPT on governance-; merge ≠ theorem acceptance; sci effect NONE |

@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:40:30Z",
-  "notes": "Compact ledger. Sci effect NONE. trial#128 V4 upgraded ACCEPT (5840021607); package V1–V5 ACCEPT vs 776fdb75 — eng only; #90 OPEN. main #98 tip 6e3f774 awaits OpenAI re-review. Math- #9 tip c86df88 icosic jet churn — STOP/REPAIR; jets≠repair. Updated 2026-09-25T21:40:30Z.",
+  "updated_at": "2026-09-25T21:42:25Z",
+  "notes": "Compact ledger. Sci effect NONE. OA same-provider full audit of #28 @ dedc69e claims MATCH R1–R7 (5840044226) — NOT independent; tip still cites AAL Thm 7.1 (PROOF L243). Cursor R6 AMEND_REQUIRED stands. Updated 2026-09-25T21:42:25Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -1219,7 +1219,7 @@
         "oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:35:25Z",
+      "heartbeat_at": "2026-09-25T21:42:25Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -1234,7 +1234,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math28-annulus-bridge-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE @ dedc69e DRAFT; OA same-provider interface audit MATCH (5839952465) — not independent; Cursor R6 AMEND still binding; prioritize full nonauthor of remaining foundations/weighted KR; no merge/sci accept"
+      "blocked_reason": "ACTIVE @ dedc69e DRAFT; OA same-provider full MATCH R1–R7 (5840044226) — not independent/theorem accept; Cursor R6 AMEND stands (PROOF still cites AAL 7.1); await independent nonauthor + citation repair"
     },
     {
       "work_id": "math-annulus-stitch-oa",
@@ -1378,7 +1378,7 @@
         "head_oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"
       },
       "claimed_at": "2026-09-25T21:26:34Z",
-      "heartbeat_at": "2026-09-25T21:35:25Z",
+      "heartbeat_at": "2026-09-25T21:42:25Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1388,7 +1388,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math28-annulus-bridge-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED Cursor review @ dedc69e R3–R4–R7 ACCEPT / R6 AMEND; OA same-provider MATCH leaves weighted KR outside — R6 remains open until citation repair tip move"
+      "blocked_reason": "RELEASED Cursor review @ dedc69e: R3–R4–R7 ACCEPT / R6 AMEND (AAL 7.1→6.1); OA same-provider MATCH does not clear citation; tip unchanged L243 still 2.2+7.1"
     },
     {
       "work_id": "math-26-fixed-annulus-review-offer",

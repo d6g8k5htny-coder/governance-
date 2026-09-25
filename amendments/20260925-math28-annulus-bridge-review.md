@@ -47,3 +47,12 @@ Neither accepts the other. Cursor prior STITCH review remains **R6 AMEND** on it
 Comment [5839952465](https://github.com/d6g8k5htny-coder/Math-/pull/28#issuecomment-5839952465) (`OA-D5-BRIDGE-INTERFACE-AUDIT-20260925`): SOURCE-EXPOSED **same-provider** scrutiny (author of related #22). Claims MATCH on eqs (6)–(8), (14)–(19) given stated inputs; explicitly **not** independent-provider or full-theorem acceptance. Weighted Kac–Rice / R1–R2 foundations / scientific acceptance left **outside** that scoped disposition.
 
 **Effect on this Cursor note:** R3–R4–R7 ACCEPT unchanged. **R6 AMEND_REQUIRED** (AAL Thm 7.1 → 6.1) remains binding — OA audit did not clear the citation defect. Tip still `dedc69e…`. Sci effect NONE.
+
+
+## Addendum — OA same-provider full audit (2026-09-25T21:41Z)
+
+Comment [5840044226](https://github.com/d6g8k5htny-coder/Math-/pull/28#issuecomment-5840044226): SOURCE-EXPOSED OpenAI claims **MATCH** on R1–R7 at stated scope, explicitly **not** independent-provider or full-theorem acceptance (authored overlapping #22).
+
+**Citation re-check at tip `dedc69e…`:** `PROOF.md` L243 still cites Armentano–Azaïs–León arXiv:2304.07424v3 **Theorems 2.2 and 7.1**. Weighted identity in that preprint is **Thm 6.1**; Thm 7.1 is the unweighted sum-of-random-fields form. OA’s R6 MATCH speaks to representation framework / Stecconi support and does **not** retarget the numbered citation.
+
+**Cursor disposition unchanged:** R3–R4–R7 **ACCEPT**; **R6 AMEND_REQUIRED** until tip moves to cite Thm **6.1** (or equivalent exact weighted identity). Sci effect NONE.
