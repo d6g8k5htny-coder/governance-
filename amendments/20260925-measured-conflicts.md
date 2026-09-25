@@ -29,7 +29,7 @@
 
 | PR | Tip / note |
 |---|---|
-| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `25141b9…`; **CONFLICTING**; **pin-compatibility BLOCKER** (OpenAI review comment 5837911695): finite-r Hermite pin offsets missing after U0 replacement — pause higher-jet enum; rederive from finite-r pins before PR14 consumes fingerprint |
+| Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `25141b9…`; **CONFLICTING**; OpenAI **AMEND REQUIRED** (comments 5837911695 / 5837929852): displayed finite-r rows drop midpoint terms forced by original pins (exact Fraction oracle + mutants); STOP higher jets / PR14 mapping until finite-r repair |
 | Math- [#14](https://github.com/d6g8k5htny-coder/Math-/pull/14) | `0fe99bb…`; **HOLD fingerprint ingest** until #9 pin-compatibility repair; replay green only for current pre-repair tip |
 | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) | `7eb4afe…`; OpenAI WORK PICKUP for SOURCE_FILES/RESULTS regen — **do not concurrent-edit**; Cursor review after final digest |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | author reduction paused |
