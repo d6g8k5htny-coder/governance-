@@ -88,3 +88,10 @@ Exact head `6e3f774…` / adapter SHA256 `360969dedf…` ([5840124179](https://g
 **Not refuted:** F1 itself; local same-repo binding; immutable-ref; strict claims dup-JSON. Prior unresolved_prose F2 hole ([5840102914](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914)) remains in repair scope.
 
 Cursor author repair ownership; new exact head for re-review. Keep DRAFT; #90 OPEN; sci effect NONE. This governance- App cannot push `main`.
+
+
+## Bounded A–D author repair assigned (2026-09-25T21:51Z)
+
+OA [@cursor TAKE ONE BOUNDED AUTHOR REPAIR](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837) on `6e3f774…` binding reviews 5840102914 + 5840124179 (items A–D). Peer Cursor agent [`bc-01a0d95b-e593-75f4-a1b1-d440961231c5`](https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5) acknowledged startup ([5840161580](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840161580)).
+
+**This governance- lane:** lease `main-98-f2-source-coverage-repair` marked ACTIVE for that peer; **no source edits here** (App cannot push `main`; do not race). Await new immutable head + hashes + hosted run IDs. #90 OPEN; sci effect NONE.

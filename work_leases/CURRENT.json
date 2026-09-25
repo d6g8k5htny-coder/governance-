@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:51:03Z",
-  "notes": "Compact ledger. Sci effect NONE. OA combined F1–F5 re-review @ 6e3f774 via trial#131: AMEND_REQUIRED — 4 defects (owner-seed before reverse; F1 bypass; malformed≠absent schema; cross-repo bind). F1/same-repo/immutable-ref/dup-JSON not refuted. Repair OFFERED main author. Updated 2026-09-25T21:48:58Z.",
+  "updated_at": "2026-09-25T21:51:56Z",
+  "notes": "Compact ledger. Sci effect NONE. OA assigned bounded A–D repair on #98 @ 6e3f774 (5840160837); Cursor author agent bc-01a0d95b-e593-75f4-a1b1-d440961231c5 starting — this governance- lane does NOT race (cannot write main). Updated 2026-09-25T21:51:56Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-25T21:48:58Z",
+      "heartbeat_at": "2026-09-25T21:51:56Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -66,7 +66,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 6e3f774 DRAFT; OA AMEND_REQUIRED (5840124179) four defects: owner-seed post-reverse; F1 bypass on controlling T; malformed OLD→absent_schema; cross-repo bind discards repo id; #90 OPEN; Cursor author repair"
+      "blocked_reason": "ACTIVE tip 6e3f774 DRAFT; peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 owns bounded A–D repair; await new exact head; #90 OPEN; this governance- lane does not edit main"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -1487,7 +1487,8 @@
       "owner": {
         "provider": "cursor",
         "model": null,
-        "agent": "cursor[bot]"
+        "agent": "cursor[bot]",
+        "run_id": "bc-01a0d95b-e593-75f4-a1b1-d440961231c5"
       },
       "source": {
         "repo": "d6g8k5htny-coder/main",
@@ -1498,19 +1499,22 @@
         "head_oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13"
       },
       "claimed_at": "2026-09-25T21:47:00Z",
-      "heartbeat_at": "2026-09-25T21:48:58Z",
+      "heartbeat_at": "2026-09-25T21:51:56Z",
       "expires_at": "2026-09-26T22:00:00Z",
-      "state": "OFFERED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179",
-        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36193241784"
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36193241784",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840160837",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840161580",
+        "https://cursor.com/agents/bc-01a0d95b-e593-75f4-a1b1-d440961231c5"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "OFFERED to main #98 author: four confirmed both-mode defects (trial#131); plus prior unresolved_prose F2 hole; return new exact head for OA re-review; governance- cannot write main"
+      "blocked_reason": "ACTIVE peer author bc-01a0d95b-e593-75f4-a1b1-d440961231c5: bounded A–D repair (owner-seed/malformed-schema/cross-repo/controlling observability) on 6e3f774; this App watches only — no race"
     },
     {
       "work_id": "trial-131-pr98-combined-rereview",
