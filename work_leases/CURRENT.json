@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T21:42:25Z",
+  "updated_at": "2026-09-25T21:44:04Z",
   "notes": "Compact ledger. Sci effect NONE. OA same-provider full audit of #28 @ dedc69e claims MATCH R1–R7 (5840044226) — NOT independent; tip still cites AAL Thm 7.1 (PROOF L243). Cursor R6 AMEND_REQUIRED stands. Updated 2026-09-25T21:42:25Z.",
   "leases": [
     {
@@ -83,10 +83,10 @@
         "pr_state": "open",
         "issue": null,
         "head_oid": "9920b76f41fda129f61e1be8514888deba2cfa02",
-        "oid": "c86df88c788263e049f8f2f7bbf910de688f7de3"
+        "oid": "dd23703482d7d3f55a8dcaa82bc0d6077551bc93"
       },
       "claimed_at": "2026-09-25T16:00:00Z",
-      "heartbeat_at": "2026-09-25T21:40:30Z",
+      "heartbeat_at": "2026-09-25T21:44:04Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "BLOCKED",
       "write_scope": [
@@ -111,7 +111,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "STOP/REPAIR: tip c86df88 continues pin-site icosic jet enumeration; jets≠repair; #19 finite-r MERGED — consume corrected interface; pause high-jet churn"
+      "blocked_reason": "STOP/REPAIR: tip dd23703 adds thin-belt height residual after gradient contact — still residual/jet churn on falsified pins; jets≠repair; consume merged #19; pause"
     },
     {
       "work_id": "math-14-chart-j0-gate-map",
