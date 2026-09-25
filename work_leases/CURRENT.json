@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-25T22:22:06Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 tip 22d9976 peer E complete (subobject digests + freshness); OA E re-review OFFERED. #9 tip e70d029 tetracosic jets — STOP/REPAIR. Updated 2026-09-25T22:13:29Z.",
+  "updated_at": "2026-09-25T22:24:11Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #22 @ 2804dc1 and #28 @ dedc69e MERGED. Cursor R6 AMEND (AAL 7.1→6.1) remains review note — merge ≠ citation repair / theorem acceptance / register flip. Updated 2026-09-25T22:24:11Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -1050,18 +1050,16 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-thin-tube-20260925",
         "pr": 22,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
+        "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a",
+        "oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
       },
       "claimed_at": "2026-09-25T20:36:18Z",
-      "heartbeat_at": "2026-09-25T21:21:12Z",
+      "heartbeat_at": "2026-09-25T22:24:11Z",
       "expires_at": "2026-09-26T20:00:00Z",
-      "state": "ACTIVE",
-      "write_scope": [
-        ".github/workflows/rn-thin-tube.yml",
-        "frontiers/rn_thin_tube_20260925/"
-      ],
+      "state": "RELEASED",
+      "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
@@ -1071,7 +1069,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT tip 2804dc1 additive FIXED_ANNULUS; core/two-scale bytes unchanged vs b2e1652; Cursor fixed-annulus review AMEND_REQUIRED R6 citation (amendments/20260925-math22-fixed-annulus-review.md); prior R1–R8+S ACCEPT still binds core; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-22-thin-tube-review-offer",
@@ -1085,12 +1083,13 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-thin-tube-20260925",
         "pr": 22,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
+        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500",
+        "oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
       },
       "claimed_at": "2026-09-25T20:54:00Z",
-      "heartbeat_at": "2026-09-25T21:21:12Z",
+      "heartbeat_at": "2026-09-25T22:24:11Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1102,7 +1101,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math22-thin-tube-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: R1–R8 + two-scale S ACCEPT at b2e1652 filed on governance- amendments/20260925-math22-thin-tube-review.md; App cannot comment Math-; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "trial-121-translation-review-cursor",
@@ -1212,15 +1211,15 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": null,
         "pr": 28,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd",
         "oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:44:56Z",
+      "heartbeat_at": "2026-09-25T22:24:11Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -1233,7 +1232,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math28-annulus-bridge-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE @ dedc69e DRAFT; OA same-provider full MATCH R1–R7 (5840044226) — not independent/theorem accept; Cursor R6 AMEND stands (PROOF still cites AAL 7.1); await independent nonauthor + citation repair"
+      "blocked_reason": "RELEASED/MERGED PR @ dedc69e; Cursor R6 AMEND (AAL 7.1) still stands — merge ≠ citation repair / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-annulus-stitch-oa",
@@ -1247,14 +1246,15 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-thin-tube-20260925",
         "pr": 22,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
+        "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a",
+        "oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
       },
       "claimed_at": "2026-09-25T21:07:44Z",
-      "heartbeat_at": "2026-09-25T21:44:56Z",
+      "heartbeat_at": "2026-09-25T22:24:11Z",
       "expires_at": "2026-09-26T21:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -1266,7 +1266,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839799920"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE @ 2804dc1 DRAFT STITCH; consolidation (5839954609): keep unchanged as fallback; stop expanding cutoff route; Cursor R6 AMEND still on this tip; no silent supersession"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "main-98-openai-rereview",
@@ -1313,12 +1313,13 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-thin-tube-20260925",
         "pr": 22,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
+        "head_oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a",
+        "oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
       },
       "claimed_at": "2026-09-25T21:21:12Z",
-      "heartbeat_at": "2026-09-25T21:44:56Z",
+      "heartbeat_at": "2026-09-25T22:24:11Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1329,7 +1330,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839790849"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: AMEND_REQUIRED on R6 (AAL Thm 7.1 citation); R1–R5/R7–R8 ACCEPT; re-bind after citation repair"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-22-twoscale-oa-s6s15-review",
@@ -1343,12 +1344,13 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-thin-tube-20260925",
         "pr": 22,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
+        "head_oid": "b2e1652f1374c3b45759324a1ad1fd4177458500",
+        "oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"
       },
       "claimed_at": "2026-09-25T21:21:58Z",
-      "heartbeat_at": "2026-09-25T21:27:14Z",
+      "heartbeat_at": "2026-09-25T22:24:11Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1359,7 +1361,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839845752"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED same-provider MATCH on S6–S15 @ b2e1652/blob 89cae3a (Drive review 8661B); no org-independence credit; S16–S21 + FIXED_ANNULUS not accepted by this review; PR27 assigned S6–S21 / PR26 assigned fixed-annulus stitch — do not race"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-28-annulus-bridge-review",
@@ -1373,12 +1375,13 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": null,
         "pr": 28,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"
+        "head_oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd",
+        "oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"
       },
       "claimed_at": "2026-09-25T21:26:34Z",
-      "heartbeat_at": "2026-09-25T21:44:56Z",
+      "heartbeat_at": "2026-09-25T22:24:11Z",
       "expires_at": "2026-09-26T21:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1388,7 +1391,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math28-annulus-bridge-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED Cursor review @ dedc69e: R3–R4–R7 ACCEPT / R6 AMEND (AAL 7.1→6.1); OA same-provider MATCH does not clear citation; tip unchanged L243 still 2.2+7.1"
+      "blocked_reason": "RELEASED/MERGED PR @ dedc69e; Cursor R6 AMEND (AAL 7.1) still stands — merge ≠ citation repair / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-26-fixed-annulus-review-offer",

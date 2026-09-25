@@ -38,3 +38,8 @@ After R6 amend lands on a new immutable tip, re-bind and re-check R6 only (other
 ## Addendum — consolidation (2026-09-25T21:34Z)
 
 Author comment [5839954609](https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839954609): keep #22 unchanged as windowed fallback; prioritize full nonauthor of #28 remaining foundations/weighted KR; no third proof; neither candidate silently superseded. Cursor **R6 AMEND** on this tip (`2804dc1…`) still stands. Sci effect NONE.
+
+
+## Addendum — PR MERGED (2026-09-25T22:23Z)
+
+Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) merged at tip `2804dc1…`. **Cursor R6 AMEND_REQUIRED** (AAL Thm 7.1→6.1 citation) is **not cleared** by merge. Merge ≠ theorem acceptance / register flip. Sci effect NONE.

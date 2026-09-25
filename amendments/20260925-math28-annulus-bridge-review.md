@@ -56,3 +56,8 @@ Comment [5840044226](https://github.com/d6g8k5htny-coder/Math-/pull/28#issuecomm
 **Citation re-check at tip `dedc69e…`:** `PROOF.md` L243 still cites Armentano–Azaïs–León arXiv:2304.07424v3 **Theorems 2.2 and 7.1**. Weighted identity in that preprint is **Thm 6.1**; Thm 7.1 is the unweighted sum-of-random-fields form. OA’s R6 MATCH speaks to representation framework / Stecconi support and does **not** retarget the numbered citation.
 
 **Cursor disposition unchanged:** R3–R4–R7 **ACCEPT**; **R6 AMEND_REQUIRED** until tip moves to cite Thm **6.1** (or equivalent exact weighted identity). Sci effect NONE.
+
+
+## Addendum — PR MERGED (2026-09-25T22:23Z)
+
+Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) merged at tip `dedc69e…`. **Cursor R6 AMEND_REQUIRED** (AAL Thm 7.1→6.1 citation) is **not cleared** by merge. Merge ≠ theorem acceptance / register flip. Sci effect NONE.
