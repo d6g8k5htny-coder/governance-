@@ -26,7 +26,7 @@
 
 **Related Math- work (do not race):** [Math- #8](https://github.com/d6g8k5htny-coder/Math-/pull/8) (`cursor/downstream-hard-gate-91fa`) adds an executable fail-closed D0–D7 promotion gate complementary to the human crosswalk; scientific effect claimed NONE; maps PR7 as open/paused. Local replay here: 24/24 `test_hard_gate` OK; `hard_gate.py` reports `lemma_closed=false`, `illegal_promotion_refused=true`.
 
-**Math- #8 review challenge (integrity, not acceptance):** GRAPH edges `math.rn-mesoscopic-reduction → hist.CH-LIFT` and `→ hist.Piece-2-annulus`. The mesoscopic note reopens the scaled-chart/Piece-2 *region* but does not import the historical CH-LIFT certificate predicates. Confirm whether those edges are intentional required-deps (block CONTROLLING while regions open) or over-imports of historical-route objects; mis-import would incorrectly couple a new reduction to ABSENT/historical carriers. Crosswalk keeps CH-LIFT/Piece-2 as live analytic gaps without making them byte-dependencies of PR7.
+**Math- #8 review note:** GRAPH edges `math.rn-mesoscopic-reduction → hist.CH-LIFT` and `→ hist.Piece-2-annulus` are present with `required: false` (related-region pointers, not CONTROLLING blockers). Required dep for mesoscopic is `math.rn-fixed-remote-window` only. That matches the crosswalk’s “live gap / not historical carrier” split; no change requested unless a later edit flips those edges to `required: true` without an importing proof step.
 
 Cross-repo PR comment from this governance-only App token was unavailable at first recording; the sibling agent posted the #87 comment and opened #92/#93.
 
