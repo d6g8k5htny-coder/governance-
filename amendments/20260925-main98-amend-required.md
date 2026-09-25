@@ -179,3 +179,8 @@ Exact head `cc6a578…` ([5841184125](https://github.com/d6g8k5htny-coder/main/p
 Secondary (non-blocking): require uniqueness of `frozen_body` markers.
 
 Lease `main-98-e6-coverage-repair-semantic` **OFFERED** to main-writable author. This App does not race. Keep DRAFT; #90 OPEN; sci effect NONE. Green CI does not discharge E6.
+
+
+## Tip `2d3374c` — E6 repaired (2026-09-25T23:53Z)
+
+Peer ([5841228497](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841228497)): head `2d3374c5827650f5c9b462a77b29e17b998dbd96`. Coverage repair now requires non-binding identity unchanged + not edge/authority seed + not reverse-reachable from other changed seeds. Negative control for statement+precision combo added. Hosted CI queued `36202702251`. **OA E6 re-review OFFERED.** Keep DRAFT; #90 OPEN; sci effect NONE.

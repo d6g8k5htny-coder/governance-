@@ -40,8 +40,8 @@
 | Math- [#9](https://github.com/d6g8k5htny-coder/Math-/pull/9) | `e65fb1f…`; **STOP/REPAIR**; tritetracontic jets (n=43); jets≠repair |
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
-| Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH×7; D6 analytic **AMEND** F10 p=1 wording / slices 1,3–6 ACCEPT (`amendments/20260925-math18-d6-analytic-review.md`); keep DRAFT |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `cc6a578…`; OA **AMEND E6** (coverage_repair masks semantic change); repair **OFFERED**; #90 OPEN |
+| Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | prior MATCH×7 + D6 AMEND F10; peer formal-translation re-review ACTIVE (`bc-075f842d`); keep DRAFT |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `2d3374c…` E6 repaired; **OA re-review OFFERED**; #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section9 AMEND successor Math [#47](https://github.com/d6g8k5htny-coder/Math-/pull/47) @ `1a3afa2…`; peer [`bc-4ff21625-bfbf-5a05-a6f7-db92c607c720`](https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720) **ACTIVE** — no race |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
