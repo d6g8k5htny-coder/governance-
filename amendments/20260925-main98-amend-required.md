@@ -158,3 +158,8 @@ Same head `22d9976…`:
 - verify **fail** run [`36195408373`](https://github.com/d6g8k5htny-coder/main/actions/runs/36195408373) — Claims→gate reports `transition_ok:false` with `CONTROLLING_SOURCE_REQUIRES_REVALIDATION` on `Q0-C101-QUALITATIVE-RATE` (and open required deps H5-RIM/H5-AXIS/D3-LEMMA-RN-UNIF). `scientific_effect: NONE` in the report.
 
 Interpret as eng CI / tip-compare behavior for author+OA; not a scientific status flip. This App does not race a fix. #90 OPEN.
+
+
+## Tip `cc6a578` — CI repair after E (2026-09-25T22:49Z)
+
+Peer ([5840690084](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840690084)): head `cc6a578b26f14a16025f4c955fe5efdd65890b1f`. Push-event Claims→gate fail on `22d9976` was same-carrier E binding precision upgrade tripping F1 retained-controlling; fix treats that as `coverage_repair` when path+carrier unchanged and object hash validated. Body drift still refuses. Hosted CI queued `36198204473`. **OA re-review OFFERED** on this tip. Keep DRAFT; #90 OPEN; sci effect NONE.
