@@ -56,6 +56,10 @@ Does **not** settle: exact `det S_r` exponent; Schur complement after conditioni
 
 ## Suggested Math- next commit
 
+**Update 2026-09-25 evening:** [Math- #9](https://github.com/d6g8k5htny-coder/Math-/pull/9) now owns the typed d=2 chart package (`frontiers/rn_mesoscopic_chart_20260925/`) with tests. Prefer amending that PR (or a successor) over copying this sketch. Remaining open there: conditioned Hessian expectation, thin-belt chart, pin-centred chart, any CONTROLLING/24-jet claim.
+
+Historical suggested steps (if #9 were absent):
+
 1. Formalize `S_r(y)` with these leading scalings for one open chart `{|y|∈[A,B], y2≥δ>0, dist(y,±e1/2)≥δ}`.
 2. Mutation-test the algebraic expansion (symbolic Taylor vs finite-difference on a jet polynomial).
 3. Keep disposition author-side; do not touch `lemma_closed`.
