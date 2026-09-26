@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:09:40Z",
-  "notes": "Compact ledger. Sci effect NONE. trial #128/#131 CLOSED UNMERGED (consumed F1 / superseded combined review); active gate observe = trial #138 @ 1f990f2 (binds cc6a578 \u2014 tip now 5cf4f36). #98 CI still in progress. #112 Section5 peer ACTIVE. Updated 2026-09-26T00:09:40Z.",
+  "updated_at": "2026-09-26T00:10:45Z",
+  "notes": "Compact ledger. Sci effect NONE. main #112 Section5 peer N1\u2013N6 ACCEPT (5841352633 / 5841330312) on frozen parent 9350ad6e\u2026; Sections6+ still outside. #98 tip 5cf4f36 CI in progress; trial #138 gate observe. Updated 2026-09-26T00:10:45Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -377,10 +377,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "b8805053b50260ca4ed8f8f60584cb0701893b37"
+        "head_oid": "95fea72a3ad020ed813ec5b9ee3ed30c833fdfeb"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T00:10:10Z",
+      "heartbeat_at": "2026-09-26T00:11:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -745,7 +745,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-26T00:07:30Z",
+      "heartbeat_at": "2026-09-26T00:10:45Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -758,7 +758,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe; Section3 C1\u2013C5 ACCEPT + Section4 R1\u2013R5 ACCEPT; Section5 N1\u2013N5 peer ACTIVE (bc-4ff21625\u2026 / 5841329803); Sections6+ outside"
+      "blocked_reason": "ACTIVE observe; Section3 C1\u2013C5 + Section4 R1\u2013R5 + Section5 N1\u2013N6 ACCEPT; Sections6+ still outside"
     },
     {
       "work_id": "main-111-rn-unif-walkdown-scope",
@@ -2191,7 +2191,7 @@
         "provider": "cursor",
         "model": null,
         "agent": "cursor[bot]",
-        "run_id": "bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+        "run_id": "bc-9142fddf-0d94-5ecb-a764-00d3fba0c5d9"
       },
       "source": {
         "repo": "d6g8k5htny-coder/main",
@@ -2202,19 +2202,21 @@
         "drive_id": "1foDgiDi4XIKOfbrZEE8dWKV_BkZU8LIb"
       },
       "claimed_at": "2026-09-26T00:07:30Z",
-      "heartbeat_at": "2026-09-26T00:07:30Z",
+      "heartbeat_at": "2026-09-26T00:10:45Z",
       "expires_at": "2026-09-27T00:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841329803",
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841330312",
-        "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+        "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720",
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841352633",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main112-section5-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE peer bc-4ff21625\u2026 on Section5 N1\u2013N5 (5841329803); this App does not race; Sections6+/cap/RN outside"
+      "blocked_reason": "RELEASED: peer N1\u2013N6 ACCEPT @ frozen parent 9350ad6e\u2026 (5841352633); Sections6+/cap/TheoremA/C/(15.2)/RN outside; sci effect NONE"
     },
     {
       "work_id": "trial-138-pr98-final-gate-rereview",
