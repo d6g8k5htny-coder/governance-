@@ -108,11 +108,13 @@
 | main [#163](https://github.com/d6g8k5htny-coder/main/pull/163) | tip `c8405a7…`; **public-intake FAILURE**; **observe**; eng≠theorem |
 | Math- [#84](https://github.com/d6g8k5htny-coder/Math-/pull/84) | **MERGED** `bebe09d…` H5 ledger inputs + rim exponent disclose; eng |
 | Math- [#85](https://github.com/d6g8k5htny-coder/Math-/pull/85) | **MERGED** `5ed3b45…` custody erratum + pairing/P15 note; eng — **Math- tip** |
+| Math- [#86](https://github.com/d6g8k5htny-coder/Math-/pull/86) | tip `0e248ad…` H5 rim literal input contract repair; **observe**; eng≠theorem |
+
 | Math- [#83](https://github.com/d6g8k5htny-coder/Math-/pull/83) | **MERGED** `3a7dffc…` STAGE_E falsifier recovery + H4-JC replay; eng — **Math- tip** |
 | Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | tip `a79007e…` contact-kernel substitute draft; **observe**; do not race |
 | Math- [#81](https://github.com/d6g8k5htny-coder/Math-/pull/81) | tip `b28cf25…` Drive-hole ledger draft; **observe**; do not race |
 | Math- [#82](https://github.com/d6g8k5htny-coder/Math-/pull/82) | tip `b190a4d…` D5 microdisk det H_M vanishes; related to [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69); **observe**; do not race |
-| main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | tip `a380dcf…`; peer **AMEND** ([5850461900](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900)); Cursor C1 repair **ACTIVE** ([5850468784](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850468784)); do not race; eng≠theorem |
+| main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | tip `079615e…` C1 repair pushed ([5850468784](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850468784)); CI pending; re-review **OFFERED**; eng≠theorem |
 | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | tip `00c9d08…` **DIRTY**; peer **AMEND** ([5850462018](https://github.com/d6g8k5htny-coder/main/pull/125#issuecomment-5850462018)) moment lemma + wording + rebase; repair **OFFERED**; eng≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `81dab5a` (Batch 553 tip_sync_watch); hardening tip `96e5175`; `main` tip `d77a85a` (#151); **observe**; no lemma_closed/claim promotion |
