@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:54:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178. #135 @ 16b00c1 peer AMEND (5848497172): three prose one-liners; repair OFFERED. Updated 2026-09-26T17:54:20Z.",
+  "updated_at": "2026-09-26T17:54:55Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178. Math- #71 @ 21e3974 peer AMEND on record (5848500725): model attribution + PREMISS-Z-LOWER cite; C1/C2 stand; repair OFFERED. Updated 2026-09-26T17:54:55Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3939,10 +3939,11 @@
         "pr_state": "open",
         "head_oid": "21e39741a1e604f57dc8997d286545f79bdbb602",
         "subject_main_pr": 124,
-        "subject_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25"
+        "subject_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25",
+        "peer_amend": "5848500725"
       },
       "claimed_at": "2026-09-26T09:35:00Z",
-      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T17:54:55Z",
       "expires_at": "2026-09-27T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3950,10 +3951,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/71",
-        "https://github.com/d6g8k5htny-coder/main/pull/124"
+        "https://github.com/d6g8k5htny-coder/main/pull/124",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#issuecomment-5848500725"
       ],
       "delegates_to": "main-124-c1c2-rereview-offer",
-      "blocked_reason": "OFFERED observe peer re-review DRAFT of main #124; do not race; review\u2260merge; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 21e3974; peer AMEND (5848500725): C1/C2 findings stand; record itself needs model attribution + drop/fix PREMISS-Z-LOWER cite; mark ready + math-downstream-gates; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-135-interval-prose-errata",
@@ -4586,7 +4588,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:54:20Z",
+      "heartbeat_at": "2026-09-26T17:54:55Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5221,6 +5223,34 @@
       ],
       "delegates_to": "main-135-interval-prose-errata",
       "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-71-record-attribution-amend",
+      "scope": "Name repair-session model or unknown; fix PREMISS-Z-LOWER cite; ready + gates",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 71,
+        "head_oid": "21e39741a1e604f57dc8997d286545f79bdbb602",
+        "finding_comment": "5848500725",
+        "subject_main_pr": 124
+      },
+      "claimed_at": "2026-09-26T17:54:55Z",
+      "heartbeat_at": "2026-09-26T17:54:55Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#issuecomment-5848500725"
+      ],
+      "delegates_to": "math-71-main124-c1c2-rereview",
+      "blocked_reason": "OFFERED peer AMEND on review record; this App does not race; sci effect NONE"
     }
   ]
 }
