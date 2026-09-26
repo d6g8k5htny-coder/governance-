@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T22:47:10Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). main #163 tip 92ac0d8 (museum triage; packaging AMEND still open; public-intake FAIL). Updated 2026-09-26T22:47:10Z.",
+  "updated_at": "2026-09-26T22:48:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). main #124 @ 079615e: re-verify SUCCESS 36276562260; prior verify FAIL 36276560427 (before-ref). Updated 2026-09-26T22:48:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3083,19 +3083,21 @@
         "parent_pr": 121,
         "parent_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372",
         "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89",
-        "merge_state": "UNSTABLE",
+        "merge_state": "CLEAN",
         "peer_amend": "5850461900",
         "repair_claim": "5850468784",
         "prior_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25",
         "delivery_comment": "5850479003",
         "md_sha256": "f9467138983c00000d75ded88c76ea2d3b4a002d09f30a3a4c216e564488e148",
         "map_sha256": "07b6b57c573a11f0a8dc53e8e88a9443b5921ead526edf6cc11e5879045aa6af",
-        "ci_verify": "FAILURE",
+        "ci_verify": "MIXED",
         "ci_run": "36276560427",
-        "ci_error": "before ref is not a resolvable commit: a380dcfb\u2026"
+        "ci_error": "before ref is not a resolvable commit: a380dcfb\u2026",
+        "ci_fail_run": "36276560427",
+        "ci_pass_run": "36276562260"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-26T22:48:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3112,10 +3114,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850468784",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850479003",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36276560427"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36276560427",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36276562260"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "ACTIVE observe DRAFT @ 079615e; AMEND delivery confirmed (5850479003); verify FAIL 36276560427 (event-compare before-ref a380dcf unresolved \u2014 likely shallow/history after rebase); re-verify in_progress 36276562260; re-review OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE observe DRAFT @ 079615e; AMEND delivery (5850479003); re-verify SUCCESS 36276562260; prior verify FAIL 36276560427 (event-compare before-ref a380dcf unresolved \u2014 shallow/history); re-review OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-rereview-offer",
@@ -4650,7 +4653,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T22:47:10Z",
+      "heartbeat_at": "2026-09-26T22:48:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -6212,10 +6215,11 @@
         "head_oid": "079615e05a92048519c255cec2d86c981160cbf5",
         "prior_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25",
         "claim_comment": "5850468784",
-        "prior_amend": "5850461900"
+        "prior_amend": "5850461900",
+        "ci_pass_run": "36276562260"
       },
       "claimed_at": "2026-09-26T22:31:50Z",
-      "heartbeat_at": "2026-09-26T22:32:30Z",
+      "heartbeat_at": "2026-09-26T22:48:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6226,7 +6230,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850479003"
       ],
       "delegates_to": "main-124-c1c2-repair",
-      "blocked_reason": "OFFERED re-review after repair tip; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED re-review after repair tip; re-verify SUCCESS 36276562260 (prior FAIL 36276560427 before-ref); this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-86-h5-rim-literal-contract",
