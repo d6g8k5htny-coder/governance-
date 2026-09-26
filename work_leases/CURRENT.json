@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T14:35:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main #134 @ 1db16d1 green on push+PR events (5847092666); author waiting on reviewers. #122 ACTIVE a1fc958. Updated 2026-09-26T14:35:00Z.",
+  "updated_at": "2026-09-26T14:50:45Z",
+  "notes": "Compact ledger. Sci effect NONE. Main #135 @ a20e4cf CI GREEN (5). #134 waiting on reviewers. #122 ACTIVE a1fc958. Updated 2026-09-26T14:50:45Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3954,10 +3954,11 @@
         "head_oid": "a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "push_verify": "expected_fail_zero_before_ref",
-        "prior_oid": "0b2e3be97a3bb89e22c7b01c557a358c85225e8c"
+        "prior_oid": "0b2e3be97a3bb89e22c7b01c557a358c85225e8c",
+        "ci": "green_5"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T14:28:30Z",
+      "heartbeat_at": "2026-09-26T14:50:45Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -3970,10 +3971,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/135",
         "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5846679222",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36244873301",
-        "https://github.com/d6g8k5htny-coder/main/commit/a20e4cf255aaef9ecd86e2470d7df3e9ed45a801"
+        "https://github.com/d6g8k5htny-coder/main/commit/a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600484",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600390",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600405"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ a20e4cf (merged hardening); verify IN_PROGRESS; prior push-create zero-before-ref noted; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ a20e4cf; hosted CI GREEN (5 checks); do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-134-claim-graph-firewall",
