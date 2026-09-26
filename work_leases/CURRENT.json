@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:56:15Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 70664bd (#139 custody path MERGED). #134 @ 497ceff repair confirmed (5847639970); verify CI still in progress; re-review OFFERED. ULW #3 @ 03cd88c CONFLICTING vs f832ea1; verify SUCCESS. Updated 2026-09-26T15:56:15Z.",
+  "updated_at": "2026-09-26T15:58:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 70664bd. #135 tip 16b00c1: both AMEND findings fixed (5847678135); await CI + re-review. Math- #70 tip 44901b5 (merge main); CI GREEN. #134 @ 497ceff verify still in progress. Updated 2026-09-26T15:58:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -397,10 +397,11 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "82f01aa6dd6beacf573dba9cef67c2ca6a5a3f3b"
+        "head_oid": "82f01aa6dd6beacf573dba9cef67c2ca6a5a3f3b",
+        "pr_ready": true
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T06:46:00Z",
+      "heartbeat_at": "2026-09-26T15:58:30Z",
       "expires_at": "2026-09-27T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [
@@ -3697,7 +3698,7 @@
         "claim_comment": "5846575968"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T15:58:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3812,13 +3813,16 @@
         "branch": "cursor/proof-custody-repair-8e33",
         "pr": 70,
         "pr_state": "open",
-        "head_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+        "head_oid": "44901b5c17bdaddaf2fc8444aaf9b1d7a38b5f3d",
         "custody_verify": "BYTE_COPY_9_MATCH_5847534053",
         "readme_conflict_pr": 46,
-        "pr_ready": true
+        "pr_ready": true,
+        "prior_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+        "merged_main": "10e1f191",
+        "ci": "green_4_44901b5"
       },
       "claimed_at": "2026-09-26T06:45:00Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T15:58:30Z",
       "expires_at": "2026-09-27T10:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3826,10 +3830,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/70",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/44901b5c17bdaddaf2fc8444aaf9b1d7a38b5f3d"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED ready-for-review @ b39e9ff; CI GREEN; OA BYTE_COPY\u00d79 verified (5847534053); README conflict with #46 \u2014 do not race README; custody\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED ready-for-review @ 44901b5 (merged Math- main 10e1f19); CI GREEN\u00d74; prior BYTE_COPY\u00d79 was @ b39e9ff (5847534053) \u2014 tip moved; README still conflicts with #46; do not race; custody\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-tip-publish-nav-4a72a5a",
@@ -3959,14 +3964,16 @@
         "branch": "claude/interval-docs-errata",
         "pr": 135,
         "pr_state": "open",
-        "head_oid": "a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
+        "head_oid": "16b00c17a7f7b03708467fc67dbeb66ab5c18732",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "push_verify": "expected_fail_zero_before_ref",
-        "prior_oid": "0b2e3be97a3bb89e22c7b01c557a358c85225e8c",
-        "ci": "green_5"
+        "prior_oid": "a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
+        "ci": "verify_in_progress_16b00c1",
+        "author_status": "waiting_on_reviewers",
+        "repair_comment": "5847678135"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T15:58:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -3984,10 +3991,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600390",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600405",
         "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847296374",
-        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847304236"
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847304236",
+        "https://github.com/d6g8k5htny-coder/main/commit/16b00c17a7f7b03708467fc67dbeb66ab5c18732",
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847678135"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ a20e4cf; AMEND doc-overclaim (5847304236); peer two-file correction ACTIVE; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 16b00c1; author confirms both AMEND findings fixed (5847678135); await CI green + peer re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-134-claim-graph-firewall",
@@ -4010,7 +4019,7 @@
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T15:58:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4175,20 +4184,24 @@
         "pr": 135,
         "pr_state": "open",
         "subject_oid": "a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
-        "finding_comment": "5847304236"
+        "finding_comment": "5847304236",
+        "repair_oid": "16b00c17a7f7b03708467fc67dbeb66ab5c18732",
+        "repair_comment": "5847678135"
       },
       "claimed_at": "2026-09-26T15:05:00Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T15:58:30Z",
       "expires_at": "2026-09-27T20:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847304236"
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847304236",
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847678135",
+        "https://github.com/d6g8k5htny-coder/main/commit/16b00c17a7f7b03708467fc67dbeb66ab5c18732"
       ],
       "delegates_to": "main-135-interval-prose-errata",
-      "blocked_reason": "ACTIVE peer preparing repair after 5847304236; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: author landed both corrections at 16b00c1 (5847678135); successor re-review OFFERED; sci effect NONE"
     },
     {
       "work_id": "ulw-2-federation-bootstrap",
@@ -4449,7 +4462,7 @@
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T15:53:30Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T15:58:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4492,6 +4505,35 @@
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED/MERGED \u2192 main tip 70664bd; nav/custody path only; sci effect NONE"
+    },
+    {
+      "work_id": "main-135-rereview-16b00c1",
+      "scope": "Peer re-review of #135 interval errata repair @ 16b00c1 after AMEND fixes",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 135,
+        "head_oid": "16b00c17a7f7b03708467fc67dbeb66ab5c18732",
+        "prior_finding": "5847304236",
+        "repair_comment": "5847678135"
+      },
+      "claimed_at": "2026-09-26T15:58:30Z",
+      "heartbeat_at": "2026-09-26T15:58:30Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847678135",
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847304236"
+      ],
+      "delegates_to": "main-135-interval-prose-errata",
+      "blocked_reason": "OFFERED peer re-review after repair; this App does not race; sci effect NONE"
     }
   ]
 }
