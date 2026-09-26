@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T22:54:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). Math- #86 peer ACCEPT-at-scope 5850648931 @ 0e248ad; merge OFFERED. Updated 2026-09-26T22:54:00Z.",
+  "updated_at": "2026-09-26T22:55:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). main #128 peer AMEND 5850654979; Math- #82 peer AMEND 5850657368. Updated 2026-09-26T22:55:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3826,20 +3826,25 @@
         "branch": "cursor/intermediate-scale-bridge-ab2f",
         "pr": 128,
         "pr_state": "open",
-        "head_oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3"
+        "head_oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3",
+        "peer_amend": "5850654979",
+        "prior_amend": "5842951887",
+        "merge_state": "CONFLICTING"
       },
       "claimed_at": "2026-09-26T04:20:00Z",
-      "heartbeat_at": "2026-09-26T09:35:00Z",
-      "expires_at": "2026-09-27T08:00:00Z",
+      "heartbeat_at": "2026-09-26T22:55:30Z",
+      "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/128"
+        "https://github.com/d6g8k5htny-coder/main/pull/128",
+        "https://github.com/d6g8k5htny-coder/main/pull/128#issuecomment-5850654979",
+        "https://github.com/d6g8k5htny-coder/main/pull/128#issuecomment-5842951887"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT; do not race; recon\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 674f88c CONFLICTING; peer AMEND (5850654979): finite-r transfer scale, \u00a74 cross-term, \u00a75 conditional mean \u03c4/\u03b3, wording + Math- frontiers home + RESEARCH_INDEX conflict; prior Codex AMEND 5842951887; repair OFFERED; do not race; recon\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-60-det-h2-estimate-offer",
@@ -4655,7 +4660,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T22:54:00Z",
+      "heartbeat_at": "2026-09-26T22:55:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5968,19 +5973,21 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 82,
-        "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431"
+        "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
+        "peer_amend": "5850657368"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T22:55:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/82"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368"
       ],
-      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b190a4d; peer AMEND (5850657368): mixed-order r\u00b3 det H_M/H_X (cubic O(r) witness lifts soft factor; \u03bb at r\u2074); majorant scope ok; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-162-public-source-storefront",
@@ -6485,6 +6492,60 @@
       ],
       "delegates_to": "math-86-h5-rim-literal-contract",
       "blocked_reason": "OFFERED author-lane update-branch + expected-head merge; this App cannot push Math-; sci effect NONE"
+    },
+    {
+      "work_id": "main-128-finite-r-amend-repair",
+      "scope": "Repair #128 finite-r transfer/cross-term/\u03c4\u03b3 + Math- frontiers packaging",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 128,
+        "head_oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3",
+        "finding_comment": "5850654979"
+      },
+      "claimed_at": "2026-09-26T22:55:30Z",
+      "heartbeat_at": "2026-09-26T22:55:30Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/128#issuecomment-5850654979"
+      ],
+      "delegates_to": "main-128-d5-intermediate-envelope",
+      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-82-mixed-order-amend-repair",
+      "scope": "Rewrite #82 NOTE/QUARTIC r\u00b3 coefficients with O(r) witness corrections",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 82,
+        "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
+        "finding_comment": "5850657368"
+      },
+      "claimed_at": "2026-09-26T22:55:30Z",
+      "heartbeat_at": "2026-09-26T22:55:30Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368"
+      ],
+      "delegates_to": "math-82-d5-microdisk-det-hm-vanishes",
+      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
     }
   ]
 }
