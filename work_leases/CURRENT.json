@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T16:46:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip e495837. #136 @ 44338fc author note (5848022912): invariant control + body count 26; coordinates with #140 archive-index. Await CI. Updated 2026-09-26T16:46:30Z.",
+  "updated_at": "2026-09-26T17:01:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9 (#149 shop link MERGED). Math- tip d6628da (#76 unique gate name MERGED). Observe #148/#150. #136 @ 44338fc PR-verify SUCCESS (push FAIL). #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:01:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3700,7 +3700,7 @@
         "claim_comment": "5846575968"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3977,7 +3977,7 @@
         "repair_comment": "5847678135"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -4023,7 +4023,7 @@
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4301,7 +4301,7 @@
         "ci": "verify_SUCCESS"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-27T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4401,13 +4401,13 @@
         "pr_state": "open",
         "head_oid": "44338fc324eff6bdb9fa084b9c6b0e7901c97820",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "verify_in_progress_44338fc",
+        "ci": "pr_verify_SUCCESS_push_FAIL_44338fc",
         "prior_oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f",
         "author_comment": "5848022912",
         "sibling_pr": 140
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T16:46:30Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4420,7 +4420,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/140"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 44338fc; author (5848022912): invariant-not-transient control + body count 27\u219226; coordinates with #140 archive pinned-index; await CI; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 44338fc; author (5848022912); PR-event verify SUCCESS, push-event FAIL (process rule 9 pattern); sibling #140; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-4-submodule-pins",
@@ -4475,7 +4475,7 @@
         "ci": "green_5"
       },
       "claimed_at": "2026-09-26T15:53:30Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4538,7 +4538,7 @@
         "ci": "green_5"
       },
       "claimed_at": "2026-09-26T15:58:30Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4570,7 +4570,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T16:46:30Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4699,7 +4699,7 @@
         "sibling_pr": 136
       },
       "claimed_at": "2026-09-26T16:31:00Z",
-      "heartbeat_at": "2026-09-26T16:46:30Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4767,7 +4767,7 @@
         "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T16:34:15Z",
-      "heartbeat_at": "2026-09-26T16:37:20Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4778,6 +4778,125 @@
       ],
       "delegates_to": "main-147-public-intake-side24-example",
       "blocked_reason": "OFFERED residual P2 after #147 merge (process rule 10): RESULT.md still lacks task link on tip e495837; successor repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-149-live-shop-link",
+      "scope": "Link live public research shop and refresh verified query identity; nav only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 149,
+        "pr_state": "merged",
+        "head_oid": "c407e337877d96e2b711f99ab0196ae39ee852f9",
+        "merge_oid": "71400b94f6cb354a8cf7aba73ffede2138a64efa",
+        "prior_main_tip": "e495837bcd2d6d5014508e9991c5b3089977ce20"
+      },
+      "claimed_at": "2026-09-26T16:53:55Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/149",
+        "https://github.com/d6g8k5htny-coder/main/commit/71400b94f6cb354a8cf7aba73ffede2138a64efa"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED/MERGED \u2192 main tip 71400b9; shop link nav; sci effect NONE"
+    },
+    {
+      "work_id": "math-76-integrity-gate-unique-name",
+      "scope": "Unique required-check name for downstream integrity gate; eng/CI only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 76,
+        "pr_state": "merged",
+        "head_oid": "95c733ee6f9bfe9548a63fc4776990633e50538c",
+        "merge_oid": "d6628da09384728992dcbe6e921cc28ba85aebb0",
+        "prior_math_tip": "58f7936d1138b24dd6cc988081d74d07683611d6"
+      },
+      "claimed_at": "2026-09-26T16:46:29Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/76",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/d6628da09384728992dcbe6e921cc28ba85aebb0"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED/MERGED \u2192 Math- tip d6628da; CI naming; sci effect NONE"
+    },
+    {
+      "work_id": "main-148-operator-directive-check",
+      "scope": "Checker refuses contradictory unsourced operator directives; eng honesty",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "claude/operator-directive-check",
+        "pr": 148,
+        "pr_state": "open",
+        "head_oid": "1fd12eecea01bbf41cafca158d5a7263f9c420e5",
+        "base_branch": "chatgpt/drive-github-hardening-20260919"
+      },
+      "claimed_at": "2026-09-26T17:01:20Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/148"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 1fd12ee; operator-directive checker; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-150-side24-chart-intake-dryrun",
+      "scope": "incoming SIDE24 coefficient chart dry-run for public task #141; eng/demo",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "claude/incoming-side24-chart-20260926",
+        "pr": 150,
+        "pr_state": "open",
+        "head_oid": "88272efe2a455032ffb2c7b33e97f0d63092d37b",
+        "base_branch": "main",
+        "task_issue": 141
+      },
+      "claimed_at": "2026-09-26T17:01:20Z",
+      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/150"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 88272ef; intake dry-run for #141; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
