@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T18:26:55Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178; Math- tip 66e39d1. Math- #49 CLOSED superseded (bytes via PR25 53320cb); #53 peer AMEND (5848728436) cone/inner-disk. Updated 2026-09-26T18:26:55Z.",
+  "updated_at": "2026-09-26T18:33:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6200dfd (#158); Math- tip 66e39d1. Landed #152/#153/#155/#156/#158 (ops/intake/museum). #124 verify FAIL/UNSTABLE. Open tips otherwise unchanged. Pulse 18:33Z. Updated 2026-09-26T18:33:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3070,10 +3070,11 @@
         "head_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25",
         "parent_pr": 121,
         "parent_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372",
-        "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
+        "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89",
+        "merge_state": "UNSTABLE"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T18:25:00Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3089,7 +3090,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main121-premis-z-lower-blocked.md"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "ACTIVE preferred carrier for C1/C2 repair @ a380dcf; peer AMEND on #121 (5848715982) confirms prefer this tip; Math- #71 re-review OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE preferred C1/C2 carrier @ a380dcf; mergeState UNSTABLE \u2014 one verify FAILURE (other checks green); await author/CI; do not race; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-rereview-offer",
@@ -4616,7 +4617,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T18:26:55Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5210,10 +5211,14 @@
         "pr": 150,
         "merge_oid": "a12c178c0f857a130cf434e9efd44233a038195b",
         "head_oid": "0335115fb458fe5b904d8f32d74754d94b94d7ad",
-        "prior_codex_comment": "5848456159"
+        "prior_codex_comment": "5848456159",
+        "related_merges": [
+          "2ed91b7",
+          "6200dfd"
+        ]
       },
       "claimed_at": "2026-09-26T17:53:40Z",
-      "heartbeat_at": "2026-09-26T17:53:40Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5223,7 +5228,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/150#issuecomment-5848456159",
         "https://github.com/d6g8k5htny-coder/main/commit/a12c178c0f857a130cf434e9efd44233a038195b"
       ],
-      "blocked_reason": "OFFERED post-merge index refresh per Codex; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED residual after #150; #155/#158 landed museum/ops/cache followthrough @ tip 6200dfd \u2014 re-check whether index refresh still open; do not race; sci effect NONE"
     },
     {
       "work_id": "main-135-prose-three-liners-amend",
@@ -5609,6 +5614,166 @@
       ],
       "delegates_to": "math-53-pin-neighborhood-recon",
       "blocked_reason": "OFFERED peer AMEND; input for #69/#55/#60; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-152-single-account-merge-docs",
+      "scope": "Document autonomous single-account merges without impossible approval deadlocks",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 152,
+        "merge_oid": "a4297667a454ed7ba21a596870089a1a68aa8f10",
+        "head_oid": "c8ba4109ae2af6772fa12551857d6685db999086"
+      },
+      "claimed_at": "2026-09-26T18:33:00Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/152",
+        "https://github.com/d6g8k5htny-coder/main/commit/a4297667a454ed7ba21a596870089a1a68aa8f10"
+      ],
+      "blocked_reason": "RELEASED/MERGED a429766; eng/ops/intake only; sci effect NONE"
+    },
+    {
+      "work_id": "main-153-intake-unreachable-png",
+      "scope": "Intake gate: refuse unreachable sources + PNG chunk validation",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 153,
+        "merge_oid": "1b0d4eefbe5b20dda846a9575d475ed9aa45597e",
+        "head_oid": "427ad58055906104083462df3e37ad0f292a6771"
+      },
+      "claimed_at": "2026-09-26T18:33:00Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/153",
+        "https://github.com/d6g8k5htny-coder/main/commit/1b0d4eefbe5b20dda846a9575d475ed9aa45597e"
+      ],
+      "blocked_reason": "RELEASED/MERGED 1b0d4ee; eng/ops/intake only; sci effect NONE"
+    },
+    {
+      "work_id": "main-155-verification-museum-ops",
+      "scope": "Complete public verification museum and repository operations base",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 155,
+        "merge_oid": "2ed91b777217fab50623402a3538fa5478076e6c",
+        "head_oid": "4c5dd383fe2aeaba60cc13b2992e03f6ff14fdef"
+      },
+      "claimed_at": "2026-09-26T18:33:00Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/155",
+        "https://github.com/d6g8k5htny-coder/main/commit/2ed91b777217fab50623402a3538fa5478076e6c"
+      ],
+      "blocked_reason": "RELEASED/MERGED 2ed91b7; eng/ops/intake only; sci effect NONE"
+    },
+    {
+      "work_id": "main-156-intake-nonfinite-json",
+      "scope": "Intake gate: refuse non-finite JSON numbers + source path validation",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 156,
+        "merge_oid": "f9f125308a0e85ccfa0e209376ac11be578d89e5",
+        "head_oid": "6a3a75f0a4a4233e22abb6d3714c240e7fcb1cf5"
+      },
+      "claimed_at": "2026-09-26T18:33:00Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/156",
+        "https://github.com/d6g8k5htny-coder/main/commit/f9f125308a0e85ccfa0e209376ac11be578d89e5"
+      ],
+      "blocked_reason": "RELEASED/MERGED f9f1253; eng/ops/intake only; sci effect NONE"
+    },
+    {
+      "work_id": "main-158-museum-cache-manifest",
+      "scope": "Keep museum local manifest pair out of browser cache",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 158,
+        "merge_oid": "6200dfd1f5c3757f9927f44fd9fac47ecb84992b",
+        "head_oid": "5ff3fb2fb9bde2d570eb8261098b9361679bc6b4"
+      },
+      "claimed_at": "2026-09-26T18:33:00Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/158",
+        "https://github.com/d6g8k5htny-coder/main/commit/6200dfd1f5c3757f9927f44fd9fac47ecb84992b"
+      ],
+      "blocked_reason": "RELEASED/MERGED 6200dfd; eng/ops/intake only; sci effect NONE"
+    },
+    {
+      "work_id": "main-157-actions-group-bump",
+      "scope": "Dependabot github-actions group bump (3 updates)",
+      "owner": {
+        "provider": "github",
+        "model": "dependabot",
+        "agent": "dependabot"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 157,
+        "head_oid": "94459ce6dace73a01a7f2e28861ae9d5ab85732c"
+      },
+      "claimed_at": "2026-09-26T18:33:00Z",
+      "heartbeat_at": "2026-09-26T18:33:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/157"
+      ],
+      "blocked_reason": "OFFERED observe Actions bump; eng\u2260theorem; do not race; sci effect NONE"
     }
   ]
 }

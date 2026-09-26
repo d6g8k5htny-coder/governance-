@@ -72,7 +72,7 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | **CLOSED UNMERGED** NEVER-MAIN tip-observe ([5847478200](https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5847478200)); Section3–5 ACCEPT notes retained on governance-; OBL-H5-JETMOD remains OPEN; sci effect NONE |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | **CLOSED** without merge — superseded; bytes already on main via PR25 `53320cb…` ([5848730830](https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5848730830)); eng≠theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
-| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 tip `2624262…` peer **AMEND** ([5848715982](https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5848715982)) C1/C2 confirmed — prefer [#124](https://github.com/d6g8k5htny-coder/main/pull/124) @ `a380dcf…` carrier; consolidation **OFFERED**; eng≠theorem |
+| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 tip `2624262…` peer **AMEND** — prefer [#124](https://github.com/d6g8k5htny-coder/main/pull/124) @ `a380dcf…`; #124 **UNSTABLE** (verify FAILURE); consolidation **OFFERED**; eng≠theorem |
 | main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | tip `a1fc958…` **CI GREEN**; peer **AMEND** ([5848718687](https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5848718687)) A1 geometry still absent despite claim [5846575968](https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5846575968); A6 conditional; repair **OFFERED**; eng≠theorem |
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | D5 intermediate-scale envelope; **observe**; recon≠theorem |
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | **MERGED** `cd66a655…` onto hardening (not `main`); custody-only |
@@ -95,6 +95,13 @@
 | Math- [#72](https://github.com/d6g8k5htny-coder/Math-/pull/72) | nonauthor AMEND of main [#125](https://github.com/d6g8k5htny-coder/main/pull/125); **observe**; do not race |
 | main [#148](https://github.com/d6g8k5htny-coder/main/pull/148) | tip `7556ddd…` **CI GREEN×5**; peer **AMEND** ([5848436007](https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007)) RESEARCH_MAP vs handoff visibility-record; repair **OFFERED**; eng≠theorem |
 | main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | **MERGED** `a12c178…` @ head `0335115…`; Codex residual body tip/SHA256 at merge (**rule 10**); museum index refresh **OFFERED**; eng≠theorem |
+| main [#152](https://github.com/d6g8k5htny-coder/main/pull/152) | **MERGED** `a429766…` single-account merge docs; eng/ops |
+| main [#153](https://github.com/d6g8k5htny-coder/main/pull/153) | **MERGED** `1b0d4ee…` intake unreachable-source + PNG; eng |
+| main [#155](https://github.com/d6g8k5htny-coder/main/pull/155) | **MERGED** `2ed91b7…` verification museum + ops base; eng |
+| main [#156](https://github.com/d6g8k5htny-coder/main/pull/156) | **MERGED** `f9f1253…` intake non-finite JSON + source paths; eng |
+| main [#158](https://github.com/d6g8k5htny-coder/main/pull/158) | **MERGED** `6200dfd…` museum manifest cache; eng — **main tip** |
+| main [#157](https://github.com/d6g8k5htny-coder/main/pull/157) | tip `94459ce…` Actions group bump; **observe**; eng≠theorem |
+| main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | tip `a380dcf…` preferred C1/C2 carrier; **UNSTABLE** (one verify FAILURE); await CI; eng≠theorem |
 | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `81dab5a` (Batch 553 tip_sync_watch); hardening tip `96e5175`; `main` tip `d77a85a` (#151); **observe**; no lemma_closed/claim promotion |
