@@ -38,6 +38,7 @@
 | Live public shop link + verified query identity refresh (nav only; sci effect NONE) | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) @ `c407e33…` → prior `main` tip `71400b9…` |
 | Pinned verification exhibits + landed packet index (museum/nav; sci effect NONE) | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) @ `cd32303…` → `main` tip `d77a85a…` |
 | Downstream integrity gate unique required-check name (CI/eng; sci effect NONE) | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) @ `95c733e…` → merge `d6628da…` |
+| Vault security / owner routing docs (CI/eng; sci effect NONE) | Math- [#78](https://github.com/d6g8k5htny-coder/Math-/pull/78) @ merge `66e39d1…` |
 | Nine public BYTE_COPY imports exposed in Math- proof index (custody/nav; sci effect NONE) | Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) @ `29b5cf9…` → merge `58f7936…` |
 | V3.4 archive + arithmetic_ledgers custody (no re-ratification; sci effect NONE) | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) @ `2992819…` → hardening merge `cd66a655…` (base `chatgpt/drive-github-hardening-20260919` @ `2f7a5a9…`; not into `main`) |
 | P15 full-price support-scope dependency (metadata; sci effect NONE) | Math- [#66](https://github.com/d6g8k5htny-coder/Math-/pull/66) @ `423d4d9…` → merge `10e1f19…`; HOLD_WITH_DOMAIN parent |
@@ -89,6 +90,9 @@
 | main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) | **MERGED** `e495837…`; intake verify SUCCESS ([5847931757](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847931757)); eng receipt ([5847954854](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847954854)); residual Codex **P2 AMEND** RESULT.md task-link still open on tip (process rule 10 / [4112001085](https://github.com/d6g8k5htny-coder/main/pull/147#discussion_r4112001085)); successor repair **OFFERED**; eng≠theorem |
 | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) | **MERGED** `71400b9…` live shop link; nav only |
 | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) | **MERGED** `d6628da…` unique integrity-gate check name; CI/eng only |
+| Math- [#78](https://github.com/d6g8k5htny-coder/Math-/pull/78) | **MERGED** `66e39d1…` vault security/owner routing docs + weekly Actions; CI/eng only |
+| Math- [#79](https://github.com/d6g8k5htny-coder/Math-/pull/79) | tip `02feea4…` Actions group bump; **observe**; eng≠theorem |
+| Math- [#72](https://github.com/d6g8k5htny-coder/Math-/pull/72) | nonauthor AMEND of main [#125](https://github.com/d6g8k5htny-coder/main/pull/125); **observe**; do not race |
 | main [#148](https://github.com/d6g8k5htny-coder/main/pull/148) | tip `7556ddd…` **CI GREEN×5**; peer **AMEND** ([5848436007](https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007)) RESEARCH_MAP vs handoff visibility-record; repair **OFFERED**; eng≠theorem |
 | main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | **MERGED** `a12c178…` @ head `0335115…`; Codex residual body tip/SHA256 at merge (**rule 10**); museum index refresh **OFFERED**; eng≠theorem |
 | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |

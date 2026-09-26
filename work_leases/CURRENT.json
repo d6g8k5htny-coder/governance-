@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:54:55Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178. Math- #71 @ 21e3974 peer AMEND on record (5848500725): model attribution + PREMISS-Z-LOWER cite; C1/C2 stand; repair OFFERED. Updated 2026-09-26T17:54:55Z.",
+  "updated_at": "2026-09-26T18:02:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178; Math- tip 66e39d1 (#78 vault ops). Open tips unchanged: #134/#135/#136/#140/#148/#122/ULW#3/Math#71. Pulse 18:02Z. Updated 2026-09-26T18:02:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2631,7 +2631,7 @@
         "control_blob": "7f41ea3a0b0301e0ecdb72de86d00b4d8d9da291"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3700,7 +3700,7 @@
         "claim_comment": "5846575968"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3943,7 +3943,7 @@
         "peer_amend": "5848500725"
       },
       "claimed_at": "2026-09-26T09:35:00Z",
-      "heartbeat_at": "2026-09-26T17:54:55Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-27T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3980,7 +3980,7 @@
         "peer_amend": "5848497172"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T17:54:20Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -4028,7 +4028,7 @@
         "peer_amend": "5848479354"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T17:51:55Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4308,7 +4308,7 @@
         "peer_amend": "5848438896"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-26T17:46:30Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-27T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4418,7 +4418,7 @@
         "peer_amend": "5848437457"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T17:45:30Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4588,7 +4588,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:54:55Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4720,7 +4720,7 @@
         "peer_amend": "5848434306"
       },
       "claimed_at": "2026-09-26T16:31:00Z",
-      "heartbeat_at": "2026-09-26T17:45:30Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4883,7 +4883,7 @@
         "peer_amend": "5848436007"
       },
       "claimed_at": "2026-09-26T17:01:20Z",
-      "heartbeat_at": "2026-09-26T17:45:30Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5251,6 +5251,84 @@
       ],
       "delegates_to": "math-71-main124-c1c2-rereview",
       "blocked_reason": "OFFERED peer AMEND on review record; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-78-vault-release-ops",
+      "scope": "Document vault security and owner routing; weekly Actions updates only",
+      "owner": {
+        "provider": "openai",
+        "model": "codex",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 78,
+        "merge_oid": "66e39d1894d5c11bb5930b76692b5d0c71939efd",
+        "head_oid": "5327499"
+      },
+      "claimed_at": "2026-09-26T18:02:30Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/78",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/66e39d1894d5c11bb5930b76692b5d0c71939efd"
+      ],
+      "blocked_reason": "RELEASED/MERGED 66e39d1; vault/docs/CI ops only; sci effect NONE"
+    },
+    {
+      "work_id": "math-79-actions-group-bump",
+      "scope": "Dependabot github-actions group bump (3 updates)",
+      "owner": {
+        "provider": "github",
+        "model": "dependabot",
+        "agent": "dependabot"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 79,
+        "head_oid": "02feea49304e3beb627fedd55a048c60dcab8f2f"
+      },
+      "claimed_at": "2026-09-26T18:02:30Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/79"
+      ],
+      "blocked_reason": "OFFERED observe Actions bump; eng\u2260theorem; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-72-main125-nonauthor-amend",
+      "scope": "Nonauthor AMEND review of main #125 shrinking-witness bound",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 72,
+        "head_oid": "cdb6bdd40b215b9974050b449e0161e31a54bafd",
+        "subject_main_pr": 125
+      },
+      "claimed_at": "2026-09-26T18:02:30Z",
+      "heartbeat_at": "2026-09-26T18:02:30Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/72"
+      ],
+      "blocked_reason": "OFFERED observe; do not race peer author; sci effect NONE"
     }
   ]
 }
