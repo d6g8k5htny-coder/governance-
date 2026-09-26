@@ -42,7 +42,7 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `5cf4f36…` E6 kept strict + Q0 theorem-first order regression; **OA re-review OFFERED**; CI `36203583121`; #90 OPEN |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `5cf4f36…` E6 kept strict + Q0 theorem-first order regression; **OA re-review OFFERED**; CI `36203583121`; trial [#128](https://github.com/d6g8k5htny-coder/trial/pull/128)/[#131](https://github.com/d6g8k5htny-coder/trial/pull/131) **CLOSED** consumed/superseded → gate observe [#138](https://github.com/d6g8k5htny-coder/trial/pull/138) (subject `cc6a578` ≠ live tip); #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT**; Section5 **N1–N5 peer ACTIVE** (do not race); Sections6+ outside |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
