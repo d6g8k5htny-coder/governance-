@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T22:55:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). main #128 peer AMEND 5850654979; Math- #82 peer AMEND 5850657368. Updated 2026-09-26T22:55:30Z.",
+  "updated_at": "2026-09-26T22:56:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). Math- #81 AMEND 5850659219; Math- #80 AMEND 5850660898. Updated 2026-09-26T22:56:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4660,7 +4660,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T22:55:30Z",
+      "heartbeat_at": "2026-09-26T22:56:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5923,19 +5923,21 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 80,
-        "head_oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67"
+        "head_oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67",
+        "peer_amend": "5850660898"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T22:56:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/80"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5850660898"
       ],
-      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ a79007e; peer AMEND (5850660898): missing verify_substitute.py; rename \u2014 not TRANSVERSE stand-in after #59; qualify PR25 'theorem' (no org independence); repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-81-drive-hole-ledger",
@@ -5948,19 +5950,21 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 81,
-        "head_oid": "b28cf2526532ad318f082955fb419f09dbb5c61e"
+        "head_oid": "b28cf2526532ad318f082955fb419f09dbb5c61e",
+        "peer_amend": "5850659219"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T22:56:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/81"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/81",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/81#issuecomment-5850659219"
       ],
-      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b28cf25; peer AMEND (5850659219): mint-forbidden CHART_SIDE_JETMOD path; draft carriers mislabeled live; restates #65; #56 closed via #59; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-82-d5-microdisk-det-hm-vanishes",
@@ -6545,6 +6549,60 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368"
       ],
       "delegates_to": "math-82-d5-microdisk-det-hm-vanishes",
+      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-81-ledger-amend-repair",
+      "scope": "Repair #81 LEDGER predicates/carriers; cite #65/#69/#74 drafts; drop mint path",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 81,
+        "head_oid": "b28cf2526532ad318f082955fb419f09dbb5c61e",
+        "finding_comment": "5850659219"
+      },
+      "claimed_at": "2026-09-26T22:56:00Z",
+      "heartbeat_at": "2026-09-26T22:56:00Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/81#issuecomment-5850659219"
+      ],
+      "delegates_to": "math-81-drive-hole-ledger",
+      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-80-substitute-amend-repair",
+      "scope": "Commit verify script or cite digests; drop stand-in framing; qualify PR25 scope",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 80,
+        "head_oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67",
+        "finding_comment": "5850660898"
+      },
+      "claimed_at": "2026-09-26T22:56:00Z",
+      "heartbeat_at": "2026-09-26T22:56:00Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5850660898"
+      ],
+      "delegates_to": "math-80-contact-kernel-substitute",
       "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
     }
   ]
