@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T18:06:35Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178. #110 @ e8f585d peer ACCEPT-at-scope (5848585085); polish optional; awaits ready-for-review + update-branch. Updated 2026-09-26T18:06:35Z.",
+  "updated_at": "2026-09-26T18:07:25Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178; Math- tip 66e39d1. Math- #69 @ ae45d35 peer AMEND (5848591450): continuum transfer must be written; prefer land after #53; repair OFFERED. Updated 2026-09-26T18:07:25Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3400,20 +3400,22 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 69,
         "pr_state": "open",
-        "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400"
+        "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400",
+        "peer_amend": "5848591450"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T18:07:25Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/69"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848591450"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 69; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ ae45d35; BEHIND; peer AMEND (5848591450): continuum transfer of det Cov floor must be written (finding 1); tilt vs conditioning wording; drop literal-constant 'mutants'; land after #53 or cite by commit; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "trial-path-c-batch387-resume-2f7a5a9",
@@ -4593,7 +4595,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T18:06:35Z",
+      "heartbeat_at": "2026-09-26T18:07:25Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5390,6 +5392,34 @@
       ],
       "delegates_to": "main-110-cellcount-pin",
       "blocked_reason": "OFFERED author ready/polish after peer ACCEPT; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-69-continuum-transfer-amend",
+      "scope": "Write continuum Cov-floor transfer; fix tilt wording; real code mutants; order vs #53",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 69,
+        "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400",
+        "finding_comment": "5848591450",
+        "prefer_after_pr": 53
+      },
+      "claimed_at": "2026-09-26T18:07:25Z",
+      "heartbeat_at": "2026-09-26T18:07:25Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848591450"
+      ],
+      "delegates_to": "math-69-d5-pin-microdisk-ddiff",
+      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
     }
   ]
 }
