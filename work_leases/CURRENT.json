@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T22:39:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf. #161 @ 43b3ced peer AMEND (5850534745): F2 intensity figure + dual-hash + procedural #116 unlink; repair OFFERED. Updated 2026-09-26T22:39:30Z.",
+  "updated_at": "2026-09-26T22:40:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf. #159 @ 39161a6 peer AMEND (5850544205): RESULT.md+IDENTITY.json; ERRATUM row stale; repair OFFERED. Updated 2026-09-26T22:40:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4634,7 +4634,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T22:39:30Z",
+      "heartbeat_at": "2026-09-26T22:40:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5842,19 +5842,21 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 159,
-        "head_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7"
+        "head_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7",
+        "peer_amend": "5850544205"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T22:40:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/159"
+        "https://github.com/d6g8k5htny-coder/main/pull/159",
+        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205"
       ],
-      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 39161a6; peer AMEND (5850544205): public-intake needs RESULT.md+IDENTITY.json; ERRATUM_CONGRUENCE row stale (Math- #64 landed); unverifiable SIDE24 replica pointer; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-161-lb-rate-kimi-thm023-hold",
@@ -6284,6 +6286,33 @@
         "https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5850534745"
       ],
       "delegates_to": "main-161-lb-rate-kimi-thm023-hold",
+      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-159-intake-packaging-amend",
+      "scope": "Add RESULT.md+IDENTITY.json; fix ERRATUM row; cite or drop SIDE24 replica path",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 159,
+        "head_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7",
+        "finding_comment": "5850544205"
+      },
+      "claimed_at": "2026-09-26T22:40:30Z",
+      "heartbeat_at": "2026-09-26T22:40:30Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205"
+      ],
+      "delegates_to": "main-159-drive-lane-map-incoming",
       "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
     }
   ]
