@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:49:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Hardening tip 7caac254 (#118). Batch 385 Path C eng resume ACTIVE under bc-01a0cf1e on trial #121/#138 (IDLE@0019; lemma_closed=false; no claim promotion). #120 d486dd1 CI pending. Updated 2026-09-26T01:49:00Z.",
+  "updated_at": "2026-09-26T01:50:30Z",
+  "notes": "Compact ledger. Sci effect NONE. #122 OA ACTIVE base-sync onto 7caac254 (5842118786). Math- #66 OA ACTIVE custody audit @ 2857b54 (5842116064). Path C Batch 385 under bc-01a0cf1e. Updated 2026-09-26T01:50:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2613,7 +2613,7 @@
         "prior_oid": "d49be07074bd0696cc034757379771eae3c852de"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:50:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2629,10 +2629,11 @@
         "https://cursor.com/agents/bc-9fb1436d-943f-4506-9649-7572c3989d7c",
         "https://github.com/d6g8k5htny-coder/main/commit/b36222248e6909a2cae19639dbd2896818444e00",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36208384322",
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842026008"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842026008",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842118786"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ b362222; verify FAIL 36208384322 confirmed by OA (5842026008): stale-head — sync hardening ebedb78 into PR and rerun event-compare (do not bypass); OA not editing; peer/author rebase lane; A1/A6 nonauthor re-review remains separate; this App does not race; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ b362222; OA ACTIVE base-sync onto 7caac254 (5842118786); await merge successor + green event-compare; A1/A6 nonauthor re-check separate; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-52-d2-cumulative-confirm",
@@ -3087,31 +3088,34 @@
       "work_id": "main-122-rebase-onto-ebedb78",
       "scope": "Synchronize hardening tip ebedb78 into #122 and rerun claims_gate event-compare; no A1–A6 analytic rewrite",
       "owner": {
-        "provider": null,
-        "model": null,
-        "agent": null
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
       },
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 122,
         "pr_state": "open",
         "head_oid": "b36222248e6909a2cae19639dbd2896818444e00",
-        "target_base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89",
-        "fail_run": "36208384322"
+        "target_base_oid": "7caac254cbba5f513b2dc0afb56b78a598bc0c93",
+        "fail_run": "36208384322",
+        "prior_target_base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
       },
       "claimed_at": "2026-09-26T01:39:30Z",
-      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:50:30Z",
       "expires_at": "2026-09-27T03:00:00Z",
-      "state": "OFFERED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842026008",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208384322"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208384322",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842118786",
+        "https://github.com/d6g8k5htny-coder/main/commit/7caac254cbba5f513b2dc0afb56b78a598bc0c93"
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
-      "blocked_reason": "OFFERED peer/author rebase onto ebedb78; OA not editing (5842026008); this App cannot push main"
+      "blocked_reason": "ACTIVE OA base-sync (5842118786): merge hardening 7caac254 into #122 head b362222 without proof/control edits; stop on conflict/competing head; A1/A6 re-review remains separate; this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-125-d5-shrinking-witness",
@@ -3237,17 +3241,19 @@
         "head_oid": "2857b549f771b8b8a76728e4ee0add6b28004099"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:50:30Z",
       "expires_at": "2026-09-27T04:00:00Z",
-      "state": "OFFERED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D6",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/66"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/66",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/66#issuecomment-5842116064"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 66; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE OA custody audit (5842116064) @ 2857b54: read p15-full-price→p15-realized-covers import + main#74/#67/Math#39/#57 surfaces; smallest manifest repair only on isolated local branch; no shared push/merge/checker-weakening/theorem; zero org-independence credit; this App does not race",
+      "lanes_note": "OA Codex same-provider audit; governance- observes only"
     },
     {
       "work_id": "math-67-cross-repo-proof-custody",
