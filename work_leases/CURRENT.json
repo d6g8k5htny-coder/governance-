@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:31:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip d77a85a. #150 body tip-sync AMEND CLOSED (5848338681) \u2014 live head + trusted PRTgt receipt bound. #140 verify pending. #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:31:30Z.",
+  "updated_at": "2026-09-26T17:39:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip d77a85a. #140 @ 3013733 CI GREEN\u00d75. #136/#148/#150 green/ready. #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:39:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4409,7 +4409,7 @@
         "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T17:29:00Z",
+      "heartbeat_at": "2026-09-26T17:39:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4578,7 +4578,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:31:30Z",
+      "heartbeat_at": "2026-09-26T17:39:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4703,13 +4703,13 @@
         "pr_state": "open",
         "head_oid": "30137333e4ef1a8b533de9e74ffa16fd5d169972",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "verify_in_progress_3013733",
+        "ci": "green_5_3013733",
         "sibling_pr": 136,
         "prior_oid": "33a2b78e346c2f1da64c803d97ee631bf49dc4cc",
         "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57"
       },
       "claimed_at": "2026-09-26T16:31:00Z",
-      "heartbeat_at": "2026-09-26T17:31:30Z",
+      "heartbeat_at": "2026-09-26T17:39:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4720,7 +4720,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/30137333e4ef1a8b533de9e74ffa16fd5d169972"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 3013733 after merge hardening 96e5175; sibling #136; CI in progress; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 3013733 after merge hardening 96e5175; CI GREEN\u00d75; sibling #136; do not race; sci effect NONE"
     },
     {
       "work_id": "main-147-public-intake-side24-example",
