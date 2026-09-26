@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:56:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #66 tip 423d4d9 support-scope repair published (5842160241); CI pending. PREMIS-Z-LOWER BLOCKED. Updated 2026-09-26T01:56:30Z.",
+  "updated_at": "2026-09-26T01:58:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #54 tip 965011d = merge 6e4085a+1e1114f (5842173396); nav/custody only; CONTACT SOURCE NOT FOUND retained; hosted CI pending. Updated 2026-09-26T01:58:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2714,12 +2714,15 @@
         "branch": "chatgpt/proof-index-20260925-v2",
         "pr": 54,
         "pr_state": "open",
-        "head_oid": "6e4085a78eb0ebd5eefb767f942412273bfd7f6f",
+        "head_oid": "965011dbb301fb541f28f7ff9a8d2aea36c9db1d",
         "transverse_blob": "024d927779f79fadaf932541ea6474f2995f8c50",
-        "target_base_oid": "1e1114f5eb8ef8cdbcde591bf74126274c250f88"
+        "target_base_oid": "1e1114f5eb8ef8cdbcde591bf74126274c250f88",
+        "prior_oid": "6e4085a78eb0ebd5eefb767f942412273bfd7f6f",
+        "tree_oid": "142737e958903d9dce2e56d864a844b9ebf7bdf9",
+        "base_oid": "1e1114f5eb8ef8cdbcde591bf74126274c250f88"
       },
       "claimed_at": "2026-09-26T01:13:20Z",
-      "heartbeat_at": "2026-09-26T01:53:30Z",
+      "heartbeat_at": "2026-09-26T01:58:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2733,10 +2736,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36207928775",
         "https://github.com/d6g8k5htny-coder/Math-/commit/6e4085a78eb0ebd5eefb767f942412273bfd7f6f",
         "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5841895749",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5842137854"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5842137854",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5842173396",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/965011dbb301fb541f28f7ff9a8d2aea36c9db1d"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE OA integration repair (5842137854) @ 6e4085a onto Math main 1e1114f: ordinary base merge + PROOF_INDEX/README nav + transverse custody; keep TRANSVERSE_CONTACT_ASYMPTOTIC SOURCE NOT FOUND; no LANDING_CLAIMS/GRAPH/checkers/theorem edits; this App does not race; sci effect NONE",
+      "blocked_reason": "ACTIVE DRAFT @ 965011d — integration merge published (5842173396); delta PROOF_INDEX+README+imported transverse proof; CONTACT remains SOURCE NOT FOUND; LANDING_CLAIMS/GRAPH/theorems unchanged; local landing PASS; hosted CI pending; nav/custody only; sci effect NONE",
       "lanes_note": "OA claimed exclusive integration pass; peer FINAL INDEX DELTA serialize under OA"
     },
     {
