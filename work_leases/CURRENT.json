@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:12:30Z",
-  "notes": "Compact ledger. Sci effect NONE. ULW #2 tip d72ccbe CI GREEN; roles demoted to meta-framework only; ACCEPT_BOOTSTRAP stands; mutable ref AMEND still open. Updated 2026-09-26T15:12:30Z.",
+  "updated_at": "2026-09-26T15:22:45Z",
+  "notes": "Compact ledger. Sci effect NONE. ULW #2 tip 79e4b39; peer Claude AMEND BLOCKING (top-level forbidden keys fail-open; 5847423896) \u2014 corroborated locally; mutable ref AMEND stands. Observe ULW #3 competing proposal. Updated 2026-09-26T15:22:45Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4186,16 +4186,17 @@
         "repo": "d6g8k5htny-coder/Universal-Law-Workspace",
         "pr": 2,
         "pr_state": "open",
-        "head_oid": "d72ccbe3044bdf46649762ab01582cba44cf1af1",
+        "head_oid": "79e4b3963aac64d568be7438f56e05e0fb6ad63c",
         "issue": 1,
         "handoff_comment": "5847321852",
-        "review_disposition": "ACCEPT_BOOTSTRAP_AMEND_MUTABLE_REF",
-        "prior_oid": "91e830f3ee1afce8893bcb38790bf84b259dedcc",
+        "review_disposition": "AMEND_BLOCKING",
+        "prior_oid": "d72ccbe3044bdf46649762ab01582cba44cf1af1",
         "ci": "green",
-        "prior_accept_oid": "0f222526a05ccb64ac31c9ffaf9663e8a279eb09"
+        "prior_accept_oid": "0f222526a05ccb64ac31c9ffaf9663e8a279eb09",
+        "peer_review": "AMEND_BLOCKING_TOPLEVEL_FORBIDDEN_5847423896"
       },
       "claimed_at": "2026-09-26T15:08:30Z",
-      "heartbeat_at": "2026-09-26T15:12:30Z",
+      "heartbeat_at": "2026-09-26T15:22:45Z",
       "expires_at": "2026-09-27T20:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4208,10 +4209,12 @@
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/91e830f3ee1afce8893bcb38790bf84b259dedcc",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/actions/runs/36250945742",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/d72ccbe3044bdf46649762ab01582cba44cf1af1",
-        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/actions/runs/36251078796"
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/actions/runs/36251078796",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/79e4b3963aac64d568be7438f56e05e0fb6ad63c",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2#issuecomment-5847423896"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ d72ccbe; CI GREEN; role metadata removed (canonical in meta-framework); ACCEPT_BOOTSTRAP stands; mutable AUTHORITY_MAP ref AMEND still open; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 79e4b39; peer AMEND BLOCKING (5847423896) top-level forbidden keys fail-open (corroborated: lemma_closed+promotion_permission root \u2192 problems=0); mutable ref AMEND stands; competing ULW #3 observe; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-2-federation-bootstrap-review",
@@ -4242,6 +4245,35 @@
       ],
       "delegates_to": "ulw-2-federation-bootstrap",
       "blocked_reason": "RELEASED: ACCEPT_BOOTSTRAP+AMEND filed on governance-; sci effect NONE"
+    },
+    {
+      "work_id": "ulw-3-public-workspace-proposal",
+      "scope": "Competing public workspace map proposal (submodules/ledgers); eng only; COI declared vs #2",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Universal-Law-Workspace",
+        "branch": "claude/public-workspace-proposal-20260926",
+        "pr": 3,
+        "pr_state": "open",
+        "head_oid": "2d65202d064e26f0c3848e64b979b890efbd68cd"
+      },
+      "claimed_at": "2026-09-26T15:22:45Z",
+      "heartbeat_at": "2026-09-26T15:22:45Z",
+      "expires_at": "2026-09-27T22:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2#issuecomment-5847423896"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe competing DRAFT @ 2d65202; owner reconciles with #2; zero org-independence; do not race; sci effect NONE"
     }
   ]
 }

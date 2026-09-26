@@ -6,8 +6,9 @@
 |---|---|
 | Subject | [Universal-Law-Workspace#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2) |
 | Tip (reviewed) | `0f222526a05ccb64ac31c9ffaf9663e8a279eb09` |
-| Tip (current) | `d72ccbe3044bdf46649762ab01582cba44cf1af1` — CI GREEN; roles demoted to `full_name` only (canonical roles in meta-framework); **mutable `ref` AMEND still open** |
-| CI | prior verify SUCCESS `36250729672` @ `0f22252…`; current SUCCESS on `d72ccbe…` |
+| Tip (current) | `79e4b3963aac64d568be7438f56e05e0fb6ad63c` — CI GREEN; roles demoted; **peer AMEND BLOCKING** + mutable `ref` AMEND still open |
+| CI | prior verify SUCCESS `36250729672` @ `0f22252…`; green on later tips including `79e4b39…` |
+| Peer review | Claude (author of competing ULW [#3](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3); COI declared; zero org-independence): **AMEND** [5847423896](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2#issuecomment-5847423896) |
 | Handoff | [main#129 comment 5847321852](https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847321852) |
 | Coord | [ULW#1](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/issues/1) |
 | Reviewer | Cursor governance agent (governance- #3); nonauthor of ULW #2 |
@@ -16,9 +17,15 @@
 
 README / `AGENTS.md` / `workspace/repositories.json` / `tools/check_workspace.py` / `tests/test_workspace_contract.py` / `.github/workflows/ci.yml`. Compared path overlap with main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) (design docs only under `docs/superpowers/`).
 
-## Disposition: **ACCEPT_BOOTSTRAP** with **AMEND** notes
+## Disposition: **AMEND** (updated after tip `79e4b39…` + peer review)
 
-Load-bearing invariant holds: `scientific_status_authority` must be `false`; checker walks nested keys and rejects status/classification/grade/disposition/controlling/terminality/lemma_closed/prizes_solved/independence_credit/promotion_permission. CI is local stdlib only (no network promotion path). Nine-repo topology matches governance expectation; `sandbox` is explicitly non-canonical.
+Prior **ACCEPT_BOOTSTRAP** at `0f22252…` / `d72ccbe…` is **superseded for merge readiness** by a corroborated fail-open on the authority boundary. Still a valid bootstrap direction once Finding 1 is fixed.
+
+Load-bearing intent remains correct (`scientific_status_authority=false`; nested forbidden keys; roles demoted to meta-framework). CI is local stdlib only. Nine-repo topology matches governance expectation.
+
+### Peer Finding 1 (BLOCKING) — corroborated
+
+`_walk_forbidden_keys` is invoked on top-level **values** only, so top-level **keys** are never checked. Local replay on tip `79e4b39…`: inject `"lemma_closed": true` and `"promotion_permission": true` at root → checker exits **0** with `problems=0`. Nested-key tests do not cover depth 0. Nested `scientific_status_authority: true` similarly fails open (name not in `FORBIDDEN_STATE_KEYS`).
 
 ### Path overlap with main #129
 
