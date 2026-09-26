@@ -50,10 +50,10 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
 | main [#118](https://github.com/d6g8k5htny-coder/main/pull/118)/[#123](https://github.com/d6g8k5htny-coder/main/pull/123) | **prefer land #118** @ `f411ce5` (tree=`6b3a408d…` = `#123` `004fa5f`); #123 SUPERSEDED landing vehicle (5841925793); CI pending |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |
-| main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `7ed8d1e…` SIDE24 source-custody; **verify FAIL** `36205808386` (certificates 11≠10); author-lane; no re-ratification |
+| main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `7ed8d1e…` SIDE24 source-custody; **author ACTIVE** certificate-count fixture repair (5842016701); do not race `test_pinned_sources`; no re-ratification |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 `2624262…`; C1/C2 repair **#124** @ `a380dcf…` (5841921230); **nonauthor re-review OFFERED**; eng≠theorem |
-| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `b362222…` A1/A6 open-predicate repair delivered (5841903639); **nonauthor A1/A6 re-check OFFERED**; eng≠theorem |
+| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `b362222…` A1/A6 repair delivered (5841903639); **verify FAIL** `36208384322` missing `ID_CROSSWALK` (rebase onto `ebedb78`); **nonauthor A1/A6 re-check OFFERED**; eng≠theorem |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
