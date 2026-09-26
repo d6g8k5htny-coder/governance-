@@ -53,7 +53,7 @@
 | main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `d486dd1…` = `6385bc0`+`ebedb78` (5842042737); local claims-gate PASS; await hosted CI; custody-only |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 `2624262…`; C1/C2 repair **#124** @ `a380dcf…` **verify SUCCESS**; **nonauthor re-review OFFERED**; eng≠theorem |
-| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `b362222…`; **OA ACTIVE** base-sync onto `7caac254` (5842118786); A1/A6 re-check separate |
+| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `6a7f1f6…` = `b362222`+`7caac254` base-sync; CI pending; **A1/A6 re-check OFFERED**; eng≠theorem |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 385 Path C eng resume @ hardening `7caac25` (bc-01a0cf1e…); IDLE@0019; **observe**; no lemma_closed/claim promotion |
 | Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | **#66** audit RELEASED (5842128273): support-edge candidate local-only; **integration OFFERED**; others observe |
