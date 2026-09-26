@@ -47,12 +47,12 @@
 | Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) | `6e4085a…` FINAL INDEX DELTA assigned (5841895749); Landing FAIL; peer lane |
 | Math- [#55](https://github.com/d6g8k5htny-coder/Math-/pull/55)/[#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | Pin-neighborhood review / TRANSVERSE_CONTACT absent disposition; **observe** |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
-| main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` Q0_LEDGER; Cursor packaging **ACCEPT** (5841877351); **rebase onto ebedb78 OFFERED**; eng≠theorem |
+| main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` packaging ACCEPT; **rebase peer ACTIVE** onto `ebedb78`; eng≠theorem |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |
 | main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `7ed8d1e…` SIDE24 source-custody; **verify FAIL** `36205808386` (certificates 11≠10); author-lane; no re-ratification |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121) | `2624262…` Q0-C103 pair-Palm; **CI green**; observe; eng≠theorem |
-| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `d49be07…` SARD-G repair; **CI green**; observe; eng≠theorem |
+| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `d49be07…` SARD-G; **A1/A6 repair peer ACTIVE** (5841903136); eng≠theorem |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
