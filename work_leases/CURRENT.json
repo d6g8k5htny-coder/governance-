@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:04:10Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #148 tip 7556ddd (merged hardening 96e5175); #136 @ 567213c CI in progress. #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:04:10Z.",
+  "updated_at": "2026-09-26T17:10:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #150 tip 2cf62f2 (merged main); CI GREEN. #136/@567213c + #148/@7556ddd verify still in progress. Updated 2026-09-26T17:10:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4409,7 +4409,7 @@
         "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T17:04:10Z",
+      "heartbeat_at": "2026-09-26T17:10:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4576,7 +4576,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:04:10Z",
+      "heartbeat_at": "2026-09-26T17:10:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4865,7 +4865,7 @@
         "ci": "verify_in_progress_7556ddd"
       },
       "claimed_at": "2026-09-26T17:01:20Z",
-      "heartbeat_at": "2026-09-26T17:04:10Z",
+      "heartbeat_at": "2026-09-26T17:10:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4891,22 +4891,25 @@
         "branch": "claude/incoming-side24-chart-20260926",
         "pr": 150,
         "pr_state": "open",
-        "head_oid": "88272efe2a455032ffb2c7b33e97f0d63092d37b",
+        "head_oid": "2cf62f293546a5e5cf5d2ee07d5754763d41122d",
         "base_branch": "main",
-        "task_issue": 141
+        "task_issue": 141,
+        "prior_oid": "88272efe2a455032ffb2c7b33e97f0d63092d37b",
+        "ci": "green_3_2cf62f2"
       },
       "claimed_at": "2026-09-26T17:01:20Z",
-      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "heartbeat_at": "2026-09-26T17:10:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/150"
+        "https://github.com/d6g8k5htny-coder/main/pull/150",
+        "https://github.com/d6g8k5htny-coder/main/commit/2cf62f293546a5e5cf5d2ee07d5754763d41122d"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 88272ef; intake dry-run for #141; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 2cf62f2 after merge main 71400b9; CI GREEN (public-intake/public-shop/verify); intake dry-run for #141; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }

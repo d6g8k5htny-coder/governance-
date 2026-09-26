@@ -89,7 +89,7 @@
 | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) | **MERGED** `71400b9…` live shop link; nav only |
 | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) | **MERGED** `d6628da…` unique integrity-gate check name; CI/eng only |
 | main [#148](https://github.com/d6g8k5htny-coder/main/pull/148) | tip `7556ddd…` (merged hardening `96e5175…`); CI in progress; **observe**; eng≠theorem |
-| main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | `88272ef…` SIDE24 chart intake dry-run for task #141; **observe**; eng≠theorem |
+| main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | tip `2cf62f2…` (merged main); **CI GREEN**; SIDE24 chart intake dry-run for task #141; **observe**; eng≠theorem |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `4096dff` (Batch 551 tip_or_eng TIP_DRIFT); hardening tip `96e5175`; `main` tip `71400b9` (#149); **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | **MERGED** `9d7b680…`; custody import; prior BYTE_COPY×9 @ `b39e9ff…` ([5847534053](https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053)); merge≠theorem |
