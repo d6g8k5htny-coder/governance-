@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T16:12:00Z",
-  "notes": "Compact ledger. Sci effect NONE. #134 @ 497ceff CI GREEN\u00d75; re-review OFFERED. ULW #3 tip 96e0059 (withdraw false private claim); still CONFLICTING; verify SUCCESS. #135 @ 16b00c1 verify still in progress. Updated 2026-09-26T16:12:00Z.",
+  "updated_at": "2026-09-26T16:23:55Z",
+  "notes": "Compact ledger. Sci effect NONE. #134 @ 497ceff CI GREEN\u00d75; #135 @ 16b00c1 CI GREEN\u00d75; both re-reviews OFFERED. ULW #3 @ 96e0059 CONFLICTING. Updated 2026-09-26T16:23:55Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3700,7 +3700,7 @@
         "claim_comment": "5846575968"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-26T16:12:00Z",
+      "heartbeat_at": "2026-09-26T16:23:55Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3972,12 +3972,12 @@
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "push_verify": "expected_fail_zero_before_ref",
         "prior_oid": "a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
-        "ci": "verify_in_progress_16b00c1",
+        "ci": "green_5_16b00c1",
         "author_status": "waiting_on_reviewers",
         "repair_comment": "5847678135"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T16:12:00Z",
+      "heartbeat_at": "2026-09-26T16:23:55Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -4000,7 +4000,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847678135"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 16b00c1; author confirms both AMEND findings fixed (5847678135); await CI green + peer re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 16b00c1; author confirms both AMEND findings fixed (5847678135); CI GREEN\u00d75; await peer re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-134-claim-graph-firewall",
@@ -4023,7 +4023,7 @@
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T16:12:00Z",
+      "heartbeat_at": "2026-09-26T16:23:55Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4301,7 +4301,7 @@
         "ci": "verify_SUCCESS"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-26T16:12:00Z",
+      "heartbeat_at": "2026-09-26T16:23:55Z",
       "expires_at": "2026-09-27T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4469,7 +4469,7 @@
         "ci": "green_5"
       },
       "claimed_at": "2026-09-26T15:53:30Z",
-      "heartbeat_at": "2026-09-26T16:12:00Z",
+      "heartbeat_at": "2026-09-26T16:23:55Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4528,10 +4528,11 @@
         "pr": 135,
         "head_oid": "16b00c17a7f7b03708467fc67dbeb66ab5c18732",
         "prior_finding": "5847304236",
-        "repair_comment": "5847678135"
+        "repair_comment": "5847678135",
+        "ci": "green_5"
       },
       "claimed_at": "2026-09-26T15:58:30Z",
-      "heartbeat_at": "2026-09-26T16:12:00Z",
+      "heartbeat_at": "2026-09-26T16:23:55Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4539,7 +4540,9 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847678135",
-        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847304236"
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847304236",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36253729760",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36253727238"
       ],
       "delegates_to": "main-135-interval-prose-errata",
       "blocked_reason": "OFFERED peer re-review after repair; this App does not race; sci effect NONE"
@@ -4561,7 +4564,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T16:12:00Z",
+      "heartbeat_at": "2026-09-26T16:23:55Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
