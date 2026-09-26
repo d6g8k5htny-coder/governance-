@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:11:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Pulse 00:11Z: #98 tip 5cf4f36 verify still IN_PROGRESS; #112 Section5 ACCEPT standing, no Section6+ assign yet; #18 tip unchanged; observe main #118 Q0_LEDGER + Math- #49 collision package. Updated 2026-09-26T00:11:40Z.",
+  "updated_at": "2026-09-26T00:20:40Z",
+  "notes": "Compact ledger. Sci effect NONE. trial #138 gate CI FAIL @ feea1df: binding_order_permutation fail (\u00d72 modes); tip_health ok. Live #98 tip 5cf4f36 removed order-normalization (E6-strict) \u2014 gate subject/expectation lags. Await OA rebind. Updated 2026-09-26T00:20:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "5cf4f366c70d8cd8a548a4488184601c8714bfaa"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T00:11:40Z",
+      "heartbeat_at": "2026-09-26T00:20:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -377,10 +377,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "7a3e24bf21cf0dd54beb77a73e970b87429902f1"
+        "head_oid": "f0552c67b6091d2dbf2a4ef7b0064fb564d15696"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T00:12:00Z",
+      "heartbeat_at": "2026-09-26T00:21:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2171,7 +2171,7 @@
         "head_oid": "5cf4f366c70d8cd8a548a4488184601c8714bfaa"
       },
       "claimed_at": "2026-09-26T00:07:30Z",
-      "heartbeat_at": "2026-09-26T00:07:30Z",
+      "heartbeat_at": "2026-09-26T00:20:40Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2179,10 +2179,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841329537",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OA re-review @ 5cf4f36; keep DRAFT; #90 OPEN"
+      "blocked_reason": "OFFERED OA re-review @ 5cf4f36; trial #138 still binds feea1df with order-normalize probe \u2014 not tip clearance; keep DRAFT; #90 OPEN"
     },
     {
       "work_id": "main-112-section5-endpoint-averages",
@@ -2233,11 +2234,12 @@
         "pr_state": "open",
         "issue": 90,
         "head_oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
-        "subject_main_oid": "cc6a578b26f14a16025f4c955fe5efdd65890b1f",
-        "live_main_tip": "5cf4f366c70d8cd8a548a4488184601c8714bfaa"
+        "subject_main_oid": "feea1df7726f3b8a57f3de9bfe5d56e7377b8bc0",
+        "live_main_tip": "5cf4f366c70d8cd8a548a4488184601c8714bfaa",
+        "adapter_sha256": "6bf3ab15e111b09ba5068605ad3d0e04794eca7d45838613329c47f320c15435"
       },
       "claimed_at": "2026-09-26T00:09:40Z",
-      "heartbeat_at": "2026-09-26T00:11:40Z",
+      "heartbeat_at": "2026-09-26T00:20:40Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2246,11 +2248,12 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/138",
         "https://github.com/d6g8k5htny-coder/trial/pull/131#issuecomment-5841338149",
-        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349"
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349",
+        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5841326602"
       ],
       "delegates_to": null,
       "lanes_note": "Subject oid in PR body is cc6a578; live main #98 tip is 5cf4f36 \u2014 do not treat stale-head gate as tip clearance; serialize with OA re-review offer",
-      "blocked_reason": "ACTIVE DRAFT @ 1f990f2; gate verify FAILURE expected/red-by-design class possible; subject cc6a578 \u2260 live tip 5cf4f36; eng\u2260#90 close; this App does not rewrite trial"
+      "blocked_reason": "ACTIVE DRAFT @ 1f990f2; gate verify FAIL 36203541349 \u2014 binding_order_permutation fail (normal+optimized) on subject feea1df (expected order-permute no-impact after normalize); live tip 5cf4f36 removed that normalize (E6-strict) so subject/expectation stale; await OA rebind; eng\u2260#90 close"
     },
     {
       "work_id": "main-118-q0-ledger-mirror",
