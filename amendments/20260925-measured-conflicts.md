@@ -44,7 +44,7 @@
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
 | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `5cf4f36…` E6 kept strict + Q0 theorem-first order regression; **OA re-review OFFERED**; CI `36203583121`; trial [#128](https://github.com/d6g8k5htny-coder/trial/pull/128)/[#131](https://github.com/d6g8k5htny-coder/trial/pull/131) **CLOSED** → gate [#138](https://github.com/d6g8k5htny-coder/trial/pull/138) **FAIL** `binding_order_permutation` @ subject `feea1df` (lags live tip / E6-strict); #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
-| main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` byte-exact Q0_LEDGER mirror; **observe**; serialize with #98 Q0 packaging |
+| main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` byte-exact Q0_LEDGER mirror; **CI green** (5 checks); keep DRAFT; serialize with #98 Q0 packaging |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate from PR25 blobs; **observe**; merge ≠ theorem |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |

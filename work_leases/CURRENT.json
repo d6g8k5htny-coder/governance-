@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:20:40Z",
-  "notes": "Compact ledger. Sci effect NONE. trial #138 gate CI FAIL @ feea1df: binding_order_permutation fail (\u00d72 modes); tip_health ok. Live #98 tip 5cf4f36 removed order-normalization (E6-strict) \u2014 gate subject/expectation lags. Await OA rebind. Updated 2026-09-26T00:20:40Z.",
+  "updated_at": "2026-09-26T00:23:20Z",
+  "notes": "Compact ledger. Sci effect NONE. main #118 CI green @ 435d8c8 (5 checks); keep DRAFT; serialize Q0 packaging with #98. #98 verify still IN_PROGRESS. Updated 2026-09-26T00:23:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -21,7 +21,7 @@
         "head_oid": "5cf4f366c70d8cd8a548a4488184601c8714bfaa"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T00:20:40Z",
+      "heartbeat_at": "2026-09-26T00:23:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -377,10 +377,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "f0552c67b6091d2dbf2a4ef7b0064fb564d15696"
+        "head_oid": "048241c9ae6fb935789335c776a71a97c8fcc422"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T00:21:00Z",
+      "heartbeat_at": "2026-09-26T00:23:30Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2273,7 +2273,7 @@
         "ledger_bytes": 253067
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T00:11:40Z",
+      "heartbeat_at": "2026-09-26T00:23:20Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2285,11 +2285,14 @@
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/118"
+        "https://github.com/d6g8k5htny-coder/main/pull/118",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36203317710",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36203317698",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36203317738"
       ],
       "delegates_to": null,
       "lanes_note": "Q0 packaging adjacent to #98 scientific-state pilot \u2014 serialize merges; sci effect NONE claimed",
-      "blocked_reason": "ACTIVE DRAFT @ 435d8c8; CI in progress; observe only from governance-; do not race #98 tip; eng\u2260theorem"
+      "blocked_reason": "ACTIVE DRAFT @ 435d8c8; CI green (5 checks / 36203317710); observe only; serialize with #98 Q0; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-49-collision-package-integrate",
