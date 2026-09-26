@@ -21,3 +21,12 @@ Sci effect NONE.
 - Serialize `claims/q0_core_availability.json` with main #118
 
 Sci effect NONE.
+
+## Addendum — post-merge event-compare fix (2026-09-26T00:49Z)
+
+- Tip `b59359ebb972351802c7bf343363811a8e83150b` on parent `69e9b52`
+- Base→merged tip event-compare failed: attaching Q0 bindings changed path-level `semantic_digest`, so E6 blocked coverage repair
+- Fix: unresolved→monitorable gates on `semantic_digest_core` (bindings list removed; statement/edges/scalars remain); precision upgrades still use full order-sensitive `semantic_digest`
+- OA final readback rebinds to `b59359e` (confirm E6 not weakened)
+
+Sci effect NONE.

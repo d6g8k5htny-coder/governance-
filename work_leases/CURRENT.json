@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:48:40Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 tip 69e9b52 merge(hardening) 5cf4f36+1ae02b9; mergeable=true; verify IN_PROGRESS; OA final readback OFFERED. Q0 file overlap with #118 \u2014 serialize. Updated 2026-09-26T00:48:40Z.",
+  "updated_at": "2026-09-26T00:50:50Z",
+  "notes": "Compact ledger. Sci effect NONE. main #98 tip b59359e: unresolved\u2192monitorable via semantic_digest_core after base-merge event-compare fail; verify 36206280233 in progress; OA final readback rebinding OFFERED. Updated 2026-09-26T00:50:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -18,12 +18,12 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "69e9b526fa6fea4468475705c599d454427eb603",
+        "head_oid": "b59359ebb972351802c7bf343363811a8e83150b",
         "adapter_sha256": "827ae02110bce22aaf48a5800bb0a4cd9a28164a601867e802f494ec378f23d2",
         "base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T00:48:40Z",
+      "heartbeat_at": "2026-09-26T00:50:50Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -82,11 +82,14 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296",
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-e6-accept-integration.md",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36206144637",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206144589"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206144589",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206280233",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206280285",
+        "https://github.com/d6g8k5htny-coder/main/commit/b59359ebb972351802c7bf343363811a8e83150b"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 69e9b52 DRAFT (merge 5cf4f36+1ae02b9); mergeable; verify IN_PROGRESS; await CI + OA final readback; #90 OPEN; serialize Q0 with #118"
+      "blocked_reason": "ACTIVE tip b59359e DRAFT; post-merge fix: unresolved\u2192monitorable on semantic_digest_core (bindings excluded); E6 precision path still full digest; await CI 36206280233 + OA final readback; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -384,10 +387,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "a50fd8f19b29014ba90c4db1decfa8f9daed1803"
+        "head_oid": "8cdece4ea257ae2a2bd06269545f2b5c697c8aaf"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T00:49:00Z",
+      "heartbeat_at": "2026-09-26T00:51:10Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2417,12 +2420,12 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "69e9b526fa6fea4468475705c599d454427eb603",
+        "head_oid": "b59359ebb972351802c7bf343363811a8e83150b",
         "target_base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5",
         "current_base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5"
       },
       "claimed_at": "2026-09-26T00:44:00Z",
-      "heartbeat_at": "2026-09-26T00:48:40Z",
+      "heartbeat_at": "2026-09-26T00:50:50Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -2437,7 +2440,7 @@
       ],
       "delegates_to": "main-98-claims-gate-adapter",
       "lanes_note": "Author-lane only; governance- App has no main push. Preserve D1 CONDITIONAL/HOLD_WITH_DOMAIN + FW-RUNG-OPEN-PREMISE; Q0 theorem-first; E6 strict.",
-      "blocked_reason": "RELEASED: author merge @ 69e9b52 integrated 1ae02b9 into tip; await hosted CI + OA final bounded readback; eng\u2260#90 close"
+      "blocked_reason": "RELEASED merge @ 69e9b52 then follow-up fix @ b59359e for base\u2192tip event-compare; await CI + OA final readback"
     },
     {
       "work_id": "main-98-openai-rereview-69e9b52",
@@ -2460,9 +2463,9 @@
         ]
       },
       "claimed_at": "2026-09-26T00:48:40Z",
-      "heartbeat_at": "2026-09-26T00:48:40Z",
+      "heartbeat_at": "2026-09-26T00:50:50Z",
       "expires_at": "2026-09-27T01:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -2474,7 +2477,39 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36206144589"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OA final readback @ 69e9b52 after base integration; await CI green first; keep DRAFT; #90 OPEN"
+      "blocked_reason": "SUPERSEDED by tip b59359e (post-merge semantic_digest_core fix)"
+    },
+    {
+      "work_id": "main-98-openai-rereview-b59359e",
+      "scope": "OA final bounded readback of tip b59359e: post-1ae02b9 merge + unresolved\u2192monitorable semantic_digest_core gate; confirm E6 strictness intact",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "b59359ebb972351802c7bf343363811a8e83150b",
+        "parent_oid": "69e9b526fa6fea4468475705c599d454427eb603"
+      },
+      "claimed_at": "2026-09-26T00:50:50Z",
+      "heartbeat_at": "2026-09-26T00:50:50Z",
+      "expires_at": "2026-09-27T01:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/commit/b59359ebb972351802c7bf343363811a8e83150b",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206280233"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED OA final readback @ b59359e; new core-vs-full digest split needs confirmation E6 not weakened; keep DRAFT; #90 OPEN"
     }
   ]
 }
