@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:02:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #136 @ 44338fc: push verify SUCCESS; PR-event verify FAIL \u2014 tools/coordination_check.py unlabeled float (run 36256568833). #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:02:30Z.",
+  "updated_at": "2026-09-26T17:03:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #136 tip 567213c: merged hardening 96e5175 + declare heartbeat-age float duration; CI in progress. #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:03:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4399,16 +4399,17 @@
         "branch": "claude/noncertifying-label-enforcement",
         "pr": 136,
         "pr_state": "open",
-        "head_oid": "44338fc324eff6bdb9fa084b9c6b0e7901c97820",
+        "head_oid": "567213c5877cc63621dd8cf264866dbd2172829a",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "push_SUCCESS_pr_FAIL_coordination_check",
-        "prior_oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f",
+        "ci": "verify_in_progress_567213c",
+        "prior_oid": "44338fc324eff6bdb9fa084b9c6b0e7901c97820",
         "author_comment": "5848022912",
         "sibling_pr": 140,
-        "fail_run": "36256568833"
+        "fail_run": "36256568833",
+        "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T17:02:30Z",
+      "heartbeat_at": "2026-09-26T17:03:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4420,10 +4421,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/136#issuecomment-5848022912",
         "https://github.com/d6g8k5htny-coder/main/pull/140",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36256568833",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36256566622"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36256566622",
+        "https://github.com/d6g8k5htny-coder/main/commit/567213c5877cc63621dd8cf264866dbd2172829a",
+        "https://github.com/d6g8k5htny-coder/main/commit/b01fcb4"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 44338fc; push verify SUCCESS; PR-event verify FAIL (36256568833): tools/coordination_check.py float site unlabeled under noncertifying_check when merged with hardening tip \u2014 likely base drift vs #21; await author rebase/declare; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 567213c after merge hardening 96e5175 + declare coordination heartbeat-age float as duration (fixes PR-event FAIL 36256568833); CI in progress; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-4-submodule-pins",
@@ -4573,7 +4576,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:02:30Z",
+      "heartbeat_at": "2026-09-26T17:03:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
