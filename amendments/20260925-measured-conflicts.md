@@ -23,6 +23,7 @@
 | Inner axial density candidate package (sci effect NONE; not theorem) | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) @ `b420099…` merged |
 | Transition-integrity eng package (sci effect NONE; not theorem acceptance) | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) @ `8c4c946…` merged |
 | Scientific-state schema pilot / claims→gate adapter (eng only; sci effect NONE) | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) @ `b59359e…` → merge `ebedb78…` |
+| Hard gate eng-gate CLOSE (not theorem) | main [#90](https://github.com/d6g8k5htny-coder/main/issues/90) CLOSED after #98 `ebedb78…` |
 
 ## Process rules proven
 
@@ -43,7 +44,8 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
-| main [#90](https://github.com/d6g8k5htny-coder/main/issues/90) | Still **OPEN** — eng-gate close pending after #98 merge receipt `ebedb78…` |
+| Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) | `6e4085a…` FINAL INDEX DELTA assigned (5841895749); Landing FAIL; peer lane |
+| Math- [#55](https://github.com/d6g8k5htny-coder/Math-/pull/55)/[#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | Pin-neighborhood review / TRANSVERSE_CONTACT absent disposition; **observe** |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
 | main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` Q0_LEDGER; Cursor packaging **ACCEPT** (5841877351); **rebase onto ebedb78 OFFERED**; eng≠theorem |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |
@@ -77,4 +79,3 @@
 
 App write: `governance-` only. Do not race #4's `REVIEW_TOPOLOGY.md` or peer ACTIVE leases in [`work_leases/CURRENT.json`](../work_leases/CURRENT.json).
 | Math- [#52](https://github.com/d6g8k5htny-coder/Math-/pull/52)/[#53](https://github.com/d6g8k5htny-coder/Math-/pull/53) | D2 cumulative confirm / pin-neighborhood recon; **observe** |
-| Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) | `6e4085a…` proof-index amend delivered (TRANSVERSE blob MATCH); **Landing FAIL**; peer ACTIVE |

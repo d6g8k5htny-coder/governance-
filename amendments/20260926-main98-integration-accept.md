@@ -20,3 +20,10 @@ Sci effect NONE.
 - #90 still OPEN pending eng-gate close (author-lane)
 
 Sci effect NONE.
+
+## Addendum — #90 eng-gate CLOSED (2026-09-26T01:20Z)
+
+- [5841890447](https://github.com/d6g8k5htny-coder/main/issues/90#issuecomment-5841890447): ENGINEERING-GATE CLOSURE after #98 merge `ebedb78`
+- Not scientific theorem acceptance; loss-only gate remains
+
+Sci effect NONE.

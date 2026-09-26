@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:19:00Z",
-  "notes": "Compact ledger. Sci effect NONE. main #118 Cursor nonauthor packaging ACCEPT (5841877351) @ 435d8c8; rebase onto hardening ebedb78 OFFERED (empty overlap with #98). Updated 2026-09-26T01:19:00Z.",
+  "updated_at": "2026-09-26T01:21:50Z",
+  "notes": "Compact ledger. Sci effect NONE. main #90 CLOSED eng-gate (5841890447) after #98 merge ebedb78. Math- #54 FINAL INDEX DELTA assigned (5841895749) \u2014 peer lane. Observe #55/#59. Updated 2026-09-26T01:21:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -24,7 +24,7 @@
         "merge_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T01:17:20Z",
+      "heartbeat_at": "2026-09-26T01:21:50Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "RELEASED",
       "write_scope": [
@@ -94,11 +94,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841860158",
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-integration-accept.md",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841870001",
-        "https://github.com/d6g8k5htny-coder/main/commit/ebedb7802024fa557e9071e4c9cec7cddc474b89"
+        "https://github.com/d6g8k5htny-coder/main/commit/ebedb7802024fa557e9071e4c9cec7cddc474b89",
+        "https://github.com/d6g8k5htny-coder/main/issues/90#issuecomment-5841890447"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "RELEASED/MERGED @ ebedb78 (exact reviewed head b59359e); receipt 5841870001; trees identical; sci effect NONE; #90 eng-gate close pending author"
+      "blocked_reason": "RELEASED/MERGED @ ebedb78; #90 CLOSED eng-gate (5841890447); sci effect NONE; not theorem acceptance"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -396,10 +397,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "88f8119439e4fddf2f6745266cbac731c29d9c1a"
+        "head_oid": "a11ddd965c1e6c155e9b20b2c6ee8f7194f34b40"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T01:19:10Z",
+      "heartbeat_at": "2026-09-26T01:22:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2665,7 +2666,7 @@
         "transverse_blob": "024d927779f79fadaf932541ea6474f2995f8c50"
       },
       "claimed_at": "2026-09-26T01:13:20Z",
-      "heartbeat_at": "2026-09-26T01:18:30Z",
+      "heartbeat_at": "2026-09-26T01:21:50Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2677,10 +2678,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5841865041",
         "https://cursor.com/agents/bc-00b5d08d-c81d-4721-9809-1dfef5426140",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36207928775",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/6e4085a78eb0ebd5eefb767f942412273bfd7f6f"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/6e4085a78eb0ebd5eefb767f942412273bfd7f6f",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5841895749"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 6e4085a; peer amend DELIVERED (5841865041) \u2014 TRANSVERSE_BOUND_CANDIDATE blob 024d9277\u2026 MATCH; CONTACT_ASYMPTOTIC SOURCE NOT FOUND; Landing claim manifest FAIL 36207928775; this App does not race; nav-only; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ 6e4085a; FINAL INDEX DELTA assigned 5841895749 (nav/status only: D1\u2013D4 closures + pin-neighborhood AMEND + Math#56 recovery); peer bc-00b5d08d\u2026; this App does not race; Landing FAIL still standing; sci effect NONE"
     },
     {
       "work_id": "main-98-author-merge-b59359e",
@@ -2732,21 +2734,23 @@
         "pr_state": "merged",
         "issue": 90,
         "merge_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89",
-        "head_oid": "b59359ebb972351802c7bf343363811a8e83150b"
+        "head_oid": "b59359ebb972351802c7bf343363811a8e83150b",
+        "issue_state": "closed"
       },
       "claimed_at": "2026-09-26T01:17:20Z",
-      "heartbeat_at": "2026-09-26T01:18:30Z",
+      "heartbeat_at": "2026-09-26T01:21:50Z",
       "expires_at": "2026-09-27T02:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841870001",
-        "https://github.com/d6g8k5htny-coder/main/issues/90"
+        "https://github.com/d6g8k5htny-coder/main/issues/90",
+        "https://github.com/d6g8k5htny-coder/main/issues/90#issuecomment-5841890447"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED author-lane: close #90 eng-gate only after merge receipt; #90 still OPEN; this App cannot close issues on main"
+      "blocked_reason": "RELEASED: #90 CLOSED eng-gate scope only (5841890447) after #98 merge ebedb78 / OA FINAL ACCEPT; not scientific theorem acceptance"
     },
     {
       "work_id": "main-118-rebase-onto-ebedb78",
@@ -2775,6 +2779,62 @@
       ],
       "delegates_to": "main-118-q0-ledger-mirror",
       "blocked_reason": "OFFERED author-lane rebase onto ebedb78 per 5841877351; this App does not race / cannot push main"
+    },
+    {
+      "work_id": "math-55-pin-neighborhood-review",
+      "scope": "Nonauthor review of PR53 pin-neighborhood chart",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/d5-pin-neighborhood-review-5dce",
+        "pr": 55,
+        "pr_state": "open",
+        "head_oid": "4e188e25b1e1ef560f3eeb75c0d354d2ccf0ea22"
+      },
+      "claimed_at": "2026-09-26T01:21:50Z",
+      "heartbeat_at": "2026-09-26T01:21:50Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/55"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 4e188e2; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-59-transverse-contact-source-absent",
+      "scope": "Disposition missing TRANSVERSE_CONTACT_ASYMPTOTIC as unavailable (recovery open; related Math#56)",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/transverse-contact-source-absent-494e",
+        "pr": 59,
+        "pr_state": "open",
+        "head_oid": "718029c453d4514f59690315918e18333ba36050"
+      },
+      "claimed_at": "2026-09-26T01:21:50Z",
+      "heartbeat_at": "2026-09-26T01:21:50Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/59"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 718029c; SOURCE NOT FOUND disposition; sci effect NONE"
     }
   ]
 }
