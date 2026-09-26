@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:51:40Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 tip b59359e integration head ready (5841686935); adapter 8a1b41bb\u2026; Q0 in controlling_impacted+coverage_repairs (5841688029 clar); await CI terminal + OA final readback. Updated 2026-09-26T00:51:40Z.",
+  "updated_at": "2026-09-26T00:57:40Z",
+  "notes": "Compact ledger. Sci effect NONE. main #120 verify FAIL 36205808386: test_the_real_tree_verifies_every_binding assert 11==10 (new SIDE24 pin). Author-lane; do not race. #98 b59359e verify still IN_PROGRESS. Updated 2026-09-26T00:57:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -23,7 +23,7 @@
         "base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T00:51:40Z",
+      "heartbeat_at": "2026-09-26T00:57:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -390,10 +390,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "60746374defcccce3ac41d3d7a43ba22ec02bcc6"
+        "head_oid": "0b11175698404421612fd12dee0472611a7ff56e"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T00:51:50Z",
+      "heartbeat_at": "2026-09-26T00:57:50Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2366,7 +2366,7 @@
         "head_oid": "7ed8d1e23fee25c8d6504b9e561ed7e5e46de195"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T00:57:40Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2376,10 +2376,12 @@
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/120"
+        "https://github.com/d6g8k5htny-coder/main/pull/120",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36205808386",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36205806041"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 7ed8d1e; CI in progress; custody-only; eng\u2260theorem / no re-ratification; observe from governance-"
+      "blocked_reason": "ACTIVE DRAFT @ 7ed8d1e; verify FAIL 36205808386 \u2014 test_pinned_sources.py:310 assert certificates 11==10 (new SIDE24 binding not reflected in pin-count fixture); author-lane; this App does not race; custody-only; sci effect NONE"
     },
     {
       "work_id": "math-46-lemma-theorem-reading-maps",
