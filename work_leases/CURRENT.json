@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:01:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9 (#149 shop link MERGED). Math- tip d6628da (#76 unique gate name MERGED). Observe #148/#150. #136 @ 44338fc PR-verify SUCCESS (push FAIL). #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:01:20Z.",
+  "updated_at": "2026-09-26T17:02:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #136 @ 44338fc: push verify SUCCESS; PR-event verify FAIL \u2014 tools/coordination_check.py unlabeled float (run 36256568833). #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:02:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4401,13 +4401,14 @@
         "pr_state": "open",
         "head_oid": "44338fc324eff6bdb9fa084b9c6b0e7901c97820",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "pr_verify_SUCCESS_push_FAIL_44338fc",
+        "ci": "push_SUCCESS_pr_FAIL_coordination_check",
         "prior_oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f",
         "author_comment": "5848022912",
-        "sibling_pr": 140
+        "sibling_pr": 140,
+        "fail_run": "36256568833"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "heartbeat_at": "2026-09-26T17:02:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4417,10 +4418,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/136",
         "https://github.com/d6g8k5htny-coder/main/commit/44338fc324eff6bdb9fa084b9c6b0e7901c97820",
         "https://github.com/d6g8k5htny-coder/main/pull/136#issuecomment-5848022912",
-        "https://github.com/d6g8k5htny-coder/main/pull/140"
+        "https://github.com/d6g8k5htny-coder/main/pull/140",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36256568833",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36256566622"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 44338fc; author (5848022912); PR-event verify SUCCESS, push-event FAIL (process rule 9 pattern); sibling #140; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 44338fc; push verify SUCCESS; PR-event verify FAIL (36256568833): tools/coordination_check.py float site unlabeled under noncertifying_check when merged with hardening tip \u2014 likely base drift vs #21; await author rebase/declare; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-4-submodule-pins",
@@ -4570,7 +4573,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "heartbeat_at": "2026-09-26T17:02:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
