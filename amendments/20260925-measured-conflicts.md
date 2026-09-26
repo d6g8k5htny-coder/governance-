@@ -62,7 +62,7 @@
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | **MERGED** `cd66a655…` onto hardening (not `main`); custody-only |
 | main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | `4fd6c279…` cross-repo source architecture design; **observe**; design≠theorem |
 | main [#134](https://github.com/d6g8k5htny-coder/main/pull/134) | `1db16d1…` claim-graph firewall fail-closed + mutants (hardening merge); verify in progress; **observe**; eng≠theorem |
-| main [#135](https://github.com/d6g8k5htny-coder/main/pull/135) | `0b2e3be…` interval prose errata; push-create verify FAIL expected (zero before-ref; [5846679222](https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5846679222)); PR-event gates; **observe** |
+| main [#135](https://github.com/d6g8k5htny-coder/main/pull/135) | `a20e4cf…` interval prose errata (hardening merge); prior push-create zero-before-ref noted ([5846679222](https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5846679222)); verify in progress; **observe** |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume (bc-01a0cf1e…); hardening tip now `cd66a655` (#126); `main` tip still `4a72a5a` (diverged); IDLE@0019; **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | `b39e9ff…` hardening-proof import; **CI green**; **observe**; custody≠theorem |
