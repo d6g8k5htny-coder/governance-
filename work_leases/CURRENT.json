@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T06:45:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Observe Math- #70 hardening-commit proof import. Hot tips unchanged otherwise. Updated 2026-09-26T06:45:00Z.",
+  "updated_at": "2026-09-26T06:46:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Observe Math- #70 @ b39e9ff (CI green). Released expired ACTIVE leases (gov-3/#110/#18/#112/#111). Updated 2026-09-26T06:46:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -400,9 +400,9 @@
         "head_oid": "82f01aa6dd6beacf573dba9cef67c2ca6a5a3f3b"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T01:25:10Z",
-      "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
+      "heartbeat_at": "2026-09-26T06:46:00Z",
+      "expires_at": "2026-09-27T12:00:00Z",
+      "state": "RELEASED",
       "write_scope": [
         "README.md",
         "AGENTS.md",
@@ -415,7 +415,8 @@
         "https://github.com/d6g8k5htny-coder/governance-/pull/3",
         "https://github.com/d6g8k5htny-coder/governance-/pull/3#issuecomment-5837167455"
       ],
-      "delegates_to": null
+      "delegates_to": null,
+      "blocked_reason": "RELEASED: process-packet lease expired; work continues on this PR tip without exclusive ACTIVE claim"
     },
     {
       "work_id": "gov-4-review-topology",
@@ -498,9 +499,9 @@
         "head_oid": "e8f585d2b1109018b08a1c9f03cd54cff0db41ca"
       },
       "claimed_at": "2026-09-25T18:14:00Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
-      "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
+      "heartbeat_at": "2026-09-26T06:46:00Z",
+      "expires_at": "2026-09-27T12:00:00Z",
+      "state": "RELEASED",
       "write_scope": [
         "tests/test_cover.py"
       ],
@@ -510,7 +511,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/110"
       ],
       "delegates_to": null,
-      "blocked_reason": "verify green @ e8f585d (5 checks); inventable pin only; keep DRAFT pending distinct-lane/integration"
+      "blocked_reason": "RELEASED: expired ACTIVE observe; #110 tip stable; re-OFFER observe if needed"
     },
     {
       "work_id": "main-105-contribution-plan",
@@ -727,9 +728,9 @@
         "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-26T01:13:20Z",
-      "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
+      "heartbeat_at": "2026-09-26T06:46:00Z",
+      "expires_at": "2026-09-27T12:00:00Z",
+      "state": "RELEASED",
       "write_scope": [
         "frontiers/formal_p15_20260925/",
         ".github/workflows/p15-formal-pilot.yml"
@@ -746,7 +747,7 @@
         "https://github.com/d6g8k5htny-coder/main/issues/113#issuecomment-5838770572"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT @ 0ae7e8f; prior Cursor MATCH×7 on governance-; peer bc-075f842d-5f23-484f-988c-96674fe5cb98 active on OA formal-translation re-review; eng≠theorem; keep DRAFT"
+      "blocked_reason": "RELEASED: expired ACTIVE; SMT MATCH done earlier; D6 analytic AMEND stands on governance-"
     },
     {
       "work_id": "main-112-tip-observe-e3cd7d4",
@@ -765,9 +766,9 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-26T01:13:20Z",
-      "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
+      "heartbeat_at": "2026-09-26T06:46:00Z",
+      "expires_at": "2026-09-27T12:00:00Z",
+      "state": "RELEASED",
       "write_scope": [
         "docs/math_status/",
         "docs/math_status_probes/"
@@ -778,7 +779,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe; Section3 C1–C5 + Section4 R1–R5 + Section5 N1–N6 ACCEPT; Sections6+ still outside"
+      "blocked_reason": "RELEASED: expired ACTIVE tip-observe; Section3–5 ACCEPT recorded; Sections6+ outside"
     },
     {
       "work_id": "main-111-rn-unif-walkdown-scope",
@@ -797,9 +798,9 @@
         "head_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598"
       },
       "claimed_at": "2026-09-25T19:16:00Z",
-      "heartbeat_at": "2026-09-25T20:39:58Z",
-      "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
+      "heartbeat_at": "2026-09-26T06:46:00Z",
+      "expires_at": "2026-09-27T12:00:00Z",
+      "state": "RELEASED",
       "write_scope": [
         "docs/math_status/",
         "docs/RN_INNER_WEDGE.md",
@@ -814,7 +815,7 @@
       ],
       "delegates_to": "main-112-tip-observe-e3cd7d4",
       "lanes_note": "PACKET.json overlap with #112 — serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
-      "blocked_reason": "verify green @ 7b874c0; eng≠discharge; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN; serialize PACKET.json with tip-observe #112"
+      "blocked_reason": "RELEASED: expired ACTIVE; verify green; eng≠discharge; flags unchanged"
     },
     {
       "work_id": "math-20-chart-j0-gate-map",
@@ -3791,7 +3792,7 @@
         "head_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7"
       },
       "claimed_at": "2026-09-26T06:45:00Z",
-      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T06:46:00Z",
       "expires_at": "2026-09-27T10:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3801,7 +3802,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/70"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe; do not race; custody≠theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b39e9ff; CI green (landing/replay/imports/exact-checks); custody from main ebedb78; sci effect NONE; do not race"
     }
   ]
 }
