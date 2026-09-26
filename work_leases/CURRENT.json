@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T02:38:00Z",
-  "notes": "Compact ledger. Sci effect NONE. #122 A1/A6 AMEND corroborated (5842427417) with independent reproduction; chart-geometry clarify still OFFERED. Updated 2026-09-26T02:38:00Z.",
+  "updated_at": "2026-09-26T02:47:00Z",
+  "notes": "Compact ledger. Sci effect NONE. main #126 @ 2992819 CI GREEN (7 checks); custody-only; author merge OFFERED. Updated 2026-09-26T02:47:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3641,18 +3641,19 @@
         "head_oid": "2992819828dfe8a23e682816a8c10eab5861f94d"
       },
       "claimed_at": "2026-09-26T02:33:00Z",
-      "heartbeat_at": "2026-09-26T02:36:00Z",
+      "heartbeat_at": "2026-09-26T02:47:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
-      "state": "OFFERED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/126",
-        "https://github.com/d6g8k5htny-coder/main/pull/126#issuecomment-5842402806"
+        "https://github.com/d6g8k5htny-coder/main/pull/126#issuecomment-5842402806",
+        "https://github.com/d6g8k5htny-coder/main/actions"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT; custody-only expected; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE ready-for-review @ 2992819; hosted CI GREEN (7 checks); custody-only for V3.4 archive + arithmetic_ledgers identities; no theorem acceptance; author merge OFFERED; this App cannot push main; sci effect NONE"
     },
     {
       "work_id": "main-122-chart-geometry-clarify",
@@ -3682,6 +3683,33 @@
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
       "blocked_reason": "OFFERED author-lane chart-geometry clarification; this App cannot push main; sci effect NONE"
+    },
+    {
+      "work_id": "main-126-author-merge-2992819",
+      "scope": "Expected-head merge of main #126 @ 2992819 after CI green; custody only",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 126,
+        "pr_state": "open",
+        "head_oid": "2992819828dfe8a23e682816a8c10eab5861f94d"
+      },
+      "claimed_at": "2026-09-26T02:47:00Z",
+      "heartbeat_at": "2026-09-26T02:47:00Z",
+      "expires_at": "2026-09-27T06:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/126"
+      ],
+      "delegates_to": "main-126-v34-archive-custody",
+      "blocked_reason": "OFFERED author-lane merge exact 2992819; CI green; this App cannot push main"
     }
   ]
 }
