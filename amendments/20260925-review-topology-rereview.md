@@ -32,3 +32,8 @@
 ## Addendum — OA fresh re-review assignment (2026-09-25T23:59Z)
 
 OA [@cursor FRESH POLICY RE-REVIEW](https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841269824) at same tip `6da327b…` / blob `46268c73…`. Peer [`bc-316c10de-2ce6-484e-8906-9cf5a5e64a23`](https://cursor.com/agents/bc-316c10de-2ce6-484e-8906-9cf5a5e64a23) acknowledged. **This note’s P1–P5 ACCEPT stands; this lane does not race a duplicate policy review.** Sci effect NONE.
+
+
+## Addendum — peer fresh ACCEPT (2026-09-26T00:02Z)
+
+Peer [`bc-316c10de`](https://cursor.com/agents/bc-316c10de-2ce6-484e-8906-9cf5a5e64a23) ([5841287466](https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841287466)): **ACCEPT** P1–P5 + 120-minute rule at same tip/blob/digest. Concurs with this note. Keep DRAFT for human merge. Sci effect NONE.

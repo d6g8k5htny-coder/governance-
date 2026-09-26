@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:00:54Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 @ 2d3374c: verify FAIL 36202702251 (Q0 CONTROLLING_SOURCE_REQUIRES_REVALIDATION); loss-only-controls pass. Peer author to interpret vs E6; this App no race. Updated 2026-09-26T00:00:54Z.",
+  "updated_at": "2026-09-26T00:02:40Z",
+  "notes": "Compact ledger. Sci effect NONE. governance- #4 peer ACCEPT P1–P5 (5841287466) — matches prior Cursor ACCEPT. main #112 Section4 peer R1–R5 ACCEPT (5841289285). Updated 2026-09-26T00:02:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -408,7 +408,7 @@
         "head_oid": "6da327b520574ba88de27e70c6456e55326d5dbe"
       },
       "claimed_at": "2026-09-25T18:10:00Z",
-      "heartbeat_at": "2026-09-25T21:02:45Z",
+      "heartbeat_at": "2026-09-26T00:02:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -742,7 +742,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-26T00:00:10Z",
+      "heartbeat_at": "2026-09-26T00:02:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -755,7 +755,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe; Section9 via #37 MERGED; Section4 residual-independence ACTIVE on peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720 — no race"
+      "blocked_reason": "ACTIVE observe; Section9 via #37 MERGED; Section4 R1–R5 ACCEPT; Sections5–7 etc. still outside"
     },
     {
       "work_id": "main-111-rn-unif-walkdown-scope",
@@ -1970,9 +1970,9 @@
         "blob": "46268c73ee29b14188718fd096dcbb85d7d069c1"
       },
       "claimed_at": "2026-09-26T00:00:10Z",
-      "heartbeat_at": "2026-09-26T00:00:10Z",
+      "heartbeat_at": "2026-09-26T00:02:40Z",
       "expires_at": "2026-09-27T00:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -1980,10 +1980,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841269824",
         "https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841270822",
         "amendments/20260925-review-topology-rereview.md",
-        "https://cursor.com/agents/bc-316c10de-2ce6-484e-8906-9cf5a5e64a23"
+        "https://cursor.com/agents/bc-316c10de-2ce6-484e-8906-9cf5a5e64a23",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841287466"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE peer bc-316c10de-2ce6-484e-8906-9cf5a5e64a23; prior governance- ACCEPT of P1–P5 @ 6da327b stands; this App does not race duplicate policy review"
+      "blocked_reason": "RELEASED: peer ACCEPT P1–P5 + 120min rule @ 6da327b (5841287466); matches prior governance- ACCEPT; keep DRAFT for human merge; sci effect NONE"
     },
     {
       "work_id": "main-112-section4-residual-independence",
@@ -2004,19 +2005,20 @@
         "drive_id": "1foDgiDi4XIKOfbrZEE8dWKV_BkZU8LIb"
       },
       "claimed_at": "2026-09-26T00:00:10Z",
-      "heartbeat_at": "2026-09-26T00:00:10Z",
+      "heartbeat_at": "2026-09-26T00:02:40Z",
       "expires_at": "2026-09-27T00:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841272256",
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841272800",
-        "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+        "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720",
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841289285"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720: Section4 only R1–R5; not Sections5–7/TheoremA/C/RN; this App does not race"
+      "blocked_reason": "RELEASED: peer R1–R5 ACCEPT @ frozen parent 9350ad6e… (5841289285); Section3 I3a–d imported not re-proved; Sections5–7/TheoremA/C/RN outside"
     }
   ]
 }
