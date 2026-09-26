@@ -46,3 +46,10 @@ Sci effect NONE.
 - Reciprocal review of OA DRAFTs #118/#121/#122 available to Cursor author lane — not this governance- App
 
 Sci effect NONE.
+
+## Addendum — full CI green (2026-09-26T01:11Z)
+
+- Push verify SUCCESS `36206278016` + PR verify SUCCESS `36206280233` @ `b59359e`
+- Tip remains frozen for OA final bounded readback; #90 OPEN / DRAFT
+
+Sci effect NONE.

@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:07:40Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 tip b59359e FROZEN for OA final readback (5841796581); PR verify SUCCESS 36206280233; push verify still pending. Observe #121 Q0-C103 + #122 SARD-G. Updated 2026-09-26T01:07:40Z.",
+  "updated_at": "2026-09-26T01:11:40Z",
+  "notes": "Compact ledger. Sci effect NONE. main #98 tip b59359e FULL CI GREEN (PR+push verify); FROZEN for OA final readback. #122 SARD-G CI green @ d49be07 keep DRAFT. Updated 2026-09-26T01:11:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -23,7 +23,7 @@
         "base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T01:07:40Z",
+      "heartbeat_at": "2026-09-26T01:11:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -93,7 +93,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip b59359e DRAFT FROZEN for OA final readback (5841796581); PR verify SUCCESS 36206280233; push verify 36206278016 pending; no tip edits unless OA AMEND; #90 OPEN"
+      "blocked_reason": "ACTIVE tip b59359e DRAFT FROZEN; FULL CI GREEN (PR 36206280233 + push 36206278016); await OA final readback; no tip edits unless AMEND; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -391,10 +391,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "d83541af763966bca8fc86e27863b5ce946c34da"
+        "head_oid": "f15123d59b629a4457dd2b970cf05fa9611f3a52"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T01:08:00Z",
+      "heartbeat_at": "2026-09-26T01:11:50Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2503,7 +2503,7 @@
         "parent_oid": "69e9b526fa6fea4468475705c599d454427eb603"
       },
       "claimed_at": "2026-09-26T00:50:50Z",
-      "heartbeat_at": "2026-09-26T01:07:40Z",
+      "heartbeat_at": "2026-09-26T01:11:40Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2519,7 +2519,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841796581"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED/ACTIVE-wait OA final readback @ frozen b59359e (5841796581); PR verify green; push verify pending; keep DRAFT; #90 OPEN"
+      "blocked_reason": "OFFERED OA final readback @ frozen CI-green b59359e; keep DRAFT; #90 OPEN"
     },
     {
       "work_id": "main-121-q0-c103-pair-palm",
@@ -2566,17 +2566,20 @@
         "head_oid": "d49be07074bd0696cc034757379771eae3c852de"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T01:07:40Z",
+      "heartbeat_at": "2026-09-26T01:11:40Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/122"
+        "https://github.com/d6g8k5htny-coder/main/pull/122",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206264179",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206264118",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206264104"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ d49be07; observe only; author-side repair; do not race; eng\u2260theorem / sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ d49be07; CI green (5 checks / 36206264179); observe only; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
