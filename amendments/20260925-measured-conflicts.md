@@ -24,6 +24,7 @@
 | Transition-integrity eng package (sci effect NONE; not theorem acceptance) | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) @ `8c4c946…` merged |
 | Scientific-state schema pilot / claims→gate adapter (eng only; sci effect NONE) | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) @ `b59359e…` → merge `ebedb78…` |
 | Hard gate eng-gate CLOSE (not theorem) | main [#90](https://github.com/d6g8k5htny-coder/main/issues/90) CLOSED after #98 `ebedb78…` |
+| Q0_LEDGER mirror packaging (eng only; sci effect NONE) | main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) @ `f411ce5…` → merge `7caac254…`; [#123](https://github.com/d6g8k5htny-coder/main/pull/123) CLOSED duplicate |
 
 ## Process rules proven
 
@@ -48,12 +49,13 @@
 | Math- [#55](https://github.com/d6g8k5htny-coder/Math-/pull/55) | Pin-neighborhood review; **observe** |
 | Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | `718029c…` OA **MATCH**; **author merge OFFERED** (5841915560); then issue56 BLOCKED_ABSENT |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
-| main [#118](https://github.com/d6g8k5htny-coder/main/pull/118)/[#123](https://github.com/d6g8k5htny-coder/main/pull/123) | #118 @ `f411ce5` **CI GREEN** + OA review ACK (5842064393); **OA exclusive land** then close #123 (5842025929); tree=`6b3a408d…` |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |
 | main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `d486dd1…` = `6385bc0`+`ebedb78` (5842042737); local claims-gate PASS; await hosted CI; custody-only |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
-| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 `2624262…`; C1/C2 repair **#124** @ `a380dcf…` (5841921230); **nonauthor re-review OFFERED**; eng≠theorem |
+| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 `2624262…`; C1/C2 repair **#124** @ `a380dcf…` **verify SUCCESS**; **nonauthor re-review OFFERED**; eng≠theorem |
 | main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `b362222…` A1/A6 repair delivered; **verify FAIL** confirmed (5842026008) — sync `ebedb78` + rerun event-compare; OA not editing; rebase **OFFERED**; A1/A6 re-check separate |
+| main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
+| Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | New DRAFTs (microdisk/erratum/D0 audit/P15 accept/custody/Borel supersession/ddiff); **observe only**; do not race |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |

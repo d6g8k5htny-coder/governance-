@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:44:00Z",
-  "notes": "Compact ledger. Sci effect NONE. #118 CI GREEN @ f411ce5 (36208300879/36208298516) + OA tech review ACK (5842064393); await OA exclusive land then close #123. #123 earlier verify FAIL 36208206441 was zero-before-ref artifact; later ci SUCCESS 36208250947. Updated 2026-09-26T01:44:00Z.",
+  "updated_at": "2026-09-26T01:45:30Z",
+  "notes": "Compact ledger. Sci effect NONE. #118 MERGED 7caac254 into hardening (5842076963); #123 CLOSED duplicate. #124 verify SUCCESS after zero-before-ref artifact. #120 d486dd1 CI pending. New observe: main#125; Math-#60/#64–#69. Updated 2026-09-26T01:45:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2295,16 +2295,18 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 118,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "f411ce5f833472481d54da72952c98fb21ce5acf",
         "drive_id": "17gpxTn4MPsrWLf4yhDJsuBE4v3UqQXa3",
         "ledger_sha256": "d1fea170ee04c93b075786ed636c3d9088fd80f2c0def51a6a2dbc0812e3e80a",
-        "ledger_bytes": 253067
+        "ledger_bytes": 253067,
+        "merge_oid": "7caac254cbba5f513b2dc0afb56b78a598bc0c93",
+        "base_branch": "chatgpt/drive-github-hardening-20260919"
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T01:44:00Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T00:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [
         "drive/mirrors/14_COORDINATION_AUTOMATION_SPINE/",
         "claims/q0_core_availability.json",
@@ -2325,11 +2327,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5842031280",
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5842064393",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36208300879",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208298516"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208298516",
+        "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5842076963",
+        "https://github.com/d6g8k5htny-coder/main/commit/7caac254cbba5f513b2dc0afb56b78a598bc0c93"
       ],
       "delegates_to": null,
       "lanes_note": "OA-claimed exclusive land/close pass; governance- observes only",
-      "blocked_reason": "ACTIVE DRAFT @ f411ce5; CI GREEN (36208300879 + 36208298516); OA tech review ACK no blocking findings (5842064393); OA exclusive land pass (5842025929) — await undraft/merge then close #123; do not second-reconcile; packaging only; eng≠theorem; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED exact tip f411ce5 → 7caac254 on hardening (5842076963); tree 6b3a408d… preserved; packaging only; eng≠theorem; sci effect NONE"
     },
     {
       "work_id": "math-49-collision-package-integrate",
@@ -2387,7 +2391,7 @@
         "tree_oid": "9975d35699114726d234bae9d7d5447795cc8c29"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-26T01:42:00Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2566,7 +2570,7 @@
         "head_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T01:28:00Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2604,7 +2608,7 @@
         "prior_oid": "d49be07074bd0696cc034757379771eae3c852de"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T01:39:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2699,7 +2703,7 @@
         "transverse_blob": "024d927779f79fadaf932541ea6474f2995f8c50"
       },
       "claimed_at": "2026-09-26T01:13:20Z",
-      "heartbeat_at": "2026-09-26T01:28:00Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2804,7 +2808,7 @@
         "successor_oid": "004fa5fe75dd87e9c683975d59649204b1d62128"
       },
       "claimed_at": "2026-09-26T01:19:00Z",
-      "heartbeat_at": "2026-09-26T01:44:00Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -2824,7 +2828,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/123#issuecomment-5841925793"
       ],
       "delegates_to": "main-118-q0-ledger-mirror",
-      "blocked_reason": "RELEASED reconcile + CI GREEN on preferred #118 tip f411ce5; await OA exclusive land (5842025929)"
+      "blocked_reason": "RELEASED: #118 landed 7caac254; #123 closed"
     },
     {
       "work_id": "math-55-pin-neighborhood-review",
@@ -2870,7 +2874,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:21:50Z",
-      "heartbeat_at": "2026-09-26T01:39:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2930,15 +2934,15 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 123,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "004fa5fe75dd87e9c683975d59649204b1d62128",
         "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89",
         "ledger_sha256": "d1fea170ee04c93b075786ed636c3d9088fd80f2c0def51a6a2dbc0812e3e80a"
       },
       "claimed_at": "2026-09-26T01:25:00Z",
-      "heartbeat_at": "2026-09-26T01:44:00Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
-      "state": "SUPERSEDED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
@@ -2950,10 +2954,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5842025929",
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5842031280",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36208206441",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208250947"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208250947",
+        "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5842076963"
       ],
       "delegates_to": "main-118-q0-ledger-mirror",
-      "blocked_reason": "SUPERSEDED landing vehicle; verify FAIL 36208206441 = before-ref all-zero artifact; later ci SUCCESS 36208250947; await OA close after #118 lands (5842025929); eng≠theorem"
+      "blocked_reason": "RELEASED/CLOSED as duplicate after #118 land (5842076963); tip 004fa5f tree-identical; CI evidence retained"
     },
     {
       "work_id": "math-59-author-merge-718029c",
@@ -3001,7 +3006,7 @@
         "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T01:39:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3010,10 +3015,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/124",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5841921230",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208311062"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208311062",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208294653"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "ACTIVE DRAFT @ a380dcf; identities posted for nonauthor C1/C2 re-review (5841921230); CI in progress; this App does not race; eng≠theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ a380dcf; later verify SUCCESS 36208311062 (earlier FAIL 36208294653 = zero-before-ref artifact); nonauthor C1/C2 re-review OFFERED (5841921230); eng≠theorem; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-rereview-offer",
@@ -3030,7 +3036,7 @@
         "head_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T01:38:00Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3059,7 +3065,7 @@
         "amend_comment": "5841682597"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T01:38:00Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3089,7 +3095,7 @@
         "fail_run": "36208384322"
       },
       "claimed_at": "2026-09-26T01:39:30Z",
-      "heartbeat_at": "2026-09-26T01:39:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
       "expires_at": "2026-09-27T03:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3101,6 +3107,223 @@
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
       "blocked_reason": "OFFERED peer/author rebase onto ebedb78; OA not editing (5842026008); this App cannot push main"
+    },
+    {
+      "work_id": "main-125-d5-shrinking-witness",
+      "scope": "D5 shrinking witness pairs: divided-difference m=2 bound; additive recon; sci effect NONE",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/d5-shrinking-witness-bcee",
+        "pr": 125,
+        "pr_state": "open",
+        "head_oid": "00c9d08a146c60cfc026f2167c5a1d9e5678e34d"
+      },
+      "claimed_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/125"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT; verify SUCCESS; do not race; recon≠theorem; sci effect NONE"
+    },
+    {
+      "work_id": "math-60-pin-microdisk-anisotropic",
+      "scope": "Pin microdisk: anisotropic gradient covariance and density envelope",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 60,
+        "pr_state": "open",
+        "head_oid": "ad27c6b8802167ae8798221a9fb8ba3365162b63"
+      },
+      "claimed_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 60; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-64-endpoint-hessian-erratum",
+      "scope": "Erratum: endpoint Hessian congruence in lifetime parent",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 64,
+        "pr_state": "open",
+        "head_oid": "d573b99d8792f3d5146c952737a4ba446a549e6f"
+      },
+      "claimed_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/64"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 64; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-65-d0-proof-availability-audit",
+      "scope": "D0 audit: proof availability, absent carriers, regional supersession",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 65,
+        "pr_state": "open",
+        "head_oid": "3c5fc88a20736be3b93c96912e14676a4f929837"
+      },
+      "claimed_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/65"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 65; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-66-p15-full-price-acceptance",
+      "scope": "Record scoped review acceptance of P15 full-price theorem",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 66,
+        "pr_state": "open",
+        "head_oid": "2857b549f771b8b8a76728e4ee0add6b28004099"
+      },
+      "claimed_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D6",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/66"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 66; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-67-cross-repo-proof-custody",
+      "scope": "Cross-repository proof custody audit",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 67,
+        "pr_state": "open",
+        "head_oid": "e14d41101ddd7fc8e8ef2ed296a288d1cdd70191"
+      },
+      "claimed_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/67"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 67; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-68-section9-borel-superseded",
+      "scope": "Section 9 Borel repair superseded by accepted parent",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 68,
+        "pr_state": "open",
+        "head_oid": "3c82293188802777ff278ab61d2901749dd15fb3"
+      },
+      "claimed_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D1",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/68"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 68; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-69-d5-pin-microdisk-ddiff",
+      "scope": "D5 pin microdisk: divided-difference frame after inner-disk gap",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 69,
+        "pr_state": "open",
+        "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400"
+      },
+      "claimed_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 69; do not race; sci effect NONE"
     }
   ]
 }
