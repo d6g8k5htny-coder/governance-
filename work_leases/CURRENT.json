@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T13:18:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main #126 MERGED \u2192 hardening tip cd66a655 (base chatgpt/drive-github-hardening-20260919 @ 2f7a5a9; not into main). main tip still 4a72a5a (diverged). #122 chart-geometry ACTIVE. Hot: #124/#71; #49/#59 merges; #60 det-h\u00b2; #70/#128 observe. Updated 2026-09-26T13:18:30Z.",
+  "updated_at": "2026-09-26T13:31:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Observe main #135 interval prose errata DRAFT @ 0b2e3be (hardening base). #122 chart-geometry still ACTIVE on a1fc958 (no tip yet). #126 MERGED \u2192 hardening cd66a655. Hot: #124/#71; #49/#59; #60 det-h\u00b2; #70/#128. Updated 2026-09-26T13:31:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3694,7 +3694,7 @@
         "claim_comment": "5846575968"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-26T13:17:30Z",
+      "heartbeat_at": "2026-09-26T13:31:00Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3935,6 +3935,38 @@
       ],
       "delegates_to": "main-124-c1c2-rereview-offer",
       "blocked_reason": "OFFERED observe peer re-review DRAFT of main #124; do not race; review\u2260merge; sci effect NONE"
+    },
+    {
+      "work_id": "main-135-interval-prose-errata",
+      "scope": "Interval research prose errata: two over-claim numbers vs code; docs/tests honesty; sci effect NONE expected",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "claude/interval-docs-errata",
+        "pr": 135,
+        "pr_state": "open",
+        "head_oid": "0b2e3be97a3bb89e22c7b01c557a358c85225e8c",
+        "base_branch": "chatgpt/drive-github-hardening-20260919"
+      },
+      "claimed_at": "2026-09-26T13:31:00Z",
+      "heartbeat_at": "2026-09-26T13:31:00Z",
+      "expires_at": "2026-09-27T16:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [
+        "research/interval/README.md",
+        "tests/test_interval.py"
+      ],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/135"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 0b2e3be; prose/test honesty; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
