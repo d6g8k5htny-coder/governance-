@@ -35,7 +35,8 @@
 | Pinned public-source custody path exposed (nav only; sci effect NONE) | main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) @ `c86c5a3…` → prior `main` tip `70664bd…` |
 | Public research shop: pinned views, catalog, restricted intake (nav/eng; sci effect NONE) | main [#145](https://github.com/d6g8k5htny-coder/main/pull/145) @ `349e036…` → prior `main` tip `bd9fc9d…` |
 | Public intake SIDE24 identity-replay example (eng/demo; sci effect NONE) | main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) @ `d10c2fb…` → prior `main` tip `e495837…`; residual Codex P2 task-link AMEND |
-| Live public shop link + verified query identity refresh (nav only; sci effect NONE) | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) @ `c407e33…` → `main` tip `71400b9…` |
+| Live public shop link + verified query identity refresh (nav only; sci effect NONE) | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) @ `c407e33…` → prior `main` tip `71400b9…` |
+| Pinned verification exhibits + landed packet index (museum/nav; sci effect NONE) | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) @ `cd32303…` → `main` tip `d77a85a…` |
 | Downstream integrity gate unique required-check name (CI/eng; sci effect NONE) | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) @ `95c733e…` → merge `d6628da…` |
 | Nine public BYTE_COPY imports exposed in Math- proof index (custody/nav; sci effect NONE) | Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) @ `29b5cf9…` → merge `58f7936…` |
 | V3.4 archive + arithmetic_ledgers custody (no re-ratification; sci effect NONE) | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) @ `2992819…` → hardening merge `cd66a655…` (base `chatgpt/drive-github-hardening-20260919` @ `2f7a5a9…`; not into `main`) |
@@ -90,9 +91,9 @@
 | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) | **MERGED** `d6628da…` unique integrity-gate check name; CI/eng only |
 | main [#148](https://github.com/d6g8k5htny-coder/main/pull/148) | tip `7556ddd…` (merged hardening `96e5175…`); **CI GREEN×5**; **observe**; eng≠theorem |
 | main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | tip `2cf62f2…` **ready-for-review**; **CI GREEN**; peer **AMEND** body cites stale tip `88272ef…` for intake verify ([5848316095](https://github.com/d6g8k5htny-coder/main/pull/150#issuecomment-5848316095)); repair **OFFERED**; eng≠theorem |
-| main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | `cd32303…` pinned verification exhibits + packet index; museum lane (excludes unmerged #150); **observe**; eng≠theorem |
+| main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
-| trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `4096dff` (Batch 551 tip_or_eng TIP_DRIFT); hardening tip `96e5175`; `main` tip `71400b9` (#149); **observe**; no lemma_closed/claim promotion |
+| trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `4096dff` (Batch 551 tip_or_eng TIP_DRIFT); hardening tip `96e5175`; `main` tip `d77a85a` (#151); **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | **MERGED** `9d7b680…`; custody import; prior BYTE_COPY×9 @ `b39e9ff…` ([5847534053](https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053)); merge≠theorem |
 | main [#21](https://github.com/d6g8k5htny-coder/main/pull/21) | **MERGED** → hardening tip `96e5175…`; H3 admission attestations; sci effect NONE |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; README conflict with #70 ([5847534262](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262)); **observe** |

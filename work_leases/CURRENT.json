@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:29:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #150 @ 2cf62f2: peer AMEND body still cites old tip 88272ef for intake verify (5848316095); repair OFFERED. Observe #151. #136/#148 CI GREEN. Updated 2026-09-26T17:29:00Z.",
+  "updated_at": "2026-09-26T17:30:05Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip d77a85a (#151 museum exhibits MERGED). #150 body tip-sync AMEND still OFFERED. #140 verify pending. Updated 2026-09-26T17:30:05Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4578,7 +4578,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:29:00Z",
+      "heartbeat_at": "2026-09-26T17:30:05Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4807,7 +4807,7 @@
         "prior_main_tip": "e495837bcd2d6d5014508e9991c5b3089977ce20"
       },
       "claimed_at": "2026-09-26T16:53:55Z",
-      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "heartbeat_at": "2026-09-26T17:30:05Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -4818,7 +4818,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/71400b94f6cb354a8cf7aba73ffede2138a64efa"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED \u2192 main tip 71400b9; shop link nav; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED \u2192 prior tip 71400b9; successor #151 \u2192 d77a85a; nav; sci effect NONE"
     },
     {
       "work_id": "math-76-integrity-gate-unique-name",
@@ -4958,23 +4958,25 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 151,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "cd32303bcf0fe4a91a1a1f2aad2b5b6eb45088d6",
-        "note": "5848316095 excludes #150 while unmerged"
+        "note": "5848316095 excludes #150 while unmerged",
+        "merge_oid": "d77a85a7ea3766f3fc6b99019520ec06ddf56729"
       },
       "claimed_at": "2026-09-26T17:29:00Z",
-      "heartbeat_at": "2026-09-26T17:29:00Z",
+      "heartbeat_at": "2026-09-26T17:30:05Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/151",
-        "https://github.com/d6g8k5htny-coder/main/pull/150#issuecomment-5848316095"
+        "https://github.com/d6g8k5htny-coder/main/pull/150#issuecomment-5848316095",
+        "https://github.com/d6g8k5htny-coder/main/commit/d77a85a7ea3766f3fc6b99019520ec06ddf56729"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ cd32303; museum lane; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED \u2192 main tip d77a85a; museum exhibits + packet index; excludes unmerged #150; sci effect NONE"
     }
   ]
 }
