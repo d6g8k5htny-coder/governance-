@@ -62,8 +62,8 @@
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | D5 intermediate-scale envelope; **observe**; recon≠theorem |
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | **MERGED** `cd66a655…` onto hardening (not `main`); custody-only |
 | main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | `4fd6c279…` cross-repo source architecture design; **observe**; design≠theorem |
-| main [#134](https://github.com/d6g8k5htny-coder/main/pull/134) | `1db16d1…` claim-graph firewall; **CI GREEN** push+PR ([5847092666](https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847092666)); still DRAFT; author waiting on reviewers; **observe**; eng≠theorem |
-| main [#135](https://github.com/d6g8k5htny-coder/main/pull/135) | `a20e4cf…` interval prose errata; **CI GREEN** (5); still DRAFT; prior zero-before-ref noted; **observe** |
+| main [#134](https://github.com/d6g8k5htny-coder/main/pull/134) | `1db16d1…` claim-graph firewall; **CI GREEN**; peer eng review **ACTIVE** ([5847295528](https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847295528)); do not race; eng≠theorem |
+| main [#135](https://github.com/d6g8k5htny-coder/main/pull/135) | `a20e4cf…` interval prose errata; **CI GREEN**; peer eng review **ACTIVE** ([5847296374](https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847296374)); do not race |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume (bc-01a0cf1e…); hardening tip `cd66a655`; `main` tip `99f8c2b` (#137); diverged; IDLE@0019; **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | `b39e9ff…` hardening-proof import; **CI green**; **observe**; custody≠theorem |

@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T14:50:45Z",
-  "notes": "Compact ledger. Sci effect NONE. Main #135 @ a20e4cf CI GREEN (5). #134 waiting on reviewers. #122 ACTIVE a1fc958. Updated 2026-09-26T14:50:45Z.",
+  "updated_at": "2026-09-26T15:03:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Peer OA/Codex eng reviews ACTIVE on #134 (5847295528) and #135 (5847296374); do not race. #122 chart-geometry still ACTIVE a1fc958. Updated 2026-09-26T15:03:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3958,7 +3958,7 @@
         "ci": "green_5"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T14:50:45Z",
+      "heartbeat_at": "2026-09-26T15:03:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -3974,10 +3974,11 @@
         "https://github.com/d6g8k5htny-coder/main/commit/a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600484",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600390",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600405"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36248600405",
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847296374"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ a20e4cf; hosted CI GREEN (5 checks); do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ a20e4cf; CI green; peer eng review ACTIVE (5847296374); do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-134-claim-graph-firewall",
@@ -3999,7 +4000,7 @@
         "author_status": "waiting_on_reviewers"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T14:35:00Z",
+      "heartbeat_at": "2026-09-26T15:03:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4013,10 +4014,11 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36247970262",
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847092666",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36247967749",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36247970214"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36247970214",
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847295528"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 1db16d1; CI green push+PR (5847092666); author waiting on reviewers; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 1db16d1; CI green; peer eng review ACTIVE (5847295528); do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-137-landing-license-citation",
@@ -4048,6 +4050,64 @@
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED/MERGED \u2192 main tip 99f8c2b; landing/meta only; no theorem flip; sci effect NONE"
+    },
+    {
+      "work_id": "main-134-eng-review-1db16d1",
+      "scope": "Scoped OA/Codex engineering review of main #134 exact tip; no source edits; no math status change",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 134,
+        "pr_state": "open",
+        "head_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
+        "claim_comment": "5847295528",
+        "hardening_base": "cd66a655d0a922a7dcc1ffe8a28be62a43d7151d"
+      },
+      "claimed_at": "2026-09-26T15:03:30Z",
+      "heartbeat_at": "2026-09-26T15:03:30Z",
+      "expires_at": "2026-09-27T18:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847295528"
+      ],
+      "delegates_to": "main-134-claim-graph-firewall",
+      "blocked_reason": "ACTIVE peer eng review claim (5847295528); no source edits; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-135-eng-review-a20e4cf",
+      "scope": "Scoped OA/Codex engineering review of main #135 exact tip; no source edits; no math status change",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 135,
+        "pr_state": "open",
+        "head_oid": "a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
+        "claim_comment": "5847296374",
+        "hardening_base": "cd66a655d0a922a7dcc1ffe8a28be62a43d7151d"
+      },
+      "claimed_at": "2026-09-26T15:03:30Z",
+      "heartbeat_at": "2026-09-26T15:03:30Z",
+      "expires_at": "2026-09-27T18:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847296374"
+      ],
+      "delegates_to": "main-135-interval-prose-errata",
+      "blocked_reason": "ACTIVE peer eng review claim (5847296374); no source edits; this App does not race; sci effect NONE"
     }
   ]
 }
