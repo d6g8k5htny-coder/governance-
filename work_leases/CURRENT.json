@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T18:02:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178; Math- tip 66e39d1 (#78 vault ops). Open tips unchanged: #134/#135/#136/#140/#148/#122/ULW#3/Math#71. Pulse 18:02Z. Updated 2026-09-26T18:02:30Z.",
+  "updated_at": "2026-09-26T18:05:55Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178; Math- tip 66e39d1. #111 @ 7b874c0 peer AMEND (5848580662): graph.json conflict keep CONDITIONAL; stale body; name REV-RN3 AMEND on STATUS L12; repair OFFERED. Updated 2026-09-26T18:05:55Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -798,12 +798,14 @@
         "pr": 111,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598"
+        "head_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598",
+        "peer_amend": "5848580662",
+        "mergeable": "CONFLICTING"
       },
       "claimed_at": "2026-09-25T19:16:00Z",
-      "heartbeat_at": "2026-09-26T06:46:00Z",
+      "heartbeat_at": "2026-09-26T18:05:55Z",
       "expires_at": "2026-09-27T12:00:00Z",
-      "state": "RELEASED",
+      "state": "OFFERED",
       "write_scope": [
         "docs/math_status/",
         "docs/RN_INNER_WEDGE.md",
@@ -814,11 +816,12 @@
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/111"
+        "https://github.com/d6g8k5htny-coder/main/pull/111",
+        "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5848580662"
       ],
       "delegates_to": "main-112-tip-observe-e3cd7d4",
       "lanes_note": "PACKET.json overlap with #112 \u2014 serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
-      "blocked_reason": "RELEASED: expired ACTIVE; verify green; eng\u2260discharge; flags unchanged"
+      "blocked_reason": "OFFERED observe DRAFT @ 7b874c0; CONFLICTING; peer AMEND (5848580662): resolve claims/graph.json keeping base CONDITIONAL + append Q-RN5 notes; refresh stale body; name REV-RN3-FARZONE AMEND on STATUS L12; status paths touched \u2014 never MERGE_NOW; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-20-chart-j0-gate-map",
@@ -4588,7 +4591,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T18:02:30Z",
+      "heartbeat_at": "2026-09-26T18:05:55Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5329,6 +5332,34 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/72"
       ],
       "blocked_reason": "OFFERED observe; do not race peer author; sci effect NONE"
+    },
+    {
+      "work_id": "main-111-graph-conflict-amend",
+      "scope": "Keep D1-v2.2(1) CONDITIONAL on merge; refresh body; cite REV-RN3 AMEND at STATUS L12",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 111,
+        "head_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598",
+        "finding_comment": "5848580662",
+        "status_paths_touched": true
+      },
+      "claimed_at": "2026-09-26T18:05:55Z",
+      "heartbeat_at": "2026-09-26T18:05:55Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5848580662"
+      ],
+      "delegates_to": "main-111-rn-unif-walkdown-scope",
+      "blocked_reason": "OFFERED peer AMEND repair; status paths \u2014 this App does not race; sci effect NONE"
     }
   ]
 }
