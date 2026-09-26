@@ -17,6 +17,7 @@
 | CONTRIBUTION_PLAN stale next-items retired (LPW REFUTED via lpw README) | main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) → hardening tip `e3cd7d4…` |
 | Hard gate + own-node + REFUTED HOLD | Math- [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8)+[#11](https://github.com/d6g8k5htny-coder/Math-/pull/11)+[#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) @ `baca69c…` |
 | REVIEW_TOPOLOGY v1.1 (policy; sci effect NONE) | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) @ `6da327b…` merged |
+| Work-lease / collision ledger + measured conflicts (coordination only; sci effect NONE) | governance- [#3](https://github.com/d6g8k5htny-coder/governance-/pull/3) @ `264fa8d…` → merge `ae1b92e…`; successor `cursor/lease-watch-continuation-ab08` |
 | Finite-r Hermite repair (deterministic C6; sci effect NONE) | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` merged |
 | Thin-tube / FIXED_ANNULUS candidate (sci effect NONE; R6 citation note stands) | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) @ `2804dc1…` merged |
 | All-height annulus bridge candidate (sci effect NONE; R6 citation note stands) | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) @ `dedc69e…` merged |
@@ -76,7 +77,7 @@
 | main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) | **MERGED** `70664bd…` pinned public-source custody path; nav only |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume (bc-01a0cf1e…); hardening tip `cd66a655`; `main` tip `70664bd` (#139); diverged; IDLE@0019; **observe**; no lemma_closed/claim promotion |
-| Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | `b39e9ff…` **ready-for-review**; CI GREEN; OA **BYTE_COPY×9 verified** ([5847534053](https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053)); README conflict with [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) — do not race; custody≠theorem |
+| Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | tip `44901b5…` (merged Math- `main` `10e1f19…`); CI GREEN×4; prior BYTE_COPY×9 @ `b39e9ff…` ([5847534053](https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053)); README conflict with [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) — do not race; custody≠theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; README conflict with #70 ([5847534262](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262)); **observe** |
 | Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60) | `ad27c6b…` M1–M5 **ACCEPT_TECHNICAL** (5843245862); det-h² estimate **OFFERED**; zero org-independence |
 | Math- [#64](https://github.com/d6g8k5htny-coder/Math-/pull/64) | `d573b99…` endpoint Hessian erratum; OA **ACCEPT_ERRATUM** (5843521502); **observe**; correction≠theorem |
