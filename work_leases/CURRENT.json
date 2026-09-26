@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:05:00Z",
-  "notes": "Compact ledger. Sci effect NONE. #134 CHANGES REQUESTED (5847305100) \u2014 peer repair ACTIVE; #135 doc-overclaim AMEND (5847304236) \u2014 peer correction ACTIVE. Do not race. #122 still a1fc958. Updated 2026-09-26T15:05:00Z.",
+  "updated_at": "2026-09-26T15:08:30Z",
+  "notes": "Compact ledger. Sci effect NONE. ULW #2 federation bootstrap ACCEPT_BOOTSTRAP+AMEND (mutable ref note) @ 0f22252; main #129 handoff 5847321852. No path overlap with #129. #134/#135 peer repairs ACTIVE; #122 a1fc958. Updated 2026-09-26T15:08:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3895,17 +3895,18 @@
         "head_oid": "4fd6c279a7624f0526b7c08933dd9c419c3235f8"
       },
       "claimed_at": "2026-09-26T09:35:00Z",
-      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T15:08:30Z",
       "expires_at": "2026-09-27T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/129"
+        "https://github.com/d6g8k5htny-coder/main/pull/129",
+        "https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847321852"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe design DRAFT @ 4fd6c279; do not race; design\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe design DRAFT @ 4fd6c279; federation handoff to ULW #2 (5847321852); implementation slice reviewed on governance-; do not race; design\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-71-main124-c1c2-rereview",
@@ -4172,6 +4173,68 @@
       ],
       "delegates_to": "main-135-interval-prose-errata",
       "blocked_reason": "ACTIVE peer preparing repair after 5847304236; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "ulw-2-federation-bootstrap",
+      "scope": "Bootstrap Universal-Law-Workspace federation observer/router; scientific_status_authority=false",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Universal-Law-Workspace",
+        "pr": 2,
+        "pr_state": "open",
+        "head_oid": "0f222526a05ccb64ac31c9ffaf9663e8a279eb09",
+        "issue": 1,
+        "handoff_comment": "5847321852",
+        "review_disposition": "ACCEPT_BOOTSTRAP_AMEND_MUTABLE_REF"
+      },
+      "claimed_at": "2026-09-26T15:08:30Z",
+      "heartbeat_at": "2026-09-26T15:08:30Z",
+      "expires_at": "2026-09-27T20:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2",
+        "https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847321852",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-ulw2-federation-bootstrap-review.md"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 0f22252; ACCEPT_BOOTSTRAP+AMEND (mutable ref) on governance-; peer/@claude review may still land; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "ulw-2-federation-bootstrap-review",
+      "scope": "Adversarial eng review of ULW #2 federation bootstrap; durable on governance-",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Universal-Law-Workspace",
+        "pr": 2,
+        "head_oid": "0f222526a05ccb64ac31c9ffaf9663e8a279eb09",
+        "disposition": "ACCEPT_BOOTSTRAP_AMEND_MUTABLE_REF"
+      },
+      "claimed_at": "2026-09-26T15:08:30Z",
+      "heartbeat_at": "2026-09-26T15:08:30Z",
+      "expires_at": "2026-09-27T20:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [
+        "amendments/20260926-ulw2-federation-bootstrap-review.md"
+      ],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-ulw2-federation-bootstrap-review.md",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2"
+      ],
+      "delegates_to": "ulw-2-federation-bootstrap",
+      "blocked_reason": "RELEASED: ACCEPT_BOOTSTRAP+AMEND filed on governance-; sci effect NONE"
     }
   ]
 }
