@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:22:40Z",
-  "notes": "Compact ledger. Sci effect NONE. #118 rebase peer ACTIVE (bc-fc9fc8ec\u2026 / 5841900898). #122 A1/A6 repair peer ACTIVE (bc-9fb1436d\u2026 / 5841903136). #54 INDEX DELTA pending. Do not race. Updated 2026-09-26T01:22:40Z.",
+  "updated_at": "2026-09-26T01:23:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Eng lane released post-#98/#90 (5841898624). #118 rebase ACTIVE bc-01a0d95b\u2026. #121 C1/C2 repair ACTIVE peer (new additive branch). #122 A1/A6 peer ACTIVE. Do not race. Updated 2026-09-26T01:23:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -397,10 +397,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "6ed63967bdd87d8f763240cb6f88eb8458a5036a"
+        "head_oid": "66f96a7e3dd9fe93e73cee694a4795b9754801e3"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T01:22:50Z",
+      "heartbeat_at": "2026-09-26T01:23:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2546,7 +2546,7 @@
         "head_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T01:13:20Z",
+      "heartbeat_at": "2026-09-26T01:23:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2555,11 +2555,14 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/121",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36205944674",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36205944615"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36205944615",
+        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5841905853",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841898624",
+        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5841690735"
       ],
       "delegates_to": null,
       "lanes_note": "OA DRAFT; Cursor may reciprocal-review if leased \u2014 do not touch author branch from governance-",
-      "blocked_reason": "ACTIVE DRAFT @ 2624262; CI green (5 checks); observe only; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ 2624262; C1/C2 repair peer ACTIVE on new additive Cursor branch (5841905853 / 5841898624); C3\u2013C8 untouched; distinct re-review required; this App does not race; eng\u2260theorem"
     },
     {
       "work_id": "main-122-sard-g-execution-repair",
@@ -2763,7 +2766,7 @@
         "provider": "cursor",
         "model": null,
         "agent": "cursor[bot]",
-        "run_id": "bc-fc9fc8ec-6267-45ba-949d-be995859f25e"
+        "run_id": "bc-01a0d95b-e593-75f4-a1b1-d440961231c5"
       },
       "source": {
         "repo": "d6g8k5htny-coder/main",
@@ -2773,7 +2776,7 @@
         "target_base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
       },
       "claimed_at": "2026-09-26T01:19:00Z",
-      "heartbeat_at": "2026-09-26T01:22:40Z",
+      "heartbeat_at": "2026-09-26T01:23:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2783,10 +2786,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841877351",
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841900898",
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841901480",
-        "https://cursor.com/agents/bc-fc9fc8ec-6267-45ba-949d-be995859f25e"
+        "https://cursor.com/agents/bc-fc9fc8ec-6267-45ba-949d-be995859f25e",
+        "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841905843",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841898624"
       ],
       "delegates_to": "main-118-q0-ledger-mirror",
-      "blocked_reason": "ACTIVE peer bc-fc9fc8ec\u2026 rebasing #118 onto ebedb78 (5841900898); preserve ledger bytes/SHA; this App does not race"
+      "blocked_reason": "ACTIVE peer bc-01a0d95b\u2026 reconciling #118 onto ebedb78 (5841905843); bc-fc9fc8ec was auto-ack only; this App does not race"
     },
     {
       "work_id": "math-55-pin-neighborhood-review",
@@ -2843,6 +2848,35 @@
       ],
       "delegates_to": null,
       "blocked_reason": "OFFERED observe DRAFT @ 718029c; SOURCE NOT FOUND disposition; sci effect NONE"
+    },
+    {
+      "work_id": "main-121-c1c2-repair-peer",
+      "scope": "Bounded author-side C1+C2 repair only on Q0-C103; new additive Cursor branch; not self-review",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 121,
+        "pr_state": "open",
+        "head_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372",
+        "subject_review": "5841690735"
+      },
+      "claimed_at": "2026-09-26T01:23:30Z",
+      "heartbeat_at": "2026-09-26T01:23:30Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841898624",
+        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5841905853"
+      ],
+      "delegates_to": "main-121-q0-c103-pair-palm",
+      "blocked_reason": "ACTIVE peer on new additive branch for C1/C2 only; await tip/PR; this App does not race; sci effect NONE"
     }
   ]
 }
