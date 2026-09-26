@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T23:31:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). Pulse 23:30Z: watched tips unchanged (#163 still cb77428 packaging AMEND open; #124 re-review OFFERED; #86 merge OFFERED). Updated 2026-09-26T23:31:00Z.",
+  "updated_at": "2026-09-26T23:58:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). Math- #86 tip b9e33ed repair after AMEND on 0e248ad (5851084620); re-review OFFERED. Updated 2026-09-26T23:58:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4660,7 +4660,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T23:31:00Z",
+      "heartbeat_at": "2026-09-26T23:58:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -6268,12 +6268,15 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 86,
-        "head_oid": "0e248ad3ab5263c9a83b7740796a7206619d52de",
+        "head_oid": "b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef",
         "pr_state": "open",
-        "peer_accept": "5850648931"
+        "peer_accept": "5850648931",
+        "prior_oid": "0e248ad3ab5263c9a83b7740796a7206619d52de",
+        "peer_amend_receipt": "5851084620",
+        "prior_accept": "5850648931"
       },
       "claimed_at": "2026-09-26T22:31:50Z",
-      "heartbeat_at": "2026-09-26T22:54:00Z",
+      "heartbeat_at": "2026-09-26T23:58:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6281,9 +6284,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/86",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5850648931"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5850648931",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5851084620",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef"
       ],
-      "blocked_reason": "OFFERED observe ready @ 0e248ad CI GREEN\u00d72; peer ACCEPT-at-stated-scope (5850648931) nonblocking: action pins, assert-only-175, rimprobe_fail inferred; behind main \u2014 update-branch + expected-head merge OFFERED; merge\u2260theorem; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe ready @ b9e33ed CI GREEN\u00d72; prior tip 0e248ad peer ACCEPT (5850648931) then OpenAI AMEND+successor repair (5851084620): failed-tail, Decimal(float), angle typing; REVIEW_RESPONSE.md; re-review OFFERED; do not race; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-163-intake-packaging-amend",
@@ -6490,11 +6495,13 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 86,
-        "head_oid": "0e248ad3ab5263c9a83b7740796a7206619d52de",
-        "peer_accept": "5850648931"
+        "head_oid": "b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef",
+        "peer_accept": "5850648931",
+        "prior_oid": "0e248ad3ab5263c9a83b7740796a7206619d52de",
+        "peer_amend_receipt": "5851084620"
       },
       "claimed_at": "2026-09-26T22:54:00Z",
-      "heartbeat_at": "2026-09-26T22:54:00Z",
+      "heartbeat_at": "2026-09-26T23:58:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6504,7 +6511,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5850648931"
       ],
       "delegates_to": "math-86-h5-rim-literal-contract",
-      "blocked_reason": "OFFERED author-lane update-branch + expected-head merge; this App cannot push Math-; sci effect NONE"
+      "blocked_reason": "OFFERED author-lane merge deferred until re-review of tip b9e33ed; prior ACCEPT tip 0e248ad superseded by AMEND+repair; this App cannot push Math-; sci effect NONE"
     },
     {
       "work_id": "main-128-finite-r-amend-repair",
@@ -6613,6 +6620,34 @@
       ],
       "delegates_to": "math-80-contact-kernel-substitute",
       "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-86-rereview-b9e33ed",
+      "scope": "Exact-head re-review of H5 rim contract repair tip b9e33ed after AMEND on 0e248ad",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 86,
+        "head_oid": "b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef",
+        "prior_oid": "0e248ad3ab5263c9a83b7740796a7206619d52de",
+        "repair_comment": "5851084620"
+      },
+      "claimed_at": "2026-09-26T23:58:30Z",
+      "heartbeat_at": "2026-09-26T23:58:30Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5851084620"
+      ],
+      "delegates_to": "math-86-h5-rim-literal-contract",
+      "blocked_reason": "OFFERED re-review after repair tip; this App does not race; sci effect NONE"
     }
   ]
 }
