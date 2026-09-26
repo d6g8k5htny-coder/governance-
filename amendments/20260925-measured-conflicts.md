@@ -102,7 +102,7 @@
 | main [#158](https://github.com/d6g8k5htny-coder/main/pull/158) | **MERGED** `6200dfd…` museum manifest cache; eng — **main tip** |
 | main [#157](https://github.com/d6g8k5htny-coder/main/pull/157) | **MERGED** `dbb9dcf…` Actions group bump; eng — **main tip** |
 | main [#159](https://github.com/d6g8k5htny-coder/main/pull/159) | tip `39161a6…` Drive-to-GitHub lane map (incoming); **observe**; eng≠theorem |
-| main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `43b3ced…` LB-RATE / KIMI-THM-023 HOLD review landing; **observe**; eng≠theorem |
+| main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `43b3ced…` **BEHIND**; peer **AMEND** ([5850534745](https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5850534745)) F2 intensity + C031 dual-hash + unlink #116; repair **OFFERED**; eng≠theorem |
 | main [#162](https://github.com/d6g8k5htny-coder/main/pull/162) | **MERGED** `64edf72…` public source storefront / notebook quickstart; eng — **main tip** |
 | main [#164](https://github.com/d6g8k5htny-coder/main/pull/164) | **MERGED** `b4cc529…` H5 inputs + loader review; eng — **main tip** |
 | main [#163](https://github.com/d6g8k5htny-coder/main/pull/163) | tip `c8405a7…`; peer **AMEND** ([5850519011](https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011)) RESULT.md+IDENTITY.json + custody contradiction; repair **OFFERED**; eng≠theorem |
