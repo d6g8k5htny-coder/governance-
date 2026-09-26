@@ -194,3 +194,8 @@ Run [`36202702251`](https://github.com/d6g8k5htny-coder/main/actions/runs/362027
 ## CI root cause — Q0 binding order (2026-09-26T00:03Z)
 
 OA ([5841295449](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449)): `cc6a578` has Q0 bindings **theorem extract then master**; `2d3374c` reverses to master then theorem → `semantic_digest`/`coverage_sha256` change → E6 correctly refuses. **Do not weaken E6.** Minimal fix: restore exact `cc6a578` order; add regression; rerun event-compare CI. trial#138 validates gate logic, not this data transition. Lease `main-98-q0-binding-order-fix` **OFFERED**. Sci effect NONE; #90 OPEN.
+
+
+## Tip `feea1df` — order-stable digests (2026-09-26T00:03Z)
+
+Peer ([5841305552](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841305552)): head `feea1df7726f3b8a57f3de9bfe5d56e7377b8bc0` — `semantic_digest_normalized` + sorted coverage payload; tip graph restored to `cc6a578` content. E6 intact. Hosted CI `36203372343`. **OA re-review OFFERED.** Keep DRAFT; #90 OPEN; sci effect NONE.

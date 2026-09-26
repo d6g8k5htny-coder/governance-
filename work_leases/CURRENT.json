@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:03:33Z",
-  "notes": "Compact ledger. Sci effect NONE. #98 CI fail root cause: Q0 source_bindings order reversed vs cc6a578 (theorem must be first). E6 logic OK — data-order fix OFFERED to peer author. Updated 2026-09-26T00:03:33Z.",
+  "updated_at": "2026-09-26T00:04:31Z",
+  "notes": "Compact ledger. Sci effect NONE. governance- #4 MERGED. main #98 tip feea1df: normalized digests + graph restored to cc6a578; OA re-review OFFERED. #112 Section3 C1–C5 ACTIVE on peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720. Updated 2026-09-26T00:04:31Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -18,10 +18,10 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "2d3374c5827650f5c9b462a77b29e17b998dbd96"
+        "head_oid": "feea1df7726f3b8a57f3de9bfe5d56e7377b8bc0"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T00:03:33Z",
+      "heartbeat_at": "2026-09-26T00:04:31Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -70,11 +70,13 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36198208817",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841228497",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36202702251",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841305552",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36203372343"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 2d3374c DRAFT; OA isolated CI root cause (5841295449): restore Q0 bindings order theorem-then-master as cc6a578; keep E6 intact; #90 OPEN"
+      "blocked_reason": "ACTIVE tip feea1df DRAFT; normalized semantic/coverage digests; graph restored to cc6a578 content; await OA re-review + CI 36203372343; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -404,12 +406,12 @@
         "repo": "d6g8k5htny-coder/governance-",
         "branch": null,
         "pr": 4,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "6da327b520574ba88de27e70c6456e55326d5dbe"
       },
       "claimed_at": "2026-09-25T18:10:00Z",
-      "heartbeat_at": "2026-09-26T00:02:40Z",
+      "heartbeat_at": "2026-09-26T00:04:31Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -423,7 +425,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-review-topology-rereview.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: policy re-review ACCEPT of five findings at 6da327b (amendments/20260925-review-topology-rereview.md); keep DRAFT for human merge; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED REVIEW_TOPOLOGY @ 6da327b; P1–P5 ACCEPT; sci effect NONE"
     },
     {
       "work_id": "main-108-tip-observe",
@@ -743,7 +745,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-26T00:02:40Z",
+      "heartbeat_at": "2026-09-26T00:04:31Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -756,7 +758,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe; Section9 via #37 MERGED; Section4 R1–R5 ACCEPT; Sections5–7 etc. still outside"
+      "blocked_reason": "ACTIVE observe; Section4 ACCEPT; Section3 C1–C5 ACTIVE on peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
     },
     {
       "work_id": "main-111-rn-unif-walkdown-scope",
@@ -1910,9 +1912,9 @@
         "head_oid": "2d3374c5827650f5c9b462a77b29e17b998dbd96"
       },
       "claimed_at": "2026-09-25T23:53:53Z",
-      "heartbeat_at": "2026-09-26T00:03:33Z",
+      "heartbeat_at": "2026-09-26T00:04:31Z",
       "expires_at": "2026-09-27T00:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -1921,7 +1923,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841184125"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED but CI blocked until Q0 binding-order data fix; E6 logic validated via trial#138; do not weaken E6"
+      "blocked_reason": "SUPERSEDED by tip feea1df"
     },
     {
       "work_id": "math-37-d1-section9-borel-repair",
@@ -1966,12 +1968,12 @@
       "source": {
         "repo": "d6g8k5htny-coder/governance-",
         "pr": 4,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "6da327b520574ba88de27e70c6456e55326d5dbe",
         "blob": "46268c73ee29b14188718fd096dcbb85d7d069c1"
       },
       "claimed_at": "2026-09-26T00:00:10Z",
-      "heartbeat_at": "2026-09-26T00:02:40Z",
+      "heartbeat_at": "2026-09-26T00:04:31Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1985,7 +1987,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841287466"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: peer ACCEPT P1–P5 + 120min rule @ 6da327b (5841287466); matches prior governance- ACCEPT; keep DRAFT for human merge; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED REVIEW_TOPOLOGY @ 6da327b; P1–P5 ACCEPT; sci effect NONE"
     },
     {
       "work_id": "main-112-section4-residual-independence",
@@ -2036,22 +2038,84 @@
         "pr": 98,
         "pr_state": "open",
         "issue": 90,
-        "head_oid": "2d3374c5827650f5c9b462a77b29e17b998dbd96",
+        "head_oid": "feea1df7726f3b8a57f3de9bfe5d56e7377b8bc0",
         "base_order_tip": "cc6a578b26f14a16025f4c955fe5efdd65890b1f"
       },
       "claimed_at": "2026-09-26T00:03:33Z",
-      "heartbeat_at": "2026-09-26T00:03:33Z",
+      "heartbeat_at": "2026-09-26T00:04:31Z",
+      "expires_at": "2026-09-27T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36202702251",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841305552"
+      ],
+      "delegates_to": "main-98-claims-gate-adapter",
+      "blocked_reason": "RELEASED @ feea1df: order-stable digests + tip graph restored to cc6a578; E6 intact; await OA/CI"
+    },
+    {
+      "work_id": "main-98-openai-rereview-feea1df",
+      "scope": "OpenAI re-review of tip feea1df (E6 + order-stable digests + graph restore)",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "feea1df7726f3b8a57f3de9bfe5d56e7377b8bc0"
+      },
+      "claimed_at": "2026-09-26T00:04:31Z",
+      "heartbeat_at": "2026-09-26T00:04:31Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36202702251"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841305552",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449"
       ],
-      "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "OFFERED to main author peer; do not weaken E6; governance- cannot write main"
+      "delegates_to": null,
+      "blocked_reason": "OFFERED OA re-review @ feea1df; keep DRAFT; #90 OPEN"
+    },
+    {
+      "work_id": "main-112-section3-covariance-contact",
+      "scope": "Bounded D1 Section3 C1–C5 covariance/contact interfaces (3.1)–(3.5); discharge Section4 imports",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]",
+        "run_id": "bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 112,
+        "pr_state": "open",
+        "parent_sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
+        "parent_bytes": 40261
+      },
+      "claimed_at": "2026-09-26T00:04:31Z",
+      "heartbeat_at": "2026-09-26T00:04:31Z",
+      "expires_at": "2026-09-27T00:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841305702",
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841306347",
+        "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "ACTIVE peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720: C1–C5 only; not Sections5+/cap/RN; this App does not race"
     }
   ]
 }

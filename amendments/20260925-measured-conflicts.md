@@ -16,6 +16,7 @@
 | RN_SIDE24_CELL errata E1 pointer (nav only) | main [#109](https://github.com/d6g8k5htny-coder/main/pull/109) → hardening tip `fcad723…` |
 | CONTRIBUTION_PLAN stale next-items retired (LPW REFUTED via lpw README) | main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) → hardening tip `e3cd7d4…` |
 | Hard gate + own-node + REFUTED HOLD | Math- [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8)+[#11](https://github.com/d6g8k5htny-coder/Math-/pull/11)+[#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) @ `baca69c…` |
+| REVIEW_TOPOLOGY v1.1 (policy; sci effect NONE) | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) @ `6da327b…` merged |
 | Finite-r Hermite repair (deterministic C6; sci effect NONE) | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` merged |
 | Thin-tube / FIXED_ANNULUS candidate (sci effect NONE; R6 citation note stands) | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) @ `2804dc1…` merged |
 | All-height annulus bridge candidate (sci effect NONE; R6 citation note stands) | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) @ `dedc69e…` merged |
@@ -41,8 +42,8 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `2d3374c…`; CI fail = Q0 binding **order** vs `cc6a578`; E6 OK; order-fix **OFFERED**; #90 OPEN |
-| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section9 via #37 MERGED; Section4 **R1–R5 ACCEPT** (5841289285); Sections5–7 outside |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `feea1df…` E6+order-stable digests; **OA re-review OFFERED**; CI `36203372343`; #90 OPEN |
+| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section4 ACCEPT; Section3 C1–C5 peer **ACTIVE**; Sections5+ outside |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
@@ -52,7 +53,7 @@
 | Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; **Cursor R1–R5 ACCEPT** (`amendments/20260925-math16-transverse-review.md`); fixed-η transverse count only — **not** PR9 acceptance; do not race |
 | Outside reviews (#15/#16/#18/#19/#21/#22) | #15 eng ACCEPT; #16 R1–R5 ACCEPT; #18 MATCH×7; #19 R1–R6 ACCEPT; #21 (2)–(8) ACCEPT; #22 R1–R8+S ACCEPT — all on governance-; #98 AMEND_REQUIRED on main author lane |
-| governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `6da327b…` peer **P1–P5 ACCEPT** (5841287466); matches prior Cursor ACCEPT; keep DRAFT |
+| governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `6da327b…` **MERGED**; P1–P5 ACCEPT |
 
 ### Closed without merge (2026-09-25)
 

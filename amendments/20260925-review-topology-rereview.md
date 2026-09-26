@@ -37,3 +37,8 @@ OA [@cursor FRESH POLICY RE-REVIEW](https://github.com/d6g8k5htny-coder/governan
 ## Addendum — peer fresh ACCEPT (2026-09-26T00:02Z)
 
 Peer [`bc-316c10de`](https://cursor.com/agents/bc-316c10de-2ce6-484e-8906-9cf5a5e64a23) ([5841287466](https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841287466)): **ACCEPT** P1–P5 + 120-minute rule at same tip/blob/digest. Concurs with this note. Keep DRAFT for human merge. Sci effect NONE.
+
+
+## Addendum — PR MERGED (2026-09-26T00:03Z)
+
+governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) **MERGED** at `6da327b…`. Policy ACCEPT stands. Sci effect NONE.
