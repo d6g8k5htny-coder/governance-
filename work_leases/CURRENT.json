@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:52:30Z",
-  "notes": "Compact ledger. Sci effect NONE. ULW #3 tip \u2192 03cd88c (ledger freshness); CI in progress. Updated 2026-09-26T15:52:30Z.",
+  "updated_at": "2026-09-26T15:53:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main #134 @ 497ceff: all four CHANGES REQUESTED findings fixed (5847639970); await CI green + re-review. Updated 2026-09-26T15:53:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4006,10 +4006,11 @@
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "prior_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
         "ci": "green_5",
-        "author_status": "waiting_on_reviewers"
+        "author_status": "waiting_on_reviewers",
+        "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T15:46:15Z",
+      "heartbeat_at": "2026-09-26T15:53:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4026,10 +4027,11 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36247970214",
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847295528",
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100",
-        "https://github.com/d6g8k5htny-coder/main/commit/497ceffb10ff4f44cc1880d58c26396b870636e9"
+        "https://github.com/d6g8k5htny-coder/main/commit/497ceffb10ff4f44cc1880d58c26396b870636e9",
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847639970"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 497ceff (firewall repair after CHANGES REQUESTED 5847305100); verify IN_PROGRESS; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 497ceff; author confirms P1\u00d72+P2\u00d72 fixed (5847639970); await CI + peer re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-137-landing-license-citation",
@@ -4140,21 +4142,23 @@
         "pr_state": "open",
         "subject_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
         "finding_comment": "5847305100",
-        "repair_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9"
+        "repair_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9",
+        "disposition": "REPAIR_PUBLISHED_5847639970"
       },
       "claimed_at": "2026-09-26T15:05:00Z",
-      "heartbeat_at": "2026-09-26T15:46:15Z",
+      "heartbeat_at": "2026-09-26T15:53:30Z",
       "expires_at": "2026-09-27T20:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100",
-        "https://github.com/d6g8k5htny-coder/main/commit/497ceffb10ff4f44cc1880d58c26396b870636e9"
+        "https://github.com/d6g8k5htny-coder/main/commit/497ceffb10ff4f44cc1880d58c26396b870636e9",
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847639970"
       ],
       "delegates_to": "main-134-claim-graph-firewall",
-      "blocked_reason": "ACTIVE peer repair published @ 497ceff; await CI + re-review; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED: repair published @ 497ceff addressing 5847305100; await CI/re-review separately; sci effect NONE"
     },
     {
       "work_id": "main-135-interval-errata-amend",
@@ -4423,6 +4427,35 @@
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED/MERGED \u2192 f832ea1; eight submodule pins + fail-open fix on main; sci effect NONE"
+    },
+    {
+      "work_id": "main-134-rereview-497ceff",
+      "scope": "Peer re-review of #134 firewall repair @ 497ceff after CHANGES REQUESTED fixes",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 134,
+        "head_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9",
+        "prior_finding": "5847305100",
+        "repair_comment": "5847639970"
+      },
+      "claimed_at": "2026-09-26T15:53:30Z",
+      "heartbeat_at": "2026-09-26T15:53:30Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847639970",
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100"
+      ],
+      "delegates_to": "main-134-claim-graph-firewall",
+      "blocked_reason": "OFFERED peer re-review after repair; this App does not race; sci effect NONE"
     }
   ]
 }
