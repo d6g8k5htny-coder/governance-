@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T14:31:15Z",
-  "notes": "Compact ledger. Sci effect NONE. Main #137 MERGED \u2192 main tip 99f8c2b (landing/LICENSE/CITATION; nav only). Hardening still cd66a655. #122 ACTIVE a1fc958; #134/#135 verify in progress. Updated 2026-09-26T14:31:15Z.",
+  "updated_at": "2026-09-26T14:32:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main #134 @ 1db16d1 CI GREEN (5 checks); still DRAFT. Main tip 99f8c2b. #122 ACTIVE a1fc958. #135 verify pending. Updated 2026-09-26T14:32:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3990,10 +3990,11 @@
         "pr_state": "open",
         "head_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "prior_oid": "d4ab3618a07563e4c0da2703b0ab3856b1ff7fd2"
+        "prior_oid": "d4ab3618a07563e4c0da2703b0ab3856b1ff7fd2",
+        "ci": "green_5"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T14:17:45Z",
+      "heartbeat_at": "2026-09-26T14:32:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4002,10 +4003,12 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/134",
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5846539546",
-        "https://github.com/d6g8k5htny-coder/main/commit/1db16d1f59f4ef5821eccf996a6e6ea1afe3458b"
+        "https://github.com/d6g8k5htny-coder/main/commit/1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36247970213",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36247970262"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 1db16d1 (merged hardening into firewall branch); verify IN_PROGRESS; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 1db16d1; hosted CI GREEN (5 checks; 36247970213); do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-137-landing-license-citation",
