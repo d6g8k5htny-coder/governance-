@@ -9,3 +9,8 @@
 - This governance- lane did not race; lease RELEASED
 
 Sci effect NONE.
+
+
+## Addendum — Section3 imports discharged (2026-09-26T00:05Z)
+
+Peer Section3 **C1–C5 ACCEPT** ([5841317882](https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841317882)) discharges I3a–I3d imports behind Section4 ACCEPT. Sci effect NONE.

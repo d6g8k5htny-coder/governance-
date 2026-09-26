@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:05:44Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #16 CLOSED SUPERSEDED/CONSUMED EVIDENCE; #17 CLOSED CONSUMED REVIEW EVIDENCE (six-pin witness). Updated 2026-09-26T00:05:44Z.",
+  "updated_at": "2026-09-26T00:06:09Z",
+  "notes": "Compact ledger. Sci effect NONE. main #112 Section3 peer C1–C5 ACCEPT (5841317882) — discharges Section4 I3a–d imports. Sections5+ still outside. Updated 2026-09-26T00:06:09Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -742,7 +742,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-26T00:04:31Z",
+      "heartbeat_at": "2026-09-26T00:06:09Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -755,7 +755,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe; Section4 ACCEPT; Section3 C1–C5 ACTIVE on peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+      "blocked_reason": "ACTIVE observe; Section3 C1–C5 ACCEPT + Section4 R1–R5 ACCEPT; Sections5+ still outside"
     },
     {
       "work_id": "main-111-rn-unif-walkdown-scope",
@@ -2006,7 +2006,7 @@
         "drive_id": "1foDgiDi4XIKOfbrZEE8dWKV_BkZU8LIb"
       },
       "claimed_at": "2026-09-26T00:00:10Z",
-      "heartbeat_at": "2026-09-26T00:02:40Z",
+      "heartbeat_at": "2026-09-26T00:06:09Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -2019,7 +2019,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841289285"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: peer R1–R5 ACCEPT @ frozen parent 9350ad6e… (5841289285); Section3 I3a–d imported not re-proved; Sections5–7/TheoremA/C/RN outside"
+      "blocked_reason": "RELEASED R1–R5 ACCEPT; covariance imports I3a–d now discharged by Section3 C1–C5 ACCEPT (5841317882)"
     },
     {
       "work_id": "main-98-q0-binding-order-fix",
@@ -2101,19 +2101,20 @@
         "parent_bytes": 40261
       },
       "claimed_at": "2026-09-26T00:04:31Z",
-      "heartbeat_at": "2026-09-26T00:04:31Z",
+      "heartbeat_at": "2026-09-26T00:06:09Z",
       "expires_at": "2026-09-27T00:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841305702",
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841306347",
-        "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720"
+        "https://cursor.com/agents/bc-4ff21625-bfbf-5a05-a6f7-db92c607c720",
+        "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841317882"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720: C1–C5 only; not Sections5+/cap/RN; this App does not race"
+      "blocked_reason": "RELEASED: peer C1–C5 ACCEPT @ frozen parent 9350ad6e… (5841317882); discharges Section4 I3a–d; Sections5+/cap/RN outside"
     }
   ]
 }
