@@ -29,6 +29,7 @@
 | Public math catalog / SIDE24 hub links / SARD-G review publish / executable checkout (nav only; A1/A6 remain AMEND; sci effect NONE) | main [#127](https://github.com/d6g8k5htny-coder/main/pull/127)+[#130](https://github.com/d6g8k5htny-coder/main/pull/130)+[#131](https://github.com/d6g8k5htny-coder/main/pull/131)+[#132](https://github.com/d6g8k5htny-coder/main/pull/132)+[#133](https://github.com/d6g8k5htny-coder/main/pull/133) → prior `main` tip `4a72a5a…` |
 | Public landing rebuild + LICENSE/CITATION/templates on default branch (nav/meta only; sci effect NONE) | main [#137](https://github.com/d6g8k5htny-coder/main/pull/137) @ `cd92675…` → `main` tip `99f8c2b…` |
 | Federation workspace bootstrap (authority false; residual AMEND BLOCKING on top-level fail-open; sci effect NONE) | ULW [#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2) @ `79e4b39…` → merge `803a59c…`; successor repair OFFERED |
+| Main as single public front door (nav/meta only; sci effect NONE) | main [#138](https://github.com/d6g8k5htny-coder/main/pull/138) @ `48c35c3…` → `main` tip `b120e70…` |
 | V3.4 archive + arithmetic_ledgers custody (no re-ratification; sci effect NONE) | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) @ `2992819…` → hardening merge `cd66a655…` (base `chatgpt/drive-github-hardening-20260919` @ `2f7a5a9…`; not into `main`) |
 | P15 full-price support-scope dependency (metadata; sci effect NONE) | Math- [#66](https://github.com/d6g8k5htny-coder/Math-/pull/66) @ `423d4d9…` → merge `10e1f19…`; HOLD_WITH_DOMAIN parent |
 | Proof availability / PROOF_INDEX nav (custody only; sci effect NONE) | Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) @ `965011d…` → merge `061d488…`; CONTACT SOURCE NOT FOUND retained |
@@ -63,7 +64,9 @@
 | main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `a1fc958…` **CI GREEN**; A1/A6 **AMEND/AMEND** (also published via [#131](https://github.com/d6g8k5htny-coder/main/pull/131)/[#133](https://github.com/d6g8k5htny-coder/main/pull/133)); chart-geometry clarify **ACTIVE** author claim ([5846575968](https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5846575968)); do not race; await tip |
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | D5 intermediate-scale envelope; **observe**; recon≠theorem |
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | **MERGED** `cd66a655…` onto hardening (not `main`); custody-only |
-| main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | `4fd6c279…` cross-repo source architecture design; federation handoff ([5847321852](https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847321852)) → ULW [#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2); **observe** |
+| main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | **CLOSED UNMERGED** parked ([5847486750](https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847486750)); superseded by #138 front-door decision; ULW federation separate |
+| main [#136](https://github.com/d6g8k5htny-coder/main/pull/136) | `aadcdda…` float-labelling enforcement; **observe**; eng≠theorem |
+| main [#138](https://github.com/d6g8k5htny-coder/main/pull/138) | **MERGED** `b120e70…` single public front door; nav only |
 | ULW [#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2) | **MERGED** `803a59c…` despite peer **AMEND BLOCKING** ([5847423896](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2#issuecomment-5847423896)); residual top-level fail-open corroborated post-merge; successor repair **OFFERED**; merge≠authority fix ([amendment](20260926-ulw2-federation-bootstrap-review.md)) |
 | ULW [#3](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3) | `2d65202…` competing public workspace map; COI vs #2 declared; **observe**; owner reconciles; zero org-independence |
 | main [#134](https://github.com/d6g8k5htny-coder/main/pull/134) | `1db16d1…` **CHANGES REQUESTED** ([5847305100](https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100)) P1 carrier/exactness + P2 premise/conflict; peer repair **ACTIVE**; do not race; eng≠theorem |
@@ -96,6 +99,9 @@
 | Math- [#37](https://github.com/d6g8k5htny-coder/Math-/pull/37) | Section9 Borel repair MERGED @ `694b7ff…`; xAI C1–C6 ACCEPT (scoped) |
 | Math- [#47](https://github.com/d6g8k5htny-coder/Math-/pull/47) | CLOSED UNMERGED duplicate of #37 |
 | Math- [#38](https://github.com/d6g8k5htny-coder/Math-/pull/38) | BLOCKED_INPUT closed — fingerprint sync of unrepaired #9 (5840255614) |
+| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | CLOSED UNMERGED NEVER-MAIN tip-observe (5847478200); OBL-H5-JETMOD unchanged |
+| main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | CLOSED UNMERGED parked — design superseded by #138 front door (5847486750) |
+| Math- [#68](https://github.com/d6g8k5htny-coder/Math-/pull/68) | CLOSED UNMERGED — Section 9 Borel superseded by accepted parent |
 
 ## This agent
 
