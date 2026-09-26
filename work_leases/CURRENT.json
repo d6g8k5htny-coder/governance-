@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:13:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Pulse 01:13Z: #98 b59359e CI-green frozen await OA; #121 Q0-C103 CI green; observe Math- #52/#53/#54. No #112 Section6+. Updated 2026-09-26T01:13:20Z.",
+  "updated_at": "2026-09-26T01:16:40Z",
+  "notes": "Compact ledger. Sci effect NONE. main #98 OA FINAL integration ACCEPT @ b59359e (5841860158); author undraft+merge OFFERED (exact head only); #90 eng-gate close after merge receipt. This App cannot push main. Updated 2026-09-26T01:16:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -23,7 +23,7 @@
         "base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T01:13:20Z",
+      "heartbeat_at": "2026-09-26T01:16:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -89,11 +89,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841686935",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841688029",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36206278016",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841796581"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841796581",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841860158",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-integration-accept.md"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip b59359e DRAFT FROZEN; FULL CI GREEN (PR 36206280233 + push 36206278016); await OA final readback; no tip edits unless AMEND; #90 OPEN"
+      "blocked_reason": "ACTIVE tip b59359e DRAFT; OA FINAL eng ACCEPT; author undraft+merge OFFERED (exact head only); #90 OPEN until merge receipt; this App cannot push main"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -391,10 +393,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "ef98d9f89f9366c92526f9f8b60ad5e066c3c90a"
+        "head_oid": "22bb47dc725c0bc2b5de0badd64dcef2fc96d2b6"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T01:13:40Z",
+      "heartbeat_at": "2026-09-26T01:16:50Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2503,9 +2505,9 @@
         "parent_oid": "69e9b526fa6fea4468475705c599d454427eb603"
       },
       "claimed_at": "2026-09-26T00:50:50Z",
-      "heartbeat_at": "2026-09-26T01:13:20Z",
+      "heartbeat_at": "2026-09-26T01:16:40Z",
       "expires_at": "2026-09-27T01:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -2516,10 +2518,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841686935",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841688029",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36206278016",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841796581"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841796581",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841860158",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-integration-accept.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OA final readback @ frozen CI-green b59359e; keep DRAFT; #90 OPEN"
+      "blocked_reason": "RELEASED: OA FINAL eng integration ACCEPT @ b59359e (5841860158); not theorem accept; await author merge of exact head; eng\u2260sci"
     },
     {
       "work_id": "main-121-q0-c103-pair-palm",
@@ -2666,6 +2670,39 @@
       ],
       "delegates_to": null,
       "blocked_reason": "OFFERED observe DRAFT @ ee2f603; index/audit only; sci effect NONE"
+    },
+    {
+      "work_id": "main-98-author-merge-b59359e",
+      "scope": "Undraft + merge exact tip b59359e into hardening base with expected-head protection; post merge SHA + compare/readback; then #90 eng-gate close eligible",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]",
+        "run_id": "bc-01a0d95b-e593-75f4-a1b1-d440961231c5"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "b59359ebb972351802c7bf343363811a8e83150b",
+        "base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5"
+      },
+      "claimed_at": "2026-09-26T01:16:40Z",
+      "heartbeat_at": "2026-09-26T01:16:40Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841860158",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-integration-accept.md"
+      ],
+      "delegates_to": "main-98-claims-gate-adapter",
+      "lanes_note": "Author-lane only; governance- has no main push. No further logic change unless merge exposes conflict.",
+      "blocked_reason": "OFFERED to main #98 author peer: undraft+merge exact b59359e; MERGEABLE/CLEAN now; this App does not race / cannot push main"
     }
   ]
 }
