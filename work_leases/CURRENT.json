@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T23:15:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). main #163 tip 75c0175 (+D5_REPLAY_AND_TYPE); packaging AMEND still open. Updated 2026-09-26T23:15:30Z.",
+  "updated_at": "2026-09-26T23:16:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). main #163 tip 6716d16 (+BF_TRANSVERSE_EXACT); packaging AMEND still open. Updated 2026-09-26T23:16:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4660,7 +4660,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T23:15:30Z",
+      "heartbeat_at": "2026-09-26T23:16:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -6139,12 +6139,12 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 163,
-        "head_oid": "75c0175388c4920a0bcba03efc87c019fb80ad62",
-        "prior_oid": "45f610fa8ab06f8eec3d92231c37d081559a0cbc",
+        "head_oid": "6716d16e0630bca9db0ff0eb279818eafd1d0718",
+        "prior_oid": "75c0175388c4920a0bcba03efc87c019fb80ad62",
         "peer_amend": "5850519011"
       },
       "claimed_at": "2026-09-26T22:01:10Z",
-      "heartbeat_at": "2026-09-26T23:15:30Z",
+      "heartbeat_at": "2026-09-26T23:16:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6164,9 +6164,10 @@
         "https://github.com/d6g8k5htny-coder/main/commit/5736b57a55e2d23f8c9a1f493eb07cf44b617cbe",
         "https://github.com/d6g8k5htny-coder/main/commit/080d676b19211a298449efc19ceb9a92caedc3fa",
         "https://github.com/d6g8k5htny-coder/main/commit/45f610fa8ab06f8eec3d92231c37d081559a0cbc",
-        "https://github.com/d6g8k5htny-coder/main/commit/75c0175388c4920a0bcba03efc87c019fb80ad62"
+        "https://github.com/d6g8k5htny-coder/main/commit/75c0175388c4920a0bcba03efc87c019fb80ad62",
+        "https://github.com/d6g8k5htny-coder/main/commit/6716d16e0630bca9db0ff0eb279818eafd1d0718"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 75c0175 (tip move; +D5_REPLAY_AND_TYPE.md); peer AMEND (5850519011) RESULT.md+IDENTITY.json still absent; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 6716d16 (tip move; +BF_TRANSVERSE_EXACT.md); peer AMEND (5850519011) RESULT.md+IDENTITY.json still absent; public-intake FAIL; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-125-moment-lemma-amend",
@@ -6294,12 +6295,12 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 163,
-        "head_oid": "75c0175388c4920a0bcba03efc87c019fb80ad62",
+        "head_oid": "6716d16e0630bca9db0ff0eb279818eafd1d0718",
         "finding_comment": "5850519011",
-        "prior_oid": "45f610fa8ab06f8eec3d92231c37d081559a0cbc"
+        "prior_oid": "75c0175388c4920a0bcba03efc87c019fb80ad62"
       },
       "claimed_at": "2026-09-26T22:37:30Z",
-      "heartbeat_at": "2026-09-26T23:15:30Z",
+      "heartbeat_at": "2026-09-26T23:16:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6309,7 +6310,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011"
       ],
       "delegates_to": "main-163-grok-session-replay-ledger",
-      "blocked_reason": "OFFERED peer AMEND repair still open after tip 75c0175 (D5 replay only; no RESULT.md/IDENTITY.json); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND repair still open after tip 6716d16 (BF transverse only; no RESULT.md/IDENTITY.json); this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-161-f2-intensity-amend",
