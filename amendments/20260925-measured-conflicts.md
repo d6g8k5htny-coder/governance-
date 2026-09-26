@@ -33,7 +33,8 @@
 | Federation submodule pins + top-level fail-open closed (sci effect NONE) | ULW [#4](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/4) @ `1fc8758…` → merge `f832ea1…` |
 | Main as single public front door (nav/meta only; sci effect NONE) | main [#138](https://github.com/d6g8k5htny-coder/main/pull/138) @ `48c35c3…` → prior `main` tip `b120e70…` |
 | Pinned public-source custody path exposed (nav only; sci effect NONE) | main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) @ `c86c5a3…` → prior `main` tip `70664bd…` |
-| Public research shop: pinned views, catalog, restricted intake (nav/eng; sci effect NONE) | main [#145](https://github.com/d6g8k5htny-coder/main/pull/145) @ `349e036…` → `main` tip `bd9fc9d…` |
+| Public research shop: pinned views, catalog, restricted intake (nav/eng; sci effect NONE) | main [#145](https://github.com/d6g8k5htny-coder/main/pull/145) @ `349e036…` → prior `main` tip `bd9fc9d…` |
+| Public intake SIDE24 identity-replay example (eng/demo; sci effect NONE) | main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) @ `d10c2fb…` → `main` tip `e495837…`; residual Codex P2 task-link AMEND |
 | Nine public BYTE_COPY imports exposed in Math- proof index (custody/nav; sci effect NONE) | Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) @ `29b5cf9…` → merge `58f7936…` |
 | V3.4 archive + arithmetic_ledgers custody (no re-ratification; sci effect NONE) | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) @ `2992819…` → hardening merge `cd66a655…` (base `chatgpt/drive-github-hardening-20260919` @ `2f7a5a9…`; not into `main`) |
 | P15 full-price support-scope dependency (metadata; sci effect NONE) | Math- [#66](https://github.com/d6g8k5htny-coder/Math-/pull/66) @ `423d4d9…` → merge `10e1f19…`; HOLD_WITH_DOMAIN parent |
