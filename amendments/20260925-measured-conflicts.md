@@ -86,6 +86,10 @@
 | Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) | **MERGED** `58f7936…` nine BYTE_COPY imports in proof index; custody≠theorem |
 | main [#140](https://github.com/d6g8k5htny-coder/main/pull/140) | `33a2b78…` pinned-source index coverage (13 missed); sibling [#136](https://github.com/d6g8k5htny-coder/main/pull/136) now tolerates archive-index close; **observe**; eng≠theorem |
 | main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) | **MERGED** `e495837…`; intake verify SUCCESS ([5847931757](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847931757)); eng receipt ([5847954854](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847954854)); residual Codex **P2 AMEND** RESULT.md task-link still open on tip (process rule 10 / [4112001085](https://github.com/d6g8k5htny-coder/main/pull/147#discussion_r4112001085)); successor repair **OFFERED**; eng≠theorem |
+| main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) | **MERGED** `71400b9…` live shop link; nav only |
+| Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) | **MERGED** `d6628da…` unique integrity-gate check name; CI/eng only |
+| main [#148](https://github.com/d6g8k5htny-coder/main/pull/148) | tip `7556ddd…` (merged hardening `96e5175…`); CI in progress; **observe**; eng≠theorem |
+| main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | `88272ef…` SIDE24 chart intake dry-run for task #141; **observe**; eng≠theorem |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `4096dff` (Batch 551 tip_or_eng TIP_DRIFT); hardening tip `96e5175`; `main` tip `71400b9` (#149); **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | **MERGED** `9d7b680…`; custody import; prior BYTE_COPY×9 @ `b39e9ff…` ([5847534053](https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053)); merge≠theorem |
