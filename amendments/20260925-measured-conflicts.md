@@ -17,7 +17,7 @@
 | CONTRIBUTION_PLAN stale next-items retired (LPW REFUTED via lpw README) | main [#105](https://github.com/d6g8k5htny-coder/main/pull/105) → hardening tip `e3cd7d4…` |
 | Hard gate + own-node + REFUTED HOLD | Math- [#8](https://github.com/d6g8k5htny-coder/Math-/pull/8)+[#11](https://github.com/d6g8k5htny-coder/Math-/pull/11)+[#13](https://github.com/d6g8k5htny-coder/Math-/pull/13) @ `baca69c…` |
 | REVIEW_TOPOLOGY v1.1 (policy; sci effect NONE) | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) @ `6da327b…` merged |
-| Work-lease / collision ledger + measured conflicts (coordination only; sci effect NONE) | governance- [#3](https://github.com/d6g8k5htny-coder/governance-/pull/3) @ `264fa8d…` → merge `ae1b92e…`; successor `cursor/lease-watch-continuation-ab08` |
+| Work-lease / collision ledger + measured conflicts (coordination only; sci effect NONE) | governance- [#3](https://github.com/d6g8k5htny-coder/governance-/pull/3) @ `264fa8d…` → merge `ae1b92e…`; successor [#5](https://github.com/d6g8k5htny-coder/governance-/pull/5) `cursor/lease-watch-continuation-ab08` |
 | Finite-r Hermite repair (deterministic C6; sci effect NONE) | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) @ `e93eade…` merged |
 | Thin-tube / FIXED_ANNULUS candidate (sci effect NONE; R6 citation note stands) | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) @ `2804dc1…` merged |
 | All-height annulus bridge candidate (sci effect NONE; R6 citation note stands) | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) @ `dedc69e…` merged |
@@ -93,6 +93,7 @@
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | **CLOSED** SUPERSEDED/CONSUMED EVIDENCE (5841312565) |
 | Outside reviews (#15/#16/#18/#19/#21/#22) | #15 eng ACCEPT; #16 R1–R5 ACCEPT; #18 MATCH×7; #19 R1–R6 ACCEPT; #21 (2)–(8) ACCEPT; #22 R1–R8+S ACCEPT — all on governance-; #98 AMEND_REQUIRED on main author lane |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `6da327b…` **MERGED**; P1–P5 ACCEPT |
+| governance- [#3](https://github.com/d6g8k5htny-coder/governance-/pull/3) | **MERGED** `ae1b92e…`; work leases + measured conflicts; successor branch `cursor/lease-watch-continuation-ab08` |
 
 ### Closed without merge (2026-09-25)
 

@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:59:55Z",
-  "notes": "Compact ledger. Sci effect NONE. governance- #3 MERGED \u2192 main tip ae1b92e (successor branch cursor/lease-watch-continuation-ab08). Hot: #135 @ 16b00c1 repair OFFERED re-review; #134 @ 497ceff verify in progress; Math- #70 @ 44901b5. Updated 2026-09-26T15:59:55Z.",
+  "updated_at": "2026-09-26T16:00:20Z",
+  "notes": "Compact ledger. Sci effect NONE. governance- #3 MERGED ae1b92e; successor #5 (cursor/lease-watch-continuation-ab08). Hot: #135 @ 16b00c1; #134 @ 497ceff; Math- #70 @ 44901b5. Updated 2026-09-26T16:00:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4548,13 +4548,13 @@
       "source": {
         "repo": "d6g8k5htny-coder/governance-",
         "branch": "cursor/lease-watch-continuation-ab08",
-        "pr": null,
+        "pr": 5,
         "pr_state": "open",
         "base_oid": "ae1b92ef1bb794050e584bec1c6f58f9495a018e",
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T15:59:55Z",
+      "heartbeat_at": "2026-09-26T16:00:20Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4565,10 +4565,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/governance-/pull/3",
-        "https://github.com/d6g8k5htny-coder/governance-/commit/ae1b92ef1bb794050e584bec1c6f58f9495a018e"
+        "https://github.com/d6g8k5htny-coder/governance-/commit/ae1b92ef1bb794050e584bec1c6f58f9495a018e",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE successor ledger after #3 merge; sci effect NONE"
+      "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge; sci effect NONE"
     }
   ]
 }
