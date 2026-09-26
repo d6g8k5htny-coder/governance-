@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:17:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #140 tip 3013733 (merged hardening 96e5175); CI in progress. #136/@567213c + #148/@7556ddd verify still pending. Updated 2026-09-26T17:17:40Z.",
+  "updated_at": "2026-09-26T17:26:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #148 @ 7556ddd CI GREEN\u00d75. #136/@567213c + #140/@3013733 verify pending. #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:26:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4576,7 +4576,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:17:40Z",
+      "heartbeat_at": "2026-09-26T17:26:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4865,10 +4865,10 @@
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "prior_oid": "1fd12eecea01bbf41cafca158d5a7263f9c420e5",
         "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57",
-        "ci": "verify_in_progress_7556ddd"
+        "ci": "green_5_7556ddd"
       },
       "claimed_at": "2026-09-26T17:01:20Z",
-      "heartbeat_at": "2026-09-26T17:10:30Z",
+      "heartbeat_at": "2026-09-26T17:26:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4879,7 +4879,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/7556ddd6f039e5ded5d448637b0e10baac3e95e2"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 7556ddd after merge hardening 96e5175; CI in progress; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 7556ddd after merge hardening 96e5175; CI GREEN\u00d75; do not race; sci effect NONE"
     },
     {
       "work_id": "main-150-side24-chart-intake-dryrun",
