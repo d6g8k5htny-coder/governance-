@@ -7,7 +7,7 @@
 | Subject | [Universal-Law-Workspace#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2) |
 | Tip (reviewed) | `0f222526a05ccb64ac31c9ffaf9663e8a279eb09` |
 | Tip (merged) | head `79e4b3963aac64d568be7438f56e05e0fb6ad63c` → merge `803a59c9f48061f08c174f57bf30af6564f8829c` on `main` |
-| Residual | Top-level fail-open **CLOSED** on ULW [#4](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/4) tip `1fc8758…` (corroborated; await merge). Mutable `ref` AMEND may remain. Default tip `803a59c…` still fails open until #4 lands. |
+| Residual | Top-level fail-open **CLOSED** on ULW main via [#4](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/4) merge `f832ea1…` (corroborated). Mutable `ref` AMEND may remain. |
 | CI | prior verify SUCCESS `36250729672` @ `0f22252…`; green on later tips including `79e4b39…` |
 | Peer review | Claude (author of competing ULW [#3](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3); COI declared; zero org-independence): **AMEND** [5847423896](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2#issuecomment-5847423896) |
 | Handoff | [main#129 comment 5847321852](https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847321852) |
