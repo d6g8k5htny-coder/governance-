@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T16:23:55Z",
-  "notes": "Compact ledger. Sci effect NONE. #134 @ 497ceff CI GREEN\u00d75; #135 @ 16b00c1 CI GREEN\u00d75; both re-reviews OFFERED. ULW #3 @ 96e0059 CONFLICTING. Updated 2026-09-26T16:23:55Z.",
+  "updated_at": "2026-09-26T16:31:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip bd9fc9d (#145 research shop MERGED). Math- tip 58f7936 (#75 BYTE_COPY index MERGED). Observe #140/#147. #134/#135 CI GREEN; re-reviews OFFERED. Updated 2026-09-26T16:31:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3700,7 +3700,7 @@
         "claim_comment": "5846575968"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-26T16:23:55Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3977,7 +3977,7 @@
         "repair_comment": "5847678135"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T16:23:55Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -4023,7 +4023,7 @@
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T16:23:55Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4301,7 +4301,7 @@
         "ci": "verify_SUCCESS"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-26T16:23:55Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
       "expires_at": "2026-09-27T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4469,7 +4469,7 @@
         "ci": "green_5"
       },
       "claimed_at": "2026-09-26T15:53:30Z",
-      "heartbeat_at": "2026-09-26T16:23:55Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4501,7 +4501,7 @@
         "prior_main_tip": "b120e705654a773ac4ba04c324e5f85087e61ab4"
       },
       "claimed_at": "2026-09-26T15:40:56Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -4513,7 +4513,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/c86c5a3047b81f860252f91ff78c15b0d58fde59"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED \u2192 main tip 70664bd; nav/custody path only; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED \u2192 prior tip 70664bd; successor #145 \u2192 bd9fc9d; nav only; sci effect NONE"
     },
     {
       "work_id": "main-135-rereview-16b00c1",
@@ -4532,7 +4532,7 @@
         "ci": "green_5"
       },
       "claimed_at": "2026-09-26T15:58:30Z",
-      "heartbeat_at": "2026-09-26T16:23:55Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4564,7 +4564,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T16:23:55Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4613,6 +4613,125 @@
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED/MERGED \u2192 hardening tip 96e5175; admission/H3 artifacts; sci effect NONE"
+    },
+    {
+      "work_id": "main-145-public-research-shop",
+      "scope": "Public research shop: pinned views, catalog, restricted result intake; nav/eng only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 145,
+        "pr_state": "merged",
+        "head_oid": "349e0361b7098f5bbd095638e47858fdee56bcee",
+        "merge_oid": "bd9fc9d603fd70946de364afcc3c902f09a5bf29",
+        "prior_main_tip": "70664bd66f7778c356665b26222df0a61314c813"
+      },
+      "claimed_at": "2026-09-26T16:29:36Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/145",
+        "https://github.com/d6g8k5htny-coder/main/commit/bd9fc9d603fd70946de364afcc3c902f09a5bf29"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED/MERGED \u2192 main tip bd9fc9d; public shop nav/eng; sci effect NONE"
+    },
+    {
+      "work_id": "math-75-byte-copy-proof-index",
+      "scope": "Expose nine public BYTE_COPY imports in proof index; custody/nav only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 75,
+        "pr_state": "merged",
+        "head_oid": "29b5cf9039b1fe0bf8f384692627adb3c8636ddb",
+        "merge_oid": "58f7936d1138b24dd6cc988081d74d07683611d6",
+        "prior_math_tip": "9d7b6802424fb4715b31999066aafca8ee2f3cca"
+      },
+      "claimed_at": "2026-09-26T16:16:45Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/75",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/58f7936d1138b24dd6cc988081d74d07683611d6"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED/MERGED \u2192 Math- tip 58f7936; custody index; sci effect NONE"
+    },
+    {
+      "work_id": "main-140-pinned-source-index-coverage",
+      "scope": "Pinned-source index missed 13 pinned files; eng honesty repair",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "claude/pinned-index-archive-members",
+        "pr": 140,
+        "pr_state": "open",
+        "head_oid": "33a2b78e346c2f1da64c803d97ee631bf49dc4cc",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "ci": "mixed_verify"
+      },
+      "claimed_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/140"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 33a2b78; pinned-source index coverage; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-147-public-intake-side24-example",
+      "scope": "Public intake example: pinned SIDE24 identity replay; eng/demo only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 147,
+        "pr_state": "open",
+        "head_oid": "d10c2fbf376d168752d70f30660966c07e041ec1",
+        "base_branch": "main",
+        "pr_ready": true
+      },
+      "claimed_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/147"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe @ d10c2fb; public intake example after #145; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
