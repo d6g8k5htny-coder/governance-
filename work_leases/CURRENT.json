@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:44:30Z",
-  "notes": "Compact ledger. Sci effect NONE. ULW #3 composition path concrete after #4 merge (5847578524); observe rebase. Updated 2026-09-26T15:44:30Z.",
+  "updated_at": "2026-09-26T15:46:15Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #70 ready-for-review @ b39e9ff (BYTE_COPY\u00d79). Main #134 tip \u2192 497ceff (firewall repair commit); CI in progress. Updated 2026-09-26T15:46:15Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3814,10 +3814,11 @@
         "pr_state": "open",
         "head_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
         "custody_verify": "BYTE_COPY_9_MATCH_5847534053",
-        "readme_conflict_pr": 46
+        "readme_conflict_pr": 46,
+        "pr_ready": true
       },
       "claimed_at": "2026-09-26T06:45:00Z",
-      "heartbeat_at": "2026-09-26T15:37:30Z",
+      "heartbeat_at": "2026-09-26T15:46:15Z",
       "expires_at": "2026-09-27T10:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3828,7 +3829,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ b39e9ff; OA BYTE_COPY\u00d79 verified (5847534053) vs main@ebedb78; README conflict with #46 \u2014 do not race README; custody\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED ready-for-review @ b39e9ff; CI GREEN; OA BYTE_COPY\u00d79 verified (5847534053); README conflict with #46 \u2014 do not race README; custody\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-tip-publish-nav-4a72a5a",
@@ -4001,14 +4002,14 @@
         "branch": "claude/firewalls-fail-closed",
         "pr": 134,
         "pr_state": "open",
-        "head_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
+        "head_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "prior_oid": "d4ab3618a07563e4c0da2703b0ab3856b1ff7fd2",
+        "prior_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
         "ci": "green_5",
         "author_status": "waiting_on_reviewers"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T15:05:00Z",
+      "heartbeat_at": "2026-09-26T15:46:15Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4024,10 +4025,11 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36247967749",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36247970214",
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847295528",
-        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100"
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100",
+        "https://github.com/d6g8k5htny-coder/main/commit/497ceffb10ff4f44cc1880d58c26396b870636e9"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 1db16d1; CHANGES REQUESTED (5847305100) P1\u00d72+P2\u00d72; peer repair ACTIVE; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 497ceff (firewall repair after CHANGES REQUESTED 5847305100); verify IN_PROGRESS; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-137-landing-license-citation",
@@ -4137,20 +4139,22 @@
         "pr": 134,
         "pr_state": "open",
         "subject_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
-        "finding_comment": "5847305100"
+        "finding_comment": "5847305100",
+        "repair_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9"
       },
       "claimed_at": "2026-09-26T15:05:00Z",
-      "heartbeat_at": "2026-09-26T15:05:00Z",
+      "heartbeat_at": "2026-09-26T15:46:15Z",
       "expires_at": "2026-09-27T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100"
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100",
+        "https://github.com/d6g8k5htny-coder/main/commit/497ceffb10ff4f44cc1880d58c26396b870636e9"
       ],
       "delegates_to": "main-134-claim-graph-firewall",
-      "blocked_reason": "ACTIVE peer preparing repair after 5847305100; this App does not race; sci effect NONE"
+      "blocked_reason": "ACTIVE peer repair published @ 497ceff; await CI + re-review; do not race; sci effect NONE"
     },
     {
       "work_id": "main-135-interval-errata-amend",
