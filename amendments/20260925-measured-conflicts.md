@@ -107,7 +107,7 @@
 | main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `43b3ced…` **BEHIND**; peer **AMEND** ([5850534745](https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5850534745)) F2 intensity + C031 dual-hash + unlink #116; repair **OFFERED**; eng≠theorem |
 | main [#162](https://github.com/d6g8k5htny-coder/main/pull/162) | **MERGED** `64edf72…` public source storefront / notebook quickstart; eng — **main tip** |
 | main [#164](https://github.com/d6g8k5htny-coder/main/pull/164) | **MERGED** `b4cc529…` H5 inputs + loader review; eng — **main tip** |
-| main [#163](https://github.com/d6g8k5htny-coder/main/pull/163) | tip `45f610f…` (+GV spectrum / B4-C5); peer **AMEND** ([5850519011](https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011)) RESULT.md+IDENTITY.json still absent; `public-intake` **FAIL**; repair **OFFERED**; eng≠theorem |
+| main [#163](https://github.com/d6g8k5htny-coder/main/pull/163) | tip `75c0175…` (+D5 replay/type); peer **AMEND** ([5850519011](https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011)) RESULT.md+IDENTITY.json still absent; repair **OFFERED**; eng≠theorem |
 | Math- [#84](https://github.com/d6g8k5htny-coder/Math-/pull/84) | **MERGED** `bebe09d…` H5 ledger inputs + rim exponent disclose; eng |
 | Math- [#85](https://github.com/d6g8k5htny-coder/Math-/pull/85) | **MERGED** `5ed3b45…` custody erratum + pairing/P15 note; eng — **Math- tip** |
 | Math- [#86](https://github.com/d6g8k5htny-coder/Math-/pull/86) | tip `0e248ad…` **CI GREEN×2**; peer **ACCEPT**-at-stated-scope ([5850648931](https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5850648931)) nonblocking pins/assert/rimprobe notes; update-branch + expected-head merge **OFFERED**; merge≠theorem |
