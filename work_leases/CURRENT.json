@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T04:43:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #60 M1–M5 ACCEPT_TECHNICAL (5843245862); next obligation conditioned det h^2 estimate. Updated 2026-09-26T04:43:30Z.",
+  "updated_at": "2026-09-26T06:45:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Observe Math- #70 hardening-commit proof import. Hot tips unchanged otherwise. Updated 2026-09-26T06:45:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2626,7 +2626,7 @@
         "control_blob": "7f41ea3a0b0301e0ecdb72de86d00b4d8d9da291"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T04:20:00Z",
+      "heartbeat_at": "2026-09-26T06:45:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3018,7 +3018,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:25:00Z",
-      "heartbeat_at": "2026-09-26T04:20:00Z",
+      "heartbeat_at": "2026-09-26T06:45:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3212,7 +3212,7 @@
         "note_sha256": "0351da0680e81c2b001338ede50770b9e00fa5cb09aab438940a9b81d56fd866"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T04:43:30Z",
+      "heartbeat_at": "2026-09-26T06:45:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3493,7 +3493,7 @@
         "accept_comment": "5842142605"
       },
       "claimed_at": "2026-09-26T01:54:30Z",
-      "heartbeat_at": "2026-09-26T04:20:00Z",
+      "heartbeat_at": "2026-09-26T06:45:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3679,7 +3679,7 @@
         "subject_review": "5842415333"
       },
       "claimed_at": "2026-09-26T02:36:00Z",
-      "heartbeat_at": "2026-09-26T04:20:00Z",
+      "heartbeat_at": "2026-09-26T06:45:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3707,7 +3707,7 @@
         "head_oid": "2992819828dfe8a23e682816a8c10eab5861f94d"
       },
       "claimed_at": "2026-09-26T02:47:00Z",
-      "heartbeat_at": "2026-09-26T04:20:00Z",
+      "heartbeat_at": "2026-09-26T06:45:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3762,7 +3762,7 @@
         "accept_comment": "5843245862"
       },
       "claimed_at": "2026-09-26T04:43:30Z",
-      "heartbeat_at": "2026-09-26T04:43:30Z",
+      "heartbeat_at": "2026-09-26T06:45:00Z",
       "expires_at": "2026-09-27T08:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3774,6 +3774,34 @@
       ],
       "delegates_to": "math-60-pin-microdisk-anisotropic",
       "blocked_reason": "OFFERED successor math obligation; do not conflate with #60 merge; sci effect NONE"
+    },
+    {
+      "work_id": "math-70-hardening-proof-import",
+      "scope": "Import hardening-commit proofs into default-branch custody; custody/nav only expected; sci effect NONE",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/proof-custody-repair-8e33",
+        "pr": 70,
+        "pr_state": "open",
+        "head_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7"
+      },
+      "claimed_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "expires_at": "2026-09-27T10:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/70"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe; do not race; custody≠theorem; sci effect NONE"
     }
   ]
 }

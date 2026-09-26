@@ -59,6 +59,7 @@
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | `2992819…` V3.4/arithmetic_ledger custody; **CI GREEN**; **author merge OFFERED**; no re-ratification |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume @ hardening `2f7a5a9` (bc-01a0cf1e…); IDLE@0019; **observe**; no lemma_closed/claim promotion |
+| Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | Hardening-commit proof import into default-branch custody; **observe**; custody≠theorem |
 | Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60) | `ad27c6b…` M1–M5 **ACCEPT_TECHNICAL** (5843245862); det-h² estimate **OFFERED**; zero org-independence |
 | Math- [#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)/[#65](https://github.com/d6g8k5htny-coder/Math-/pull/65)/[#67](https://github.com/d6g8k5htny-coder/Math-/pull/67)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | New DRAFTs; **observe only**; do not race |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
