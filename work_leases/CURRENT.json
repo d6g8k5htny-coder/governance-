@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T02:16:30Z",
-  "notes": "Compact ledger. Sci effect NONE. #122 @ 6a7f1f6 CI GREEN; OA A1/A6 re-review still ACTIVE (5842239403). Hardening 2f7a5a9. Path C Batch 387 observe. Updated 2026-09-26T02:16:30Z.",
+  "updated_at": "2026-09-26T02:18:30Z",
+  "notes": "Compact ledger. Sci effect NONE. #122 A1/A6 AMEND/AMEND (5842304441) @ 6a7f1f6; review cc18155; OA ACTIVE author amendment (strict gradient margin). Filed amendments/20260926-main122-a1a6-amend.md. Updated 2026-09-26T02:18:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2626,7 +2626,7 @@
         "control_blob": "2892248934bc0ac9ba3463faa51917b6b9e085ac"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T02:16:30Z",
+      "heartbeat_at": "2026-09-26T02:18:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2648,10 +2648,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36209829911",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842136756",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842239403",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36209829687"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36209829687",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842304441",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main122-a1a6-amend.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 6a7f1f6; hosted verify SUCCESS (post base-sync); OA ACTIVE A1/A6 re-review (5842239403) — await verdict; eng≠theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ 6a7f1f6; CI GREEN; A1/A6 AMEND/AMEND (5842304441); OA ACTIVE author amendment — strict gradient-margin + equality-boundary control; preserve §§4–6; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-52-d2-cumulative-confirm",
@@ -3100,22 +3102,28 @@
         "head_oid": "6a7f1f6cfb49703b7b758343d65b3b65abe6b11b",
         "prior_review_oid": "d49be07074bd0696cc034757379771eae3c852de",
         "amend_comment": "5841682597",
-        "repair_oid": "b36222248e6909a2cae19639dbd2896818444e00"
+        "repair_oid": "b36222248e6909a2cae19639dbd2896818444e00",
+        "review_oid": "cc18155abf912d3b8f25ac133ea42bb327287709",
+        "review_blob": "e075929cfcb5e6d10b9f63b2a47c5b2612f85413",
+        "review_sha256": "b56f50ded406d5359c0990cf3aac2669c45917c4b351b4557c3693d9118b2273"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T02:16:30Z",
+      "heartbeat_at": "2026-09-26T02:18:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5841903639",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5841682597",
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842239403"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842239403",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842304441",
+        "https://github.com/d6g8k5htny-coder/main/blob/cc18155abf912d3b8f25ac133ea42bb327287709/reviews/sard_g_a1_a6_20260926/REVIEW.md",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main122-a1a6-amend.md"
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
-      "blocked_reason": "ACTIVE OA A1/A6-only re-review (5842239403) @ 6a7f1f6 / proof blob a0e9f7d…; A2–A5 not extended; no C103/full-Gaussian promotion; zero org-independence; verdict pending publish; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: A1/A6 AMEND/AMEND (5842304441) — non-strict gradient bound admits equality; torus counterexample; review @ cc18155; zero org-independence; author amendment ACTIVE separately"
     },
     {
       "work_id": "main-122-rebase-onto-ebedb78",
@@ -3542,6 +3550,35 @@
       ],
       "delegates_to": "math-54-proof-availability-audit",
       "blocked_reason": "RELEASED/MERGED exact 965011d → 061d488"
+    },
+    {
+      "work_id": "main-122-a1a6-strict-gradient-amend",
+      "scope": "Author amendment: strict gradient-margin wording + equality-boundary control; preserve §§4–6/source map/dispositions",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 122,
+        "pr_state": "open",
+        "head_oid": "6a7f1f6cfb49703b7b758343d65b3b65abe6b11b",
+        "subject_review": "5842304441",
+        "review_oid": "cc18155abf912d3b8f25ac133ea42bb327287709"
+      },
+      "claimed_at": "2026-09-26T02:18:30Z",
+      "heartbeat_at": "2026-09-26T02:18:30Z",
+      "expires_at": "2026-09-27T06:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842304441"
+      ],
+      "delegates_to": "main-122-sard-g-execution-repair",
+      "blocked_reason": "ACTIVE OA author amendment on #122 branch; await successor tip; then fresh nonauthor A1/A6 re-check OFFERED; this App does not race"
     }
   ]
 }

@@ -54,7 +54,7 @@
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` OA integration-scope **ACCEPT** (5842142605); exact-byte MATCH; **author merge OFFERED**; merge ≠ theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | **PREMIS-Z-LOWER BLOCKED** (5842152602); #124 C1/C2 honesty re-review OFFERED; cubic corollary blocked; eng≠theorem |
-| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `6a7f1f6…` **CI GREEN**; **OA ACTIVE** A1/A6 re-review (5842239403); verdict pending |
+| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `6a7f1f6…` A1/A6 **AMEND/AMEND** (5842304441); **OA ACTIVE** strict-gradient amendment; review `cc18155` |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume @ hardening `2f7a5a9` (bc-01a0cf1e…); IDLE@0019; **observe**; no lemma_closed/claim promotion |
 | Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)/[#65](https://github.com/d6g8k5htny-coder/Math-/pull/65)/[#67](https://github.com/d6g8k5htny-coder/Math-/pull/67)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | New DRAFTs; **observe only**; do not race |
