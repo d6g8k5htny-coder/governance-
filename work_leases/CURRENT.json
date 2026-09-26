@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T02:36:00Z",
-  "notes": "Compact ledger. Sci effect NONE. #122 @ a1fc958 successor A1 AMEND / A6 AMEND (5842415333); review e8ec7af; chart-geometry clarification still needed. Updated 2026-09-26T02:36:00Z.",
+  "updated_at": "2026-09-26T02:38:00Z",
+  "notes": "Compact ledger. Sci effect NONE. #122 A1/A6 AMEND corroborated (5842427417) with independent reproduction; chart-geometry clarify still OFFERED. Updated 2026-09-26T02:38:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2626,7 +2626,7 @@
         "control_blob": "7f41ea3a0b0301e0ecdb72de86d00b4d8d9da291"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T02:36:00Z",
+      "heartbeat_at": "2026-09-26T02:38:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2655,7 +2655,8 @@
         "https://github.com/d6g8k5htny-coder/main/commit/a1fc9581291b6f81c76c903c96a13955b51f8d54",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842403153",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842415333",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main122-a1a6-successor-amend.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main122-a1a6-successor-amend.md",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842427417"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE DRAFT @ a1fc958; successor A1/A6 AMEND/AMEND (5842415333); await author chart-geometry clarification; then fresh re-check; eng≠theorem; sci effect NONE"
@@ -3602,10 +3603,11 @@
         "proof_blob": "8f86e0c9ef91fde473e2344a3e461c31f63f8529",
         "prior_amend_comment": "5842304441",
         "drive_claim": "CLAIM-OA-SARDG-A1A6-202609260232",
-        "review_oid": "e8ec7afcf3933d2fe2f6cb7306b8ff05ed518b81"
+        "review_oid": "e8ec7afcf3933d2fe2f6cb7306b8ff05ed518b81",
+        "review_sha256": "894d27c0de6dd4312ea5109ac2480a68cb1b5ded0b4a60749d4edee2288fb537"
       },
       "claimed_at": "2026-09-26T02:19:30Z",
-      "heartbeat_at": "2026-09-26T02:36:00Z",
+      "heartbeat_at": "2026-09-26T02:38:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -3617,10 +3619,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842403153",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842415333",
         "https://github.com/d6g8k5htny-coder/main/blob/e8ec7afcf3933d2fe2f6cb7306b8ff05ed518b81/reviews/sard_g_successor_a1_a6_20260926/REVIEW.md",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main122-a1a6-successor-amend.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main122-a1a6-successor-amend.md",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842427417"
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
-      "blocked_reason": "RELEASED: successor A1 AMEND / A6 AMEND (5842415333) @ a1fc958; strict-gradient sound; chart relative-interior/tube geometry still needed; review e8ec7af; zero org-independence; author clarification OFFERED"
+      "blocked_reason": "RELEASED: A1 AMEND / A6 AMEND corroborated (5842415333 + 5842427417) @ a1fc958; U_chi not open under closed-section convention; relative-interior/tube repair OFFERED; zero org-independence"
     },
     {
       "work_id": "main-126-v34-archive-custody",
@@ -3667,14 +3670,15 @@
         "subject_review": "5842415333"
       },
       "claimed_at": "2026-09-26T02:36:00Z",
-      "heartbeat_at": "2026-09-26T02:36:00Z",
+      "heartbeat_at": "2026-09-26T02:38:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842415333"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842415333",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842427417"
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
       "blocked_reason": "OFFERED author-lane chart-geometry clarification; this App cannot push main; sci effect NONE"

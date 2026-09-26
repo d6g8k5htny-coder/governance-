@@ -26,3 +26,7 @@
 
 - Author clarification of chart-membership geometry still required before A1/A6 can clear.
 - Do not promote C103 corollary from this surface while A1/A6 remain AMEND.
+
+## Corroboration (5842427417)
+
+Exact-source reconciliation independently reproduced the same verdict on tip `a1fc958` / proof blob `8f86e0c9…`, and reconciled report blob `9fc61b47…` (25,057 B; SHA-256 `894d27c0de6dd4312ea5109ac2480a68cb1b5ded0b4a60749d4edee2288fb537`). Analytic translation counterexample `F_ε` shows written `U_χ` is not open; bounded repair = relative-interior hits + no earlier closed-section contact + compact arcs in open tube. Control blob `7f41ea3a…` independently byte-checked green.
