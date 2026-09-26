@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:53:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main #134 @ 497ceff: all four CHANGES REQUESTED findings fixed (5847639970); await CI green + re-review. Updated 2026-09-26T15:53:30Z.",
+  "updated_at": "2026-09-26T15:56:15Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 70664bd (#139 custody path MERGED). #134 @ 497ceff repair confirmed (5847639970); verify CI still in progress; re-review OFFERED. ULW #3 @ 03cd88c CONFLICTING vs f832ea1; verify SUCCESS. Updated 2026-09-26T15:56:15Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2628,7 +2628,7 @@
         "control_blob": "7f41ea3a0b0301e0ecdb72de86d00b4d8d9da291"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T13:17:30Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3020,7 +3020,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:25:00Z",
-      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3214,7 +3214,7 @@
         "note_sha256": "0351da0680e81c2b001338ede50770b9e00fa5cb09aab438940a9b81d56fd866"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3505,7 +3505,7 @@
         "accept_comment": "5842142605"
       },
       "claimed_at": "2026-09-26T01:54:30Z",
-      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3697,7 +3697,7 @@
         "claim_comment": "5846575968"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-26T13:31:00Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3818,7 +3818,7 @@
         "pr_ready": true
       },
       "claimed_at": "2026-09-26T06:45:00Z",
-      "heartbeat_at": "2026-09-26T15:46:15Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T10:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3966,7 +3966,7 @@
         "ci": "green_5"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T15:05:00Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -4005,12 +4005,12 @@
         "head_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "prior_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
-        "ci": "green_5",
+        "ci": "verify_in_progress_497ceff",
         "author_status": "waiting_on_reviewers",
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T15:53:30Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4028,10 +4028,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847295528",
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100",
         "https://github.com/d6g8k5htny-coder/main/commit/497ceffb10ff4f44cc1880d58c26396b870636e9",
-        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847639970"
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847639970",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36253041802",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36253037284"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 497ceff; author confirms P1\u00d72+P2\u00d72 fixed (5847639970); await CI + peer re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 497ceff; author confirms P1\u00d72+P2\u00d72 fixed (5847639970); verify CI still in progress (runs 36253041802/36253037284); await green + peer re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-137-landing-license-citation",
@@ -4176,7 +4178,7 @@
         "finding_comment": "5847304236"
       },
       "claimed_at": "2026-09-26T15:05:00Z",
-      "heartbeat_at": "2026-09-26T15:05:00Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T20:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -4277,10 +4279,12 @@
         "pr_state": "open",
         "head_oid": "03cd88c1792fa797357b8cd4558dbff44c1274da",
         "composition_base": "f832ea1c636aadba1994942779cc7ded2806de14",
-        "prior_oid": "2d65202d064e26f0c3848e64b979b890efbd68cd"
+        "prior_oid": "2d65202d064e26f0c3848e64b979b890efbd68cd",
+        "mergeable": "CONFLICTING",
+        "ci": "verify_SUCCESS"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-26T15:52:30Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-27T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4291,10 +4295,11 @@
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2#issuecomment-5847423896",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5847506343",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5847578524",
-        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/03cd88c1792fa797357b8cd4558dbff44c1274da"
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/03cd88c1792fa797357b8cd4558dbff44c1274da",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/actions/runs/36253424199"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 03cd88c; CI in progress; composition after #4; owner decides; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 03cd88c; verify SUCCESS; CONFLICTING vs main f832ea1 after #4; await owner rebase/compose; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-2-authority-boundary-repair",
@@ -4350,7 +4355,7 @@
         "prior_main_tip": "99f8c2b7db3c530bf554ff90fdef89cd57fc29d8"
       },
       "claimed_at": "2026-09-26T15:21:23Z",
-      "heartbeat_at": "2026-09-26T15:31:15Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -4361,7 +4366,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/b120e705654a773ac4ba04c324e5f85087e61ab4"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED \u2192 main tip b120e70; nav/meta only; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED \u2192 main tip b120e70; successor #139 \u2192 70664bd; nav/meta only; sci effect NONE"
     },
     {
       "work_id": "main-136-float-labelling-enforcement",
@@ -4380,7 +4385,7 @@
         "base_branch": "chatgpt/drive-github-hardening-20260919"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T15:31:15Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4444,7 +4449,7 @@
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T15:53:30Z",
-      "heartbeat_at": "2026-09-26T15:53:30Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4456,6 +4461,37 @@
       ],
       "delegates_to": "main-134-claim-graph-firewall",
       "blocked_reason": "OFFERED peer re-review after repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-139-pinned-public-source-custody",
+      "scope": "Expose pinned public-source custody path; nav/custody visibility only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 139,
+        "pr_state": "merged",
+        "head_oid": "c86c5a3047b81f860252f91ff78c15b0d58fde59",
+        "merge_oid": "70664bd66f7778c356665b26222df0a61314c813",
+        "prior_main_tip": "b120e705654a773ac4ba04c324e5f85087e61ab4"
+      },
+      "claimed_at": "2026-09-26T15:40:56Z",
+      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/139",
+        "https://github.com/d6g8k5htny-coder/main/commit/70664bd66f7778c356665b26222df0a61314c813",
+        "https://github.com/d6g8k5htny-coder/main/commit/c86c5a3047b81f860252f91ff78c15b0d58fde59"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED/MERGED \u2192 main tip 70664bd; nav/custody path only; sci effect NONE"
     }
   ]
 }
