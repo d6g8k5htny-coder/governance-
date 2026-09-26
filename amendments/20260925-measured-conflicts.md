@@ -59,7 +59,8 @@
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | `2992819…` V3.4/arithmetic_ledger custody; **CI GREEN**; **author merge OFFERED**; no re-ratification |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume @ hardening `2f7a5a9` (bc-01a0cf1e…); IDLE@0019; **observe**; no lemma_closed/claim promotion |
-| Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)/[#65](https://github.com/d6g8k5htny-coder/Math-/pull/65)/[#67](https://github.com/d6g8k5htny-coder/Math-/pull/67)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | New DRAFTs; **observe only**; do not race |
+| Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60) | `ad27c6b…`; **OA ACTIVE** M1–M5 review (5843233986); zero org-independence |
+| Math- [#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)/[#65](https://github.com/d6g8k5htny-coder/Math-/pull/65)/[#67](https://github.com/d6g8k5htny-coder/Math-/pull/67)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | New DRAFTs; **observe only**; do not race |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
