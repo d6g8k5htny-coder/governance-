@@ -28,6 +28,7 @@
 | SIDE24 theorem-chain source custody (no re-ratification; sci effect NONE) | main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) @ `d486dd1…` → merge `2f7a5a9…` |
 | Public math catalog / SIDE24 hub links / SARD-G review publish / executable checkout (nav only; A1/A6 remain AMEND; sci effect NONE) | main [#127](https://github.com/d6g8k5htny-coder/main/pull/127)+[#130](https://github.com/d6g8k5htny-coder/main/pull/130)+[#131](https://github.com/d6g8k5htny-coder/main/pull/131)+[#132](https://github.com/d6g8k5htny-coder/main/pull/132)+[#133](https://github.com/d6g8k5htny-coder/main/pull/133) → prior `main` tip `4a72a5a…` |
 | Public landing rebuild + LICENSE/CITATION/templates on default branch (nav/meta only; sci effect NONE) | main [#137](https://github.com/d6g8k5htny-coder/main/pull/137) @ `cd92675…` → `main` tip `99f8c2b…` |
+| Federation workspace bootstrap (authority false; residual AMEND BLOCKING on top-level fail-open; sci effect NONE) | ULW [#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2) @ `79e4b39…` → merge `803a59c…`; successor repair OFFERED |
 | V3.4 archive + arithmetic_ledgers custody (no re-ratification; sci effect NONE) | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) @ `2992819…` → hardening merge `cd66a655…` (base `chatgpt/drive-github-hardening-20260919` @ `2f7a5a9…`; not into `main`) |
 | P15 full-price support-scope dependency (metadata; sci effect NONE) | Math- [#66](https://github.com/d6g8k5htny-coder/Math-/pull/66) @ `423d4d9…` → merge `10e1f19…`; HOLD_WITH_DOMAIN parent |
 | Proof availability / PROOF_INDEX nav (custody only; sci effect NONE) | Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) @ `965011d…` → merge `061d488…`; CONTACT SOURCE NOT FOUND retained |
@@ -55,7 +56,7 @@
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
 | Math- [#55](https://github.com/d6g8k5htny-coder/Math-/pull/55) | Pin-neighborhood review; **observe** |
 | Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | `718029c…` OA **MATCH**; **author merge OFFERED** (5841915560); then issue56 BLOCKED_ABSENT |
-| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
+| main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | **CLOSED UNMERGED** NEVER-MAIN tip-observe ([5847478200](https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5847478200)); Section3–5 ACCEPT notes retained on governance-; OBL-H5-JETMOD remains OPEN; sci effect NONE |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` OA integration-scope **ACCEPT** (5842142605); exact-byte MATCH; **author merge OFFERED**; merge ≠ theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | **PREMIS-Z-LOWER BLOCKED** (5842152602); #124 C1/C2 honesty re-review OFFERED; cubic corollary blocked; eng≠theorem |

@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:24:00Z",
-  "notes": "Compact ledger. Sci effect NONE. ULW #2 MERGED \u2192 main tip 803a59c despite peer AMEND BLOCKING (top-level fail-open residual; corroborated post-merge). Successor repair OFFERED. Observe #3. Updated 2026-09-26T15:24:00Z.",
+  "updated_at": "2026-09-26T15:29:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main #112 CLOSED UNMERGED NEVER-MAIN (5847478200). ULW #2 MERGED 803a59c with residual AMEND. Updated 2026-09-26T15:29:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -761,7 +761,7 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "cursor/tip-observe-fcad7236-c5d9",
         "pr": 112,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
@@ -2029,7 +2029,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 112,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": null,
         "parent_sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
         "parent_bytes": 40261,
@@ -2126,7 +2126,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 112,
-        "pr_state": "open",
+        "pr_state": "closed",
         "parent_sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
         "parent_bytes": 40261
       },
@@ -2230,7 +2230,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 112,
-        "pr_state": "open",
+        "pr_state": "closed",
         "parent_sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
         "parent_bytes": 40261,
         "drive_id": "1foDgiDi4XIKOfbrZEE8dWKV_BkZU8LIb"
