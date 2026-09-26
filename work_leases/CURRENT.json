@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T06:46:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Observe Math- #70 @ b39e9ff (CI green). Released expired ACTIVE leases (gov-3/#110/#18/#112/#111). Updated 2026-09-26T06:46:00Z.",
+  "updated_at": "2026-09-26T09:35:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip advanced 2f7a5a9\u21924a72a5a via publish/nav #127/#130\u2013#133 (A1/A6 remain AMEND; no theorem flip). Path C Batch 387 tip-drift noted. Observe #129; Math- #64 ACCEPT_ERRATUM; #71 peer re-review of main #124. Hot waits unchanged: #122 chart-geometry; #124 honesty; #126/#49/#59 merges; #60 det-h\u00b2; #70/#128 observe. Updated 2026-09-26T09:35:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -181,7 +181,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/14#issuecomment-5838544578"
       ],
       "delegates_to": "math-9-mesoscopic-chart-j0",
-      "blocked_reason": "PR closed SUPERSEDED/BLOCKED INPUT — mapped known-bad #9 fingerprints"
+      "blocked_reason": "PR closed SUPERSEDED/BLOCKED INPUT \u2014 mapped known-bad #9 fingerprints"
     },
     {
       "work_id": "math-15-transition-integrity",
@@ -255,7 +255,7 @@
     },
     {
       "work_id": "lane-d1-offer",
-      "scope": "D1 inventable / dependency work — unclaimed offer",
+      "scope": "D1 inventable / dependency work \u2014 unclaimed offer",
       "owner": {
         "provider": null,
         "model": null,
@@ -281,7 +281,7 @@
     },
     {
       "work_id": "lane-d2-offer",
-      "scope": "D2 inventable / dependency work — unclaimed offer",
+      "scope": "D2 inventable / dependency work \u2014 unclaimed offer",
       "owner": {
         "provider": null,
         "model": null,
@@ -307,7 +307,7 @@
     },
     {
       "work_id": "lane-d3-offer",
-      "scope": "D3 inventable / dependency work — unclaimed offer",
+      "scope": "D3 inventable / dependency work \u2014 unclaimed offer",
       "owner": {
         "provider": null,
         "model": null,
@@ -333,7 +333,7 @@
     },
     {
       "work_id": "lane-d4-offer",
-      "scope": "D4 inventable / dependency work — unclaimed offer",
+      "scope": "D4 inventable / dependency work \u2014 unclaimed offer",
       "owner": {
         "provider": null,
         "model": null,
@@ -359,7 +359,7 @@
     },
     {
       "work_id": "lane-d6-offer",
-      "scope": "D6 inventable / dependency work — unclaimed offer",
+      "scope": "D6 inventable / dependency work \u2014 unclaimed offer",
       "owner": {
         "provider": null,
         "model": null,
@@ -449,7 +449,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-review-topology-rereview.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED REVIEW_TOPOLOGY @ 6da327b; P1–P5 ACCEPT; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED REVIEW_TOPOLOGY @ 6da327b; P1\u2013P5 ACCEPT; sci effect NONE"
     },
     {
       "work_id": "main-108-tip-observe",
@@ -577,7 +577,7 @@
     },
     {
       "work_id": "math-16-openai-review-package",
-      "scope": "Review package + TRANSVERSE_BOUND_CANDIDATE.md awaiting distinct reviewer (R1–R5); tip 32b80ee",
+      "scope": "Review package + TRANSVERSE_BOUND_CANDIDATE.md awaiting distinct reviewer (R1\u2013R5); tip 32b80ee",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -607,7 +607,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5841312565"
       ],
       "delegates_to": null,
-      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1–R5 via #26; stronger #22/#28 merged"
+      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1\u2013R5 via #26; stronger #22/#28 merged"
     },
     {
       "work_id": "math-17-pin-compatibility-review",
@@ -677,11 +677,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/19#issuecomment-5839294562"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED PR @ e93eade (merge f11e4c7); Cursor R1–R6 ACCEPT on governance-; sci effect NONE — package landed, not theorem acceptance"
+      "blocked_reason": "RELEASED/MERGED PR @ e93eade (merge f11e4c7); Cursor R1\u2013R6 ACCEPT on governance-; sci effect NONE \u2014 package landed, not theorem acceptance"
     },
     {
       "work_id": "math-16-transverse-review-offer",
-      "scope": "Distinct-lane review of TRANSVERSE_BOUND_CANDIDATE.md at 32b80ee (R1–R5); do not edit then approve",
+      "scope": "Distinct-lane review of TRANSVERSE_BOUND_CANDIDATE.md at 32b80ee (R1\u2013R5); do not edit then approve",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -709,7 +709,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5841312565"
       ],
       "delegates_to": null,
-      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1–R5 via #26; stronger #22/#28 merged"
+      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1\u2013R5 via #26; stronger #22/#28 merged"
     },
     {
       "work_id": "math-18-p15-smt-pilot",
@@ -779,11 +779,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: expired ACTIVE tip-observe; Section3–5 ACCEPT recorded; Sections6+ outside"
+      "blocked_reason": "RELEASED: expired ACTIVE tip-observe; Section3\u20135 ACCEPT recorded; Sections6+ outside"
     },
     {
       "work_id": "main-111-rn-unif-walkdown-scope",
-      "scope": "RN-UNIF walk-down over-claim scope fixes (ledger §2); flags unchanged; eng≠discharge",
+      "scope": "RN-UNIF walk-down over-claim scope fixes (ledger \u00a72); flags unchanged; eng\u2260discharge",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -814,8 +814,8 @@
         "https://github.com/d6g8k5htny-coder/main/pull/111"
       ],
       "delegates_to": "main-112-tip-observe-e3cd7d4",
-      "lanes_note": "PACKET.json overlap with #112 — serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
-      "blocked_reason": "RELEASED: expired ACTIVE; verify green; eng≠discharge; flags unchanged"
+      "lanes_note": "PACKET.json overlap with #112 \u2014 serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
+      "blocked_reason": "RELEASED: expired ACTIVE; verify green; eng\u2260discharge; flags unchanged"
     },
     {
       "work_id": "math-20-chart-j0-gate-map",
@@ -892,7 +892,7 @@
     },
     {
       "work_id": "math-15-eng-review-cursor",
-      "scope": "Outside eng integrity review of Math- #15 @ 8c4c946 (V1–V5); Cursor lane",
+      "scope": "Outside eng integrity review of Math- #15 @ 8c4c946 (V1\u2013V5); Cursor lane",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -922,7 +922,7 @@
     },
     {
       "work_id": "math-16-transverse-analytic-review",
-      "scope": "Outside analytic review R1–R5 of TRANSVERSE_BOUND_CANDIDATE.md @ 32b80ee; no edit",
+      "scope": "Outside analytic review R1\u2013R5 of TRANSVERSE_BOUND_CANDIDATE.md @ 32b80ee; no edit",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -949,11 +949,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5841312565"
       ],
       "delegates_to": null,
-      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1–R5 via #26; stronger #22/#28 merged"
+      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1\u2013R5 via #26; stronger #22/#28 merged"
     },
     {
       "work_id": "math-19-finite-r-math-review",
-      "scope": "Outside math review R1–R6 / M1-M7/S1-S4 of finite-r Hermite repair @ e93eade (C6 follow-through); bind this head not ee8629f; no edit then approve",
+      "scope": "Outside math review R1\u2013R6 / M1-M7/S1-S4 of finite-r Hermite repair @ e93eade (C6 follow-through); bind this head not ee8629f; no edit then approve",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -984,7 +984,7 @@
     },
     {
       "work_id": "math-18-smt-translation-review",
-      "scope": "Outside formal-translation review of #18 @ 0ae7e8f vs parent PROOF blob 582180e4…",
+      "scope": "Outside formal-translation review of #18 @ 0ae7e8f vs parent PROOF blob 582180e4\u2026",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1011,11 +1011,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math18-translation-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED MATCH×7 @ 0ae7e8f on governance-; peer bc-075f842d-5f23-484f-988c-96674fe5cb98 taking OA-assigned re-review (5840171283) — do not duplicate/race; tip unchanged"
+      "blocked_reason": "RELEASED MATCH\u00d77 @ 0ae7e8f on governance-; peer bc-075f842d-5f23-484f-988c-96674fe5cb98 taking OA-assigned re-review (5840171283) \u2014 do not duplicate/race; tip unchanged"
     },
     {
       "work_id": "math-7-d5-external-recon",
-      "scope": "D5 external-recon literature leads only (Gass–Stecconi / Beliaev–Cammarota–Wigman / Stecconi); subordinate to #9 pin repair; no theorem credit",
+      "scope": "D5 external-recon literature leads only (Gass\u2013Stecconi / Beliaev\u2013Cammarota\u2013Wigman / Stecconi); subordinate to #9 pin repair; no theorem credit",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -1073,7 +1073,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "Isolated branch from Math main; will not edit #9/#19 fingerprints/claim graph/Vault99",
-      "blocked_reason": "RELEASED/MERGED PR @ b420099 (merge c3cee9b); Cursor (2)–(8) ACCEPT on governance-; sci effect NONE — inner axial package landed, not RN closure"
+      "blocked_reason": "RELEASED/MERGED PR @ b420099 (merge c3cee9b); Cursor (2)\u2013(8) ACCEPT on governance-; sci effect NONE \u2014 inner axial package landed, not RN closure"
     },
     {
       "work_id": "math-22-thin-tube-density",
@@ -1106,11 +1106,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5839217023"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene \u2014 merge \u2260 Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-22-thin-tube-review-offer",
-      "scope": "Distinct nonauthor analytic review of Math- #22 PROOF.md R1–R8 @ 35eddbb; no edit then approve",
+      "scope": "Distinct nonauthor analytic review of Math- #22 PROOF.md R1\u2013R8 @ 35eddbb; no edit then approve",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1138,7 +1138,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math22-thin-tube-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene \u2014 merge \u2260 Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "trial-121-translation-review-cursor",
@@ -1169,11 +1169,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math18-translation-review.md"
       ],
       "delegates_to": "math-18-smt-translation-review",
-      "blocked_reason": "RELEASED: translation MATCH×7 filed on governance- amendments/20260925-math18-translation-review.md; App cannot comment Math-/main — mirror if needed; sci effect NONE; not theorem acceptance"
+      "blocked_reason": "RELEASED: translation MATCH\u00d77 filed on governance- amendments/20260925-math18-translation-review.md; App cannot comment Math-/main \u2014 mirror if needed; sci effect NONE; not theorem acceptance"
     },
     {
       "work_id": "math-21-axial-density-math-review",
-      "scope": "Outside math review of Math- #21 PROOF.md (2)–(8) @ b420099; no edit then approve",
+      "scope": "Outside math review of Math- #21 PROOF.md (2)\u2013(8) @ b420099; no edit then approve",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1199,7 +1199,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math21-axial-density-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: (2)–(8) ACCEPT filed before merge; merge ≠ theorem acceptance"
+      "blocked_reason": "RELEASED: (2)\u2013(8) ACCEPT filed before merge; merge \u2260 theorem acceptance"
     },
     {
       "work_id": "main-98-openai-f1-repair",
@@ -1234,11 +1234,11 @@
       ],
       "delegates_to": null,
       "lanes_note": "Isolated F1 patch package on trial; empty overlap with Cursor main #98 write_scope (architecture/scientific_state/ etc.). Do not silent-apply onto ebd7450.",
-      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED (584133…): F1 semantics ported to PR98; package preserved as evidence; eng≠#90 close"
+      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED (584133\u2026): F1 semantics ported to PR98; package preserved as evidence; eng\u2260#90 close"
     },
     {
       "work_id": "math-annulus-bridge-oa",
-      "scope": "OA-D5-ANNULUS-BRIDGE: additive candidate extending two-scale Y→conditional C3; S4 gain min(1,(r/|v|)^6) for all-height fixed-annulus O(r^3); not cutoff stitch",
+      "scope": "OA-D5-ANNULUS-BRIDGE: additive candidate extending two-scale Y\u2192conditional C3; S4 gain min(1,(r/|v|)^6) for all-height fixed-annulus O(r^3); not cutoff stitch",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -1269,7 +1269,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math28-annulus-bridge-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED PR @ dedc69e; Cursor R6 AMEND (AAL 7.1) still stands — merge ≠ citation repair / theorem accept; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ dedc69e; Cursor R6 AMEND (AAL 7.1) still stands \u2014 merge \u2260 citation repair / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-annulus-stitch-oa",
@@ -1303,7 +1303,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839799920"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene \u2014 merge \u2260 Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "main-98-openai-rereview",
@@ -1336,11 +1336,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840102914"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: OA re-review @ 6e3f774 AMEND_REQUIRED F2 source coverage (5840102914); F1/F3–F5 not invalidated; eng≠#90 close"
+      "blocked_reason": "RELEASED: OA re-review @ 6e3f774 AMEND_REQUIRED F2 source coverage (5840102914); F1/F3\u2013F5 not invalidated; eng\u2260#90 close"
     },
     {
       "work_id": "math-22-fixed-annulus-review",
-      "scope": "Outside review FIXED_ANNULUS_CANDIDATE R1–R8 @ 2804dc1; core ACCEPT unchanged",
+      "scope": "Outside review FIXED_ANNULUS_CANDIDATE R1\u2013R8 @ 2804dc1; core ACCEPT unchanged",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1367,11 +1367,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839790849"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene \u2014 merge \u2260 Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-22-twoscale-oa-s6s15-review",
-      "scope": "Same-provider OA technical review of TWO_SCALE_ADDENDUM S6–S15 @ b2e1652 blob 89cae3a…; not organizational independence",
+      "scope": "Same-provider OA technical review of TWO_SCALE_ADDENDUM S6\u2013S15 @ b2e1652 blob 89cae3a\u2026; not organizational independence",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -1398,11 +1398,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839845752"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene — merge ≠ Thm 7.1 retarget / theorem accept; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ 2804dc1; Cursor R6 AMEND on FIXED_ANNULUS still stands as review hygiene \u2014 merge \u2260 Thm 7.1 retarget / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-28-annulus-bridge-review",
-      "scope": "Outside review Math- #28 all-height annulus bridge R1–R7 @ dedc69e; focus (14)/(6)/(17)",
+      "scope": "Outside review Math- #28 all-height annulus bridge R1\u2013R7 @ dedc69e; focus (14)/(6)/(17)",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1428,11 +1428,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math28-annulus-bridge-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED PR @ dedc69e; Cursor R6 AMEND (AAL 7.1) still stands — merge ≠ citation repair / theorem accept; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED PR @ dedc69e; Cursor R6 AMEND (AAL 7.1) still stands \u2014 merge \u2260 citation repair / theorem accept; sci effect NONE"
     },
     {
       "work_id": "math-26-fixed-annulus-review-offer",
-      "scope": "Math- #26 nonauthor review PR (title: fixed-transverse R1–R5); OA comment also pointed FIXED_ANNULUS stitch here — verify assignee scope before racing; Cursor already ACCEPTed #16 R1–R5 on governance-",
+      "scope": "Math- #26 nonauthor review PR (title: fixed-transverse R1\u2013R5); OA comment also pointed FIXED_ANNULUS stitch here \u2014 verify assignee scope before racing; Cursor already ACCEPTed #16 R1\u2013R5 on governance-",
       "owner": {
         "provider": null,
         "model": null,
@@ -1457,11 +1457,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839823654"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED to assigned Math PR reviewer; Cursor already filed governance- amendments for FIXED_ANNULUS R6 AMEND and two-scale S ACCEPT — do not race assignee; App cannot comment Math-"
+      "blocked_reason": "OFFERED to assigned Math PR reviewer; Cursor already filed governance- amendments for FIXED_ANNULUS R6 AMEND and two-scale S ACCEPT \u2014 do not race assignee; App cannot comment Math-"
     },
     {
       "work_id": "math-27-twoscale-s16s21-review-offer",
-      "scope": "Math- #27 nonauthor replacement review of PR19+PR21 (title); OA comment also pointed TWO_SCALE S16–S21 — verify assignee scope; Cursor already ACCEPTed #19 R1–R6 and #21 (2)–(8) on governance-",
+      "scope": "Math- #27 nonauthor replacement review of PR19+PR21 (title); OA comment also pointed TWO_SCALE S16\u2013S21 \u2014 verify assignee scope; Cursor already ACCEPTed #19 R1\u2013R6 and #21 (2)\u2013(8) on governance-",
       "owner": {
         "provider": null,
         "model": null,
@@ -1486,11 +1486,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/22#issuecomment-5839820791"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED to assigned Math PR reviewer; Cursor already filed governance- amendments for FIXED_ANNULUS R6 AMEND and two-scale S ACCEPT — do not race assignee; App cannot comment Math-"
+      "blocked_reason": "OFFERED to assigned Math PR reviewer; Cursor already filed governance- amendments for FIXED_ANNULUS R6 AMEND and two-scale S ACCEPT \u2014 do not race assignee; App cannot comment Math-"
     },
     {
       "work_id": "main-98-f1-port-onto-tip",
-      "scope": "Port peer-ACCEPT OA F1 semantics onto Cursor tip ebd7450 without dropping F2–F5; new exact head for OA re-review",
+      "scope": "Port peer-ACCEPT OA F1 semantics onto Cursor tip ebd7450 without dropping F2\u2013F5; new exact head for OA re-review",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1522,7 +1522,7 @@
     },
     {
       "work_id": "main-98-f2-source-coverage-repair",
-      "scope": "OA AMEND repair @ 6e3f774: (1) authority-owner seeds before reverse closure / rerun reverse; (2) malformed historical schema fail-closed ≠ absent; (3) validate source_bindings.repo + no silent local bind; (4) unresolved_prose controlling fail-closed; CLI negative controls for all",
+      "scope": "OA AMEND repair @ 6e3f774: (1) authority-owner seeds before reverse closure / rerun reverse; (2) malformed historical schema fail-closed \u2260 absent; (3) validate source_bindings.repo + no silent local bind; (4) unresolved_prose controlling fail-closed; CLI negative controls for all",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1557,11 +1557,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840247240"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "RELEASED peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 A–D @ 7e219c3 (5840247240); residual risk: OA 5840226963 subobject binding precision not explicitly addressed in that post"
+      "blocked_reason": "RELEASED peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 A\u2013D @ 7e219c3 (5840247240); residual risk: OA 5840226963 subobject binding precision not explicitly addressed in that post"
     },
     {
       "work_id": "trial-131-pr98-combined-rereview",
-      "scope": "OA combined F1–F5 re-review harness/evidence for main #98 tip 6e3f774",
+      "scope": "OA combined F1\u2013F5 re-review harness/evidence for main #98 tip 6e3f774",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -1630,7 +1630,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5840296378"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE peer bc-075f842d-5f23-484f-988c-96674fe5cb98 redirected to D6 analytic (5841253934); governance- already filed AMEND F10 / slices 1,3–6 ACCEPT — peer may confirm or diverge; this App does not race a second write"
+      "blocked_reason": "ACTIVE peer bc-075f842d-5f23-484f-988c-96674fe5cb98 redirected to D6 analytic (5841253934); governance- already filed AMEND F10 / slices 1,3\u20136 ACCEPT \u2014 peer may confirm or diverge; this App does not race a second write"
     },
     {
       "work_id": "main-98-openai-rereview-47ad537",
@@ -1661,11 +1661,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840124179"
       ],
       "delegates_to": null,
-      "blocked_reason": "SUPERSEDED: tip left 47ad537; OA AMEND 5840263972 on that head is historical — rebind to 7e219c3"
+      "blocked_reason": "SUPERSEDED: tip left 47ad537; OA AMEND 5840263972 on that head is historical \u2014 rebind to 7e219c3"
     },
     {
       "work_id": "main-98-openai-rereview-7e219c3",
-      "scope": "OpenAI re-review of A–D tip 7e219c3; check A–D + residual F2 subobject precision 5840226963",
+      "scope": "OpenAI re-review of A\u2013D tip 7e219c3; check A\u2013D + residual F2 subobject precision 5840226963",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -1696,11 +1696,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5840285005"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: OA A/B/C MATCH + D basic MATCH @ 7e219c3 (5840284661); E assigned separately; eng≠#90 close"
+      "blocked_reason": "RELEASED: OA A/B/C MATCH + D basic MATCH @ 7e219c3 (5840284661); E assigned separately; eng\u2260#90 close"
     },
     {
       "work_id": "math-38-fingerprint-gate-map",
-      "scope": "Fingerprint sync of #9 chart into D5 hard gate — BLOCKED_INPUT pattern",
+      "scope": "Fingerprint sync of #9 chart into D5 hard gate \u2014 BLOCKED_INPUT pattern",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -1724,7 +1724,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5840255614"
       ],
       "delegates_to": null,
-      "blocked_reason": "SUPERSEDED/CLOSED BLOCKED_INPUT — fingerprint map of unrepaired #9; same class as #14/#20"
+      "blocked_reason": "SUPERSEDED/CLOSED BLOCKED_INPUT \u2014 fingerprint map of unrepaired #9; same class as #14/#20"
     },
     {
       "work_id": "main-98-f2-subobject-precision-E",
@@ -1761,11 +1761,11 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36195412945"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "RELEASED peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 E @ 22d9976 (5840359808); Q0=8c2ded65… D1=490ad6b2… validated; freshness external_sync_obligation; await OA re-review"
+      "blocked_reason": "RELEASED peer bc-01a0d95b-e593-75f4-a1b1-d440961231c5 E @ 22d9976 (5840359808); Q0=8c2ded65\u2026 D1=490ad6b2\u2026 validated; freshness external_sync_obligation; await OA re-review"
     },
     {
       "work_id": "math-18-d6-analytic-parent-review",
-      "scope": "Bounded D6 analytic nonauthor review of frozen full_price PROOF parent — six slices; not SMT; not P15 theorem accept",
+      "scope": "Bounded D6 analytic nonauthor review of frozen full_price PROOF parent \u2014 six slices; not SMT; not P15 theorem accept",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -1955,7 +1955,7 @@
     },
     {
       "work_id": "math-37-d1-section9-borel-repair",
-      "scope": "Section9 Borel marked Kac–Rice repair; xAI C1–C6 ACCEPT; Theorem A/C etc. outside",
+      "scope": "Section9 Borel marked Kac\u2013Rice repair; xAI C1\u2013C6 ACCEPT; Theorem A/C etc. outside",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -1982,11 +1982,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841240461"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED @ 694b7ff; xAI C1–C6 ACCEPT is authoritative Section9 repair; #47 peer AMEND on attribution is not a parallel lineage"
+      "blocked_reason": "RELEASED/MERGED @ 694b7ff; xAI C1\u2013C6 ACCEPT is authoritative Section9 repair; #47 peer AMEND on attribution is not a parallel lineage"
     },
     {
       "work_id": "gov-4-policy-rereview-peer",
-      "scope": "Fresh policy re-review P1–P5 + 120min stale-claim rule @ REVIEW_TOPOLOGY 6da327b",
+      "scope": "Fresh policy re-review P1\u2013P5 + 120min stale-claim rule @ REVIEW_TOPOLOGY 6da327b",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -2015,11 +2015,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841287466"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED REVIEW_TOPOLOGY @ 6da327b; P1–P5 ACCEPT; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED REVIEW_TOPOLOGY @ 6da327b; P1\u2013P5 ACCEPT; sci effect NONE"
     },
     {
       "work_id": "main-112-section4-residual-independence",
-      "scope": "Bounded D1 Section4 R1–R5 full-field residual independence after A_r conditioning; frozen parent 9350ad6e…",
+      "scope": "Bounded D1 Section4 R1\u2013R5 full-field residual independence after A_r conditioning; frozen parent 9350ad6e\u2026",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -2049,11 +2049,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841289285"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED R1–R5 ACCEPT; covariance imports I3a–d now discharged by Section3 C1–C5 ACCEPT (5841317882)"
+      "blocked_reason": "RELEASED R1\u2013R5 ACCEPT; covariance imports I3a\u2013d now discharged by Section3 C1\u2013C5 ACCEPT (5841317882)"
     },
     {
       "work_id": "main-98-q0-binding-order-fix",
-      "scope": "Restore Q0 source_bindings to cc6a578 order (theorem extract first, master second); keep E6; regression for cc6→successor pure coverage repair",
+      "scope": "Restore Q0 source_bindings to cc6a578 order (theorem extract first, master second); keep E6; regression for cc6\u2192successor pure coverage repair",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -2116,7 +2116,7 @@
     },
     {
       "work_id": "main-112-section3-covariance-contact",
-      "scope": "Bounded D1 Section3 C1–C5 covariance/contact interfaces (3.1)–(3.5); discharge Section4 imports",
+      "scope": "Bounded D1 Section3 C1\u2013C5 covariance/contact interfaces (3.1)\u2013(3.5); discharge Section4 imports",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -2144,7 +2144,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5841317882"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: peer C1–C5 ACCEPT @ frozen parent 9350ad6e… (5841317882); discharges Section4 I3a–d; Sections5+/cap/RN outside"
+      "blocked_reason": "RELEASED: peer C1\u2013C5 ACCEPT @ frozen parent 9350ad6e\u2026 (5841317882); discharges Section4 I3a\u2013d; Sections5+/cap/RN outside"
     },
     {
       "work_id": "main-98-e6-strict-q0-order",
@@ -2180,7 +2180,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "RELEASED @ 5cf4f36; OA E6 eng ACCEPT; preserve on rebase; eng≠#90 close"
+      "blocked_reason": "RELEASED @ 5cf4f36; OA E6 eng ACCEPT; preserve on rebase; eng\u2260#90 close"
     },
     {
       "work_id": "main-98-openai-rereview-5cf4f36",
@@ -2216,11 +2216,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-e6-accept-integration.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: OA E6 eng ACCEPT @ 5cf4f36 historical; tip advanced to 69e9b52 — final readback OFFERED separately; eng≠#90"
+      "blocked_reason": "RELEASED: OA E6 eng ACCEPT @ 5cf4f36 historical; tip advanced to 69e9b52 \u2014 final readback OFFERED separately; eng\u2260#90"
     },
     {
       "work_id": "main-112-section5-endpoint-averages",
-      "scope": "Bounded D1 Section5 N1–N5 endpoint averages / height / det / Kac–Rice / remainder (5.1)–(5.5); frozen parent 9350ad6e…",
+      "scope": "Bounded D1 Section5 N1\u2013N5 endpoint averages / height / det / Kac\u2013Rice / remainder (5.1)\u2013(5.5); frozen parent 9350ad6e\u2026",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -2250,11 +2250,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main112-section5-review.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: peer N1–N6 ACCEPT @ frozen parent 9350ad6e… (5841352633); Sections6+/cap/TheoremA/C/(15.2)/RN outside; sci effect NONE"
+      "blocked_reason": "RELEASED: peer N1\u2013N6 ACCEPT @ frozen parent 9350ad6e\u2026 (5841352633); Sections6+/cap/TheoremA/C/(15.2)/RN outside; sci effect NONE"
     },
     {
       "work_id": "trial-138-pr98-final-gate-rereview",
-      "scope": "OA final gate re-review A–E + precision-upgrade boundary probes for main #98; read-only; binds subject cc6a578 (live tip may have advanced)",
+      "scope": "OA final gate re-review A\u2013E + precision-upgrade boundary probes for main #98; read-only; binds subject cc6a578 (live tip may have advanced)",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -2289,7 +2289,7 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5842250341"
       ],
       "delegates_to": null,
-      "lanes_note": "Gate re-review subject SUPERSEDED by #98 merge; Batch 385 Path C eng resume may tip-align this PR under bc-01a0cf1e — observe only",
+      "lanes_note": "Gate re-review subject SUPERSEDED by #98 merge; Batch 385 Path C eng resume may tip-align this PR under bc-01a0cf1e \u2014 observe only",
       "blocked_reason": "SUPERSEDED: main #98 MERGED @ ebedb78 / OA FINAL ACCEPT on b59359e; stale feea1df gate no longer active clearance path"
     },
     {
@@ -2341,7 +2341,7 @@
       ],
       "delegates_to": null,
       "lanes_note": "OA-claimed exclusive land/close pass; governance- observes only",
-      "blocked_reason": "RELEASED/MERGED exact tip f411ce5 → 7caac254 on hardening (5842076963); tree 6b3a408d… preserved; packaging only; eng≠theorem; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED exact tip f411ce5 \u2192 7caac254 on hardening (5842076963); tree 6b3a408d\u2026 preserved; packaging only; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-49-collision-package-integrate",
@@ -2359,7 +2359,7 @@
         "source_pr25_oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73"
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T02:33:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2376,7 +2376,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5842142605"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 596e809; OA integration-scope ACCEPT (5842142605): five-file blob MATCH vs PR25; review bindings MATCH; hosted replay SUCCESS 36203521205; zero org-independence; ready for separate expected-head land decision; merge ≠ theorem; this App cannot push Math-; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ 596e809; OA integration-scope ACCEPT (5842142605): five-file blob MATCH vs PR25; review bindings MATCH; hosted replay SUCCESS 36203521205; zero org-independence; ready for separate expected-head land decision; merge \u2260 theorem; this App cannot push Math-; sci effect NONE"
     },
     {
       "work_id": "main-120-side24-source-recovery",
@@ -2425,7 +2425,7 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36209236393"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED exact tip d486dd1 → 2f7a5a9 (5842219434); hosted CI SUCCESS 36209236393; custody-only; no theorem re-ratification; sci effect NONE",
+      "blocked_reason": "RELEASED/MERGED exact tip d486dd1 \u2192 2f7a5a9 (5842219434); hosted CI SUCCESS 36209236393; custody-only; no theorem re-ratification; sci effect NONE",
       "lanes_note": "OA-claimed exclusive pass on certificate fixture; governance- observes only"
     },
     {
@@ -2490,7 +2490,7 @@
       ],
       "delegates_to": "main-98-claims-gate-adapter",
       "lanes_note": "Author-lane only; governance- App has no main push. Preserve D1 CONDITIONAL/HOLD_WITH_DOMAIN + FW-RUNG-OPEN-PREMISE; Q0 theorem-first; E6 strict.",
-      "blocked_reason": "RELEASED merge @ 69e9b52 then follow-up fix @ b59359e for base→tip event-compare; await CI + OA final readback"
+      "blocked_reason": "RELEASED merge @ 69e9b52 then follow-up fix @ b59359e for base\u2192tip event-compare; await CI + OA final readback"
     },
     {
       "work_id": "main-98-openai-rereview-69e9b52",
@@ -2531,7 +2531,7 @@
     },
     {
       "work_id": "main-98-openai-rereview-b59359e",
-      "scope": "OA final bounded readback of tip b59359e: post-1ae02b9 merge + unresolved→monitorable semantic_digest_core gate; confirm E6 strictness intact",
+      "scope": "OA final bounded readback of tip b59359e: post-1ae02b9 merge + unresolved\u2192monitorable semantic_digest_core gate; confirm E6 strictness intact",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -2565,11 +2565,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-integration-accept.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: OA FINAL eng integration ACCEPT @ b59359e (5841860158); not theorem accept; await author merge of exact head; eng≠sci"
+      "blocked_reason": "RELEASED: OA FINAL eng integration ACCEPT @ b59359e (5841860158); not theorem accept; await author merge of exact head; eng\u2260sci"
     },
     {
       "work_id": "main-121-q0-c103-pair-palm",
-      "scope": "Q0-C103 source-bound typed pair-Palm cubic-rate successor; distinct from #98 adapter; eng≠theorem",
+      "scope": "Q0-C103 source-bound typed pair-Palm cubic-rate successor; distinct from #98 adapter; eng\u2260theorem",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -2602,8 +2602,8 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main121-premis-z-lower-blocked.md"
       ],
       "delegates_to": null,
-      "lanes_note": "OA DRAFT; Cursor may reciprocal-review if leased — do not touch author branch from governance-",
-      "blocked_reason": "ACTIVE DRAFT @ 2624262; PREMIS-Z-LOWER analytic BLOCKED (5842152602) — no proved Z_r≥c r^2 on (0,0.025]; separated-range only; C1/C2 honesty repair on #124 separate; cubic corollary blocked; this App does not race; eng≠theorem; sci effect NONE"
+      "lanes_note": "OA DRAFT; Cursor may reciprocal-review if leased \u2014 do not touch author branch from governance-",
+      "blocked_reason": "ACTIVE DRAFT @ 2624262; PREMIS-Z-LOWER analytic BLOCKED (5842152602) \u2014 no proved Z_r\u2265c r^2 on (0,0.025]; separated-range only; C1/C2 honesty repair on #124 separate; cubic corollary blocked; this App does not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-122-sard-g-execution-repair",
@@ -2627,7 +2627,7 @@
         "control_blob": "7f41ea3a0b0301e0ecdb72de86d00b4d8d9da291"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2661,7 +2661,7 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36211252986"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ a1fc958; hosted CI GREEN; A1/A6 AMEND/AMEND stands (5842415333/5842427417); chart-geometry clarify OFFERED; eng≠theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ a1fc958; hosted CI GREEN; A1/A6 AMEND/AMEND stands (5842415333/5842427417); chart-geometry clarify OFFERED; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-52-d2-cumulative-confirm",
@@ -2761,7 +2761,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/061d48821089e1f3892f09ee50ad2593da0f6a0f"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED exact tip 965011d → 061d488; nav/custody only; CONTACT SOURCE NOT FOUND retained; merge ≠ theorem accept; sci effect NONE",
+      "blocked_reason": "RELEASED/MERGED exact tip 965011d \u2192 061d488; nav/custody only; CONTACT SOURCE NOT FOUND retained; merge \u2260 theorem accept; sci effect NONE",
       "lanes_note": "OA claimed exclusive integration pass; peer FINAL INDEX DELTA serialize under OA"
     },
     {
@@ -2797,7 +2797,7 @@
       ],
       "delegates_to": "main-98-claims-gate-adapter",
       "lanes_note": "Author-lane only; governance- has no main push. No further logic change unless merge exposes conflict.",
-      "blocked_reason": "RELEASED/MERGED exact head b59359e → ebedb78 (5841870001); expected-head matched; await #90 eng-gate close"
+      "blocked_reason": "RELEASED/MERGED exact head b59359e \u2192 ebedb78 (5841870001); expected-head matched; await #90 eng-gate close"
     },
     {
       "work_id": "main-90-eng-gate-close",
@@ -2917,7 +2917,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:21:50Z",
-      "heartbeat_at": "2026-09-26T02:33:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3019,7 +3019,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:25:00Z",
-      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3050,7 +3050,7 @@
         "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T02:16:30Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3066,7 +3066,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main121-premis-z-lower-blocked.md"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "ACTIVE DRAFT @ a380dcf; PR verify SUCCESS; nonauthor C1/C2 honesty re-review OFFERED; analytic PREMIS-Z-LOWER remains BLOCKED (5842152602) independent of packaging honesty; eng≠theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ a380dcf; PR verify SUCCESS; nonauthor C1/C2 honesty re-review OFFERED; analytic PREMIS-Z-LOWER remains BLOCKED (5842152602) independent of packaging honesty; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-rereview-offer",
@@ -3083,7 +3083,7 @@
         "head_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T04:20:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3097,7 +3097,7 @@
     },
     {
       "work_id": "main-122-a1a6-rereview-offer",
-      "scope": "Bounded nonauthor re-check of A1+A6 only at exact tip b362222 after open-predicate repair; A2–A5 already ACCEPT",
+      "scope": "Bounded nonauthor re-check of A1+A6 only at exact tip b362222 after open-predicate repair; A2\u2013A5 already ACCEPT",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -3131,11 +3131,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main122-a1a6-amend.md"
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
-      "blocked_reason": "RELEASED: A1/A6 AMEND/AMEND (5842304441) — non-strict gradient bound admits equality; torus counterexample; review @ cc18155; zero org-independence; author amendment ACTIVE separately"
+      "blocked_reason": "RELEASED: A1/A6 AMEND/AMEND (5842304441) \u2014 non-strict gradient bound admits equality; torus counterexample; review @ cc18155; zero org-independence; author amendment ACTIVE separately"
     },
     {
       "work_id": "main-122-rebase-onto-ebedb78",
-      "scope": "Synchronize hardening tip ebedb78 into #122 and rerun claims_gate event-compare; no A1–A6 analytic rewrite",
+      "scope": "Synchronize hardening tip ebedb78 into #122 and rerun claims_gate event-compare; no A1\u2013A6 analytic rewrite",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -3194,7 +3194,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/125"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT; verify SUCCESS; do not race; recon≠theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT; verify SUCCESS; do not race; recon\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-60-pin-microdisk-anisotropic",
@@ -3213,7 +3213,7 @@
         "note_sha256": "0351da0680e81c2b001338ede50770b9e00fa5cb09aab438940a9b81d56fd866"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3227,7 +3227,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36208206938"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ ad27c6b; M1–M5 ACCEPT_TECHNICAL (5843245862); zero org-independence; det-repulsion/RN not reviewed; next obligation: conditioned det h^2 estimate on new source; merge ≠ theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ ad27c6b; M1\u2013M5 ACCEPT_TECHNICAL (5843245862); zero org-independence; det-repulsion/RN not reviewed; next obligation: conditioned det h^2 estimate on new source; merge \u2260 theorem; sci effect NONE"
     },
     {
       "work_id": "math-64-endpoint-hessian-erratum",
@@ -3241,20 +3241,23 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 64,
         "pr_state": "open",
-        "head_oid": "d573b99d8792f3d5146c952737a4ba446a549e6f"
+        "head_oid": "d573b99d8792f3d5146c952737a4ba446a549e6f",
+        "review_disposition": "ACCEPT_ERRATUM",
+        "review_comment": "5843521502"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/64"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/64",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/64#issuecomment-5843521502"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 64; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ d573b99; OA ACCEPT_ERRATUM correction-only (5843521502); do not race; erratum\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-65-d0-proof-availability-audit",
@@ -3319,7 +3322,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/10e1f191c7d9f2755ca971ddbba87874d2475619"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED/MERGED exact tip 423d4d9 → 10e1f19; support-scope dependency repair; dispositions/proofs unchanged; merge ≠ theorem; sci effect NONE",
+      "blocked_reason": "RELEASED/MERGED exact tip 423d4d9 \u2192 10e1f19; support-scope dependency repair; dispositions/proofs unchanged; merge \u2260 theorem; sci effect NONE",
       "lanes_note": "OA Codex same-provider audit; governance- observes only"
     },
     {
@@ -3418,13 +3421,14 @@
           121,
           138
         ],
-        "hardening_tip": "2f7a5a9f10c9ed5f5b7792a8f2521318d9208532",
+        "hardening_tip": "4a72a5ab381ce44523f2fafe922dc8c3a7e03f21",
         "path_c_idle": "0019",
-        "prior_hardening_tip": "7caac254cbba5f513b2dc0afb56b78a598bc0c93",
-        "batch": 387
+        "prior_hardening_tip": "2f7a5a9f10c9ed5f5b7792a8f2521318d9208532",
+        "batch": 387,
+        "tip_drift_note": "main tip moved publish/nav only; tip-align if Path C base drifted"
       },
       "claimed_at": "2026-09-26T01:49:00Z",
-      "heartbeat_at": "2026-09-26T03:05:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3437,10 +3441,11 @@
         "https://github.com/d6g8k5htny-coder/main/commit/7caac254cbba5f513b2dc0afb56b78a598bc0c93",
         "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5842250272",
         "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5842250341",
-        "https://github.com/d6g8k5htny-coder/main/commit/2f7a5a9f10c9ed5f5b7792a8f2521318d9208532"
+        "https://github.com/d6g8k5htny-coder/main/commit/2f7a5a9f10c9ed5f5b7792a8f2521318d9208532",
+        "https://github.com/d6g8k5htny-coder/main/commit/4a72a5ab381ce44523f2fafe922dc8c3a7e03f21"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE peer coordinator bc-01a0cf1e… Path C Batch 387 eng resume on trial #121/#138 @ tip 2f7a5a9; tip-align if base drifted; additive-only; governance- observes only; sci effect NONE"
+      "blocked_reason": "ACTIVE peer coordinator bc-01a0cf1e\u2026 Path C Batch 387 eng resume on trial #121/#138; hardening tip drifted 2f7a5a9\u21924a72a5a (publish/nav #127/#130\u2013#133); tip-align if needed; additive-only; IDLE@0019; governance- observes only; sci effect NONE"
     },
     {
       "work_id": "math-66-support-edge-integration",
@@ -3476,7 +3481,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/10e1f191c7d9f2755ca971ddbba87874d2475619"
       ],
       "delegates_to": "math-66-p15-full-price-acceptance",
-      "blocked_reason": "RELEASED/MERGED exact tip 423d4d9 → 10e1f19; support-scope dependency repair; dispositions/proofs unchanged; merge ≠ theorem; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED exact tip 423d4d9 \u2192 10e1f19; support-scope dependency repair; dispositions/proofs unchanged; merge \u2260 theorem; sci effect NONE"
     },
     {
       "work_id": "math-49-author-merge-596e809",
@@ -3494,7 +3499,7 @@
         "accept_comment": "5842142605"
       },
       "claimed_at": "2026-09-26T01:54:30Z",
-      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3504,11 +3509,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5842142605"
       ],
       "delegates_to": "math-49-collision-package-integrate",
-      "blocked_reason": "OFFERED author-lane expected-head merge; this App cannot push Math-; merge ≠ theorem accept"
+      "blocked_reason": "OFFERED author-lane expected-head merge; this App cannot push Math-; merge \u2260 theorem accept"
     },
     {
       "work_id": "main-121-premis-z-lower-blocked",
-      "scope": "Durable record: PREMIS-Z-LOWER analytic BLOCKED for C103 typed Z_r on (0,0.025]; missing r→0 continuous extension",
+      "scope": "Durable record: PREMIS-Z-LOWER analytic BLOCKED for C103 typed Z_r on (0,0.025]; missing r\u21920 continuous extension",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -3534,7 +3539,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main121-premis-z-lower-blocked.md"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "RELEASED as durable BLOCKED finding on governance-; missing carrier for r→0 law of V_r; cubic corollary must stay blocked; sci effect NONE"
+      "blocked_reason": "RELEASED as durable BLOCKED finding on governance-; missing carrier for r\u21920 law of V_r; cubic corollary must stay blocked; sci effect NONE"
     },
     {
       "work_id": "math-54-author-merge-965011d",
@@ -3563,11 +3568,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/54"
       ],
       "delegates_to": "math-54-proof-availability-audit",
-      "blocked_reason": "RELEASED/MERGED exact 965011d → 061d488"
+      "blocked_reason": "RELEASED/MERGED exact 965011d \u2192 061d488"
     },
     {
       "work_id": "main-122-a1a6-strict-gradient-amend",
-      "scope": "Author amendment: strict gradient-margin wording + equality-boundary control; preserve §§4–6/source map/dispositions",
+      "scope": "Author amendment: strict gradient-margin wording + equality-boundary control; preserve \u00a7\u00a74\u20136/source map/dispositions",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -3597,7 +3602,7 @@
     },
     {
       "work_id": "main-122-a1a6-rereview-a1fc958",
-      "scope": "Fresh nonauthor A1/A6 re-check at exact tip a1fc958 after strict-gradient amendment; A2–A5 not re-opened",
+      "scope": "Fresh nonauthor A1/A6 re-check at exact tip a1fc958 after strict-gradient amendment; A2\u2013A5 not re-opened",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -3649,7 +3654,7 @@
         "head_oid": "2992819828dfe8a23e682816a8c10eab5861f94d"
       },
       "claimed_at": "2026-09-26T02:33:00Z",
-      "heartbeat_at": "2026-09-26T03:05:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3680,7 +3685,7 @@
         "subject_review": "5842415333"
       },
       "claimed_at": "2026-09-26T02:36:00Z",
-      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3708,7 +3713,7 @@
         "head_oid": "2992819828dfe8a23e682816a8c10eab5861f94d"
       },
       "claimed_at": "2026-09-26T02:47:00Z",
-      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3736,7 +3741,7 @@
         "head_oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3"
       },
       "claimed_at": "2026-09-26T04:20:00Z",
-      "heartbeat_at": "2026-09-26T04:20:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T08:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3746,11 +3751,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/128"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT; do not race; recon≠theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT; do not race; recon\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-60-det-h2-estimate-offer",
-      "scope": "Next obligation after #60 M1–M5: conditioned determinant estimate with compensating h^2 (new immutable source + distinct reviewer)",
+      "scope": "Next obligation after #60 M1\u2013M5: conditioned determinant estimate with compensating h^2 (new immutable source + distinct reviewer)",
       "owner": {
         "provider": null,
         "model": null,
@@ -3763,7 +3768,7 @@
         "accept_comment": "5843245862"
       },
       "claimed_at": "2026-09-26T04:43:30Z",
-      "heartbeat_at": "2026-09-26T06:45:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T08:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3792,7 +3797,7 @@
         "head_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7"
       },
       "claimed_at": "2026-09-26T06:45:00Z",
-      "heartbeat_at": "2026-09-26T06:46:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
       "expires_at": "2026-09-27T10:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3803,6 +3808,118 @@
       ],
       "delegates_to": null,
       "blocked_reason": "OFFERED observe DRAFT @ b39e9ff; CI green (landing/replay/imports/exact-checks); custody from main ebedb78; sci effect NONE; do not race"
+    },
+    {
+      "work_id": "main-tip-publish-nav-4a72a5a",
+      "scope": "Publish/nav only: public math catalog + SIDE24 links + SARD-G review publish + executable checkout; tip 4a72a5a; no theorem flip",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr_state": "merged",
+        "prs": [
+          127,
+          130,
+          131,
+          132,
+          133
+        ],
+        "heads": {
+          "127": "23e286666aea83d8e7bb335e638a2df6c9f41eca",
+          "130": "e75cd3d802ac191cce1817d7218dbd9acca16917",
+          "131": "cc18155abf912d3b8f25ac133ea42bb327287709",
+          "132": "070514e250bf7f4da461b4813079688a8ff01fe1",
+          "133": "e8ec7afcf3933d2fe2f6cb7306b8ff05ed518b81"
+        },
+        "merge_oids": {
+          "127": "d095b5313519f8ca05314685bdaeab726f79316e",
+          "130": "280d722822c29fd17487c772bf00d5bf8cf6e7b8",
+          "131": "75eb6d2fff494992dc826e12df46ed5eb3594cf8",
+          "132": "9e42542389268fe6b252e22fbab3b50ce36b9876",
+          "133": "4a72a5ab381ce44523f2fafe922dc8c3a7e03f21"
+        },
+        "prior_tip": "2f7a5a9f10c9ed5f5b7792a8f2521318d9208532",
+        "tip_oid": "4a72a5ab381ce44523f2fafe922dc8c3a7e03f21",
+        "a1_a6_status": "AMEND remains; no theorem-status change"
+      },
+      "claimed_at": "2026-09-26T02:02:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "expires_at": "2026-09-27T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/127",
+        "https://github.com/d6g8k5htny-coder/main/pull/130",
+        "https://github.com/d6g8k5htny-coder/main/pull/131",
+        "https://github.com/d6g8k5htny-coder/main/pull/132",
+        "https://github.com/d6g8k5htny-coder/main/pull/133",
+        "https://github.com/d6g8k5htny-coder/main/commit/4a72a5ab381ce44523f2fafe922dc8c3a7e03f21"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED/MERGED publish/nav chain \u2192 tip 4a72a5a; A1/A6 remain AMEND; sci effect NONE"
+    },
+    {
+      "work_id": "main-129-cross-repo-source-architecture",
+      "scope": "Design: cross-repository source architecture and publication; docs/design only expected",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 129,
+        "pr_state": "open",
+        "head_oid": "4fd6c279a7624f0526b7c08933dd9c419c3235f8"
+      },
+      "claimed_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "expires_at": "2026-09-27T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/129"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe design DRAFT @ 4fd6c279; do not race; design\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "math-71-main124-c1c2-rereview",
+      "scope": "Nonauthor re-review artifact of main #124 C1/C2 honesty repair; peer Math- lane",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/pr124-c1-c2-rereview-0f36",
+        "pr": 71,
+        "pr_state": "open",
+        "head_oid": "21e39741a1e604f57dc8997d286545f79bdbb602",
+        "subject_main_pr": 124,
+        "subject_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25"
+      },
+      "claimed_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "expires_at": "2026-09-27T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71",
+        "https://github.com/d6g8k5htny-coder/main/pull/124"
+      ],
+      "delegates_to": "main-124-c1c2-rereview-offer",
+      "blocked_reason": "OFFERED observe peer re-review DRAFT of main #124; do not race; review\u2260merge; sci effect NONE"
     }
   ]
 }

@@ -26,6 +26,7 @@
 | Hard gate eng-gate CLOSE (not theorem) | main [#90](https://github.com/d6g8k5htny-coder/main/issues/90) CLOSED after #98 `ebedb78…` |
 | Q0_LEDGER mirror packaging (eng only; sci effect NONE) | main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) @ `f411ce5…` → merge `7caac254…`; [#123](https://github.com/d6g8k5htny-coder/main/pull/123) CLOSED duplicate |
 | SIDE24 theorem-chain source custody (no re-ratification; sci effect NONE) | main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) @ `d486dd1…` → merge `2f7a5a9…` |
+| Public math catalog / SIDE24 hub links / SARD-G review publish / executable checkout (nav only; A1/A6 remain AMEND; sci effect NONE) | main [#127](https://github.com/d6g8k5htny-coder/main/pull/127)+[#130](https://github.com/d6g8k5htny-coder/main/pull/130)+[#131](https://github.com/d6g8k5htny-coder/main/pull/131)+[#132](https://github.com/d6g8k5htny-coder/main/pull/132)+[#133](https://github.com/d6g8k5htny-coder/main/pull/133) → tip `4a72a5a…` |
 | P15 full-price support-scope dependency (metadata; sci effect NONE) | Math- [#66](https://github.com/d6g8k5htny-coder/Math-/pull/66) @ `423d4d9…` → merge `10e1f19…`; HOLD_WITH_DOMAIN parent |
 | Proof availability / PROOF_INDEX nav (custody only; sci effect NONE) | Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) @ `965011d…` → merge `061d488…`; CONTACT SOURCE NOT FOUND retained |
 
@@ -54,14 +55,17 @@
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` OA integration-scope **ACCEPT** (5842142605); exact-byte MATCH; **author merge OFFERED**; merge ≠ theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | **PREMIS-Z-LOWER BLOCKED** (5842152602); #124 C1/C2 honesty re-review OFFERED; cubic corollary blocked; eng≠theorem |
-| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `a1fc958…` **CI GREEN**; A1/A6 **AMEND/AMEND**; chart-geometry clarify **OFFERED** |
+| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `a1fc958…` **CI GREEN**; A1/A6 **AMEND/AMEND** (also published via [#131](https://github.com/d6g8k5htny-coder/main/pull/131)/[#133](https://github.com/d6g8k5htny-coder/main/pull/133)); chart-geometry clarify **OFFERED** |
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | D5 intermediate-scale envelope; **observe**; recon≠theorem |
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | `2992819…` V3.4/arithmetic_ledger custody; **CI GREEN**; **author merge OFFERED**; no re-ratification |
+| main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | `4fd6c279…` cross-repo source architecture design; **observe**; design≠theorem |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
-| trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume @ hardening `2f7a5a9` (bc-01a0cf1e…); IDLE@0019; **observe**; no lemma_closed/claim promotion |
+| trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume (bc-01a0cf1e…); tip drifted `2f7a5a9`→`4a72a5a`; IDLE@0019; **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | `b39e9ff…` hardening-proof import; **CI green**; **observe**; custody≠theorem |
 | Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60) | `ad27c6b…` M1–M5 **ACCEPT_TECHNICAL** (5843245862); det-h² estimate **OFFERED**; zero org-independence |
-| Math- [#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)/[#65](https://github.com/d6g8k5htny-coder/Math-/pull/65)/[#67](https://github.com/d6g8k5htny-coder/Math-/pull/67)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | New DRAFTs; **observe only**; do not race |
+| Math- [#64](https://github.com/d6g8k5htny-coder/Math-/pull/64) | `d573b99…` endpoint Hessian erratum; OA **ACCEPT_ERRATUM** (5843521502); **observe**; correction≠theorem |
+| Math- [#71](https://github.com/d6g8k5htny-coder/Math-/pull/71) | `21e3974…` peer nonauthor re-review of main [#124](https://github.com/d6g8k5htny-coder/main/pull/124); **observe**; do not race |
+| Math- [#65](https://github.com/d6g8k5htny-coder/Math-/pull/65)/[#67](https://github.com/d6g8k5htny-coder/Math-/pull/67)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69)/[#72](https://github.com/d6g8k5htny-coder/Math-/pull/72)–[#74](https://github.com/d6g8k5htny-coder/Math-/pull/74) | New DRAFTs; **observe only**; do not race |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
