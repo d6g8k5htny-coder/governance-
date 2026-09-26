@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:26:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #148 @ 7556ddd CI GREEN\u00d75. #136/@567213c + #140/@3013733 verify pending. #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:26:30Z.",
+  "updated_at": "2026-09-26T17:26:45Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #148 @ 7556ddd CI GREEN\u00d75; #136 @ 567213c CI GREEN\u00d75. #140/@3013733 verify pending. #134/#135 re-reviews OFFERED. Updated 2026-09-26T17:26:45Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4401,7 +4401,7 @@
         "pr_state": "open",
         "head_oid": "567213c5877cc63621dd8cf264866dbd2172829a",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "verify_in_progress_567213c",
+        "ci": "green_5_567213c",
         "prior_oid": "44338fc324eff6bdb9fa084b9c6b0e7901c97820",
         "author_comment": "5848022912",
         "sibling_pr": 140,
@@ -4409,7 +4409,7 @@
         "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T17:10:30Z",
+      "heartbeat_at": "2026-09-26T17:26:45Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4423,10 +4423,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36256568833",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36256566622",
         "https://github.com/d6g8k5htny-coder/main/commit/567213c5877cc63621dd8cf264866dbd2172829a",
-        "https://github.com/d6g8k5htny-coder/main/commit/b01fcb4"
+        "https://github.com/d6g8k5htny-coder/main/commit/b01fcb4",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36257597180",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36257595690"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 567213c after merge hardening 96e5175 + declare coordination heartbeat-age float as duration (fixes PR-event FAIL 36256568833); CI in progress; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 567213c after merge hardening + heartbeat-age float declare; CI GREEN\u00d75; sibling #140; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-4-submodule-pins",
