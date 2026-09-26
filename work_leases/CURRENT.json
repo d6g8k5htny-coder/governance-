@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T22:05:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip b4cc529; Math- tip 5ed3b45. #163 tip b6b7ea3; public-intake FAILURE; observe. Updated 2026-09-26T22:05:00Z.",
+  "updated_at": "2026-09-26T22:13:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip b4cc529. #163 tip 08befe6; public-intake still FAILURE. Updated 2026-09-26T22:13:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4623,7 +4623,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T22:05:00Z",
+      "heartbeat_at": "2026-09-26T22:13:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -6086,11 +6086,11 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 163,
-        "head_oid": "b6b7ea337dec1cfdec3d0267c040c9247d39c3a9",
+        "head_oid": "08befe65fee02e7cd01e20390b47027e53c14053",
         "prior_oid": "4b0205553db30162eb85b9a90431b3eadb5bee1b"
       },
       "claimed_at": "2026-09-26T22:01:10Z",
-      "heartbeat_at": "2026-09-26T22:05:00Z",
+      "heartbeat_at": "2026-09-26T22:13:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6099,7 +6099,7 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/163"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ b6b7ea3; public-intake FAILURE (verify/shop green); do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 08befe6; public-intake FAILURE (verify/shop green); do not race; sci effect NONE"
     }
   ]
 }
