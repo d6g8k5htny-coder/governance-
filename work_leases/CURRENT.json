@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T16:31:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip bd9fc9d (#145 research shop MERGED). Math- tip 58f7936 (#75 BYTE_COPY index MERGED). Observe #140/#147. #134/#135 CI GREEN; re-reviews OFFERED. Updated 2026-09-26T16:31:00Z.",
+  "updated_at": "2026-09-26T16:34:15Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip bd9fc9d. #147 @ d10c2fb intake verify SUCCESS (5847931757); Codex P2 AMEND task-link in RESULT.md. #134/#135 re-reviews still OFFERED. Updated 2026-09-26T16:34:15Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4564,7 +4564,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T16:34:15Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4718,20 +4718,53 @@
         "pr_state": "open",
         "head_oid": "d10c2fbf376d168752d70f30660966c07e041ec1",
         "base_branch": "main",
-        "pr_ready": true
+        "pr_ready": true,
+        "ci": "green_intake_verify",
+        "intake_comment": "5847931757",
+        "codex_p2": "4112001085"
       },
       "claimed_at": "2026-09-26T16:31:00Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T16:34:15Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/147"
+        "https://github.com/d6g8k5htny-coder/main/pull/147",
+        "https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847931757",
+        "https://github.com/d6g8k5htny-coder/main/pull/147#discussion_r4112001085",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36255729530"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ d10c2fb; public intake example after #145; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ d10c2fb; live intake verify SUCCESS (5847931757); Codex P2 AMEND: RESULT.md missing task link (CONTRIBUTING.md:51 / 4112001085); do not race; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-147-result-task-link-amend",
+      "scope": "Add task link in RESULT.md per CONTRIBUTING.md:51 (Codex P2)",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 147,
+        "head_oid": "d10c2fbf376d168752d70f30660966c07e041ec1",
+        "finding": "4112001085"
+      },
+      "claimed_at": "2026-09-26T16:34:15Z",
+      "heartbeat_at": "2026-09-26T16:34:15Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/147#discussion_r4112001085"
+      ],
+      "delegates_to": "main-147-public-intake-side24-example",
+      "blocked_reason": "OFFERED P2 task-link repair; this App does not race; sci effect NONE"
     }
   ]
 }

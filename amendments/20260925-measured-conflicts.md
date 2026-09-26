@@ -82,7 +82,7 @@
 | main [#145](https://github.com/d6g8k5htny-coder/main/pull/145) | **MERGED** `bd9fc9d…` public research shop; nav/eng only |
 | Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) | **MERGED** `58f7936…` nine BYTE_COPY imports in proof index; custody≠theorem |
 | main [#140](https://github.com/d6g8k5htny-coder/main/pull/140) | `33a2b78…` pinned-source index coverage (13 missed); **observe**; eng≠theorem |
-| main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) | `d10c2fb…` public intake SIDE24 example after #145; **observe**; eng≠theorem |
+| main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) | `d10c2fb…` public intake SIDE24 example; intake verify SUCCESS ([5847931757](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847931757)); Codex **P2 AMEND** task-link in RESULT.md ([4112001085](https://github.com/d6g8k5htny-coder/main/pull/147#discussion_r4112001085)); repair **OFFERED**; do not race; eng≠theorem |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `3a86f7b` (Batch 546 tip_or_eng TIP_DRIFT); hardening tip `96e5175`; `main` tip `bd9fc9d` (#145); **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | **MERGED** `9d7b680…`; custody import; prior BYTE_COPY×9 @ `b39e9ff…` ([5847534053](https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053)); merge≠theorem |
