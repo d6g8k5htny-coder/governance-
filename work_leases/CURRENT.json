@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T22:42:10Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 9cbf24c. Math- #59 tip 1991216 (was 718029c). Updated 2026-09-26T22:42:10Z.",
+  "updated_at": "2026-09-26T22:45:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). Math- #59 MERGED 55a3ced @ expected-head 1991216; #45/#46 peer AMEND; #124 verify FAIL before-ref a380dcf. Updated 2026-09-26T22:45:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2452,10 +2452,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 46,
         "pr_state": "open",
-        "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee"
+        "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee",
+        "peer_amend": "5850565848"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-26T15:37:30Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2463,10 +2464,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/46",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 79a791a (ready-for-review); reading maps only; do not race assignee; sci effect NONE; README conflict with #70 (5847534262) \u2014 do not race"
+      "blocked_reason": "OFFERED observe @ 79a791a ready; peer AMEND (5850565848): cards stale vs #70/#74/#76 (transverse on tip, hazard ACCEPT, fixed-remote dual disposition, mesoscopic GRAPH); T-LIFETIME-REMAINDER FAIL_CLOSED misfiled; dead Cursor audit links; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-98-base-integration-1ae02b9",
@@ -2936,24 +2938,29 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "cursor/transverse-contact-source-absent-494e",
         "pr": 59,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "199121617169676e50f8dd6cf3c66f66cd0899e8",
-        "prior_oid": "718029c"
+        "prior_oid": "718029c",
+        "merge_oid": "55a3cedde916e454d410bad5c4f62c6f8b882c22",
+        "reviewed_head": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:21:50Z",
-      "heartbeat_at": "2026-09-26T22:42:10Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/59",
         "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5841915560",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/061d48821089e1f3892f09ee50ad2593da0f6a0f"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/061d48821089e1f3892f09ee50ad2593da0f6a0f",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5850563023",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5850573604",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/55a3cedde916e454d410bad5c4f62c6f8b882c22"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe DRAFT @ 1991216 (tip move from 718029c); TRANSVERSE_CONTACT_ASYMPTOTIC still absent; related Math- #80 substitute; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED 55a3ced (expected-head 1991216 / reviewed 718029c); issue #56 auto-closed BLOCKED_ABSENT; merge\u2260theorem; PROOF_INDEX L40 still RECOVERY OPEN (follow-up OFFERED); sci effect NONE"
     },
     {
       "work_id": "main-121-c1c2-repair-peer",
@@ -3039,22 +3046,25 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 59,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "199121617169676e50f8dd6cf3c66f66cd0899e8",
-        "prior_oid": "718029c"
+        "prior_oid": "718029c",
+        "merge_oid": "55a3cedde916e454d410bad5c4f62c6f8b882c22"
       },
       "claimed_at": "2026-09-26T01:25:00Z",
-      "heartbeat_at": "2026-09-26T22:42:10Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5841915560"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5841915560",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5850573604",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/55a3cedde916e454d410bad5c4f62c6f8b882c22"
       ],
       "delegates_to": "math-59-transverse-contact-source-absent",
-      "blocked_reason": "OFFERED author-lane merge exact 718029c; this App cannot push Math-"
+      "blocked_reason": "RELEASED/MERGED 55a3ced with expected-head protection on 1991216; issue56 BLOCKED_ABSENT recorded; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-repair",
@@ -3079,10 +3089,13 @@
         "prior_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25",
         "delivery_comment": "5850479003",
         "md_sha256": "f9467138983c00000d75ded88c76ea2d3b4a002d09f30a3a4c216e564488e148",
-        "map_sha256": "07b6b57c573a11f0a8dc53e8e88a9443b5921ead526edf6cc11e5879045aa6af"
+        "map_sha256": "07b6b57c573a11f0a8dc53e8e88a9443b5921ead526edf6cc11e5879045aa6af",
+        "ci_verify": "FAILURE",
+        "ci_run": "36276560427",
+        "ci_error": "before ref is not a resolvable commit: a380dcfb\u2026"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T22:32:30Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3098,10 +3111,11 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main121-premis-z-lower-blocked.md",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850468784",
-        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850479003"
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850479003",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36276560427"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "ACTIVE observe DRAFT @ 079615e; AMEND delivery confirmed (5850479003): q_MS^br + PREMISE-BRANCH-MASS; digests recorded; CI pending; re-review OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE observe DRAFT @ 079615e; AMEND delivery confirmed (5850479003); verify FAIL 36276560427 (event-compare before-ref a380dcf unresolved \u2014 likely shallow/history after rebase); re-verify in_progress 36276562260; re-review OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-rereview-offer",
@@ -4636,7 +4650,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T22:42:10Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4648,7 +4662,8 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/governance-/pull/3",
         "https://github.com/d6g8k5htny-coder/governance-/commit/ae1b92ef1bb794050e584bec1c6f58f9495a018e",
-        "https://github.com/d6g8k5htny-coder/governance-/pull/5"
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5850573604"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge; sci effect NONE"
@@ -6315,6 +6330,118 @@
         "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205"
       ],
       "delegates_to": "main-159-drive-lane-map-incoming",
+      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-59-proof-index-blocked-absent-followup",
+      "scope": "Coordinate PROOF_INDEX.md L40 RECOVERY OPEN \u2192 BLOCKED_ABSENT + main museum pin / sources-01.json",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 59,
+        "pr_state": "merged",
+        "merge_oid": "55a3cedde916e454d410bad5c4f62c6f8b882c22",
+        "note_sha256": "5faa183452ec548ee1116dd199d250f597afc0fc6de3908b37a6fd4f0dcf8e76",
+        "finding_comment": "5850573604"
+      },
+      "claimed_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5850573604"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED follow-up after #59 land: PROOF_INDEX L40 + main tests/test_museum_data.py pin + docs/public-math/sources-01.json still pre-amendment; coordinated Math-+main; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-46-reading-maps-amend-repair",
+      "scope": "Repair #46 cards vs #70/#74/#76; move T-LIFETIME-REMAINDER; fix AUDIT.md dead links",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 46,
+        "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee",
+        "finding_comment": "5850565848"
+      },
+      "claimed_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848"
+      ],
+      "delegates_to": "math-46-lemma-theorem-reading-maps",
+      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-45-fail-closed-claim-audit",
+      "scope": "Fail-closed claim audit of active landing corpus (draft)",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 45,
+        "pr_state": "open",
+        "head_oid": "7785bc82eb0ada3f25ea2be5513a147378f22e8a",
+        "peer_amend": "5850536323"
+      },
+      "claimed_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5850536323"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 7785bc8; peer AMEND (5850536323): RECONCILIATION.md for FC-10/11/12 repaired on main; CLAIMS.json disposition gaps; update-branch for math-downstream-gates; repair OFFERED; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-45-reconciliation-amend-repair",
+      "scope": "Add RECONCILIATION.md; fix CLAIMS.json dispositions; update-branch for gates",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 45,
+        "head_oid": "7785bc82eb0ada3f25ea2be5513a147378f22e8a",
+        "finding_comment": "5850536323"
+      },
+      "claimed_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5850536323"
+      ],
+      "delegates_to": "math-45-fail-closed-claim-audit",
       "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
     }
   ]

@@ -68,7 +68,7 @@
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
 | Math- [#55](https://github.com/d6g8k5htny-coder/Math-/pull/55) | tip `4e188e2…`; peer **AMEND** ([5848720985](https://github.com/d6g8k5htny-coder/Math-/pull/55#issuecomment-5848720985)) inner-disk/cone wording; repair **OFFERED**; eng≠theorem |
-| Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | tip `1991216…` TRANSVERSE_CONTACT_ASYMPTOTIC disposition; related [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80); **observe**; eng≠theorem |
+| Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | **MERGED** `55a3ced…` — see later row; related [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) substitute remains open |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | **CLOSED UNMERGED** NEVER-MAIN tip-observe ([5847478200](https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5847478200)); Section3–5 ACCEPT notes retained on governance-; OBL-H5-JETMOD remains OPEN; sci effect NONE |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | **CLOSED** without merge — superseded; bytes already on main via PR25 `53320cb…` ([5848730830](https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5848730830)); eng≠theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
@@ -91,7 +91,9 @@
 | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) | **MERGED** `71400b9…` live shop link; nav only |
 | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) | **MERGED** `d6628da…` unique integrity-gate check name; CI/eng only |
 | Math- [#78](https://github.com/d6g8k5htny-coder/Math-/pull/78) | **MERGED** `66e39d1…` vault security/owner routing docs + weekly Actions; CI/eng only |
-| Math- [#79](https://github.com/d6g8k5htny-coder/Math-/pull/79) | **MERGED** `9cbf24c…` Actions group bump; eng — **Math- tip** |
+| Math- [#79](https://github.com/d6g8k5htny-coder/Math-/pull/79) | **MERGED** `9cbf24c…` Actions group bump; eng |
+| Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | **MERGED** `55a3ced…` @ expected-head `1991216…` / reviewed `718029c…` ([5850573604](https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5850573604)); issue [#56](https://github.com/d6g8k5htny-coder/Math-/issues/56) **BLOCKED_ABSENT**; `PROOF_INDEX` L40 still RECOVERY OPEN — follow-up **OFFERED**; merge≠theorem — **Math- tip** |
+| Math- [#45](https://github.com/d6g8k5htny-coder/Math-/pull/45) | tip `7785bc8…` DRAFT; peer **AMEND** ([5850536323](https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5850536323)) RECONCILIATION.md + CLAIMS.json + update-branch; repair **OFFERED**; eng≠theorem |
 | Math- [#72](https://github.com/d6g8k5htny-coder/Math-/pull/72) | nonauthor AMEND of main [#125](https://github.com/d6g8k5htny-coder/main/pull/125); **observe**; do not race |
 | main [#148](https://github.com/d6g8k5htny-coder/main/pull/148) | tip `7556ddd…` **CI GREEN×5**; peer **AMEND** ([5848436007](https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007)) RESEARCH_MAP vs handoff visibility-record; repair **OFFERED**; eng≠theorem |
 | main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | **MERGED** `a12c178…` @ head `0335115…`; Codex residual body tip/SHA256 at merge (**rule 10**); museum index refresh **OFFERED**; eng≠theorem |
@@ -109,18 +111,19 @@
 | Math- [#84](https://github.com/d6g8k5htny-coder/Math-/pull/84) | **MERGED** `bebe09d…` H5 ledger inputs + rim exponent disclose; eng |
 | Math- [#85](https://github.com/d6g8k5htny-coder/Math-/pull/85) | **MERGED** `5ed3b45…` custody erratum + pairing/P15 note; eng — **Math- tip** |
 | Math- [#86](https://github.com/d6g8k5htny-coder/Math-/pull/86) | tip `0e248ad…` H5 rim literal input contract repair; **observe**; eng≠theorem |
+| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | tip `79a791a…`; peer **AMEND** ([5850565848](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848)) cards stale vs #70/#74/#76 + T-LIFETIME-REMAINDER misfile + dead audit links; repair **OFFERED**; eng≠theorem |
 
 | Math- [#83](https://github.com/d6g8k5htny-coder/Math-/pull/83) | **MERGED** `3a7dffc…` STAGE_E falsifier recovery + H4-JC replay; eng — **Math- tip** |
 | Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | tip `a79007e…` contact-kernel substitute draft; **observe**; do not race |
 | Math- [#81](https://github.com/d6g8k5htny-coder/Math-/pull/81) | tip `b28cf25…` Drive-hole ledger draft; **observe**; do not race |
 | Math- [#82](https://github.com/d6g8k5htny-coder/Math-/pull/82) | tip `b190a4d…` D5 microdisk det H_M vanishes; related to [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69); **observe**; do not race |
-| main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | tip `079615e…` AMEND **delivered** ([5850479003](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850479003)) `q_MS^br`+PREMISE-BRANCH-MASS; digests recorded; re-review **OFFERED**; eng≠theorem |
+| main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | tip `079615e…` AMEND **delivered** ([5850479003](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850479003)) `q_MS^br`+PREMISE-BRANCH-MASS; verify **FAIL** [36276560427](https://github.com/d6g8k5htny-coder/main/actions/runs/36276560427) (`before ref` `a380dcf` unresolved); re-verify pending; re-review **OFFERED**; eng≠theorem |
 | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | tip `00c9d08…` **DIRTY**; peer **AMEND** ([5850462018](https://github.com/d6g8k5htny-coder/main/pull/125#issuecomment-5850462018)) moment lemma + wording + rebase; repair **OFFERED**; eng≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `81dab5a` (Batch 553 tip_sync_watch); hardening tip `96e5175`; `main` tip `d77a85a` (#151); **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | **MERGED** `9d7b680…`; custody import; prior BYTE_COPY×9 @ `b39e9ff…` ([5847534053](https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053)); merge≠theorem |
 | main [#21](https://github.com/d6g8k5htny-coder/main/pull/21) | **MERGED** → hardening tip `96e5175…`; H3 admission attestations; sci effect NONE |
-| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; README conflict with #70 ([5847534262](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262)); **observe** |
+| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | tip `79a791a…` lemma/theorem reading maps; README conflict with #70 ([5847534262](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262)); peer **AMEND** 5850565848 — see row above |
 | Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60) | tip `ad27c6b…`; peer **AMEND** ([5848723841](https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5848723841)) M4 ledger + M3 digest + exact_check honesty; converge [#69](https://github.com/d6g8k5htny-coder/Math-/pull/69); repair **OFFERED**; eng≠theorem |
 | Math- [#64](https://github.com/d6g8k5htny-coder/Math-/pull/64) | `d573b99…` endpoint Hessian erratum; OA **ACCEPT_ERRATUM** (5843521502); **observe**; correction≠theorem |
 | Math- [#71](https://github.com/d6g8k5htny-coder/Math-/pull/71) | tip `21e3974…`; peer **AMEND** on record ([5848500725](https://github.com/d6g8k5htny-coder/Math-/pull/71#issuecomment-5848500725)) — C1/C2 stand; model attribution + PREMISS cite; repair **OFFERED**; eng≠theorem |
