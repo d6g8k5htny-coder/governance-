@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T18:26:15Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178; Math- tip 66e39d1. Math- #55/#60 peer AMEND; #52 ACCEPT+wording AMEND. Updated 2026-09-26T18:26:15Z.",
+  "updated_at": "2026-09-26T18:26:55Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip a12c178; Math- tip 66e39d1. Math- #49 CLOSED superseded (bytes via PR25 53320cb); #53 peer AMEND (5848728436) cone/inner-disk. Updated 2026-09-26T18:26:55Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2364,12 +2364,14 @@
         "pr": 49,
         "pr_state": "open",
         "head_oid": "596e8098bec751e16d0caa56ca15ca20052b38f3",
-        "source_pr25_oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73"
+        "source_pr25_oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73",
+        "closed": true,
+        "superseded_by_merge": "53320cbc8a4d15b9f675885a1d7760656bcc3b4f"
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T18:26:55Z",
       "expires_at": "2026-09-27T00:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [
         "reviews/collision_mechanism_20260925/",
         ".github/workflows/collision-mechanism-checks.yml"
@@ -2381,10 +2383,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/25",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36203521205",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36203521100",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5842142605"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5842142605",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5848730830",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/53320cbc8a4d15b9f675885a1d7760656bcc3b4f"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 596e809; OA integration-scope ACCEPT (5842142605): five-file blob MATCH vs PR25; review bindings MATCH; hosted replay SUCCESS 36203521205; zero org-independence; ready for separate expected-head land decision; merge \u2260 theorem; this App cannot push Math-; sci effect NONE"
+      "blocked_reason": "RELEASED/CLOSED without merge; tree no-op \u2014 bytes already on main via PR25 merge 53320cb; peer triage 5848730830; sci effect NONE"
     },
     {
       "work_id": "main-120-side24-source-recovery",
@@ -2719,20 +2723,22 @@
         "branch": "cursor/pr16-transverse-r1r5-review-b00c",
         "pr": 53,
         "pr_state": "open",
-        "head_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19"
+        "head_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19",
+        "peer_amend": "5848728436"
       },
       "claimed_at": "2026-09-26T01:13:20Z",
-      "heartbeat_at": "2026-09-26T01:13:20Z",
+      "heartbeat_at": "2026-09-26T18:26:55Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/53"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53#issuecomment-5848728436"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 9a6f8a6; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 9a6f8a6; BEHIND; peer AMEND (5848728436): cone product O(r^6(|q|+r)^2) not O(r^5); inner-disk density not uniform \u2014 need det repulsion; ledger r^2 log conjectural; prefer land before #69/#55/#60; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-54-proof-availability-audit",
@@ -3522,20 +3528,24 @@
         "pr": 49,
         "pr_state": "open",
         "head_oid": "596e8098bec751e16d0caa56ca15ca20052b38f3",
-        "accept_comment": "5842142605"
+        "accept_comment": "5842142605",
+        "closed": true,
+        "superseded_by_merge": "53320cbc8a4d15b9f675885a1d7760656bcc3b4f"
       },
       "claimed_at": "2026-09-26T01:54:30Z",
-      "heartbeat_at": "2026-09-26T16:01:30Z",
+      "heartbeat_at": "2026-09-26T18:26:55Z",
       "expires_at": "2026-09-27T04:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5842142605"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5842142605",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5848730830",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/53320cbc8a4d15b9f675885a1d7760656bcc3b4f"
       ],
       "delegates_to": "math-49-collision-package-integrate",
-      "blocked_reason": "OFFERED author-lane expected-head merge; this App cannot push Math-; merge \u2260 theorem accept"
+      "blocked_reason": "RELEASED/CLOSED without merge; tree no-op \u2014 bytes already on main via PR25 merge 53320cb; peer triage 5848730830; sci effect NONE"
     },
     {
       "work_id": "main-121-premis-z-lower-blocked",
@@ -4606,7 +4616,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T18:26:15Z",
+      "heartbeat_at": "2026-09-26T18:26:55Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5572,6 +5582,33 @@
       ],
       "delegates_to": "math-52-d2-cumulative-confirm",
       "blocked_reason": "OFFERED wording AMEND after ACCEPT; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-53-cone-inner-disk-amend",
+      "scope": "Rewrite cone contact-limit O(r^3); prove or drop inner-disk r^2 log; real negative controls",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 53,
+        "head_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19",
+        "finding_comment": "5848728436"
+      },
+      "claimed_at": "2026-09-26T18:26:55Z",
+      "heartbeat_at": "2026-09-26T18:26:55Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53#issuecomment-5848728436"
+      ],
+      "delegates_to": "math-53-pin-neighborhood-recon",
+      "blocked_reason": "OFFERED peer AMEND; input for #69/#55/#60; this App does not race; sci effect NONE"
     }
   ]
 }
