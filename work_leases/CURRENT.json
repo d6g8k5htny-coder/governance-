@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:34:15Z",
-  "notes": "Compact ledger. Sci effect NONE. ULW #4 submodule pins DRAFT @ 9f48aed (observe); #3 composition note 5847506343. Authority fail-open residual still open (not fixed on #4 tip). Updated 2026-09-26T15:34:15Z.",
+  "updated_at": "2026-09-26T15:37:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #70 BYTE_COPY\u00d79 verified by OA (5847534053) @ b39e9ff; README conflict with #46 \u2014 do not race. Updated 2026-09-26T15:37:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2443,17 +2443,18 @@
         "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T15:37:30Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/46"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 79a791a (ready-for-review); reading maps only; do not race assignee; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 79a791a (ready-for-review); reading maps only; do not race assignee; sci effect NONE; README conflict with #70 (5847534262) \u2014 do not race"
     },
     {
       "work_id": "main-98-base-integration-1ae02b9",
@@ -3811,20 +3812,23 @@
         "branch": "cursor/proof-custody-repair-8e33",
         "pr": 70,
         "pr_state": "open",
-        "head_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7"
+        "head_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+        "custody_verify": "BYTE_COPY_9_MATCH_5847534053",
+        "readme_conflict_pr": 46
       },
       "claimed_at": "2026-09-26T06:45:00Z",
-      "heartbeat_at": "2026-09-26T09:35:00Z",
+      "heartbeat_at": "2026-09-26T15:37:30Z",
       "expires_at": "2026-09-27T10:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/70"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/70",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ b39e9ff; CI green (landing/replay/imports/exact-checks); custody from main ebedb78; sci effect NONE; do not race"
+      "blocked_reason": "OFFERED observe DRAFT @ b39e9ff; OA BYTE_COPY\u00d79 verified (5847534053) vs main@ebedb78; README conflict with #46 \u2014 do not race README; custody\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-tip-publish-nav-4a72a5a",
