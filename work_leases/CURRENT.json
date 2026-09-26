@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:34:20Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 tip 5cf4f36 CI GREEN + author SUCCESS receipt 5841552221 (adapter 827ae021\u2026); immutable head for OA E6 re-review OFFERED. Updated 2026-09-26T00:34:20Z.",
+  "updated_at": "2026-09-26T00:42:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Pulse 00:42Z: #98 tip 5cf4f36 CI green await OA; #112 no Section6+ yet; Math- #49 CI green @ 596e809; observe main #120 SIDE24 source recovery @ 7ed8d1e + Math- #46 reading maps. Updated 2026-09-26T00:42:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -22,7 +22,7 @@
         "adapter_sha256": "827ae02110bce22aaf48a5800bb0a4cd9a28164a601867e802f494ec378f23d2"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T00:34:20Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -379,10 +379,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "2341609a78752e7b6dcee5c1d4d99c7b13b11a50"
+        "head_oid": "c2ec696f2cac694767cb005e9828b869877c4262"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T00:34:30Z",
+      "heartbeat_at": "2026-09-26T00:42:50Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -709,7 +709,7 @@
         "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-26T00:11:40Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -747,7 +747,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-26T00:11:40Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -1589,7 +1589,7 @@
         "parent_sha256": "87521901ca8e5405b4d1e47f1deb1cd0326affbd6f5967b53c4178590da993f9"
       },
       "claimed_at": "2026-09-25T21:53:10Z",
-      "heartbeat_at": "2026-09-26T00:11:40Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
       "expires_at": "2026-09-26T22:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2175,7 +2175,7 @@
         "head_oid": "5cf4f366c70d8cd8a548a4488184601c8714bfaa"
       },
       "claimed_at": "2026-09-26T00:07:30Z",
-      "heartbeat_at": "2026-09-26T00:34:20Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2246,7 +2246,7 @@
         "adapter_sha256": "6bf3ab15e111b09ba5068605ad3d0e04794eca7d45838613329c47f320c15435"
       },
       "claimed_at": "2026-09-26T00:09:40Z",
-      "heartbeat_at": "2026-09-26T00:33:10Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2280,7 +2280,7 @@
         "ledger_bytes": 253067
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T00:23:20Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2317,7 +2317,7 @@
         "source_pr25_oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73"
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T00:11:40Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2328,10 +2328,70 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/49",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/25"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/25",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36203521205",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36203521100"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 596e809; observe only; reuses PR25 reviewed blobs; merge \u2260 theorem accept; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ 596e809; CI green (exact-checks 36203521205 + replay 36203521100); observe only; merge \u2260 theorem accept; sci effect NONE"
+    },
+    {
+      "work_id": "main-120-side24-source-recovery",
+      "scope": "Source-custody recovery of SIDE24 theorem-chain Drive files into Git; no re-ratification / scientific promotion",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "chatgpt/side24-source-recovery-20260925",
+        "pr": 120,
+        "pr_state": "open",
+        "head_oid": "7ed8d1e23fee25c8d6504b9e561ed7e5e46de195"
+      },
+      "claimed_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "expires_at": "2026-09-27T01:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "research/side24/source_recovery/",
+        "research/PINNED_SOURCES.md"
+      ],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/120"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "ACTIVE DRAFT @ 7ed8d1e; CI in progress; custody-only; eng\u2260theorem / no re-ratification; observe from governance-"
+    },
+    {
+      "work_id": "math-46-lemma-theorem-reading-maps",
+      "scope": "Closed/open lemma and theorem reading maps; documentation/navigation only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 46,
+        "pr_state": "open",
+        "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee"
+      },
+      "claimed_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "expires_at": "2026-09-27T01:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe @ 79a791a (ready-for-review); reading maps only; do not race assignee; sci effect NONE"
     }
   ]
 }
