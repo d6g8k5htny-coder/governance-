@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T21:30:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 64edf72 (#162); Math- tip 3a7dffc (#83). Watched open tips unchanged. Pulse 21:30Z. Updated 2026-09-26T21:30:50Z.",
+  "updated_at": "2026-09-26T22:01:10Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip b4cc529 (#164); Math- tip 5ed3b45 (#85). Also Math- #84 MERGED; observe main #163. Open tips unchanged. Pulse 22:00Z. Updated 2026-09-26T22:01:10Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4623,7 +4623,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T21:30:50Z",
+      "heartbeat_at": "2026-09-26T22:01:10Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5993,6 +5993,112 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/3a7dffc322f1faaf55a01b896655e16fe9aef036"
       ],
       "blocked_reason": "RELEASED/MERGED 3a7dffc; falsifier recovery/replay; sci effect NONE"
+    },
+    {
+      "work_id": "main-164-h5-inputs-loader-review",
+      "scope": "Link recovered H5 inputs and loader review",
+      "owner": {
+        "provider": "openai",
+        "model": "codex",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 164,
+        "merge_oid": "b4cc5298e178f0fbcaebac505589300854179286",
+        "head_oid": "1cd72cbaff1171719652b8c91576d69088dcb4f7"
+      },
+      "claimed_at": "2026-09-26T22:01:10Z",
+      "heartbeat_at": "2026-09-26T22:01:10Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/164",
+        "https://github.com/d6g8k5htny-coder/main/commit/b4cc5298e178f0fbcaebac505589300854179286"
+      ],
+      "blocked_reason": "RELEASED/MERGED b4cc529; eng/docs; sci effect NONE"
+    },
+    {
+      "work_id": "math-84-h5-ledger-rim-exponent",
+      "scope": "Recover H5 ledger inputs and disclose rim exponent mismatch",
+      "owner": {
+        "provider": "openai",
+        "model": "codex",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 84,
+        "merge_oid": "bebe09d2f62e7cbff8a7eb4d8e588fc3acb068a4",
+        "head_oid": "f6a63031547c2433267b05a676d74fd54fb4412d"
+      },
+      "claimed_at": "2026-09-26T22:01:10Z",
+      "heartbeat_at": "2026-09-26T22:01:10Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/84",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/bebe09d2f62e7cbff8a7eb4d8e588fc3acb068a4"
+      ],
+      "blocked_reason": "RELEASED/MERGED bebe09d; custody/recovery; sci effect NONE"
+    },
+    {
+      "work_id": "math-85-custody-erratum-pairing-p15",
+      "scope": "custody: erratum on default, cap pairing identities, P15 ASCII note",
+      "owner": {
+        "provider": "openai",
+        "model": "codex",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 85,
+        "merge_oid": "5ed3b455b9a192487cedb32ad5dd8f2b90fbc1c1",
+        "head_oid": "ff3666764c35cad2837c9c7299fb447a82792bad"
+      },
+      "claimed_at": "2026-09-26T22:01:10Z",
+      "heartbeat_at": "2026-09-26T22:01:10Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/85",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/5ed3b455b9a192487cedb32ad5dd8f2b90fbc1c1"
+      ],
+      "blocked_reason": "RELEASED/MERGED 5ed3b45; custody erratum/docs; sci effect NONE"
+    },
+    {
+      "work_id": "main-163-grok-session-replay-ledger",
+      "scope": "incoming/grok-session-20260926-replay: additive session ledger",
+      "owner": {
+        "provider": "xai",
+        "model": "grok",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 163,
+        "head_oid": "4b0205553db30162eb85b9a90431b3eadb5bee1b"
+      },
+      "claimed_at": "2026-09-26T22:01:10Z",
+      "heartbeat_at": "2026-09-26T22:01:10Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/163"
+      ],
+      "blocked_reason": "OFFERED observe DRAFT session ledger; do not race; sci effect NONE"
     }
   ]
 }
