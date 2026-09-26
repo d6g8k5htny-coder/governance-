@@ -50,8 +50,8 @@
 | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `2804dc1…` **MERGED**; Cursor R6 AMEND stands (citation); merge ≠ theorem accept |
 | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` **MERGED**; Cursor (2)–(8) ACCEPT on governance-; inner axial only; merge ≠ RN closure |
 | Math- [#19](https://github.com/d6g8k5htny-coder/Math-/pull/19) | `e93eade…` **MERGED**; Cursor R1–R6 ACCEPT on governance-; merge ≠ theorem acceptance; sci effect NONE |
-| Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | `e707da6…`; **replay green**; **undrafted** — hosted witness verified; ready for distinct-lane check; no self-approval |
-| Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | `32b80ee…`; **Cursor R1–R5 ACCEPT** (`amendments/20260925-math16-transverse-review.md`); fixed-η transverse count only — **not** PR9 acceptance; do not race |
+| Math- [#17](https://github.com/d6g8k5htny-coder/Math-/pull/17) | **CLOSED** CONSUMED REVIEW EVIDENCE — six-pin witness (5841313010) |
+| Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | **CLOSED** SUPERSEDED/CONSUMED EVIDENCE (5841312565) |
 | Outside reviews (#15/#16/#18/#19/#21/#22) | #15 eng ACCEPT; #16 R1–R5 ACCEPT; #18 MATCH×7; #19 R1–R6 ACCEPT; #21 (2)–(8) ACCEPT; #22 R1–R8+S ACCEPT — all on governance-; #98 AMEND_REQUIRED on main author lane |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `6da327b…` **MERGED**; P1–P5 ACCEPT |
 

@@ -38,3 +38,8 @@ Correctly refuses `η→0`, pin collisions, intermediate distances, multi-witnes
 **Not awarded:** organizational independence; formal verification; PR9 chart acceptance; scientific-status change.
 
 **Provenance:** governance- `cursor/process-packet-scope-ab08`; App write limited to this repository.
+
+
+## Addendum — PR CLOSED (2026-09-26T00:05Z)
+
+Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) CLOSED UNMERGED as SUPERSEDED/CONSUMED EVIDENCE ([5841312565](https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5841312565)). Prior R1–R5 ACCEPT note remains historical; stronger annulus via merged #22/#28. Sci effect NONE.

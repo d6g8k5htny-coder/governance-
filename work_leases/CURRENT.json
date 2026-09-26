@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:04:31Z",
-  "notes": "Compact ledger. Sci effect NONE. governance- #4 MERGED. main #98 tip feea1df: normalized digests + graph restored to cc6a578; OA re-review OFFERED. #112 Section3 C1–C5 ACTIVE on peer bc-4ff21625-bfbf-5a05-a6f7-db92c607c720. Updated 2026-09-26T00:04:31Z.",
+  "updated_at": "2026-09-26T00:05:44Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #16 CLOSED SUPERSEDED/CONSUMED EVIDENCE; #17 CLOSED CONSUMED REVIEW EVIDENCE (six-pin witness). Updated 2026-09-26T00:05:44Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -563,18 +563,15 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/downstream-boundary-review-20260925",
         "pr": 16,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
         "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
       },
       "claimed_at": "2026-09-25T18:30:00Z",
-      "heartbeat_at": "2026-09-25T21:00:30Z",
+      "heartbeat_at": "2026-09-26T00:05:44Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
-      "write_scope": [
-        "reviews/downstream_boundary_20260925/",
-        ".github/workflows/downstream-boundary-review.yml"
-      ],
+      "state": "SUPERSEDED",
+      "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
@@ -582,10 +579,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5838127477",
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838519626",
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838822651",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math16-transverse-review.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math16-transverse-review.md",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5841312565"
       ],
       "delegates_to": null,
-      "blocked_reason": "DRAFT AUTHOR-SIDE package; Cursor R1–R5 ACCEPT filed on governance- (amendments/20260925-math16-transverse-review.md) — not PR9 acceptance; sci effect NONE; do not race write_scope"
+      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1–R5 via #26; stronger #22/#28 merged"
     },
     {
       "work_id": "math-17-pin-compatibility-review",
@@ -599,28 +597,26 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/d5-pin-compatibility-review-20260925",
         "pr": 17,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
         "head_oid": "e707da6f1451c08a7ca3fcd393ee4f2b4d636dcc"
       },
       "claimed_at": "2026-09-25T19:14:00Z",
-      "heartbeat_at": "2026-09-25T20:06:39Z",
+      "heartbeat_at": "2026-09-26T00:05:44Z",
       "expires_at": "2026-09-26T06:00:00Z",
-      "state": "ACTIVE",
-      "write_scope": [
-        "reviews/d5_pin_compatibility_20260925/",
-        ".github/workflows/pin-compatibility.yml"
-      ],
+      "state": "RELEASED",
+      "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/17",
         "https://github.com/d6g8k5htny-coder/Math-/pull/9#issuecomment-5838161465",
         "https://github.com/d6g8k5htny-coder/Math-/pull/17#issuecomment-5838239224",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36178401372"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36178401372",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/17#issuecomment-5841313010"
       ],
       "delegates_to": null,
-      "blocked_reason": "undrafted; witness replay green; awaiting distinct-lane check; no self-approval"
+      "blocked_reason": "RELEASED/CLOSED CONSUMED REVIEW EVIDENCE (5841313010): six-pin witness did its job; #9 CLOSED; correction in #19; preserve provenance"
     },
     {
       "work_id": "math-19-finite-r-hermite-repair",
@@ -671,24 +667,25 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/downstream-boundary-review-20260925",
         "pr": 16,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
         "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
       },
       "claimed_at": "2026-09-25T20:58:00Z",
-      "heartbeat_at": "2026-09-25T21:00:30Z",
+      "heartbeat_at": "2026-09-26T00:05:44Z",
       "expires_at": "2026-09-26T19:45:00Z",
-      "state": "RELEASED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838519626",
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838822651",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math16-transverse-review.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math16-transverse-review.md",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5841312565"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: R1–R5 ACCEPT at 32b80ee filed on governance- amendments/20260925-math16-transverse-review.md; not PR9 acceptance; sci effect NONE"
+      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1–R5 via #26; stronger #22/#28 merged"
     },
     {
       "work_id": "math-18-p15-smt-pilot",
@@ -907,23 +904,24 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/downstream-boundary-review-20260925",
         "pr": 16,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
         "head_oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21"
       },
       "claimed_at": "2026-09-25T20:58:00Z",
-      "heartbeat_at": "2026-09-25T21:00:30Z",
+      "heartbeat_at": "2026-09-26T00:05:44Z",
       "expires_at": "2026-09-26T20:00:00Z",
-      "state": "RELEASED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5838822651",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math16-transverse-review.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math16-transverse-review.md",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/16#issuecomment-5841312565"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED: R1–R5 ACCEPT at 32b80ee filed on governance- amendments/20260925-math16-transverse-review.md; not PR9 acceptance; sci effect NONE"
+      "blocked_reason": "SUPERSEDED/CLOSED UNMERGED CONSUMED EVIDENCE (5841312565): mixed pin-falsifier/obsolete #98 probe/transverse candidate; R1–R5 via #26; stronger #22/#28 merged"
     },
     {
       "work_id": "math-19-finite-r-math-review",
