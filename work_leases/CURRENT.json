@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:53:30Z",
-  "notes": "Compact ledger. Sci effect NONE. #122 @ 6a7f1f6 receipt (5842136756): local event-compare transition_ok; hosted CI pending; A1/A6 OFFERED. Math- #54 OA ACTIVE integration repair (5842137854). Updated 2026-09-26T01:53:30Z.",
+  "updated_at": "2026-09-26T01:54:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #49 OA integration-scope ACCEPT (5842142605) @ 596e809 — exact-byte MATCH; ready for separate expected-head land decision. Updated 2026-09-26T01:54:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2356,7 +2356,7 @@
         "source_pr25_oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73"
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T01:54:30Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2369,10 +2369,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/49",
         "https://github.com/d6g8k5htny-coder/Math-/pull/25",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36203521205",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36203521100"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36203521100",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5842142605"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 596e809; CI green (exact-checks 36203521205 + replay 36203521100); observe only; merge ≠ theorem accept; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ 596e809; OA integration-scope ACCEPT (5842142605): five-file blob MATCH vs PR25; review bindings MATCH; hosted replay SUCCESS 36203521205; zero org-independence; ready for separate expected-head land decision; merge ≠ theorem; this App cannot push Math-; sci effect NONE"
     },
     {
       "work_id": "main-120-side24-source-recovery",
@@ -3415,6 +3416,34 @@
       ],
       "delegates_to": "math-66-p15-full-price-acceptance",
       "blocked_reason": "OFFERED integration of local support-edge candidate; author/peer must publish tip; this App cannot push Math-; metadata only; sci effect NONE"
+    },
+    {
+      "work_id": "math-49-author-merge-596e809",
+      "scope": "Expected-head integration decision for Math- #49 @ 596e809 after OA integration-scope ACCEPT",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 49,
+        "pr_state": "open",
+        "head_oid": "596e8098bec751e16d0caa56ca15ca20052b38f3",
+        "accept_comment": "5842142605"
+      },
+      "claimed_at": "2026-09-26T01:54:30Z",
+      "heartbeat_at": "2026-09-26T01:54:30Z",
+      "expires_at": "2026-09-27T04:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5842142605"
+      ],
+      "delegates_to": "math-49-collision-package-integrate",
+      "blocked_reason": "OFFERED author-lane expected-head merge; this App cannot push Math-; merge ≠ theorem accept"
     }
   ]
 }
