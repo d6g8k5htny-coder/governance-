@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T16:00:20Z",
-  "notes": "Compact ledger. Sci effect NONE. governance- #3 MERGED ae1b92e; successor #5 (cursor/lease-watch-continuation-ab08). Hot: #135 @ 16b00c1; #134 @ 497ceff; Math- #70 @ 44901b5. Updated 2026-09-26T16:00:20Z.",
+  "updated_at": "2026-09-26T16:01:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #70 MERGED \u2192 tip 9d7b680. Hardening tip 96e5175 (#21 MERGED). gov #5 watch. #134/@497ceff + #135/@16b00c1 verify still in progress. Updated 2026-09-26T16:01:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -872,7 +872,7 @@
         "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191"
       },
       "claimed_at": "2026-09-25T20:05:12Z",
-      "heartbeat_at": "2026-09-26T02:10:00Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -3023,7 +3023,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:25:00Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3434,7 +3434,7 @@
         "main_tip": "b120e705654a773ac4ba04c324e5f85087e61ab4"
       },
       "claimed_at": "2026-09-26T01:49:00Z",
-      "heartbeat_at": "2026-09-26T15:31:15Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3508,7 +3508,7 @@
         "accept_comment": "5842142605"
       },
       "claimed_at": "2026-09-26T01:54:30Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3700,7 +3700,7 @@
         "claim_comment": "5846575968"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-26T15:59:55Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3814,29 +3814,31 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "cursor/proof-custody-repair-8e33",
         "pr": 70,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "44901b5c17bdaddaf2fc8444aaf9b1d7a38b5f3d",
         "custody_verify": "BYTE_COPY_9_MATCH_5847534053",
         "readme_conflict_pr": 46,
         "pr_ready": true,
         "prior_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
         "merged_main": "10e1f191",
-        "ci": "green_4_44901b5"
+        "ci": "green_4_44901b5",
+        "merge_oid": "9d7b6802424fb4715b31999066aafca8ee2f3cca"
       },
       "claimed_at": "2026-09-26T06:45:00Z",
-      "heartbeat_at": "2026-09-26T15:59:55Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T10:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/70",
         "https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/44901b5c17bdaddaf2fc8444aaf9b1d7a38b5f3d"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/44901b5c17bdaddaf2fc8444aaf9b1d7a38b5f3d",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/9d7b6802424fb4715b31999066aafca8ee2f3cca"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED ready-for-review @ 44901b5 (merged Math- main 10e1f19); CI GREEN\u00d74; prior BYTE_COPY\u00d79 was @ b39e9ff (5847534053) \u2014 tip moved; README still conflicts with #46; do not race; custody\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED \u2192 Math- tip 9d7b680; custody import only; BYTE_COPY prior @ b39e9ff (5847534053); merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-tip-publish-nav-4a72a5a",
@@ -3975,7 +3977,7 @@
         "repair_comment": "5847678135"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T15:59:55Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -4021,7 +4023,7 @@
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T15:59:55Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4299,7 +4301,7 @@
         "ci": "verify_SUCCESS"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-26T15:59:55Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-27T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4397,10 +4399,11 @@
         "pr": 136,
         "pr_state": "open",
         "head_oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f",
-        "base_branch": "chatgpt/drive-github-hardening-20260919"
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "ci": "pr_verify_SUCCESS_push_FAIL"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T15:56:15Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4410,7 +4413,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/136"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ aadcdda; eng labelling; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ aadcdda; PR-event verify SUCCESS, push-event verify FAIL (likely zero-before-ref process rule 9); do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-4-submodule-pins",
@@ -4464,7 +4467,7 @@
         "repair_comment": "5847639970"
       },
       "claimed_at": "2026-09-26T15:53:30Z",
-      "heartbeat_at": "2026-09-26T15:58:30Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4524,7 +4527,7 @@
         "repair_comment": "5847678135"
       },
       "claimed_at": "2026-09-26T15:58:30Z",
-      "heartbeat_at": "2026-09-26T15:59:55Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4554,7 +4557,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T16:00:20Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4570,6 +4573,39 @@
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge; sci effect NONE"
+    },
+    {
+      "work_id": "main-21-h3-admission-attestations",
+      "scope": "Architectural admission attestations + salvaged H3 review artifacts; eng/custody",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "claude/github-chatgpt-xxw5kp",
+        "pr": 21,
+        "pr_state": "merged",
+        "head_oid": "67de1a2111da5720fd868c12168d8945b304b717",
+        "merge_oid": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "prior_hardening_tip": "cd66a655d0a922a7dcc1ffe8a28be62a43d7151d"
+      },
+      "claimed_at": "2026-09-26T15:59:24Z",
+      "heartbeat_at": "2026-09-26T16:01:30Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/21",
+        "https://github.com/d6g8k5htny-coder/main/commit/96e5175306f7ab791a9ad021d0d39ecc1fbfee57",
+        "https://github.com/d6g8k5htny-coder/main/commit/67de1a2111da5720fd868c12168d8945b304b717"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED/MERGED \u2192 hardening tip 96e5175; admission/H3 artifacts; sci effect NONE"
     }
   ]
 }

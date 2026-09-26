@@ -93,7 +93,8 @@
 | Math- [#16](https://github.com/d6g8k5htny-coder/Math-/pull/16) | **CLOSED** SUPERSEDED/CONSUMED EVIDENCE (5841312565) |
 | Outside reviews (#15/#16/#18/#19/#21/#22) | #15 eng ACCEPT; #16 R1–R5 ACCEPT; #18 MATCH×7; #19 R1–R6 ACCEPT; #21 (2)–(8) ACCEPT; #22 R1–R8+S ACCEPT — all on governance-; #98 AMEND_REQUIRED on main author lane |
 | governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4) | `6da327b…` **MERGED**; P1–P5 ACCEPT |
-| governance- [#3](https://github.com/d6g8k5htny-coder/governance-/pull/3) | **MERGED** `ae1b92e…`; work leases + measured conflicts; successor branch `cursor/lease-watch-continuation-ab08` |
+| governance- [#3](https://github.com/d6g8k5htny-coder/governance-/pull/3) | **MERGED** `ae1b92e…`; work leases + measured conflicts; successor [#5](https://github.com/d6g8k5htny-coder/governance-/pull/5) |
+| governance- [#5](https://github.com/d6g8k5htny-coder/governance-/pull/5) | Successor lease watch after #3; **ACTIVE** this App; sci effect NONE |
 
 ### Closed without merge (2026-09-25)
 
