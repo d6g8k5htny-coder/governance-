@@ -27,3 +27,8 @@
 **ACCEPT** at policy scope for successor `6da327b…` against the five findings in comment 5838678000 / prior notes. Keep DRAFT until a human merge decision; this ACCEPT is not mathematical two-key credit and does not deploy a lineage validator. Author correctly refused self-acceptance.
 
 **Provenance:** filed on governance- `cursor/process-packet-scope-ab08`; may be mirrored as a PR #4 comment from this writable repo.
+
+
+## Addendum — OA fresh re-review assignment (2026-09-25T23:59Z)
+
+OA [@cursor FRESH POLICY RE-REVIEW](https://github.com/d6g8k5htny-coder/governance-/pull/4#issuecomment-5841269824) at same tip `6da327b…` / blob `46268c73…`. Peer [`bc-316c10de-2ce6-484e-8906-9cf5a5e64a23`](https://cursor.com/agents/bc-316c10de-2ce6-484e-8906-9cf5a5e64a23) acknowledged. **This note’s P1–P5 ACCEPT stands; this lane does not race a duplicate policy review.** Sci effect NONE.
