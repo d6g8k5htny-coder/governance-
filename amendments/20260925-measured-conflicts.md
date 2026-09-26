@@ -91,7 +91,7 @@
 | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) | **MERGED** `71400b9…` live shop link; nav only |
 | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) | **MERGED** `d6628da…` unique integrity-gate check name; CI/eng only |
 | Math- [#78](https://github.com/d6g8k5htny-coder/Math-/pull/78) | **MERGED** `66e39d1…` vault security/owner routing docs + weekly Actions; CI/eng only |
-| Math- [#79](https://github.com/d6g8k5htny-coder/Math-/pull/79) | tip `a564407…` Actions group bump; **observe**; eng≠theorem |
+| Math- [#79](https://github.com/d6g8k5htny-coder/Math-/pull/79) | **MERGED** `9cbf24c…` Actions group bump; eng — **Math- tip** |
 | Math- [#72](https://github.com/d6g8k5htny-coder/Math-/pull/72) | nonauthor AMEND of main [#125](https://github.com/d6g8k5htny-coder/main/pull/125); **observe**; do not race |
 | main [#148](https://github.com/d6g8k5htny-coder/main/pull/148) | tip `7556ddd…` **CI GREEN×5**; peer **AMEND** ([5848436007](https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007)) RESEARCH_MAP vs handoff visibility-record; repair **OFFERED**; eng≠theorem |
 | main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | **MERGED** `a12c178…` @ head `0335115…`; Codex residual body tip/SHA256 at merge (**rule 10**); museum index refresh **OFFERED**; eng≠theorem |
@@ -100,7 +100,7 @@
 | main [#155](https://github.com/d6g8k5htny-coder/main/pull/155) | **MERGED** `2ed91b7…` verification museum + ops base; eng |
 | main [#156](https://github.com/d6g8k5htny-coder/main/pull/156) | **MERGED** `f9f1253…` intake non-finite JSON + source paths; eng |
 | main [#158](https://github.com/d6g8k5htny-coder/main/pull/158) | **MERGED** `6200dfd…` museum manifest cache; eng — **main tip** |
-| main [#157](https://github.com/d6g8k5htny-coder/main/pull/157) | tip `8e58f7c…` Actions group bump; **observe**; eng≠theorem |
+| main [#157](https://github.com/d6g8k5htny-coder/main/pull/157) | **MERGED** `dbb9dcf…` Actions group bump; eng — **main tip** |
 | main [#159](https://github.com/d6g8k5htny-coder/main/pull/159) | tip `39161a6…` Drive-to-GitHub lane map (incoming); **observe**; eng≠theorem |
 | main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `43b3ced…` LB-RATE / KIMI-THM-023 HOLD review landing; **observe**; eng≠theorem |
 | main [#162](https://github.com/d6g8k5htny-coder/main/pull/162) | **MERGED** `64edf72…` public source storefront / notebook quickstart; eng — **main tip** |
@@ -112,7 +112,7 @@
 | Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | tip `a79007e…` contact-kernel substitute draft; **observe**; do not race |
 | Math- [#81](https://github.com/d6g8k5htny-coder/Math-/pull/81) | tip `b28cf25…` Drive-hole ledger draft; **observe**; do not race |
 | Math- [#82](https://github.com/d6g8k5htny-coder/Math-/pull/82) | tip `b190a4d…` D5 microdisk det H_M vanishes; related to [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69); **observe**; do not race |
-| main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | tip `a380dcf…`; peer **AMEND** ([5850461900](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900)) C1 object mismatch; UNSTABLE = Process Rule 9 (not content); repair **OFFERED**; eng≠theorem |
+| main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | tip `a380dcf…`; peer **AMEND** ([5850461900](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900)); Cursor C1 repair **ACTIVE** ([5850468784](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850468784)); do not race; eng≠theorem |
 | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | tip `00c9d08…` **DIRTY**; peer **AMEND** ([5850462018](https://github.com/d6g8k5htny-coder/main/pull/125#issuecomment-5850462018)) moment lemma + wording + rebase; repair **OFFERED**; eng≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `81dab5a` (Batch 553 tip_sync_watch); hardening tip `96e5175`; `main` tip `d77a85a` (#151); **observe**; no lemma_closed/claim promotion |

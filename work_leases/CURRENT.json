@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T22:30:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip b4cc529; Math- tip 5ed3b45. #125/#124 peer AMEND; #157/#79 tip moves (Actions bumps). Updated 2026-09-26T22:30:20Z.",
+  "updated_at": "2026-09-26T22:31:10Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf (#157); Math- tip 9cbf24c (#79). #124 C1 repair CLAIMED by Cursor (5850468784) @ a380dcf. Updated 2026-09-26T22:31:10Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3072,10 +3072,11 @@
         "parent_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372",
         "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89",
         "merge_state": "UNSTABLE",
-        "peer_amend": "5850461900"
+        "peer_amend": "5850461900",
+        "repair_claim": "5850468784"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T22:30:20Z",
+      "heartbeat_at": "2026-09-26T22:31:10Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3089,10 +3090,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5842127579",
         "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5842152602",
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main121-premis-z-lower-blocked.md",
-        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900"
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900",
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850468784"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "ACTIVE preferred C1/C2 carrier @ a380dcf; peer AMEND (5850461900): C1 object mismatch (1-q_MS cannot be event-restricted); C2 scope note; UNSTABLE explained as Process Rule 9 (first-push before=0000), not content; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE preferred C1/C2 carrier @ a380dcf; peer AMEND 5850461900; Cursor ACK+repair claim (5850468784) option (a) q_MS^br + PREMISE-BRANCH-MASS; await tip; do not race; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-rereview-offer",
@@ -4627,7 +4629,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T22:30:20Z",
+      "heartbeat_at": "2026-09-26T22:31:10Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5333,19 +5335,21 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 79,
-        "head_oid": "a5644076bda5faed62c460015ba73a9b1a03a251"
+        "head_oid": "a5644076bda5faed62c460015ba73a9b1a03a251",
+        "merge_oid": "9cbf24cc3c4451a487d1a7ae6f3f467193bd26b8"
       },
       "claimed_at": "2026-09-26T18:02:30Z",
-      "heartbeat_at": "2026-09-26T22:30:20Z",
+      "heartbeat_at": "2026-09-26T22:31:10Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/79"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/79",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/9cbf24cc3c4451a487d1a7ae6f3f467193bd26b8"
       ],
-      "blocked_reason": "OFFERED observe ready @ a564407 (Actions bump tip move); eng\u2260theorem; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED 9cbf24c; Actions bump; sci effect NONE"
     },
     {
       "work_id": "math-72-main125-nonauthor-amend",
@@ -5775,19 +5779,21 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 157,
-        "head_oid": "8e58f7c45e0ae37fbd2cd40e2bdacda00625a76e"
+        "head_oid": "8e58f7c45e0ae37fbd2cd40e2bdacda00625a76e",
+        "merge_oid": "dbb9dcf64d23ecb45267ce2779f69f17b2fa6265"
       },
       "claimed_at": "2026-09-26T18:33:00Z",
-      "heartbeat_at": "2026-09-26T22:30:20Z",
+      "heartbeat_at": "2026-09-26T22:31:10Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/157"
+        "https://github.com/d6g8k5htny-coder/main/pull/157",
+        "https://github.com/d6g8k5htny-coder/main/commit/dbb9dcf64d23ecb45267ce2779f69f17b2fa6265"
       ],
-      "blocked_reason": "OFFERED observe ready @ 8e58f7c (Actions bump tip move); eng\u2260theorem; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED/MERGED dbb9dcf; Actions bump; sci effect NONE"
     },
     {
       "work_id": "math-69-successor-freeze-r1r2",
@@ -6136,28 +6142,30 @@
       "work_id": "main-124-c1-object-amend",
       "scope": "Fix C1 object (q_MS^br or joint-event bound); narrow PREMISE-Z-LOWER liminf scope",
       "owner": {
-        "provider": "anthropic",
-        "model": "claude",
-        "agent": "d6g8k5htny-coder"
+        "provider": "cursor",
+        "model": "cursor",
+        "agent": "cursor[bot]"
       },
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 124,
         "head_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25",
-        "finding_comment": "5850461900"
+        "finding_comment": "5850461900",
+        "claim_comment": "5850468784"
       },
       "claimed_at": "2026-09-26T22:30:20Z",
-      "heartbeat_at": "2026-09-26T22:30:20Z",
+      "heartbeat_at": "2026-09-26T22:31:10Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900"
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850461900",
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850468784"
       ],
       "delegates_to": "main-124-c1c2-repair",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "ACTIVE under Cursor claim 5850468784 @ a380dcf; applying q_MS^br + PREMISE-BRANCH-MASS; this App does not race; sci effect NONE"
     }
   ]
 }
