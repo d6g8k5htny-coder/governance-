@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T02:05:00Z",
-  "notes": "Compact ledger. Sci effect NONE. main #120 MERGED 2f7a5a9 (head d486dd1 SIDE24 custody); CI green 36209236393; no re-ratification. Updated 2026-09-26T02:05:00Z.",
+  "updated_at": "2026-09-26T02:08:00Z",
+  "notes": "Compact ledger. Sci effect NONE. #122 OA ACTIVE A1/A6 re-review (5842239403) @ 6a7f1f6; zero org-independence. Hardening tip 2f7a5a9. Updated 2026-09-26T02:08:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2624,7 +2624,7 @@
         "control_blob": "2892248934bc0ac9ba3463faa51917b6b9e085ac"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T01:53:30Z",
+      "heartbeat_at": "2026-09-26T02:08:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2644,10 +2644,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842118786",
         "https://github.com/d6g8k5htny-coder/main/commit/6a7f1f6cfb49703b7b758343d65b3b65abe6b11b",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36209829911",
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842136756"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842136756",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842239403"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 6a7f1f6 (5842136756): base-sync merge receipt; SARD-G blobs preserved; local event-compare transition_ok; hosted CI in progress (36209829911); A1/A6 nonauthor re-check OFFERED; eng≠theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ 6a7f1f6; base-sync done; OA ACTIVE A1/A6 re-review (5842239403); await verdict + hosted CI; eng≠theorem; sci effect NONE"
     },
     {
       "work_id": "math-52-d2-cumulative-confirm",
@@ -3085,9 +3086,9 @@
       "work_id": "main-122-a1a6-rereview-offer",
       "scope": "Bounded nonauthor re-check of A1+A6 only at exact tip b362222 after open-predicate repair; A2–A5 already ACCEPT",
       "owner": {
-        "provider": null,
-        "model": null,
-        "agent": null
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
       },
       "source": {
         "repo": "d6g8k5htny-coder/main",
@@ -3099,18 +3100,19 @@
         "repair_oid": "b36222248e6909a2cae19639dbd2896818444e00"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T01:52:30Z",
+      "heartbeat_at": "2026-09-26T02:08:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
-      "state": "OFFERED",
+      "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5841903639",
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5841682597"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5841682597",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842239403"
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
-      "blocked_reason": "OFFERED distinct nonauthor A1/A6 re-check after base-sync tip 6a7f1f6 (repair content from b362222); await green CI + assignee; this App does not race"
+      "blocked_reason": "ACTIVE OA A1/A6-only re-review (5842239403) @ 6a7f1f6 / proof blob a0e9f7d…; A2–A5 not extended; no C103/full-Gaussian promotion; zero org-independence; verdict pending publish; this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-122-rebase-onto-ebedb78",
