@@ -69,7 +69,7 @@
 | main [#136](https://github.com/d6g8k5htny-coder/main/pull/136) | `aadcdda…` float-labelling enforcement; **observe**; eng≠theorem |
 | main [#138](https://github.com/d6g8k5htny-coder/main/pull/138) | **MERGED** `b120e70…` single public front door; nav only |
 | ULW [#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2)/[#4](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/4) | **MERGED** `803a59c…` then `f832ea1…`; fail-open **CLOSED** on main via #4; mutable `ref` AMEND may remain; ([amendment](20260926-ulw2-federation-bootstrap-review.md)) |
-| ULW [#3](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3) | `2d65202…` custody/ledgers proposal; rebase/compose after #4; **observe**; owner reconciles |
+| ULW [#3](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3) | `2d65202…` custody/ledgers; composition rebase onto #4 `f832ea1` concrete ([5847578524](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5847578524)); **observe**; owner decides |
 | main [#134](https://github.com/d6g8k5htny-coder/main/pull/134) | `1db16d1…` **CHANGES REQUESTED** ([5847305100](https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100)) P1 carrier/exactness + P2 premise/conflict; peer repair **ACTIVE**; do not race; eng≠theorem |
 | main [#135](https://github.com/d6g8k5htny-coder/main/pull/135) | `a20e4cf…` **AMEND** doc-overclaim ([5847304236](https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847304236)) heuristic≠threshold + test inequality dirs; peer correction **ACTIVE**; do not race |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
