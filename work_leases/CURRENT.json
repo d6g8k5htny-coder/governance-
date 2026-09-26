@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T16:37:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip e495837 (#147 MERGED). Residual Codex P2 AMEND (RESULT.md task link) survives merge \u2014 process rule 10. #134/#135 re-reviews OFFERED. Updated 2026-09-26T16:37:20Z.",
+  "updated_at": "2026-09-26T16:45:50Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip e495837. #136 tip 44338fc (invariant-not-transient control fix); CI in progress. #134/#135 re-reviews OFFERED. Updated 2026-09-26T16:45:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4399,22 +4399,24 @@
         "branch": "claude/noncertifying-label-enforcement",
         "pr": 136,
         "pr_state": "open",
-        "head_oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f",
+        "head_oid": "44338fc324eff6bdb9fa084b9c6b0e7901c97820",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "pr_verify_SUCCESS_push_FAIL"
+        "ci": "verify_in_progress_44338fc",
+        "prior_oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f"
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T16:01:30Z",
+      "heartbeat_at": "2026-09-26T16:45:50Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/136"
+        "https://github.com/d6g8k5htny-coder/main/pull/136",
+        "https://github.com/d6g8k5htny-coder/main/commit/44338fc324eff6bdb9fa084b9c6b0e7901c97820"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ aadcdda; PR-event verify SUCCESS, push-event verify FAIL (likely zero-before-ref process rule 9); do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 44338fc (assert invariant not transient state); CI in progress; prior push-event FAIL was process rule 9; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-4-submodule-pins",
@@ -4564,7 +4566,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T16:37:20Z",
+      "heartbeat_at": "2026-09-26T16:45:50Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
