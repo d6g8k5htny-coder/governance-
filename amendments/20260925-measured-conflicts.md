@@ -56,7 +56,7 @@
 | main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `6a7f1f6…` base-sync receipt (5842136756); local transition_ok; hosted CI pending; **A1/A6 re-check OFFERED** |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 385 Path C eng resume @ hardening `7caac25` (bc-01a0cf1e…); IDLE@0019; **observe**; no lemma_closed/claim promotion |
-| Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | **#66** audit RELEASED (5842128273): support-edge candidate local-only; **integration OFFERED**; others observe |
+| Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | **#66** @ `423d4d9` support-scope repair published (5842160241); CI pending; others observe |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
