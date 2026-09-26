@@ -189,3 +189,8 @@ Peer ([5841228497](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment
 ## Hosted verify FAIL on E6 tip `2d3374c` (2026-09-26T00:00Z)
 
 Run [`36202702251`](https://github.com/d6g8k5htny-coder/main/actions/runs/36202702251) **fail**: Claims→gate `transition_ok:false` with `CONTROLLING_SOURCE_REQUIRES_REVALIDATION` on `Q0-C101-QUALITATIVE-RATE` (`scientific_effect: NONE`). Loss-only-controls run `36202702232` **pass**. Peer author lane owns CI follow-up if needed; this App does not race. OA E6 re-review still OFFERED. #90 OPEN.
+
+
+## CI root cause — Q0 binding order (2026-09-26T00:03Z)
+
+OA ([5841295449](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841295449)): `cc6a578` has Q0 bindings **theorem extract then master**; `2d3374c` reverses to master then theorem → `semantic_digest`/`coverage_sha256` change → E6 correctly refuses. **Do not weaken E6.** Minimal fix: restore exact `cc6a578` order; add regression; rerun event-compare CI. trial#138 validates gate logic, not this data transition. Lease `main-98-q0-binding-order-fix` **OFFERED**. Sci effect NONE; #90 OPEN.
