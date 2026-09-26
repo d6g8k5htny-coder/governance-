@@ -32,7 +32,9 @@
 | Federation workspace bootstrap (authority false; sci effect NONE) | ULW [#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2) @ `79e4b39…` → merge `803a59c…` |
 | Federation submodule pins + top-level fail-open closed (sci effect NONE) | ULW [#4](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/4) @ `1fc8758…` → merge `f832ea1…` |
 | Main as single public front door (nav/meta only; sci effect NONE) | main [#138](https://github.com/d6g8k5htny-coder/main/pull/138) @ `48c35c3…` → prior `main` tip `b120e70…` |
-| Pinned public-source custody path exposed (nav only; sci effect NONE) | main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) @ `c86c5a3…` → `main` tip `70664bd…` |
+| Pinned public-source custody path exposed (nav only; sci effect NONE) | main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) @ `c86c5a3…` → prior `main` tip `70664bd…` |
+| Public research shop: pinned views, catalog, restricted intake (nav/eng; sci effect NONE) | main [#145](https://github.com/d6g8k5htny-coder/main/pull/145) @ `349e036…` → `main` tip `bd9fc9d…` |
+| Nine public BYTE_COPY imports exposed in Math- proof index (custody/nav; sci effect NONE) | Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) @ `29b5cf9…` → merge `58f7936…` |
 | V3.4 archive + arithmetic_ledgers custody (no re-ratification; sci effect NONE) | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) @ `2992819…` → hardening merge `cd66a655…` (base `chatgpt/drive-github-hardening-20260919` @ `2f7a5a9…`; not into `main`) |
 | P15 full-price support-scope dependency (metadata; sci effect NONE) | Math- [#66](https://github.com/d6g8k5htny-coder/Math-/pull/66) @ `423d4d9…` → merge `10e1f19…`; HOLD_WITH_DOMAIN parent |
 | Proof availability / PROOF_INDEX nav (custody only; sci effect NONE) | Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) @ `965011d…` → merge `061d488…`; CONTACT SOURCE NOT FOUND retained |
@@ -76,9 +78,13 @@
 | ULW [#3](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3) | tip `96e0059…` (withdraw false private-repo claim); **verify SUCCESS**; still **CONFLICTING** vs `f832ea1…`; await owner rebase/compose; **observe** |
 | main [#134](https://github.com/d6g8k5htny-coder/main/pull/134) | tip `497ceff…` author confirms all four findings fixed ([5847639970](https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847639970)); **CI GREEN×5**; re-review **OFFERED**; do not race; eng≠theorem |
 | main [#135](https://github.com/d6g8k5htny-coder/main/pull/135) | tip `16b00c1…` author confirms both AMEND findings fixed ([5847678135](https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5847678135)); **CI GREEN×5**; re-review **OFFERED**; do not race; eng≠theorem |
-| main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) | **MERGED** `70664bd…` pinned public-source custody path; nav only |
+| main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) | **MERGED** `70664bd…` pinned public-source custody path; tip advanced by #145 → `bd9fc9d…` |
+| main [#145](https://github.com/d6g8k5htny-coder/main/pull/145) | **MERGED** `bd9fc9d…` public research shop; nav/eng only |
+| Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) | **MERGED** `58f7936…` nine BYTE_COPY imports in proof index; custody≠theorem |
+| main [#140](https://github.com/d6g8k5htny-coder/main/pull/140) | `33a2b78…` pinned-source index coverage (13 missed); **observe**; eng≠theorem |
+| main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) | `d10c2fb…` public intake SIDE24 example after #145; **observe**; eng≠theorem |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
-| trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 387 Path C eng resume (bc-01a0cf1e…); hardening tip `96e5175` (#21); `main` tip `70664bd` (#139); diverged; IDLE@0019; **observe**; no lemma_closed/claim promotion |
+| trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `3a86f7b` (Batch 546 tip_or_eng TIP_DRIFT); hardening tip `96e5175`; `main` tip `bd9fc9d` (#145); **observe**; no lemma_closed/claim promotion |
 | Math- [#70](https://github.com/d6g8k5htny-coder/Math-/pull/70) | **MERGED** `9d7b680…`; custody import; prior BYTE_COPY×9 @ `b39e9ff…` ([5847534053](https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5847534053)); merge≠theorem |
 | main [#21](https://github.com/d6g8k5htny-coder/main/pull/21) | **MERGED** → hardening tip `96e5175…`; H3 admission attestations; sci effect NONE |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; README conflict with #70 ([5847534262](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262)); **observe** |
