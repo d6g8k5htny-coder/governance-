@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:59:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #54 @ 965011d CI GREEN (fail-closed-landing SUCCESS); author merge OFFERED. Updated 2026-09-26T01:59:00Z.",
+  "updated_at": "2026-09-26T02:00:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #54 MERGED 061d488 (head 965011d); nav/custody only; CONTACT still SOURCE NOT FOUND; merge ≠ theorem. Updated 2026-09-26T02:00:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2713,18 +2713,19 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/proof-index-20260925-v2",
         "pr": 54,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "965011dbb301fb541f28f7ff9a8d2aea36c9db1d",
         "transverse_blob": "024d927779f79fadaf932541ea6474f2995f8c50",
         "target_base_oid": "1e1114f5eb8ef8cdbcde591bf74126274c250f88",
         "prior_oid": "6e4085a78eb0ebd5eefb767f942412273bfd7f6f",
         "tree_oid": "142737e958903d9dce2e56d864a844b9ebf7bdf9",
-        "base_oid": "1e1114f5eb8ef8cdbcde591bf74126274c250f88"
+        "base_oid": "1e1114f5eb8ef8cdbcde591bf74126274c250f88",
+        "merge_oid": "061d48821089e1f3892f09ee50ad2593da0f6a0f"
       },
       "claimed_at": "2026-09-26T01:13:20Z",
-      "heartbeat_at": "2026-09-26T01:59:00Z",
+      "heartbeat_at": "2026-09-26T02:00:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -2738,10 +2739,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5841895749",
         "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5842137854",
         "https://github.com/d6g8k5htny-coder/Math-/pull/54#issuecomment-5842173396",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/965011dbb301fb541f28f7ff9a8d2aea36c9db1d"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/965011dbb301fb541f28f7ff9a8d2aea36c9db1d",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/061d48821089e1f3892f09ee50ad2593da0f6a0f"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 965011d; hosted CI GREEN — fail-closed-landing + exact-checks + replay SUCCESS; MERGEABLE; CONTACT still SOURCE NOT FOUND; nav/custody only; author merge OFFERED; this App cannot push Math-; sci effect NONE",
+      "blocked_reason": "RELEASED/MERGED exact tip 965011d → 061d488; nav/custody only; CONTACT SOURCE NOT FOUND retained; merge ≠ theorem accept; sci effect NONE",
       "lanes_note": "OA claimed exclusive integration pass; peer FINAL INDEX DELTA serialize under OA"
     },
     {
@@ -2897,7 +2899,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:21:50Z",
-      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T02:00:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2905,10 +2907,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/59",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5841915560"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/59#issuecomment-5841915560",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/061d48821089e1f3892f09ee50ad2593da0f6a0f"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 718029c; OA MATCH recovery scope (5841915560); author merge OFFERED exact head; this App cannot push Math-; then issue56 BLOCKED_ABSENT + proof-index update"
+      "blocked_reason": "ACTIVE DRAFT @ 718029c; OA MATCH; author merge OFFERED; PROOF_INDEX on main now records CONTACT SOURCE NOT FOUND via #54 merge 061d488; then issue56 BLOCKED_ABSENT; this App cannot push Math-"
     },
     {
       "work_id": "main-121-c1c2-repair-peer",
@@ -3503,13 +3506,14 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 54,
-        "pr_state": "open",
-        "head_oid": "965011dbb301fb541f28f7ff9a8d2aea36c9db1d"
+        "pr_state": "merged",
+        "head_oid": "965011dbb301fb541f28f7ff9a8d2aea36c9db1d",
+        "merge_oid": "061d48821089e1f3892f09ee50ad2593da0f6a0f"
       },
       "claimed_at": "2026-09-26T01:59:00Z",
-      "heartbeat_at": "2026-09-26T01:59:00Z",
+      "heartbeat_at": "2026-09-26T02:00:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -3518,7 +3522,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/54"
       ],
       "delegates_to": "math-54-proof-availability-audit",
-      "blocked_reason": "OFFERED author-lane merge exact 965011d; CI green; this App cannot push Math-"
+      "blocked_reason": "RELEASED/MERGED exact 965011d → 061d488"
     }
   ]
 }

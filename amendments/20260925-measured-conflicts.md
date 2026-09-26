@@ -25,6 +25,7 @@
 | Scientific-state schema pilot / claims→gate adapter (eng only; sci effect NONE) | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) @ `b59359e…` → merge `ebedb78…` |
 | Hard gate eng-gate CLOSE (not theorem) | main [#90](https://github.com/d6g8k5htny-coder/main/issues/90) CLOSED after #98 `ebedb78…` |
 | Q0_LEDGER mirror packaging (eng only; sci effect NONE) | main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) @ `f411ce5…` → merge `7caac254…`; [#123](https://github.com/d6g8k5htny-coder/main/pull/123) CLOSED duplicate |
+| Proof availability / PROOF_INDEX nav (custody only; sci effect NONE) | Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) @ `965011d…` → merge `061d488…`; CONTACT SOURCE NOT FOUND retained |
 
 ## Process rules proven
 
@@ -45,7 +46,6 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
-| Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) | `965011d…` **CI GREEN** (landing SUCCESS); CONTACT SOURCE NOT FOUND retained; **author merge OFFERED**; nav/custody only |
 | Math- [#55](https://github.com/d6g8k5htny-coder/Math-/pull/55) | Pin-neighborhood review; **observe** |
 | Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | `718029c…` OA **MATCH**; **author merge OFFERED** (5841915560); then issue56 BLOCKED_ABSENT |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
