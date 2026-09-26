@@ -50,7 +50,7 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
 | main [#118](https://github.com/d6g8k5htny-coder/main/pull/118)/[#123](https://github.com/d6g8k5htny-coder/main/pull/123) | **OA exclusive land** #118 @ `f411ce5` after CI then close #123 (5842025929); tree=`6b3a408d…`; do not second-reconcile |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |
-| main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `6385bc0…` SIDE24 certificate-count successor; CI pending; custody-only; no re-ratification |
+| main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `d486dd1…` = `6385bc0`+`ebedb78` (5842042737); local claims-gate PASS; await hosted CI; custody-only |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 `2624262…`; C1/C2 repair **#124** @ `a380dcf…` (5841921230); **nonauthor re-review OFFERED**; eng≠theorem |
 | main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `b362222…` A1/A6 repair delivered; **verify FAIL** confirmed (5842026008) — sync `ebedb78` + rerun event-compare; OA not editing; rebase **OFFERED**; A1/A6 re-check separate |

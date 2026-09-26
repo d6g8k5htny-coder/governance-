@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:40:30Z",
-  "notes": "Compact ledger. Sci effect NONE. #118 OA exclusive land (5842025929); peer Cursor hands-off (5842031280). #120 tip 6385bc0 fixture green locally; author checking base sync for post-#98 adapter (5842032198). #122 rebase OFFERED. Updated 2026-09-26T01:40:30Z.",
+  "updated_at": "2026-09-26T01:42:00Z",
+  "notes": "Compact ledger. Sci effect NONE. #120 tip d486dd1 = merge 6385bc0+ebedb78 (5842042737); maintenance scope released; await hosted CI. #118 OA exclusive land. #122 rebase OFFERED. Updated 2026-09-26T01:42:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2375,11 +2375,16 @@
         "branch": "chatgpt/side24-source-recovery-20260925",
         "pr": 120,
         "pr_state": "open",
-        "head_oid": "6385bc07de35552930e637867f48713b73e90b1b",
-        "prior_oid": "7ed8d1e23fee25c8d6504b9e561ed7e5e46de195"
+        "head_oid": "d486dd1c01b86e0439dd568bd0c1c1a5b6f12bd9",
+        "prior_oid": "7ed8d1e23fee25c8d6504b9e561ed7e5e46de195",
+        "merge_parents": [
+          "6385bc07de35552930e637867f48713b73e90b1b",
+          "ebedb7802024fa557e9071e4c9cec7cddc474b89"
+        ],
+        "tree_oid": "9975d35699114726d234bae9d7d5447795cc8c29"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-26T01:40:30Z",
+      "heartbeat_at": "2026-09-26T01:42:00Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2395,10 +2400,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36205806041",
         "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842016701",
         "https://github.com/d6g8k5htny-coder/main/commit/6385bc07de35552930e637867f48713b73e90b1b",
-        "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842032198"
+        "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842032198",
+        "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842042737",
+        "https://github.com/d6g8k5htny-coder/main/commit/d486dd1c01b86e0439dd568bd0c1c1a5b6f12bd9"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 6385bc0 — certificate fixture repair published (5842032198); local pinned-source tests PASS (11 certs); author next checking base sync onto post-#98 scientific-state adapter before full CI claim; custody-only; no re-ratification; sci effect NONE",
+      "blocked_reason": "ACTIVE DRAFT @ d486dd1 — ordinary merge of 6385bc0 + hardening ebedb78 (5842042737); tree 9975d356…; local source/schema/claims-gate 116 PASS; OA independent code-review ACK on certificate delta; maintenance edit scope RELEASED; await hosted CI; custody-only; sci effect NONE",
       "lanes_note": "OA-claimed exclusive pass on certificate fixture; governance- observes only"
     },
     {
