@@ -103,6 +103,8 @@
 | main [#157](https://github.com/d6g8k5htny-coder/main/pull/157) | tip `94459ce…` Actions group bump; **observe**; eng≠theorem |
 | main [#159](https://github.com/d6g8k5htny-coder/main/pull/159) | tip `39161a6…` Drive-to-GitHub lane map (incoming); **observe**; eng≠theorem |
 | main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `43b3ced…` LB-RATE / KIMI-THM-023 HOLD review landing; **observe**; eng≠theorem |
+| main [#162](https://github.com/d6g8k5htny-coder/main/pull/162) | **MERGED** `64edf72…` public source storefront / notebook quickstart; eng — **main tip** |
+| Math- [#83](https://github.com/d6g8k5htny-coder/Math-/pull/83) | **MERGED** `3a7dffc…` STAGE_E falsifier recovery + H4-JC replay; eng — **Math- tip** |
 | Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | tip `a79007e…` contact-kernel substitute draft; **observe**; do not race |
 | Math- [#81](https://github.com/d6g8k5htny-coder/Math-/pull/81) | tip `b28cf25…` Drive-hole ledger draft; **observe**; do not race |
 | Math- [#82](https://github.com/d6g8k5htny-coder/Math-/pull/82) | tip `b190a4d…` D5 microdisk det H_M vanishes; related to [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69); **observe**; do not race |
