@@ -30,3 +30,11 @@ Sci effect NONE.
 - OA final readback rebinds to `b59359e` (confirm E6 not weakened)
 
 Sci effect NONE.
+
+## Addendum — author handoff (2026-09-26T00:51Z)
+
+- [5841686935](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841686935): integration head ready; adapter `8a1b41bb…`
+- [5841688029](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841688029): Q0 remains in `controlling_impacted` and `coverage_repairs`; `transition_ok` via exemption path, not empty seed report
+- Awaiting hosted CI terminal + OA final bounded readback
+
+Sci effect NONE.
