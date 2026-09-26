@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T13:33:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Observe main #134 claim-graph firewall DRAFT @ d4ab361; #135 zero-before-ref verify fail expected on push-create (5846679222), PR-event gates. #122 chart-geometry ACTIVE a1fc958. Updated 2026-09-26T13:33:00Z.",
+  "updated_at": "2026-09-26T14:17:45Z",
+  "notes": "Compact ledger. Sci effect NONE. Main #134 tip d4ab361\u21921db16d1 (hardening merge into firewall branch); CI in progress. #122 chart-geometry still ACTIVE a1fc958. Updated 2026-09-26T14:17:45Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3984,11 +3984,12 @@
         "branch": "claude/firewalls-fail-closed",
         "pr": 134,
         "pr_state": "open",
-        "head_oid": "d4ab3618a07563e4c0da2703b0ab3856b1ff7fd2",
-        "base_branch": "chatgpt/drive-github-hardening-20260919"
+        "head_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "prior_oid": "d4ab3618a07563e4c0da2703b0ab3856b1ff7fd2"
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T13:33:00Z",
+      "heartbeat_at": "2026-09-26T14:17:45Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3996,10 +3997,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/134",
-        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5846539546"
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5846539546",
+        "https://github.com/d6g8k5htny-coder/main/commit/1db16d1f59f4ef5821eccf996a6e6ea1afe3458b"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ d4ab361; eng firewall; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 1db16d1 (merged hardening into firewall branch); verify IN_PROGRESS; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
