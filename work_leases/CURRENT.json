@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T13:31:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Observe main #135 interval prose errata DRAFT @ 0b2e3be (hardening base). #122 chart-geometry still ACTIVE on a1fc958 (no tip yet). #126 MERGED \u2192 hardening cd66a655. Hot: #124/#71; #49/#59; #60 det-h\u00b2; #70/#128. Updated 2026-09-26T13:31:00Z.",
+  "updated_at": "2026-09-26T13:33:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Observe main #134 claim-graph firewall DRAFT @ d4ab361; #135 zero-before-ref verify fail expected on push-create (5846679222), PR-event gates. #122 chart-geometry ACTIVE a1fc958. Updated 2026-09-26T13:33:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3950,10 +3950,11 @@
         "pr": 135,
         "pr_state": "open",
         "head_oid": "0b2e3be97a3bb89e22c7b01c557a358c85225e8c",
-        "base_branch": "chatgpt/drive-github-hardening-20260919"
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "push_verify": "expected_fail_zero_before_ref"
       },
       "claimed_at": "2026-09-26T13:31:00Z",
-      "heartbeat_at": "2026-09-26T13:31:00Z",
+      "heartbeat_at": "2026-09-26T13:33:00Z",
       "expires_at": "2026-09-27T16:00:00Z",
       "state": "OFFERED",
       "write_scope": [
@@ -3963,10 +3964,42 @@
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/135"
+        "https://github.com/d6g8k5htny-coder/main/pull/135",
+        "https://github.com/d6g8k5htny-coder/main/pull/135#issuecomment-5846679222",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36244873301"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 0b2e3be; prose/test honesty; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 0b2e3be; push-create verify FAIL expected (zero before-ref; 5846679222); PR-event verify is the gate; do not race; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-134-claim-graph-firewall",
+      "scope": "Claim-graph firewall fail-closed fixes + mutants; eng hardening; sci effect NONE",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "claude/firewalls-fail-closed",
+        "pr": 134,
+        "pr_state": "open",
+        "head_oid": "d4ab3618a07563e4c0da2703b0ab3856b1ff7fd2",
+        "base_branch": "chatgpt/drive-github-hardening-20260919"
+      },
+      "claimed_at": "2026-09-26T13:33:00Z",
+      "heartbeat_at": "2026-09-26T13:33:00Z",
+      "expires_at": "2026-09-27T16:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/134",
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5846539546"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ d4ab361; eng firewall; do not race; sci effect NONE"
     }
   ]
 }
