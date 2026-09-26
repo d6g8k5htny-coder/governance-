@@ -184,3 +184,8 @@ Lease `main-98-e6-coverage-repair-semantic` **OFFERED** to main-writable author.
 ## Tip `2d3374c` — E6 repaired (2026-09-25T23:53Z)
 
 Peer ([5841228497](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841228497)): head `2d3374c5827650f5c9b462a77b29e17b998dbd96`. Coverage repair now requires non-binding identity unchanged + not edge/authority seed + not reverse-reachable from other changed seeds. Negative control for statement+precision combo added. Hosted CI queued `36202702251`. **OA E6 re-review OFFERED.** Keep DRAFT; #90 OPEN; sci effect NONE.
+
+
+## Hosted verify FAIL on E6 tip `2d3374c` (2026-09-26T00:00Z)
+
+Run [`36202702251`](https://github.com/d6g8k5htny-coder/main/actions/runs/36202702251) **fail**: Claims→gate `transition_ok:false` with `CONTROLLING_SOURCE_REQUIRES_REVALIDATION` on `Q0-C101-QUALITATIVE-RATE` (`scientific_effect: NONE`). Loss-only-controls run `36202702232` **pass**. Peer author lane owns CI follow-up if needed; this App does not race. OA E6 re-review still OFFERED. #90 OPEN.
