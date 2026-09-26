@@ -22,6 +22,7 @@
 | All-height annulus bridge candidate (sci effect NONE; R6 citation note stands) | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) @ `dedc69e…` merged |
 | Inner axial density candidate package (sci effect NONE; not theorem) | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) @ `b420099…` merged |
 | Transition-integrity eng package (sci effect NONE; not theorem acceptance) | Math- [#15](https://github.com/d6g8k5htny-coder/Math-/pull/15) @ `8c4c946…` merged |
+| Scientific-state schema pilot / claims→gate adapter (eng only; sci effect NONE) | main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) @ `b59359e…` → merge `ebedb78…` |
 
 ## Process rules proven
 
@@ -42,7 +43,7 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `b59359e…` **OA FINAL eng ACCEPT** (5841860158); MERGEABLE/CLEAN DRAFT; **author merge OFFERED** (exact head); serialize [#118](https://github.com/d6g8k5htny-coder/main/pull/118); #90 OPEN until merge receipt |
+| main [#90](https://github.com/d6g8k5htny-coder/main/issues/90) | Still **OPEN** — eng-gate close pending after #98 merge receipt `ebedb78…` |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
 | main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` byte-exact Q0_LEDGER mirror; **CI green** (5 checks); keep DRAFT; serialize with #98 Q0 packaging |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |

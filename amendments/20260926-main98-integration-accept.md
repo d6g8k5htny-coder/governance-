@@ -11,3 +11,12 @@
 - This governance- App cannot push `main`; merge lease OFFERED to author peer
 
 Sci effect NONE.
+
+## Addendum — MERGED (2026-09-26T01:16Z)
+
+- Merge commit `ebedb7802024fa557e9071e4c9cec7cddc474b89` (parents `1ae02b9` + `b59359e`)
+- Receipt: [5841870001](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841870001) — expected-head matched; reviewed→merge `files:[]`; adapter byte-equal
+- Hardening tip now `ebedb78`
+- #90 still OPEN pending eng-gate close (author-lane)
+
+Sci effect NONE.
