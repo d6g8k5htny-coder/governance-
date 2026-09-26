@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:38:00Z",
-  "notes": "Compact ledger. Sci effect NONE. #120 author ACTIVE on certificate-count fixture repair (5842016701) — do not race test_pinned_sources. #122 verify FAIL 36208384322: tip lacks scientific_state/ID_CROSSWALK (needs rebase onto ebedb78). Prefer land #118 @ f411ce5. Updated 2026-09-26T01:38:00Z.",
+  "updated_at": "2026-09-26T01:39:30Z",
+  "notes": "Compact ledger. Sci effect NONE. #118 OA exclusive land pass (5842025929) after CI — leave alone / close #123 after. #120 tip 6385bc0 certificate fixture successor; CI pending. #122 OA confirms rebase-needed (5842026008); peer must sync ebedb78. Updated 2026-09-26T01:39:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2302,7 +2302,7 @@
         "ledger_bytes": 253067
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T01:38:00Z",
+      "heartbeat_at": "2026-09-26T01:39:30Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2320,11 +2320,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203317738",
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841877351",
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841925789",
-        "https://github.com/d6g8k5htny-coder/main/pull/123#issuecomment-5841925793"
+        "https://github.com/d6g8k5htny-coder/main/pull/123#issuecomment-5841925793",
+        "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5842025929"
       ],
       "delegates_to": null,
-      "lanes_note": "Q0 packaging adjacent to #98 scientific-state pilot — serialize merges; sci effect NONE claimed",
-      "blocked_reason": "ACTIVE DRAFT @ f411ce5 (merge onto ebedb78); prefer land #118 (same tree OID 6b3a408d… as #123 @ 004fa5f); #123 SUPERSEDED as landing vehicle (5841925793); CI in progress; packaging ACCEPT stands; eng≠theorem"
+      "lanes_note": "OA-claimed exclusive land/close pass; governance- observes only",
+      "blocked_reason": "ACTIVE DRAFT @ f411ce5; OA exclusive integration pass (5842025929): land #118 after current-head CI, then close duplicate #123; do not second-reconcile; packaging only; eng≠theorem; sci effect NONE"
     },
     {
       "work_id": "math-49-collision-package-integrate",
@@ -2373,10 +2374,11 @@
         "branch": "chatgpt/side24-source-recovery-20260925",
         "pr": 120,
         "pr_state": "open",
-        "head_oid": "7ed8d1e23fee25c8d6504b9e561ed7e5e46de195"
+        "head_oid": "6385bc07de35552930e637867f48713b73e90b1b",
+        "prior_oid": "7ed8d1e23fee25c8d6504b9e561ed7e5e46de195"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-26T01:38:00Z",
+      "heartbeat_at": "2026-09-26T01:39:30Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2390,10 +2392,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/120",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36205808386",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36205806041",
-        "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842016701"
+        "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842016701",
+        "https://github.com/d6g8k5htny-coder/main/commit/6385bc07de35552930e637867f48713b73e90b1b"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE author maintenance pass (5842016701): repair stale certificate-count expectation in test_pinned_sources.py (11 vs 10) without weakening verification; tip still 7ed8d1e until successor; do not concurrent-edit that test; custody-only; sci effect NONE",
+      "blocked_reason": "ACTIVE DRAFT @ 6385bc0 — certificate-count fixture successor (test accounts for two recovered SIDE24 bindings); CI in progress; custody-only; no re-ratification; sci effect NONE",
       "lanes_note": "OA-claimed exclusive pass on certificate fixture; governance- observes only"
     },
     {
@@ -2589,7 +2592,7 @@
         "prior_oid": "d49be07074bd0696cc034757379771eae3c852de"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T01:38:00Z",
+      "heartbeat_at": "2026-09-26T01:39:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2604,10 +2607,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5841903639",
         "https://cursor.com/agents/bc-9fb1436d-943f-4506-9649-7572c3989d7c",
         "https://github.com/d6g8k5htny-coder/main/commit/b36222248e6909a2cae19639dbd2896818444e00",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208384322"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208384322",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842026008"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ b362222; A1/A6 repair delivered (5841903639); verify FAIL 36208384322 — claims_gate event-compare: architecture/scientific_state/v1/ID_CROSSWALK.json absent on tip (branch not yet on post-#98 hardening ebedb78); author/peer rebase lane; await distinct nonauthor A1/A6 re-check after green CI; this App does not race; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ b362222; verify FAIL 36208384322 confirmed by OA (5842026008): stale-head — sync hardening ebedb78 into PR and rerun event-compare (do not bypass); OA not editing; peer/author rebase lane; A1/A6 nonauthor re-review remains separate; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-52-d2-cumulative-confirm",
@@ -2788,7 +2792,7 @@
         "successor_oid": "004fa5fe75dd87e9c683975d59649204b1d62128"
       },
       "claimed_at": "2026-09-26T01:19:00Z",
-      "heartbeat_at": "2026-09-26T01:28:00Z",
+      "heartbeat_at": "2026-09-26T01:39:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -2854,7 +2858,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:21:50Z",
-      "heartbeat_at": "2026-09-26T01:38:00Z",
+      "heartbeat_at": "2026-09-26T01:39:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2920,7 +2924,7 @@
         "ledger_sha256": "d1fea170ee04c93b075786ed636c3d9088fd80f2c0def51a6a2dbc0812e3e80a"
       },
       "claimed_at": "2026-09-26T01:25:00Z",
-      "heartbeat_at": "2026-09-26T01:38:00Z",
+      "heartbeat_at": "2026-09-26T01:39:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "SUPERSEDED",
       "write_scope": [],
@@ -2930,10 +2934,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/123",
         "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841919211",
         "https://github.com/d6g8k5htny-coder/main/pull/123#issuecomment-5841920545",
-        "https://github.com/d6g8k5htny-coder/main/pull/123#issuecomment-5841925793"
+        "https://github.com/d6g8k5htny-coder/main/pull/123#issuecomment-5841925793",
+        "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5842025929"
       ],
       "delegates_to": "main-118-q0-ledger-mirror",
-      "blocked_reason": "SUPERSEDED as landing vehicle (5841925793): keep for CI evidence only; prefer merge #118 @ f411ce5 (identical tree 6b3a408d…); tip still 004fa5f; eng≠theorem"
+      "blocked_reason": "SUPERSEDED landing vehicle (5841925793); OA will close after #118 lands (5842025929); tip 004fa5f tree-identical; leave for CI evidence; eng≠theorem"
     },
     {
       "work_id": "math-59-author-merge-718029c",
@@ -2981,7 +2986,7 @@
         "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T01:38:00Z",
+      "heartbeat_at": "2026-09-26T01:39:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3051,6 +3056,36 @@
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
       "blocked_reason": "OFFERED distinct nonauthor A1/A6 re-check exact b362222; await assignee; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-122-rebase-onto-ebedb78",
+      "scope": "Synchronize hardening tip ebedb78 into #122 and rerun claims_gate event-compare; no A1–A6 analytic rewrite",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 122,
+        "pr_state": "open",
+        "head_oid": "b36222248e6909a2cae19639dbd2896818444e00",
+        "target_base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89",
+        "fail_run": "36208384322"
+      },
+      "claimed_at": "2026-09-26T01:39:30Z",
+      "heartbeat_at": "2026-09-26T01:39:30Z",
+      "expires_at": "2026-09-27T03:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842026008",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36208384322"
+      ],
+      "delegates_to": "main-122-sard-g-execution-repair",
+      "blocked_reason": "OFFERED peer/author rebase onto ebedb78; OA not editing (5842026008); this App cannot push main"
     }
   ]
 }
