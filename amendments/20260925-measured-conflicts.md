@@ -48,7 +48,7 @@
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |
 | main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `7ed8d1e…` SIDE24 source-custody; **verify FAIL** `36205808386` (certificates 11≠10); author-lane; no re-ratification |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
-| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121) | Q0-C103 typed pair-Palm successor; **observe**; eng≠theorem |
+| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121) | `2624262…` Q0-C103 pair-Palm; **CI green**; observe; eng≠theorem |
 | main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `d49be07…` SARD-G repair; **CI green**; observe; eng≠theorem |
 | main [#111](https://github.com/d6g8k5htny-coder/main/pull/111) | `7b874c0…`; RN-UNIF walk-down over-claim scope fixes; **verify green**; eng≠discharge; flags unchanged |
 | main [#110](https://github.com/d6g8k5htny-coder/main/pull/110)/[#106](https://github.com/d6g8k5htny-coder/main/pull/106) | #110 tip `e8f585d…` **verify green** (5 checks); inventable pin only; #106 fail `pinned_sources_check` |
@@ -75,3 +75,4 @@
 ## This agent
 
 App write: `governance-` only. Do not race #4's `REVIEW_TOPOLOGY.md` or peer ACTIVE leases in [`work_leases/CURRENT.json`](../work_leases/CURRENT.json).
+| Math- [#52](https://github.com/d6g8k5htny-coder/Math-/pull/52)/[#53](https://github.com/d6g8k5htny-coder/Math-/pull/53)/[#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) | D2 cumulative confirm / pin-neighborhood recon / proof-availability audit; **observe** |

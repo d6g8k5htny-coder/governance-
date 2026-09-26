@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:11:40Z",
-  "notes": "Compact ledger. Sci effect NONE. main #98 tip b59359e FULL CI GREEN (PR+push verify); FROZEN for OA final readback. #122 SARD-G CI green @ d49be07 keep DRAFT. Updated 2026-09-26T01:11:40Z.",
+  "updated_at": "2026-09-26T01:13:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Pulse 01:13Z: #98 b59359e CI-green frozen await OA; #121 Q0-C103 CI green; observe Math- #52/#53/#54. No #112 Section6+. Updated 2026-09-26T01:13:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -23,7 +23,7 @@
         "base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T01:11:40Z",
+      "heartbeat_at": "2026-09-26T01:13:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -391,10 +391,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "f15123d59b629a4457dd2b970cf05fa9611f3a52"
+        "head_oid": "ef98d9f89f9366c92526f9f8b60ad5e066c3c90a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T01:11:50Z",
+      "heartbeat_at": "2026-09-26T01:13:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -721,7 +721,7 @@
         "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
       },
       "claimed_at": "2026-09-25T19:43:00Z",
-      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T01:13:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -759,7 +759,7 @@
         "head_oid": "d5b75f9332ce481d1bf1218e2aee38167dc21e70"
       },
       "claimed_at": "2026-09-25T19:44:00Z",
-      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T01:13:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2503,7 +2503,7 @@
         "parent_oid": "69e9b526fa6fea4468475705c599d454427eb603"
       },
       "claimed_at": "2026-09-26T00:50:50Z",
-      "heartbeat_at": "2026-09-26T01:11:40Z",
+      "heartbeat_at": "2026-09-26T01:13:20Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2537,18 +2537,20 @@
         "head_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T01:07:40Z",
+      "heartbeat_at": "2026-09-26T01:13:20Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/121"
+        "https://github.com/d6g8k5htny-coder/main/pull/121",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36205944674",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36205944615"
       ],
       "delegates_to": null,
       "lanes_note": "OA DRAFT; Cursor may reciprocal-review if leased \u2014 do not touch author branch from governance-",
-      "blocked_reason": "ACTIVE DRAFT @ 2624262; observe only; serialize away from #98 tip freeze; eng\u2260theorem / sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ 2624262; CI green (5 checks); observe only; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-122-sard-g-execution-repair",
@@ -2580,6 +2582,90 @@
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE DRAFT @ d49be07; CI green (5 checks / 36206264179); observe only; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "math-52-d2-cumulative-confirm",
+      "scope": "Nonauthor ACCEPT of PR25 D2 cumulative correction; review package",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/d2-cumulative-confirm-870a",
+        "pr": 52,
+        "pr_state": "open",
+        "head_oid": "f5e859495b24761cd65c4fe63d9b3a8264debd4e"
+      },
+      "claimed_at": "2026-09-26T01:13:20Z",
+      "heartbeat_at": "2026-09-26T01:13:20Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D2",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/52"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ f5e8594; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-53-pin-neighborhood-recon",
+      "scope": "Pin-neighborhood reconnaissance: desingularized endpoint chart",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "cursor/pr16-transverse-r1r5-review-b00c",
+        "pr": 53,
+        "pr_state": "open",
+        "head_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19"
+      },
+      "claimed_at": "2026-09-26T01:13:20Z",
+      "heartbeat_at": "2026-09-26T01:13:20Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ 9a6f8a6; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-54-proof-availability-audit",
+      "scope": "Audit theorem/proof availability for closed and open mathematics",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/proof-index-20260925-v2",
+        "pr": 54,
+        "pr_state": "open",
+        "head_oid": "ee2f603c8e34760741c9cfcac4f88178900b40af"
+      },
+      "claimed_at": "2026-09-26T01:13:20Z",
+      "heartbeat_at": "2026-09-26T01:13:20Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/54"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT @ ee2f603; index/audit only; sci effect NONE"
     }
   ]
 }
