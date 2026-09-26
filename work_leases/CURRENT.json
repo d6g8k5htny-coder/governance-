@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:42:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Pulse 00:42Z: #98 tip 5cf4f36 CI green await OA; #112 no Section6+ yet; Math- #49 CI green @ 596e809; observe main #120 SIDE24 source recovery @ 7ed8d1e + Math- #46 reading maps. Updated 2026-09-26T00:42:20Z.",
+  "updated_at": "2026-09-26T00:44:00Z",
+  "notes": "Compact ledger. Sci effect NONE. main #98 OA E6 eng ACCEPT @ 5cf4f36 (5841626296) with base-integration condition (1ae02b9\u2026; mergeable=false). Author-lane rebase OFFERED; this App cannot push main. #90 OPEN. Updated 2026-09-26T00:44:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -22,7 +22,7 @@
         "adapter_sha256": "827ae02110bce22aaf48a5800bb0a4cd9a28164a601867e802f494ec378f23d2"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T00:44:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -77,11 +77,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841329537",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203583121",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203583148",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841552221"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841552221",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-e6-accept-integration.md"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip 5cf4f36 DRAFT; CI GREEN + SUCCESS receipt 5841552221; E6 strict + Q0 theorem-first; await OA re-review; #90 OPEN"
+      "blocked_reason": "ACTIVE tip 5cf4f36 DRAFT; OA E6 eng ACCEPT + base-integration REQUIRED (mergeable=false vs 1ae02b9\u2026); await author rebase; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -379,10 +381,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "c2ec696f2cac694767cb005e9828b869877c4262"
+        "head_oid": "cfac70b10e46bbc118ff863bba5e155311509bb3"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T00:42:50Z",
+      "heartbeat_at": "2026-09-26T00:44:20Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2142,7 +2144,7 @@
         "parent_oid": "feea1df7726f3b8a57f3de9bfe5d56e7377b8bc0"
       },
       "claimed_at": "2026-09-26T00:07:30Z",
-      "heartbeat_at": "2026-09-26T00:34:20Z",
+      "heartbeat_at": "2026-09-26T00:44:00Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -2153,10 +2155,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841329537",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203583121",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203583148",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841552221"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841552221",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296"
       ],
       "delegates_to": "main-98-claims-gate-adapter",
-      "blocked_reason": "RELEASED @ 5cf4f36; CI GREEN; await OA re-review; eng\u2260#90 close"
+      "blocked_reason": "RELEASED @ 5cf4f36; OA E6 eng ACCEPT; preserve on rebase; eng\u2260#90 close"
     },
     {
       "work_id": "main-98-openai-rereview-5cf4f36",
@@ -2175,9 +2178,9 @@
         "head_oid": "5cf4f366c70d8cd8a548a4488184601c8714bfaa"
       },
       "claimed_at": "2026-09-26T00:07:30Z",
-      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T00:44:00Z",
       "expires_at": "2026-09-27T00:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -2187,10 +2190,12 @@
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203583121",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203583148",
-        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841552221"
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841552221",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-e6-accept-integration.md"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OA E6 re-review @ immutable 5cf4f36 (CI GREEN + 5841552221); adapter 827ae021\u2026; keep DRAFT; #90 OPEN"
+      "blocked_reason": "RELEASED: OA E6 eng ACCEPT @ 5cf4f36 (5841626296); integration condition remaining (base 1ae02b9\u2026); eng\u2260#90 close / not scientific acceptance"
     },
     {
       "work_id": "main-112-section5-endpoint-averages",
@@ -2246,7 +2251,7 @@
         "adapter_sha256": "6bf3ab15e111b09ba5068605ad3d0e04794eca7d45838613329c47f320c15435"
       },
       "claimed_at": "2026-09-26T00:09:40Z",
-      "heartbeat_at": "2026-09-26T00:42:20Z",
+      "heartbeat_at": "2026-09-26T00:44:00Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2256,11 +2261,12 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/138",
         "https://github.com/d6g8k5htny-coder/trial/pull/131#issuecomment-5841338149",
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349",
-        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5841326602"
+        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5841326602",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296"
       ],
       "delegates_to": null,
       "lanes_note": "Subject oid in PR body is cc6a578; live main #98 tip is 5cf4f36 \u2014 do not treat stale-head gate as tip clearance; serialize with OA re-review offer",
-      "blocked_reason": "ACTIVE DRAFT @ 1f990f2; gate verify FAIL 36203541349 \u2014 binding_order_permutation fail (normal+optimized) on subject feea1df (expected order-permute no-impact after normalize); live tip 5cf4f36 removed that normalize (E6-strict) so subject/expectation stale; await OA rebind; eng\u2260#90 close"
+      "blocked_reason": "ACTIVE DRAFT @ 1f990f2; prior FAIL binding_order @ feea1df superseded by live tip OA ACCEPT @ 5cf4f36 \u2014 still not tip clearance until base integration; await OA rebind or close; eng\u2260#90"
     },
     {
       "work_id": "main-118-q0-ledger-mirror",
@@ -2392,6 +2398,41 @@
       ],
       "delegates_to": null,
       "blocked_reason": "OFFERED observe @ 79a791a (ready-for-review); reading maps only; do not race assignee; sci effect NONE"
+    },
+    {
+      "work_id": "main-98-base-integration-1ae02b9",
+      "scope": "Reconcile/rebase #98 tip 5cf4f36 onto hardening base through 1ae02b9 without weakening D1/Q0/E6; new tip + event compare + hosted CI; final OA readback",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]",
+        "run_id": "bc-01a0d95b-e593-75f4-a1b1-d440961231c5"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/scientific-state-schema-crosswalk-31c5",
+        "pr": 98,
+        "pr_state": "open",
+        "issue": 90,
+        "head_oid": "5cf4f366c70d8cd8a548a4488184601c8714bfaa",
+        "target_base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5",
+        "current_base_oid": "e3cd7d4873c51e69529616e9efe5d20286ef9d11"
+      },
+      "claimed_at": "2026-09-26T00:44:00Z",
+      "heartbeat_at": "2026-09-26T00:44:00Z",
+      "expires_at": "2026-09-27T01:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296",
+        "https://github.com/d6g8k5htny-coder/main/commit/1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main98-e6-accept-integration.md"
+      ],
+      "delegates_to": "main-98-claims-gate-adapter",
+      "lanes_note": "Author-lane only; governance- App has no main push. Preserve D1 CONDITIONAL/HOLD_WITH_DOMAIN + FW-RUNG-OPEN-PREMISE; Q0 theorem-first; E6 strict.",
+      "blocked_reason": "OFFERED to main #98 author peer: rebase onto 1ae02b9\u2026; mergeable=false now; this App does not race / cannot push main"
     }
   ]
 }

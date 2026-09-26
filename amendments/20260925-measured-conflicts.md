@@ -42,7 +42,7 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
-| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `5cf4f36…` E6 kept strict + Q0 theorem-first; **CI GREEN** (verify `36203583121` + loss-only); **OA re-review OFFERED**; trial [#128](https://github.com/d6g8k5htny-coder/trial/pull/128)/[#131](https://github.com/d6g8k5htny-coder/trial/pull/131) **CLOSED** → gate [#138](https://github.com/d6g8k5htny-coder/trial/pull/138) **FAIL** `binding_order_permutation` @ subject `feea1df` (lags live tip); #90 OPEN |
+| main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) | `5cf4f36…` **OA E6 eng ACCEPT** (5841626296) + **base-integration REQUIRED** (`1ae02b9…`; mergeable=false); author rebase OFFERED; trial [#138](https://github.com/d6g8k5htny-coder/trial/pull/138) stale subject; #90 OPEN |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
 | main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` byte-exact Q0_LEDGER mirror; **CI green** (5 checks); keep DRAFT; serialize with #98 Q0 packaging |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |
