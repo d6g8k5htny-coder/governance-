@@ -55,7 +55,7 @@
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` OA integration-scope **ACCEPT** (5842142605); exact-byte MATCH; **author merge OFFERED**; merge ≠ theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | **PREMIS-Z-LOWER BLOCKED** (5842152602); #124 C1/C2 honesty re-review OFFERED; cubic corollary blocked; eng≠theorem |
-| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `a1fc958…` **CI GREEN**; A1/A6 **AMEND/AMEND** (also published via [#131](https://github.com/d6g8k5htny-coder/main/pull/131)/[#133](https://github.com/d6g8k5htny-coder/main/pull/133)); chart-geometry clarify **OFFERED** |
+| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `a1fc958…` **CI GREEN**; A1/A6 **AMEND/AMEND** (also published via [#131](https://github.com/d6g8k5htny-coder/main/pull/131)/[#133](https://github.com/d6g8k5htny-coder/main/pull/133)); chart-geometry clarify **ACTIVE** author claim ([5846575968](https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5846575968)); do not race; await tip |
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | D5 intermediate-scale envelope; **observe**; recon≠theorem |
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | `2992819…` V3.4/arithmetic_ledger custody; **CI GREEN**; **author merge OFFERED**; no re-ratification |
 | main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | `4fd6c279…` cross-repo source architecture design; **observe**; design≠theorem |
