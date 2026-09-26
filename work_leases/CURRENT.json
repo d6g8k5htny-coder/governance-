@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:10:00Z",
-  "notes": "Compact ledger. Sci effect NONE. ULW #2 tip 0f22252\u219291e830f; CI FAIL \u2014 WIP test rejects role metadata while manifest still has roles. Prior ACCEPT_BOOTSTRAP@0f22252. Do not race. Updated 2026-09-26T15:10:00Z.",
+  "updated_at": "2026-09-26T15:12:30Z",
+  "notes": "Compact ledger. Sci effect NONE. ULW #2 tip d72ccbe CI GREEN; roles demoted to meta-framework only; ACCEPT_BOOTSTRAP stands; mutable ref AMEND still open. Updated 2026-09-26T15:12:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4186,15 +4186,16 @@
         "repo": "d6g8k5htny-coder/Universal-Law-Workspace",
         "pr": 2,
         "pr_state": "open",
-        "head_oid": "91e830f3ee1afce8893bcb38790bf84b259dedcc",
+        "head_oid": "d72ccbe3044bdf46649762ab01582cba44cf1af1",
         "issue": 1,
         "handoff_comment": "5847321852",
         "review_disposition": "ACCEPT_BOOTSTRAP_AMEND_MUTABLE_REF",
-        "prior_oid": "0f222526a05ccb64ac31c9ffaf9663e8a279eb09",
-        "ci": "fail_role_metadata_wip"
+        "prior_oid": "91e830f3ee1afce8893bcb38790bf84b259dedcc",
+        "ci": "green",
+        "prior_accept_oid": "0f222526a05ccb64ac31c9ffaf9663e8a279eb09"
       },
       "claimed_at": "2026-09-26T15:08:30Z",
-      "heartbeat_at": "2026-09-26T15:10:00Z",
+      "heartbeat_at": "2026-09-26T15:12:30Z",
       "expires_at": "2026-09-27T20:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4205,10 +4206,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847321852",
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-ulw2-federation-bootstrap-review.md",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/91e830f3ee1afce8893bcb38790bf84b259dedcc",
-        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/actions/runs/36250945742"
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/actions/runs/36250945742",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/d72ccbe3044bdf46649762ab01582cba44cf1af1",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/actions/runs/36251078796"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 91e830f; CI FAIL (role-metadata denylist test vs manifest roles); prior ACCEPT_BOOTSTRAP+AMEND @ 0f22252 stands until tip stabilizes; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ d72ccbe; CI GREEN; role metadata removed (canonical in meta-framework); ACCEPT_BOOTSTRAP stands; mutable AUTHORITY_MAP ref AMEND still open; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-2-federation-bootstrap-review",

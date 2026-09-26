@@ -5,8 +5,9 @@
 | Item | Identity |
 |---|---|
 | Subject | [Universal-Law-Workspace#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2) |
-| Tip | `0f222526a05ccb64ac31c9ffaf9663e8a279eb09` |
-| CI | verify SUCCESS (run `36250729672` per handoff) |
+| Tip (reviewed) | `0f222526a05ccb64ac31c9ffaf9663e8a279eb09` |
+| Tip (current) | `d72ccbe3044bdf46649762ab01582cba44cf1af1` — CI GREEN; roles demoted to `full_name` only (canonical roles in meta-framework); **mutable `ref` AMEND still open** |
+| CI | prior verify SUCCESS `36250729672` @ `0f22252…`; current SUCCESS on `d72ccbe…` |
 | Handoff | [main#129 comment 5847321852](https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847321852) |
 | Coord | [ULW#1](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/issues/1) |
 | Reviewer | Cursor governance agent (governance- #3); nonauthor of ULW #2 |
