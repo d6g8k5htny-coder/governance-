@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T02:19:30Z",
-  "notes": "Compact ledger. Sci effect NONE. #122 tip a1fc958 strict-gradient amendment published (5842310882); AUTHOR_SIDE / fresh A1/A6 re-check OFFERED; prior CI on 6a7f1f6 not transferred. Updated 2026-09-26T02:19:30Z.",
+  "updated_at": "2026-09-26T02:33:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Observe main #126 V3.4 archive custody. #122 @ a1fc958 CI still IN_PROGRESS; A1/A6 re-check OFFERED. #49/#59 merge still OFFERED. Updated 2026-09-26T02:33:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2358,7 +2358,7 @@
         "source_pr25_oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73"
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T02:16:30Z",
+      "heartbeat_at": "2026-09-26T02:33:00Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2626,7 +2626,7 @@
         "control_blob": "7f41ea3a0b0301e0ecdb72de86d00b4d8d9da291"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-26T02:19:30Z",
+      "heartbeat_at": "2026-09-26T02:33:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2911,7 +2911,7 @@
         "head_oid": "718029c453d4514f59690315918e18333ba36050"
       },
       "claimed_at": "2026-09-26T01:21:50Z",
-      "heartbeat_at": "2026-09-26T02:16:30Z",
+      "heartbeat_at": "2026-09-26T02:33:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3077,7 +3077,7 @@
         "head_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-26T02:16:30Z",
+      "heartbeat_at": "2026-09-26T02:33:00Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3412,7 +3412,7 @@
         "batch": 387
       },
       "claimed_at": "2026-09-26T01:49:00Z",
-      "heartbeat_at": "2026-09-26T02:16:30Z",
+      "heartbeat_at": "2026-09-26T02:33:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3600,7 +3600,7 @@
         "prior_amend_comment": "5842304441"
       },
       "claimed_at": "2026-09-26T02:19:30Z",
-      "heartbeat_at": "2026-09-26T02:19:30Z",
+      "heartbeat_at": "2026-09-26T02:33:00Z",
       "expires_at": "2026-09-27T06:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3612,6 +3612,34 @@
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
       "blocked_reason": "OFFERED fresh A1/A6 re-check exact a1fc958; await assignee + CI; this App does not race"
+    },
+    {
+      "work_id": "main-126-v34-archive-custody",
+      "scope": "Custody for V3.4 archive and arithmetic_l surfaces; no theorem re-ratification",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/side24-missing-source-custody-0532",
+        "pr": 126,
+        "pr_state": "open",
+        "head_oid": "2992819828dfe8a23e682816a8c10eab5861f94d"
+      },
+      "claimed_at": "2026-09-26T02:33:00Z",
+      "heartbeat_at": "2026-09-26T02:33:00Z",
+      "expires_at": "2026-09-27T06:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/126"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe DRAFT; custody-only expected; do not race; sci effect NONE"
     }
   ]
 }
