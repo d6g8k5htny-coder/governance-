@@ -90,7 +90,7 @@
 | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) | **MERGED** `71400b9…` live shop link; nav only |
 | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) | **MERGED** `d6628da…` unique integrity-gate check name; CI/eng only |
 | main [#148](https://github.com/d6g8k5htny-coder/main/pull/148) | tip `7556ddd…` **CI GREEN×5**; peer **AMEND** ([5848436007](https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007)) RESEARCH_MAP vs handoff visibility-record; repair **OFFERED**; eng≠theorem |
-| main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | tip `0335115…`; CI GREEN; Codex release review residual ([5848456159](https://github.com/d6g8k5htny-coder/main/pull/150#issuecomment-5848456159)) — body still cites `2cf62f2…`, missing per-file SHA256; **AMEND** **OFFERED**; eng≠theorem |
+| main [#150](https://github.com/d6g8k5htny-coder/main/pull/150) | **MERGED** `a12c178…` @ head `0335115…`; Codex residual body tip/SHA256 at merge (**rule 10**); museum index refresh **OFFERED**; eng≠theorem |
 | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `81dab5a` (Batch 553 tip_sync_watch); hardening tip `96e5175`; `main` tip `d77a85a` (#151); **observe**; no lemma_closed/claim promotion |
