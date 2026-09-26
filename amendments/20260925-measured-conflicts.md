@@ -84,7 +84,7 @@
 | main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) | **MERGED** `70664bd…` pinned public-source custody path; tip advanced by #145 → `bd9fc9d…` |
 | main [#145](https://github.com/d6g8k5htny-coder/main/pull/145) | **MERGED** `bd9fc9d…` public research shop; nav/eng only |
 | Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) | **MERGED** `58f7936…` nine BYTE_COPY imports in proof index; custody≠theorem |
-| main [#140](https://github.com/d6g8k5htny-coder/main/pull/140) | `33a2b78…` pinned-source index coverage (13 missed); sibling [#136](https://github.com/d6g8k5htny-coder/main/pull/136) now tolerates archive-index close; **observe**; eng≠theorem |
+| main [#140](https://github.com/d6g8k5htny-coder/main/pull/140) | tip `3013733…` (merged hardening `96e5175…`); pinned-source index coverage; sibling [#136](https://github.com/d6g8k5htny-coder/main/pull/136); CI in progress; **observe**; eng≠theorem |
 | main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) | **MERGED** `e495837…`; intake verify SUCCESS ([5847931757](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847931757)); eng receipt ([5847954854](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847954854)); residual Codex **P2 AMEND** RESULT.md task-link still open on tip (process rule 10 / [4112001085](https://github.com/d6g8k5htny-coder/main/pull/147#discussion_r4112001085)); successor repair **OFFERED**; eng≠theorem |
 | main [#149](https://github.com/d6g8k5htny-coder/main/pull/149) | **MERGED** `71400b9…` live shop link; nav only |
 | Math- [#76](https://github.com/d6g8k5htny-coder/Math-/pull/76) | **MERGED** `d6628da…` unique integrity-gate check name; CI/eng only |

@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T17:12:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #150 @ 2cf62f2 ready-for-review; CI GREEN; Codex review running. #136/@567213c + #148/@7556ddd verify in progress. Updated 2026-09-26T17:12:20Z.",
+  "updated_at": "2026-09-26T17:17:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 71400b9. #140 tip 3013733 (merged hardening 96e5175); CI in progress. #136/@567213c + #148/@7556ddd verify still pending. Updated 2026-09-26T17:17:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4576,7 +4576,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T17:12:20Z",
+      "heartbeat_at": "2026-09-26T17:17:40Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4699,23 +4699,26 @@
         "branch": "claude/pinned-index-archive-members",
         "pr": 140,
         "pr_state": "open",
-        "head_oid": "33a2b78e346c2f1da64c803d97ee631bf49dc4cc",
+        "head_oid": "30137333e4ef1a8b533de9e74ffa16fd5d169972",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "mixed_verify",
-        "sibling_pr": 136
+        "ci": "verify_in_progress_3013733",
+        "sibling_pr": 136,
+        "prior_oid": "33a2b78e346c2f1da64c803d97ee631bf49dc4cc",
+        "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57"
       },
       "claimed_at": "2026-09-26T16:31:00Z",
-      "heartbeat_at": "2026-09-26T17:01:20Z",
+      "heartbeat_at": "2026-09-26T17:17:40Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/140"
+        "https://github.com/d6g8k5htny-coder/main/pull/140",
+        "https://github.com/d6g8k5htny-coder/main/commit/30137333e4ef1a8b533de9e74ffa16fd5d169972"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 33a2b78; pinned-source index coverage (13 missed); sibling #136 @ 44338fc now tolerates archive-index close (5848022912); do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 3013733 after merge hardening 96e5175; sibling #136; CI in progress; do not race; sci effect NONE"
     },
     {
       "work_id": "main-147-public-intake-side24-example",
