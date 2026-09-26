@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T02:01:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #66 MERGED 10e1f19 (head 423d4d9 support-scope); metadata only; merge ≠ theorem. Updated 2026-09-26T02:01:00Z.",
+  "updated_at": "2026-09-26T02:05:00Z",
+  "notes": "Compact ledger. Sci effect NONE. main #120 MERGED 2f7a5a9 (head d486dd1 SIDE24 custody); CI green 36209236393; no re-ratification. Updated 2026-09-26T02:05:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2387,19 +2387,20 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "chatgpt/side24-source-recovery-20260925",
         "pr": 120,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "d486dd1c01b86e0439dd568bd0c1c1a5b6f12bd9",
         "prior_oid": "7ed8d1e23fee25c8d6504b9e561ed7e5e46de195",
         "merge_parents": [
           "6385bc07de35552930e637867f48713b73e90b1b",
           "ebedb7802024fa557e9071e4c9cec7cddc474b89"
         ],
-        "tree_oid": "9975d35699114726d234bae9d7d5447795cc8c29"
+        "tree_oid": "9975d35699114726d234bae9d7d5447795cc8c29",
+        "merge_oid": "2f7a5a9f10c9ed5f5b7792a8f2521318d9208532"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-26T01:45:30Z",
+      "heartbeat_at": "2026-09-26T02:05:00Z",
       "expires_at": "2026-09-27T01:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [
         "research/side24/source_recovery/",
         "research/PINNED_SOURCES.md",
@@ -2415,10 +2416,13 @@
         "https://github.com/d6g8k5htny-coder/main/commit/6385bc07de35552930e637867f48713b73e90b1b",
         "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842032198",
         "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842042737",
-        "https://github.com/d6g8k5htny-coder/main/commit/d486dd1c01b86e0439dd568bd0c1c1a5b6f12bd9"
+        "https://github.com/d6g8k5htny-coder/main/commit/d486dd1c01b86e0439dd568bd0c1c1a5b6f12bd9",
+        "https://github.com/d6g8k5htny-coder/main/pull/120#issuecomment-5842219434",
+        "https://github.com/d6g8k5htny-coder/main/commit/2f7a5a9f10c9ed5f5b7792a8f2521318d9208532",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36209236393"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ d486dd1 — ordinary merge of 6385bc0 + hardening ebedb78 (5842042737); tree 9975d356…; local source/schema/claims-gate 116 PASS; OA independent code-review ACK on certificate delta; maintenance edit scope RELEASED; await hosted CI; custody-only; sci effect NONE",
+      "blocked_reason": "RELEASED/MERGED exact tip d486dd1 → 2f7a5a9 (5842219434); hosted CI SUCCESS 36209236393; custody-only; no theorem re-ratification; sci effect NONE",
       "lanes_note": "OA-claimed exclusive pass on certificate fixture; governance- observes only"
     },
     {
