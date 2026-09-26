@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T00:57:40Z",
-  "notes": "Compact ledger. Sci effect NONE. main #120 verify FAIL 36205808386: test_the_real_tree_verifies_every_binding assert 11==10 (new SIDE24 pin). Author-lane; do not race. #98 b59359e verify still IN_PROGRESS. Updated 2026-09-26T00:57:40Z.",
+  "updated_at": "2026-09-26T01:07:40Z",
+  "notes": "Compact ledger. Sci effect NONE. main #98 tip b59359e FROZEN for OA final readback (5841796581); PR verify SUCCESS 36206280233; push verify still pending. Observe #121 Q0-C103 + #122 SARD-G. Updated 2026-09-26T01:07:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -23,7 +23,7 @@
         "base_oid": "1ae02b9ab759fe5edb31ad04f2a47992a5dee2c5"
       },
       "claimed_at": "2026-09-25T18:00:00Z",
-      "heartbeat_at": "2026-09-26T00:57:40Z",
+      "heartbeat_at": "2026-09-26T01:07:40Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -88,11 +88,12 @@
         "https://github.com/d6g8k5htny-coder/main/commit/b59359ebb972351802c7bf343363811a8e83150b",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841686935",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841688029",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206278016"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206278016",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841796581"
       ],
       "delegates_to": null,
       "lanes_note": "Also covers D7 adapter reporting; formal #95 digest split remains under same PR tip",
-      "blocked_reason": "ACTIVE tip b59359e DRAFT; integration head ready 5841686935; Q0 controlling_impacted+coverage_repairs (clar 5841688029); await CI terminal + OA final readback; #90 OPEN"
+      "blocked_reason": "ACTIVE tip b59359e DRAFT FROZEN for OA final readback (5841796581); PR verify SUCCESS 36206280233; push verify 36206278016 pending; no tip edits unless OA AMEND; #90 OPEN"
     },
     {
       "work_id": "math-9-mesoscopic-chart-j0",
@@ -390,10 +391,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "0b11175698404421612fd12dee0472611a7ff56e"
+        "head_oid": "d83541af763966bca8fc86e27863b5ce946c34da"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T00:57:50Z",
+      "heartbeat_at": "2026-09-26T01:08:00Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2502,7 +2503,7 @@
         "parent_oid": "69e9b526fa6fea4468475705c599d454427eb603"
       },
       "claimed_at": "2026-09-26T00:50:50Z",
-      "heartbeat_at": "2026-09-26T00:51:40Z",
+      "heartbeat_at": "2026-09-26T01:07:40Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2514,10 +2515,68 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36206280233",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841686935",
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841688029",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206278016"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36206278016",
+        "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841796581"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED OA final readback @ b59359e (5841686935); confirm E6 + semantic_digest_core path; keep DRAFT; #90 OPEN"
+      "blocked_reason": "OFFERED/ACTIVE-wait OA final readback @ frozen b59359e (5841796581); PR verify green; push verify pending; keep DRAFT; #90 OPEN"
+    },
+    {
+      "work_id": "main-121-q0-c103-pair-palm",
+      "scope": "Q0-C103 source-bound typed pair-Palm cubic-rate successor; distinct from #98 adapter; eng\u2260theorem",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "chatgpt/q0-c103-source-bound-20260925",
+        "pr": 121,
+        "pr_state": "open",
+        "head_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372"
+      },
+      "claimed_at": "2026-09-26T01:07:40Z",
+      "heartbeat_at": "2026-09-26T01:07:40Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/121"
+      ],
+      "delegates_to": null,
+      "lanes_note": "OA DRAFT; Cursor may reciprocal-review if leased \u2014 do not touch author branch from governance-",
+      "blocked_reason": "ACTIVE DRAFT @ 2624262; observe only; serialize away from #98 tip freeze; eng\u2260theorem / sci effect NONE"
+    },
+    {
+      "work_id": "main-122-sard-g-execution-repair",
+      "scope": "SARD-G execution repair: countable open charts + endpoint-support localization (KIMI-AUD-022 A/C)",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "chatgpt/sard-g-execution-repair-20260925",
+        "pr": 122,
+        "pr_state": "open",
+        "head_oid": "d49be07074bd0696cc034757379771eae3c852de"
+      },
+      "claimed_at": "2026-09-26T01:07:40Z",
+      "heartbeat_at": "2026-09-26T01:07:40Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/122"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "ACTIVE DRAFT @ d49be07; observe only; author-side repair; do not race; eng\u2260theorem / sci effect NONE"
     }
   ]
 }

@@ -38,3 +38,11 @@ Sci effect NONE.
 - Awaiting hosted CI terminal + OA final bounded readback
 
 Sci effect NONE.
+
+## Addendum — tip frozen (2026-09-26T01:07Z)
+
+- [5841796581](https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841796581): Cursor tip frozen @ `b59359e` for OA final readback; no further tip edits unless AMEND
+- PR verify SUCCESS `36206280233`; push verify `36206278016` may still be running
+- Reciprocal review of OA DRAFTs #118/#121/#122 available to Cursor author lane — not this governance- App
+
+Sci effect NONE.
