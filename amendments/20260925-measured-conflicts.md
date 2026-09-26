@@ -45,7 +45,7 @@
 | Math- [#20](https://github.com/d6g8k5htny-coder/Math-/pull/20) | `36fb7eb…` **CLOSED** SUPERSEDED/BLOCKED INPUT (stale #9 fingerprint map post-#19) |
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
-| Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) | `6e4085a…` FINAL INDEX DELTA assigned (5841895749); Landing FAIL; peer lane |
+| Math- [#54](https://github.com/d6g8k5htny-coder/Math-/pull/54) | `6e4085a…`; **OA ACTIVE** integration repair onto `1e1114f` (5842137854); keep CONTACT SOURCE NOT FOUND; Landing FAIL pending |
 | Math- [#55](https://github.com/d6g8k5htny-coder/Math-/pull/55) | Pin-neighborhood review; **observe** |
 | Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | `718029c…` OA **MATCH**; **author merge OFFERED** (5841915560); then issue56 BLOCKED_ABSENT |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
@@ -53,7 +53,7 @@
 | main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `d486dd1…` = `6385bc0`+`ebedb78` (5842042737); local claims-gate PASS; await hosted CI; custody-only |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 `2624262…`; C1/C2 repair **#124** @ `a380dcf…` **verify SUCCESS**; **nonauthor re-review OFFERED**; eng≠theorem |
-| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `6a7f1f6…` = `b362222`+`7caac254` base-sync; CI pending; **A1/A6 re-check OFFERED**; eng≠theorem |
+| main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | `6a7f1f6…` base-sync receipt (5842136756); local transition_ok; hosted CI pending; **A1/A6 re-check OFFERED** |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Batch 385 Path C eng resume @ hardening `7caac25` (bc-01a0cf1e…); IDLE@0019; **observe**; no lemma_closed/claim promotion |
 | Math- [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#64](https://github.com/d6g8k5htny-coder/Math-/pull/64)–[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) | **#66** audit RELEASED (5842128273): support-edge candidate local-only; **integration OFFERED**; others observe |
