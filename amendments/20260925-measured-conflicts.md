@@ -68,7 +68,7 @@
 | Math- [#7](https://github.com/d6g8k5htny-coder/Math-/pull/7) | **SUPERSEDED/NONBLOCKING** at fixed-annulus+height-window (5840305109); PR22 route reviewed; not global D5 |
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
 | Math- [#55](https://github.com/d6g8k5htny-coder/Math-/pull/55) | tip `4e188e2…`; peer **AMEND** ([5848720985](https://github.com/d6g8k5htny-coder/Math-/pull/55#issuecomment-5848720985)) inner-disk/cone wording; repair **OFFERED**; eng≠theorem |
-| Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | `718029c…` OA **MATCH**; **author merge OFFERED** (5841915560); then issue56 BLOCKED_ABSENT |
+| Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | tip `1991216…` TRANSVERSE_CONTACT_ASYMPTOTIC disposition; related [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80); **observe**; eng≠theorem |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | **CLOSED UNMERGED** NEVER-MAIN tip-observe ([5847478200](https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5847478200)); Section3–5 ACCEPT notes retained on governance-; OBL-H5-JETMOD remains OPEN; sci effect NONE |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | **CLOSED** without merge — superseded; bytes already on main via PR25 `53320cb…` ([5848730830](https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5848730830)); eng≠theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
