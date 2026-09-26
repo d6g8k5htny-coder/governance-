@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T18:43:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6200dfd; Math- tip 66e39d1. Math- #69 continuum-transfer repair DELIVERED in-thread (5848849115) + claim RELEASED (5848850610); tip unchanged; successor freeze OFFERED. Updated 2026-09-26T18:43:30Z.",
+  "updated_at": "2026-09-26T20:34:45Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6200dfd; Math- tip 66e39d1. New observe: main #159/#161; Math- #80/#81/#82. Watched tips unchanged. Pulse 20:34Z. Updated 2026-09-26T20:34:45Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4623,7 +4623,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T18:43:30Z",
+      "heartbeat_at": "2026-09-26T20:34:45Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5814,6 +5814,131 @@
       ],
       "delegates_to": "math-69-d5-pin-microdisk-ddiff",
       "blocked_reason": "OFFERED author freeze of R1/R2 into immutable successor; OpenAI cannot self-accept; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-159-drive-lane-map-incoming",
+      "scope": "incoming/drive-lane-map-20260926 navigation-only Drive-to-GitHub map",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 159,
+        "head_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7"
+      },
+      "claimed_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/159"
+      ],
+      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-161-lb-rate-kimi-thm023-hold",
+      "scope": "docs(review): LB-RATE / KIMI-THM-023 HOLD landing; companion #160",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 161,
+        "head_oid": "43b3ced366fa30a4169f454f7a48802367b45758"
+      },
+      "claimed_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/161"
+      ],
+      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-80-contact-kernel-substitute",
+      "scope": "Draft contact-kernel substitute (CAS-checked; not TRANSVERSE filename)",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 80,
+        "head_oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67"
+      },
+      "claimed_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80"
+      ],
+      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-81-drive-hole-ledger",
+      "scope": "Draft Drive-hole ledger \u2014 which missing sources can have substitutes",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 81,
+        "head_oid": "b28cf2526532ad318f082955fb419f09dbb5c61e"
+      },
+      "claimed_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/81"
+      ],
+      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-82-d5-microdisk-det-hm-vanishes",
+      "scope": "Draft D5 microdisk frame \u2014 constrained det H_M vanishes; no O(r^3) lemma",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 82,
+        "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431"
+      },
+      "claimed_at": "2026-09-26T20:34:45Z",
+      "heartbeat_at": "2026-09-26T20:34:45Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82"
+      ],
+      "blocked_reason": "OFFERED observe; do not race; sci effect NONE"
     }
   ]
 }

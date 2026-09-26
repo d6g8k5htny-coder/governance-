@@ -101,6 +101,11 @@
 | main [#156](https://github.com/d6g8k5htny-coder/main/pull/156) | **MERGED** `f9f1253…` intake non-finite JSON + source paths; eng |
 | main [#158](https://github.com/d6g8k5htny-coder/main/pull/158) | **MERGED** `6200dfd…` museum manifest cache; eng — **main tip** |
 | main [#157](https://github.com/d6g8k5htny-coder/main/pull/157) | tip `94459ce…` Actions group bump; **observe**; eng≠theorem |
+| main [#159](https://github.com/d6g8k5htny-coder/main/pull/159) | tip `39161a6…` Drive-to-GitHub lane map (incoming); **observe**; eng≠theorem |
+| main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `43b3ced…` LB-RATE / KIMI-THM-023 HOLD review landing; **observe**; eng≠theorem |
+| Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | tip `a79007e…` contact-kernel substitute draft; **observe**; do not race |
+| Math- [#81](https://github.com/d6g8k5htny-coder/Math-/pull/81) | tip `b28cf25…` Drive-hole ledger draft; **observe**; do not race |
+| Math- [#82](https://github.com/d6g8k5htny-coder/Math-/pull/82) | tip `b190a4d…` D5 microdisk det H_M vanishes; related to [#60](https://github.com/d6g8k5htny-coder/Math-/pull/60)/[#69](https://github.com/d6g8k5htny-coder/Math-/pull/69); **observe**; do not race |
 | main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | tip `a380dcf…` preferred C1/C2 carrier; **UNSTABLE** (one verify FAILURE); await CI; eng≠theorem |
 | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
