@@ -11,3 +11,13 @@
 - This governance- lane cannot push `main`; rebase is author-lane (`cursor/scientific-state-schema-crosswalk-31c5`)
 
 Sci effect NONE.
+
+## Addendum — author merge (2026-09-26T00:47Z)
+
+- New tip `69e9b526fa6fea4468475705c599d454427eb603` = merge(`5cf4f36`, `1ae02b9`)
+- Base now `1ae02b9…`; `mergeable=true` (CI pending → UNSTABLE)
+- Claimed preserve: D1 CONDITIONAL/HOLD_WITH_DOMAIN + FW-RUNG-OPEN-PREMISE; Q0 theorem-first; E6 strict
+- OA final readback OFFERED; #90 still OPEN
+- Serialize `claims/q0_core_availability.json` with main #118
+
+Sci effect NONE.
