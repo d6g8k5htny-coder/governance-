@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T01:18:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #54 tip 6e4085a: peer amend delivered (TRANSVERSE blob 024d9277\u2026 MATCH; SOURCE NOT FOUND for CONTACT_ASYMPTOTIC); Landing claim manifest FAIL 36207928775 \u2014 author/peer lane. #98 MERGED; #90 still OPEN. Updated 2026-09-26T01:18:30Z.",
+  "updated_at": "2026-09-26T01:19:00Z",
+  "notes": "Compact ledger. Sci effect NONE. main #118 Cursor nonauthor packaging ACCEPT (5841877351) @ 435d8c8; rebase onto hardening ebedb78 OFFERED (empty overlap with #98). Updated 2026-09-26T01:19:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -396,10 +396,10 @@
         "pr": 3,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "cc99c3e734496a636e6d06ad90331d1a7eae95d1"
+        "head_oid": "88f8119439e4fddf2f6745266cbac731c29d9c1a"
       },
       "claimed_at": "2026-09-25T16:20:00Z",
-      "heartbeat_at": "2026-09-26T01:18:40Z",
+      "heartbeat_at": "2026-09-26T01:19:10Z",
       "expires_at": "2026-09-26T06:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2301,7 +2301,7 @@
         "ledger_bytes": 253067
       },
       "claimed_at": "2026-09-26T00:11:40Z",
-      "heartbeat_at": "2026-09-26T00:48:40Z",
+      "heartbeat_at": "2026-09-26T01:19:00Z",
       "expires_at": "2026-09-27T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -2316,11 +2316,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/118",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203317710",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36203317698",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36203317738"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36203317738",
+        "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841877351"
       ],
       "delegates_to": null,
       "lanes_note": "Q0 packaging adjacent to #98 scientific-state pilot \u2014 serialize merges; sci effect NONE claimed",
-      "blocked_reason": "ACTIVE DRAFT @ 435d8c8; CI green; SERIALIZE with #98 tip 69e9b52 (both touch claims/q0_core_availability.json); eng\u2260theorem"
+      "blocked_reason": "ACTIVE DRAFT @ 435d8c8; Cursor packaging ACCEPT 5841877351; rebase onto hardening ebedb78 OFFERED (empty file overlap with #98); author-lane; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-49-collision-package-integrate",
@@ -2746,6 +2747,34 @@
       ],
       "delegates_to": null,
       "blocked_reason": "OFFERED author-lane: close #90 eng-gate only after merge receipt; #90 still OPEN; this App cannot close issues on main"
+    },
+    {
+      "work_id": "main-118-rebase-onto-ebedb78",
+      "scope": "Rebase/merge #118 onto hardening tip ebedb78 after #98 land; re-run CI; no design change expected",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 118,
+        "pr_state": "open",
+        "head_oid": "435d8c850f632f465dc08ac8374ac9b3f298bc31",
+        "target_base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
+      },
+      "claimed_at": "2026-09-26T01:19:00Z",
+      "heartbeat_at": "2026-09-26T01:19:00Z",
+      "expires_at": "2026-09-27T02:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D7",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/118#issuecomment-5841877351"
+      ],
+      "delegates_to": "main-118-q0-ledger-mirror",
+      "blocked_reason": "OFFERED author-lane rebase onto ebedb78 per 5841877351; this App does not race / cannot push main"
     }
   ]
 }

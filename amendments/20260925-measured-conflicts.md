@@ -45,7 +45,7 @@
 | Math- [#18](https://github.com/d6g8k5htny-coder/Math-/pull/18) | SMT MATCH done; D6 analytic **AMEND F10** on governance-; peer redirected to D6 (not SMT redo) |
 | main [#90](https://github.com/d6g8k5htny-coder/main/issues/90) | Still **OPEN** — eng-gate close pending after #98 merge receipt `ebedb78…` |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | Section3 **C1–C5 ACCEPT** + Section4 **R1–R5 ACCEPT** + Section5 **N1–N6 ACCEPT**; Sections6+ outside |
-| main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` byte-exact Q0_LEDGER mirror; **CI green** (5 checks); keep DRAFT; serialize with #98 Q0 packaging |
+| main [#118](https://github.com/d6g8k5htny-coder/main/pull/118) | `435d8c8…` Q0_LEDGER; Cursor packaging **ACCEPT** (5841877351); **rebase onto ebedb78 OFFERED**; eng≠theorem |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | `596e809…` collision/simplex integrate; **CI green**; observe; merge ≠ theorem |
 | main [#120](https://github.com/d6g8k5htny-coder/main/pull/120) | `7ed8d1e…` SIDE24 source-custody; **verify FAIL** `36205808386` (certificates 11≠10); author-lane; no re-ratification |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | `79a791a…` lemma/theorem reading maps; **observe**; ready-for-review |
