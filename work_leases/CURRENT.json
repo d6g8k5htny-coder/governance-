@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T22:45:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). Math- #59 MERGED 55a3ced @ expected-head 1991216; #45/#46 peer AMEND; #124 verify FAIL before-ref a380dcf. Updated 2026-09-26T22:45:00Z.",
+  "updated_at": "2026-09-26T22:47:10Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). main #163 tip 92ac0d8 (museum triage; packaging AMEND still open; public-intake FAIL). Updated 2026-09-26T22:47:10Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4650,7 +4650,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-26T22:47:10Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -6123,12 +6123,12 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 163,
-        "head_oid": "c8405a76c8d487c16517e41c852e8e02ad9c7759",
-        "prior_oid": "4b0205553db30162eb85b9a90431b3eadb5bee1b",
+        "head_oid": "92ac0d82049eda5254228ef964bf0c0409b742cd",
+        "prior_oid": "c8405a76c8d487c16517e41c852e8e02ad9c7759",
         "peer_amend": "5850519011"
       },
       "claimed_at": "2026-09-26T22:01:10Z",
-      "heartbeat_at": "2026-09-26T22:37:30Z",
+      "heartbeat_at": "2026-09-26T22:47:10Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6136,9 +6136,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/163",
-        "https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011"
+        "https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011",
+        "https://github.com/d6g8k5htny-coder/main/commit/92ac0d82049eda5254228ef964bf0c0409b742cd",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36277327588"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ c8405a7; peer AMEND (5850519011): public-intake needs RESULT.md+IDENTITY.json; custody statements contradict Math- PR64 landed state; math OK at scope; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 92ac0d8 (tip move; +MUSEUM_TRIAGE.md only); peer AMEND (5850519011) RESULT.md+IDENTITY.json + custody still open; public-intake FAIL 36277327588; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-125-moment-lemma-amend",
@@ -6262,11 +6264,12 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 163,
-        "head_oid": "c8405a76c8d487c16517e41c852e8e02ad9c7759",
-        "finding_comment": "5850519011"
+        "head_oid": "92ac0d82049eda5254228ef964bf0c0409b742cd",
+        "finding_comment": "5850519011",
+        "prior_oid": "c8405a76c8d487c16517e41c852e8e02ad9c7759"
       },
       "claimed_at": "2026-09-26T22:37:30Z",
-      "heartbeat_at": "2026-09-26T22:37:30Z",
+      "heartbeat_at": "2026-09-26T22:47:10Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6276,7 +6279,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011"
       ],
       "delegates_to": "main-163-grok-session-replay-ledger",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND repair still open after tip 92ac0d8 (museum triage only; no RESULT.md/IDENTITY.json); this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-161-f2-intensity-amend",
