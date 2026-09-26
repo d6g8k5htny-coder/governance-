@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T15:46:15Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #70 ready-for-review @ b39e9ff (BYTE_COPY\u00d79). Main #134 tip \u2192 497ceff (firewall repair commit); CI in progress. Updated 2026-09-26T15:46:15Z.",
+  "updated_at": "2026-09-26T15:52:30Z",
+  "notes": "Compact ledger. Sci effect NONE. ULW #3 tip \u2192 03cd88c (ledger freshness); CI in progress. Updated 2026-09-26T15:52:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4271,11 +4271,12 @@
         "branch": "claude/public-workspace-proposal-20260926",
         "pr": 3,
         "pr_state": "open",
-        "head_oid": "2d65202d064e26f0c3848e64b979b890efbd68cd",
-        "composition_base": "f832ea1c636aadba1994942779cc7ded2806de14"
+        "head_oid": "03cd88c1792fa797357b8cd4558dbff44c1274da",
+        "composition_base": "f832ea1c636aadba1994942779cc7ded2806de14",
+        "prior_oid": "2d65202d064e26f0c3848e64b979b890efbd68cd"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-26T15:44:30Z",
+      "heartbeat_at": "2026-09-26T15:52:30Z",
       "expires_at": "2026-09-27T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4285,10 +4286,11 @@
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2#issuecomment-5847423896",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5847506343",
-        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5847578524"
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5847578524",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/03cd88c1792fa797357b8cd4558dbff44c1274da"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 2d65202; composition rebase onto #4 main f832ea1 concrete (5847578524); owner decides; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 03cd88c; CI in progress; composition after #4; owner decides; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-2-authority-boundary-repair",
