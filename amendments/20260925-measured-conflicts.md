@@ -73,7 +73,7 @@
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | D5 intermediate-scale envelope; **observe**; recon≠theorem |
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | **MERGED** `cd66a655…` onto hardening (not `main`); custody-only |
 | main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | **CLOSED UNMERGED** parked ([5847486750](https://github.com/d6g8k5htny-coder/main/pull/129#issuecomment-5847486750)); superseded by #138 front-door decision; ULW federation separate |
-| main [#136](https://github.com/d6g8k5htny-coder/main/pull/136) | tip `44338fc…` (invariant-not-transient control fix); CI in progress; **observe**; eng≠theorem |
+| main [#136](https://github.com/d6g8k5htny-coder/main/pull/136) | tip `44338fc…` invariant-not-transient control + body count 27→26 ([5848022912](https://github.com/d6g8k5htny-coder/main/pull/136#issuecomment-5848022912)); coordinates with [#140](https://github.com/d6g8k5htny-coder/main/pull/140); CI in progress; **observe**; eng≠theorem |
 | main [#138](https://github.com/d6g8k5htny-coder/main/pull/138) | **MERGED** `b120e70…` single public front door; nav only; tip advanced by #139 → `70664bd…` |
 | ULW [#2](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/2)/[#4](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/4) | **MERGED** `803a59c…` then `f832ea1…`; fail-open **CLOSED** on main via #4; mutable `ref` AMEND may remain; ([amendment](20260926-ulw2-federation-bootstrap-review.md)) |
 | ULW [#3](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3) | tip `96e0059…` (withdraw false private-repo claim); **verify SUCCESS**; still **CONFLICTING** vs `f832ea1…`; await owner rebase/compose; **observe** |
@@ -82,7 +82,7 @@
 | main [#139](https://github.com/d6g8k5htny-coder/main/pull/139) | **MERGED** `70664bd…` pinned public-source custody path; tip advanced by #145 → `bd9fc9d…` |
 | main [#145](https://github.com/d6g8k5htny-coder/main/pull/145) | **MERGED** `bd9fc9d…` public research shop; nav/eng only |
 | Math- [#75](https://github.com/d6g8k5htny-coder/Math-/pull/75) | **MERGED** `58f7936…` nine BYTE_COPY imports in proof index; custody≠theorem |
-| main [#140](https://github.com/d6g8k5htny-coder/main/pull/140) | `33a2b78…` pinned-source index coverage (13 missed); **observe**; eng≠theorem |
+| main [#140](https://github.com/d6g8k5htny-coder/main/pull/140) | `33a2b78…` pinned-source index coverage (13 missed); sibling [#136](https://github.com/d6g8k5htny-coder/main/pull/136) now tolerates archive-index close; **observe**; eng≠theorem |
 | main [#147](https://github.com/d6g8k5htny-coder/main/pull/147) | **MERGED** `e495837…`; intake verify SUCCESS ([5847931757](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847931757)); eng receipt ([5847954854](https://github.com/d6g8k5htny-coder/main/pull/147#issuecomment-5847954854)); residual Codex **P2 AMEND** RESULT.md task-link still open on tip (process rule 10 / [4112001085](https://github.com/d6g8k5htny-coder/main/pull/147#discussion_r4112001085)); successor repair **OFFERED**; eng≠theorem |
 | main [#125](https://github.com/d6g8k5htny-coder/main/pull/125) | `00c9d08…` D5 shrinking witness recon; **observe**; verify SUCCESS; recon≠theorem |
 | trial [#121](https://github.com/d6g8k5htny-coder/trial/pull/121)/[#138](https://github.com/d6g8k5htny-coder/trial/pull/138) | Path C eng; trial tip `3a86f7b` (Batch 546 tip_or_eng TIP_DRIFT); hardening tip `96e5175`; `main` tip `e495837` (#147); **observe**; no lemma_closed/claim promotion |

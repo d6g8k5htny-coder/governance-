@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T16:45:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip e495837. #136 tip 44338fc (invariant-not-transient control fix); CI in progress. #134/#135 re-reviews OFFERED. Updated 2026-09-26T16:45:50Z.",
+  "updated_at": "2026-09-26T16:46:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip e495837. #136 @ 44338fc author note (5848022912): invariant control + body count 26; coordinates with #140 archive-index. Await CI. Updated 2026-09-26T16:46:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4402,10 +4402,12 @@
         "head_oid": "44338fc324eff6bdb9fa084b9c6b0e7901c97820",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "ci": "verify_in_progress_44338fc",
-        "prior_oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f"
+        "prior_oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f",
+        "author_comment": "5848022912",
+        "sibling_pr": 140
       },
       "claimed_at": "2026-09-26T15:31:15Z",
-      "heartbeat_at": "2026-09-26T16:45:50Z",
+      "heartbeat_at": "2026-09-26T16:46:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4413,10 +4415,12 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/136",
-        "https://github.com/d6g8k5htny-coder/main/commit/44338fc324eff6bdb9fa084b9c6b0e7901c97820"
+        "https://github.com/d6g8k5htny-coder/main/commit/44338fc324eff6bdb9fa084b9c6b0e7901c97820",
+        "https://github.com/d6g8k5htny-coder/main/pull/136#issuecomment-5848022912",
+        "https://github.com/d6g8k5htny-coder/main/pull/140"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 44338fc (assert invariant not transient state); CI in progress; prior push-event FAIL was process rule 9; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 44338fc; author (5848022912): invariant-not-transient control + body count 27\u219226; coordinates with #140 archive pinned-index; await CI; do not race; sci effect NONE"
     },
     {
       "work_id": "ulw-4-submodule-pins",
@@ -4566,7 +4570,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T16:45:50Z",
+      "heartbeat_at": "2026-09-26T16:46:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4691,10 +4695,11 @@
         "pr_state": "open",
         "head_oid": "33a2b78e346c2f1da64c803d97ee631bf49dc4cc",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "mixed_verify"
+        "ci": "mixed_verify",
+        "sibling_pr": 136
       },
       "claimed_at": "2026-09-26T16:31:00Z",
-      "heartbeat_at": "2026-09-26T16:31:00Z",
+      "heartbeat_at": "2026-09-26T16:46:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4704,7 +4709,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/140"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 33a2b78; pinned-source index coverage; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 33a2b78; pinned-source index coverage (13 missed); sibling #136 @ 44338fc now tolerates archive-index close (5848022912); do not race; sci effect NONE"
     },
     {
       "work_id": "main-147-public-intake-side24-example",
