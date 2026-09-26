@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T04:41:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Math- #60 OA ACTIVE M1–M5 review (5843233986) @ ad27c6b. Updated 2026-09-26T04:41:00Z.",
+  "updated_at": "2026-09-26T04:43:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Math- #60 M1–M5 ACCEPT_TECHNICAL (5843245862); next obligation conditioned det h^2 estimate. Updated 2026-09-26T04:43:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3212,7 +3212,7 @@
         "note_sha256": "0351da0680e81c2b001338ede50770b9e00fa5cb09aab438940a9b81d56fd866"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T04:41:00Z",
+      "heartbeat_at": "2026-09-26T04:43:30Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3220,10 +3220,13 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/60",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5843233986"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5843233986",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5843245862",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-math60-m1m5-accept.md",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36208206938"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE OA M1–M5 nonauthor review (5843233986) @ ad27c6b / NOTE blob 36cc6cfc…; zero org-independence; no RN/global promotion; this App does not race; sci effect NONE"
+      "blocked_reason": "ACTIVE DRAFT @ ad27c6b; M1–M5 ACCEPT_TECHNICAL (5843245862); zero org-independence; det-repulsion/RN not reviewed; next obligation: conditioned det h^2 estimate on new source; merge ≠ theorem; sci effect NONE"
     },
     {
       "work_id": "math-64-endpoint-hessian-erratum",
@@ -3743,6 +3746,34 @@
       ],
       "delegates_to": null,
       "blocked_reason": "OFFERED observe DRAFT; do not race; recon≠theorem; sci effect NONE"
+    },
+    {
+      "work_id": "math-60-det-h2-estimate-offer",
+      "scope": "Next obligation after #60 M1–M5: conditioned determinant estimate with compensating h^2 (new immutable source + distinct reviewer)",
+      "owner": {
+        "provider": null,
+        "model": null,
+        "agent": null
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "parent_pr": 60,
+        "parent_oid": "ad27c6b8802167ae8798221a9fb8ba3365162b63",
+        "accept_comment": "5843245862"
+      },
+      "claimed_at": "2026-09-26T04:43:30Z",
+      "heartbeat_at": "2026-09-26T04:43:30Z",
+      "expires_at": "2026-09-27T08:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5843245862",
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-math60-m1m5-accept.md"
+      ],
+      "delegates_to": "math-60-pin-microdisk-anisotropic",
+      "blocked_reason": "OFFERED successor math obligation; do not conflate with #60 merge; sci effect NONE"
     }
   ]
 }
