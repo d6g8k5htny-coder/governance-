@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-26T18:40:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6200dfd; Math- tip 66e39d1. Math- #69 continuum-transfer repair CLAIMED by OpenAI (5848831173) @ ae45d35; thread-only write scope; do not race. Updated 2026-09-26T18:40:30Z.",
+  "updated_at": "2026-09-26T18:43:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6200dfd; Math- tip 66e39d1. Math- #69 continuum-transfer repair DELIVERED in-thread (5848849115) + claim RELEASED (5848850610); tip unchanged; successor freeze OFFERED. Updated 2026-09-26T18:43:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3419,10 +3419,12 @@
         "pr_state": "open",
         "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400",
         "peer_amend": "5848591450",
-        "repair_claim": "5848831173"
+        "repair_claim": "5848831173",
+        "repair_delivery": "5848849115",
+        "claim_release": "5848850610"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T18:40:30Z",
+      "heartbeat_at": "2026-09-26T18:43:30Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3431,10 +3433,12 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/69",
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848591450",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848831173"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848831173",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848849115",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ ae45d35; peer AMEND 5848591450; OpenAI BOUNDED REPAIR CLAIM (5848831173) continuum-transfer R1/R2 \u2014 thread-only, aborts on tip move; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ ae45d35; peer AMEND 5848591450; OpenAI continuum-transfer R1/R2 delivered in-thread (5848849115); claim RELEASED (5848850610); tip unchanged; disposition still AMEND \u2014 successor freeze OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "trial-path-c-batch387-resume-2f7a5a9",
@@ -4619,7 +4623,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-26T18:40:30Z",
+      "heartbeat_at": "2026-09-26T18:43:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5438,18 +5442,20 @@
         "claim_comment": "5848831173"
       },
       "claimed_at": "2026-09-26T18:07:25Z",
-      "heartbeat_at": "2026-09-26T18:40:30Z",
+      "heartbeat_at": "2026-09-26T18:43:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848591450",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848831173"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848831173",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848849115",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610"
       ],
       "delegates_to": "math-69-d5-pin-microdisk-ddiff",
-      "blocked_reason": "ACTIVE under OpenAI claim 5848831173 @ ae45d35; continuum Cov-floor + tilt; thread-only write scope; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED \u2014 repair text delivered in-thread 5848849115; claim closed 5848850610; tip ae45d35 unchanged; successor freeze OFFERED; sci effect NONE"
     },
     {
       "work_id": "main-121-close-favor-124",
@@ -5778,6 +5784,36 @@
         "https://github.com/d6g8k5htny-coder/main/pull/157"
       ],
       "blocked_reason": "OFFERED observe Actions bump; eng\u2260theorem; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-69-successor-freeze-r1r2",
+      "scope": "Freeze immutable successor NOTE with R1 ledger + R2 tilt + M3 blobs; fresh nonauthor review",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 69,
+        "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400",
+        "repair_comment": "5848849115",
+        "prior_amend": "5848591450",
+        "note_blob": "6d6ec7f57b07502b48d6daeeaa023f06faf1fcde"
+      },
+      "claimed_at": "2026-09-26T18:43:30Z",
+      "heartbeat_at": "2026-09-26T18:43:30Z",
+      "expires_at": "2026-09-28T00:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848849115",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610"
+      ],
+      "delegates_to": "math-69-d5-pin-microdisk-ddiff",
+      "blocked_reason": "OFFERED author freeze of R1/R2 into immutable successor; OpenAI cannot self-accept; this App does not race; sci effect NONE"
     }
   ]
 }
