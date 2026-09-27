@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:35:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); Math- tip 3b2ac59 (#91 MERGED). main #111 tip a3e4225 AMEND applied; #110 tip d89226c polish AMEND. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:35:00Z.",
+  "updated_at": "2026-09-27T18:36:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); Math- tip 3b2ac59 (#91). main #148 tip 8af287a / #140 tip 6950689 AMEND applied; CI pending. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:36:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4949,17 +4949,21 @@
         "branch": "claude/pinned-index-archive-members",
         "pr": 140,
         "pr_state": "open",
-        "head_oid": "30137333e4ef1a8b533de9e74ffa16fd5d169972",
+        "head_oid": "6950689eb546bb7d1831bf352282d3fb7b3457a3",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "ci": "green_5_3013733",
+        "ci": "pending_verify",
         "sibling_pr": 136,
-        "prior_oid": "33a2b78e346c2f1da64c803d97ee631bf49dc4cc",
+        "prior_oid": "30137333e4ef1a8b533de9e74ffa16fd5d169972",
         "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57",
-        "peer_amend": "5848434306"
+        "peer_amend": "5848434306",
+        "delivery_oid": "85ee72090d57a271446f3530133d3567d1742a3c",
+        "amend_applied_comment": "5858608552",
+        "draft": false,
+        "ready_for_review": true
       },
       "claimed_at": "2026-09-26T16:31:00Z",
-      "heartbeat_at": "2026-09-26T18:02:30Z",
-      "expires_at": "2026-09-28T00:00:00Z",
+      "heartbeat_at": "2026-09-27T18:36:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -4967,10 +4971,13 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/140",
         "https://github.com/d6g8k5htny-coder/main/commit/30137333e4ef1a8b533de9e74ffa16fd5d169972",
-        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5848434306"
+        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5848434306",
+        "https://github.com/d6g8k5htny-coder/main/commit/6950689eb546bb7d1831bf352282d3fb7b3457a3",
+        "https://github.com/d6g8k5htny-coder/main/commit/85ee72090d57a271446f3530133d3567d1742a3c",
+        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5858608552"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 3013733; CI GREEN\u00d75; peer AMEND (5848434306): false 'pinned by campaign' / governance/ claims in CLAUDE.md+PREAMBLE; CLAUDE.md conflicts with #136; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 6950689 MERGEABLE ready_for_review; AMEND applied (5858608552) @ 85ee720 (PREAMBLE false pinned-by-campaign/governance claims); CI verify pending; prefer land before #136; await re-review/land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-147-public-intake-side24-example",
@@ -5113,16 +5120,20 @@
         "branch": "claude/operator-directive-check",
         "pr": 148,
         "pr_state": "open",
-        "head_oid": "7556ddd6f039e5ded5d448637b0e10baac3e95e2",
+        "head_oid": "8af287ab24140efdc44449f8487adebad288d2eb",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "prior_oid": "1fd12eecea01bbf41cafca158d5a7263f9c420e5",
+        "prior_oid": "7556ddd6f039e5ded5d448637b0e10baac3e95e2",
         "merged_hardening": "96e5175306f7ab791a9ad021d0d39ecc1fbfee57",
-        "ci": "green_5_7556ddd",
-        "peer_amend": "5848436007"
+        "ci": "pending_verify",
+        "peer_amend": "5848436007",
+        "delivery_oid": "eebaaaeba8aba290862eab5427782b97428109bd",
+        "amend_applied_comment": "5858610194",
+        "draft": false,
+        "ready_for_review": true
       },
       "claimed_at": "2026-09-26T17:01:20Z",
-      "heartbeat_at": "2026-09-26T18:02:30Z",
-      "expires_at": "2026-09-28T00:00:00Z",
+      "heartbeat_at": "2026-09-27T18:36:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -5130,10 +5141,13 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/148",
         "https://github.com/d6g8k5htny-coder/main/commit/7556ddd6f039e5ded5d448637b0e10baac3e95e2",
-        "https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007"
+        "https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007",
+        "https://github.com/d6g8k5htny-coder/main/commit/8af287ab24140efdc44449f8487adebad288d2eb",
+        "https://github.com/d6g8k5htny-coder/main/commit/eebaaaeba8aba290862eab5427782b97428109bd",
+        "https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5858610194"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 7556ddd; CI GREEN\u00d75; peer AMEND (5848436007): RESEARCH_MAP vs GIT_ADAPTATION visibility-record disagreement + weak regex/provenance; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 8af287a MERGEABLE ready_for_review; AMEND applied (5858610194) @ eebaaae (directive regex/CITED_PATH + RESEARCH_MAP cite); CI verify pending; await re-review/land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-150-side24-chart-intake-dryrun",
@@ -5253,21 +5267,25 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 140,
-        "head_oid": "30137333e4ef1a8b533de9e74ffa16fd5d169972",
-        "finding_comment": "5848434306"
+        "head_oid": "6950689eb546bb7d1831bf352282d3fb7b3457a3",
+        "finding_comment": "5848434306",
+        "delivery_oid": "85ee72090d57a271446f3530133d3567d1742a3c",
+        "amend_applied_comment": "5858608552"
       },
       "claimed_at": "2026-09-26T17:45:30Z",
-      "heartbeat_at": "2026-09-26T17:45:30Z",
-      "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "heartbeat_at": "2026-09-27T18:36:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5848434306"
+        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5848434306",
+        "https://github.com/d6g8k5htny-coder/main/commit/85ee72090d57a271446f3530133d3567d1742a3c",
+        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5858608552"
       ],
       "delegates_to": "main-140-pinned-source-index-coverage",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: peer AMEND 5848434306 delivered @ 85ee720 (5858608552); tip 6950689; successor re-review OFFERED on observe lease; sci effect NONE"
     },
     {
       "work_id": "main-148-visibility-record-amend",
@@ -5280,21 +5298,25 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 148,
-        "head_oid": "7556ddd6f039e5ded5d448637b0e10baac3e95e2",
-        "finding_comment": "5848436007"
+        "head_oid": "8af287ab24140efdc44449f8487adebad288d2eb",
+        "finding_comment": "5848436007",
+        "delivery_oid": "eebaaaeba8aba290862eab5427782b97428109bd",
+        "amend_applied_comment": "5858610194"
       },
       "claimed_at": "2026-09-26T17:45:30Z",
-      "heartbeat_at": "2026-09-26T17:45:30Z",
-      "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "heartbeat_at": "2026-09-27T18:36:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007"
+        "https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5848436007",
+        "https://github.com/d6g8k5htny-coder/main/commit/eebaaaeba8aba290862eab5427782b97428109bd",
+        "https://github.com/d6g8k5htny-coder/main/pull/148#issuecomment-5858610194"
       ],
       "delegates_to": "main-148-operator-directive-check",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: peer AMEND 5848436007 delivered @ eebaaae (5858610194); tip 8af287a; successor re-review OFFERED on observe lease; sci effect NONE"
     },
     {
       "work_id": "main-136-mutant-table-amend",
