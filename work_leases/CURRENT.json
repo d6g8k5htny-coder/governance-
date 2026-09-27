@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:37:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). Math- #87 tip 05c20b6 denominator AMEND applied; await CI/re-review. Updated 2026-09-27T21:37:40Z.",
+  "updated_at": "2026-09-27T21:39:29Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip ae20fe0. HOLD/NEVER-MERGE default binds (not merging); exception when agents agree forward progress. Math- #87 tip 05c20b6 CI SUCCESS; await re-review. Updated 2026-09-27T21:39:29Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7332,7 +7332,7 @@
         "ci": "pending"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T21:37:40Z",
+      "heartbeat_at": "2026-09-27T21:39:29Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7346,10 +7346,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#discussion_r4115662942",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320",
         "https://github.com/d6g8k5htny-coder/Math-/commit/05c20b67ca49281601532f7a0224f871a8dae8d6",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/25bd02691e13ed9b2dfec2bb5944522e17fa1885"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/25bd02691e13ed9b2dfec2bb5944522e17fa1885",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352390785"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; denominator-order AMEND applied @ 25bd026 (r^8/12 + exact-series tests; prior hold 5858208320); await CI + re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; denominator-order AMEND applied @ 25bd026 (r^8/12 + exact-series tests; prior hold 5858208320); math-downstream-gates SUCCESS @ 05c20b6 (run 36352390785); await peer re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-87-cycle4-copilot-amend-repair",
@@ -7370,7 +7371,7 @@
         "ci": "pending"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T21:37:40Z",
+      "heartbeat_at": "2026-09-27T21:39:29Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7382,10 +7383,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#discussion_r4115662942",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320",
         "https://github.com/d6g8k5htny-coder/Math-/commit/05c20b67ca49281601532f7a0224f871a8dae8d6",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/25bd02691e13ed9b2dfec2bb5944522e17fa1885"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/25bd02691e13ed9b2dfec2bb5944522e17fa1885",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352390785"
       ],
       "delegates_to": "math-87-harper-cycle4-d5-sard",
-      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; denominator-order AMEND applied @ 25bd026 (r^8/12 + exact-series tests; prior hold 5858208320); await CI + re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; denominator-order AMEND applied @ 25bd026 (r^8/12 + exact-series tests; prior hold 5858208320); math-downstream-gates SUCCESS @ 05c20b6 (run 36352390785); await peer re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-88-public-reading-map",
@@ -8362,7 +8364,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/ba171866228c945d221f53dd1e823f55b17a39f4",
         "https://github.com/d6g8k5htny-coder/main/commit/9458b903f57f47f34d0398531c9c977d413bad57"
       ],
-      "blocked_reason": "RELEASED MERGED @ 9458b90 onto hardening (PR tip 8fb687a); verify SUCCESS; prior Dylan HOLD (5801735092) yielded \u2014 owner clarification: HOLD/NEVER-MERGE does not bind when agents agree the land moves the project forward positively; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 9458b90 onto hardening (PR tip 8fb687a); verify SUCCESS; prior Dylan HOLD (5801735092) \u2014 default HOLD/NEVER-MERGE binds (not merging); exception applied: agents agreed land moves project forward positively; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-152-path-c-base-tip-drift",
@@ -8614,7 +8616,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/7#issuecomment-5859461918",
         "https://github.com/d6g8k5htny-coder/main/pull/7#issuecomment-5848712835"
       ],
-      "blocked_reason": "RELEASED MERGED @ a01c72f onto hardening (PR tip 70d466d); queue AMEND/ACCEPT-at-stated-scope (5859374795); prior HOLD yielded (owner forward-progress rule); merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 hardening tip"
+      "blocked_reason": "RELEASED MERGED @ a01c72f onto hardening (PR tip 70d466d); queue AMEND/ACCEPT-at-stated-scope (5859374795); prior HOLD \u2014 default binds; consensus exception applied (owner forward-progress rule); merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 hardening tip"
     },
     {
       "work_id": "main-174-queue-reconciliation-20260927",
