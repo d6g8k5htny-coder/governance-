@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:42:32Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 3b7d1d6. HOLD/NEVER-MERGE default binds (not merging). trial #159 OFFERED NA-0009 git-ancestry fix for #155; Math- #87/#88 await re-review. Updated 2026-09-27T21:42:32Z.",
+  "updated_at": "2026-09-27T21:43:54Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 3b7d1d6. HOLD default binds (not merging). trial #155 tip 5e10de3 NA-0009 classify AMEND + CONFLICTING; #159 still OFFERED. Updated 2026-09-27T21:43:54Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8523,22 +8523,24 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 155,
         "pr_state": "open",
-        "head_oid": "725b4856ef754903b3e05739aca1c60910a97756",
+        "head_oid": "5e10de34ba1d8d104236e8613887f2ea925b6061",
         "draft": true,
         "ci": "partial_fail_sanity",
         "preferred_vehicle": true,
         "peer_vehicle_comment": "5859619659",
         "cherry_pick_from_152": "df6b700f",
-        "prior_oid": "d84e59085077a71f11ec36fd48c22a45df81e045",
+        "prior_oid": "725b4856ef754903b3e05739aca1c60910a97756",
         "author152_confirm": "5859643161",
         "peer_reshape": "5859674009",
-        "mergeable": "MERGEABLE",
+        "mergeable": "CONFLICTING",
         "na0009_amend": "5860004266",
         "na0009_fix_vehicle": 159,
-        "na0009_fix_comment": "5860075158"
+        "na0009_fix_comment": "5860075158",
+        "na0009_diag_comment": "5860084538",
+        "na0009_classify_commit": "5e10de34ba1d8d104236e8613887f2ea925b6061"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:42:32Z",
+      "heartbeat_at": "2026-09-27T21:43:54Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8559,9 +8561,12 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/725b4856ef754903b3e05739aca1c60910a97756",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860004266",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860075158",
-        "https://github.com/d6g8k5htny-coder/trial/pull/159"
+        "https://github.com/d6g8k5htny-coder/trial/pull/159",
+        "https://github.com/d6g8k5htny-coder/trial/commit/5e10de34ba1d8d104236e8613887f2ea925b6061",
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860084538",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36351873748"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 725b485 MERGEABLE; peer AMEND NA-0009 (5860004266); fix vehicle trial #159 tip 45784d6 offered (5860075158): git-ancestry fallback in tip_drift_class._compare_status + Intent _descends_from_base_tip; await #159 CI; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 5e10de3 CONFLICTING; NA-0009 AMEND applied in-branch (_descends_from_base_tip via tip_drift_class.classify @ 5e10de3) after main merge-sync; diag (5860084538): installation 403 rate-limit confirms shared-budget; peer fix vehicle #159 still OFFERED for git-ancestry (5860075158); await CI/reshape; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
@@ -8809,16 +8814,16 @@
         "draft": true,
         "parent_card_pr": 155,
         "parent_comment": "5860075158",
-        "mergeable": "UNKNOWN"
+        "mergeable": "CONFLICTING"
       },
       "claimed_at": "2026-09-27T21:42:32Z",
-      "heartbeat_at": "2026-09-27T21:42:32Z",
+      "heartbeat_at": "2026-09-27T21:43:54Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ 45784d6; NA-0009 fix for #155 \u2014 git ancestry mirror fallback (comment 5860075158); await CI (none yet); mergeState DIRTY/CONFLICTING risk vs tip; do not race; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe DRAFT @ 45784d6 CONFLICTING/DIRTY; NA-0009 git-ancestry fallback for #155 (comments 5860075158/5860084538); #155 also applied classify-path AMEND @ 5e10de3; await CI + reshape; do not race; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/159",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860075158",
