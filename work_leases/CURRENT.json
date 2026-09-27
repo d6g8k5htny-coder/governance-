@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:43:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 447a77f (#181); hardening tip a01c72f (#7); Math- tip a650f66; trial tip eb03255. HOLD binds \u2014 not merging. trial #160 sanity FAIL batch846 tip_sha pin drift @ 368efbf; observe main #183. Updated 2026-09-27T22:43:50Z.",
+  "updated_at": "2026-09-27T22:46:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 447a77f (#181); hardening tip a01c72f (#7); Math- tip a650f66; trial tip eb03255. HOLD binds \u2014 not merging. #172 scope split \u2192 #184 tip 4b62bf1 DRAFT CI SUCCESS (2 files); #183 CI SUCCESS. Updated 2026-09-27T22:46:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8357,10 +8357,13 @@
         "bounded_repair_base": "63dbb6fc4505be017fb4ba49cf60772aa0fb1093",
         "bounded_repair_applied": "5860467872",
         "scope_isolation_amend": "5860494147",
-        "changed_files": 114
+        "changed_files": 114,
+        "scope_split_comment": "5860534867",
+        "narrow_successor_pr": 184,
+        "narrow_successor_oid": "4b62bf147953dd0c659849b9a372cbd16738e96a"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T22:40:40Z",
+      "heartbeat_at": "2026-09-27T22:46:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8382,9 +8385,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860421315",
         "https://github.com/d6g8k5htny-coder/main/commit/668711f78c3b46271ffd85f8d2197724e0000613",
         "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860467872",
-        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860494147"
+        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860494147",
+        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860534867",
+        "https://github.com/d6g8k5htny-coder/main/pull/184"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 668711f MERGEABLE; peer scope-isolation AMEND (5860494147): 114-file packet not cleared \u2014 keep DRAFT; narrow successor PR for tool/index repairs OFFERED (do not race); archive/intake + governance directive separate reviews; HOLD binds (not merging); custody; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 668711f; scope split executed (5860534867) \u2014 stays DRAFT; narrow tool/index successor #184 @ 4b62bf1; intake + OP-PRIVACY successors OFFERED separately; privacy screen recorded on intake bytes (no PII); HOLD binds (not merging); custody; sci effect NONE"
     },
     {
       "work_id": "trial-150-dropbox-drive-gap-audit",
@@ -9431,7 +9436,7 @@
     },
     {
       "work_id": "main-172-narrow-successor-offered",
-      "scope": "Narrow successor of #172: tested tool/index repairs only on current main; link back to #172; no archive/intake or governance-directive duplication",
+      "scope": "Narrow successor of #172: dropbox_reconcile tool+tests only (#184); link back to #172",
       "owner": {
         "provider": "mixed",
         "model": "mixed",
@@ -9439,14 +9444,21 @@
       },
       "source": {
         "repo": "d6g8k5htny-coder/main",
-        "pr": null,
-        "pr_state": "none",
+        "pr": 184,
+        "pr_state": "open",
         "parent_pr": 172,
         "parent_oid": "668711f78c3b46271ffd85f8d2197724e0000613",
-        "scope_isolation_amend": "5860494147"
+        "scope_isolation_amend": "5860494147",
+        "branch": "cursor/dropbox-reconcile-tool-ac93",
+        "head_oid": "4b62bf147953dd0c659849b9a372cbd16738e96a",
+        "draft": true,
+        "mergeable": "MERGEABLE",
+        "ci": "success",
+        "changed_files": 2,
+        "scope_split_comment": "5860534867"
       },
       "claimed_at": "2026-09-27T22:40:40Z",
-      "heartbeat_at": "2026-09-27T22:40:40Z",
+      "heartbeat_at": "2026-09-27T22:46:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9454,10 +9466,13 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860494147",
-        "https://github.com/d6g8k5htny-coder/main/pull/172"
+        "https://github.com/d6g8k5htny-coder/main/pull/172",
+        "https://github.com/d6g8k5htny-coder/main/pull/184",
+        "https://github.com/d6g8k5htny-coder/main/commit/4b62bf147953dd0c659849b9a372cbd16738e96a",
+        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860534867"
       ],
       "delegates_to": "main-172-dropbox-reconciliation-tool",
-      "blocked_reason": "OFFERED observe \u2014 peer AMEND 5860494147 requests small successor PR; not opened yet; do not race author; governance- App has no main push; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 4b62bf1 MERGEABLE CI SUCCESS (2 files: tools/dropbox_reconcile.py + tests); byte-identical to #172 tool/tests; await eng review; do not race; HOLD binds (not merging); custody; sci effect NONE"
     },
     {
       "work_id": "main-183-formal-shell-fix",
@@ -9475,10 +9490,10 @@
         "head_oid": "c7a0250b389718126984834203b2a7832cf7257e",
         "draft": false,
         "mergeable": "MERGEABLE",
-        "ci": "in_progress"
+        "ci": "success"
       },
       "claimed_at": "2026-09-27T22:43:50Z",
-      "heartbeat_at": "2026-09-27T22:43:50Z",
+      "heartbeat_at": "2026-09-27T22:46:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9489,7 +9504,45 @@
         "https://github.com/d6g8k5htny-coder/main/commit/c7a0250b389718126984834203b2a7832cf7257e"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ c7a0250 MERGEABLE; formal CI fail-closed + agent release bind; CI in flight; HOLD binds (not merging) absent consensus; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ c7a0250 MERGEABLE CI SUCCESS; formal CI fail-closed + agent release bind; await eng review; HOLD binds (not merging) absent consensus; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-184-dropbox-reconcile-narrow",
+      "scope": "Dropbox reconciliation tool and tests (narrow successor to #172); custody/eng only",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "cursor/dropbox-reconcile-tool-ac93",
+        "pr": 184,
+        "pr_state": "open",
+        "head_oid": "4b62bf147953dd0c659849b9a372cbd16738e96a",
+        "draft": true,
+        "mergeable": "MERGEABLE",
+        "ci": "success",
+        "changed_files": 2,
+        "parent_pr": 172,
+        "parent_oid": "668711f78c3b46271ffd85f8d2197724e0000613",
+        "scope_split_comment": "5860534867"
+      },
+      "claimed_at": "2026-09-27T22:46:20Z",
+      "heartbeat_at": "2026-09-27T22:46:20Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/184",
+        "https://github.com/d6g8k5htny-coder/main/commit/4b62bf147953dd0c659849b9a372cbd16738e96a",
+        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860534867",
+        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860494147"
+      ],
+      "delegates_to": "main-172-dropbox-reconciliation-tool",
+      "blocked_reason": "OFFERED observe DRAFT @ 4b62bf1 MERGEABLE CI SUCCESS (2 files); await eng review; do not race; HOLD binds (not merging); custody; sci effect NONE"
     }
   ]
 }
