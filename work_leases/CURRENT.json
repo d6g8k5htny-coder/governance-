@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:54:17Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 4dd7bdc. HOLD default binds (not merging). trial #155+#159 both CI SUCCESS\u00d75; await #159 land. Updated 2026-09-27T21:54:17Z.",
+  "updated_at": "2026-09-27T21:55:23Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 632cc5e (#159+#157). HOLD default binds (not merging). NA-0009 landed via #159. Updated 2026-09-27T21:55:23Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8541,7 +8541,7 @@
         "resolution_evidence_comment": "5860160021"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:54:17Z",
+      "heartbeat_at": "2026-09-27T21:55:23Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8571,7 +8571,7 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860160021",
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36352852822"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE; CI SUCCESS\u00d75 (run 36352852822); NA-0009 classify on tip; resolution_evidence still points at #159 @ 16a7a64 (36352797542); await #159 land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE CI SUCCESS\u00d75; NA-0009 fix vehicle #159 MERGED @ 1f938f7 \u2014 card resolution_evidence satisfied on main; residual inbox scope still open; await author reshape/land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
@@ -8749,19 +8749,20 @@
       "source": {
         "repo": "d6g8k5htny-coder/trial",
         "pr": 157,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "0ad92e4942078bc52c6a254fb65bdbe6e0e4d056",
         "draft": true,
         "mergeable": "MERGEABLE",
         "ci": "gates_green_sanity_loop_pin",
         "evidence_comment": "5859916809",
         "ci_run": "36350681045",
-        "ci_comment": "5859930260"
+        "ci_comment": "5859930260",
+        "merge_oid": "3d3e1b80a1abf56e7161014eb906a164d52fcfbd"
       },
       "claimed_at": "2026-09-27T21:10:50Z",
-      "heartbeat_at": "2026-09-27T21:21:20Z",
+      "heartbeat_at": "2026-09-27T21:55:23Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -8771,9 +8772,10 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/0ad92e4942078bc52c6a254fb65bdbe6e0e4d056",
         "https://github.com/d6g8k5htny-coder/trial/pull/157#issuecomment-5859916809",
         "https://github.com/d6g8k5htny-coder/trial/pull/157#issuecomment-5859930260",
-        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36350681045"
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36350681045",
+        "https://github.com/d6g8k5htny-coder/trial/commit/3d3e1b80a1abf56e7161014eb906a164d52fcfbd"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 0ad92e4; CI 36350681045 (5859930260): gates green; batch832 HEAD^ fixed PASS; residual batch833 loop-pin + flaky ww.status race; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 3d3e1b8 (PR tip 0ad92e4); sanity fetch-depth 2 for HEAD^ parent-pin; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-176-exact-version-recovery",
@@ -8816,7 +8818,7 @@
         "repo": "d6g8k5htny-coder/trial",
         "branch": "cursor/tip-drift-git-ancestry-fallback-ff72",
         "pr": 159,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "16a7a64ec11a2e1449712cc5a627dcf1d826a079",
         "draft": true,
         "parent_card_pr": 155,
@@ -8828,16 +8830,17 @@
         "rebase_note_comment": "5860124874",
         "scope_narrowed": "git_ancestry_only_2file",
         "ready_comment": "5860158610",
-        "resolution_evidence_run": "36352797542"
+        "resolution_evidence_run": "36352797542",
+        "merge_oid": "1f938f73eee1b4a82f5b83033abd9c887b1b3044"
       },
       "claimed_at": "2026-09-27T21:42:32Z",
-      "heartbeat_at": "2026-09-27T21:53:50Z",
+      "heartbeat_at": "2026-09-27T21:55:23Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ 16a7a64 MERGEABLE; CI SUCCESS\u00d75 (36352797542) with live tip a01c72f != BASE_TIP \u2014 NA-0009 resolution_evidence candidate (5860158610/5860160021); await author land to main; HOLD binds (not merging) unless agent consensus; do not race; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "RELEASED MERGED @ 1f938f7 (PR tip 16a7a64); NA-0009 git-ancestry fallback landed; resolution_evidence run 36352797542; trial tip advanced; merge\u2260theorem; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/159",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860075158",
@@ -8847,7 +8850,36 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860124874",
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36352797542",
         "https://github.com/d6g8k5htny-coder/trial/pull/159#issuecomment-5860158610",
-        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860160021"
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860160021",
+        "https://github.com/d6g8k5htny-coder/trial/commit/1f938f73eee1b4a82f5b83033abd9c887b1b3044"
+      ]
+    },
+    {
+      "work_id": "main-177-formal-verification-guidance",
+      "scope": "Integrate formal-verification agent guidance and museum route",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 177,
+        "pr_state": "merged",
+        "merge_oid": "40493865b323f0376f09d553d78f705fe613492c",
+        "head_oid": "40493865b323f0376f09d553d78f705fe613492c"
+      },
+      "claimed_at": "2026-09-27T21:55:23Z",
+      "heartbeat_at": "2026-09-27T21:55:23Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "RELEASED MERGED @ 4049386 \u2014 formal-verification guidance + museum route; main tip; merge\u2260theorem; eng\u2260theorem; sci effect NONE",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/177",
+        "https://github.com/d6g8k5htny-coder/main/commit/40493865b323f0376f09d553d78f705fe613492c"
       ]
     }
   ]
