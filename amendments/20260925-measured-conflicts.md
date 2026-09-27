@@ -72,7 +72,7 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | **CLOSED UNMERGED** NEVER-MAIN tip-observe ([5847478200](https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5847478200)); Section3–5 ACCEPT notes retained on governance-; OBL-H5-JETMOD remains OPEN; sci effect NONE |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | **CLOSED** without merge — superseded; bytes already on main via PR25 `53320cb…` ([5848730830](https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5848730830)); eng≠theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | **CLOSED UNMERGED** ([5858193153](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5858193153)); see later row |
-| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | [#124](https://github.com/d6g8k5htny-coder/main/pull/124) **MERGED** `e7652a1…` onto hardening; [#121](https://github.com/d6g8k5htny-coder/main/pull/121) **CLOSED UNMERGED** SUPERSEDED ([5850479713](https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5850479713)/[5858799678](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678)); eng≠theorem |
+| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | [#124](https://github.com/d6g8k5htny-coder/main/pull/124) **MERGED** `e7652a1…` onto hardening; [#121](https://github.com/d6g8k5htny-coder/main/pull/121) **CLOSED UNMERGED** SUPERSEDED ([5858802807](https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5858802807)); eng≠theorem |
 | main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | tip `a1fc958…` **CI GREEN**; peer **AMEND** ([5848718687](https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5848718687)) A1 geometry still absent despite claim [5846575968](https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5846575968); A6 conditional; repair **OFFERED**; eng≠theorem |
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | **CLOSED UNMERGED** AMEND-parked ([5858404103](https://github.com/d6g8k5htny-coder/main/pull/128#issuecomment-5858404103)): finite-r transfer unsupported ([5842951887](https://github.com/d6g8k5htny-coder/main/pull/128#issuecomment-5842951887)/[5850654979](https://github.com/d6g8k5htny-coder/main/pull/128#issuecomment-5850654979)); successor Math- `frontiers/`; sci effect NONE |
 | main [#126](https://github.com/d6g8k5htny-coder/main/pull/126) | **MERGED** `cd66a655…` onto hardening (not `main`); custody-only |
@@ -170,7 +170,7 @@
 | Math- [#52](https://github.com/d6g8k5htny-coder/Math-/pull/52) | CLOSED UNMERGED — duplicate D2 cumulative review record already on main (5858193172) |
 | Math- [#67](https://github.com/d6g8k5htny-coder/Math-/pull/67) | CLOSED UNMERGED — superseded; PROOF_INDEX already on Math- main (5850499192) |
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | CLOSED UNMERGED AMEND-parked — finite-r transfer unsupported; successor Math- frontiers (5858404103) |
-| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121) | CLOSED UNMERGED SUPERSEDED by #124 MERGED onto hardening (5850479713/5858799678) |
+| main [#121](https://github.com/d6g8k5htny-coder/main/pull/121) | CLOSED UNMERGED SUPERSEDED by #124 MERGED onto hardening ([5858802807](https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5858802807)) |
 
 ## This agent
 

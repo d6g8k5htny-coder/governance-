@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T19:02:00Z",
+  "updated_at": "2026-09-27T19:03:00Z",
   "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124 MERGED); Math- tip 3b2ac59 (#91). #121 CLOSED UNMERGED SUPERSEDED. Updated 2026-09-27T19:02:00Z.",
   "leases": [
     {
@@ -2637,10 +2637,10 @@
         "pr_state": "closed",
         "head_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372",
         "peer_amend": "5848715982",
-        "close_comment": "5858799678"
+        "close_comment": "5858802807"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-27T19:02:00Z",
+      "heartbeat_at": "2026-09-27T19:03:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -2659,11 +2659,12 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main121-premis-z-lower-blocked.md",
         "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5848715982",
         "https://github.com/d6g8k5htny-coder/main/commit/e7652a130398e88b2119884498af0987eef135c0",
-        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678"
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678",
+        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5858802807"
       ],
       "delegates_to": null,
       "lanes_note": "OA DRAFT; Cursor may reciprocal-review if leased \u2014 do not touch author branch from governance-",
-      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED by #124 MERGED @ e7652a1 onto hardening (5850479713/5858799678); sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED by #124 MERGED @ e7652a1 onto hardening (close 5858802807; prior 5850479713/5858799678); sci effect NONE"
     },
     {
       "work_id": "main-122-sard-g-execution-repair",
@@ -5815,10 +5816,10 @@
         "expected_124_oid": "6ad685c5c68bd34b6a5c3833e7cdd990cb9f9b3d",
         "prior_124_oid": "079615e05a92048519c255cec2d86c981160cbf5",
         "pr_state": "closed",
-        "close_comment": "5858799678"
+        "close_comment": "5858802807"
       },
       "claimed_at": "2026-09-26T18:25:00Z",
-      "heartbeat_at": "2026-09-27T19:02:00Z",
+      "heartbeat_at": "2026-09-27T19:03:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -5828,10 +5829,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5848715982",
         "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5850479713",
         "https://github.com/d6g8k5htny-coder/main/commit/e7652a130398e88b2119884498af0987eef135c0",
-        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678"
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678",
+        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5858802807"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED by #124 MERGED @ e7652a1 onto hardening (5850479713/5858799678); sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED by #124 MERGED @ e7652a1 onto hardening (close 5858802807; prior 5850479713/5858799678); sci effect NONE"
     },
     {
       "work_id": "main-122-a1-geometry-amend",
