@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:35:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4c5bc12 (#180); hardening tip a01c72f (#7); Math- tip a650f66; trial tip 9a2a2de. HOLD default binds. Updated 2026-09-27T22:35:40Z.",
+  "updated_at": "2026-09-27T22:36:18Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4c5bc12 (#180); hardening tip a01c72f (#7); Math- tip a650f66 (#95). HOLD default binds. main #172 tip 668711f bounded repair applied. Updated 2026-09-27T22:36:18Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8326,20 +8326,21 @@
         "repo": "d6g8k5htny-coder/main",
         "pr": 172,
         "pr_state": "open",
-        "head_oid": "735d698f49ebe0464f9e40f3cd57f86fad96f2a2",
+        "head_oid": "668711f78c3b46271ffd85f8d2197724e0000613",
         "draft": true,
         "base_branch": "main",
-        "prior_oid": "63dbb6fc4505be017fb4ba49cf60772aa0fb1093",
+        "prior_oid": "735d698f49ebe0464f9e40f3cd57f86fad96f2a2",
         "ci": "success",
         "branch": "claude/review-grok-github-uploads-gsthj3",
         "peer_accept": "5859448682",
         "amend_oid": "34807df60207ca514ddb634c38c518f3799f27f2",
         "mergeable": "MERGEABLE",
         "bounded_repair_comment": "5860421315",
-        "bounded_repair_base": "63dbb6fc4505be017fb4ba49cf60772aa0fb1093"
+        "bounded_repair_base": "63dbb6fc4505be017fb4ba49cf60772aa0fb1093",
+        "bounded_repair_applied": "5860467872"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T22:29:36Z",
+      "heartbeat_at": "2026-09-27T22:36:18Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8358,9 +8359,11 @@
         "https://github.com/d6g8k5htny-coder/main/commit/63dbb6fc4505be017fb4ba49cf60772aa0fb1093",
         "https://github.com/d6g8k5htny-coder/main/commit/735d698f49ebe0464f9e40f3cd57f86fad96f2a2",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36354667414",
-        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860421315"
+        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860421315",
+        "https://github.com/d6g8k5htny-coder/main/commit/668711f78c3b46271ffd85f8d2197724e0000613",
+        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860467872"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 735d698 MERGEABLE CI green; peer BOUNDED REPAIR AMEND (5860421315) @ base 63dbb6f \u2014 index-drive list/rows catalog + index-git fail-closed (nonzero on retrieval failure); peer agent repairing; do not race; custody; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 668711f MERGEABLE; BOUNDED REPAIR AMEND applied (5860467872): index-drive list/rows/sources + index-git fail-closed; 157 tests OK both Python modes; await fresh eng review; do not race; custody; sci effect NONE"
     },
     {
       "work_id": "trial-150-dropbox-drive-gap-audit",
