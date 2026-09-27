@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:06:39Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip eaf1264 (#178); hardening tip a01c72f (#7); Math- tip 867d9e3 (#92); trial tip 5763708. HOLD default binds (not merging). Timer: watched PR tips unchanged (#172/#87/#88/#156). Updated 2026-09-27T22:06:39Z.",
+  "updated_at": "2026-09-27T22:08:17Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip eaf1264 (#178); hardening tip a01c72f (#7); Math- tip 867d9e3 (#92); trial tip 4444b0f. HOLD default binds (not merging). trial #156 MERGED. Updated 2026-09-27T22:08:17Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8605,17 +8605,18 @@
       "source": {
         "repo": "d6g8k5htny-coder/trial",
         "pr": 156,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "c3ccf401663b80d4397d4e84b3fa2906b6157e2f",
         "draft": true,
         "prior_oid": "e9e98eea367d47116995163d584f290dccca2d52",
         "mergeable": "MERGEABLE",
-        "ci": "success"
+        "ci": "success",
+        "merge_oid": "0402778e23c2e91a195699acc61a7a97316f93c2"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T22:06:39Z",
+      "heartbeat_at": "2026-09-27T22:08:17Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -8625,9 +8626,10 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/bef4af3170d6bc79da11e0620ca7724ad770364e",
         "https://github.com/d6g8k5htny-coder/trial/commit/e9e98eea367d47116995163d584f290dccca2d52",
         "https://github.com/d6g8k5htny-coder/trial/commit/c3ccf401663b80d4397d4e84b3fa2906b6157e2f",
-        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36353595352"
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36353595352",
+        "https://github.com/d6g8k5htny-coder/trial/commit/0402778e23c2e91a195699acc61a7a97316f93c2"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ c3ccf40; CI SUCCESS\u00d75 (run 36353595352); review packet main #172/#174; await author land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 0402778 (PR tip c3ccf40); review packet main #172/#174 + Dropbox replay vs #150; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-7-p15-foundation-review",
