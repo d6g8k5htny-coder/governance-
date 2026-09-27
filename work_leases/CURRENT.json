@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:32:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #80 Copilot corroborates missing verify script (5328254469). Updated 2026-09-27T00:32:30Z.",
+  "updated_at": "2026-09-27T00:38:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #46 merge-hold 5851320572 (register policy + stale vs main). Updated 2026-09-27T00:38:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2453,10 +2453,11 @@
         "pr": 46,
         "pr_state": "open",
         "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee",
-        "peer_amend": "5850565848"
+        "peer_amend": "5850565848",
+        "merge_hold": "5851320572"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-27T00:38:00Z",
       "expires_at": "2026-09-27T01:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2465,10 +2466,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/46",
         "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5847534262",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5851320572"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 79a791a ready; peer AMEND (5850565848): cards stale vs #70/#74/#76 (transverse on tip, hazard ACCEPT, fixed-remote dual disposition, mesoscopic GRAPH); T-LIFETIME-REMAINDER FAIL_CLOSED misfiled; dead Cursor audit links; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 79a791a ready CI green; peer AMEND (5850565848) cards stale vs #70/#74/#76; merge-hold (5851320572): AGENTS.md register-duplication judgment + refresh off 760340e (~77 commits behind); repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-98-base-integration-1ae02b9",
@@ -4660,7 +4662,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:32:30Z",
+      "heartbeat_at": "2026-09-27T00:38:00Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -6433,10 +6435,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 46,
         "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee",
-        "finding_comment": "5850565848"
+        "finding_comment": "5850565848",
+        "merge_hold": "5851320572"
       },
       "claimed_at": "2026-09-26T22:45:00Z",
-      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-27T00:38:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6446,7 +6449,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848"
       ],
       "delegates_to": "math-46-lemma-theorem-reading-maps",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+merge-hold repair (refresh vs main + resolve register policy); this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-45-fail-closed-claim-audit",

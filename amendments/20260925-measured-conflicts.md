@@ -111,7 +111,7 @@
 | Math- [#84](https://github.com/d6g8k5htny-coder/Math-/pull/84) | **MERGED** `bebe09d…` H5 ledger inputs + rim exponent disclose; eng |
 | Math- [#85](https://github.com/d6g8k5htny-coder/Math-/pull/85) | **MERGED** `5ed3b45…` custody erratum + pairing/P15 note; eng |
 | Math- [#86](https://github.com/d6g8k5htny-coder/Math-/pull/86) | **MERGED** `0333379…` @ expected-head `5d890b5…` ([5851109594](https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5851109594)); eng/custody H5 rim contract; merge≠theorem — **Math- tip** |
-| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | tip `79a791a…`; peer **AMEND** ([5850565848](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848)) cards stale vs #70/#74/#76 + T-LIFETIME-REMAINDER misfile + dead audit links; repair **OFFERED**; eng≠theorem |
+| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | tip `79a791a…`; peer **AMEND** ([5850565848](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848)) + merge-hold ([5851320572](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5851320572)) stale cards + register-policy judgment; repair **OFFERED**; eng≠theorem |
 
 | Math- [#83](https://github.com/d6g8k5htny-coder/Math-/pull/83) | **MERGED** `3a7dffc…` STAGE_E falsifier recovery + H4-JC replay; eng — **Math- tip** |
 | Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | tip `a79007e…`; peer **AMEND** ([5850660898](https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5850660898)) + Copilot ([5328254469](https://github.com/d6g8k5htny-coder/Math-/pull/80#pullrequestreview-5328254469)) missing verify script + stand-in framing; repair **OFFERED**; eng≠theorem |
