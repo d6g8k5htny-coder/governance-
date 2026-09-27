@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:34:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); Math- tip 0be9c76 (#89). main #111 tip a3e4225 AMEND applied; #110 tip d89226c polish AMEND; Math- #91 observe. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:34:00Z.",
+  "updated_at": "2026-09-27T18:35:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); Math- tip 3b2ac59 (#91 MERGED). main #111 tip a3e4225 AMEND applied; #110 tip d89226c polish AMEND. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:35:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7775,23 +7775,25 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/c026-reciprocal-20260927",
         "pr": 91,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "4bdfff72018cc7a7ad1f7cf3198ce279232615d5",
         "draft": false,
-        "ci": "c026-reciprocal_SUCCESS+math-downstream-gates_SUCCESS"
+        "ci": "c026-reciprocal_SUCCESS+math-downstream-gates_SUCCESS",
+        "merge_oid": "3b2ac59f8f02b9573d01087aefff85bbc279a55a"
       },
       "claimed_at": "2026-09-27T18:32:00Z",
-      "heartbeat_at": "2026-09-27T18:32:00Z",
+      "heartbeat_at": "2026-09-27T18:35:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/91",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/4bdfff72018cc7a7ad1f7cf3198ce279232615d5"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/4bdfff72018cc7a7ad1f7cf3198ce279232615d5",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/3b2ac59f8f02b9573d01087aefff85bbc279a55a"
       ],
-      "blocked_reason": "OFFERED observe @ 4bdfff7 MERGEABLE CI green\u00d72; standalone reciprocal utility; frozen sources preserved; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 3b2ac59 (PR tip 4bdfff7); C026 reciprocal successor utility; frozen sources preserved; merge\u2260theorem; sci effect NONE"
     }
   ]
 }
