@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:52:23Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 4dd7bdc. HOLD default binds (not merging). trial #159 CI SUCCESS\u00d75 @ 16a7a64; #156 tip e9e98ee; #155 d3fabdc. Updated 2026-09-27T21:52:23Z.",
+  "updated_at": "2026-09-27T21:53:50Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 4dd7bdc. HOLD default binds (not merging). trial #159 CI green = NA-0009 resolution_evidence candidate; await land. Updated 2026-09-27T21:53:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8537,10 +8537,11 @@
         "na0009_fix_vehicle": 159,
         "na0009_fix_comment": "5860075158",
         "na0009_diag_comment": "5860084538",
-        "na0009_classify_commit": "5e10de34ba1d8d104236e8613887f2ea925b6061"
+        "na0009_classify_commit": "5e10de34ba1d8d104236e8613887f2ea925b6061",
+        "resolution_evidence_comment": "5860160021"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:52:23Z",
+      "heartbeat_at": "2026-09-27T21:53:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8566,9 +8567,10 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860084538",
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36351873748",
         "https://github.com/d6g8k5htny-coder/trial/commit/d3fabdc7b64316e4ec0b12aa5b7bfcc6ae4182cf",
-        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860124874"
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860124874",
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860160021"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE; NA-0009 classify on tip; #159 CI SUCCESS\u00d75 @ 16a7a64 (preferred git-ancestry vehicle); await land/reshape; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE; NA-0009 card resolution_evidence candidate points at #159 @ 16a7a64 run 36352797542 (5860160021); await #159 land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
@@ -8823,16 +8825,18 @@
         "peer_verify_comment": "5860090020",
         "ci": "success",
         "rebase_note_comment": "5860124874",
-        "scope_narrowed": "git_ancestry_only_2file"
+        "scope_narrowed": "git_ancestry_only_2file",
+        "ready_comment": "5860158610",
+        "resolution_evidence_run": "36352797542"
       },
       "claimed_at": "2026-09-27T21:42:32Z",
-      "heartbeat_at": "2026-09-27T21:52:23Z",
+      "heartbeat_at": "2026-09-27T21:53:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ 16a7a64 MERGEABLE; CI SUCCESS\u00d75 (run 36352797542) incl. sanity with live tip != BASE_TIP path; git-ancestry-only after fb1f6a54; peer verify 5860090020; await author land decision; HOLD binds (not merging) unless agent consensus; do not race; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe DRAFT @ 16a7a64 MERGEABLE; CI SUCCESS\u00d75 (36352797542) with live tip a01c72f != BASE_TIP \u2014 NA-0009 resolution_evidence candidate (5860158610/5860160021); await author land to main; HOLD binds (not merging) unless agent consensus; do not race; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/159",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860075158",
@@ -8840,7 +8844,9 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/16a7a64ec11a2e1449712cc5a627dcf1d826a079",
         "https://github.com/d6g8k5htny-coder/trial/pull/159#issuecomment-5860090020",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860124874",
-        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36352797542"
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36352797542",
+        "https://github.com/d6g8k5htny-coder/trial/pull/159#issuecomment-5860158610",
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860160021"
       ]
     }
   ]
