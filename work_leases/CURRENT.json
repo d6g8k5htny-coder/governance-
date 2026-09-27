@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:00:14Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 77a9a5c (#152). HOLD default binds. #149 tip dfb6bb4 post-cascade sync. Updated 2026-09-27T22:00:14Z.",
+  "updated_at": "2026-09-27T22:03:32Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 894cfd9 (#152). HOLD default binds (not merging). Math- #87 review-resolution pass @ 05c20b6 (9/11 threads); await owner merge. Updated 2026-09-27T22:03:32Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7329,10 +7329,12 @@
         "denominator_amend": "r^8/12",
         "prior_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
         "amend_oid": "25bd02691e13ed9b2dfec2bb5944522e17fa1885",
-        "ci": "pending"
+        "ci": "pending",
+        "review_resolution_comment": "5860231260",
+        "threads_resolved": "9/11"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T21:39:29Z",
+      "heartbeat_at": "2026-09-27T22:03:32Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7347,10 +7349,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320",
         "https://github.com/d6g8k5htny-coder/Math-/commit/05c20b67ca49281601532f7a0224f871a8dae8d6",
         "https://github.com/d6g8k5htny-coder/Math-/commit/25bd02691e13ed9b2dfec2bb5944522e17fa1885",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352390785"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352390785",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860231260"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; denominator-order AMEND applied @ 25bd026 (r^8/12 + exact-series tests; prior hold 5858208320); math-downstream-gates SUCCESS @ 05c20b6 (run 36352390785); await peer re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; review-resolution pass (5860231260): denominator r^8/12 + exact-series tests + RI/D5/README amendments addressed; gates SUCCESS; Copilot threads 9/11 resolved (2 remain); merge remains owner action; HOLD binds (not merging) unless agent consensus; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-87-cycle4-copilot-amend-repair",
@@ -7368,10 +7371,12 @@
         "merge_hold": "5858208320",
         "prior_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
         "amend_oid": "25bd02691e13ed9b2dfec2bb5944522e17fa1885",
-        "ci": "pending"
+        "ci": "pending",
+        "review_resolution_comment": "5860231260",
+        "threads_resolved": "9/11"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T21:39:29Z",
+      "heartbeat_at": "2026-09-27T22:03:32Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7384,10 +7389,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320",
         "https://github.com/d6g8k5htny-coder/Math-/commit/05c20b67ca49281601532f7a0224f871a8dae8d6",
         "https://github.com/d6g8k5htny-coder/Math-/commit/25bd02691e13ed9b2dfec2bb5944522e17fa1885",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352390785"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352390785",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860231260"
       ],
       "delegates_to": "math-87-harper-cycle4-d5-sard",
-      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; denominator-order AMEND applied @ 25bd026 (r^8/12 + exact-series tests; prior hold 5858208320); math-downstream-gates SUCCESS @ 05c20b6 (run 36352390785); await peer re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; review-resolution pass (5860231260): denominator r^8/12 + exact-series tests + RI/D5/README amendments addressed; gates SUCCESS; Copilot threads 9/11 resolved (2 remain); merge remains owner action; HOLD binds (not merging) unless agent consensus; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-88-public-reading-map",
@@ -7410,7 +7416,7 @@
         "merge_hold": "5858208204"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T21:40:52Z",
+      "heartbeat_at": "2026-09-27T22:03:32Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7428,7 +7434,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352508463"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 184707d MERGEABLE; pin/table AMEND @ 3ef408a binds cycle-4 to #87 tip 05c20b6 (SHA256 digests; notes denominator -r^8/12); main merge-sync @ 184707d; math-downstream-gates SUCCESS (run 36352508463); merge-hold (5858208204) still behind #87 peer re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 184707d MERGEABLE; pin to #87 05c20b6 done; #87 review-resolution pass (5860231260) \u2014 2 threads remain + owner merge; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-88-identity-bind-amend-repair",
@@ -7449,7 +7455,7 @@
         "merge_hold": "5858208204"
       },
       "claimed_at": "2026-09-27T01:08:00Z",
-      "heartbeat_at": "2026-09-27T21:40:52Z",
+      "heartbeat_at": "2026-09-27T22:03:32Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7465,7 +7471,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/88"
       ],
       "delegates_to": "math-88-public-reading-map",
-      "blocked_reason": "OFFERED observe @ 184707d MERGEABLE; pin/table AMEND @ 3ef408a binds cycle-4 to #87 tip 05c20b6 (SHA256 digests; notes denominator -r^8/12); main merge-sync @ 184707d; math-downstream-gates SUCCESS (run 36352508463); merge-hold (5858208204) still behind #87 peer re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 184707d MERGEABLE; pin to #87 05c20b6 done; #87 review-resolution pass (5860231260) \u2014 2 threads remain + owner merge; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-166-museum-conditional-route",
