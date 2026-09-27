@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:38:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #46 merge-hold 5851320572 (register policy + stale vs main). Updated 2026-09-27T00:38:00Z.",
+  "updated_at": "2026-09-27T00:40:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #81 Copilot 5328269096; #82 Copilot adds power-count finding 4113539715. Updated 2026-09-27T00:40:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4662,7 +4662,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:38:00Z",
+      "heartbeat_at": "2026-09-27T00:40:00Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5957,10 +5957,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 81,
         "head_oid": "b28cf2526532ad318f082955fb419f09dbb5c61e",
-        "peer_amend": "5850659219"
+        "peer_amend": "5850659219",
+        "copilot_review": "5328269096"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-26T22:56:00Z",
+      "heartbeat_at": "2026-09-27T00:40:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5968,9 +5969,12 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/81",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/81#issuecomment-5850659219"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/81#issuecomment-5850659219",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/81#pullrequestreview-5328269096",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/81#discussion_r4113540040",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/81#discussion_r4113540047"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ b28cf25; peer AMEND (5850659219): mint-forbidden CHART_SIDE_JETMOD path; draft carriers mislabeled live; restates #65; #56 closed via #59; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b28cf25; peer AMEND (5850659219) + Copilot (5328269096): mint path; draft carriers; PR80 pending-not-emitted; immutable identities; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-82-d5-microdisk-det-hm-vanishes",
@@ -5985,10 +5989,10 @@
         "pr": 82,
         "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
         "peer_amend": "5850657368",
-        "copilot_review": "5328253304"
+        "copilot_review": "5328268739"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T00:32:00Z",
+      "heartbeat_at": "2026-09-27T00:40:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6000,9 +6004,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5328253304",
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113523631",
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113523650",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113523640"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113523640",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5328268739",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113539715"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ b190a4d; peer AMEND (5850657368) + Copilot (5328253304) corroborate mixed-order r\u00b3 / \u03bb-cancel; missing executable algebra tests/mutants (#58); repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b190a4d; peer AMEND (5850657368) + Copilot (5328253304/5328268739): mixed-order r\u00b3; missing algebra tests; power-count r^-4\u2260r^2 (4113539715); repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-162-public-source-storefront",
@@ -6580,10 +6586,10 @@
         "pr": 82,
         "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
         "finding_comment": "5850657368",
-        "copilot_review": "5328253304"
+        "copilot_review": "5328268739"
       },
       "claimed_at": "2026-09-26T22:55:30Z",
-      "heartbeat_at": "2026-09-27T00:32:00Z",
+      "heartbeat_at": "2026-09-27T00:40:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6593,7 +6599,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368"
       ],
       "delegates_to": "math-82-d5-microdisk-det-hm-vanishes",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair (rewrite r\u00b3 + add algebra tests); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (r\u00b3 rewrite + algebra tests + power-count); this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-81-ledger-amend-repair",
@@ -6607,10 +6613,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 81,
         "head_oid": "b28cf2526532ad318f082955fb419f09dbb5c61e",
-        "finding_comment": "5850659219"
+        "finding_comment": "5850659219",
+        "copilot_review": "5328269096"
       },
       "claimed_at": "2026-09-26T22:56:00Z",
-      "heartbeat_at": "2026-09-26T22:56:00Z",
+      "heartbeat_at": "2026-09-27T00:40:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6620,7 +6627,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/81#issuecomment-5850659219"
       ],
       "delegates_to": "math-81-drive-hole-ledger",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-80-substitute-amend-repair",
