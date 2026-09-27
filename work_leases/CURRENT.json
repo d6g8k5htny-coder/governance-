@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T02:25:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). main #166 tip a66366a CI green\u00d76; Math- #89 tip 1ec186b. Updated 2026-09-27T02:25:30Z.",
+  "updated_at": "2026-09-27T02:26:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). Math- #89 Copilot 5328555779 (immutable manifests). Updated 2026-09-27T02:26:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4697,7 +4697,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T02:25:30Z",
+      "heartbeat_at": "2026-09-27T02:26:00Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4722,7 +4722,8 @@
         "https://github.com/d6g8k5htny-coder/main/pull/166",
         "https://github.com/d6g8k5htny-coder/Math-/pull/89",
         "https://github.com/d6g8k5htny-coder/Math-/commit/1ec186bb529d36b90d498d34063b0bd4c022639a",
-        "https://github.com/d6g8k5htny-coder/main/commit/a66366a6ab056f961140f60347141bf35dae63de"
+        "https://github.com/d6g8k5htny-coder/main/commit/a66366a6ab056f961140f60347141bf35dae63de",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge; sci effect NONE"
@@ -7062,10 +7063,11 @@
         "readback_comment": "5851780538",
         "cert_dir": "certificates/bf_six_pin_scalar_20260926/",
         "prior_oid": "81de9a6a01974a60490f11656f130f32cc0a0437",
-        "hessian_dir": "certificates/bf_six_pin_hessian_20260926/"
+        "hessian_dir": "certificates/bf_six_pin_hessian_20260926/",
+        "copilot_review": "5328555779"
       },
       "claimed_at": "2026-09-27T02:01:00Z",
-      "heartbeat_at": "2026-09-27T02:22:00Z",
+      "heartbeat_at": "2026-09-27T02:26:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7076,10 +7078,38 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/81de9a6a01974a60490f11656f130f32cc0a0437",
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#issuecomment-5851780538",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36286057342",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/1ec186bb529d36b90d498d34063b0bd4c022639a"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/1ec186bb529d36b90d498d34063b0bd4c022639a",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 1ec186b MERGEABLE CI green; tip adds Hessian Cov cert (1/7 I <= Cov <= 2 I, r<=1/40); scalar package preserved @ 81de9a6; await nonauthor review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 1ec186b MERGEABLE CI green; Copilot (5328555779) Findings:None but needs closer look \u2014 add/verify immutable source manifests for scalar+Hessian packages; await nonauthor review; do not race; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "math-89-immutable-manifest-amend",
+      "scope": "Add/verify immutable source manifests for bf_six_pin_scalar and bf_six_pin_hessian packages",
+      "owner": {
+        "provider": "github",
+        "model": "copilot",
+        "agent": "copilot-pull-request-reviewer[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 89,
+        "head_oid": "1ec186bb529d36b90d498d34063b0bd4c022639a",
+        "copilot_review": "5328555779"
+      },
+      "claimed_at": "2026-09-27T02:26:00Z",
+      "heartbeat_at": "2026-09-27T02:26:00Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779"
+      ],
+      "delegates_to": "math-89-bf-six-pin-scalar-bound",
+      "blocked_reason": "OFFERED Copilot eng note (immutable manifests); this App does not race; sci effect NONE"
     }
   ]
 }
