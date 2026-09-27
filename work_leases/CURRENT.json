@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:59:22Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 894cfd9 (#152). HOLD default binds (not merging). Updated 2026-09-27T21:59:22Z.",
+  "updated_at": "2026-09-27T22:00:14Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 77a9a5c (#152). HOLD default binds. #149 tip dfb6bb4 post-cascade sync. Updated 2026-09-27T22:00:14Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8721,17 +8721,17 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 149,
         "pr_state": "open",
-        "head_oid": "8eaf5c86ecdd79ff840b206947a63be5632f8d7a",
+        "head_oid": "dfb6bb4098acd269a91348afab7f4e30442e5b01",
         "draft": true,
-        "ci": "gates_green_sanity_red_0_unique",
+        "ci": "in_progress",
         "ci_run": "36349927928",
         "peer_ci_comment": "5859801248",
         "mergeable": "MERGEABLE",
         "sanity_comment": "5859852395",
-        "prior_oid": "3725ac3d4e9eea0903f24f10a5347d74ec2fcb14"
+        "prior_oid": "8eaf5c86ecdd79ff840b206947a63be5632f8d7a"
       },
       "claimed_at": "2026-09-27T21:00:40Z",
-      "heartbeat_at": "2026-09-27T21:13:40Z",
+      "heartbeat_at": "2026-09-27T22:00:14Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8744,9 +8744,10 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/3725ac3d4e9eea0903f24f10a5347d74ec2fcb14",
         "https://github.com/d6g8k5htny-coder/trial/pull/149#issuecomment-5859852395",
         "https://github.com/d6g8k5htny-coder/trial/pull/157",
-        "https://github.com/d6g8k5htny-coder/trial/commit/8eaf5c86ecdd79ff840b206947a63be5632f8d7a"
+        "https://github.com/d6g8k5htny-coder/trial/commit/8eaf5c86ecdd79ff840b206947a63be5632f8d7a",
+        "https://github.com/d6g8k5htny-coder/trial/commit/dfb6bb4098acd269a91348afab7f4e30442e5b01"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 8eaf5c8 MERGEABLE; re-merged origin/main; tip-drift gates green; sanity 0-unique red (5859852395); do not race; custody; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ dfb6bb4 MERGEABLE; main merge-sync after #152/#155/#159 cascade; Dropbox intake digest; CI in flight; do not race; custody; sci effect NONE"
     },
     {
       "work_id": "trial-157-sanity-fetch-depth",
