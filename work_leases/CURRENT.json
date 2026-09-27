@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T01:00:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). main #135 MERGED eng ACCEPT-for-hardening 5328334422. Updated 2026-09-27T01:00:30Z.",
+  "updated_at": "2026-09-27T01:08:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). Math- #88 OpenAI eng AMEND 5328356234 (identity bind). Updated 2026-09-27T01:08:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4697,7 +4697,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T01:00:30Z",
+      "heartbeat_at": "2026-09-27T01:08:00Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4717,7 +4717,8 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/74#pullrequestreview-5328288488",
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5328284540",
         "https://github.com/d6g8k5htny-coder/main/commit/38a3e070ff4c6cd071d38a09f050299494e06ada",
-        "https://github.com/d6g8k5htny-coder/main/pull/135#pullrequestreview-5328334422"
+        "https://github.com/d6g8k5htny-coder/main/pull/135#pullrequestreview-5328334422",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5328356234"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge; sci effect NONE"
@@ -6950,10 +6951,12 @@
         "pr": 88,
         "pr_state": "open",
         "head_oid": "2cdf62fdc98f150a0e351da7d746901d87321e5b",
-        "ci": "math-downstream-gates_SUCCESS"
+        "ci": "math-downstream-gates_SUCCESS",
+        "peer_amend": "5328356234",
+        "openai_eng_amend": "5328356234"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T00:52:00Z",
+      "heartbeat_at": "2026-09-27T01:08:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6961,10 +6964,40 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/88",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/2cdf62fdc98f150a0e351da7d746901d87321e5b"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/2cdf62fdc98f150a0e351da7d746901d87321e5b",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5328356234"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 2cdf62f MERGEABLE CI green; pointer-only; may fold after #87; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 2cdf62f MERGEABLE CI green; OpenAI eng AMEND (5328356234): cycle-4 table cites 8657130 but links mutable branch (live #87 tip 0fab933); bind full-commit URLs + SHA256 manifest; keep #87 candidate/unresolved boundary; repair OFFERED; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "math-88-identity-bind-amend-repair",
+      "scope": "Bind cycle-4 table to immutable commit+SHA256; keep mutable 'latest PR' link separate; retain #87 non-accept boundary",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 88,
+        "head_oid": "2cdf62fdc98f150a0e351da7d746901d87321e5b",
+        "finding_review": "5328356234",
+        "stated_cycle4_oid": "8657130",
+        "live_pr87_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470"
+      },
+      "claimed_at": "2026-09-27T01:08:00Z",
+      "heartbeat_at": "2026-09-27T01:08:00Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5328356234"
+      ],
+      "delegates_to": "math-88-public-reading-map",
+      "blocked_reason": "OFFERED OpenAI eng AMEND repair (immutable identities + digest manifest); this App does not race; sci effect NONE"
     }
   ]
 }
