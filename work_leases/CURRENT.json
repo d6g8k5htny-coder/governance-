@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:35:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip b63cccd (#73). Math- #82 tip b1b8a76 ready_for_review; #124 tip 6ad685c await verify. Updated 2026-09-27T17:35:30Z.",
+  "updated_at": "2026-09-27T17:37:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip e85de87 (#82 MERGED). Math- #90 tip 3c7c546 ready_for_review; #124 tip 6ad685c await verify. Updated 2026-09-27T17:37:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -6141,12 +6141,14 @@
         "prior_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
         "draft": false,
         "ready_for_review": true,
-        "ci": "math-downstream-gates_IN_PROGRESS"
+        "ci": "math-downstream-gates_IN_PROGRESS",
+        "merge_oid": "e85de87857778b932e96cc185fdd70af1cfe0095",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T17:35:30Z",
+      "heartbeat_at": "2026-09-27T17:37:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -6161,9 +6163,10 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113539715",
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5330626697",
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4115654680",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/b1b8a76dfce04089af4c6a7a132378c7df69b518"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/b1b8a76dfce04089af4c6a7a132378c7df69b518",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/e85de87857778b932e96cc185fdd70af1cfe0095"
       ],
-      "blocked_reason": "OFFERED observe @ b1b8a76 MERGEABLE ready_for_review (was DRAFT @ b190a4d); tip=merge origin/main only; gates IN_PROGRESS; peer AMEND (5850657368) + Copilot (5330626697) still open; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ e85de87 (PR tip b1b8a76); merge\u2260theorem; peer/Copilot AMEND process debt if still material; sci effect NONE"
     },
     {
       "work_id": "main-162-public-source-storefront",
@@ -6765,22 +6768,25 @@
         "head_oid": "b1b8a76dfce04089af4c6a7a132378c7df69b518",
         "finding_comment": "5850657368",
         "copilot_review": "5330626697",
-        "draft": false
+        "draft": false,
+        "merge_oid": "e85de87857778b932e96cc185fdd70af1cfe0095",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T22:55:30Z",
-      "heartbeat_at": "2026-09-27T17:35:30Z",
+      "heartbeat_at": "2026-09-27T17:37:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368",
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5330626697",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/b1b8a76dfce04089af4c6a7a132378c7df69b518"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/b1b8a76dfce04089af4c6a7a132378c7df69b518",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/e85de87857778b932e96cc185fdd70af1cfe0095"
       ],
       "delegates_to": "math-82-d5-microdisk-det-hm-vanishes",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair; tip b1b8a76 main-merge only; this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #82 MERGED @ e85de87; sci effect NONE"
     },
     {
       "work_id": "math-81-ledger-amend-repair",
@@ -7447,23 +7453,27 @@
         "branch": "copilot/d5-pin-microdisk-lemma",
         "pr": 90,
         "pr_state": "open",
-        "head_oid": "5acffeead74d501bcffc844d1eba0fcb33a233ec",
-        "draft": true,
-        "packet_dir": "reviews/d5_pin_microdisk_20260927/"
+        "head_oid": "3c7c546bba852be8f727ebd7e978efdc0adb4472",
+        "draft": false,
+        "packet_dir": "reviews/d5_pin_microdisk_20260927/",
+        "prior_oid": "5acffeead74d501bcffc844d1eba0fcb33a233ec",
+        "ready_for_review": true,
+        "ci": "math-downstream-gates_IN_PROGRESS"
       },
       "claimed_at": "2026-09-27T14:32:00Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
-      "expires_at": "2026-09-29T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:37:00Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/90",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/5acffeead74d501bcffc844d1eba0fcb33a233ec"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/5acffeead74d501bcffc844d1eba0fcb33a233ec",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/3c7c546bba852be8f727ebd7e978efdc0adb4472"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 5acffee MERGEABLE; Copilot-swe bounded microdisk note (not closed lemma); converge with #53/#69/#74/#82; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 3c7c546 MERGEABLE ready_for_review (was DRAFT @ 5acffee); tip=merge origin/main only; gates IN_PROGRESS; bounded note not closed lemma; converge #53/#69/#74; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-18-copilot-receipt-amend-repair",
