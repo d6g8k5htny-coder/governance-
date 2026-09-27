@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:40:52Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip ae20fe0. HOLD/NEVER-MERGE default binds (not merging); consensus exception only. Math- #88 tip 184707d pin AMEND+CI SUCCESS; #87 await re-review. Updated 2026-09-27T21:40:52Z.",
+  "updated_at": "2026-09-27T21:42:32Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 3b7d1d6. HOLD/NEVER-MERGE default binds (not merging). trial #159 OFFERED NA-0009 git-ancestry fix for #155; Math- #87/#88 await re-review. Updated 2026-09-27T21:42:32Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8533,10 +8533,12 @@
         "author152_confirm": "5859643161",
         "peer_reshape": "5859674009",
         "mergeable": "MERGEABLE",
-        "na0009_amend": "5860004266"
+        "na0009_amend": "5860004266",
+        "na0009_fix_vehicle": 159,
+        "na0009_fix_comment": "5860075158"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:33:10Z",
+      "heartbeat_at": "2026-09-27T21:42:32Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8555,9 +8557,11 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/0b3387ddf2a3bd95f5264775c127c9c382f68dda",
         "https://github.com/d6g8k5htny-coder/trial/commit/d84e59085077a71f11ec36fd48c22a45df81e045",
         "https://github.com/d6g8k5htny-coder/trial/commit/725b4856ef754903b3e05739aca1c60910a97756",
-        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860004266"
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860004266",
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860075158",
+        "https://github.com/d6g8k5htny-coder/trial/pull/159"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 725b485 MERGEABLE; peer AMEND NA-0009 (5860004266): gh strip_env retry dead in Actions \u2014 use tip_drift_class.classify (urllib anon fallback); gates already DESCENDANT_OK on main; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 725b485 MERGEABLE; peer AMEND NA-0009 (5860004266); fix vehicle trial #159 tip 45784d6 offered (5860075158): git-ancestry fallback in tip_drift_class._compare_status + Intent _descends_from_base_tip; await #159 CI; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
@@ -8787,6 +8791,39 @@
         "https://github.com/d6g8k5htny-coder/main/commit/f8591b0e1101d97753677044f04e9d87f2fc719a"
       ],
       "blocked_reason": "RELEASED MERGED @ f8591b0 (PR tip af18a45); exact-version recovery two retained + nine open; merge\u2260theorem; custody/eng; sci effect NONE \u2014 main tip"
+    },
+    {
+      "work_id": "trial-159-na0009-git-ancestry-fallback",
+      "scope": "tip_drift_class git-ancestry fallback when compare API exhausted (NA-0009)",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "branch": "cursor/tip-drift-git-ancestry-fallback-ff72",
+        "pr": 159,
+        "pr_state": "open",
+        "head_oid": "45784d6257105900dfaf0b8e3c899939a7fb6e49",
+        "draft": true,
+        "parent_card_pr": 155,
+        "parent_comment": "5860075158",
+        "mergeable": "UNKNOWN"
+      },
+      "claimed_at": "2026-09-27T21:42:32Z",
+      "heartbeat_at": "2026-09-27T21:42:32Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "OFFERED observe DRAFT @ 45784d6; NA-0009 fix for #155 \u2014 git ancestry mirror fallback (comment 5860075158); await CI (none yet); mergeState DIRTY/CONFLICTING risk vs tip; do not race; eng\u2260theorem; sci effect NONE",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/159",
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860075158",
+        "https://github.com/d6g8k5htny-coder/trial/commit/45784d6257105900dfaf0b8e3c899939a7fb6e49"
+      ]
     }
   ]
 }
