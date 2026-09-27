@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:38:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 5ee7cfe (#90 MERGED). Math- #89 tip eb41d3e ready_for_review; #124 tip 6ad685c await verify. Updated 2026-09-27T17:38:30Z.",
+  "updated_at": "2026-09-27T17:40:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167 MERGED); Math- tip 0be9c76 (#89 MERGED). main #124 tip 6ad685c await verify. Updated 2026-09-27T17:40:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7206,7 +7206,7 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/bf-scalar-certificate-20260926",
         "pr": 89,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
         "draft": false,
         "ci": "scalar-arithmetic_SUCCESS+gates_QUEUED",
@@ -7222,12 +7222,13 @@
         "symlink_delivery": "85979c1",
         "prior_copilot_symlink": "5328575240",
         "copilot_ack": "5856625765",
-        "ready_for_review": true
+        "ready_for_review": true,
+        "merge_oid": "0be9c764eb5bb0158ebb5fb51b2d09d3d604d2f0"
       },
       "claimed_at": "2026-09-27T02:01:00Z",
-      "heartbeat_at": "2026-09-27T17:38:30Z",
+      "heartbeat_at": "2026-09-27T17:40:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -7246,10 +7247,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5330629317",
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#discussion_r4115656719",
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#issuecomment-5856625765",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/eb41d3e4bc3a601d7414c7f52d209e68bc282bbb"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/0be9c764eb5bb0158ebb5fb51b2d09d3d604d2f0"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ eb41d3e MERGEABLE ready_for_review (was DRAFT @ 85979c1); tip=merge origin/main only; scalar-arithmetic SUCCESS; gates QUEUED; Copilot custody AMEND (5330629317) still open; symlink delivered earlier; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 0be9c76 (PR tip eb41d3e); merge\u2260theorem; Copilot custody AMEND (5330629317) process debt if still material; sci effect NONE"
     },
     {
       "work_id": "math-89-immutable-manifest-amend",
@@ -7264,10 +7266,11 @@
         "pr": 89,
         "head_oid": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
         "copilot_review": "5328555779",
-        "delivery_oid": "e2e427e94044b63ae573e5e1858aacfa38603769"
+        "delivery_oid": "e2e427e94044b63ae573e5e1858aacfa38603769",
+        "merge_oid": "0be9c764eb5bb0158ebb5fb51b2d09d3d604d2f0"
       },
       "claimed_at": "2026-09-27T02:26:00Z",
-      "heartbeat_at": "2026-09-27T17:38:30Z",
+      "heartbeat_at": "2026-09-27T17:40:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -7358,10 +7361,11 @@
         "discussion": "4113833623",
         "author_fix_request": "5856595796",
         "delivery_oid": "85979c15b453d6d68df5a592238219e7dd918816",
-        "copilot_ack": "5856625765"
+        "copilot_ack": "5856625765",
+        "merge_oid": "0be9c764eb5bb0158ebb5fb51b2d09d3d604d2f0"
       },
       "claimed_at": "2026-09-27T02:36:10Z",
-      "heartbeat_at": "2026-09-27T17:38:30Z",
+      "heartbeat_at": "2026-09-27T17:40:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -7389,27 +7393,31 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "claude/review-grok-github-uploads-gsthj3",
         "pr": 167,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "8d0061e5b84a9b3ec046b98e54272d8cf9e19cad",
         "base_branch": "main",
-        "draft": true,
+        "draft": false,
         "ci": "public-intake_SUCCESS+public-shop_SUCCESS+verify_SUCCESS",
         "wip_parts": "2-4",
-        "pending": "Part1+REVIEW.md"
+        "pending": "Part1+REVIEW.md",
+        "merge_oid": "23e07a30c7f33c9d672422f45d051c11f4014511",
+        "land_comment": "5858178094"
       },
       "claimed_at": "2026-09-27T13:01:00Z",
-      "heartbeat_at": "2026-09-27T13:01:00Z",
+      "heartbeat_at": "2026-09-27T17:40:00Z",
       "expires_at": "2026-09-28T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/167",
-        "https://github.com/d6g8k5htny-coder/main/commit/8d0061e5b84a9b3ec046b98e54272d8cf9e19cad"
+        "https://github.com/d6g8k5htny-coder/main/commit/8d0061e5b84a9b3ec046b98e54272d8cf9e19cad",
+        "https://github.com/d6g8k5htny-coder/main/commit/23e07a30c7f33c9d672422f45d051c11f4014511",
+        "https://github.com/d6g8k5htny-coder/main/pull/167#issuecomment-5858178094"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 8d0061e MERGEABLE CI green\u00d73; WIP Parts 2\u20134 of Grok-upload review; await Part 1+REVIEW.md; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 23e07a3 (PR tip 8d0061e); land-as-is Parts 2\u20134 (5858178094); Part 1+REVIEW.md deferred to follow-up; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-89-custody-trust-anchor-amend",
@@ -7429,12 +7437,14 @@
         "prior_oid": "85979c15b453d6d68df5a592238219e7dd918816",
         "draft": false,
         "ready_for_review": true,
-        "ci": "scalar-arithmetic_SUCCESS+gates_QUEUED"
+        "ci": "scalar-arithmetic_SUCCESS+gates_QUEUED",
+        "merge_oid": "0be9c764eb5bb0158ebb5fb51b2d09d3d604d2f0",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-27T14:20:00Z",
-      "heartbeat_at": "2026-09-27T17:38:30Z",
+      "heartbeat_at": "2026-09-27T17:40:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -7442,10 +7452,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5330629317",
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#discussion_r4115656719",
         "https://github.com/d6g8k5htny-coder/Math-/commit/85979c15b453d6d68df5a592238219e7dd918816",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/eb41d3e4bc3a601d7414c7f52d209e68bc282bbb"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/0be9c764eb5bb0158ebb5fb51b2d09d3d604d2f0"
       ],
       "delegates_to": "math-89-bf-six-pin-scalar-bound",
-      "blocked_reason": "OFFERED Copilot eng AMEND (5330629317) trust-anchor; tip eb41d3e main-merge only; this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #89 MERGED @ 0be9c76; custody trust-anchor finding remains process debt if still material; sci effect NONE"
     },
     {
       "work_id": "math-90-d5-pin-microdisk-note",
