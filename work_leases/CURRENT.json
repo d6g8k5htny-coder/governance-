@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:40:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #71 Copilot 5328269728 joint-defect event wording. Updated 2026-09-27T00:40:30Z.",
+  "updated_at": "2026-09-27T00:41:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #69 Copilot 5328272956; #60 Copilot 5328274367. Updated 2026-09-27T00:41:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3269,10 +3269,11 @@
         "head_oid": "ad27c6b8802167ae8798221a9fb8ba3365162b63",
         "note_blob": "36cc6cfcc0ab776bc22e5f1f480d4d264b1294a6",
         "note_sha256": "0351da0680e81c2b001338ede50770b9e00fa5cb09aab438940a9b81d56fd866",
-        "peer_amend": "5848723841"
+        "peer_amend": "5848723841",
+        "copilot_review": "5328274367"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-27T00:01:00Z",
+      "heartbeat_at": "2026-09-27T00:41:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3284,10 +3285,14 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5843245862",
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-math60-m1m5-accept.md",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36208206938",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5848723841"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5848723841",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#pullrequestreview-5328274367",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4113544670",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4113544697",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4113544711"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe DRAFT @ ad27c6b; peer AMEND (5848723841): M4 remainder ledger must be in NOTE; digest-bound M3 cite; honest exact_check scope; converge with #69; repair OFFERED; review-only constraint; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE observe DRAFT @ ad27c6b; peer AMEND (5848723841) + Copilot (5328274367): -O vacuous asserts; Schur parent unpinned; Gaussian decay false outside transverse; converge #69; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-64-endpoint-hessian-erratum",
@@ -3455,10 +3460,11 @@
         "peer_amend": "5848591450",
         "repair_claim": "5848831173",
         "repair_delivery": "5848849115",
-        "claim_release": "5848850610"
+        "claim_release": "5848850610",
+        "copilot_review": "5328272956"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-26T18:43:30Z",
+      "heartbeat_at": "2026-09-27T00:41:30Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3469,10 +3475,13 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848591450",
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848831173",
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848849115",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#pullrequestreview-5328272956",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113543422",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113543439"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ ae45d35; peer AMEND 5848591450; OpenAI continuum-transfer R1/R2 delivered in-thread (5848849115); claim RELEASED (5848850610); tip unchanged; disposition still AMEND \u2014 successor freeze OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ ae45d35; continuum R1/R2 delivered in-thread; still AMEND; Copilot (5328272956): covariance-floor under correlated remainder + overstated semantic mutants; successor freeze OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "trial-path-c-batch387-resume-2f7a5a9",
@@ -4666,7 +4675,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:40:30Z",
+      "heartbeat_at": "2026-09-27T00:41:30Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5488,10 +5497,11 @@
         "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400",
         "finding_comment": "5848591450",
         "prefer_after_pr": 53,
-        "claim_comment": "5848831173"
+        "claim_comment": "5848831173",
+        "copilot_review": "5328272956"
       },
       "claimed_at": "2026-09-26T18:07:25Z",
-      "heartbeat_at": "2026-09-26T18:43:30Z",
+      "heartbeat_at": "2026-09-27T00:41:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -5504,7 +5514,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610"
       ],
       "delegates_to": "math-69-d5-pin-microdisk-ddiff",
-      "blocked_reason": "RELEASED \u2014 repair text delivered in-thread 5848849115; claim closed 5848850610; tip ae45d35 unchanged; successor freeze OFFERED; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (covariance-floor + mutants); this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-121-close-favor-124",
@@ -5605,10 +5615,11 @@
         "pr": 60,
         "head_oid": "ad27c6b8802167ae8798221a9fb8ba3365162b63",
         "finding_comment": "5848723841",
-        "converge_with_pr": 69
+        "converge_with_pr": 69,
+        "copilot_review": "5328274367"
       },
       "claimed_at": "2026-09-26T18:26:15Z",
-      "heartbeat_at": "2026-09-26T18:26:15Z",
+      "heartbeat_at": "2026-09-27T00:41:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5618,7 +5629,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5848723841"
       ],
       "delegates_to": "math-60-pin-microdisk-anisotropic",
-      "blocked_reason": "OFFERED peer AMEND; OpenAI-lane review-only; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (-O CI, Schur pin, decay regime); this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-52-normalization-wording-amend",
