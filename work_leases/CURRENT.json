@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:58:46Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386; hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 894cfd9 (#155 MERGED). HOLD default binds. Updated 2026-09-27T21:58:46Z.",
+  "updated_at": "2026-09-27T21:59:22Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 894cfd9 (#152). HOLD default binds (not merging). Updated 2026-09-27T21:59:22Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8387,7 +8387,7 @@
         "repo": "d6g8k5htny-coder/trial",
         "branch": "cursor/tip-refresh-un-red-ci-ff72",
         "pr": 152,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "b6609be2af9a602764aeb93eb6e6b6f7f3443cb8",
         "draft": true,
         "ci": "in_progress",
@@ -8403,12 +8403,13 @@
         "api_mergeable": "MERGEABLE",
         "conflict_comment": "5859765464",
         "conflict_file": "tests/test_tip_drift_class.py",
-        "conflict_resolved_comment": "5859823983"
+        "conflict_resolved_comment": "5859823983",
+        "merge_oid": "894cfd9205799799d2a30287b21e906beecba7e8"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T21:58:46Z",
+      "heartbeat_at": "2026-09-27T21:59:22Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -8429,9 +8430,10 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859823983",
         "https://github.com/d6g8k5htny-coder/trial/commit/92b97e9c4de5917c3ae8bef6eca7da219784df9c",
         "https://github.com/d6g8k5htny-coder/trial/commit/b6609be2af9a602764aeb93eb6e6b6f7f3443cb8",
-        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5860190463"
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5860190463",
+        "https://github.com/d6g8k5htny-coder/trial/commit/894cfd9205799799d2a30287b21e906beecba7e8"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ b6609be; author root-cause (5860190463): prior sanity red was main-side (fixed by #157 + 7cd9ba8b); CI re-running post main sync; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 894cfd9 (PR tip b6609be); apply_all semantic already-applied + PATH_C_STRICT_TIP escape; post-#159 sync; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 trial tip"
     },
     {
       "work_id": "trial-153-path-c-descendant-ok",
