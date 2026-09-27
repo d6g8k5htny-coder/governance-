@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:37:41Z",
+  "updated_at": "2026-09-27T23:37:57Z",
   "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 34e3a43 (#88); trial tip 792ba7b (#121); governance- tip 365eafe (#5). HOLD binds — not merging. #96 revalidation 5860872386; #53 tip 373d71d; #87 awaits review. Updated 2026-09-27T23:37:41Z.",
   "leases": [
     {
@@ -3675,9 +3675,9 @@
         "binding_order_finding": "5858907660"
       },
       "claimed_at": "2026-09-26T01:49:00Z",
-      "heartbeat_at": "2026-09-27T19:15:00Z",
+      "heartbeat_at": "2026-09-27T23:37:57Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -3695,7 +3695,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/b120e705654a773ac4ba04c324e5f85087e61ab4"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE peer coordinator bc-01a0cf1e… Path C Batch 387 on trial #121/#138; hardening tip cd66a655; main tip now 99f8c2b (#137 landing/meta); diverged; tip-align if needed; additive-only; governance- observes only; sci effect NONE"
+      "blocked_reason": "RELEASED — Path C Batch 387 subjects trial #121 MERGED 792ba7b / #138 CLOSED UNMERGED; stale ACTIVE cleared; sci effect NONE"
     },
     {
       "work_id": "math-66-support-edge-integration",
@@ -10085,10 +10085,11 @@
         "branch": "cursor/lease-watch-followthrough-ab08",
         "pr_state": "open",
         "predecessor_pr": 5,
-        "predecessor_merge": "365eafeed2f24d8448ee15514d89d0267f61c31e"
+        "predecessor_merge": "365eafeed2f24d8448ee15514d89d0267f61c31e",
+        "pr": 6
       },
       "claimed_at": "2026-09-27T23:37:41Z",
-      "heartbeat_at": "2026-09-27T23:37:41Z",
+      "heartbeat_at": "2026-09-27T23:37:57Z",
       "expires_at": "2026-10-02T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -10100,7 +10101,8 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/governance-/pull/5",
-        "https://github.com/d6g8k5htny-coder/governance-/commit/365eafeed2f24d8448ee15514d89d0267f61c31e"
+        "https://github.com/d6g8k5htny-coder/governance-/commit/365eafeed2f24d8448ee15514d89d0267f61c31e",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/6"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE followthrough after #5 MERGED 365eafe; HOLD binds (not merging peers); sci effect NONE"
