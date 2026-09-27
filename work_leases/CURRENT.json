@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:09:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip eaf1264 (#178); hardening tip a01c72f (#7); Math- tip 867d9e3 (#92); trial tip 4444b0f. HOLD default binds (not merging). Math- #80 tip 12d093f; #81 tip 5ae714b (main sync + AMENDs, gates green). Updated 2026-09-27T22:09:40Z.",
+  "updated_at": "2026-09-27T22:10:14Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip eaf1264 (#178); hardening tip a01c72f (#7); Math- tip 867d9e3 (#92); trial tip 4444b0f. HOLD default binds (not merging). Math- #80 review-resolution pass @ 12d093f. Updated 2026-09-27T22:10:14Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -6314,10 +6314,11 @@
         "copilot_review": "5330620081",
         "prior_oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67",
         "mergeable": "MERGEABLE",
-        "ci": "success"
+        "ci": "success",
+        "review_resolution_comment": "5860283360"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T22:09:40Z",
+      "heartbeat_at": "2026-09-27T22:10:14Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6330,9 +6331,10 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#discussion_r4113524863",
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#pullrequestreview-5328284606",
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#pullrequestreview-5330620081",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/12d093f603bc790f1f3c399948912b0d971145f4"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/12d093f603bc790f1f3c399948912b0d971145f4",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5860283360"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 12d093f MERGEABLE; verify_substitute AMEND @ 882c402 + main merge-sync; math-downstream-gates SUCCESS; prior peer/Copilot AMENDs; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 12d093f MERGEABLE; review-resolution pass (5860283360): verify_substitute.py present + exact Fraction checks + negative controls; title/disposition/theorem wording AMENDs; gates SUCCESS; merge/draft = owner action; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-81-drive-hole-ledger",
@@ -7130,10 +7132,11 @@
         "copilot_review": "5330620081",
         "prior_oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67",
         "mergeable": "MERGEABLE",
-        "ci": "success"
+        "ci": "success",
+        "review_resolution_comment": "5860283360"
       },
       "claimed_at": "2026-09-26T22:56:00Z",
-      "heartbeat_at": "2026-09-27T22:09:40Z",
+      "heartbeat_at": "2026-09-27T22:10:14Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7143,10 +7146,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5850660898",
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#pullrequestreview-5328284606",
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#pullrequestreview-5330620081",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/12d093f603bc790f1f3c399948912b0d971145f4"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/12d093f603bc790f1f3c399948912b0d971145f4",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5860283360"
       ],
       "delegates_to": "math-80-contact-kernel-substitute",
-      "blocked_reason": "OFFERED observe DRAFT @ 12d093f MERGEABLE; verify_substitute AMEND @ 882c402 + main merge-sync; math-downstream-gates SUCCESS; prior peer/Copilot AMENDs; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 12d093f MERGEABLE; review-resolution pass (5860283360): verify_substitute.py present + exact Fraction checks + negative controls; title/disposition/theorem wording AMENDs; gates SUCCESS; merge/draft = owner action; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-86-rereview-b9e33ed",
