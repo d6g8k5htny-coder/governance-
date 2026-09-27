@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:44:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #55 Copilot 5328284588 (-O asserts + rate bound). Updated 2026-09-27T00:44:30Z.",
+  "updated_at": "2026-09-27T00:45:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #69 Copilot adds det-symbol + axial-band findings. Updated 2026-09-27T00:45:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3469,10 +3469,10 @@
         "repair_claim": "5848831173",
         "repair_delivery": "5848849115",
         "claim_release": "5848850610",
-        "copilot_review": "5328272956"
+        "copilot_review": "5328286938"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-27T00:41:30Z",
+      "heartbeat_at": "2026-09-27T00:45:30Z",
       "expires_at": "2026-09-27T04:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -3486,10 +3486,13 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610",
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#pullrequestreview-5328272956",
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113543422",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113543439"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113543439",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#pullrequestreview-5328286938",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113557030",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113557038"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ ae45d35; continuum R1/R2 delivered in-thread; still AMEND; Copilot (5328272956): covariance-floor under correlated remainder + overstated semantic mutants; successor freeze OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ ae45d35; still AMEND; Copilot (5328272956/5328286938): covariance-floor; mutants; leading-symbol\u2260full det; axial-band majorant; successor freeze OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "trial-path-c-batch387-resume-2f7a5a9",
@@ -4683,7 +4686,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:44:30Z",
+      "heartbeat_at": "2026-09-27T00:45:30Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5506,10 +5509,10 @@
         "finding_comment": "5848591450",
         "prefer_after_pr": 53,
         "claim_comment": "5848831173",
-        "copilot_review": "5328272956"
+        "copilot_review": "5328286938"
       },
       "claimed_at": "2026-09-26T18:07:25Z",
-      "heartbeat_at": "2026-09-27T00:41:30Z",
+      "heartbeat_at": "2026-09-27T00:45:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -5522,7 +5525,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610"
       ],
       "delegates_to": "math-69-d5-pin-microdisk-ddiff",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair (covariance-floor + mutants); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (floor/mutants/det/axial-band); this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-121-close-favor-124",
