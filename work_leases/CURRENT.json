@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:44:47Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 3b7d1d6. HOLD default binds (not merging). trial #159 tip 16a7a64 MERGEABLE peer-verify git fallback; CI in progress. Updated 2026-09-27T21:44:47Z.",
+  "updated_at": "2026-09-27T21:45:45Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 3b7d1d6. HOLD default binds (not merging). trial #155 tip d3fabdc MERGEABLE CI partial; #159 tip 16a7a64 CI nearly green. Updated 2026-09-27T21:45:45Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8523,16 +8523,16 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 155,
         "pr_state": "open",
-        "head_oid": "5e10de34ba1d8d104236e8613887f2ea925b6061",
+        "head_oid": "d3fabdc7b64316e4ec0b12aa5b7bfcc6ae4182cf",
         "draft": true,
-        "ci": "partial_fail_sanity",
+        "ci": "partial_in_progress",
         "preferred_vehicle": true,
         "peer_vehicle_comment": "5859619659",
         "cherry_pick_from_152": "df6b700f",
-        "prior_oid": "725b4856ef754903b3e05739aca1c60910a97756",
+        "prior_oid": "5e10de34ba1d8d104236e8613887f2ea925b6061",
         "author152_confirm": "5859643161",
         "peer_reshape": "5859674009",
-        "mergeable": "CONFLICTING",
+        "mergeable": "MERGEABLE",
         "na0009_amend": "5860004266",
         "na0009_fix_vehicle": 159,
         "na0009_fix_comment": "5860075158",
@@ -8540,7 +8540,7 @@
         "na0009_classify_commit": "5e10de34ba1d8d104236e8613887f2ea925b6061"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:44:47Z",
+      "heartbeat_at": "2026-09-27T21:45:45Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8564,9 +8564,10 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/159",
         "https://github.com/d6g8k5htny-coder/trial/commit/5e10de34ba1d8d104236e8613887f2ea925b6061",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860084538",
-        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36351873748"
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36351873748",
+        "https://github.com/d6g8k5htny-coder/trial/commit/d3fabdc7b64316e4ec0b12aa5b7bfcc6ae4182cf"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 5e10de3 CONFLICTING; NA-0009 classify AMEND in-branch; diag (5860084538) install 403; fix vehicle #159 tip advanced to 16a7a64 MERGEABLE (peer verify 5860090020; CI in progress); await reshape/#159 green; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE; main merge-sync (fb1f6a54 Intent helper via _compare_status); NA-0009 classify AMEND retained; portable-patches/path-c SUCCESS; sanity+land-workflows IN_PROGRESS; #159 tip 16a7a64 also in flight; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
