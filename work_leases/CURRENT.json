@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:42:54Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 8c00f19 (#87); trial tip 792ba7b (#121); governance- tip 365eafe (#5). HOLD binds — not merging. #96 tip ac9cf41 CI pending after #87; #53/#88 MERGED. Updated 2026-09-27T23:42:54Z.",
+  "updated_at": "2026-09-27T23:46:39Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 8c00f19 (#87); trial tip 792ba7b (#121); governance- tip 365eafe (#5). HOLD binds — not merging. #96 tip ac9cf41 CI SUCCESS; OpenAI continuation window (5860936419); only open Math PR. Updated 2026-09-27T23:46:39Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9983,7 +9983,7 @@
         "head_oid": "ac9cf41252feca47d29ad3c4b5215082702db28a",
         "draft": false,
         "mergeable": "MERGEABLE",
-        "ci": "pending",
+        "ci": "success",
         "owner_route_comment": "5860770012",
         "source_main_merge": "3592abbd5df433cb1816b69204e740a7cf00ca07",
         "coord_issue": 95,
@@ -9995,16 +9995,18 @@
         "grok_accept_main_comment": "5860768180",
         "grok_session": "bc-36791e0e-af26-4bab-b190-4615b345834b",
         "prior_oid": "48293368472e4078a0705c99ee286530d4d449e0",
-        "mergeable_state": "blocked",
+        "mergeable_state": "clean",
         "refresh_run": "36359581583",
         "prior_exact_head_accept": "240a3a155150b6a702db208b85fa3bb6ea8ce662",
         "prior_grok_accept_comment": "5860817898",
         "revalidation_comment": "5860872386",
         "prior_ci_success_oid": "48293368472e4078a0705c99ee286530d4d449e0",
-        "prior_ci_success_run": "36359346661"
+        "prior_ci_success_run": "36359346661",
+        "openai_continuation_comment": "5860936419",
+        "coordination_window": true
       },
       "claimed_at": "2026-09-27T23:21:20Z",
-      "heartbeat_at": "2026-09-27T23:42:54Z",
+      "heartbeat_at": "2026-09-27T23:46:39Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -10025,10 +10027,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/48293368472e4078a0705c99ee286530d4d449e0",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36359346661",
         "https://github.com/d6g8k5htny-coder/Math-/commit/ac9cf41252feca47d29ad3c4b5215082702db28a",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36359581583"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36359581583",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/96#issuecomment-5860936419"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ ac9cf41 MERGEABLE blocked CI pending (run 36359581583); merge-from-main after #87 tip 8c00f19; prior CI SUCCESS @ 4829336 (36359346661) superseded; ACCEPT/revalidation do not carry; OpenAI owns; this App observe-only; HOLD binds (not merging); eng≠theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ ac9cf41 MERGEABLE clean CI SUCCESS (run 36359581583); OpenAI continuation pickup (5860936419) — do not rewrite/merge concurrently; prior Grok covered 4829336 not this head; await OpenAI exact-head review/merge; this App observe-only; HOLD binds (not merging); eng≠theorem; sci effect NONE"
     },
     {
       "work_id": "main-189-op-privacy-github-scope",
