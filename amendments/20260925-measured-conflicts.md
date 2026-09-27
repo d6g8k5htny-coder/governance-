@@ -104,7 +104,7 @@
 | main [#158](https://github.com/d6g8k5htny-coder/main/pull/158) | **MERGED** `6200dfd…` museum manifest cache; eng — **main tip** |
 | main [#157](https://github.com/d6g8k5htny-coder/main/pull/157) | **MERGED** `dbb9dcf…` Actions group bump; eng — **main tip** |
 | main [#159](https://github.com/d6g8k5htny-coder/main/pull/159) | tip `85c935e…` ready_for_review; AMEND applied ([5858229152](https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5858229152)); CI green×3; re-review **OFFERED**; eng≠theorem |
-| main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `43b3ced…` **BEHIND**; peer **AMEND** ([5850534745](https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5850534745)) F2 intensity + C031 dual-hash + unlink #116; repair **OFFERED**; eng≠theorem |
+| main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `5a6046f…`; AMEND applied ([5858253436](https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5858253436)) F2/C031/constants; CI green×3; await land; eng≠theorem |
 | main [#162](https://github.com/d6g8k5htny-coder/main/pull/162) | **MERGED** `64edf72…` public source storefront / notebook quickstart; eng — **main tip** |
 | main [#164](https://github.com/d6g8k5htny-coder/main/pull/164) | **MERGED** `b4cc529…` H5 inputs + loader review; eng — **main tip** |
 | main [#163](https://github.com/d6g8k5htny-coder/main/pull/163) | tip `65e414f…` ready_for_review; AMEND applied ([5858229144](https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5858229144)); CI green×3; re-review **OFFERED**; eng≠theorem |
