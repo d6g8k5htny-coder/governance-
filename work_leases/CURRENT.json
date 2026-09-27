@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:10:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip ca7f3d7 (#187); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. Math- required-formal enforcement OFFERED to Math-capable session (5860699760\u2192bc-01a0e4c4); this App observe-only (no Math- push). Observe main #188. Updated 2026-09-27T23:10:50Z.",
+  "updated_at": "2026-09-27T23:15:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip ca7f3d7 (#187); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. #188 positive+negative hosted evidence (5860734093); #190 CLOSED UNMERGED probe; await nonauthor eng review #188. Updated 2026-09-27T23:15:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9803,10 +9803,17 @@
         "head_oid": "211999277ab8a363dd51320f970e8928b1e0f1e0",
         "draft": false,
         "mergeable": "MERGEABLE",
-        "coord_comment": "5860640866"
+        "coord_comment": "5860640866",
+        "ci": "success",
+        "evidence_comment": "5860734093",
+        "positive_run": "36357710296",
+        "positive_merge": "d2b6579af40c689b47bf6936de9f699e475e2523",
+        "negative_pr": 190,
+        "negative_run": "36357843019",
+        "negative_oid": "3b8c45452c01f669a7245c472acdb8cc4af5b2f6"
       },
       "claimed_at": "2026-09-27T23:10:50Z",
-      "heartbeat_at": "2026-09-27T23:10:50Z",
+      "heartbeat_at": "2026-09-27T23:15:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9815,10 +9822,47 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/188",
         "https://github.com/d6g8k5htny-coder/main/commit/211999277ab8a363dd51320f970e8928b1e0f1e0",
-        "https://github.com/d6g8k5htny-coder/main/issues/95#issuecomment-5860640866"
+        "https://github.com/d6g8k5htny-coder/main/issues/95#issuecomment-5860640866",
+        "https://github.com/d6g8k5htny-coder/main/pull/188#issuecomment-5860734093",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36357710296",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36357843019",
+        "https://github.com/d6g8k5htny-coder/main/pull/190"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 2119992 MERGEABLE; source of Math- required_formal_check port; main#95 coord; HOLD binds (not merging) absent consensus; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 2119992 MERGEABLE CI SUCCESS; hosted positive+negative evidence (5860734093) \u2014 dependency-failure propagation observed; #190 CLOSED UNMERGED probe; await exact-head nonauthor eng review; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-190-formal-negative-probe",
+      "scope": "[NEVER MERGE] Hosted negative control for required formal dependency; probe only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 190,
+        "pr_state": "closed",
+        "head_oid": "3b8c45452c01f669a7245c472acdb8cc4af5b2f6",
+        "draft": true,
+        "negative_run": "36357843019",
+        "parent_pr": 188,
+        "evidence_comment": "5860734093"
+      },
+      "claimed_at": "2026-09-27T23:15:40Z",
+      "heartbeat_at": "2026-09-27T23:15:40Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/190",
+        "https://github.com/d6g8k5htny-coder/main/pull/188#issuecomment-5860734093",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36357843019"
+      ],
+      "delegates_to": "main-188-required-formal-check",
+      "blocked_reason": "RELEASED CLOSED UNMERGED NEVER-MERGE probe @ 3b8c454; hosted negative control (formal FAIL \u2192 verify FAIL exit1); history preserved; sci effect NONE"
     }
   ]
 }
