@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:31:18Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip c32d5fe (#81); trial tip dade4cd (#161). HOLD binds — not merging (owner reaffirm). #96 tip 4fadd96 refresh CI pending (prior ACCEPT @ 240a3a1 stale); #97 CLOSED NEVER-MERGE; #88 tip aa5ecd2; #87 awaits fresh review. Updated 2026-09-27T23:31:18Z.",
+  "updated_at": "2026-09-27T23:32:11Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 34e3a43 (#88); trial tip dade4cd (#161). HOLD binds — not merging. #96 tip 4fadd96 CI pending; #97 CLOSED NEVER-MERGE; #87 awaits fresh review. Updated 2026-09-27T23:32:11Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7521,7 +7521,7 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "incoming/public-reading-map-20260926",
         "pr": 88,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "aa5ecd2088a64ee8b728ddfab4044b222dd7d0c8",
         "ci": "success",
         "peer_amend": "5328356234",
@@ -7531,7 +7531,7 @@
         "review_resolution_comment": "5860242377",
         "threads_resolved": "1/1",
         "prior_oid": "d35e93dc8195c71f74b6ab8a36ae7fd18d1e8a2a",
-        "mergeable": "MERGEABLE",
+        "mergeable": "UNKNOWN",
         "draft": false,
         "pending_push_comment": "5860454218",
         "pin_refresh_oid": "20a833d8ed9d55c70aba3c113df84ec6cdcde507",
@@ -7540,12 +7540,13 @@
         "pointer_comment": "5860488220",
         "tip_push_comment": "5860577265",
         "superseded_intermediate": "bc85130c12585f641ebb9b9ac3bee0ddd224cbf3",
-        "mergeable_state": "clean"
+        "mergeable_state": "clean",
+        "merge_oid": "34e3a4351993c1fe3bae8c0d6179a3afc841a22f"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T23:30:11Z",
+      "heartbeat_at": "2026-09-27T23:32:11Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -7571,10 +7572,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/d35e93dc8195c71f74b6ab8a36ae7fd18d1e8a2a",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36358700478",
         "https://github.com/d6g8k5htny-coder/Math-/commit/aa5ecd2088a64ee8b728ddfab4044b222dd7d0c8",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36358835477"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36358835477",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/34e3a4351993c1fe3bae8c0d6179a3afc841a22f"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ aa5ecd2 MERGEABLE clean gates SUCCESS; merge-from-main #81 tip c32d5fe; HOLD binds (not merging); eng≠theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 34e3a43 (PR tip aa5ecd2); PUBLIC_READING_MAP pointer-only; merge≠theorem; eng≠theorem; sci effect NONE — Math- tip"
     },
     {
       "work_id": "math-88-identity-bind-amend-repair",
@@ -7596,7 +7598,7 @@
         "review_resolution_comment": "5860242377",
         "threads_resolved": "1/1",
         "prior_oid": "d35e93dc8195c71f74b6ab8a36ae7fd18d1e8a2a",
-        "mergeable": "MERGEABLE",
+        "mergeable": "UNKNOWN",
         "ci": "success",
         "draft": false,
         "pending_push_comment": "5860454218",
@@ -7607,12 +7609,13 @@
         "pins_87_predecessor": "05c20b67ca49281601532f7a0224f871a8dae8d6",
         "superseded_intermediate": "bc85130c12585f641ebb9b9ac3bee0ddd224cbf3",
         "mergeable_state": "clean",
-        "pr_state": "open"
+        "pr_state": "merged",
+        "merge_oid": "34e3a4351993c1fe3bae8c0d6179a3afc841a22f"
       },
       "claimed_at": "2026-09-27T01:08:00Z",
-      "heartbeat_at": "2026-09-27T23:30:11Z",
+      "heartbeat_at": "2026-09-27T23:32:11Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -7636,10 +7639,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/d35e93dc8195c71f74b6ab8a36ae7fd18d1e8a2a",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36358700478",
         "https://github.com/d6g8k5htny-coder/Math-/commit/aa5ecd2088a64ee8b728ddfab4044b222dd7d0c8",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36358835477"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36358835477",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/34e3a4351993c1fe3bae8c0d6179a3afc841a22f"
       ],
       "delegates_to": "math-88-public-reading-map",
-      "blocked_reason": "OFFERED observe @ aa5ecd2 MERGEABLE clean gates SUCCESS; merge-from-main #81 tip c32d5fe; HOLD binds (not merging); eng≠theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 34e3a43 (PR tip aa5ecd2); PUBLIC_READING_MAP pointer-only; merge≠theorem; eng≠theorem; sci effect NONE — Math- tip"
     },
     {
       "work_id": "main-166-museum-conditional-route",
@@ -9956,7 +9960,7 @@
         "prior_grok_accept_comment": "5860817898"
       },
       "claimed_at": "2026-09-27T23:21:20Z",
-      "heartbeat_at": "2026-09-27T23:31:18Z",
+      "heartbeat_at": "2026-09-27T23:32:11Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9975,7 +9979,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36358943167"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 4fadd96 MERGEABLE blocked CI pending (run 36358943167); merge-from-main #81 tip c32d5fe; prior Grok eng ACCEPT was exact-head 240a3a1 — does not carry; await fresh CI + source-bound review; OpenAI owns; this App observe-only; HOLD binds (not merging); eng≠theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 4fadd96 MERGEABLE CI pending (downstream-replay SUCCESS; formal pending run 36358943167); merge-from-main #81/#88 tip 34e3a43; prior Grok ACCEPT @ 240a3a1 does not carry; await fresh CI + source-bound review; OpenAI owns; this App observe-only; HOLD binds (not merging); eng≠theorem; sci effect NONE"
     },
     {
       "work_id": "main-189-op-privacy-github-scope",
