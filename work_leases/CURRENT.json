@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:40:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167 MERGED); Math- tip 0be9c76 (#89 MERGED). main #124 tip 6ad685c await verify. Updated 2026-09-27T17:40:00Z.",
+  "updated_at": "2026-09-27T17:42:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167); Math- tip 0be9c76 (#89). CLOSED UNMERGED Math- #18/#45/#69/#74 (delegated merge review). #124 tip 6ad685c await verify. Updated 2026-09-27T17:42:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3495,18 +3495,19 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 69,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400",
         "peer_amend": "5848591450",
         "repair_claim": "5848831173",
         "repair_delivery": "5848849115",
         "claim_release": "5848850610",
-        "copilot_review": "5330622476"
+        "copilot_review": "5330622476",
+        "close_comment": "5858193174"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-27T14:13:30Z",
+      "heartbeat_at": "2026-09-27T17:42:00Z",
       "expires_at": "2026-09-27T04:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -3522,10 +3523,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#pullrequestreview-5328286938",
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113557030",
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#discussion_r4113557038",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/69#pullrequestreview-5330622476"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#pullrequestreview-5330622476",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5858193174"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ ae45d35; still AMEND; Copilot (5328286938/5330622476): covariance-floor; mutants; det-symbol; axial-band; successor freeze OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED @ ae45d35; close (5858193174): O(r^3) contradicted by #82/#90 on main; nested-axis open; sci effect NONE"
     },
     {
       "work_id": "trial-path-c-batch387-resume-2f7a5a9",
@@ -5989,21 +5991,24 @@
         "head_oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400",
         "repair_comment": "5848849115",
         "prior_amend": "5848591450",
-        "note_blob": "6d6ec7f57b07502b48d6daeeaa023f06faf1fcde"
+        "note_blob": "6d6ec7f57b07502b48d6daeeaa023f06faf1fcde",
+        "pr_state": "closed",
+        "close_comment": "5858193174"
       },
       "claimed_at": "2026-09-26T18:43:30Z",
-      "heartbeat_at": "2026-09-26T18:43:30Z",
+      "heartbeat_at": "2026-09-27T17:42:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848849115",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5848850610",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/69#issuecomment-5858193174"
       ],
       "delegates_to": "math-69-d5-pin-microdisk-ddiff",
-      "blocked_reason": "OFFERED author freeze of R1/R2 into immutable successor; OpenAI cannot self-accept; this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #69 CLOSED UNMERGED (5858193174); O(r^3) contradicted by #82/#90 on main; nested-axis open; sci effect NONE"
     },
     {
       "work_id": "main-159-drive-lane-map-incoming",
@@ -6639,15 +6644,16 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 45,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "7785bc82eb0ada3f25ea2be5513a147378f22e8a",
         "peer_amend": "5850536323",
-        "copilot_review": "5330648911"
+        "copilot_review": "5330648911",
+        "close_comment": "5858193144"
       },
       "claimed_at": "2026-09-26T22:45:00Z",
-      "heartbeat_at": "2026-09-27T14:22:00Z",
+      "heartbeat_at": "2026-09-27T17:42:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -6660,10 +6666,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/45#discussion_r4115673206",
         "https://github.com/d6g8k5htny-coder/Math-/pull/45#discussion_r4115673215",
         "https://github.com/d6g8k5htny-coder/Math-/pull/45#discussion_r4115673240",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/45#pullrequestreview-5330648911"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#pullrequestreview-5330648911",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5858193144"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 7785bc8; peer AMEND (5850536323) + Copilot (5328280266/5330648911): CLAIMS.json schema fields; unpinned RESEARCH_INDEX; stale #90 open claim; FC-11 overstates main index; #76 row; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED @ 7785bc8; close (5858193144): duplicate CLAIMS.json scientific-status register; stale bind; sci effect NONE"
     },
     {
       "work_id": "math-45-reconciliation-amend-repair",
@@ -6678,21 +6685,24 @@
         "pr": 45,
         "head_oid": "7785bc82eb0ada3f25ea2be5513a147378f22e8a",
         "finding_comment": "5850536323",
-        "copilot_review": "5330648911"
+        "copilot_review": "5330648911",
+        "pr_state": "closed",
+        "close_comment": "5858193144"
       },
       "claimed_at": "2026-09-26T22:45:00Z",
-      "heartbeat_at": "2026-09-27T14:22:00Z",
+      "heartbeat_at": "2026-09-27T17:42:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5850536323",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/45#pullrequestreview-5330648911"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#pullrequestreview-5330648911",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5858193144"
       ],
       "delegates_to": "math-45-fail-closed-claim-audit",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair (CLAIMS schema + pin external index + stale #90/#FC-11/#76); this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #45 CLOSED UNMERGED (5858193144); duplicate CLAIMS.json scientific-status register; stale bind; sci effect NONE"
     },
     {
       "work_id": "math-86-author-merge-offer",
@@ -6968,15 +6978,16 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "cursor/pr69-pin-microdisk-review-4f5c",
         "pr": 74,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "eb8bf7a58ec89d63868d8e281e709844b0ded47b",
         "peer_amend": "5848455418",
-        "copilot_review": "5330619836"
+        "copilot_review": "5330619836",
+        "close_comment": "5858193160"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T14:12:40Z",
+      "heartbeat_at": "2026-09-27T17:42:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -6984,10 +6995,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/74",
         "https://github.com/d6g8k5htny-coder/Math-/pull/74#issuecomment-5848455418",
         "https://github.com/d6g8k5htny-coder/Math-/pull/74#pullrequestreview-5328288488",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/74#pullrequestreview-5330619836"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/74#pullrequestreview-5330619836",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/74#issuecomment-5858193160"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ eb8bf7a; peer AMEND (5848455418) + Copilot (5328288488/5330619836): -O asserts; axial-band/Kac\u2013Rice; mutants; provenance; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED @ eb8bf7a; close (5858193160): ACCEPT of #69 withdrawn after #82/#90; close with #69; sci effect NONE"
     },
     {
       "work_id": "math-74-pin-microdisk-review-amend-repair",
@@ -7002,22 +7014,25 @@
         "pr": 74,
         "head_oid": "eb8bf7a58ec89d63868d8e281e709844b0ded47b",
         "finding_comment": "5848455418",
-        "copilot_review": "5330619836"
+        "copilot_review": "5330619836",
+        "pr_state": "closed",
+        "close_comment": "5858193160"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T14:12:40Z",
+      "heartbeat_at": "2026-09-27T17:42:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/74#issuecomment-5848455418",
         "https://github.com/d6g8k5htny-coder/Math-/pull/74#pullrequestreview-5328288488",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/74#pullrequestreview-5330619836"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/74#pullrequestreview-5330619836",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/74#issuecomment-5858193160"
       ],
       "delegates_to": "math-74-pr69-pin-microdisk-review",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair; this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #74 CLOSED UNMERGED (5858193160); ACCEPT of #69 withdrawn after #82/#90; close with #69; sci effect NONE"
     },
     {
       "work_id": "math-87-harper-cycle4-d5-sard",
@@ -7509,12 +7524,14 @@
         "head_oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c",
         "copilot_review": "5330607811",
         "prior_copilot": "5328282187",
-        "discussion": "4115639916"
+        "discussion": "4115639916",
+        "pr_state": "closed",
+        "close_comment": "5858193163"
       },
       "claimed_at": "2026-09-27T14:32:00Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
+      "heartbeat_at": "2026-09-27T17:42:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -7522,10 +7539,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/18#pullrequestreview-5330607811",
         "https://github.com/d6g8k5htny-coder/Math-/pull/18#discussion_r4115639916",
         "https://github.com/d6g8k5htny-coder/Math-/pull/18#pullrequestreview-5328282187",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/18#issuecomment-5858193163"
       ],
       "delegates_to": "math-18-p15-smt-pilot",
-      "blocked_reason": "OFFERED Copilot eng AMEND (5330607811): EXECUTION_RECEIPT hash mismatch + immutable source pins + CI count gaps; prior 5328282187 Z3/QF_NRA + division; tip still 0ae7e8f; this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #18 CLOSED UNMERGED (5858193163); stdlib-only violation (libz3); rehome to trial; sci effect NONE"
     },
     {
       "work_id": "main-124-ci-step-form-amend-repair",
