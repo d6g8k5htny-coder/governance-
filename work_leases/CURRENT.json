@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:16:55Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4b709de; hardening tip a01c72f (#7); Math- tip db6a8d5; trial tip a5891e6. HOLD default binds (not merging). Tips: #172 735d698; #80 a88d569; #81 a039288; #87 6c84e26; #88 846b0cd. Updated 2026-09-27T22:16:55Z.",
+  "updated_at": "2026-09-27T22:17:10Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4b709de (#179); hardening tip a01c72f (#7); Math- tip db6a8d5 (#94); trial tip a5891e6. HOLD default binds (not merging). Updated 2026-09-27T22:17:10Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9015,6 +9015,62 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/92",
         "https://github.com/d6g8k5htny-coder/Math-/commit/867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4"
+      ]
+    },
+    {
+      "work_id": "main-179-queue-reconciliation-addendum",
+      "scope": "queue reconciliation addendum",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 179,
+        "pr_state": "merged",
+        "merge_oid": "4b709ded232b96f35f8d18237cb0b3c39d14219d",
+        "head_oid": "5930a5e76b8f1c42c8ca4c5a1f429e71bb6bab3e"
+      },
+      "claimed_at": "2026-09-27T22:17:10Z",
+      "heartbeat_at": "2026-09-27T22:17:10Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "RELEASED MERGED @ 4b709de \u2014 queue reconciliation addendum; main tip; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 **main tip**",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/179",
+        "https://github.com/d6g8k5htny-coder/main/commit/4b709ded232b96f35f8d18237cb0b3c39d14219d"
+      ]
+    },
+    {
+      "work_id": "math-94-transverse-contact-exposition",
+      "scope": "Recover exact transverse-contact exposition and source navigation",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 94,
+        "pr_state": "merged",
+        "merge_oid": "db6a8d5a099b13cec4364edb544cdf0e34ea720c",
+        "head_oid": "0b9e54c6cc6e272c2285375175a8b55803d3142c"
+      },
+      "claimed_at": "2026-09-27T22:17:10Z",
+      "heartbeat_at": "2026-09-27T22:17:10Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "RELEASED MERGED @ db6a8d5 \u2014 recovered transverse-contact exposition; Math- tip; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 **Math- tip**",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/94",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/db6a8d5a099b13cec4364edb544cdf0e34ea720c"
       ]
     }
   ]
