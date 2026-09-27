@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:36:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); Math- tip 3b2ac59 (#91). main #148 tip 8af287a / #140 tip 6950689 AMEND applied; CI pending. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:36:00Z.",
+  "updated_at": "2026-09-27T18:38:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); hardening tip 1eeec0c (#140 MERGED); Math- tip 3b2ac59 (#91). main #148 tip 8af287a AMEND applied; CI pending. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:38:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4948,7 +4948,7 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "claude/pinned-index-archive-members",
         "pr": 140,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "6950689eb546bb7d1831bf352282d3fb7b3457a3",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "ci": "pending_verify",
@@ -4959,12 +4959,14 @@
         "delivery_oid": "85ee72090d57a271446f3530133d3567d1742a3c",
         "amend_applied_comment": "5858608552",
         "draft": false,
-        "ready_for_review": true
+        "ready_for_review": true,
+        "merge_oid": "1eeec0c69fccf32d59ba11b1bdd9884e317f47cd",
+        "hardening_tip": true
       },
       "claimed_at": "2026-09-26T16:31:00Z",
-      "heartbeat_at": "2026-09-27T18:36:00Z",
+      "heartbeat_at": "2026-09-27T18:38:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -4974,10 +4976,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5848434306",
         "https://github.com/d6g8k5htny-coder/main/commit/6950689eb546bb7d1831bf352282d3fb7b3457a3",
         "https://github.com/d6g8k5htny-coder/main/commit/85ee72090d57a271446f3530133d3567d1742a3c",
-        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5858608552"
+        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5858608552",
+        "https://github.com/d6g8k5htny-coder/main/commit/1eeec0c69fccf32d59ba11b1bdd9884e317f47cd"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 6950689 MERGEABLE ready_for_review; AMEND applied (5858608552) @ 85ee720 (PREAMBLE false pinned-by-campaign/governance claims); CI verify pending; prefer land before #136; await re-review/land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 1eeec0c onto hardening (PR tip 6950689); NOT main tip; pinned-source index coverage; AMEND applied @ 85ee720; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-147-public-intake-side24-example",
@@ -5270,10 +5273,11 @@
         "head_oid": "6950689eb546bb7d1831bf352282d3fb7b3457a3",
         "finding_comment": "5848434306",
         "delivery_oid": "85ee72090d57a271446f3530133d3567d1742a3c",
-        "amend_applied_comment": "5858608552"
+        "amend_applied_comment": "5858608552",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T17:45:30Z",
-      "heartbeat_at": "2026-09-27T18:36:00Z",
+      "heartbeat_at": "2026-09-27T18:38:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -5282,10 +5286,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5848434306",
         "https://github.com/d6g8k5htny-coder/main/commit/85ee72090d57a271446f3530133d3567d1742a3c",
-        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5858608552"
+        "https://github.com/d6g8k5htny-coder/main/pull/140#issuecomment-5858608552",
+        "https://github.com/d6g8k5htny-coder/main/commit/1eeec0c69fccf32d59ba11b1bdd9884e317f47cd"
       ],
       "delegates_to": "main-140-pinned-source-index-coverage",
-      "blocked_reason": "RELEASED: peer AMEND 5848434306 delivered @ 85ee720 (5858608552); tip 6950689; successor re-review OFFERED on observe lease; sci effect NONE"
+      "blocked_reason": "RELEASED: peer AMEND 5848434306 delivered @ 85ee720 (5858608552); parent #140 MERGED @ 1eeec0c onto hardening (not main); sci effect NONE"
     },
     {
       "work_id": "main-148-visibility-record-amend",
