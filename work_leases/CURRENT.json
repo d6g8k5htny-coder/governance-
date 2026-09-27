@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T19:16:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124); Math- tip 3b2ac59 (#91). trial #121 KEEP+MODIFY 5858938478; #138 binding_order AMEND OFFERED. Updated 2026-09-27T19:16:00Z.",
+  "updated_at": "2026-09-27T19:32:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124); Math- tip 3b2ac59 (#91). main #122 tip 8c38e13 A1 AMEND applied; verify FAIL pinned_sources. Updated 2026-09-27T19:32:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2686,17 +2686,26 @@
         "branch": "chatgpt/sard-g-execution-repair-20260925",
         "pr": 122,
         "pr_state": "open",
-        "head_oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54",
-        "prior_oid": "6a7f1f6cfb49703b7b758343d65b3b65abe6b11b",
+        "head_oid": "8c38e13ce54425920c4c2ead683ea1540c10fa8d",
+        "prior_oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54",
         "merge_base_oid": "7caac254cbba5f513b2dc0afb56b78a598bc0c93",
         "tree_oid": "c20b9638422c6cd594353aaae75a5e1a69fae3a6",
         "proof_blob": "8f86e0c9ef91fde473e2344a3e461c31f63f8529",
         "control_blob": "7f41ea3a0b0301e0ecdb72de86d00b4d8d9da291",
-        "peer_amend": "5848718687"
+        "peer_amend": "5848718687",
+        "delivery_oid": "2e07c1071b480e87bf7c980cdfa14b8d99fa91b5",
+        "amend_applied_comment": "5859099591",
+        "draft": false,
+        "ready_for_review": true,
+        "ci": "verify_FAILURE",
+        "ci_fail_run": "36344545141",
+        "ci_push_fail": "36344543447",
+        "ci_fail_reason": "pinned_sources_check SOURCE_MAP review_reports[] needs PINNED_SOURCES --write",
+        "base_branch": "chatgpt/drive-github-hardening-20260919"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
-      "expires_at": "2026-09-29T12:00:00Z",
+      "heartbeat_at": "2026-09-27T19:32:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D7",
@@ -2727,10 +2736,14 @@
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main122-a1a6-successor-amend.md",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842427417",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36211252986",
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5848718687"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5848718687",
+        "https://github.com/d6g8k5htny-coder/main/commit/8c38e13ce54425920c4c2ead683ea1540c10fa8d",
+        "https://github.com/d6g8k5htny-coder/main/commit/2e07c1071b480e87bf7c980cdfa14b8d99fa91b5",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859099591",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36344545141"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe DRAFT @ a1fc958; CI GREEN; peer AMEND (5848718687): A1 geometry (rho/tau endpoint margins) still absent despite claim 5846575968; A6 conditional on open U_chi; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE observe @ 8c38e13 MERGEABLE ready_for_review (hardening); A1 geometry AMEND applied (5859099591) @ 2e07c10; CI verify FAIL 36344545141 (pinned_sources_check: SOURCE_MAP review_reports[] undeclared \u2014 regenerate PINNED_SOURCES --write); CI repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-52-d2-cumulative-confirm",
@@ -3903,25 +3916,29 @@
         "repo": "d6g8k5htny-coder/main",
         "pr": 122,
         "pr_state": "open",
-        "head_oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54",
+        "head_oid": "8c38e13ce54425920c4c2ead683ea1540c10fa8d",
         "subject_review": "5842415333",
         "claim_comment": "5846575968",
-        "peer_amend": "5848718687"
+        "peer_amend": "5848718687",
+        "delivery_oid": "2e07c1071b480e87bf7c980cdfa14b8d99fa91b5",
+        "amend_applied_comment": "5859099591"
       },
       "claimed_at": "2026-09-26T13:16:23Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
+      "heartbeat_at": "2026-09-27T19:32:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842415333",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5842427417",
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5846575968"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5846575968",
+        "https://github.com/d6g8k5htny-coder/main/commit/2e07c1071b480e87bf7c980cdfa14b8d99fa91b5",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859099591"
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
-      "blocked_reason": "ACTIVE under OA claim 5846575968; peer AMEND (5848718687) confirms claimed rho/tau margins NOT in tip a1fc958; await tip; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED: A1 rho/tau geometry AMEND delivered @ 2e07c10 (5859099591); tip 8c38e13; successor CI repair OFFERED; sci effect NONE"
     },
     {
       "work_id": "main-126-author-merge-2992819",
@@ -5854,22 +5871,26 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 122,
-        "head_oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54",
+        "head_oid": "8c38e13ce54425920c4c2ead683ea1540c10fa8d",
         "finding_comment": "5848718687",
-        "prior_claim": "5846575968"
+        "prior_claim": "5846575968",
+        "delivery_oid": "2e07c1071b480e87bf7c980cdfa14b8d99fa91b5",
+        "amend_applied_comment": "5859099591"
       },
       "claimed_at": "2026-09-26T18:25:00Z",
-      "heartbeat_at": "2026-09-26T18:25:00Z",
+      "heartbeat_at": "2026-09-27T19:32:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5848718687"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5848718687",
+        "https://github.com/d6g8k5htny-coder/main/commit/2e07c1071b480e87bf7c980cdfa14b8d99fa91b5",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859099591"
       ],
       "delegates_to": "main-122-sard-g-execution-repair",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: peer AMEND 5848718687 A1 geometry delivered @ 2e07c10 (5859099591); sci effect NONE"
     },
     {
       "work_id": "math-55-review-record-amend",
@@ -8070,6 +8091,36 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/121"
       ],
       "blocked_reason": "OFFERED peer MODIFY repair (5858938478) after KEEP-as-optional-probe; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-122-pinned-sources-index-repair",
+      "scope": "Regenerate research/PINNED_SOURCES.md --write for SOURCE_MAP review_reports[] binding surface",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 122,
+        "head_oid": "8c38e13ce54425920c4c2ead683ea1540c10fa8d",
+        "ci_fail_run": "36344545141",
+        "ci_push_fail": "36344543447",
+        "base_branch": "chatgpt/drive-github-hardening-20260919"
+      },
+      "claimed_at": "2026-09-27T19:32:00Z",
+      "heartbeat_at": "2026-09-27T19:32:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "delegates_to": "main-122-sard-g-execution-repair",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36344545141",
+        "https://github.com/d6g8k5htny-coder/main/pull/122"
+      ],
+      "blocked_reason": "OFFERED CI repair after verify FAIL 36344545141: pinned_sources_check problems=3 (SOURCE_MAP review_reports[] undeclared; regenerate PINNED_SOURCES --write); this App does not race; sci effect NONE"
     }
   ]
 }
