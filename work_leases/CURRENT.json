@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:51:43Z",
+  "updated_at": "2026-09-27T23:52:08Z",
   "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 22e79e8 (#96); trial tip ffaa1b7 (batch 860); governance- tip 5c5307b (#6). HOLD binds — not merging. #162 MERGED review packet; ULW #3 DRAFT CONFLICTING; no open Math/main/trial PRs. Updated 2026-09-27T23:51:43Z.",
   "leases": [
     {
@@ -10152,10 +10152,10 @@
         "pr_state": "open",
         "predecessor_pr": 6,
         "predecessor_merge": "5c5307baacd8527b513aff1fe14e2ead00de47f7",
-        "pr": null
+        "pr": 7
       },
       "claimed_at": "2026-09-27T23:51:43Z",
-      "heartbeat_at": "2026-09-27T23:51:43Z",
+      "heartbeat_at": "2026-09-27T23:52:08Z",
       "expires_at": "2026-10-02T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -10167,7 +10167,8 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/governance-/pull/6",
-        "https://github.com/d6g8k5htny-coder/governance-/commit/5c5307baacd8527b513aff1fe14e2ead00de47f7"
+        "https://github.com/d6g8k5htny-coder/governance-/commit/5c5307baacd8527b513aff1fe14e2ead00de47f7",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/7"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE pulse after #6 MERGED 5c5307b; HOLD binds (not merging peers); sci effect NONE"
