@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:29:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #155 tip 725b485 MERGEABLE NA-0009. Updated 2026-09-27T21:29:40Z.",
+  "updated_at": "2026-09-27T21:31:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #155 NA-0009 AMEND 5860004266. Updated 2026-09-27T21:31:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8513,10 +8513,11 @@
         "prior_oid": "d84e59085077a71f11ec36fd48c22a45df81e045",
         "author152_confirm": "5859643161",
         "peer_reshape": "5859674009",
-        "mergeable": "MERGEABLE"
+        "mergeable": "MERGEABLE",
+        "na0009_amend": "5860004266"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:29:40Z",
+      "heartbeat_at": "2026-09-27T21:31:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8534,9 +8535,10 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/ef3850d6324637785d08a62d238ec81d0ec41dd9",
         "https://github.com/d6g8k5htny-coder/trial/commit/0b3387ddf2a3bd95f5264775c127c9c382f68dda",
         "https://github.com/d6g8k5htny-coder/trial/commit/d84e59085077a71f11ec36fd48c22a45df81e045",
-        "https://github.com/d6g8k5htny-coder/trial/commit/725b4856ef754903b3e05739aca1c60910a97756"
+        "https://github.com/d6g8k5htny-coder/trial/commit/725b4856ef754903b3e05739aca1c60910a97756",
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860004266"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 725b485 MERGEABLE; needs_attention NA-0009 (_descends_from_base_tip False in Actions + CI diag); tip-drift on main via #153; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 725b485 MERGEABLE; peer AMEND NA-0009 (5860004266): gh strip_env retry dead in Actions \u2014 use tip_drift_class.classify (urllib anon fallback); gates already DESCENDANT_OK on main; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
