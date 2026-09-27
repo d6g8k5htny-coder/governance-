@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:44:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167); Math- tip 0be9c76 (#89). main #159 tip 85c935e CI green; #163 tip 65e414f; #124 tip 6ad685c await verify. Updated 2026-09-27T17:44:30Z.",
+  "updated_at": "2026-09-27T17:47:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167); Math- tip 0be9c76 (#89). main #159/#163 ready_for_review (AMEND applied). #124 tip 6ad685c await verify. Updated 2026-09-27T17:47:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -6025,10 +6025,13 @@
         "peer_amend": "5850544205",
         "prior_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7",
         "ci": "public-intake_SUCCESS+public-shop_SUCCESS+verify_SUCCESS",
-        "result_delivery": "f21e222"
+        "result_delivery": "f21e222",
+        "draft": false,
+        "ready_for_review": true,
+        "amend_applied_comment": "5858229152"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T17:44:30Z",
+      "heartbeat_at": "2026-09-27T17:47:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6038,9 +6041,10 @@
         "https://github.com/d6g8k5htny-coder/main/pull/159",
         "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205",
         "https://github.com/d6g8k5htny-coder/main/commit/85c935ee77d58e2b0f614ad061732ad1ff316f50",
-        "https://github.com/d6g8k5htny-coder/main/commit/f21e222"
+        "https://github.com/d6g8k5htny-coder/main/commit/f21e222",
+        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5858229152"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 85c935e MERGEABLE CI green\u00d73 (was 39161a6); tip=main-merge + RESULT.md/IDENTITY.json (f21e222); peer packaging AMEND may be satisfied \u2014 await ack/re-review; stale ERRATUM row if still open; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 85c935e MERGEABLE ready_for_review; AMEND applied (5858229152) RESULT.md/IDENTITY+ERRATUM rewrite; CI green\u00d73; await re-review/land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-161-lb-rate-kimi-thm023-hold",
@@ -6328,10 +6332,13 @@
         "prior_oid": "cb774284b3f53a7539fe556cbb18a175542ea9d5",
         "peer_amend": "5850519011",
         "ci": "public-intake_SUCCESS+public-shop_SUCCESS+verify_SUCCESS",
-        "result_delivery": "857904a"
+        "result_delivery": "857904a",
+        "draft": false,
+        "ready_for_review": true,
+        "amend_applied_comment": "5858229144"
       },
       "claimed_at": "2026-09-26T22:01:10Z",
-      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "heartbeat_at": "2026-09-27T17:47:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6355,9 +6362,10 @@
         "https://github.com/d6g8k5htny-coder/main/commit/6716d16e0630bca9db0ff0eb279818eafd1d0718",
         "https://github.com/d6g8k5htny-coder/main/commit/cb774284b3f53a7539fe556cbb18a175542ea9d5",
         "https://github.com/d6g8k5htny-coder/main/commit/65e414fc8048158c950ef007683d32ef4e31fb69",
-        "https://github.com/d6g8k5htny-coder/main/commit/857904a"
+        "https://github.com/d6g8k5htny-coder/main/commit/857904a",
+        "https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5858229144"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 65e414f MERGEABLE CI green\u00d73 (was cb77428); tip=main-merge + RESULT.md/IDENTITY.json (857904a); peer AMEND packaging may be satisfied \u2014 await author ack/re-review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 65e414f MERGEABLE ready_for_review; AMEND applied (5858229144) RESULT.md/IDENTITY+custody note; CI green\u00d73; await re-review/land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-125-moment-lemma-amend",
