@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T19:05:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124 after #169 @ cad99e2); Math- tip 3b2ac59 (#91). #169 repaired #134+#111 claims_check interaction. Updated 2026-09-27T19:05:00Z.",
+  "updated_at": "2026-09-27T19:15:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124); Math- tip 3b2ac59 (#91). trial #138 eng AMEND 5858907660 binding_order_permutation OFFERED. Updated 2026-09-27T19:15:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -903,14 +903,14 @@
         "repo": "d6g8k5htny-coder/trial",
         "branch": "chatgpt/p15-assumption-probe-20260925",
         "pr": 121,
-        "pr_state": "closed",
+        "pr_state": "open",
         "issue": null,
         "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191"
       },
       "claimed_at": "2026-09-25T20:05:12Z",
-      "heartbeat_at": "2026-09-27T19:01:00Z",
+      "heartbeat_at": "2026-09-27T19:15:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "RELEASED",
+      "state": "OFFERED",
       "write_scope": [
         "experiments/p15_assumption_probe_20260925/"
       ],
@@ -927,7 +927,7 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5842250272"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED by #124 MERGED @ e7652a1; sci effect NONE"
+      "blocked_reason": "OFFERED observe trial #121 Path C eng; prior Batch 387 resume; do not race peer coordinator; sci effect NONE \u2014 note: lease was briefly mis-closed by main #121 supersede script; restored"
     },
     {
       "work_id": "math-15-eng-review-cursor",
@@ -2308,11 +2308,12 @@
         "head_oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
         "subject_main_oid": "feea1df7726f3b8a57f3de9bfe5d56e7377b8bc0",
         "live_main_tip": "5cf4f366c70d8cd8a548a4488184601c8714bfaa",
-        "adapter_sha256": "6bf3ab15e111b09ba5068605ad3d0e04794eca7d45838613329c47f320c15435"
+        "adapter_sha256": "6bf3ab15e111b09ba5068605ad3d0e04794eca7d45838613329c47f320c15435",
+        "binding_order_finding": "5858907660"
       },
       "claimed_at": "2026-09-26T00:09:40Z",
-      "heartbeat_at": "2026-09-26T02:10:00Z",
-      "expires_at": "2026-09-27T00:00:00Z",
+      "heartbeat_at": "2026-09-27T19:15:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
       "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -2325,11 +2326,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5841626296",
         "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5842104345",
         "https://cursor.com/agents/bc-01a0cf1e-ebff-78a8-8a7a-9140fd59309a",
-        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5842250341"
+        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5842250341",
+        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5858907660"
       ],
       "delegates_to": null,
       "lanes_note": "Gate re-review subject SUPERSEDED by #98 merge; Batch 385 Path C eng resume may tip-align this PR under bc-01a0cf1e \u2014 observe only",
-      "blocked_reason": "SUPERSEDED: main #98 MERGED @ ebedb78 / OA FINAL ACCEPT on b59359e; stale feea1df gate no longer active clearance path"
+      "blocked_reason": "SUPERSEDED: main #98 MERGED @ ebedb78 / OA FINAL ACCEPT on b59359e; stale feea1df gate no longer active clearance path | residual eng AMEND 5858907660 binding_order_permutation on tip 1f990f2 / subject feea1df; successor repair OFFERED; sci effect NONE"
     },
     {
       "work_id": "main-118-q0-ledger-mirror",
@@ -3628,10 +3630,12 @@
         "batch": 387,
         "tip_drift_note": "main tip moved publish/nav only; tip-align if Path C base drifted",
         "hardening_branch": "chatgpt/drive-github-hardening-20260919",
-        "main_tip": "b120e705654a773ac4ba04c324e5f85087e61ab4"
+        "main_tip": "b120e705654a773ac4ba04c324e5f85087e61ab4",
+        "trial_138_tip": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
+        "binding_order_finding": "5858907660"
       },
       "claimed_at": "2026-09-26T01:49:00Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
+      "heartbeat_at": "2026-09-27T19:15:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -8000,6 +8004,40 @@
         "https://github.com/d6g8k5htny-coder/main/commit/980bf234300717de477aadffcc4f1e59aa4177eb"
       ],
       "blocked_reason": "RELEASED MERGED @ cad99e2 onto hardening (PR tip 980bf23); repairs #134+#111 claims_check interaction (FW-FLOAT-NOT-CERTIFIED / prose count); merge\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "trial-138-binding-order-permutation-amend",
+      "scope": "PR98 adapter: binding_order_permutation treated as coverage-repair byte-drift; design call (a) canonicalize vs (b) relax probe",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 138,
+        "pr_state": "open",
+        "head_oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
+        "subject_oid": "feea1df",
+        "finding_comment": "5858907660",
+        "ci_fail_run": "36203541349",
+        "draft": true
+      },
+      "claimed_at": "2026-09-27T19:15:00Z",
+      "heartbeat_at": "2026-09-27T19:15:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "delegates_to": "trial-138-pr98-final-gate-rereview",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5858907660",
+        "https://github.com/d6g8k5htny-coder/trial/pull/138",
+        "https://github.com/d6g8k5htny-coder/trial/commit/1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349"
+      ],
+      "blocked_reason": "OFFERED eng AMEND (5858907660): binding_order_permutation \u2192 coverage_repairs via positional field in coverage_sha256 + non-normalized node identity; design call (a)/(b); do not race PR98 owner; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
