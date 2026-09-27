@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:20:45Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #172 tip 2e186de DRAFT; trial #152 tip 0a26868. Updated 2026-09-27T20:20:45Z.",
+  "updated_at": "2026-09-27T20:22:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #172 tip 10cd481 DRAFT per-file extract errors. Updated 2026-09-27T20:22:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8210,17 +8210,17 @@
         "repo": "d6g8k5htny-coder/main",
         "pr": 172,
         "pr_state": "open",
-        "head_oid": "2e186de59c568f07df4a2bfb69e54a07d6e85605",
+        "head_oid": "10cd4819963de9da84c6353cdc75d8d2cb2c9e72",
         "draft": true,
         "base_branch": "main",
-        "prior_oid": "34807df60207ca514ddb634c38c518f3799f27f2",
+        "prior_oid": "2e186de59c568f07df4a2bfb69e54a07d6e85605",
         "ci": "success",
         "branch": "claude/review-grok-github-uploads-gsthj3",
         "peer_accept": "5859448682",
         "amend_oid": "34807df60207ca514ddb634c38c518f3799f27f2"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T20:20:45Z",
+      "heartbeat_at": "2026-09-27T20:22:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8234,9 +8234,10 @@
         "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5859448682",
         "https://github.com/d6g8k5htny-coder/main/commit/34807df60207ca514ddb634c38c518f3799f27f2",
         "https://github.com/d6g8k5htny-coder/main/commit/2e186de59c568f07df4a2bfb69e54a07d6e85605",
-        "https://github.com/d6g8k5htny-coder/main/commit/29290c4d6937c635b21e2592d91e6923364ba149"
+        "https://github.com/d6g8k5htny-coder/main/commit/29290c4d6937c635b21e2592d91e6923364ba149",
+        "https://github.com/d6g8k5htny-coder/main/commit/10cd4819963de9da84c6353cdc75d8d2cb2c9e72"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 2e186de; connector harvest + fail-closed allow-list merged; prior eng ACCEPT (5859448682); CI SUCCESS; await ready; do not race; custody/eng; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 10cd481; per-file extract errors (review residual); connector harvest + fail-closed allow-list; eng ACCEPT (5859448682); CI SUCCESS; await ready; do not race; custody/eng; sci effect NONE"
     },
     {
       "work_id": "trial-150-dropbox-drive-gap-audit",
