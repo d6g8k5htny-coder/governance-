@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T19:57:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 2cce7bf (#170 MERGED); hardening tip 9ce5c66 (#122 MERGED); Math- tip 3b2ac59 (#91). observe #172/#173; trial #150 KEEP+wording AMEND. Updated 2026-09-27T19:57:20Z.",
+  "updated_at": "2026-09-27T20:01:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 2cce7bf (#170); hardening tip 9ce5c66 (#122); Math- tip 3b2ac59 (#91). main #8 tip 8fb687a AMEND+HOLD; trial #152 Path C tip-drift gate DRAFT; observe #172/#173/#150. Updated 2026-09-27T20:01:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4884,7 +4884,7 @@
         "head_oid": "bf5ce700ae64bc4205a03d92d38a743097552ae0"
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T19:05:00Z",
+      "heartbeat_at": "2026-09-27T20:01:00Z",
       "expires_at": "2026-10-02T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -8219,7 +8219,7 @@
         "branch": "claude/review-grok-github-uploads-gsthj3"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T19:38:50Z",
+      "heartbeat_at": "2026-09-27T20:01:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8253,7 +8253,7 @@
         "ci_attribution": "baseline tip-drift BASE_TIP 2f7a5a9 vs live hardening e7652a1; not PR-caused"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T19:38:50Z",
+      "heartbeat_at": "2026-09-27T20:01:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8285,7 +8285,7 @@
         "ci": "success"
       },
       "claimed_at": "2026-09-27T19:57:20Z",
-      "heartbeat_at": "2026-09-27T19:57:20Z",
+      "heartbeat_at": "2026-09-27T20:01:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8296,6 +8296,74 @@
         "https://github.com/d6g8k5htny-coder/main/commit/c5a7899636437e85ba39aa79febd384b50f32c0d"
       ],
       "blocked_reason": "OFFERED observe @ c5a7899 MERGEABLE CI SUCCESS; systematic source census / R2 reconcile; custody/eng; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-8-rn-sector-review-hold",
+      "scope": "16-cell RN sector candidate review; Dylan HOLD/NEVER-MERGE; tip rebase+pin AMEND",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "codex/rn-sector-review-20260921",
+        "pr": 8,
+        "pr_state": "open",
+        "head_oid": "8fb687ac774333681f9467468488cca79a71c08c",
+        "prior_oid": "ba171866228c945d221f53dd1e823f55b17a39f4",
+        "draft": false,
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "hold_comment": "5801735092",
+        "amend_applied_comment": "5859198949",
+        "ci": "pending_verify"
+      },
+      "claimed_at": "2026-09-27T20:01:00Z",
+      "heartbeat_at": "2026-09-27T20:01:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/8",
+        "https://github.com/d6g8k5htny-coder/main/pull/8#issuecomment-5801735092",
+        "https://github.com/d6g8k5htny-coder/main/pull/8#issuecomment-5859198949",
+        "https://github.com/d6g8k5htny-coder/main/commit/8fb687ac774333681f9467468488cca79a71c08c",
+        "https://github.com/d6g8k5htny-coder/main/commit/ba171866228c945d221f53dd1e823f55b17a39f4"
+      ],
+      "blocked_reason": "OFFERED observe @ 8fb687a (prior ba17186); Dylan HOLD/NEVER-MERGE (5801735092) stands; queue AMEND applied (5859198949) rebase+pin onto hardening incl #122; await verify; do not race; never MERGE_NOW while HOLD; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "trial-152-path-c-base-tip-drift",
+      "scope": "Path C gates tolerate BASE_TIP drift when landed stack already on live tip; eng CI",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "branch": "cursor/tip-refresh-un-red-ci-ff72",
+        "pr": 152,
+        "pr_state": "open",
+        "head_oid": "62bd6a2ac7050d598694083b23b84beaa52d827c",
+        "draft": true,
+        "ci": "partial"
+      },
+      "claimed_at": "2026-09-27T20:01:00Z",
+      "heartbeat_at": "2026-09-27T20:01:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/152",
+        "https://github.com/d6g8k5htny-coder/trial/commit/62bd6a2ac7050d598694083b23b84beaa52d827c",
+        "https://github.com/d6g8k5htny-coder/trial/pull/150#issuecomment-5859154134"
+      ],
+      "blocked_reason": "OFFERED observe DRAFT @ 62bd6a2; Path C tip-drift gate (peer from #150 5859154134); portable-patches/path-c/land-workflows SUCCESS; await full CI; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
