@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:34:29Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 34e3a43 (#88); trial tip dade4cd (#161). HOLD binds — not merging. #96 tip 4fadd96 CI SUCCESS (prior ACCEPT @ 240a3a1 stale; behind #88); #97 CLOSED NEVER-MERGE; #87 awaits fresh review. Updated 2026-09-27T23:34:29Z.",
+  "updated_at": "2026-09-27T23:36:49Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 34e3a43 (#88); trial tip 792ba7b (#121). HOLD binds — not merging. #96 tip 4fadd96 CI SUCCESS (ACCEPT stale); #93/#160/#138 CLOSED UNMERGED (owner hygiene); #87 awaits fresh review. Updated 2026-09-27T23:36:49Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -904,16 +904,18 @@
         "repo": "d6g8k5htny-coder/trial",
         "branch": "chatgpt/p15-assumption-probe-20260925",
         "pr": 121,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191",
         "peer_review": "5858938478",
-        "peer_verdict": "KEEP_MODIFY"
+        "peer_verdict": "KEEP_MODIFY",
+        "merge_oid": "792ba7b49ab88bcb10e582915e0bb9c31ad7e5db",
+        "draft": false
       },
       "claimed_at": "2026-09-25T20:05:12Z",
-      "heartbeat_at": "2026-09-27T19:16:00Z",
+      "heartbeat_at": "2026-09-27T23:36:49Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [
         "experiments/p15_assumption_probe_20260925/"
       ],
@@ -928,10 +930,11 @@
         "https://cursor.com/agents/bc-01a0cf1e-ebff-78a8-8a7a-9140fd59309a",
         "https://github.com/d6g8k5htny-coder/main/commit/7caac254cbba5f513b2dc0afb56b78a598bc0c93",
         "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5842250272",
-        "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5858938478"
+        "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5858938478",
+        "https://github.com/d6g8k5htny-coder/trial/commit/792ba7b49ab88bcb10e582915e0bb9c31ad7e5db"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 391f6a8; peer KEEP+MODIFY (5858938478): README baseline framing (6 new vs M_* controls not 2/9 witness) + three maintenance notes (root-obj abort, panel index fragility, --output path); do not race; eng≠theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 792ba7b (PR tip 391f6a8); P15 assumption probe; merge≠theorem; eng≠theorem; sci effect NONE — trial tip"
     },
     {
       "work_id": "math-15-eng-review-cursor",
@@ -1195,12 +1198,14 @@
         "repo": "d6g8k5htny-coder/trial",
         "branch": "chatgpt/p15-assumption-probe-20260925",
         "pr": 121,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
-        "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191"
+        "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191",
+        "merge_oid": "792ba7b49ab88bcb10e582915e0bb9c31ad7e5db",
+        "draft": false
       },
       "claimed_at": "2026-09-25T20:44:16Z",
-      "heartbeat_at": "2026-09-25T20:45:23Z",
+      "heartbeat_at": "2026-09-27T23:36:49Z",
       "expires_at": "2026-09-26T20:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -1209,10 +1214,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/98#issuecomment-5839320734",
         "https://github.com/d6g8k5htny-coder/trial/pull/121",
-        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math18-translation-review.md"
+        "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260925-math18-translation-review.md",
+        "https://github.com/d6g8k5htny-coder/trial/commit/792ba7b49ab88bcb10e582915e0bb9c31ad7e5db"
       ],
       "delegates_to": "math-18-smt-translation-review",
-      "blocked_reason": "RELEASED: translation MATCH×7 filed on governance- amendments/20260925-math18-translation-review.md; App cannot comment Math-/main — mirror if needed; sci effect NONE; not theorem acceptance"
+      "blocked_reason": "RELEASED MERGED @ 792ba7b (PR tip 391f6a8); P15 assumption probe; merge≠theorem; eng≠theorem; sci effect NONE — trial tip"
     },
     {
       "work_id": "math-21-axial-density-math-review",
@@ -2307,18 +2313,19 @@
         "repo": "d6g8k5htny-coder/trial",
         "branch": "chatgpt/pr98-final-gate-rereview-20260925",
         "pr": 138,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": 90,
         "head_oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
         "subject_main_oid": "feea1df7726f3b8a57f3de9bfe5d56e7377b8bc0",
         "live_main_tip": "5cf4f366c70d8cd8a548a4488184601c8714bfaa",
         "adapter_sha256": "6bf3ab15e111b09ba5068605ad3d0e04794eca7d45838613329c47f320c15435",
-        "binding_order_finding": "5858907660"
+        "binding_order_finding": "5858907660",
+        "close_comment": "5860869484"
       },
       "claimed_at": "2026-09-26T00:09:40Z",
-      "heartbeat_at": "2026-09-27T19:15:00Z",
+      "heartbeat_at": "2026-09-27T23:36:49Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "SUPERSEDED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -2331,11 +2338,12 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5842104345",
         "https://cursor.com/agents/bc-01a0cf1e-ebff-78a8-8a7a-9140fd59309a",
         "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5842250341",
-        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5858907660"
+        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5858907660",
+        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5860869484"
       ],
       "delegates_to": null,
       "lanes_note": "Gate re-review subject SUPERSEDED by #98 merge; Batch 385 Path C eng resume may tip-align this PR under bc-01a0cf1e — observe only",
-      "blocked_reason": "SUPERSEDED: main #98 MERGED @ ebedb78 / OA FINAL ACCEPT on b59359e; stale feea1df gate no longer active clearance path | residual eng AMEND 5858907660 binding_order_permutation on tip 1f990f2 / subject feea1df; successor repair OFFERED; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED @ 1f990f2; owner close — subject main PR98 merged b59359eb; head stale; binding-order AMEND (5858907660) may re-raise as fresh probe; branch preserved; sci effect NONE"
     },
     {
       "work_id": "main-118-q0-ledger-mirror",
@@ -8246,17 +8254,18 @@
       "source": {
         "repo": "d6g8k5htny-coder/trial",
         "pr": 138,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
         "subject_oid": "feea1df",
         "finding_comment": "5858907660",
         "ci_fail_run": "36203541349",
-        "draft": true
+        "draft": true,
+        "close_comment": "5860869484"
       },
       "claimed_at": "2026-09-27T19:15:00Z",
-      "heartbeat_at": "2026-09-27T19:15:00Z",
+      "heartbeat_at": "2026-09-27T23:36:49Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -8265,9 +8274,10 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5858907660",
         "https://github.com/d6g8k5htny-coder/trial/pull/138",
         "https://github.com/d6g8k5htny-coder/trial/commit/1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
-        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349"
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349",
+        "https://github.com/d6g8k5htny-coder/trial/pull/138#issuecomment-5860869484"
       ],
-      "blocked_reason": "OFFERED eng AMEND (5858907660): binding_order_permutation → coverage_repairs via positional field in coverage_sha256 + non-normalized node identity; design call (a)/(b); do not race PR98 owner; eng≠theorem; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED @ 1f990f2; owner close — subject main PR98 merged b59359eb; head stale; binding-order AMEND (5858907660) may re-raise as fresh probe; branch preserved; sci effect NONE"
     },
     {
       "work_id": "trial-121-readme-baseline-amend",
@@ -8282,21 +8292,24 @@
         "pr": 121,
         "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191",
         "finding_comment": "5858938478",
-        "draft": true
+        "draft": false,
+        "pr_state": "merged",
+        "merge_oid": "792ba7b49ab88bcb10e582915e0bb9c31ad7e5db"
       },
       "claimed_at": "2026-09-27T19:16:00Z",
-      "heartbeat_at": "2026-09-27T19:16:00Z",
+      "heartbeat_at": "2026-09-27T23:36:49Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "delegates_to": "trial-121-p15-assumption-probe",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5858938478",
-        "https://github.com/d6g8k5htny-coder/trial/pull/121"
+        "https://github.com/d6g8k5htny-coder/trial/pull/121",
+        "https://github.com/d6g8k5htny-coder/trial/commit/792ba7b49ab88bcb10e582915e0bb9c31ad7e5db"
       ],
-      "blocked_reason": "OFFERED peer MODIFY repair (5858938478) after KEEP-as-optional-probe; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 792ba7b (PR tip 391f6a8); P15 assumption probe; merge≠theorem; eng≠theorem; sci effect NONE — trial tip"
     },
     {
       "work_id": "main-122-pinned-sources-index-repair",
@@ -9266,7 +9279,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 93,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "a6637061fd7fade60ad2bba2a16a38df8034270c",
         "draft": true,
         "mergeable": "UNKNOWN",
@@ -9278,16 +9291,17 @@
         "source_main_pr": 188,
         "source_main_oid": "211999277ab8a363dd51320f970e8928b1e0f1e0",
         "handoff_withdrawn_comment": "5860739943",
-        "enforcement_pr": 96
+        "enforcement_pr": 96,
+        "close_comment": "5860868839"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T23:21:20Z",
+      "heartbeat_at": "2026-09-27T23:36:49Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ a663706 SIDE24 — keep separate from Math-#96 required-gates; owner route 5860770012; eng≠theorem; sci effect NONE",
+      "blocked_reason": "RELEASED CLOSED UNMERGED @ a663706; owner close — second formalization registry / kernel_checked status conflicts unified contract (formal/manifest.json; main #181/#188); branch preserved; SIDE24 may return additive onto existing formal/; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/93",
         "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
@@ -9295,7 +9309,8 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860700400",
         "https://github.com/d6g8k5htny-coder/main/issues/95#issuecomment-5860640866",
         "https://github.com/d6g8k5htny-coder/main/pull/188",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860739943"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860739943",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860868839"
       ]
     },
     {
@@ -9309,7 +9324,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/trial",
         "pr": 160,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "368efbf51c182d8a5fc9dab3efda4c4d92c1a829",
         "draft": true,
         "mergeable": "CONFLICTING",
@@ -9318,22 +9333,24 @@
         "ci": "failure",
         "ci_fail_job": "sanity",
         "ci_fail_run": "36355782085",
-        "ci_fail_test": "test_batch846_tip_or_eng_parent_pin_repair"
+        "ci_fail_test": "test_batch846_tip_or_eng_parent_pin_repair",
+        "close_comment": "5860869133"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T23:29:18Z",
+      "heartbeat_at": "2026-09-27T23:36:49Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT CONFLICTING; sanity FAIL 36355782085 tip_sha pin drift; formal-gate SUCCESS; repair OFFERED (do not race); experimental formal ≠ scientific authority; eng≠theorem; sci effect NONE",
+      "blocked_reason": "RELEASED CLOSED UNMERGED @ 368efbf; owner close — CONFLICTING + sanity red + trial-canonical kernel_checked registry vs unified formal contract (main #181/#188); branch preserved; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/160",
         "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
         "https://github.com/d6g8k5htny-coder/trial/commit/f9ef5c2dfa37266b8ba66712da5811503b807b21",
         "https://github.com/d6g8k5htny-coder/trial/commit/368efbf51c182d8a5fc9dab3efda4c4d92c1a829",
-        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36355782085"
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36355782085",
+        "https://github.com/d6g8k5htny-coder/trial/pull/160#issuecomment-5860869133"
       ]
     },
     {
