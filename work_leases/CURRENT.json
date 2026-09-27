@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:11:47Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip eaf1264 (#178); hardening tip a01c72f (#7); Math- tip 867d9e3 (#92); trial tip 4444b0f. HOLD default binds (not merging). Math- #80/#81 owner undrafted READY; await owner merge. Updated 2026-09-27T22:11:47Z.",
+  "updated_at": "2026-09-27T22:12:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip eaf1264 (#178); hardening tip a01c72f (#7); Math- tip 867d9e3 (#92); trial tip 4444b0f. HOLD default binds (not merging). trial #154 CLOSED UNMERGED SUPERSEDED. Updated 2026-09-27T22:12:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8528,7 +8528,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/trial",
         "pr": 154,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "f8781a018f1e8252fca52658c0e02ab7a36cc387",
         "draft": true,
         "ci": "pending",
@@ -8536,12 +8536,14 @@
         "stand_down_comment": "5859619659",
         "superseded_comment": "5859674009",
         "mergeable": "MERGEABLE",
-        "merge_resolve_comment": "5859953311"
+        "merge_resolve_comment": "5859953311",
+        "closed_unmerged": true,
+        "disposition_comment": "5860300002"
       },
       "claimed_at": "2026-09-27T20:15:20Z",
-      "heartbeat_at": "2026-09-27T21:58:46Z",
+      "heartbeat_at": "2026-09-27T22:12:30Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -8554,9 +8556,10 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859674009",
         "https://github.com/d6g8k5htny-coder/trial/commit/6f5e1d80e1f4069dbfca500158b7d0dd7ebb215d",
         "https://github.com/d6g8k5htny-coder/trial/pull/154#issuecomment-5859953311",
-        "https://github.com/d6g8k5htny-coder/trial/commit/f8781a018f1e8252fca52658c0e02ab7a36cc387"
+        "https://github.com/d6g8k5htny-coder/trial/commit/f8781a018f1e8252fca52658c0e02ab7a36cc387",
+        "https://github.com/d6g8k5htny-coder/trial/pull/154#issuecomment-5860300002"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ f8781a0 MERGEABLE but title SUPERSEDED by #153 landing; tip sync noise; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED @ f8781a0 (by #153); owner/delegate close (5860300002) \u2014 queue hygiene not theorem; reusable pieces stay discoverable; sci effect NONE"
     },
     {
       "work_id": "trial-155-needs-attention-tip-drift",
