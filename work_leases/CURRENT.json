@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:50:02Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 22e79e8 (#96); trial tip 792ba7b (#121); governance- tip 365eafe (#5). HOLD binds — not merging open peers. #96 MERGED formal gates; no open Math PRs observed. Updated 2026-09-27T23:50:02Z.",
+  "updated_at": "2026-09-27T23:51:43Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 22e79e8 (#96); trial tip ffaa1b7 (batch 860); governance- tip 5c5307b (#6). HOLD binds — not merging. #162 MERGED review packet; ULW #3 DRAFT CONFLICTING; no open Math/main/trial PRs. Updated 2026-09-27T23:51:43Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4596,7 +4596,7 @@
         "copilot_review": "5328290023"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-27T23:08:00Z",
+      "heartbeat_at": "2026-09-27T23:51:43Z",
       "expires_at": "2026-09-29T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4614,7 +4614,7 @@
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#pullrequestreview-5328290023"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 96e0059 CONFLICTING; peer AMEND (5848438896) rebase after #4; Copilot (5328290023): QUERY_TIP hardcode, BRANCH_MAP drift, gitmodules validation, query_package, identity CI, stale pins, PR2 host ref, unittest order, ledger count; repair OFFERED; eng≠theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT CONFLICTING @ 96e0059; peer AMEND rebase after #4; do not race; HOLD binds (not merging); eng≠theorem; sci effect NONE"
     },
     {
       "work_id": "ulw-2-authority-boundary-repair",
@@ -5488,7 +5488,7 @@
         "copilot_review": "5328290023"
       },
       "claimed_at": "2026-09-26T17:46:30Z",
-      "heartbeat_at": "2026-09-27T23:08:00Z",
+      "heartbeat_at": "2026-09-27T23:51:43Z",
       "expires_at": "2026-09-29T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5498,7 +5498,7 @@
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5848438896"
       ],
       "delegates_to": "ulw-3-public-workspace-proposal",
-      "blocked_reason": "OFFERED rebase+#4 supersession + Copilot eng repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT CONFLICTING @ 96e0059; peer AMEND rebase after #4; do not race; HOLD binds (not merging); eng≠theorem; sci effect NONE"
     },
     {
       "work_id": "main-150-body-sha256-tip-sync",
@@ -10112,15 +10112,16 @@
       "source": {
         "repo": "d6g8k5htny-coder/governance-",
         "branch": "cursor/lease-watch-followthrough-ab08",
-        "pr_state": "open",
+        "pr_state": "merged",
         "predecessor_pr": 5,
         "predecessor_merge": "365eafeed2f24d8448ee15514d89d0267f61c31e",
-        "pr": 6
+        "pr": 6,
+        "merge_oid": "5c5307baacd8527b513aff1fe14e2ead00de47f7"
       },
       "claimed_at": "2026-09-27T23:37:41Z",
-      "heartbeat_at": "2026-09-27T23:37:57Z",
+      "heartbeat_at": "2026-09-27T23:51:43Z",
       "expires_at": "2026-10-02T12:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [
         "work_leases/CURRENT.json",
         "amendments/",
@@ -10131,10 +10132,75 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/governance-/pull/5",
         "https://github.com/d6g8k5htny-coder/governance-/commit/365eafeed2f24d8448ee15514d89d0267f61c31e",
-        "https://github.com/d6g8k5htny-coder/governance-/pull/6"
+        "https://github.com/d6g8k5htny-coder/governance-/pull/6",
+        "https://github.com/d6g8k5htny-coder/governance-/commit/5c5307baacd8527b513aff1fe14e2ead00de47f7"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE followthrough after #5 MERGED 365eafe; HOLD binds (not merging peers); sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 5c5307b (PR tip e9c4c9b); followthrough after #5; consensus exception (forward progress); merge≠theorem; sci effect NONE — prior governance tip"
+    },
+    {
+      "work_id": "gov-lease-watch-pulse",
+      "scope": "Successor lease watch after governance- #6 MERGED; timer pulse coordination only",
+      "owner": {
+        "provider": "cursor",
+        "model": "composer",
+        "agent": "cursor-cloud"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/governance-",
+        "branch": "cursor/lease-watch-pulse-ab08",
+        "pr_state": "open",
+        "predecessor_pr": 6,
+        "predecessor_merge": "5c5307baacd8527b513aff1fe14e2ead00de47f7",
+        "pr": null
+      },
+      "claimed_at": "2026-09-27T23:51:43Z",
+      "heartbeat_at": "2026-09-27T23:51:43Z",
+      "expires_at": "2026-10-02T12:00:00Z",
+      "state": "ACTIVE",
+      "write_scope": [
+        "work_leases/CURRENT.json",
+        "amendments/",
+        "README.md"
+      ],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/governance-/pull/6",
+        "https://github.com/d6g8k5htny-coder/governance-/commit/5c5307baacd8527b513aff1fe14e2ead00de47f7"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "ACTIVE pulse after #6 MERGED 5c5307b; HOLD binds (not merging peers); sci effect NONE"
+    },
+    {
+      "work_id": "trial-162-lean-replay-review-packet",
+      "scope": "Review packet: independent Lean replay + provenance re-check for trial #160; portable only",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 162,
+        "pr_state": "merged",
+        "head_oid": "d1234bb382a16d7e1868e8573e44f55a23fce5a0",
+        "merge_oid": "1f967f72d50e6e92a1b56bf6162a3cb5096dc253"
+      },
+      "claimed_at": "2026-09-27T23:51:43Z",
+      "heartbeat_at": "2026-09-27T23:51:43Z",
+      "expires_at": "2026-10-02T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/162",
+        "https://github.com/d6g8k5htny-coder/trial/commit/d1234bb382a16d7e1868e8573e44f55a23fce5a0",
+        "https://github.com/d6g8k5htny-coder/trial/commit/1f967f72d50e6e92a1b56bf6162a3cb5096dc253"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED MERGED @ 1f967f7 (PR tip d1234bb); Lean replay review packet for #160; merge≠theorem; eng≠theorem; sci effect NONE"
     }
   ]
 }
