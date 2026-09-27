@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:22:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #172 tip 10cd481 DRAFT per-file extract errors. Updated 2026-09-27T20:22:20Z.",
+  "updated_at": "2026-09-27T20:28:10Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). trial #153 tip aaab116 Path C tip-sync\u21929458b90; #172 tip 10cd481. Updated 2026-09-27T20:28:10Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8395,11 +8395,13 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 153,
         "pr_state": "open",
-        "head_oid": "9dd7b41e288f18a018d44ed3787b886590d80ef7",
-        "draft": true
+        "head_oid": "aaab116617eb8659cad129e4cc2ef6d923c1f871",
+        "draft": true,
+        "prior_oid": "9dd7b41e288f18a018d44ed3787b886590d80ef7",
+        "base_tip_refresh": "9458b90"
       },
       "claimed_at": "2026-09-27T20:15:20Z",
-      "heartbeat_at": "2026-09-27T20:15:20Z",
+      "heartbeat_at": "2026-09-27T20:28:10Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8407,9 +8409,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/153",
-        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859447061"
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859447061",
+        "https://github.com/d6g8k5htny-coder/trial/commit/aaab116617eb8659cad129e4cc2ef6d923c1f871",
+        "https://github.com/d6g8k5htny-coder/trial/pull/153#issuecomment-5859444738"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 9dd7b41; peer-preferred land vehicle for tip-drift converge (#152 semantic_already_applied + #154 ancestry); do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ aaab116; Path C tip-sync 9ce5c66\u21929458b90 (refresh_batch 827); preferred tip-drift land vehicle (+#150); peer coord 5859444738/#152 5859447061; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-154-path-c-ancestor-gate",
