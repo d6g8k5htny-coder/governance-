@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:32:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #82 Copilot corroborates AMEND 5850657368 (+missing algebra tests). Updated 2026-09-27T00:32:00Z.",
+  "updated_at": "2026-09-27T00:32:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #80 Copilot corroborates missing verify script (5328254469). Updated 2026-09-27T00:32:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4660,7 +4660,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:32:00Z",
+      "heartbeat_at": "2026-09-27T00:32:30Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5925,10 +5925,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 80,
         "head_oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67",
-        "peer_amend": "5850660898"
+        "peer_amend": "5850660898",
+        "copilot_review": "5328254469"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-26T22:56:00Z",
+      "heartbeat_at": "2026-09-27T00:32:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5936,9 +5937,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/80",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5850660898"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5850660898",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80#pullrequestreview-5328254469",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/80#discussion_r4113524863"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ a79007e; peer AMEND (5850660898): missing verify_substitute.py; rename \u2014 not TRANSVERSE stand-in after #59; qualify PR25 'theorem' (no org independence); repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ a79007e; peer AMEND (5850660898) + Copilot (5328254469): missing verify_substitute.py; rename \u2014 not TRANSVERSE stand-in after #59; qualify PR25 'theorem'; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-81-drive-hole-ledger",
@@ -6628,10 +6631,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 80,
         "head_oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67",
-        "finding_comment": "5850660898"
+        "finding_comment": "5850660898",
+        "copilot_review": "5328254469"
       },
       "claimed_at": "2026-09-26T22:56:00Z",
-      "heartbeat_at": "2026-09-26T22:56:00Z",
+      "heartbeat_at": "2026-09-27T00:32:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6641,7 +6645,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5850660898"
       ],
       "delegates_to": "math-80-contact-kernel-substitute",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (verify script/digests + drop stand-in); this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-86-rereview-b9e33ed",
