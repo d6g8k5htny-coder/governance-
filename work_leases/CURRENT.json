@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T19:38:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 2cce7bf (#170 MERGED); hardening tip d4ad3bb (#171 MERGED); Math- tip 3b2ac59 (#91). main #122 tip 4d9784f await verify; #172 tip 1ed3401 DRAFT; trial #150 peer KEEP+wording AMEND 5859154134; CI tip-drift attributed. Updated 2026-09-27T19:38:50Z.",
+  "updated_at": "2026-09-27T19:57:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 2cce7bf (#170 MERGED); hardening tip 9ce5c66 (#122 MERGED); Math- tip 3b2ac59 (#91). observe #172/#173; trial #150 KEEP+wording AMEND. Updated 2026-09-27T19:57:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2686,7 +2686,7 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "chatgpt/sard-g-execution-repair-20260925",
         "pr": 122,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "4d9784f713df1973feb27f05d8daacd97445ef60",
         "prior_oid": "8c38e13ce54425920c4c2ead683ea1540c10fa8d",
         "merge_base_oid": "7caac254cbba5f513b2dc0afb56b78a598bc0c93",
@@ -2698,18 +2698,20 @@
         "amend_applied_comment": "5859099591",
         "draft": false,
         "ready_for_review": true,
-        "ci": "pending_verify",
+        "ci": "success",
         "ci_fail_run": "36344545141",
         "ci_push_fail": "36344543447",
         "ci_fail_reason": "pinned_sources_check SOURCE_MAP review_reports[] needs PINNED_SOURCES --write",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "ci_repair_oid": "4d9784f713df1973feb27f05d8daacd97445ef60",
-        "ci_repair_comment": "5859116302"
+        "ci_repair_comment": "5859116302",
+        "merge_oid": "9ce5c66f2fd541f6987ef7ab98730f8d929b980f",
+        "hardening_tip": true
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-27T19:38:50Z",
+      "heartbeat_at": "2026-09-27T19:57:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
@@ -2745,10 +2747,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859099591",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36344545141",
         "https://github.com/d6g8k5htny-coder/main/commit/4d9784f713df1973feb27f05d8daacd97445ef60",
-        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859116302"
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859116302",
+        "https://github.com/d6g8k5htny-coder/main/commit/9ce5c66f2fd541f6987ef7ab98730f8d929b980f",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36344668717"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe @ 4d9784f MERGEABLE ready_for_review (hardening); A1 AMEND @ 2e07c10; CI repair delivered @ 4d9784f (5859116302) SOURCE_MAP off-tree cite shape; await hosted verify SUCCESS then land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 9ce5c66 onto hardening (PR tip 4d9784f); A1 AMEND @ 2e07c10; CI repair @ 4d9784f (5859116302); verify SUCCESS; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 hardening tip"
     },
     {
       "work_id": "math-52-d2-cumulative-confirm",
@@ -8262,6 +8266,36 @@
         "https://cursor.com/agents/bc-01a0e43c"
       ],
       "blocked_reason": "OFFERED observe @ f78f651; peer KEEP+wording AMEND (5859154134 / bc-01a0e43c): zip vs extracted byte note + live-share snapshot caveat; CI FAIL 36344152764 attributed tip-drift (BASE_TIP 2f7a5a9 vs e7652a1) not PR; peer opening separate gate-fix branch \u2014 do not race; KIMI_EXPORT addendum \u2192 main #160 incoming only; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-173-systematic-source-census",
+      "scope": "Systematic source census: inspect by content, reconcile 39 R2 rows; custody/eng",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 173,
+        "pr_state": "open",
+        "head_oid": "c5a7899636437e85ba39aa79febd384b50f32c0d",
+        "draft": false,
+        "base_branch": "main",
+        "ci": "success"
+      },
+      "claimed_at": "2026-09-27T19:57:20Z",
+      "heartbeat_at": "2026-09-27T19:57:20Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/173",
+        "https://github.com/d6g8k5htny-coder/main/commit/c5a7899636437e85ba39aa79febd384b50f32c0d"
+      ],
+      "blocked_reason": "OFFERED observe @ c5a7899 MERGEABLE CI SUCCESS; systematic source census / R2 reconcile; custody/eng; do not race; sci effect NONE"
     }
   ]
 }
