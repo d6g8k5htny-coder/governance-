@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:31:02Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4b709de; hardening tip a01c72f (#7); Math- tip a650f66 (#95); trial tip d1e944a. HOLD default binds. Release-manager notice 5860429350: keep watcher; observe #180 primary; experimental formal #93/#160/sandbox#3/meta#9; google-drive#3 repairs. Updated 2026-09-27T22:31:02Z.",
+  "updated_at": "2026-09-27T22:32:50Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4b709de; hardening tip a01c72f (#7); Math- tip a650f66; trial tip 9a2a2de. HOLD default binds. main #180 eng ACCEPT @ 86c34ee; trial #160 tip f9ef5c2. Updated 2026-09-27T22:32:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9118,19 +9118,23 @@
         "head_oid": "86c34eeae8244621e10418df0b065962d4ba34d4",
         "draft": false,
         "mergeable": "MERGEABLE",
-        "coordination_notice": "5860429350"
+        "coordination_notice": "5860429350",
+        "eng_accept_comment": "5860414595",
+        "ci": "success"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:32:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe @ 86c34ee MERGEABLE; release-manager primary eng lane (5860429350); read-only ten-repo snapshots + Lean replay; do not race; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe @ 86c34ee MERGEABLE; eng ACCEPT (5860414595) for engineering scope; collector/pagination/path checks closed; hosted run 36355336711 SUCCESS; sci acceptance out of scope; await land; do not race; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/180",
-        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
+        "https://github.com/d6g8k5htny-coder/main/pull/180#issuecomment-5860414595",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36355336711"
       ]
     },
     {
@@ -9175,22 +9179,25 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 160,
         "pr_state": "open",
-        "head_oid": "338daba53c690a016569270ae8fc723265600baa",
+        "head_oid": "f9ef5c2dfa37266b8ba66712da5811503b807b21",
         "draft": true,
-        "mergeable": "CONFLICTING",
-        "coordination_notice": "5860429350"
+        "mergeable": "MERGEABLE",
+        "coordination_notice": "5860429350",
+        "prior_oid": "338daba53c690a016569270ae8fc723265600baa",
+        "ci": "in_progress"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:32:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ 338daba CONFLICTING; experimental Layer 1 formal (5860429350); do not race; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe DRAFT @ f9ef5c2 MERGEABLE (main sync); experimental Layer 1 formal; CI in flight; not scientific authority; do not race; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/160",
-        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
+        "https://github.com/d6g8k5htny-coder/trial/commit/f9ef5c2dfa37266b8ba66712da5811503b807b21"
       ]
     },
     {
