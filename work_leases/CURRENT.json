@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:10:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #149 sanity 0-unique red; observe #157 fetch-depth. Updated 2026-09-27T21:10:50Z.",
+  "updated_at": "2026-09-27T21:13:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #155 tip 0b3387d MERGEABLE; #149 8eaf5c8; #156 bef4af3. Updated 2026-09-27T21:13:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8501,19 +8501,19 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 155,
         "pr_state": "open",
-        "head_oid": "ef3850d6324637785d08a62d238ec81d0ec41dd9",
+        "head_oid": "0b3387ddf2a3bd95f5264775c127c9c382f68dda",
         "draft": true,
         "ci": "partial_fail_sanity",
         "preferred_vehicle": true,
         "peer_vehicle_comment": "5859619659",
         "cherry_pick_from_152": "df6b700f",
-        "prior_oid": "3a28c1c8247aea3577b7fb476b79b1e86eaa2bc3",
+        "prior_oid": "ef3850d6324637785d08a62d238ec81d0ec41dd9",
         "author152_confirm": "5859643161",
         "peer_reshape": "5859674009",
-        "mergeable": "CONFLICTING"
+        "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:00:40Z",
+      "heartbeat_at": "2026-09-27T21:13:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8528,9 +8528,10 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/3a28c1c8247aea3577b7fb476b79b1e86eaa2bc3",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859674009",
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36349065906",
-        "https://github.com/d6g8k5htny-coder/trial/commit/ef3850d6324637785d08a62d238ec81d0ec41dd9"
+        "https://github.com/d6g8k5htny-coder/trial/commit/ef3850d6324637785d08a62d238ec81d0ec41dd9",
+        "https://github.com/d6g8k5htny-coder/trial/commit/0b3387ddf2a3bd95f5264775c127c9c382f68dda"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ ef3850d CONFLICTING (merged origin/main; 5859674009 reshape); keep needs_attention payload; tip-drift already on main via #153; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 0b3387d MERGEABLE; needs_attention reshape after #153; classifier-routing test; tip-drift already on main; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
@@ -8544,13 +8545,13 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 156,
         "pr_state": "open",
-        "head_oid": "6c27029a71b5cd52a69d5b55b377a46e475b61af",
+        "head_oid": "bef4af3170d6bc79da11e0620ca7724ad770364e",
         "draft": true,
-        "prior_oid": "e6b4ab42872a5f45f6b73595ed2f5f289bc8b3b3",
+        "prior_oid": "6c27029a71b5cd52a69d5b55b377a46e475b61af",
         "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:02:50Z",
+      "heartbeat_at": "2026-09-27T21:13:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8558,9 +8559,10 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/156",
-        "https://github.com/d6g8k5htny-coder/trial/commit/6c27029a71b5cd52a69d5b55b377a46e475b61af"
+        "https://github.com/d6g8k5htny-coder/trial/commit/6c27029a71b5cd52a69d5b55b377a46e475b61af",
+        "https://github.com/d6g8k5htny-coder/trial/commit/bef4af3170d6bc79da11e0620ca7724ad770364e"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 6c27029 MERGEABLE; post-merge status for main #174/#172 + trial converge; tip-drift gates SUCCESS; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ bef4af3 MERGEABLE; re-merged origin/main; review packet #172/#174; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-7-p15-foundation-review",
@@ -8667,16 +8669,17 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 149,
         "pr_state": "open",
-        "head_oid": "3725ac3d4e9eea0903f24f10a5347d74ec2fcb14",
+        "head_oid": "8eaf5c86ecdd79ff840b206947a63be5632f8d7a",
         "draft": true,
         "ci": "gates_green_sanity_red_0_unique",
         "ci_run": "36349927928",
         "peer_ci_comment": "5859801248",
         "mergeable": "MERGEABLE",
-        "sanity_comment": "5859852395"
+        "sanity_comment": "5859852395",
+        "prior_oid": "3725ac3d4e9eea0903f24f10a5347d74ec2fcb14"
       },
       "claimed_at": "2026-09-27T21:00:40Z",
-      "heartbeat_at": "2026-09-27T21:10:50Z",
+      "heartbeat_at": "2026-09-27T21:13:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8688,9 +8691,10 @@
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36349927928",
         "https://github.com/d6g8k5htny-coder/trial/commit/3725ac3d4e9eea0903f24f10a5347d74ec2fcb14",
         "https://github.com/d6g8k5htny-coder/trial/pull/149#issuecomment-5859852395",
-        "https://github.com/d6g8k5htny-coder/trial/pull/157"
+        "https://github.com/d6g8k5htny-coder/trial/pull/157",
+        "https://github.com/d6g8k5htny-coder/trial/commit/8eaf5c86ecdd79ff840b206947a63be5632f8d7a"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 3725ac3 MERGEABLE; tip-drift gates SUCCESS; sanity red 0-unique (5859852395: fetch-depth parent-pin + inventory tip pin \u2014 same on main); fix \u2192 #157; do not race; custody; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 8eaf5c8 MERGEABLE; re-merged origin/main; tip-drift gates green; sanity 0-unique red (5859852395); do not race; custody; sci effect NONE"
     },
     {
       "work_id": "trial-157-sanity-fetch-depth",
