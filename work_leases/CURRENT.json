@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:45:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168 MERGED); hardening tip 8e2eda4 (#111 after #110/#134/#148/#136/#140); Math- tip 3b2ac59 (#91). main #124 tip 6ad685c still OPEN on hardening; #111 verify-FAIL process debt. Updated 2026-09-27T18:45:00Z.",
+  "updated_at": "2026-09-27T19:02:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124 MERGED); Math- tip 3b2ac59 (#91). #121 CLOSED UNMERGED SUPERSEDED. Updated 2026-09-27T19:02:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -902,14 +902,14 @@
         "repo": "d6g8k5htny-coder/trial",
         "branch": "chatgpt/p15-assumption-probe-20260925",
         "pr": 121,
-        "pr_state": "open",
+        "pr_state": "closed",
         "issue": null,
         "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191"
       },
       "claimed_at": "2026-09-25T20:05:12Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
+      "heartbeat_at": "2026-09-27T19:01:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [
         "experiments/p15_assumption_probe_20260925/"
       ],
@@ -926,7 +926,7 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5842250272"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE DRAFT @ 391f6a8; Batch 387 Path C eng resume (5842250272) under bc-01a0cf1e @ hardening 2f7a5a9; additive-only; IDLE@0019; lemma_closed=false; this App does not race trial; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED by #124 MERGED @ e7652a1; sci effect NONE"
     },
     {
       "work_id": "math-15-eng-review-cursor",
@@ -2634,14 +2634,15 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "chatgpt/q0-c103-source-bound-20260925",
         "pr": 121,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372",
-        "peer_amend": "5848715982"
+        "peer_amend": "5848715982",
+        "close_comment": "5858799678"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
+      "heartbeat_at": "2026-09-27T19:02:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
@@ -2656,11 +2657,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5841921230",
         "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5842152602",
         "https://github.com/d6g8k5htny-coder/governance-/blob/cursor/process-packet-scope-ab08/amendments/20260926-main121-premis-z-lower-blocked.md",
-        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5848715982"
+        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5848715982",
+        "https://github.com/d6g8k5htny-coder/main/commit/e7652a130398e88b2119884498af0987eef135c0",
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678"
       ],
       "delegates_to": null,
       "lanes_note": "OA DRAFT; Cursor may reciprocal-review if leased \u2014 do not touch author branch from governance-",
-      "blocked_reason": "ACTIVE observe DRAFT @ 2624262; peer AMEND (5848715982): C1 mis-transfer + PREMISE-Z-LOWER unnamed confirmed; tip establishes nothing beyond inputs; prefer close in favor of #124 @ a380dcf or push that content here; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED by #124 MERGED @ e7652a1 onto hardening (5850479713/5858799678); sci effect NONE"
     },
     {
       "work_id": "main-122-sard-g-execution-repair",
@@ -3136,8 +3139,8 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "cursor/q0-c103-c1-c2-repair-31c5",
         "pr": 124,
-        "pr_state": "open",
-        "head_oid": "6ad685c5c68bd34b6a5c3833e7cdd990cb9f9b3d",
+        "pr_state": "merged",
+        "head_oid": "d8580cddfb21e8c30bb2ff7de899fd1f7720596a",
         "parent_pr": 121,
         "parent_oid": "2624262be63d64feed5986fd593e6ef4cdfa6372",
         "base_oid": "ebedb7802024fa557e9071e4c9cec7cddc474b89",
@@ -3162,12 +3165,18 @@
         "prior_ci_fail_oid": "4b628f0a4424c43a35812164ac599ef39e2c10d5",
         "ci_repair2_comment": "5858080024",
         "ci_pr_success": "36336806083",
-        "ci_push_success": "36336803062"
+        "ci_push_success": "36336803062",
+        "merge_oid": "e7652a130398e88b2119884498af0987eef135c0",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "hardening_tip": true,
+        "draft": false,
+        "ready_for_review": true,
+        "rereview_comment": "5858799678"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-27T17:51:00Z",
+      "heartbeat_at": "2026-09-27T19:01:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D7",
       "scientific_authority": false,
@@ -3192,10 +3201,13 @@
         "https://github.com/d6g8k5htny-coder/main/commit/6ad685c5c68bd34b6a5c3833e7cdd990cb9f9b3d",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858080024",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36336806083",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336803062"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336803062",
+        "https://github.com/d6g8k5htny-coder/main/commit/e7652a130398e88b2119884498af0987eef135c0",
+        "https://github.com/d6g8k5htny-coder/main/commit/d8580cddfb21e8c30bb2ff7de899fd1f7720596a",
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "ACTIVE observe DRAFT @ 6ad685c MERGEABLE CI green\u00d75 (verify SUCCESS 36336806083 after CI root-cause fix); AMEND delivered @ 079615e; re-review OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ e7652a1 onto hardening (PR tip d8580cd); Q0-C103 C1/C2 repair; re-review no remaining finding (5858799678); merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-rereview-offer",
@@ -5801,21 +5813,25 @@
         "preferred_oid": "079615e05a92048519c255cec2d86c981160cbf5",
         "finding_comment": "5848715982",
         "expected_124_oid": "6ad685c5c68bd34b6a5c3833e7cdd990cb9f9b3d",
-        "prior_124_oid": "079615e05a92048519c255cec2d86c981160cbf5"
+        "prior_124_oid": "079615e05a92048519c255cec2d86c981160cbf5",
+        "pr_state": "closed",
+        "close_comment": "5858799678"
       },
       "claimed_at": "2026-09-26T18:25:00Z",
-      "heartbeat_at": "2026-09-27T17:25:30Z",
+      "heartbeat_at": "2026-09-27T19:02:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5848715982",
-        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5850479713"
+        "https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5850479713",
+        "https://github.com/d6g8k5htny-coder/main/commit/e7652a130398e88b2119884498af0987eef135c0",
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "OFFERED CLOSE_SUPERSEDED #121 only after #124 @ 6ad685c lands (5850479713); do not race; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED SUPERSEDED by #124 MERGED @ e7652a1 onto hardening (5850479713/5858799678); sci effect NONE"
     },
     {
       "work_id": "main-122-a1-geometry-amend",
@@ -6613,7 +6629,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 124,
-        "head_oid": "6ad685c5c68bd34b6a5c3833e7cdd990cb9f9b3d",
+        "head_oid": "d8580cddfb21e8c30bb2ff7de899fd1f7720596a",
         "prior_oid": "079615e05a92048519c255cec2d86c981160cbf5",
         "claim_comment": "5850468784",
         "prior_amend": "5850461900",
@@ -6622,12 +6638,14 @@
         "ci_pr_fail": "36336027008",
         "ci_push_fail": "36336024487",
         "ci_repair2_comment": "5858080024",
-        "ci_pr_success": "36336806083"
+        "ci_pr_success": "36336806083",
+        "pr_state": "merged",
+        "rereview_comment": "5858799678"
       },
       "claimed_at": "2026-09-26T22:31:50Z",
-      "heartbeat_at": "2026-09-27T17:51:00Z",
+      "heartbeat_at": "2026-09-27T19:01:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -6640,10 +6658,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36336024487",
         "https://github.com/d6g8k5htny-coder/main/commit/6ad685c5c68bd34b6a5c3833e7cdd990cb9f9b3d",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858080024",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336806083"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336806083",
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678",
+        "https://github.com/d6g8k5htny-coder/main/commit/e7652a130398e88b2119884498af0987eef135c0"
       ],
       "delegates_to": "main-124-c1c2-repair",
-      "blocked_reason": "OFFERED re-review after repair tip 079615e + CI fix 6ad685c verify SUCCESS 36336806083; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: re-review (5858799678) no remaining finding on tip 6ad685c content / d8580cd merge; parent #124 MERGED @ e7652a1 onto hardening; sci effect NONE"
     },
     {
       "work_id": "math-86-h5-rim-literal-contract",
