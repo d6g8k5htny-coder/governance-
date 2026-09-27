@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:36:18Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4c5bc12 (#180); hardening tip a01c72f (#7); Math- tip a650f66 (#95). HOLD default binds. main #172 tip 668711f bounded repair applied. Updated 2026-09-27T22:36:18Z.",
+  "updated_at": "2026-09-27T22:37:55Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip da70f3c (#182); hardening tip a01c72f (#7); Math- tip a650f66; trial tip f1c2bf7. HOLD default binds. Timer: #87 tip bc85130 D5 withdraw landed; #172 668711f. Updated 2026-09-27T22:37:55Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7366,12 +7366,12 @@
         "branch": "incoming/harper-cycle4-d5-sard-20260926",
         "pr": 87,
         "pr_state": "open",
-        "head_oid": "6c84e261aa84d1260268d677b82b2e5ab6ba56d5",
+        "head_oid": "bc85130c12585f641ebb9b9ac3bee0ddd224cbf3",
         "integration_note": "5851042294",
         "copilot_review": "5330637208",
         "merge_hold": "5858208320",
         "denominator_amend": "r^8/12",
-        "prior_oid": "05c20b67ca49281601532f7a0224f871a8dae8d6",
+        "prior_oid": "6c84e261aa84d1260268d677b82b2e5ab6ba56d5",
         "amend_oid": "25bd02691e13ed9b2dfec2bb5944522e17fa1885",
         "ci": "success",
         "review_resolution_comment": "5860231260",
@@ -7381,11 +7381,10 @@
         "peer_amend_review": "5332391136",
         "peer_amend_head": "05c20b67ca49281601532f7a0224f871a8dae8d6",
         "bounded_followthrough_comment": "5860422359",
-        "pending_push_oid": "9d24e602ffb858c9ab263e0e8d042f1d98875f10",
         "pending_push_comment": "5860454218"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:34:16Z",
+      "heartbeat_at": "2026-09-27T22:37:55Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7406,10 +7405,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36354683432",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5332391136",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860422359",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860454218"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860454218",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/bc85130c12585f641ebb9b9ac3bee0ddd224cbf3"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 6c84e26 remote; peer BOUNDED FOLLOW-THROUGH implemented locally @ 9d24e602 (5860454218) \u2014 D5 ledger v2 + schur_diagnostic; push blocked on credential outage; do not duplicate edits; await remote tip move + fresh review; HOLD binds; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ bc85130 MERGEABLE; BOUNDED FOLLOW-THROUGH landed (withdraw D5 ledger stronger assertions + f_tt conditional mean; parent 6c84e26); gates SUCCESS; await fresh nonauthor review (not carry 5332391136); #88 pin still behind; HOLD binds; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-87-cycle4-copilot-amend-repair",
@@ -7422,10 +7422,10 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 87,
-        "head_oid": "6c84e261aa84d1260268d677b82b2e5ab6ba56d5",
+        "head_oid": "bc85130c12585f641ebb9b9ac3bee0ddd224cbf3",
         "copilot_review": "5330637208",
         "merge_hold": "5858208320",
-        "prior_oid": "05c20b67ca49281601532f7a0224f871a8dae8d6",
+        "prior_oid": "6c84e261aa84d1260268d677b82b2e5ab6ba56d5",
         "amend_oid": "25bd02691e13ed9b2dfec2bb5944522e17fa1885",
         "ci": "success",
         "review_resolution_comment": "5860231260",
@@ -7435,11 +7435,10 @@
         "peer_amend_review": "5332391136",
         "peer_amend_head": "05c20b67ca49281601532f7a0224f871a8dae8d6",
         "bounded_followthrough_comment": "5860422359",
-        "pending_push_oid": "9d24e602ffb858c9ab263e0e8d042f1d98875f10",
         "pending_push_comment": "5860454218"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:34:16Z",
+      "heartbeat_at": "2026-09-27T22:37:55Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7458,10 +7457,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36354683432",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5332391136",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860422359",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860454218"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860454218",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/bc85130c12585f641ebb9b9ac3bee0ddd224cbf3"
       ],
       "delegates_to": "math-87-harper-cycle4-d5-sard",
-      "blocked_reason": "OFFERED observe @ 6c84e26 remote; peer BOUNDED FOLLOW-THROUGH implemented locally @ 9d24e602 (5860454218) \u2014 D5 ledger v2 + schur_diagnostic; push blocked on credential outage; do not duplicate edits; await remote tip move + fresh review; HOLD binds; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ bc85130 MERGEABLE; BOUNDED FOLLOW-THROUGH landed (withdraw D5 ledger stronger assertions + f_tt conditional mean; parent 6c84e26); gates SUCCESS; await fresh nonauthor review (not carry 5332391136); #88 pin still behind; HOLD binds; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-88-public-reading-map",
@@ -7487,11 +7487,10 @@
         "prior_oid": "184707d75e0b6fc3ee121ee94a84e5c97cc765cc",
         "mergeable": "MERGEABLE",
         "draft": false,
-        "pending_push_oid": "724b6c98",
         "pending_push_comment": "5860454218"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:34:16Z",
+      "heartbeat_at": "2026-09-27T22:37:55Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7513,7 +7512,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860454218"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 846b0cd remote; peer re-pin to #87 pending 9d24e602 queued locally @ 724b6c98 (5860454218); await push; do not race; HOLD binds; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 846b0cd MERGEABLE; #87 tip now bc85130 \u2014 pin/crosslink refresh still OFFERED; do not race; HOLD binds; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-88-identity-bind-amend-repair",
@@ -7538,11 +7537,10 @@
         "mergeable": "MERGEABLE",
         "ci": "success",
         "draft": false,
-        "pending_push_oid": "724b6c98",
         "pending_push_comment": "5860454218"
       },
       "claimed_at": "2026-09-27T01:08:00Z",
-      "heartbeat_at": "2026-09-27T22:34:16Z",
+      "heartbeat_at": "2026-09-27T22:37:55Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7562,7 +7560,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5860454218"
       ],
       "delegates_to": "math-88-public-reading-map",
-      "blocked_reason": "OFFERED observe @ 846b0cd remote; peer re-pin to #87 pending 9d24e602 queued locally @ 724b6c98 (5860454218); await push; do not race; HOLD binds; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 846b0cd MERGEABLE; #87 tip now bc85130 \u2014 pin/crosslink refresh still OFFERED; do not race; HOLD binds; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-166-museum-conditional-route",
@@ -9338,6 +9336,34 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/95",
         "https://github.com/d6g8k5htny-coder/Math-/commit/a650f66f42dbdfef1d70dfd65168bdc5dbc0927b"
+      ]
+    },
+    {
+      "work_id": "main-182-recovered-source-routes",
+      "scope": "Publish recovered-source routes and enrich nine open targets",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 182,
+        "pr_state": "merged",
+        "merge_oid": "da70f3cd2a2b4e563441961a8dd9d31a4519e5e8",
+        "head_oid": "164d2bf49b64466f7a4b0d159f224af9d93c02b1"
+      },
+      "claimed_at": "2026-09-27T22:37:55Z",
+      "heartbeat_at": "2026-09-27T22:37:55Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "RELEASED MERGED @ da70f3c \u2014 recovered-source routes + nine-target sizes; main tip; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 **main tip**",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/182",
+        "https://github.com/d6g8k5htny-coder/main/commit/da70f3cd2a2b4e563441961a8dd9d31a4519e5e8"
       ]
     }
   ]
