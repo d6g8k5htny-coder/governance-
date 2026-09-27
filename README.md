@@ -89,7 +89,7 @@ Owner clarification (2026-09-27, reaffirmed): Dylan `HOLD` / `NEVER-MERGE` **sti
 
 ### Release-manager coordination (keep one watcher)
 
-Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350)): keep the existing lease-watch structure; do not spawn another coordination loop. Eng [#180](https://github.com/d6g8k5htny-coder/main/pull/180)–[#187](https://github.com/d6g8k5htny-coder/main/pull/187) cascade **MERGED** — main tip `ca7f3d7…`. [#172](https://github.com/d6g8k5htny-coder/main/pull/172) **CLOSED SUPERSEDED**. Formal-layer thread: main issue [#95](https://github.com/d6g8k5htny-coder/main/issues/95). Experimental formal PRs are not scientific authority. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
+Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350)): keep the existing lease-watch structure; do not spawn another coordination loop. Eng [#180](https://github.com/d6g8k5htny-coder/main/pull/180)–[#188](https://github.com/d6g8k5htny-coder/main/pull/188) cascade **MERGED** — main tip `3592abb…`. [#172](https://github.com/d6g8k5htny-coder/main/pull/172) **CLOSED SUPERSEDED**. Formal-layer thread: main issue [#95](https://github.com/d6g8k5htny-coder/main/issues/95). Math- required-formal: Cursor handoff withdrawn; OpenAI resumes — do not duplicate. Experimental formal PRs are not scientific authority. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
 
 ### Hardening top-level checkout list vs CI artifact dirs
 

@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:15:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip ca7f3d7 (#187); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. #188 positive+negative hosted evidence (5860734093); #190 CLOSED UNMERGED probe; await nonauthor eng review #188. Updated 2026-09-27T23:15:40Z.",
+  "updated_at": "2026-09-27T23:16:50Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 3592abb (#188); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. #188 MERGED after Grok ACCEPT; Math- handoff 5860699760 WITHDRAWN \u2014 OpenAI resumes (5860739943); no duplicate. Updated 2026-09-27T23:16:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9245,23 +9245,25 @@
         "enforcement_agent": "bc-01a0e4c4-4d42-7612-b562-23ceac1fae3b",
         "coord_main95_comment": "5860640866",
         "source_main_pr": 188,
-        "source_main_oid": "211999277ab8a363dd51320f970e8928b1e0f1e0"
+        "source_main_oid": "211999277ab8a363dd51320f970e8928b1e0f1e0",
+        "handoff_withdrawn_comment": "5860739943"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T23:10:50Z",
+      "heartbeat_at": "2026-09-27T23:16:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ a663706 SIDE24 formal lane \u2014 keep separate from required-formal enforcement PR; handoff 5860699760 claimed by Math-capable session bc-01a0e4c4 (ack 5860700400); this App no Math- push / no spawn; main#95 sole coord; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe DRAFT @ a663706 SIDE24 formal lane \u2014 keep separate; Cursor handoff WITHDRAWN (5860739943); OpenAI resumes required-check PR elsewhere; this App observe-only; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/93",
         "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
         "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860699760",
         "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860700400",
         "https://github.com/d6g8k5htny-coder/main/issues/95#issuecomment-5860640866",
-        "https://github.com/d6g8k5htny-coder/main/pull/188"
+        "https://github.com/d6g8k5htny-coder/main/pull/188",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860739943"
       ]
     },
     {
@@ -9753,9 +9755,9 @@
       "work_id": "math-required-formal-enforcement-offered",
       "scope": "Port required_formal_check from main#188 into isolated Math- PR; wire formal-lean+downstream-gate aggregate; no scientific edits; do not merge",
       "owner": {
-        "provider": "cursor",
-        "model": null,
-        "agent": "bc-01a0e4c4-4d42-7612-b562-23ceac1fae3b"
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
       },
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
@@ -9770,10 +9772,13 @@
         "blobs": {
           "required_formal_check.py": "b08c7c7fc9b437d14f6d9ded78dde6cb3190b810",
           "test_required_formal_check.py": "6b6b94e59c2e351f071d58aa90e01bc909f58ebf"
-        }
+        },
+        "handoff_withdrawn_comment": "5860739943",
+        "handoff_status": "WITHDRAWN",
+        "implementer": "openai/chatgpt"
       },
       "claimed_at": "2026-09-27T23:10:50Z",
-      "heartbeat_at": "2026-09-27T23:10:50Z",
+      "heartbeat_at": "2026-09-27T23:16:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9783,10 +9788,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860699760",
         "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860700400",
         "https://github.com/d6g8k5htny-coder/main/pull/188",
-        "https://github.com/d6g8k5htny-coder/main/issues/95#issuecomment-5860640866"
+        "https://github.com/d6g8k5htny-coder/main/issues/95#issuecomment-5860640866",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860739943"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED ACTIVE-on-peer Math-capable session bc-01a0e4c4; governance- App observe-only (no Math- push; keep one watcher; no spawn); await new isolated PR head + hosted results; do not merge; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe \u2014 Cursor handoff 5860699760 WITHDRAWN (5860739943; delivery failed); OpenAI/ChatGPT resumes narrow Math- required-check PR; do not duplicate; SIDE24 #93 untouched; main#95 coord; await fresh isolated PR; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-188-required-formal-check",
@@ -9799,7 +9805,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 188,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "211999277ab8a363dd51320f970e8928b1e0f1e0",
         "draft": false,
         "mergeable": "MERGEABLE",
@@ -9810,12 +9816,16 @@
         "positive_merge": "d2b6579af40c689b47bf6936de9f699e475e2523",
         "negative_pr": 190,
         "negative_run": "36357843019",
-        "negative_oid": "3b8c45452c01f669a7245c472acdb8cc4af5b2f6"
+        "negative_oid": "3b8c45452c01f669a7245c472acdb8cc4af5b2f6",
+        "merge_oid": "3592abbd5df433cb1816b69204e740a7cf00ca07",
+        "eng_accept_comment": "5860698507",
+        "eng_accept_session": "bc-36791e0e-af26-4bab-b190-4615b345834b",
+        "merge_prep_comment": "5860742302"
       },
       "claimed_at": "2026-09-27T23:10:50Z",
-      "heartbeat_at": "2026-09-27T23:15:40Z",
+      "heartbeat_at": "2026-09-27T23:16:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -9826,10 +9836,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/188#issuecomment-5860734093",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36357710296",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36357843019",
-        "https://github.com/d6g8k5htny-coder/main/pull/190"
+        "https://github.com/d6g8k5htny-coder/main/pull/190",
+        "https://github.com/d6g8k5htny-coder/main/commit/3592abbd5df433cb1816b69204e740a7cf00ca07",
+        "https://github.com/d6g8k5htny-coder/main/pull/180#issuecomment-5860698507",
+        "https://github.com/d6g8k5htny-coder/main/pull/188#issuecomment-5860742302"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 2119992 MERGEABLE CI SUCCESS; hosted positive+negative evidence (5860734093) \u2014 dependency-failure propagation observed; #190 CLOSED UNMERGED probe; await exact-head nonauthor eng review; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 3592abb (PR tip 2119992) \u2014 main tip; Grok eng ACCEPT (5860698507) + hosted pos/neg evidence; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-190-formal-negative-probe",
