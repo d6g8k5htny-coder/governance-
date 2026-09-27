@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:02:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #156 tip 6c27029 review packet; #152/#155 CONFLICTING. Updated 2026-09-27T21:02:50Z.",
+  "updated_at": "2026-09-27T21:03:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #149 tip 3725ac3 CI gates green; #156 tip 6c27029. Updated 2026-09-27T21:03:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8665,19 +8665,26 @@
         "pr": 149,
         "pr_state": "open",
         "head_oid": "3725ac3d4e9eea0903f24f10a5347d74ec2fcb14",
-        "draft": true
+        "draft": true,
+        "ci": "partial_success_gates",
+        "ci_run": "36349927928",
+        "peer_ci_comment": "5859801248",
+        "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-27T21:00:40Z",
-      "heartbeat_at": "2026-09-27T21:00:40Z",
+      "heartbeat_at": "2026-09-27T21:03:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/trial/pull/149"
+        "https://github.com/d6g8k5htny-coder/trial/pull/149",
+        "https://github.com/d6g8k5htny-coder/trial/pull/149#issuecomment-5859801248",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36349927928",
+        "https://github.com/d6g8k5htny-coder/trial/commit/3725ac3d4e9eea0903f24f10a5347d74ec2fcb14"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 3725ac3; Dropbox intake digest; do not race; custody; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 3725ac3 MERGEABLE; merged origin/main tip-gate fix (5859801248); tip-drift gates SUCCESS 36349927928; intake payload unchanged; do not race; custody; sci effect NONE"
     }
   ]
 }
