@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:33:10Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176 MERGED); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip abae0b4. Watched PR tips unchanged. Updated 2026-09-27T21:33:10Z.",
+  "updated_at": "2026-09-27T21:37:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). Math- #87 tip 05c20b6 denominator AMEND applied; await CI/re-review. Updated 2026-09-27T21:37:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7322,14 +7322,17 @@
         "branch": "incoming/harper-cycle4-d5-sard-20260926",
         "pr": 87,
         "pr_state": "open",
-        "head_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
+        "head_oid": "05c20b67ca49281601532f7a0224f871a8dae8d6",
         "integration_note": "5851042294",
         "copilot_review": "5330637208",
         "merge_hold": "5858208320",
-        "denominator_amend": "r^8/12"
+        "denominator_amend": "r^8/12",
+        "prior_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
+        "amend_oid": "25bd02691e13ed9b2dfec2bb5944522e17fa1885",
+        "ci": "pending"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "heartbeat_at": "2026-09-27T21:37:40Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7341,10 +7344,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5328289349",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5330637208",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#discussion_r4115662942",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/05c20b67ca49281601532f7a0224f871a8dae8d6",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/25bd02691e13ed9b2dfec2bb5944522e17fa1885"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 0fab933 MERGEABLE; merge-hold (5858208320): CLOSED_FORMS denominator order r^8/12 not r^6/12; prior Copilot residual; repair OFFERED; do not race; not theorem merge; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; denominator-order AMEND applied @ 25bd026 (r^8/12 + exact-series tests; prior hold 5858208320); await CI + re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-87-cycle4-copilot-amend-repair",
@@ -7357,12 +7362,15 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 87,
-        "head_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
+        "head_oid": "05c20b67ca49281601532f7a0224f871a8dae8d6",
         "copilot_review": "5330637208",
-        "merge_hold": "5858208320"
+        "merge_hold": "5858208320",
+        "prior_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
+        "amend_oid": "25bd02691e13ed9b2dfec2bb5944522e17fa1885",
+        "ci": "pending"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "heartbeat_at": "2026-09-27T21:37:40Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7372,10 +7380,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5328289349",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5330637208",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#discussion_r4115662942",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/05c20b67ca49281601532f7a0224f871a8dae8d6",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/25bd02691e13ed9b2dfec2bb5944522e17fa1885"
       ],
       "delegates_to": "math-87-harper-cycle4-d5-sard",
-      "blocked_reason": "OFFERED merge-hold+Copilot repair (denominator r^8/12 + tests); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 05c20b6 MERGEABLE; denominator-order AMEND applied @ 25bd026 (r^8/12 + exact-series tests; prior hold 5858208320); await CI + re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-88-public-reading-map",
