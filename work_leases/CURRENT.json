@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:33:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip b63cccd (#73 MERGED after #72/#71/#60). main #124 tip 6ad685c await verify. Updated 2026-09-27T17:33:00Z.",
+  "updated_at": "2026-09-27T17:35:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip b63cccd (#73). Math- #82 tip b1b8a76 ready_for_review; #124 tip 6ad685c await verify. Updated 2026-09-27T17:35:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -6135,13 +6135,17 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 82,
-        "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
+        "head_oid": "b1b8a76dfce04089af4c6a7a132378c7df69b518",
         "peer_amend": "5850657368",
-        "copilot_review": "5330626697"
+        "copilot_review": "5330626697",
+        "prior_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
+        "draft": false,
+        "ready_for_review": true,
+        "ci": "math-downstream-gates_IN_PROGRESS"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T14:13:30Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:35:30Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -6156,9 +6160,10 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5328268739",
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113539715",
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5330626697",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4115654680"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4115654680",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/b1b8a76dfce04089af4c6a7a132378c7df69b518"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ b190a4d; peer AMEND (5850657368) + Copilot (5328268739/5330626697): mixed-order r\u00b3; power-count; fraction-field det identity; missing algebra tests; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ b1b8a76 MERGEABLE ready_for_review (was DRAFT @ b190a4d); tip=merge origin/main only; gates IN_PROGRESS; peer AMEND (5850657368) + Copilot (5330626697) still open; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-162-public-source-storefront",
@@ -6757,23 +6762,25 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 82,
-        "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
+        "head_oid": "b1b8a76dfce04089af4c6a7a132378c7df69b518",
         "finding_comment": "5850657368",
-        "copilot_review": "5330626697"
+        "copilot_review": "5330626697",
+        "draft": false
       },
       "claimed_at": "2026-09-26T22:55:30Z",
-      "heartbeat_at": "2026-09-27T14:13:30Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:35:30Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5330626697"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5330626697",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/b1b8a76dfce04089af4c6a7a132378c7df69b518"
       ],
       "delegates_to": "math-82-d5-microdisk-det-hm-vanishes",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair (r\u00b3 rewrite + algebra tests + power-count); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair; tip b1b8a76 main-merge only; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-81-ledger-amend-repair",
