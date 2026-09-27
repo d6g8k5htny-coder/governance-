@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:28:10Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). trial #153 tip aaab116 Path C tip-sync\u21929458b90; #172 tip 10cd481. Updated 2026-09-27T20:28:10Z.",
+  "updated_at": "2026-09-27T20:30:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). tip-drift: #152 stands down\u2192#153 vehicle; observe #154/#155; #172 tip 10cd481. Updated 2026-09-27T20:30:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8365,10 +8365,12 @@
         "draft": true,
         "ci": "pending_sanity",
         "peer_coord": "5859447061",
-        "prior_oid": "62bd6a2ac7050d598694083b23b84beaa52d827c"
+        "prior_oid": "62bd6a2ac7050d598694083b23b84beaa52d827c",
+        "stand_down_comment": "5859559952",
+        "cherry_pick": "df6b700f"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T20:20:45Z",
+      "heartbeat_at": "2026-09-27T20:30:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8379,9 +8381,11 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/62bd6a2ac7050d598694083b23b84beaa52d827c",
         "https://github.com/d6g8k5htny-coder/trial/pull/150#issuecomment-5859154134",
         "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859447061",
-        "https://github.com/d6g8k5htny-coder/trial/commit/0a268688570656e7e5a4184d2a44b3bf2e65912b"
+        "https://github.com/d6g8k5htny-coder/trial/commit/0a268688570656e7e5a4184d2a44b3bf2e65912b",
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859559952",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36346138260"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 0a26868; TIP_DRIFT tolerated dry-run assertion fix; peer coord converge via #153 (5859447061); tip-drift gates SUCCESS; await sanity; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 0a26868; STANDS DOWN as land vehicle (5859559952) \u2192 #153; cherry-pick source df6b700f; tip-drift gates green; sanity 0-new pin debt; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-153-path-c-descendant-ok",
@@ -8398,10 +8402,13 @@
         "head_oid": "aaab116617eb8659cad129e4cc2ef6d923c1f871",
         "draft": true,
         "prior_oid": "9dd7b41e288f18a018d44ed3787b886590d80ef7",
-        "base_tip_refresh": "9458b90"
+        "base_tip_refresh": "9458b90",
+        "converge_comment": "5859557220",
+        "cherry_pick_from_152": "df6b700f",
+        "base_tip_caution": "prefer keep BASE_TIP 2f7a5a9; DESCENDANT_OK makes refresh optional"
       },
       "claimed_at": "2026-09-27T20:15:20Z",
-      "heartbeat_at": "2026-09-27T20:28:10Z",
+      "heartbeat_at": "2026-09-27T20:30:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8411,9 +8418,10 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/153",
         "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859447061",
         "https://github.com/d6g8k5htny-coder/trial/commit/aaab116617eb8659cad129e4cc2ef6d923c1f871",
-        "https://github.com/d6g8k5htny-coder/trial/pull/153#issuecomment-5859444738"
+        "https://github.com/d6g8k5htny-coder/trial/pull/153#issuecomment-5859444738",
+        "https://github.com/d6g8k5htny-coder/trial/pull/153#issuecomment-5859557220"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ aaab116; Path C tip-sync 9ce5c66\u21929458b90 (refresh_batch 827); preferred tip-drift land vehicle (+#150); peer coord 5859444738/#152 5859447061; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ aaab116 preferred land vehicle; converge (5859557220): cherry-pick df6b700f from #152; caution keep BASE_TIP 2f7a5a9 (DESCENDANT_OK); zero trial-ci yet; CONFLICTING risk vs main loop; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-154-path-c-ancestor-gate",
@@ -8446,6 +8454,62 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/8dfdb6f2682dd681c5a283c8748e36b9d8c1df15"
       ],
       "blocked_reason": "OFFERED observe DRAFT @ 0bd79e1 (via 8dfdb6f anonymous-first + Tip-drift gate step name); ancestry tip gate; tip-drift checks green; await sanity; converge via #153 preferred; do not race; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "trial-155-needs-attention-tip-drift",
+      "scope": "needs_attention inbox + landed-ancestor tip-drift gate; tip-drift alternate",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 155,
+        "pr_state": "open",
+        "head_oid": "6b2c669fe446387406d561ea4b2795c52c57b415",
+        "draft": true,
+        "ci": "partial_fail_sanity"
+      },
+      "claimed_at": "2026-09-27T20:30:20Z",
+      "heartbeat_at": "2026-09-27T20:30:20Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/155",
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859559952"
+      ],
+      "blocked_reason": "OFFERED observe DRAFT @ 6b2c669; tip-drift alternate if #153 stalls; tip-drift gates SUCCESS; sanity FAIL; do not race; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "trial-156-main172-review-packet",
+      "scope": "Review packet: main #172/#174 findings + Dropbox replay vs #150; eng/custody",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 156,
+        "pr_state": "open",
+        "head_oid": "e6b4ab42872a5f45f6b73595ed2f5f289bc8b3b3",
+        "draft": true
+      },
+      "claimed_at": "2026-09-27T20:30:20Z",
+      "heartbeat_at": "2026-09-27T20:30:20Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/156"
+      ],
+      "blocked_reason": "OFFERED observe DRAFT @ e6b4ab4; review packet for main #172/#174; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
