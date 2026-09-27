@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:31:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 97bec0d (#71 MERGED after #60). main #124 tip 6ad685c await verify. Updated 2026-09-27T17:31:00Z.",
+  "updated_at": "2026-09-27T17:32:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 97bec0d (#71). Math- #73 tip 326bf3e ready_for_review; #124 tip 6ad685c await verify. Updated 2026-09-27T17:32:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -6876,13 +6876,17 @@
         "branch": "cursor/pr36-kernel-tail-review-2589",
         "pr": 73,
         "pr_state": "open",
-        "head_oid": "5913b004f173cbf23a434828baf7e836a81413fd",
+        "head_oid": "326bf3eea0bcd9a47ded5a068c047d8bb0a5da31",
         "peer_amend": "5848453668",
-        "copilot_review": "5330621041"
+        "copilot_review": "5330621041",
+        "prior_oid": "5913b004f173cbf23a434828baf7e836a81413fd",
+        "draft": false,
+        "ready_for_review": true,
+        "ci": "math-downstream-gates_IN_PROGRESS"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T14:13:30Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:32:00Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -6891,10 +6895,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/73",
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#issuecomment-5848453668",
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5328284540",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5330621041"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5330621041",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/326bf3eea0bcd9a47ded5a068c047d8bb0a5da31"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 5913b00; peer ACCEPT-at-scope+AMEND (5848453668) + Copilot (5328284540/5330621041): reversed regression assert; Q4 coverage gaps; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 326bf3e MERGEABLE ready_for_review (was DRAFT @ 5913b00); tip=merge origin/main only; gates IN_PROGRESS; peer ACCEPT-at-scope+AMEND (5848453668) + Copilot (5330621041) still open; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-73-kernel-tail-amend-repair",
@@ -6907,13 +6912,14 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 73,
-        "head_oid": "5913b004f173cbf23a434828baf7e836a81413fd",
+        "head_oid": "326bf3eea0bcd9a47ded5a068c047d8bb0a5da31",
         "finding_comment": "5848453668",
-        "copilot_review": "5330621041"
+        "copilot_review": "5330621041",
+        "draft": false
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T14:13:30Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:32:00Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -6921,10 +6927,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#issuecomment-5848453668",
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5328284540",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5330621041"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5330621041",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/326bf3eea0bcd9a47ded5a068c047d8bb0a5da31"
       ],
       "delegates_to": "math-73-pr36-kernel-tail-review",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair; tip 326bf3e main-merge only; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-74-pr69-pin-microdisk-review",
