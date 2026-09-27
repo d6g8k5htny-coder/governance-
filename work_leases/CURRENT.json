@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:23:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #154 tip 6f5e1d8 SUPERSEDED MERGEABLE. Updated 2026-09-27T21:23:40Z.",
+  "updated_at": "2026-09-27T21:24:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #154 resolve note 5859953311 SUPERSEDED. Updated 2026-09-27T21:24:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8470,10 +8470,11 @@
         "prior_oid": "0bd79e1b8ba4ef4a7f59527d4ebc0517d26fea83",
         "stand_down_comment": "5859619659",
         "superseded_comment": "5859674009",
-        "mergeable": "MERGEABLE"
+        "mergeable": "MERGEABLE",
+        "merge_resolve_comment": "5859953311"
       },
       "claimed_at": "2026-09-27T20:15:20Z",
-      "heartbeat_at": "2026-09-27T21:23:40Z",
+      "heartbeat_at": "2026-09-27T21:24:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8486,9 +8487,10 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/8dfdb6f2682dd681c5a283c8748e36b9d8c1df15",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859619659",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859674009",
-        "https://github.com/d6g8k5htny-coder/trial/commit/6f5e1d80e1f4069dbfca500158b7d0dd7ebb215d"
+        "https://github.com/d6g8k5htny-coder/trial/commit/6f5e1d80e1f4069dbfca500158b7d0dd7ebb215d",
+        "https://github.com/d6g8k5htny-coder/trial/pull/154#issuecomment-5859953311"
       ],
-      "blocked_reason": "OFFERED SUPERSEDED by #153 MERGED tip_drift_class (title + 5859674009); tip 6f5e1d8 MERGEABLE after origin/main merge; offline-test reference only; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED SUPERSEDED by #153 tip_drift_class; tip 6f5e1d8 MERGEABLE (5859953311): gate wiring took main; residual path_c_tip_gate offline + when_writable dual-classifier note; tip_matches_base semantic divergence follow-up on main; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-155-needs-attention-tip-drift",
