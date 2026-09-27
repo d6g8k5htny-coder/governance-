@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:41:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #69 Copilot 5328272956; #60 Copilot 5328274367. Updated 2026-09-27T00:41:30Z.",
+  "updated_at": "2026-09-27T00:42:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #45 Copilot 5328280266; #53 Copilot 5328280992. Updated 2026-09-27T00:42:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2728,10 +2728,11 @@
         "pr": 53,
         "pr_state": "open",
         "head_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19",
-        "peer_amend": "5848728436"
+        "peer_amend": "5848728436",
+        "copilot_review": "5328280992"
       },
       "claimed_at": "2026-09-26T01:13:20Z",
-      "heartbeat_at": "2026-09-26T18:26:55Z",
+      "heartbeat_at": "2026-09-27T00:42:30Z",
       "expires_at": "2026-09-27T02:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2739,10 +2740,13 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/53",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/53#issuecomment-5848728436"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53#issuecomment-5848728436",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53#pullrequestreview-5328280992",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53#discussion_r4113550666",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53#discussion_r4113550678"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 9a6f8a6; BEHIND; peer AMEND (5848728436): cone product O(r^6(|q|+r)^2) not O(r^5); inner-disk density not uniform \u2014 need det repulsion; ledger r^2 log conjectural; prefer land before #69/#55/#60; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 9a6f8a6 BEHIND; peer AMEND (5848728436) + Copilot (5328280992): degree-4 mixed-jet omit; Var omits q(p-1/2)T; cone/inner-disk; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-54-proof-availability-audit",
@@ -4675,7 +4679,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:41:30Z",
+      "heartbeat_at": "2026-09-27T00:42:30Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5671,10 +5675,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 53,
         "head_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19",
-        "finding_comment": "5848728436"
+        "finding_comment": "5848728436",
+        "copilot_review": "5328280992"
       },
       "claimed_at": "2026-09-26T18:26:55Z",
-      "heartbeat_at": "2026-09-26T18:26:55Z",
+      "heartbeat_at": "2026-09-27T00:42:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5684,7 +5689,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/53#issuecomment-5848728436"
       ],
       "delegates_to": "math-53-pin-neighborhood-recon",
-      "blocked_reason": "OFFERED peer AMEND; input for #69/#55/#60; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair; this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-152-single-account-merge-docs",
@@ -6487,10 +6492,11 @@
         "pr": 45,
         "pr_state": "open",
         "head_oid": "7785bc82eb0ada3f25ea2be5513a147378f22e8a",
-        "peer_amend": "5850536323"
+        "peer_amend": "5850536323",
+        "copilot_review": "5328280266"
       },
       "claimed_at": "2026-09-26T22:45:00Z",
-      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-27T00:42:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6498,10 +6504,12 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/45",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5850536323"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5850536323",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#pullrequestreview-5328280266",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/45#discussion_r4113549941"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 7785bc8; peer AMEND (5850536323): RECONCILIATION.md for FC-10/11/12 repaired on main; CLAIMS.json disposition gaps; update-branch for math-downstream-gates; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 7785bc8; peer AMEND (5850536323) + Copilot (5328280266): RECONCILIATION.md; CLAIMS.json; #76 row scope; update-branch; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-45-reconciliation-amend-repair",
@@ -6515,10 +6523,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 45,
         "head_oid": "7785bc82eb0ada3f25ea2be5513a147378f22e8a",
-        "finding_comment": "5850536323"
+        "finding_comment": "5850536323",
+        "copilot_review": "5328280266"
       },
       "claimed_at": "2026-09-26T22:45:00Z",
-      "heartbeat_at": "2026-09-26T22:45:00Z",
+      "heartbeat_at": "2026-09-27T00:42:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6528,7 +6537,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/45#issuecomment-5850536323"
       ],
       "delegates_to": "math-45-fail-closed-claim-audit",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-86-author-merge-offer",
