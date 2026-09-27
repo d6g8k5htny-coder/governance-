@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:40:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #81 Copilot 5328269096; #82 Copilot adds power-count finding 4113539715. Updated 2026-09-27T00:40:00Z.",
+  "updated_at": "2026-09-27T00:40:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #71 Copilot 5328269728 joint-defect event wording. Updated 2026-09-27T00:40:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4014,11 +4014,13 @@
         "head_oid": "21e39741a1e604f57dc8997d286545f79bdbb602",
         "subject_main_pr": 124,
         "subject_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25",
-        "peer_amend": "5848500725"
+        "peer_amend": "5848500725",
+        "copilot_review": "5328269728",
+        "subject_oid_current": "079615e05a92048519c255cec2d86c981160cbf5"
       },
       "claimed_at": "2026-09-26T09:35:00Z",
-      "heartbeat_at": "2026-09-26T18:02:30Z",
-      "expires_at": "2026-09-27T12:00:00Z",
+      "heartbeat_at": "2026-09-27T00:40:30Z",
+      "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -4026,10 +4028,12 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/71",
         "https://github.com/d6g8k5htny-coder/main/pull/124",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/71#issuecomment-5848500725"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#issuecomment-5848500725",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#pullrequestreview-5328269728",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#discussion_r4113540626"
       ],
       "delegates_to": "main-124-c1c2-rereview-offer",
-      "blocked_reason": "OFFERED observe DRAFT @ 21e3974; peer AMEND (5848500725): C1/C2 findings stand; record itself needs model attribution + drop/fix PREMISS-Z-LOWER cite; mark ready + math-downstream-gates; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 21e3974; peer AMEND (5848500725) + Copilot (5328269728): joint defect is P((D(M)\u2260S)\u2229B_miss) not P(B_miss); attribution/PREMISS; tip still pins prior a380dcf while #124 @ 079615e; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-135-interval-prose-errata",
@@ -4662,7 +4666,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:40:00Z",
+      "heartbeat_at": "2026-09-27T00:40:30Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5317,20 +5321,22 @@
         "pr": 71,
         "head_oid": "21e39741a1e604f57dc8997d286545f79bdbb602",
         "finding_comment": "5848500725",
-        "subject_main_pr": 124
+        "subject_main_pr": 124,
+        "copilot_review": "5328269728"
       },
       "claimed_at": "2026-09-26T17:54:55Z",
-      "heartbeat_at": "2026-09-26T17:54:55Z",
+      "heartbeat_at": "2026-09-27T00:40:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/pull/71#issuecomment-5848500725"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#issuecomment-5848500725",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#discussion_r4113540626"
       ],
       "delegates_to": "math-71-main124-c1c2-rereview",
-      "blocked_reason": "OFFERED peer AMEND on review record; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (attribution + joint-event wording + retarget #124 tip 079615e); this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-78-vault-release-ops",
