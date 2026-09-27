@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:21:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #157 CI 36350681045 HEAD^ fixed. Updated 2026-09-27T21:21:20Z.",
+  "updated_at": "2026-09-27T21:23:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #154 tip 6f5e1d8 SUPERSEDED MERGEABLE. Updated 2026-09-27T21:23:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8464,16 +8464,16 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 154,
         "pr_state": "open",
-        "head_oid": "0bd79e1b8ba4ef4a7f59527d4ebc0517d26fea83",
+        "head_oid": "6f5e1d80e1f4069dbfca500158b7d0dd7ebb215d",
         "draft": true,
         "ci": "pending",
-        "prior_oid": "e828d528894dfc41c2c537a40ceeddf34332460f",
+        "prior_oid": "0bd79e1b8ba4ef4a7f59527d4ebc0517d26fea83",
         "stand_down_comment": "5859619659",
         "superseded_comment": "5859674009",
-        "mergeable": "CONFLICTING"
+        "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-27T20:15:20Z",
-      "heartbeat_at": "2026-09-27T20:46:20Z",
+      "heartbeat_at": "2026-09-27T21:23:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8485,9 +8485,10 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/0bd79e1b8ba4ef4a7f59527d4ebc0517d26fea83",
         "https://github.com/d6g8k5htny-coder/trial/commit/8dfdb6f2682dd681c5a283c8748e36b9d8c1df15",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859619659",
-        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859674009"
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859674009",
+        "https://github.com/d6g8k5htny-coder/trial/commit/6f5e1d80e1f4069dbfca500158b7d0dd7ebb215d"
       ],
-      "blocked_reason": "OFFERED SUPERSEDED by #153 MERGED tip_drift_class on main (5859674009); kept open as offline-test reference; CONFLICTING; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED SUPERSEDED by #153 MERGED tip_drift_class (title + 5859674009); tip 6f5e1d8 MERGEABLE after origin/main merge; offline-test reference only; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-155-needs-attention-tip-drift",
