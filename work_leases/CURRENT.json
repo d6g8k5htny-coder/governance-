@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:06:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #152 tip 92b97e9 MERGEABLE keep-both; #155 CONFLICTING. Updated 2026-09-27T21:06:40Z.",
+  "updated_at": "2026-09-27T21:10:50Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #149 sanity 0-unique red; observe #157 fetch-depth. Updated 2026-09-27T21:10:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8669,13 +8669,14 @@
         "pr_state": "open",
         "head_oid": "3725ac3d4e9eea0903f24f10a5347d74ec2fcb14",
         "draft": true,
-        "ci": "partial_success_gates",
+        "ci": "gates_green_sanity_red_0_unique",
         "ci_run": "36349927928",
         "peer_ci_comment": "5859801248",
-        "mergeable": "MERGEABLE"
+        "mergeable": "MERGEABLE",
+        "sanity_comment": "5859852395"
       },
       "claimed_at": "2026-09-27T21:00:40Z",
-      "heartbeat_at": "2026-09-27T21:03:40Z",
+      "heartbeat_at": "2026-09-27T21:10:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8685,9 +8686,42 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/149",
         "https://github.com/d6g8k5htny-coder/trial/pull/149#issuecomment-5859801248",
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36349927928",
-        "https://github.com/d6g8k5htny-coder/trial/commit/3725ac3d4e9eea0903f24f10a5347d74ec2fcb14"
+        "https://github.com/d6g8k5htny-coder/trial/commit/3725ac3d4e9eea0903f24f10a5347d74ec2fcb14",
+        "https://github.com/d6g8k5htny-coder/trial/pull/149#issuecomment-5859852395",
+        "https://github.com/d6g8k5htny-coder/trial/pull/157"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 3725ac3 MERGEABLE; merged origin/main tip-gate fix (5859801248); tip-drift gates SUCCESS 36349927928; intake payload unchanged; do not race; custody; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 3725ac3 MERGEABLE; tip-drift gates SUCCESS; sanity red 0-unique (5859852395: fetch-depth parent-pin + inventory tip pin \u2014 same on main); fix \u2192 #157; do not race; custody; sci effect NONE"
+    },
+    {
+      "work_id": "trial-157-sanity-fetch-depth",
+      "scope": "ci: sanity checkout fetch-depth 2 so parent-pin tests can resolve HEAD^",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 157,
+        "pr_state": "open",
+        "head_oid": "0ad92e4942078bc52c6a254fb65bdbe6e0e4d056",
+        "draft": true,
+        "mergeable": "MERGEABLE",
+        "ci": "partial"
+      },
+      "claimed_at": "2026-09-27T21:10:50Z",
+      "heartbeat_at": "2026-09-27T21:10:50Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/157",
+        "https://github.com/d6g8k5htny-coder/trial/pull/149#issuecomment-5859852395",
+        "https://github.com/d6g8k5htny-coder/trial/commit/0ad92e4942078bc52c6a254fb65bdbe6e0e4d056"
+      ],
+      "blocked_reason": "OFFERED observe DRAFT @ 0ad92e4 MERGEABLE; sanity fetch-depth:2 for HEAD^ parent-pin; tip-drift gates SUCCESS; await full CI; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
