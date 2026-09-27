@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:15:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #155 tip d84e590 MERGEABLE NA rescan. Updated 2026-09-27T21:15:40Z.",
+  "updated_at": "2026-09-27T21:19:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #157 fetch-depth evidence 5859916809; #155 tip d84e590. Updated 2026-09-27T21:19:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8712,10 +8712,11 @@
         "head_oid": "0ad92e4942078bc52c6a254fb65bdbe6e0e4d056",
         "draft": true,
         "mergeable": "MERGEABLE",
-        "ci": "partial"
+        "ci": "gates_green_sanity_loop_pin",
+        "evidence_comment": "5859916809"
       },
       "claimed_at": "2026-09-27T21:10:50Z",
-      "heartbeat_at": "2026-09-27T21:10:50Z",
+      "heartbeat_at": "2026-09-27T21:19:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8724,9 +8725,10 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/157",
         "https://github.com/d6g8k5htny-coder/trial/pull/149#issuecomment-5859852395",
-        "https://github.com/d6g8k5htny-coder/trial/commit/0ad92e4942078bc52c6a254fb65bdbe6e0e4d056"
+        "https://github.com/d6g8k5htny-coder/trial/commit/0ad92e4942078bc52c6a254fb65bdbe6e0e4d056",
+        "https://github.com/d6g8k5htny-coder/trial/pull/157#issuecomment-5859916809"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 0ad92e4 MERGEABLE; sanity fetch-depth:2 for HEAD^ parent-pin; tip-drift gates SUCCESS; await full CI; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 0ad92e4; fetch-depth:2 fixes HEAD^ (5859916809); tip-drift gates SUCCESS; sanity residual Batch 833 loop-pin (not this PR); merges clean with #155; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
