@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:40:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 447a77f (#181); hardening tip a01c72f (#7); Math- tip a650f66; trial tip 46e21af. HOLD binds \u2014 not merging. #181 MERGED; #172 scope-isolation AMEND 5860494147 keep DRAFT + narrow successor OFFERED; #87/#88 tips bc85130/20a833d. Updated 2026-09-27T22:40:40Z.",
+  "updated_at": "2026-09-27T22:43:50Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 447a77f (#181); hardening tip a01c72f (#7); Math- tip a650f66; trial tip eb03255. HOLD binds \u2014 not merging. trial #160 sanity FAIL batch846 tip_sha pin drift @ 368efbf; observe main #183. Updated 2026-09-27T22:43:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9222,21 +9222,25 @@
         "mergeable": "MERGEABLE",
         "coordination_notice": "5860429350",
         "prior_oid": "f9ef5c2dfa37266b8ba66712da5811503b807b21",
-        "ci": "in_progress"
+        "ci": "failure",
+        "ci_fail_job": "sanity",
+        "ci_fail_run": "36355782085",
+        "ci_fail_test": "test_batch846_tip_or_eng_parent_pin_repair"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T22:39:30Z",
+      "heartbeat_at": "2026-09-27T22:43:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ 368efbf MERGEABLE; main sync after #180 land; experimental Layer 1 formal; CI in flight; not scientific authority; do not race; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe DRAFT @ 368efbf MERGEABLE; sanity FAIL run 36355782085 \u2014 test_batch846_tip_or_eng_parent_pin_repair tip_sha drift (inventory d1e944a vs repair b355110); formal-gate SUCCESS; repair OFFERED do not race; experimental formal \u2260 scientific authority; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/160",
         "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
         "https://github.com/d6g8k5htny-coder/trial/commit/f9ef5c2dfa37266b8ba66712da5811503b807b21",
-        "https://github.com/d6g8k5htny-coder/trial/commit/368efbf51c182d8a5fc9dab3efda4c4d92c1a829"
+        "https://github.com/d6g8k5htny-coder/trial/commit/368efbf51c182d8a5fc9dab3efda4c4d92c1a829",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36355782085"
       ]
     },
     {
@@ -9454,6 +9458,38 @@
       ],
       "delegates_to": "main-172-dropbox-reconciliation-tool",
       "blocked_reason": "OFFERED observe \u2014 peer AMEND 5860494147 requests small successor PR; not opened yet; do not race author; governance- App has no main push; sci effect NONE"
+    },
+    {
+      "work_id": "main-183-formal-shell-fix",
+      "scope": "Fail closed on formal CI pipeline errors; bind agent release instructions; eng only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "chatgpt/formal-shell-fix-20260927",
+        "pr": 183,
+        "pr_state": "open",
+        "head_oid": "c7a0250b389718126984834203b2a7832cf7257e",
+        "draft": false,
+        "mergeable": "MERGEABLE",
+        "ci": "in_progress"
+      },
+      "claimed_at": "2026-09-27T22:43:50Z",
+      "heartbeat_at": "2026-09-27T22:43:50Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/183",
+        "https://github.com/d6g8k5htny-coder/main/commit/c7a0250b389718126984834203b2a7832cf7257e"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe @ c7a0250 MERGEABLE; formal CI fail-closed + agent release bind; CI in flight; HOLD binds (not merging) absent consensus; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
