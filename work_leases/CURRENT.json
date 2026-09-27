@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T02:26:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). Math- #89 Copilot 5328555779 (immutable manifests). Updated 2026-09-27T02:26:00Z.",
+  "updated_at": "2026-09-27T02:28:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). main #166 Copilot 5328560259 (startup coverage/dup fetch). Updated 2026-09-27T02:28:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4697,7 +4697,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T02:26:00Z",
+      "heartbeat_at": "2026-09-27T02:28:40Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4723,7 +4723,8 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/89",
         "https://github.com/d6g8k5htny-coder/Math-/commit/1ec186bb529d36b90d498d34063b0bd4c022639a",
         "https://github.com/d6g8k5htny-coder/main/commit/a66366a6ab056f961140f60347141bf35dae63de",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#pullrequestreview-5328560259"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge; sci effect NONE"
@@ -7024,10 +7025,11 @@
         "coord_comment": "5851860129",
         "readback_comment": "5851784110",
         "excludes_math89": true,
-        "prior_oid": "2072c096df9ab4a47867bb48c10b0f04cbff8ef1"
+        "prior_oid": "2072c096df9ab4a47867bb48c10b0f04cbff8ef1",
+        "copilot_review": "5328560259"
       },
       "claimed_at": "2026-09-27T02:01:00Z",
-      "heartbeat_at": "2026-09-27T02:25:30Z",
+      "heartbeat_at": "2026-09-27T02:28:40Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7038,10 +7040,13 @@
         "https://github.com/d6g8k5htny-coder/main/commit/2072c096df9ab4a47867bb48c10b0f04cbff8ef1",
         "https://github.com/d6g8k5htny-coder/main/pull/166#issuecomment-5851784110",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36286878210",
-        "https://github.com/d6g8k5htny-coder/main/commit/a66366a6ab056f961140f60347141bf35dae63de"
+        "https://github.com/d6g8k5htny-coder/main/commit/a66366a6ab056f961140f60347141bf35dae63de",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#pullrequestreview-5328560259",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4113818343",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4113818354"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ a66366a MERGEABLE CI green\u00d76; tip binds conditional projection to audited commit+full identity; prior 2072c09; excludes Math-#89 from accepted cards; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ a66366a MERGEABLE CI green\u00d76; Copilot (5328560259): missing successful startConditionals integration test; duplicate startup fetches vs museum.mjs; fixture arithmetic wording; repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "math-89-bf-six-pin-scalar-bound",
@@ -7110,6 +7115,35 @@
       ],
       "delegates_to": "math-89-bf-six-pin-scalar-bound",
       "blocked_reason": "OFFERED Copilot eng note (immutable manifests); this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-166-copilot-startup-amend-repair",
+      "scope": "Add mocked success-path startConditionals test; reuse museum startup result; clarify fixture arithmetic wording",
+      "owner": {
+        "provider": "github",
+        "model": "copilot",
+        "agent": "copilot-pull-request-reviewer[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 166,
+        "head_oid": "a66366a6ab056f961140f60347141bf35dae63de",
+        "copilot_review": "5328560259"
+      },
+      "claimed_at": "2026-09-27T02:28:40Z",
+      "heartbeat_at": "2026-09-27T02:28:40Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/166#pullrequestreview-5328560259",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4113818343",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4113818354"
+      ],
+      "delegates_to": "main-166-museum-conditional-route",
+      "blocked_reason": "OFFERED Copilot eng repair; this App does not race; sci effect NONE"
     }
   ]
 }
