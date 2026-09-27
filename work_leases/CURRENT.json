@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T02:01:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). New observe: main #166 @ 2072c09; Math- #89 @ 81de9a6. Updated 2026-09-27T02:01:00Z.",
+  "updated_at": "2026-09-27T02:22:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). Math- #89 tip 1ec186b (+Hessian Cov cert; scalar @ 81de9a6 preserved). Updated 2026-09-27T02:22:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4697,7 +4697,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T02:01:00Z",
+      "heartbeat_at": "2026-09-27T02:22:00Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4720,7 +4720,8 @@
         "https://github.com/d6g8k5htny-coder/main/pull/135#pullrequestreview-5328334422",
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5328356234",
         "https://github.com/d6g8k5htny-coder/main/pull/166",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/89"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/1ec186bb529d36b90d498d34063b0bd4c022639a"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge; sci effect NONE"
@@ -7040,7 +7041,7 @@
     },
     {
       "work_id": "math-89-bf-six-pin-scalar-bound",
-      "scope": "Scoped BF six-pin scalar Var(f_ts|P)/r^2 bound for all r<=1/40; author derivation+finite arithmetic; not theorem accept",
+      "scope": "BF six-pin certificates: scalar Var(f_ts|P)/r^2 + separately scoped endpoint Hessian Cov; author derivation+finite arithmetic; not theorem accept",
       "owner": {
         "provider": "openai",
         "model": "chatgpt",
@@ -7051,15 +7052,17 @@
         "branch": "chatgpt/bf-scalar-certificate-20260926",
         "pr": 89,
         "pr_state": "open",
-        "head_oid": "81de9a6a01974a60490f11656f130f32cc0a0437",
+        "head_oid": "1ec186bb529d36b90d498d34063b0bd4c022639a",
         "draft": true,
         "ci": "scalar-arithmetic_SUCCESS+gates_SUCCESS",
-        "coord_comment": "5851626923",
+        "coord_comment": "5851860129",
         "readback_comment": "5851780538",
-        "cert_dir": "certificates/bf_six_pin_scalar_20260926/"
+        "cert_dir": "certificates/bf_six_pin_scalar_20260926/",
+        "prior_oid": "81de9a6a01974a60490f11656f130f32cc0a0437",
+        "hessian_dir": "certificates/bf_six_pin_hessian_20260926/"
       },
       "claimed_at": "2026-09-27T02:01:00Z",
-      "heartbeat_at": "2026-09-27T02:01:00Z",
+      "heartbeat_at": "2026-09-27T02:22:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7069,10 +7072,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/89",
         "https://github.com/d6g8k5htny-coder/Math-/commit/81de9a6a01974a60490f11656f130f32cc0a0437",
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#issuecomment-5851780538",
-        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36286057342"
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36286057342",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/1ec186bb529d36b90d498d34063b0bd4c022639a"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 81de9a6 MERGEABLE CI green; author derivation+finite arithmetic certificate; await nonauthor review; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 1ec186b MERGEABLE CI green; tip adds Hessian Cov cert (1/7 I <= Cov <= 2 I, r<=1/40); scalar package preserved @ 81de9a6; await nonauthor review; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
