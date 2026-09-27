@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:23:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. Owner route Math-#96 @ 240a3a1 (OpenAI owns; Grok review-only); keep one watcher. Math-#96 CI SUCCESS @ 240a3a1. Updated 2026-09-27T23:21:30Z.",
+  "updated_at": "2026-09-27T23:26:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 3bfb997 (#80); trial tip b1152e8. HOLD binds \u2014 not merging. #80 MERGED; observe NEVER-MERGE #97 probe for #96; #96 still OFFERED. Updated 2026-09-27T23:26:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -6325,12 +6325,14 @@
         "ci": "success",
         "review_resolution_comment": "5860283360",
         "draft": false,
-        "post94_comment": "5860339603"
+        "post94_comment": "5860339603",
+        "pr_state": "merged",
+        "merge_oid": "3bfb99798b35f367ba3079902ccdf2fa284182c8"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T23:08:00Z",
+      "heartbeat_at": "2026-09-27T23:26:20Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -6346,9 +6348,10 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/a88d569ee85f741870ba6e7bc1d368f56fc9e3cd",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36354678782",
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5860339603",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/868227252c762aa5dc17b2f1e847d627f5baa896"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/868227252c762aa5dc17b2f1e847d627f5baa896",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/3bfb99798b35f367ba3079902ccdf2fa284182c8"
       ],
-      "blocked_reason": "OFFERED observe READY @ 8682272 MERGEABLE; merge-from-main a650f66; gates SUCCESS; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 3bfb997 (PR tip 8682272) \u2014 Math- tip; contact-kernel substitute; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-81-drive-hole-ledger",
@@ -7165,12 +7168,14 @@
         "ci": "success",
         "review_resolution_comment": "5860283360",
         "draft": false,
-        "post94_comment": "5860339603"
+        "post94_comment": "5860339603",
+        "pr_state": "merged",
+        "merge_oid": "3bfb99798b35f367ba3079902ccdf2fa284182c8"
       },
       "claimed_at": "2026-09-26T22:56:00Z",
-      "heartbeat_at": "2026-09-27T22:52:10Z",
+      "heartbeat_at": "2026-09-27T23:26:20Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -7183,10 +7188,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/a88d569ee85f741870ba6e7bc1d368f56fc9e3cd",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36354678782",
         "https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5860339603",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/868227252c762aa5dc17b2f1e847d627f5baa896"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/868227252c762aa5dc17b2f1e847d627f5baa896",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/3bfb99798b35f367ba3079902ccdf2fa284182c8"
       ],
       "delegates_to": "math-80-contact-kernel-substitute",
-      "blocked_reason": "OFFERED observe READY @ 8682272 MERGEABLE; merge-from-main a650f66; gates SUCCESS; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 3bfb997 (PR tip 8682272) \u2014 Math- tip; contact-kernel substitute; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-86-rereview-b9e33ed",
@@ -9786,7 +9792,7 @@
         "reviewer": "grok-review-only"
       },
       "claimed_at": "2026-09-27T23:10:50Z",
-      "heartbeat_at": "2026-09-27T23:23:30Z",
+      "heartbeat_at": "2026-09-27T23:26:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9910,7 +9916,7 @@
         "coord_issue": 95
       },
       "claimed_at": "2026-09-27T23:21:20Z",
-      "heartbeat_at": "2026-09-27T23:23:30Z",
+      "heartbeat_at": "2026-09-27T23:26:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9953,6 +9959,36 @@
       ],
       "delegates_to": null,
       "blocked_reason": "RELEASED MERGED @ 0a168ca \u2014 main tip; OP-PRIVACY GitHub-scope clarification; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "math-97-formal-negative-probe",
+      "scope": "[NEVER MERGE] Hosted formal-dependency failure control for Math-#96; probe only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 97,
+        "pr_state": "open",
+        "head_oid": "fae3ee8c349e2064149b1f0a4295669b9099cd93",
+        "parent_pr": 96,
+        "never_merge": true
+      },
+      "claimed_at": "2026-09-27T23:26:20Z",
+      "heartbeat_at": "2026-09-27T23:26:20Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/97",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/fae3ee8c349e2064149b1f0a4295669b9099cd93"
+      ],
+      "delegates_to": "math-96-required-formal-gates",
+      "blocked_reason": "OFFERED observe NEVER-MERGE probe @ fae3ee8 for #96; do not merge; history for negative control; eng\u2260theorem; sci effect NONE"
     }
   ]
 }

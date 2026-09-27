@@ -154,7 +154,8 @@
 | main [#167](https://github.com/d6g8k5htny-coder/main/pull/167) | **MERGED** `23e07a3…` (PR tip `8d0061e…`); land-as-is Parts 2–4 ([5858178094](https://github.com/d6g8k5htny-coder/main/pull/167#issuecomment-5858178094)); Part 1+`REVIEW.md` follow-up; merge≠theorem; sci effect NONE |
 
 | Math- [#83](https://github.com/d6g8k5htny-coder/Math-/pull/83) | **MERGED** `3a7dffc…` STAGE_E falsifier recovery + H4-JC replay; eng — **Math- tip** |
-| Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | tip `8682272…` READY MERGEABLE; merge-from-main `a650f66…`; gates SUCCESS; HOLD binds (not merging); eng≠theorem; sci effect NONE |
+| Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | **MERGED** `3bfb997…` (PR tip `8682272…`); contact-kernel substitute; merge≠theorem; eng≠theorem; sci effect NONE — **Math- tip** |
+| Math- [#97](https://github.com/d6g8k5htny-coder/Math-/pull/97) | tip `fae3ee8…` **NEVER-MERGE** negative control for [#96](https://github.com/d6g8k5htny-coder/Math-/pull/96); do not merge; observe **OFFERED**; sci effect NONE |
 | Math- [#81](https://github.com/d6g8k5htny-coder/Math-/pull/81) | tip `4c11d78…` READY MERGEABLE; merge-from-main `a650f66…`; gates SUCCESS; HOLD binds (not merging); eng≠theorem; sci effect NONE |
 | Math- [#82](https://github.com/d6g8k5htny-coder/Math-/pull/82) | **MERGED** `e85de87…` (PR tip `b1b8a76…`); merge≠theorem; peer/Copilot AMEND process debt if still material; eng≠theorem |
 | main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | **MERGED** `e7652a1…` onto hardening (PR tip `d8580cd…`); Q0-C103 C1/C2 repair; re-review no remaining finding ([5858799678](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678)); merge≠theorem; sci effect NONE — **hardening tip** |
