@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:01:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). Pulse 00:00Z: Math- #86 tip 5d890b5 (merge-main + close findings); CI pending; re-review OFFERED. Updated 2026-09-27T00:01:00Z.",
+  "updated_at": "2026-09-27T00:01:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 55a3ced (#59). Math- #86 @ 5d890b5 CI GREEN\u00d72 (36281165399/36281165393); re-review OFFERED. Updated 2026-09-27T00:01:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4660,7 +4660,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:01:00Z",
+      "heartbeat_at": "2026-09-27T00:01:30Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -6273,10 +6273,15 @@
         "peer_accept": "5850648931",
         "prior_oid": "b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef",
         "peer_amend_receipt": "5851084620",
-        "prior_accept": "5850648931"
+        "prior_accept": "5850648931",
+        "ci": "SUCCESS",
+        "ci_runs": [
+          "36281165399",
+          "36281165393"
+        ]
       },
       "claimed_at": "2026-09-26T22:31:50Z",
-      "heartbeat_at": "2026-09-27T00:01:00Z",
+      "heartbeat_at": "2026-09-27T00:01:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6287,9 +6292,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5850648931",
         "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5851084620",
         "https://github.com/d6g8k5htny-coder/Math-/commit/b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/5d890b5390412e1f7a4d29e4fb59abb8a1e4897f"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/5d890b5390412e1f7a4d29e4fb59abb8a1e4897f",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36281165399",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36281165393"
       ],
-      "blocked_reason": "OFFERED observe ready @ 5d890b5 (merge-main + close H5 rim findings after b9e33ed repair / 5851084620); CI pending; re-review OFFERED; do not race; merge\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe ready @ 5d890b5 CI GREEN\u00d72 (gates+h5-rim); AMEND repair 5851084620 landed via merge-main; re-review OFFERED; do not race; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-163-intake-packaging-amend",
@@ -6502,7 +6509,7 @@
         "peer_amend_receipt": "5851084620"
       },
       "claimed_at": "2026-09-26T22:54:00Z",
-      "heartbeat_at": "2026-09-27T00:01:00Z",
+      "heartbeat_at": "2026-09-27T00:01:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6512,7 +6519,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5850648931"
       ],
       "delegates_to": "math-86-h5-rim-literal-contract",
-      "blocked_reason": "OFFERED author-lane merge after re-review of tip 5d890b5; this App cannot push Math-; sci effect NONE"
+      "blocked_reason": "OFFERED author-lane merge after re-review of tip 5d890b5 (CI green); this App cannot push Math-; sci effect NONE"
     },
     {
       "work_id": "main-128-finite-r-amend-repair",
@@ -6636,10 +6643,11 @@
         "head_oid": "5d890b5390412e1f7a4d29e4fb59abb8a1e4897f",
         "prior_oid": "b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef",
         "repair_comment": "5851084620",
-        "repair_oid": "b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef"
+        "repair_oid": "b9e33ed75d9c0fc7bdb0728bb0b5d6043542b4ef",
+        "ci": "SUCCESS"
       },
       "claimed_at": "2026-09-26T23:58:30Z",
-      "heartbeat_at": "2026-09-27T00:01:00Z",
+      "heartbeat_at": "2026-09-27T00:01:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6649,7 +6657,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5851084620"
       ],
       "delegates_to": "math-86-h5-rim-literal-contract",
-      "blocked_reason": "OFFERED re-review tip 5d890b5 (CI pending); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED re-review tip 5d890b5 CI GREEN\u00d72; this App does not race; sci effect NONE"
     }
   ]
 }

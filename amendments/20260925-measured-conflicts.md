@@ -110,7 +110,7 @@
 | main [#163](https://github.com/d6g8k5htny-coder/main/pull/163) | tip `cb77428…` (+Hessian jet six pins); peer **AMEND** ([5850519011](https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011)) RESULT.md+IDENTITY.json still absent; `public-intake` **FAIL**; repair **OFFERED**; eng≠theorem |
 | Math- [#84](https://github.com/d6g8k5htny-coder/Math-/pull/84) | **MERGED** `bebe09d…` H5 ledger inputs + rim exponent disclose; eng |
 | Math- [#85](https://github.com/d6g8k5htny-coder/Math-/pull/85) | **MERGED** `5ed3b45…` custody erratum + pairing/P15 note; eng — **Math- tip** |
-| Math- [#86](https://github.com/d6g8k5htny-coder/Math-/pull/86) | tip `5d890b5…` (merge-main + close findings after `b9e33ed…`); OpenAI **AMEND**+repair ([5851084620](https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5851084620)); CI pending; re-review **OFFERED**; merge≠theorem |
+| Math- [#86](https://github.com/d6g8k5htny-coder/Math-/pull/86) | tip `5d890b5…` **CI GREEN×2**; OpenAI **AMEND**+repair ([5851084620](https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5851084620)); re-review **OFFERED**; merge≠theorem |
 | Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | tip `79a791a…`; peer **AMEND** ([5850565848](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848)) cards stale vs #70/#74/#76 + T-LIFETIME-REMAINDER misfile + dead audit links; repair **OFFERED**; eng≠theorem |
 
 | Math- [#83](https://github.com/d6g8k5htny-coder/Math-/pull/83) | **MERGED** `3a7dffc…` STAGE_E falsifier recovery + H4-JC replay; eng — **Math- tip** |
