@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T19:03:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124 MERGED); Math- tip 3b2ac59 (#91). #121 CLOSED UNMERGED SUPERSEDED. Updated 2026-09-27T19:02:00Z.",
+  "updated_at": "2026-09-27T19:05:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124 after #169 @ cad99e2); Math- tip 3b2ac59 (#91). #169 repaired #134+#111 claims_check interaction. Updated 2026-09-27T19:05:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -827,10 +827,11 @@
         "ci_fail_reason": "claims_gate H3-RUNG-FLOOR UNSUPPORTED_CONTROLLING_PROMOTION+unresolved_prose",
         "merge_oid": "8e2eda4dec88661f4e80ee154a471bd1cab4525a",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "hardening_tip": true
+        "hardening_tip": true,
+        "claims_check_repair": "169"
       },
       "claimed_at": "2026-09-25T19:16:00Z",
-      "heartbeat_at": "2026-09-27T18:45:00Z",
+      "heartbeat_at": "2026-09-27T19:05:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [
@@ -853,7 +854,7 @@
       ],
       "delegates_to": "main-112-tip-observe-e3cd7d4",
       "lanes_note": "PACKET.json overlap with #112 \u2014 serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
-      "blocked_reason": "RELEASED MERGED @ 8e2eda4 onto hardening (PR tip a3e4225); RN-UNIF walkdown scope; AMEND applied (5858581791); verify was FAIL 36340909390 (H3-RUNG-FLOOR) at tip \u2014 merge\u2260CI-green; process debt if still material; never MERGE_NOW doctrine stands; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 8e2eda4 onto hardening (PR tip a3e4225); RN-UNIF walkdown scope; AMEND applied (5858581791); verify was FAIL 36340909390 (H3-RUNG-FLOOR) at tip \u2014 merge\u2260CI-green; process debt if still material; never MERGE_NOW doctrine stands; sci effect NONE | claims_check #134+#111 interaction repaired by #169 @ cad99e2; claims_gate verify-FAIL 36340909390 process debt if still material; sci effect NONE"
     },
     {
       "work_id": "math-20-chart-j0-gate-map",
@@ -4847,10 +4848,10 @@
         "pr_state": "open",
         "base_oid": "ae1b92ef1bb794050e584bec1c6f58f9495a018e",
         "prior_pr": 3,
-        "head_oid": "08bd79ab5ae08c0f4072273aa06d9146de0dd55a"
+        "head_oid": "bf5ce700ae64bc4205a03d92d38a743097552ae0"
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T18:33:00Z",
+      "heartbeat_at": "2026-09-27T19:05:00Z",
       "expires_at": "2026-10-02T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4897,7 +4898,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/commit/08bd79ab5ae08c0f4072273aa06d9146de0dd55a"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge @ 08bd79a; sci effect NONE"
+      "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge @ bf5ce70; sci effect NONE"
     },
     {
       "work_id": "main-21-h3-admission-attestations",
@@ -7921,10 +7922,11 @@
         "ci_fail_run": "36340909390",
         "ci_push_fail": "36340908705",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
-        "pr_state": "merged"
+        "pr_state": "merged",
+        "claims_check_repair": "169"
       },
       "claimed_at": "2026-09-27T18:40:00Z",
-      "heartbeat_at": "2026-09-27T18:45:00Z",
+      "heartbeat_at": "2026-09-27T19:05:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "SUPERSEDED",
       "write_scope": [],
@@ -7935,7 +7937,7 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36340909390",
         "https://github.com/d6g8k5htny-coder/main/pull/111"
       ],
-      "blocked_reason": "SUPERSEDED: #111 MERGED @ 8e2eda4 onto hardening with tip still verify-FAIL 36340909390; H3-RUNG-FLOOR process debt if still material on hardening tip; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #111 MERGED; claims_check interaction repaired by #169 @ cad99e2; claims_gate H3-RUNG-FLOOR verify-FAIL 36340909390 process debt if still material on tip; sci effect NONE"
     },
     {
       "work_id": "main-168-r2-source-reconcile",
@@ -7966,6 +7968,38 @@
         "https://github.com/d6g8k5htny-coder/main/commit/d89d52817fcfed458398ba94553ae0a1a36bc396"
       ],
       "blocked_reason": "RELEASED MERGED @ 73eb8da (PR tip d89d528); R2 source reconcile + autonomy record; merge\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-169-h3-rung-floor-claims-vocab",
+      "scope": "Repair claims_check after #134+#111: read H3-RUNG-FLOOR interval declaration; reconcile prose count",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 169,
+        "pr_state": "merged",
+        "head_oid": "980bf234300717de477aadffcc4f1e59aa4177eb",
+        "merge_oid": "cad99e28da77229168c1455605722f4091e35f42",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "hardening_tip": true,
+        "repairs_interaction": "134+111"
+      },
+      "claimed_at": "2026-09-27T19:05:00Z",
+      "heartbeat_at": "2026-09-27T19:05:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/169",
+        "https://github.com/d6g8k5htny-coder/main/commit/cad99e28da77229168c1455605722f4091e35f42",
+        "https://github.com/d6g8k5htny-coder/main/commit/980bf234300717de477aadffcc4f1e59aa4177eb"
+      ],
+      "blocked_reason": "RELEASED MERGED @ cad99e2 onto hardening (PR tip 980bf23); repairs #134+#111 claims_check interaction (FW-FLOAT-NOT-CERTIFIED / prose count); merge\u2260theorem; sci effect NONE"
     }
   ]
 }
