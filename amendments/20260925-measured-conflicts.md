@@ -4,6 +4,8 @@
 
 **HOLD / NEVER-MERGE (owner 2026-09-27):** default **still binds — not merging**. Exception: does not apply when agents agree the land moves the project forward positively. Measured: main [#8](https://github.com/d6g8k5htny-coder/main/pull/8) → hardening tip `9458b90…` after prior HOLD ([5801735092](https://github.com/d6g8k5htny-coder/main/pull/8#issuecomment-5801735092)). Still: no peer races; no scientific-status flips.
 
+**Release-manager coordination (2026-09-27, [5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350)):** keep existing watcher/coordination structure (no new loop). Primary eng lane: main [#180](https://github.com/d6g8k5htny-coder/main/pull/180). Formal-layer thread: main issue [#95](https://github.com/d6g8k5htny-coder/main/issues/95). Experimental formal (not scientific authority): Math- [#93](https://github.com/d6g8k5htny-coder/Math-/pull/93), trial [#160](https://github.com/d6g8k5htny-coder/trial/pull/160), sandbox [#3](https://github.com/d6g8k5htny-coder/sandbox/pull/3), meta-framework [#9](https://github.com/d6g8k5htny-coder/meta-framework/pull/9). Repairs: main [#172](https://github.com/d6g8k5htny-coder/main/pull/172), google-drive [#3](https://github.com/d6g8k5htny-coder/google-drive/pull/3); Math- [#87](https://github.com/d6g8k5htny-coder/Math-/pull/87)/[#88](https://github.com/d6g8k5htny-coder/Math-/pull/88) AMEND. Onboarding once #180 lands: `docs/FORMAL_VERIFICATION.md` + main #95 + release-ops guide. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Sci effect NONE.
+
 ## Landed
 
 | Item | Identity |
@@ -166,6 +168,7 @@
 | Math- [#91](https://github.com/d6g8k5htny-coder/Math-/pull/91) | **MERGED** `3b2ac59…` (PR tip `4bdfff7…`); C026 finite-polynomial reciprocal successor; frozen sources preserved; merge≠theorem; sci effect NONE — **Math- tip** |
 | Math- [#92](https://github.com/d6g8k5htny-coder/Math-/pull/92) | **MERGED** `867d9e3…`; pinned Lean proof-evidence lane; preserve scientific verdicts; merge≠theorem; eng≠theorem; sci effect NONE — **Math- tip** |
 | Math- [#94](https://github.com/d6g8k5htny-coder/Math-/pull/94) | **MERGED** `db6a8d5…`; recovered transverse-contact exposition + source navigation; merge≠theorem; eng≠theorem; sci effect NONE — **Math- tip** |
+| Math- [#95](https://github.com/d6g8k5htny-coder/Math-/pull/95) | **MERGED** `a650f66…`; recovered collision companions + provenance; merge≠theorem; eng≠theorem; sci effect NONE — **Math- tip** |
 | Math- [#28](https://github.com/d6g8k5htny-coder/Math-/pull/28) | `dedc69e…` **MERGED**; Cursor R6 AMEND stands (AAL 7.1); merge ≠ theorem accept |
 | Math- [#22](https://github.com/d6g8k5htny-coder/Math-/pull/22) | `2804dc1…` **MERGED**; Cursor R6 AMEND stands (citation); merge ≠ theorem accept |
 | Math- [#21](https://github.com/d6g8k5htny-coder/Math-/pull/21) | `b420099…` **MERGED**; Cursor (2)–(8) ACCEPT on governance-; inner axial only; merge ≠ RN closure |

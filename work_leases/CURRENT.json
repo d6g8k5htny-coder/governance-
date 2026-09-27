@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:29:36Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4b709de (#179); hardening tip a01c72f (#7); Math- tip db6a8d5 (#94); trial tip a5891e6. HOLD default binds (not merging). BOUNDED REPAIR: main #172 (5860421315); Math- #87 (5860422359). Updated 2026-09-27T22:29:36Z.",
+  "updated_at": "2026-09-27T22:31:02Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4b709de; hardening tip a01c72f (#7); Math- tip a650f66 (#95); trial tip d1e944a. HOLD default binds. Release-manager notice 5860429350: keep watcher; observe #180 primary; experimental formal #93/#160/sandbox#3/meta#9; google-drive#3 repairs. Updated 2026-09-27T22:31:02Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9101,6 +9101,214 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/94",
         "https://github.com/d6g8k5htny-coder/Math-/commit/db6a8d5a099b13cec4364edb544cdf0e34ea720c"
+      ]
+    },
+    {
+      "work_id": "main-180-ten-repo-custody-snapshot",
+      "scope": "Release custody: ten-repo snapshots + Lean replay + receipt binding",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 180,
+        "pr_state": "open",
+        "head_oid": "86c34eeae8244621e10418df0b065962d4ba34d4",
+        "draft": false,
+        "mergeable": "MERGEABLE",
+        "coordination_notice": "5860429350"
+      },
+      "claimed_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "OFFERED observe @ 86c34ee MERGEABLE; release-manager primary eng lane (5860429350); read-only ten-repo snapshots + Lean replay; do not race; eng\u2260theorem; sci effect NONE",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/180",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+      ]
+    },
+    {
+      "work_id": "math-93-layer1-formal-lane",
+      "scope": "Experimental Layer 1 formal verification lane (Lean+Mathlib) under formalization/",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 93,
+        "pr_state": "open",
+        "head_oid": "a6637061fd7fade60ad2bba2a16a38df8034270c",
+        "draft": true,
+        "mergeable": "UNKNOWN",
+        "coordination_notice": "5860429350"
+      },
+      "claimed_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "OFFERED observe DRAFT @ a663706; experimental Layer 1 formal lane (5860429350); local manifests \u2260 scientific authority; do not race; eng\u2260theorem; sci effect NONE",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/93",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+      ]
+    },
+    {
+      "work_id": "trial-160-layer1-formal-lane",
+      "scope": "Experimental Layer 1 formal verification batch (Lean+Mathlib SIDE24)",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 160,
+        "pr_state": "open",
+        "head_oid": "338daba53c690a016569270ae8fc723265600baa",
+        "draft": true,
+        "mergeable": "CONFLICTING",
+        "coordination_notice": "5860429350"
+      },
+      "claimed_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "OFFERED observe DRAFT @ 338daba CONFLICTING; experimental Layer 1 formal (5860429350); do not race; eng\u2260theorem; sci effect NONE",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/160",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+      ]
+    },
+    {
+      "work_id": "sandbox-3-layer1-formal-lane",
+      "scope": "Experimental Layer 1 formal verification (sandbox)",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/sandbox",
+        "pr": 3,
+        "pr_state": "open",
+        "head_oid": "ca446fc8f436dc254ca22523c11186f69afd550d",
+        "draft": true,
+        "mergeable": "MERGEABLE",
+        "coordination_notice": "5860429350"
+      },
+      "claimed_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "OFFERED observe DRAFT @ ca446fc MERGEABLE; experimental formal (5860429350); do not publish private sandbox; eng\u2260theorem; sci effect NONE",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/sandbox/pull/3",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+      ]
+    },
+    {
+      "work_id": "meta-framework-9-layer1-formal-lane",
+      "scope": "Experimental Layer 1 formal verification lane (meta-framework)",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/meta-framework",
+        "pr": 9,
+        "pr_state": "open",
+        "head_oid": "c4a36be01a02c36694b9e93c64cd080ec6575242",
+        "draft": true,
+        "mergeable": "MERGEABLE",
+        "coordination_notice": "5860429350"
+      },
+      "claimed_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "OFFERED observe DRAFT @ c4a36be MERGEABLE; experimental Layer 1 formal (5860429350); do not race; eng\u2260theorem; sci effect NONE",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/meta-framework/pull/9",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+      ]
+    },
+    {
+      "work_id": "google-drive-3-public-proof-replicas",
+      "scope": "Selective public Drive proof replicas with custody verifier",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/google-drive",
+        "pr": 3,
+        "pr_state": "open",
+        "head_oid": "2324ae331b29c87869e28f0d05ebd2b5f1a5388d",
+        "draft": false,
+        "mergeable": "MERGEABLE",
+        "coordination_notice": "5860429350"
+      },
+      "claimed_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "OFFERED observe @ 2324ae3 MERGEABLE; confinement/indexing repairs requested (5860429350); do not race; custody; sci effect NONE",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/google-drive/pull/3",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+      ]
+    },
+    {
+      "work_id": "math-95-collision-companions-provenance",
+      "scope": "Publish recovered collision companions and exact historical source records",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 95,
+        "pr_state": "merged",
+        "merge_oid": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+        "head_oid": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b"
+      },
+      "claimed_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "RELEASED MERGED @ a650f66 \u2014 collision companions + provenance; Math- tip; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 **Math- tip**",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/95",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/a650f66f42dbdfef1d70dfd65168bdc5dbc0927b"
       ]
     }
   ]
