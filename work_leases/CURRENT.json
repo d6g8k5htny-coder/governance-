@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:10:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173 MERGED); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #173 eng ACCEPT 5859411945 then land; merge\u2260theorem. Updated 2026-09-27T20:10:40Z.",
+  "updated_at": "2026-09-27T20:12:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #172 tip 7133503 DRAFT CI green (pack/report stages). Updated 2026-09-27T20:12:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8210,15 +8210,15 @@
         "repo": "d6g8k5htny-coder/main",
         "pr": 172,
         "pr_state": "open",
-        "head_oid": "1ed3401bea32fced2baeb17ad00694e56212c343",
+        "head_oid": "7133503bb32c1b6151df8861e8807d881caa4190",
         "draft": true,
         "base_branch": "main",
-        "prior_oid": "fc6898c365bf7bc3130b6f1266ef4147c645f94b",
+        "prior_oid": "1ed3401bea32fced2baeb17ad00694e56212c343",
         "ci": "success",
         "branch": "claude/review-grok-github-uploads-gsthj3"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T20:01:00Z",
+      "heartbeat_at": "2026-09-27T20:12:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8227,9 +8227,10 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/172",
         "https://github.com/d6g8k5htny-coder/main/commit/1ed3401bea32fced2baeb17ad00694e56212c343",
-        "https://github.com/d6g8k5htny-coder/main/commit/fc6898c365bf7bc3130b6f1266ef4147c645f94b"
+        "https://github.com/d6g8k5htny-coder/main/commit/fc6898c365bf7bc3130b6f1266ef4147c645f94b",
+        "https://github.com/d6g8k5htny-coder/main/commit/7133503bb32c1b6151df8861e8807d881caa4190"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 1ed3401 (prior fc6898c); harvest Dropbox links/hashes; CI SUCCESS (public-intake/public-shop/verify); custody/eng; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 7133503 (prior 1ed3401); pack/report stages; personal-looking files kept off GitHub; CI SUCCESS; custody/eng; do not race; sci effect NONE"
     },
     {
       "work_id": "trial-150-dropbox-drive-gap-audit",
