@@ -141,7 +141,7 @@
 
 | Math- [#83](https://github.com/d6g8k5htny-coder/Math-/pull/83) | **MERGED** `3a7dffc…` STAGE_E falsifier recovery + H4-JC replay; eng — **Math- tip** |
 | Math- [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) | tip `12d093f…` DRAFT MERGEABLE; review-resolution pass ([5860283360](https://github.com/d6g8k5htny-coder/Math-/pull/80#issuecomment-5860283360)): `verify_substitute.py` + disposition/title AMENDs; gates SUCCESS; merge = owner action; HOLD binds; eng≠theorem; sci effect NONE |
-| Math- [#81](https://github.com/d6g8k5htny-coder/Math-/pull/81) | tip `5ae714b…` DRAFT MERGEABLE; ledger v2 AMEND + main sync; gates SUCCESS; peer/Copilot AMENDs; observe **OFFERED**; eng≠theorem; sci effect NONE |
+| Math- [#81](https://github.com/d6g8k5htny-coder/Math-/pull/81) | tip `5ae714b…` DRAFT MERGEABLE; review-resolution pass ([5860290565](https://github.com/d6g8k5htny-coder/Math-/pull/81#issuecomment-5860290565)): ledger v2 AMENDs; gates SUCCESS; merge = owner action; HOLD binds; eng≠theorem; sci effect NONE |
 | Math- [#82](https://github.com/d6g8k5htny-coder/Math-/pull/82) | **MERGED** `e85de87…` (PR tip `b1b8a76…`); merge≠theorem; peer/Copilot AMEND process debt if still material; eng≠theorem |
 | main [#124](https://github.com/d6g8k5htny-coder/main/pull/124) | **MERGED** `e7652a1…` onto hardening (PR tip `d8580cd…`); Q0-C103 C1/C2 repair; re-review no remaining finding ([5858799678](https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5858799678)); merge≠theorem; sci effect NONE — **hardening tip** |
 | main [#151](https://github.com/d6g8k5htny-coder/main/pull/151) | **MERGED** `d77a85a…` pinned verification exhibits + packet index; museum/nav; excludes unmerged #150 |
