@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:48:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip bdbbe6a (#150). #155 tip ef3850d CONFLICTING after main merge. Updated 2026-09-27T20:48:30Z.",
+  "updated_at": "2026-09-27T20:57:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip bdbbe6a. #152 tip b513d28 reshaped to apply_all df6b700f. Updated 2026-09-27T20:57:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8356,7 +8356,7 @@
     },
     {
       "work_id": "trial-152-path-c-base-tip-drift",
-      "scope": "Path C gates tolerate BASE_TIP drift when landed stack already on live tip; eng CI",
+      "scope": "apply_all.sh generic semantic already-applied check + summary; PATH_C_STRICT_TIP hatch",
       "owner": {
         "provider": "cursor",
         "model": null,
@@ -8367,18 +8367,20 @@
         "branch": "cursor/tip-refresh-un-red-ci-ff72",
         "pr": 152,
         "pr_state": "open",
-        "head_oid": "0a268688570656e7e5a4184d2a44b3bf2e65912b",
+        "head_oid": "b513d286d3a392341fd99a50e929ce228e4d00fa",
         "draft": true,
-        "ci": "pending_sanity",
+        "ci": "partial",
         "peer_coord": "5859447061",
-        "prior_oid": "62bd6a2ac7050d598694083b23b84beaa52d827c",
+        "prior_oid": "0a268688570656e7e5a4184d2a44b3bf2e65912b",
         "stand_down_comment": "5859559952",
         "cherry_pick": "df6b700f",
         "confirm_155": "5859643161",
-        "reshape_comment": "5859675264"
+        "reshape_comment": "5859675264",
+        "reshape_landed_comment": "5859758130",
+        "mergeable": "CONFLICTING"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T20:46:20Z",
+      "heartbeat_at": "2026-09-27T20:57:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8393,9 +8395,12 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859559952",
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36346138260",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859643161",
-        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859675264"
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859675264",
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859758130",
+        "https://github.com/d6g8k5htny-coder/trial/commit/b513d286d3a392341fd99a50e929ce228e4d00fa",
+        "https://github.com/d6g8k5htny-coder/trial/commit/df6b700fb07eb47e95ec39e264c238ea1ea0a3ec"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 0a26868; rebase down to apply_all.sh df6b700f + tests only (5859675264); drop duplicate gate/CI; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b513d28 reshaped (5859758130): apply_all semantic check + summary only; tip-drift gates SUCCESS; CONFLICTING vs main loop churn; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-153-path-c-descendant-ok",
