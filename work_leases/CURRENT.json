@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:57:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip bdbbe6a. #152 tip b513d28 reshaped to apply_all df6b700f. Updated 2026-09-27T20:57:20Z.",
+  "updated_at": "2026-09-27T20:58:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip bdbbe6a. #152 tip b513d28 ready-claim vs API CONFLICTING. Updated 2026-09-27T20:58:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8377,10 +8377,12 @@
         "confirm_155": "5859643161",
         "reshape_comment": "5859675264",
         "reshape_landed_comment": "5859758130",
-        "mergeable": "CONFLICTING"
+        "mergeable": "CONFLICTING",
+        "author_mergeable_claim": "MERGEABLE",
+        "api_mergeable": "CONFLICTING"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T20:57:20Z",
+      "heartbeat_at": "2026-09-27T20:58:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8400,7 +8402,7 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/b513d286d3a392341fd99a50e929ce228e4d00fa",
         "https://github.com/d6g8k5htny-coder/trial/commit/df6b700fb07eb47e95ec39e264c238ea1ea0a3ec"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ b513d28 reshaped (5859758130): apply_all semantic check + summary only; tip-drift gates SUCCESS; CONFLICTING vs main loop churn; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b513d28 reshaped (5859758130): apply_all + PATH_C_STRICT_TIP + tests; author claims MERGEABLE/ready; API still CONFLICTING (loop churn); tip-drift gates SUCCESS; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-153-path-c-descendant-ok",
