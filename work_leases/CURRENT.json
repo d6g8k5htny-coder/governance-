@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:00:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175 MERGED); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 78ebd3b. #152/#155 CONFLICTING reshape; #172 tip 10cd481. Updated 2026-09-27T21:00:40Z.",
+  "updated_at": "2026-09-27T21:02:50Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #156 tip 6c27029 review packet; #152/#155 CONFLICTING. Updated 2026-09-27T21:02:50Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8541,20 +8541,23 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 156,
         "pr_state": "open",
-        "head_oid": "e6b4ab42872a5f45f6b73595ed2f5f289bc8b3b3",
-        "draft": true
+        "head_oid": "6c27029a71b5cd52a69d5b55b377a46e475b61af",
+        "draft": true,
+        "prior_oid": "e6b4ab42872a5f45f6b73595ed2f5f289bc8b3b3",
+        "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T20:30:20Z",
+      "heartbeat_at": "2026-09-27T21:02:50Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/trial/pull/156"
+        "https://github.com/d6g8k5htny-coder/trial/pull/156",
+        "https://github.com/d6g8k5htny-coder/trial/commit/6c27029a71b5cd52a69d5b55b377a46e475b61af"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ e6b4ab4; review packet for main #172/#174; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 6c27029 MERGEABLE; post-merge status for main #174/#172 + trial converge; tip-drift gates SUCCESS; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-7-p15-foundation-review",
