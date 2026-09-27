@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:42:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167); Math- tip 0be9c76 (#89). CLOSED UNMERGED Math- #18/#45/#69/#74 (delegated merge review). #124 tip 6ad685c await verify. Updated 2026-09-27T17:42:00Z.",
+  "updated_at": "2026-09-27T17:43:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167); Math- tip 0be9c76 (#89). main #163 tip 65e414f CI green; Math- #87/#88 merge-holds. #124 tip 6ad685c await verify. Updated 2026-09-27T17:43:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -6319,13 +6319,15 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 163,
-        "head_oid": "cb774284b3f53a7539fe556cbb18a175542ea9d5",
-        "prior_oid": "6716d16e0630bca9db0ff0eb279818eafd1d0718",
-        "peer_amend": "5850519011"
+        "head_oid": "65e414fc8048158c950ef007683d32ef4e31fb69",
+        "prior_oid": "cb774284b3f53a7539fe556cbb18a175542ea9d5",
+        "peer_amend": "5850519011",
+        "ci": "public-intake_SUCCESS+public-shop_SUCCESS+verify_SUCCESS",
+        "result_delivery": "857904a"
       },
       "claimed_at": "2026-09-26T22:01:10Z",
-      "heartbeat_at": "2026-09-26T23:18:30Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -6346,9 +6348,11 @@
         "https://github.com/d6g8k5htny-coder/main/commit/45f610fa8ab06f8eec3d92231c37d081559a0cbc",
         "https://github.com/d6g8k5htny-coder/main/commit/75c0175388c4920a0bcba03efc87c019fb80ad62",
         "https://github.com/d6g8k5htny-coder/main/commit/6716d16e0630bca9db0ff0eb279818eafd1d0718",
-        "https://github.com/d6g8k5htny-coder/main/commit/cb774284b3f53a7539fe556cbb18a175542ea9d5"
+        "https://github.com/d6g8k5htny-coder/main/commit/cb774284b3f53a7539fe556cbb18a175542ea9d5",
+        "https://github.com/d6g8k5htny-coder/main/commit/65e414fc8048158c950ef007683d32ef4e31fb69",
+        "https://github.com/d6g8k5htny-coder/main/commit/857904a"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ cb77428 (tip move; +HESSIAN_JET_SIX_PINS.md); peer AMEND (5850519011) RESULT.md+IDENTITY.json still absent; public-intake FAIL; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 65e414f MERGEABLE CI green\u00d73 (was cb77428); tip=main-merge + RESULT.md/IDENTITY.json (857904a); peer AMEND packaging may be satisfied \u2014 await author ack/re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-125-moment-lemma-amend",
@@ -6502,22 +6506,25 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 163,
-        "head_oid": "cb774284b3f53a7539fe556cbb18a175542ea9d5",
+        "head_oid": "65e414fc8048158c950ef007683d32ef4e31fb69",
         "finding_comment": "5850519011",
-        "prior_oid": "6716d16e0630bca9db0ff0eb279818eafd1d0718"
+        "prior_oid": "6716d16e0630bca9db0ff0eb279818eafd1d0718",
+        "delivery_oid": "857904a"
       },
       "claimed_at": "2026-09-26T22:37:30Z",
-      "heartbeat_at": "2026-09-26T23:18:30Z",
+      "heartbeat_at": "2026-09-27T17:43:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011"
+        "https://github.com/d6g8k5htny-coder/main/pull/163#issuecomment-5850519011",
+        "https://github.com/d6g8k5htny-coder/main/commit/65e414fc8048158c950ef007683d32ef4e31fb69",
+        "https://github.com/d6g8k5htny-coder/main/commit/857904a"
       ],
       "delegates_to": "main-163-grok-session-replay-ledger",
-      "blocked_reason": "OFFERED peer AMEND repair still open after tip cb77428 (Hessian jet only; no RESULT.md/IDENTITY.json); this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: RESULT.md+IDENTITY.json delivered @ 857904a / tip 65e414f for peer AMEND 5850519011; successor re-review OFFERED on observe lease; sci effect NONE"
     },
     {
       "work_id": "main-161-f2-intensity-amend",
@@ -7049,11 +7056,13 @@
         "pr_state": "open",
         "head_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
         "integration_note": "5851042294",
-        "copilot_review": "5330637208"
+        "copilot_review": "5330637208",
+        "merge_hold": "5858208320",
+        "denominator_amend": "r^8/12"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T14:22:00Z",
-      "expires_at": "2026-09-29T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
@@ -7063,10 +7072,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5851042294",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5328289349",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5330637208",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/87#discussion_r4115662942"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#discussion_r4115662942",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 0fab933; integration note (5851042294) EXTERNAL-REVIEW-TRACK \u2014 not theorem merge; Copilot (5328289349/5330637208): Schur\u2260pathwise / nonuniform remainder invalidates O(r) slaving (4115662942) / residual; observe OFFERED; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 0fab933 MERGEABLE; merge-hold (5858208320): CLOSED_FORMS denominator order r^8/12 not r^6/12; prior Copilot residual; repair OFFERED; do not race; not theorem merge; sci effect NONE"
     },
     {
       "work_id": "math-87-cycle4-copilot-amend-repair",
@@ -7080,11 +7090,12 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 87,
         "head_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
-        "copilot_review": "5330637208"
+        "copilot_review": "5330637208",
+        "merge_hold": "5858208320"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T14:22:00Z",
-      "expires_at": "2026-09-29T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
@@ -7092,10 +7103,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5328289349",
         "https://github.com/d6g8k5htny-coder/Math-/pull/87#pullrequestreview-5330637208",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/87#discussion_r4115662942"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#discussion_r4115662942",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320"
       ],
       "delegates_to": "math-87-harper-cycle4-d5-sard",
-      "blocked_reason": "OFFERED Copilot repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED merge-hold+Copilot repair (denominator r^8/12 + tests); this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-88-public-reading-map",
@@ -7114,11 +7126,12 @@
         "ci": "math-downstream-gates_SUCCESS",
         "peer_amend": "5328356234",
         "openai_eng_amend": "5328356234",
-        "copilot_review": "5330622853"
+        "copilot_review": "5330622853",
+        "merge_hold": "5858208204"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T14:13:30Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -7128,10 +7141,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/commit/2cdf62fdc98f150a0e351da7d746901d87321e5b",
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5328356234",
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5330622853",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/88#discussion_r4115650746"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#discussion_r4115650746",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#issuecomment-5858208204"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 2cdf62f MERGEABLE CI green; OpenAI eng AMEND (5328356234) + Copilot (5330622853): cycle-4 table cites 8657130 but links mutable branch (live #87 tip 0fab933); bind full-commit URLs; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 2cdf62f MERGEABLE; merge-hold (5858208204): blocked on #87 denominator fix + table refresh (#82/#60 merged, #69 closed, #80/#81/#53 open); prior OpenAI/Copilot pin AMEND; repair OFFERED; sci effect NONE"
     },
     {
       "work_id": "math-88-identity-bind-amend-repair",
@@ -7148,21 +7162,23 @@
         "finding_review": "5328356234",
         "stated_cycle4_oid": "8657130",
         "live_pr87_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
-        "copilot_review": "5330622853"
+        "copilot_review": "5330622853",
+        "merge_hold": "5858208204"
       },
       "claimed_at": "2026-09-27T01:08:00Z",
-      "heartbeat_at": "2026-09-27T14:13:30Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5328356234",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5330622853"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5330622853",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#issuecomment-5858208204"
       ],
       "delegates_to": "math-88-public-reading-map",
-      "blocked_reason": "OFFERED OpenAI+Copilot eng AMEND repair (immutable commit links); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED merge-hold+pin/table repair behind #87; this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-166-museum-conditional-route",
