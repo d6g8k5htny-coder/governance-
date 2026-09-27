@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:19:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #157 fetch-depth evidence 5859916809; #155 tip d84e590. Updated 2026-09-27T21:19:40Z.",
+  "updated_at": "2026-09-27T21:21:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #157 CI 36350681045 HEAD^ fixed. Updated 2026-09-27T21:21:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8713,10 +8713,12 @@
         "draft": true,
         "mergeable": "MERGEABLE",
         "ci": "gates_green_sanity_loop_pin",
-        "evidence_comment": "5859916809"
+        "evidence_comment": "5859916809",
+        "ci_run": "36350681045",
+        "ci_comment": "5859930260"
       },
       "claimed_at": "2026-09-27T21:10:50Z",
-      "heartbeat_at": "2026-09-27T21:19:40Z",
+      "heartbeat_at": "2026-09-27T21:21:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8726,9 +8728,11 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/157",
         "https://github.com/d6g8k5htny-coder/trial/pull/149#issuecomment-5859852395",
         "https://github.com/d6g8k5htny-coder/trial/commit/0ad92e4942078bc52c6a254fb65bdbe6e0e4d056",
-        "https://github.com/d6g8k5htny-coder/trial/pull/157#issuecomment-5859916809"
+        "https://github.com/d6g8k5htny-coder/trial/pull/157#issuecomment-5859916809",
+        "https://github.com/d6g8k5htny-coder/trial/pull/157#issuecomment-5859930260",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36350681045"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 0ad92e4; fetch-depth:2 fixes HEAD^ (5859916809); tip-drift gates SUCCESS; sanity residual Batch 833 loop-pin (not this PR); merges clean with #155; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 0ad92e4; CI 36350681045 (5859930260): gates green; batch832 HEAD^ fixed PASS; residual batch833 loop-pin + flaky ww.status race; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
