@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:45:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #69 Copilot adds det-symbol + axial-band findings. Updated 2026-09-27T00:45:30Z.",
+  "updated_at": "2026-09-27T00:47:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). ULW #3 Copilot 5328290023 (9 findings; CONFLICTING). Updated 2026-09-27T00:47:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4403,10 +4403,11 @@
         "prior_oid": "03cd88c1792fa797357b8cd4558dbff44c1274da",
         "mergeable": "CONFLICTING",
         "ci": "verify_SUCCESS",
-        "peer_amend": "5848438896"
+        "peer_amend": "5848438896",
+        "copilot_review": "5328290023"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-26T18:02:30Z",
+      "heartbeat_at": "2026-09-27T00:47:30Z",
       "expires_at": "2026-09-27T22:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -4420,10 +4421,11 @@
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/03cd88c1792fa797357b8cd4558dbff44c1274da",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/actions/runs/36253424199",
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/commit/96e00590448541f0989a42e899fb5adc764868af",
-        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5848438896"
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5848438896",
+        "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#pullrequestreview-5328290023"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 96e0059; CONFLICTING; peer AMEND (5848438896): premise superseded by #4 (sandbox now pinned); rebase onto f832ea1 + drop gitlinks; README/manifest drift; harness worktree defect; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 96e0059 CONFLICTING; peer AMEND (5848438896) rebase after #4; Copilot (5328290023): QUERY_TIP hardcode, BRANCH_MAP drift, gitmodules validation, query_package, identity CI, stale pins, PR2 host ref, unittest order, ledger count; repair OFFERED; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "ulw-2-authority-boundary-repair",
@@ -4686,7 +4688,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:45:30Z",
+      "heartbeat_at": "2026-09-27T00:47:30Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5199,10 +5201,11 @@
         "pr": 3,
         "head_oid": "96e00590448541f0989a42e899fb5adc764868af",
         "composition_base": "f832ea1c636aadba1994942779cc7ded2806de14",
-        "finding_comment": "5848438896"
+        "finding_comment": "5848438896",
+        "copilot_review": "5328290023"
       },
       "claimed_at": "2026-09-26T17:46:30Z",
-      "heartbeat_at": "2026-09-26T17:46:30Z",
+      "heartbeat_at": "2026-09-27T00:47:30Z",
       "expires_at": "2026-09-28T00:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5212,7 +5215,7 @@
         "https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/3#issuecomment-5848438896"
       ],
       "delegates_to": "ulw-3-public-workspace-proposal",
-      "blocked_reason": "OFFERED peer AMEND repair after #4 supersession; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED rebase+#4 supersession + Copilot eng repair; this App does not race; sci effect NONE"
     },
     {
       "work_id": "main-150-body-sha256-tip-sync",
