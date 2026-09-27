@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:46:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip bb24d80 (#153). tip-drift gates green on main; #155 CONFLICTING reshape; #150 still unique. Updated 2026-09-27T20:46:20Z.",
+  "updated_at": "2026-09-27T20:48:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip bdbbe6a after #150 MERGED 09738e5. Updated 2026-09-27T20:48:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8250,7 +8250,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/trial",
         "pr": 150,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "f78f651bd0c534274479cd8643fea8928f007235",
         "draft": false,
         "ci": "failure",
@@ -8260,12 +8260,14 @@
         "ci_attribution": "baseline tip-drift BASE_TIP 2f7a5a9 vs live hardening e7652a1; not PR-caused",
         "can_land_direct": true,
         "content_not_on_main": true,
-        "peer_note": "5859674009"
+        "peer_note": "5859674009",
+        "merge_oid": "09738e541a0efbbe08f41dad64796fb3256c21e6",
+        "trial_tip_after": "bdbbe6a8d1a60468b0f421e24f16db28d1994356"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T20:46:20Z",
+      "heartbeat_at": "2026-09-27T20:48:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -8274,9 +8276,10 @@
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36344152764",
         "https://github.com/d6g8k5htny-coder/trial/pull/150#issuecomment-5859154134",
         "https://cursor.com/agents/bc-01a0e43c",
-        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859674009"
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859674009",
+        "https://github.com/d6g8k5htny-coder/trial/commit/09738e541a0efbbe08f41dad64796fb3256c21e6"
       ],
-      "blocked_reason": "OFFERED observe @ f78f651 OPEN; content NOT on main after #153 (5859674009: 13 files unique); peer KEEP+wording AMEND (5859154134); land on its own; do not race; custody; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 09738e5 (PR tip f78f651); Dropbox\u2192Drive/GitHub gap audit; peer KEEP+wording AMEND (5859154134) process debt if still material; trial tip bdbbe6a; merge\u2260theorem; custody; sci effect NONE"
     },
     {
       "work_id": "main-173-systematic-source-census",
