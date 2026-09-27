@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:39:29Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip ae20fe0. HOLD/NEVER-MERGE default binds (not merging); exception when agents agree forward progress. Math- #87 tip 05c20b6 CI SUCCESS; await re-review. Updated 2026-09-27T21:39:29Z.",
+  "updated_at": "2026-09-27T21:40:52Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip ae20fe0. HOLD/NEVER-MERGE default binds (not merging); consensus exception only. Math- #88 tip 184707d pin AMEND+CI SUCCESS; #87 await re-review. Updated 2026-09-27T21:40:52Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7402,7 +7402,7 @@
         "branch": "incoming/public-reading-map-20260926",
         "pr": 88,
         "pr_state": "open",
-        "head_oid": "2cdf62fdc98f150a0e351da7d746901d87321e5b",
+        "head_oid": "184707d75e0b6fc3ee121ee94a84e5c97cc765cc",
         "ci": "math-downstream-gates_SUCCESS",
         "peer_amend": "5328356234",
         "openai_eng_amend": "5328356234",
@@ -7410,7 +7410,7 @@
         "merge_hold": "5858208204"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "heartbeat_at": "2026-09-27T21:40:52Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7422,10 +7422,13 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5328356234",
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5330622853",
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#discussion_r4115650746",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/88#issuecomment-5858208204"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#issuecomment-5858208204",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/184707d75e0b6fc3ee121ee94a84e5c97cc765cc",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/3ef408a",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352508463"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 2cdf62f MERGEABLE; merge-hold (5858208204): blocked on #87 denominator fix + table refresh (#82/#60 merged, #69 closed, #80/#81/#53 open); prior OpenAI/Copilot pin AMEND; repair OFFERED; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 184707d MERGEABLE; pin/table AMEND @ 3ef408a binds cycle-4 to #87 tip 05c20b6 (SHA256 digests; notes denominator -r^8/12); main merge-sync @ 184707d; math-downstream-gates SUCCESS (run 36352508463); merge-hold (5858208204) still behind #87 peer re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-88-identity-bind-amend-repair",
@@ -7438,7 +7441,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 88,
-        "head_oid": "2cdf62fdc98f150a0e351da7d746901d87321e5b",
+        "head_oid": "184707d75e0b6fc3ee121ee94a84e5c97cc765cc",
         "finding_review": "5328356234",
         "stated_cycle4_oid": "8657130",
         "live_pr87_oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470",
@@ -7446,7 +7449,7 @@
         "merge_hold": "5858208204"
       },
       "claimed_at": "2026-09-27T01:08:00Z",
-      "heartbeat_at": "2026-09-27T17:43:30Z",
+      "heartbeat_at": "2026-09-27T21:40:52Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7455,10 +7458,14 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5328356234",
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5330622853",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/88#issuecomment-5858208204"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88#issuecomment-5858208204",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/184707d75e0b6fc3ee121ee94a84e5c97cc765cc",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/3ef408a",
+        "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36352508463",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/88"
       ],
       "delegates_to": "math-88-public-reading-map",
-      "blocked_reason": "OFFERED merge-hold+pin/table repair behind #87; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 184707d MERGEABLE; pin/table AMEND @ 3ef408a binds cycle-4 to #87 tip 05c20b6 (SHA256 digests; notes denominator -r^8/12); main merge-sync @ 184707d; math-downstream-gates SUCCESS (run 36352508463); merge-hold (5858208204) still behind #87 peer re-review; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-166-museum-conditional-route",
