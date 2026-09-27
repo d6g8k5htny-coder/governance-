@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T00:31:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Pulse 00:30Z: watched tips unchanged. Updated 2026-09-27T00:31:00Z.",
+  "updated_at": "2026-09-27T00:32:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #82 Copilot corroborates AMEND 5850657368 (+missing algebra tests). Updated 2026-09-27T00:32:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4660,7 +4660,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T00:31:00Z",
+      "heartbeat_at": "2026-09-27T00:32:00Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -5979,10 +5979,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 82,
         "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
-        "peer_amend": "5850657368"
+        "peer_amend": "5850657368",
+        "copilot_review": "5328253304"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-26T22:55:30Z",
+      "heartbeat_at": "2026-09-27T00:32:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5990,9 +5991,13 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/82",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5328253304",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113523631",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113523650",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/82#discussion_r4113523640"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ b190a4d; peer AMEND (5850657368): mixed-order r\u00b3 det H_M/H_X (cubic O(r) witness lifts soft factor; \u03bb at r\u2074); majorant scope ok; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b190a4d; peer AMEND (5850657368) + Copilot (5328253304) corroborate mixed-order r\u00b3 / \u03bb-cancel; missing executable algebra tests/mutants (#58); repair OFFERED; do not race; sci effect NONE"
     },
     {
       "work_id": "main-162-public-source-storefront",
@@ -6568,10 +6573,11 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 82,
         "head_oid": "b190a4de0a0f0c5b500d84039e924fc9c5344431",
-        "finding_comment": "5850657368"
+        "finding_comment": "5850657368",
+        "copilot_review": "5328253304"
       },
       "claimed_at": "2026-09-26T22:55:30Z",
-      "heartbeat_at": "2026-09-26T22:55:30Z",
+      "heartbeat_at": "2026-09-27T00:32:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6581,7 +6587,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#issuecomment-5850657368"
       ],
       "delegates_to": "math-82-d5-microdisk-det-hm-vanishes",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (rewrite r\u00b3 + add algebra tests); this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-81-ledger-amend-repair",
