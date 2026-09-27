@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:13:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). main #124 tip 4b628f0 CI fetch fix (5857987842); verify IN_PROGRESS. Updated 2026-09-27T17:13:00Z.",
+  "updated_at": "2026-09-27T17:21:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). main #124 tip 4b628f0 verify FAIL closure_pipeline step form (36336027008). Updated 2026-09-27T17:21:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3116,10 +3116,13 @@
         "ci_pass_run": "36276562260",
         "ci_readback": "5850604158",
         "ci_fix_comment": "5857987842",
-        "ci": "verify_IN_PROGRESS"
+        "ci": "verify_FAIL",
+        "ci_pr_fail": "36336027008",
+        "ci_push_fail": "36336024487",
+        "ci_fail_reason": "closure_pipeline_unsupported_CI_step_form"
       },
       "claimed_at": "2026-09-26T01:28:00Z",
-      "heartbeat_at": "2026-09-27T17:13:00Z",
+      "heartbeat_at": "2026-09-27T17:21:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -3140,10 +3143,12 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36276562260",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850604158",
         "https://github.com/d6g8k5htny-coder/main/commit/4b628f0a4424c43a35812164ac599ef39e2c10d5",
-        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5857987842"
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5857987842",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336027008",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336024487"
       ],
       "delegates_to": "main-121-q0-c103-pair-palm",
-      "blocked_reason": "ACTIVE observe DRAFT @ 4b628f0 MERGEABLE; prior AMEND @ 079615e (5850479003); CI fix tip (5857987842): fetch push before/after for claims-gate after force-push; verify IN_PROGRESS; re-review OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE observe DRAFT @ 4b628f0 MERGEABLE; CI fix tip (5857987842) broke verify: closure_pipeline check-plan FAIL unsupported CI step form (PR 36336027008 + push 36336024487); prior content tip 079615e had PR verify SUCCESS 36276562260; CI repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-124-c1c2-rereview-offer",
@@ -6371,10 +6376,12 @@
         "claim_comment": "5850468784",
         "prior_amend": "5850461900",
         "ci_pass_run": "36276562260",
-        "ci_fix_comment": "5857987842"
+        "ci_fix_comment": "5857987842",
+        "ci_pr_fail": "36336027008",
+        "ci_push_fail": "36336024487"
       },
       "claimed_at": "2026-09-26T22:31:50Z",
-      "heartbeat_at": "2026-09-27T17:13:00Z",
+      "heartbeat_at": "2026-09-27T17:21:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6384,10 +6391,12 @@
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850468784",
         "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5850479003",
         "https://github.com/d6g8k5htny-coder/main/commit/4b628f0a4424c43a35812164ac599ef39e2c10d5",
-        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5857987842"
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5857987842",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336027008",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336024487"
       ],
       "delegates_to": "main-124-c1c2-repair",
-      "blocked_reason": "OFFERED re-review after repair tip 079615e + CI fetch fix 4b628f0 (5857987842); await verify terminal; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED re-review blocked on CI: tip 4b628f0 verify FAIL closure_pipeline unsupported step form (36336027008/36336024487); await author CI repair; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-86-h5-rim-literal-contract",
@@ -7432,6 +7441,37 @@
       ],
       "delegates_to": "math-18-p15-smt-pilot",
       "blocked_reason": "OFFERED Copilot eng AMEND (5330607811): EXECUTION_RECEIPT hash mismatch + immutable source pins + CI count gaps; prior 5328282187 Z3/QF_NRA + division; tip still 0ae7e8f; this App does not race; sci effect NONE"
+    },
+    {
+      "work_id": "main-124-ci-step-form-amend-repair",
+      "scope": "Rewrite #124 CI before/after fetch so closure_pipeline allows only name+one literal run per step",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 124,
+        "head_oid": "4b628f0a4424c43a35812164ac599ef39e2c10d5",
+        "ci_pr_fail": "36336027008",
+        "ci_push_fail": "36336024487",
+        "ci_fix_comment": "5857987842"
+      },
+      "claimed_at": "2026-09-27T17:21:00Z",
+      "heartbeat_at": "2026-09-27T17:21:00Z",
+      "expires_at": "2026-09-29T18:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/124#issuecomment-5857987842",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336027008",
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36336024487"
+      ],
+      "delegates_to": "main-124-c1c2-repair",
+      "blocked_reason": "OFFERED CI eng repair: fetch-before/after step rejected by closure_pipeline check-plan; this App does not race; sci effect NONE"
     }
   ]
 }
