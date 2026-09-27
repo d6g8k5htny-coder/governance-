@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:30:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). tip-drift: #152 stands down\u2192#153 vehicle; observe #154/#155; #172 tip 10cd481. Updated 2026-09-27T20:30:20Z.",
+  "updated_at": "2026-09-27T20:31:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174 MERGED); hardening tip a01c72f (#7 MERGED); Math- tip 3b2ac59 (#91). HOLD yield applies (#7). tip-drift #152\u2192#153. Updated 2026-09-27T20:31:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8294,7 +8294,7 @@
         "peer_accept": "5859411945"
       },
       "claimed_at": "2026-09-27T19:57:20Z",
-      "heartbeat_at": "2026-09-27T20:10:40Z",
+      "heartbeat_at": "2026-09-27T20:31:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -8306,7 +8306,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/173#issuecomment-5859411945",
         "https://github.com/d6g8k5htny-coder/main/commit/aad07fdbd73ee5d5113ab3cbcd317d7448581b14"
       ],
-      "blocked_reason": "RELEASED MERGED @ aad07fd (PR tip c5a7899); eng ACCEPT (5859411945) zero independence credit; archive-handling/coverage honesty OK; merge\u2260theorem; custody/eng; sci effect NONE \u2014 main tip"
+      "blocked_reason": "RELEASED MERGED @ aad07fd (PR tip c5a7899); eng ACCEPT (5859411945) zero independence credit; archive-handling/coverage honesty OK; merge\u2260theorem; custody/eng; sci effect NONE"
     },
     {
       "work_id": "main-8-rn-sector-review-hold",
@@ -8328,11 +8328,10 @@
         "hold_comment": "5801735092",
         "amend_applied_comment": "5859198949",
         "ci": "success",
-        "merge_oid": "9458b903f57f47f34d0398531c9c977d413bad57",
-        "hardening_tip": true
+        "merge_oid": "9458b903f57f47f34d0398531c9c977d413bad57"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T20:05:00Z",
+      "heartbeat_at": "2026-09-27T20:31:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -8346,7 +8345,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/ba171866228c945d221f53dd1e823f55b17a39f4",
         "https://github.com/d6g8k5htny-coder/main/commit/9458b903f57f47f34d0398531c9c977d413bad57"
       ],
-      "blocked_reason": "RELEASED MERGED @ 9458b90 onto hardening (PR tip 8fb687a); verify SUCCESS; prior Dylan HOLD (5801735092) yielded \u2014 owner clarification: HOLD/NEVER-MERGE does not bind when agents agree the land moves the project forward positively; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 hardening tip"
+      "blocked_reason": "RELEASED MERGED @ 9458b90 onto hardening (PR tip 8fb687a); verify SUCCESS; prior Dylan HOLD (5801735092) yielded \u2014 owner clarification: HOLD/NEVER-MERGE does not bind when agents agree the land moves the project forward positively; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-152-path-c-base-tip-drift",
@@ -8510,6 +8509,70 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/156"
       ],
       "blocked_reason": "OFFERED observe DRAFT @ e6b4ab4; review packet for main #172/#174; do not race; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-7-p15-foundation-review",
+      "scope": "Review P15 finite-rank composition and mathematical foundations; hardening",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "branch": "codex/p15-foundation-review-20260921",
+        "pr": 7,
+        "pr_state": "merged",
+        "head_oid": "70d466d2d9d74009488de7fb08f596c7399abbd9",
+        "merge_oid": "a01c72f1937875b94bfd78e183a6dbbdb2b04da4",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "amend_applied_comment": "5859374795",
+        "hardening_tip": true
+      },
+      "claimed_at": "2026-09-27T20:31:20Z",
+      "heartbeat_at": "2026-09-27T20:31:20Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/7",
+        "https://github.com/d6g8k5htny-coder/main/commit/a01c72f1937875b94bfd78e183a6dbbdb2b04da4",
+        "https://github.com/d6g8k5htny-coder/main/pull/7#issuecomment-5859374795",
+        "https://github.com/d6g8k5htny-coder/main/pull/7#issuecomment-5859461918",
+        "https://github.com/d6g8k5htny-coder/main/pull/7#issuecomment-5848712835"
+      ],
+      "blocked_reason": "RELEASED MERGED @ a01c72f onto hardening (PR tip 70d466d); queue AMEND/ACCEPT-at-stated-scope (5859374795); prior HOLD yielded (owner forward-progress rule); merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 hardening tip"
+    },
+    {
+      "work_id": "main-174-queue-reconciliation-20260927",
+      "scope": "docs: queue reconciliation record for 2026-09-27; nav/process only",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 174,
+        "pr_state": "merged",
+        "head_oid": "0ca5187be6b2cfc4f2e1d3dfc2a42d893b84b059",
+        "merge_oid": "3bfc7367a3526145ae7a79dbb902f53e14873473",
+        "base_branch": "main"
+      },
+      "claimed_at": "2026-09-27T20:31:20Z",
+      "heartbeat_at": "2026-09-27T20:31:20Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/174",
+        "https://github.com/d6g8k5htny-coder/main/commit/3bfc7367a3526145ae7a79dbb902f53e14873473"
+      ],
+      "blocked_reason": "RELEASED MERGED @ 3bfc736 (PR tip 0ca5187); queue reconciliation docs; merge\u2260theorem; sci effect NONE \u2014 main tip"
     }
   ]
 }
