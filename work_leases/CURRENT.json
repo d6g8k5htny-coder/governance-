@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:43:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167); Math- tip 0be9c76 (#89). main #163 tip 65e414f CI green; Math- #87/#88 merge-holds. #124 tip 6ad685c await verify. Updated 2026-09-27T17:43:30Z.",
+  "updated_at": "2026-09-27T17:44:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 23e07a3 (#167); Math- tip 0be9c76 (#89). main #159 tip 85c935e CI green; #163 tip 65e414f; #124 tip 6ad685c await verify. Updated 2026-09-27T17:44:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -6021,21 +6021,26 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 159,
-        "head_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7",
-        "peer_amend": "5850544205"
+        "head_oid": "85c935ee77d58e2b0f614ad061732ad1ff316f50",
+        "peer_amend": "5850544205",
+        "prior_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7",
+        "ci": "public-intake_SUCCESS+public-shop_SUCCESS+verify_SUCCESS",
+        "result_delivery": "f21e222"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-26T22:40:30Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:44:30Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/159",
-        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205"
+        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205",
+        "https://github.com/d6g8k5htny-coder/main/commit/85c935ee77d58e2b0f614ad061732ad1ff316f50",
+        "https://github.com/d6g8k5htny-coder/main/commit/f21e222"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 39161a6; peer AMEND (5850544205): public-intake needs RESULT.md+IDENTITY.json; ERRATUM_CONGRUENCE row stale (Math- #64 landed); unverifiable SIDE24 replica pointer; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 85c935e MERGEABLE CI green\u00d73 (was 39161a6); tip=main-merge + RESULT.md/IDENTITY.json (f21e222); peer packaging AMEND may be satisfied \u2014 await ack/re-review; stale ERRATUM row if still open; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-161-lb-rate-kimi-thm023-hold",
@@ -6564,21 +6569,24 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 159,
-        "head_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7",
-        "finding_comment": "5850544205"
+        "head_oid": "85c935ee77d58e2b0f614ad061732ad1ff316f50",
+        "finding_comment": "5850544205",
+        "delivery_oid": "f21e222"
       },
       "claimed_at": "2026-09-26T22:40:30Z",
-      "heartbeat_at": "2026-09-26T22:40:30Z",
+      "heartbeat_at": "2026-09-27T17:44:30Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205"
+        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205",
+        "https://github.com/d6g8k5htny-coder/main/commit/85c935ee77d58e2b0f614ad061732ad1ff316f50",
+        "https://github.com/d6g8k5htny-coder/main/commit/f21e222"
       ],
       "delegates_to": "main-159-drive-lane-map-incoming",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: RESULT.md+IDENTITY.json delivered @ f21e222 / tip 85c935e for peer AMEND 5850544205; successor re-review OFFERED on observe lease; sci effect NONE"
     },
     {
       "work_id": "math-59-proof-index-blocked-absent-followup",
