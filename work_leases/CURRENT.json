@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:33:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); Math- tip 0be9c76 (#89). main #110 tip d89226c polish AMEND applied; Math- #91 tip 4bdfff7 observe OFFERED. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:32:00Z.",
+  "updated_at": "2026-09-27T18:34:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); Math- tip 0be9c76 (#89). main #111 tip a3e4225 AMEND applied; #110 tip d89226c polish AMEND; Math- #91 observe. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:34:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -809,13 +809,19 @@
         "pr": 111,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598",
+        "head_oid": "a3e42254b43999971eab6ef4698ac073796d6deb",
         "peer_amend": "5848580662",
-        "mergeable": "CONFLICTING"
+        "mergeable": "CONFLICTING",
+        "prior_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598",
+        "delivery_oid": "a3e42254b43999971eab6ef4698ac073796d6deb",
+        "amend_applied_comment": "5858581791",
+        "draft": false,
+        "ready_for_review": true,
+        "ci": "pending_verify"
       },
       "claimed_at": "2026-09-25T19:16:00Z",
-      "heartbeat_at": "2026-09-26T18:05:55Z",
-      "expires_at": "2026-09-27T12:00:00Z",
+      "heartbeat_at": "2026-09-27T18:34:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [
         "docs/math_status/",
@@ -828,11 +834,13 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/111",
-        "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5848580662"
+        "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5848580662",
+        "https://github.com/d6g8k5htny-coder/main/commit/a3e42254b43999971eab6ef4698ac073796d6deb",
+        "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5858581791"
       ],
       "delegates_to": "main-112-tip-observe-e3cd7d4",
       "lanes_note": "PACKET.json overlap with #112 \u2014 serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
-      "blocked_reason": "OFFERED observe DRAFT @ 7b874c0; CONFLICTING; peer AMEND (5848580662): resolve claims/graph.json keeping base CONDITIONAL + append Q-RN5 notes; refresh stale body; name REV-RN3-FARZONE AMEND on STATUS L12; status paths touched \u2014 never MERGE_NOW; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ a3e4225 MERGEABLE ready_for_review; AMEND applied (5858581791) (graph.json CONDITIONAL keep + STATUS_RN_UNIF/PACKET re-pin); CI verify pending; await re-review/land; never MERGE_NOW on status paths; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-20-chart-j0-gate-map",
@@ -5602,22 +5610,26 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 111,
-        "head_oid": "7b874c0bde9d1bfd7fad20f0aa9547ba6d283598",
+        "head_oid": "a3e42254b43999971eab6ef4698ac073796d6deb",
         "finding_comment": "5848580662",
-        "status_paths_touched": true
+        "status_paths_touched": true,
+        "delivery_oid": "a3e42254b43999971eab6ef4698ac073796d6deb",
+        "amend_applied_comment": "5858581791"
       },
       "claimed_at": "2026-09-26T18:05:55Z",
-      "heartbeat_at": "2026-09-26T18:05:55Z",
-      "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "heartbeat_at": "2026-09-27T18:34:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5848580662"
+        "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5848580662",
+        "https://github.com/d6g8k5htny-coder/main/commit/a3e42254b43999971eab6ef4698ac073796d6deb",
+        "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5858581791"
       ],
       "delegates_to": "main-111-rn-unif-walkdown-scope",
-      "blocked_reason": "OFFERED peer AMEND repair; status paths \u2014 this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: peer AMEND 5848580662 delivered @ a3e4225 (5858581791); successor re-review OFFERED on observe lease; sci effect NONE"
     },
     {
       "work_id": "main-110-ready-and-polish",
