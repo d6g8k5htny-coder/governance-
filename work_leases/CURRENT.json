@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:32:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4b709de; hardening tip a01c72f (#7); Math- tip a650f66; trial tip 9a2a2de. HOLD default binds. main #180 eng ACCEPT @ 86c34ee; trial #160 tip f9ef5c2. Updated 2026-09-27T22:32:50Z.",
+  "updated_at": "2026-09-27T22:33:43Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4b709de; hardening tip a01c72f (#7); Math- tip a650f66 (#95); trial tip d1e944a. HOLD default binds. google-drive #3 MERGED dfb418e. Updated 2026-09-27T22:33:43Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9271,23 +9271,27 @@
       "source": {
         "repo": "d6g8k5htny-coder/google-drive",
         "pr": 3,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "2324ae331b29c87869e28f0d05ebd2b5f1a5388d",
         "draft": false,
         "mergeable": "MERGEABLE",
-        "coordination_notice": "5860429350"
+        "coordination_notice": "5860429350",
+        "merge_oid": "dfb418e7bd7f3df2630bc7c89807544b135e5681",
+        "eng_accept_review": "5332419799"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T22:31:02Z",
+      "heartbeat_at": "2026-09-27T22:33:43Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe @ 2324ae3 MERGEABLE; confinement/indexing repairs requested (5860429350); do not race; custody; sci effect NONE",
+      "blocked_reason": "RELEASED MERGED @ dfb418e (PR tip 2324ae3); eng ACCEPT (5332419799) local custody/verifier; merge\u2260theorem; custody; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/google-drive/pull/3",
-        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350"
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
+        "https://github.com/d6g8k5htny-coder/google-drive/commit/dfb418e7bd7f3df2630bc7c89807544b135e5681",
+        "https://github.com/d6g8k5htny-coder/google-drive/pull/3#pullrequestreview-5332419799"
       ]
     },
     {
