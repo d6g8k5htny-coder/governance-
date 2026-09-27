@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:03:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #149 tip 3725ac3 CI gates green; #156 tip 6c27029. Updated 2026-09-27T21:03:40Z.",
+  "updated_at": "2026-09-27T21:06:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). #152 tip 92b97e9 MERGEABLE keep-both; #155 CONFLICTING. Updated 2026-09-27T21:06:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8367,11 +8367,11 @@
         "branch": "cursor/tip-refresh-un-red-ci-ff72",
         "pr": 152,
         "pr_state": "open",
-        "head_oid": "b513d286d3a392341fd99a50e929ce228e4d00fa",
+        "head_oid": "92b97e9c4de5917c3ae8bef6eca7da219784df9c",
         "draft": true,
         "ci": "partial",
         "peer_coord": "5859447061",
-        "prior_oid": "0a268688570656e7e5a4184d2a44b3bf2e65912b",
+        "prior_oid": "b513d286d3a392341fd99a50e929ce228e4d00fa",
         "stand_down_comment": "5859559952",
         "cherry_pick": "df6b700f",
         "confirm_155": "5859643161",
@@ -8379,12 +8379,13 @@
         "reshape_landed_comment": "5859758130",
         "mergeable": "CONFLICTING",
         "author_mergeable_claim": "MERGEABLE",
-        "api_mergeable": "CONFLICTING",
+        "api_mergeable": "MERGEABLE",
         "conflict_comment": "5859765464",
-        "conflict_file": "tests/test_tip_drift_class.py"
+        "conflict_file": "tests/test_tip_drift_class.py",
+        "conflict_resolved_comment": "5859823983"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T21:00:40Z",
+      "heartbeat_at": "2026-09-27T21:06:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8403,9 +8404,11 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859758130",
         "https://github.com/d6g8k5htny-coder/trial/commit/b513d286d3a392341fd99a50e929ce228e4d00fa",
         "https://github.com/d6g8k5htny-coder/trial/commit/df6b700fb07eb47e95ec39e264c238ea1ea0a3ec",
-        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859765464"
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859765464",
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859823983",
+        "https://github.com/d6g8k5htny-coder/trial/commit/92b97e9c4de5917c3ae8bef6eca7da219784df9c"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ b513d28 CONFLICTING (5859765464): one file tests/test_tip_drift_class.py \u2014 keep-both 0017 assert + main test_guard_prefers_checkout_head; reshape otherwise clean; re-merge origin/main before land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 92b97e9 MERGEABLE (5859823983): keep-both conflict resolved; 4-file apply_all + PATH_C_STRICT_TIP payload; tip-drift gates SUCCESS; await ready/land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-153-path-c-descendant-ok",
