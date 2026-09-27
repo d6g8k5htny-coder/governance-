@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:41:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91). tip-drift #155 tip 3a28c1c preferred vehicle; #152 confirm 5859643161. Updated 2026-09-27T20:41:40Z.",
+  "updated_at": "2026-09-27T20:44:20Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip bb24d80 after #153 MERGED 02488f0. #155 tip 3a28c1c still open. Updated 2026-09-27T20:44:20Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8261,7 +8261,7 @@
         "can_land_direct": true
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T20:38:50Z",
+      "heartbeat_at": "2026-09-27T20:44:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8273,7 +8273,7 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/150#issuecomment-5859154134",
         "https://cursor.com/agents/bc-01a0e43c"
       ],
-      "blocked_reason": "OFFERED observe @ f78f651 MERGEABLE; peer KEEP+wording AMEND (5859154134); can land direct (5859622022) without #153 carry; CI tip-drift attributed; do not race; custody; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ f78f651 still OPEN after #153 MERGED (title claimed land #150); peer KEEP+wording AMEND (5859154134); verify whether content superseded; do not race; custody; sci effect NONE"
     },
     {
       "work_id": "main-173-systematic-source-census",
@@ -8400,7 +8400,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/trial",
         "pr": 153,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "aaab116617eb8659cad129e4cc2ef6d923c1f871",
         "draft": true,
         "prior_oid": "9dd7b41e288f18a018d44ed3787b886590d80ef7",
@@ -8408,12 +8408,14 @@
         "converge_comment": "5859557220",
         "cherry_pick_from_152": "df6b700f",
         "base_tip_caution": "prefer keep BASE_TIP 2f7a5a9; DESCENDANT_OK makes refresh optional",
-        "vehicle_update": "5859622022"
+        "vehicle_update": "5859622022",
+        "merge_oid": "02488f07964dc56a0e879e1ca3965126e5572dd6",
+        "trial_tip_after": "bb24d803af943081b8e278813e576c3c4169d016"
       },
       "claimed_at": "2026-09-27T20:15:20Z",
-      "heartbeat_at": "2026-09-27T20:38:50Z",
+      "heartbeat_at": "2026-09-27T20:44:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -8423,9 +8425,11 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/aaab116617eb8659cad129e4cc2ef6d923c1f871",
         "https://github.com/d6g8k5htny-coder/trial/pull/153#issuecomment-5859444738",
         "https://github.com/d6g8k5htny-coder/trial/pull/153#issuecomment-5859557220",
-        "https://github.com/d6g8k5htny-coder/trial/pull/153#issuecomment-5859622022"
+        "https://github.com/d6g8k5htny-coder/trial/pull/153#issuecomment-5859622022",
+        "https://github.com/d6g8k5htny-coder/trial/commit/02488f07964dc56a0e879e1ca3965126e5572dd6",
+        "https://github.com/d6g8k5htny-coder/trial/commit/bb24d803af943081b8e278813e576c3c4169d016"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ aaab116; no longer preferred vehicle (5859622022) \u2014 CONFLICTING, zero github-actions CI, BASE_TIP refresh already stale vs a01c72f; #150 can land direct; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 02488f0 (PR tip aaab116); DESCENDANT_OK tip-drift + #150 land payload; trial tip advanced to bb24d80; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-154-path-c-ancestor-gate",
@@ -8483,7 +8487,7 @@
         "author152_confirm": "5859643161"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T20:41:40Z",
+      "heartbeat_at": "2026-09-27T20:44:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8497,7 +8501,7 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5859643161",
         "https://github.com/d6g8k5htny-coder/trial/commit/3a28c1c8247aea3577b7fb476b79b1e86eaa2bc3"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 3a28c1c PREFERRED land vehicle; #152 author confirm (5859643161) cherry-pick df6b700f clean on 6b2c669; NA-0007 consolidation; tip-drift gates SUCCESS; await full CI; merge origin/main before land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 3a28c1c; #153 MERGED landed DESCENDANT_OK tip-drift; remaining unique: needs_attention inbox + tip_drift_gate; cherry-pick df6b700f still offered; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
