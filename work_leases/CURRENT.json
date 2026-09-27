@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:25:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). main #124 tip 6ad685c CI root-cause fix (5858080024); verify IN_PROGRESS. Updated 2026-09-27T17:25:30Z.",
+  "updated_at": "2026-09-27T17:29:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #60 tip 4eaa851 ready_for_review (main merge); #124 tip 6ad685c await verify. Updated 2026-09-27T17:29:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3296,15 +3296,19 @@
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 60,
         "pr_state": "open",
-        "head_oid": "ad27c6b8802167ae8798221a9fb8ba3365162b63",
+        "head_oid": "4eaa8512301b9290e148a63097361446cb9cd9a1",
         "note_blob": "36cc6cfcc0ab776bc22e5f1f480d4d264b1294a6",
         "note_sha256": "0351da0680e81c2b001338ede50770b9e00fa5cb09aab438940a9b81d56fd866",
         "peer_amend": "5848723841",
-        "copilot_review": "5330619015"
+        "copilot_review": "5330619015",
+        "prior_oid": "ad27c6b8802167ae8798221a9fb8ba3365162b63",
+        "draft": false,
+        "ci": "math-downstream-gates_SUCCESS+exact-check_SUCCESS",
+        "ready_for_review": true
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:29:00Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
       "dependency_lane": "D5",
@@ -3322,10 +3326,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4113544711",
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#pullrequestreview-5330619015",
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4115647653",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4115647668"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4115647668",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/4eaa8512301b9290e148a63097361446cb9cd9a1"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe DRAFT @ ad27c6b; peer AMEND (5848723841) + Copilot (5328274367/5330619015): -O vacuous asserts; covariance Schur floor unproved; Gaussian decay regime; converge #69; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "ACTIVE observe @ 4eaa851 MERGEABLE ready_for_review (was DRAFT @ ad27c6b); tip=merge origin/main only; CI green (gates+exact-check); peer AMEND (5848723841) + Copilot (5330619015) -O/Schur floor still open; converge #69; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-64-endpoint-hessian-erratum",
@@ -5708,24 +5713,26 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 60,
-        "head_oid": "ad27c6b8802167ae8798221a9fb8ba3365162b63",
+        "head_oid": "4eaa8512301b9290e148a63097361446cb9cd9a1",
         "finding_comment": "5848723841",
         "converge_with_pr": 69,
-        "copilot_review": "5330619015"
+        "copilot_review": "5330619015",
+        "draft": false
       },
       "claimed_at": "2026-09-26T18:26:15Z",
-      "heartbeat_at": "2026-09-27T14:12:40Z",
-      "expires_at": "2026-09-28T00:00:00Z",
+      "heartbeat_at": "2026-09-27T17:29:00Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5848723841",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/60#pullrequestreview-5330619015"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/60#pullrequestreview-5330619015",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/4eaa8512301b9290e148a63097361446cb9cd9a1"
       ],
       "delegates_to": "math-60-pin-microdisk-anisotropic",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair (-O CI, Schur/covariance floor, decay regime); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (-O CI, Schur/covariance floor, decay regime); tip 4eaa851 main-merge only; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-52-normalization-wording-amend",
