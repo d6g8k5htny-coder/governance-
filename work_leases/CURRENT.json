@@ -1,7 +1,7 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:32:00Z",
+  "updated_at": "2026-09-27T18:33:00Z",
   "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); Math- tip 0be9c76 (#89). main #110 tip d89226c polish AMEND applied; Math- #91 tip 4bdfff7 observe OFFERED. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:32:00Z.",
   "leases": [
     {
@@ -4783,10 +4783,10 @@
         "pr_state": "open",
         "base_oid": "ae1b92ef1bb794050e584bec1c6f58f9495a018e",
         "prior_pr": 3,
-        "head_oid": "ce18436fe9a1e5562350416abed7ac670dfed2d0"
+        "head_oid": "08bd79ab5ae08c0f4072273aa06d9146de0dd55a"
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T18:32:00Z",
+      "heartbeat_at": "2026-09-27T18:33:00Z",
       "expires_at": "2026-10-02T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4829,10 +4829,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/81#pullrequestreview-5330621180",
         "https://github.com/d6g8k5htny-coder/Math-/pull/82#pullrequestreview-5330626697",
         "https://github.com/d6g8k5htny-coder/Math-/pull/88#pullrequestreview-5330622853",
-        "https://github.com/d6g8k5htny-coder/governance-/commit/ce18436fe9a1e5562350416abed7ac670dfed2d0"
+        "https://github.com/d6g8k5htny-coder/governance-/commit/ce18436fe9a1e5562350416abed7ac670dfed2d0",
+        "https://github.com/d6g8k5htny-coder/governance-/commit/08bd79ab5ae08c0f4072273aa06d9146de0dd55a"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge @ ce18436; sci effect NONE"
+      "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge @ 08bd79a; sci effect NONE"
     },
     {
       "work_id": "main-21-h3-admission-attestations",
