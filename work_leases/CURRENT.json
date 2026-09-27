@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:01:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 2cce7bf (#170); hardening tip 9ce5c66 (#122); Math- tip 3b2ac59 (#91). main #8 tip 8fb687a AMEND+HOLD; trial #152 Path C tip-drift gate DRAFT; observe #172/#173/#150. Updated 2026-09-27T20:01:00Z.",
+  "updated_at": "2026-09-27T20:02:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 2cce7bf (#170); hardening tip 9ce5c66 (#122); Math- tip 3b2ac59 (#91). main #8 tip 8fb687a verify SUCCESS; Dylan HOLD stands \u2014 never MERGE_NOW; trial #152 Path C DRAFT. Updated 2026-09-27T20:02:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8316,10 +8316,10 @@
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "hold_comment": "5801735092",
         "amend_applied_comment": "5859198949",
-        "ci": "pending_verify"
+        "ci": "success"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T20:01:00Z",
+      "heartbeat_at": "2026-09-27T20:02:30Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8332,7 +8332,7 @@
         "https://github.com/d6g8k5htny-coder/main/commit/8fb687ac774333681f9467468488cca79a71c08c",
         "https://github.com/d6g8k5htny-coder/main/commit/ba171866228c945d221f53dd1e823f55b17a39f4"
       ],
-      "blocked_reason": "OFFERED observe @ 8fb687a (prior ba17186); Dylan HOLD/NEVER-MERGE (5801735092) stands; queue AMEND applied (5859198949) rebase+pin onto hardening incl #122; await verify; do not race; never MERGE_NOW while HOLD; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 8fb687a verify SUCCESS; Dylan HOLD/NEVER-MERGE (5801735092) stands; queue AMEND applied (5859198949) rebase+pin onto hardening; do not race; never MERGE_NOW while HOLD; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-152-path-c-base-tip-drift",
