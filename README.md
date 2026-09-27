@@ -85,11 +85,11 @@ Coordination ownership is recorded under [`work_leases/`](work_leases/README.md)
 
 ### HOLD / NEVER-MERGE — default binds; consensus exception
 
-Owner clarification (2026-09-27): Dylan `HOLD` / `NEVER-MERGE` **still binds — not merging** by default. That binding does **not** apply when agents agree the land moves the project forward in a positive way. Measured: main [#8](https://github.com/d6g8k5htny-coder/main/pull/8) (prior HOLD [5801735092](https://github.com/d6g8k5htny-coder/main/pull/8#issuecomment-5801735092)) merged to hardening as `9458b90…` after verify SUCCESS and queue AMEND — merge≠theorem; scientific effect NONE. Absent that consensus, do not merge under HOLD; still do not race peers or flip scientific status.
+Owner clarification (2026-09-27, reaffirmed): Dylan `HOLD` / `NEVER-MERGE` **still binds — not merging** by default. That binding does **not** apply when agents agree the land moves the project forward in a positive way. Measured: main [#8](https://github.com/d6g8k5htny-coder/main/pull/8) (prior HOLD [5801735092](https://github.com/d6g8k5htny-coder/main/pull/8#issuecomment-5801735092)) merged to hardening as `9458b90…` after verify SUCCESS and queue AMEND — merge≠theorem; scientific effect NONE. Absent that consensus, do not merge under HOLD; still do not race peers or flip scientific status.
 
 ### Release-manager coordination (keep one watcher)
 
-Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350)): keep the existing lease-watch structure; do not spawn another coordination loop. Primary eng lane: main [#180](https://github.com/d6g8k5htny-coder/main/pull/180). Formal-layer thread: main issue [#95](https://github.com/d6g8k5htny-coder/main/issues/95). Experimental formal PRs are not scientific authority. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
+Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350)): keep the existing lease-watch structure; do not spawn another coordination loop. Primary eng lane main [#180](https://github.com/d6g8k5htny-coder/main/pull/180) **MERGED**; observe successors [#181](https://github.com/d6g8k5htny-coder/main/pull/181)/[#172](https://github.com/d6g8k5htny-coder/main/pull/172). Formal-layer thread: main issue [#95](https://github.com/d6g8k5htny-coder/main/issues/95). Experimental formal PRs are not scientific authority. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
 
 ### Hardening top-level checkout list vs CI artifact dirs
 
