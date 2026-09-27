@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:57:15Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip aa422b1 (#186); hardening tip a01c72f (#7); Math- tip a650f66; trial tip eb03255. HOLD binds \u2014 not merging. #172 CLOSED SUPERSEDED via #184/#185/#186; Math- #87 52c953c. Updated 2026-09-27T22:57:15Z.",
+  "updated_at": "2026-09-27T23:08:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip ca7f3d7 (#187); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. Timer: #160 CONFLICTING+sanity FAIL; #53 tip 495bdae; observe #161; #87 still 52c953c. Updated 2026-09-27T23:08:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2798,12 +2798,15 @@
         "branch": "cursor/pr16-transverse-r1r5-review-b00c",
         "pr": 53,
         "pr_state": "open",
-        "head_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19",
+        "head_oid": "495bdae981753f2b9cbd01d3ca56ecc3ae949408",
         "peer_amend": "5848728436",
-        "copilot_review": "5330615249"
+        "copilot_review": "5330615249",
+        "prior_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19",
+        "draft": false,
+        "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-26T01:13:20Z",
-      "heartbeat_at": "2026-09-27T14:20:00Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -2816,10 +2819,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/53#discussion_r4113550666",
         "https://github.com/d6g8k5htny-coder/Math-/pull/53#discussion_r4113550678",
         "https://github.com/d6g8k5htny-coder/Math-/pull/53#pullrequestreview-5330615249",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/53#discussion_r4115644928"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53#discussion_r4115644928",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/495bdae981753f2b9cbd01d3ca56ecc3ae949408"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 9a6f8a6; peer AMEND (5848728436) + Copilot (5328280992/5330615249): mixed-jet/Var + bare assert -O bypass; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe READY @ 495bdae MERGEABLE; tip moved from 9a6f8a6; peer/Copilot AMEND process debt if still material; do not race; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-54-proof-availability-audit",
@@ -4578,7 +4582,7 @@
         "copilot_review": "5328290023"
       },
       "claimed_at": "2026-09-26T15:22:45Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -5468,7 +5472,7 @@
         "copilot_review": "5328290023"
       },
       "claimed_at": "2026-09-26T17:46:30Z",
-      "heartbeat_at": "2026-09-27T14:32:00Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6008,12 +6012,15 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 53,
-        "head_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19",
+        "head_oid": "495bdae981753f2b9cbd01d3ca56ecc3ae949408",
         "finding_comment": "5848728436",
-        "copilot_review": "5330615249"
+        "copilot_review": "5330615249",
+        "prior_oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19",
+        "draft": false,
+        "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-26T18:26:55Z",
-      "heartbeat_at": "2026-09-27T14:20:00Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6021,10 +6028,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/53#issuecomment-5848728436",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/53#pullrequestreview-5330615249"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/53#pullrequestreview-5330615249",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/495bdae981753f2b9cbd01d3ca56ecc3ae949408"
       ],
       "delegates_to": "math-53-pin-neighborhood-recon",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe READY @ 495bdae MERGEABLE; tip moved from 9a6f8a6; peer/Copilot AMEND process debt if still material; do not race; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-152-single-account-merge-docs",
@@ -6320,7 +6328,7 @@
         "post94_comment": "5860339603"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T22:52:10Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -6364,7 +6372,7 @@
         "post94_comment": "5860341403"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T22:52:10Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7392,7 +7400,7 @@
         "tip_push_comment": "5860575976"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:52:10Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7455,7 +7463,7 @@
         "tip_push_comment": "5860575976"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:52:10Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7518,7 +7526,7 @@
         "superseded_intermediate": "bc85130c12585f641ebb9b9ac3bee0ddd224cbf3"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:52:10Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7579,7 +7587,7 @@
         "superseded_intermediate": "bc85130c12585f641ebb9b9ac3bee0ddd224cbf3"
       },
       "claimed_at": "2026-09-27T01:08:00Z",
-      "heartbeat_at": "2026-09-27T22:52:10Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9234,7 +9242,7 @@
         "coordination_notice": "5860429350"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T22:39:30Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9260,7 +9268,7 @@
         "pr_state": "open",
         "head_oid": "368efbf51c182d8a5fc9dab3efda4c4d92c1a829",
         "draft": true,
-        "mergeable": "MERGEABLE",
+        "mergeable": "CONFLICTING",
         "coordination_notice": "5860429350",
         "prior_oid": "f9ef5c2dfa37266b8ba66712da5811503b807b21",
         "ci": "failure",
@@ -9269,13 +9277,13 @@
         "ci_fail_test": "test_batch846_tip_or_eng_parent_pin_repair"
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T22:43:50Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ 368efbf MERGEABLE; sanity FAIL run 36355782085 \u2014 test_batch846_tip_or_eng_parent_pin_repair tip_sha drift (inventory d1e944a vs repair b355110); formal-gate SUCCESS; repair OFFERED do not race; experimental formal \u2260 scientific authority; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe DRAFT @ 368efbf CONFLICTING; sanity FAIL (batch846 tip_sha pin drift); formal-gate SUCCESS; tip-drift vs trial main b1152e8; repair OFFERED do not race; experimental formal \u2260 scientific authority; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/160",
         "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
@@ -9668,6 +9676,68 @@
       ],
       "delegates_to": "main-172-dropbox-reconciliation-tool",
       "blocked_reason": "RELEASED MERGED @ aa422b1 (PR tip ea1e934) \u2014 main tip; Dropbox intake #172 successor; custody SHA-256/content_hash screens recorded; merge\u2260theorem; custody; sci effect NONE"
+    },
+    {
+      "work_id": "main-187-queue-reconciliation-addendum",
+      "scope": "Queue reconciliation \u00a77: formal lane repairs and #172 split into #184\u2013#186; eng/docs only",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 187,
+        "pr_state": "merged",
+        "head_oid": "5515a42b643e72696e96d6e2238d5516912e130e",
+        "merge_oid": "ca7f3d7eafedd4ef0e70f4f324a6b9744eaee8e0"
+      },
+      "claimed_at": "2026-09-27T23:08:00Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/187",
+        "https://github.com/d6g8k5htny-coder/main/commit/ca7f3d7eafedd4ef0e70f4f324a6b9744eaee8e0",
+        "https://github.com/d6g8k5htny-coder/main/commit/5515a42b643e72696e96d6e2238d5516912e130e"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED MERGED @ ca7f3d7 (PR tip 5515a42) \u2014 main tip; queue reconciliation \u00a77; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "trial-161-needs-attention-cycles",
+      "scope": "needs_attention cycles 2\u20133: resolve NA-0003/0009/0011, log NA-0012; yield NA-0010 to #160; eng only",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 161,
+        "pr_state": "open",
+        "head_oid": "9d465285155b1ddb60fc48b3e9a1cabe08debbae",
+        "draft": true,
+        "mergeable": "MERGEABLE",
+        "ci": "success",
+        "related_pr": 160
+      },
+      "claimed_at": "2026-09-27T23:08:00Z",
+      "heartbeat_at": "2026-09-27T23:08:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/161",
+        "https://github.com/d6g8k5htny-coder/trial/commit/9d465285155b1ddb60fc48b3e9a1cabe08debbae"
+      ],
+      "delegates_to": "trial-160-layer1-formal-lane",
+      "blocked_reason": "OFFERED observe DRAFT @ 9d46528 MERGEABLE CI SUCCESS; NA cycle hygiene; do not race #160; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
