@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:58:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 3bfc736 (#174); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip moving. #152 tip b513d28 CONFLICTING test_tip_drift_class keep-both. Updated 2026-09-27T20:58:40Z.",
+  "updated_at": "2026-09-27T21:00:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 6a3a8ca (#175 MERGED); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 78ebd3b. #152/#155 CONFLICTING reshape; #172 tip 10cd481. Updated 2026-09-27T21:00:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4883,7 +4883,7 @@
         "head_oid": "bf5ce700ae64bc4205a03d92d38a743097552ae0"
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T20:01:00Z",
+      "heartbeat_at": "2026-09-27T21:00:40Z",
       "expires_at": "2026-10-02T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -8220,7 +8220,7 @@
         "amend_oid": "34807df60207ca514ddb634c38c518f3799f27f2"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T20:22:20Z",
+      "heartbeat_at": "2026-09-27T21:00:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8384,7 +8384,7 @@
         "conflict_file": "tests/test_tip_drift_class.py"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T20:58:40Z",
+      "heartbeat_at": "2026-09-27T21:00:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8510,7 +8510,7 @@
         "mergeable": "CONFLICTING"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T20:48:30Z",
+      "heartbeat_at": "2026-09-27T21:00:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8608,7 +8608,7 @@
         "base_branch": "main"
       },
       "claimed_at": "2026-09-27T20:31:20Z",
-      "heartbeat_at": "2026-09-27T20:31:20Z",
+      "heartbeat_at": "2026-09-27T21:00:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -8618,7 +8618,63 @@
         "https://github.com/d6g8k5htny-coder/main/pull/174",
         "https://github.com/d6g8k5htny-coder/main/commit/3bfc7367a3526145ae7a79dbb902f53e14873473"
       ],
-      "blocked_reason": "RELEASED MERGED @ 3bfc736 (PR tip 0ca5187); queue reconciliation docs; merge\u2260theorem; sci effect NONE \u2014 main tip"
+      "blocked_reason": "RELEASED MERGED @ 3bfc736 (PR tip 0ca5187); queue reconciliation docs; merge\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-175-q0-embedded-source-recovery",
+      "scope": "Recover exact embedded q0 sources; reconcile R2 rows without running archived code; custody",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 175,
+        "pr_state": "merged",
+        "head_oid": "c0c2aa476d03c93cf41d6874c456636cd59b6e8b",
+        "merge_oid": "6a3a8ca356f0a1963614707b2773e652c8059a03",
+        "base_branch": "main"
+      },
+      "claimed_at": "2026-09-27T21:00:40Z",
+      "heartbeat_at": "2026-09-27T21:00:40Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/175",
+        "https://github.com/d6g8k5htny-coder/main/commit/6a3a8ca356f0a1963614707b2773e652c8059a03"
+      ],
+      "blocked_reason": "RELEASED MERGED @ 6a3a8ca (PR tip c0c2aa4); q0 embedded source recovery / R2 reconcile; merge\u2260theorem; custody/eng; sci effect NONE \u2014 main tip"
+    },
+    {
+      "work_id": "trial-149-dropbox-intake-digest",
+      "scope": "Dropbox intake digest \u2014 Dylan shared math corpus pointers; custody",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 149,
+        "pr_state": "open",
+        "head_oid": "3725ac3d4e9eea0903f24f10a5347d74ec2fcb14",
+        "draft": true
+      },
+      "claimed_at": "2026-09-27T21:00:40Z",
+      "heartbeat_at": "2026-09-27T21:00:40Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/149"
+      ],
+      "blocked_reason": "OFFERED observe DRAFT @ 3725ac3; Dropbox intake digest; do not race; custody; sci effect NONE"
     }
   ]
 }
