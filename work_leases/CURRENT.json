@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:53:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 4dd7bdc. HOLD default binds (not merging). trial #159 CI green = NA-0009 resolution_evidence candidate; await land. Updated 2026-09-27T21:53:50Z.",
+  "updated_at": "2026-09-27T21:54:17Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 4dd7bdc. HOLD default binds (not merging). trial #155+#159 both CI SUCCESS\u00d75; await #159 land. Updated 2026-09-27T21:54:17Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8525,7 +8525,7 @@
         "pr_state": "open",
         "head_oid": "d3fabdc7b64316e4ec0b12aa5b7bfcc6ae4182cf",
         "draft": true,
-        "ci": "partial_in_progress",
+        "ci": "success",
         "preferred_vehicle": true,
         "peer_vehicle_comment": "5859619659",
         "cherry_pick_from_152": "df6b700f",
@@ -8541,7 +8541,7 @@
         "resolution_evidence_comment": "5860160021"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:53:50Z",
+      "heartbeat_at": "2026-09-27T21:54:17Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8568,9 +8568,10 @@
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36351873748",
         "https://github.com/d6g8k5htny-coder/trial/commit/d3fabdc7b64316e4ec0b12aa5b7bfcc6ae4182cf",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860124874",
-        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860160021"
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860160021",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36352852822"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE; NA-0009 card resolution_evidence candidate points at #159 @ 16a7a64 run 36352797542 (5860160021); await #159 land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE; CI SUCCESS\u00d75 (run 36352852822); NA-0009 classify on tip; resolution_evidence still points at #159 @ 16a7a64 (36352797542); await #159 land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
