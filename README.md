@@ -89,7 +89,7 @@ Owner clarification (2026-09-27, reaffirmed): Dylan `HOLD` / `NEVER-MERGE` **sti
 
 ### Release-manager coordination (keep one watcher)
 
-Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350)): keep the existing lease-watch structure; do not spawn another coordination loop. Primary eng lane main [#180](https://github.com/d6g8k5htny-coder/main/pull/180) **MERGED**; observe successors [#181](https://github.com/d6g8k5htny-coder/main/pull/181)/[#172](https://github.com/d6g8k5htny-coder/main/pull/172). Formal-layer thread: main issue [#95](https://github.com/d6g8k5htny-coder/main/issues/95). Experimental formal PRs are not scientific authority. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
+Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350)): keep the existing lease-watch structure; do not spawn another coordination loop. Primary eng [#180](https://github.com/d6g8k5htny-coder/main/pull/180) **MERGED**; [#181](https://github.com/d6g8k5htny-coder/main/pull/181) **MERGED** `447a77f…` (main tip). [#172](https://github.com/d6g8k5htny-coder/main/pull/172) keep DRAFT + narrow successor (scope-isolation AMEND). Formal-layer thread: main issue [#95](https://github.com/d6g8k5htny-coder/main/issues/95). Experimental formal PRs are not scientific authority. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
 
 ### Hardening top-level checkout list vs CI artifact dirs
 
