@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T02:33:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). main #166 author ack 5851985859 Copilot findings open; Math- #89 tip e2e427e. Updated 2026-09-27T02:33:30Z.",
+  "updated_at": "2026-09-27T02:36:10Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; hardening tip 38a3e07 (#135); Math- tip 0333379 (#86). Math- #89 Copilot 5328575240 symlink --root AMEND. Updated 2026-09-27T02:36:10Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -4697,7 +4697,7 @@
         "prior_pr": 3
       },
       "claimed_at": "2026-09-26T15:59:55Z",
-      "heartbeat_at": "2026-09-27T02:33:30Z",
+      "heartbeat_at": "2026-09-27T02:36:10Z",
       "expires_at": "2026-09-29T00:00:00Z",
       "state": "ACTIVE",
       "write_scope": [
@@ -4726,7 +4726,8 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779",
         "https://github.com/d6g8k5htny-coder/main/pull/166#pullrequestreview-5328560259",
         "https://github.com/d6g8k5htny-coder/Math-/commit/e2e427e94044b63ae573e5e1858aacfa38603769",
-        "https://github.com/d6g8k5htny-coder/main/pull/166#issuecomment-5851985859"
+        "https://github.com/d6g8k5htny-coder/main/pull/166#issuecomment-5851985859",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328575240"
       ],
       "delegates_to": null,
       "blocked_reason": "ACTIVE successor ledger on #5 after #3 merge; sci effect NONE"
@@ -7073,11 +7074,12 @@
         "cert_dir": "certificates/bf_six_pin_scalar_20260926/",
         "prior_oid": "1ec186bb529d36b90d498d34063b0bd4c022639a",
         "hessian_dir": "certificates/bf_six_pin_hessian_20260926/",
-        "copilot_review": "5328555779",
-        "manifest_repair": "e2e427e"
+        "copilot_review": "5328575240",
+        "manifest_repair": "e2e427e",
+        "prior_copilot": "5328555779"
       },
       "claimed_at": "2026-09-27T02:01:00Z",
-      "heartbeat_at": "2026-09-27T02:32:30Z",
+      "heartbeat_at": "2026-09-27T02:36:10Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7090,10 +7092,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36286057342",
         "https://github.com/d6g8k5htny-coder/Math-/commit/1ec186bb529d36b90d498d34063b0bd4c022639a",
         "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/e2e427e94044b63ae573e5e1858aacfa38603769"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/e2e427e94044b63ae573e5e1858aacfa38603769",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328575240",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#discussion_r4113833623"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ e2e427e MERGEABLE CI green; author delivered SOURCE_MANIFEST+verifier for scalar+Hessian (responds Copilot 5328555779); await re-review/nonauthor; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ e2e427e MERGEABLE CI green; Copilot re-review (5328575240): reject symlink --root before resolve; CI test-suite enforcement also open; prior manifest delivery stands; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-89-immutable-manifest-amend",
@@ -7168,21 +7172,52 @@
         "pr": 89,
         "head_oid": "e2e427e94044b63ae573e5e1858aacfa38603769",
         "prior_copilot": "5328555779",
-        "delivery_oid": "e2e427e94044b63ae573e5e1858aacfa38603769"
+        "delivery_oid": "e2e427e94044b63ae573e5e1858aacfa38603769",
+        "copilot_rereview": "5328575240"
       },
       "claimed_at": "2026-09-27T02:32:30Z",
-      "heartbeat_at": "2026-09-27T02:32:30Z",
+      "heartbeat_at": "2026-09-27T02:36:10Z",
+      "expires_at": "2026-09-28T12:00:00Z",
+      "state": "SUPERSEDED",
+      "write_scope": [],
+      "dependency_lane": "D5",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/commit/e2e427e94044b63ae573e5e1858aacfa38603769",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328575240"
+      ],
+      "delegates_to": "math-89-bf-six-pin-scalar-bound",
+      "blocked_reason": "SUPERSEDED by Copilot 5328575240 still-AMEND (symlink --root); repair offered separately; sci effect NONE"
+    },
+    {
+      "work_id": "math-89-symlink-root-amend-repair",
+      "scope": "Reject symlink --root in bf_source_integrity before resolve; tighten CI suite enforcement",
+      "owner": {
+        "provider": "github",
+        "model": "copilot",
+        "agent": "copilot-pull-request-reviewer[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 89,
+        "head_oid": "e2e427e94044b63ae573e5e1858aacfa38603769",
+        "copilot_review": "5328575240",
+        "discussion": "4113833623"
+      },
+      "claimed_at": "2026-09-27T02:36:10Z",
+      "heartbeat_at": "2026-09-27T02:36:10Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/Math-/commit/e2e427e94044b63ae573e5e1858aacfa38603769",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328555779"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#pullrequestreview-5328575240",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/89#discussion_r4113833623"
       ],
       "delegates_to": "math-89-bf-six-pin-scalar-bound",
-      "blocked_reason": "OFFERED re-review after manifest delivery; this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED Copilot eng repair (symlink --root + CI suite); this App does not race; sci effect NONE"
     }
   ]
 }
