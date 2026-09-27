@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:46:39Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 8c00f19 (#87); trial tip 792ba7b (#121); governance- tip 365eafe (#5). HOLD binds — not merging. #96 tip ac9cf41 CI SUCCESS; OpenAI continuation window (5860936419); only open Math PR. Updated 2026-09-27T23:46:39Z.",
+  "updated_at": "2026-09-27T23:50:02Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 22e79e8 (#96); trial tip 792ba7b (#121); governance- tip 365eafe (#5). HOLD binds — not merging open peers. #96 MERGED formal gates; no open Math PRs observed. Updated 2026-09-27T23:50:02Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9979,7 +9979,7 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "chatgpt/required-formal-enforcement-20260927",
         "pr": 96,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "ac9cf41252feca47d29ad3c4b5215082702db28a",
         "draft": false,
         "mergeable": "MERGEABLE",
@@ -10003,12 +10003,15 @@
         "prior_ci_success_oid": "48293368472e4078a0705c99ee286530d4d449e0",
         "prior_ci_success_run": "36359346661",
         "openai_continuation_comment": "5860936419",
-        "coordination_window": true
+        "coordination_window": false,
+        "merge_oid": "22e79e84917e6bf5bec606c21ce713159d12dddf",
+        "final_evidence_comment": "5860954536",
+        "grok_accept_ac9cf41_comment": "5860939592"
       },
       "claimed_at": "2026-09-27T23:21:20Z",
-      "heartbeat_at": "2026-09-27T23:46:39Z",
+      "heartbeat_at": "2026-09-27T23:50:02Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -10028,10 +10031,13 @@
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36359346661",
         "https://github.com/d6g8k5htny-coder/Math-/commit/ac9cf41252feca47d29ad3c4b5215082702db28a",
         "https://github.com/d6g8k5htny-coder/Math-/actions/runs/36359581583",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/96#issuecomment-5860936419"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/96#issuecomment-5860936419",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/22e79e84917e6bf5bec606c21ce713159d12dddf",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/96#issuecomment-5860954536",
+        "https://github.com/d6g8k5htny-coder/main/pull/180#issuecomment-5860939592"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ ac9cf41 MERGEABLE clean CI SUCCESS (run 36359581583); OpenAI continuation pickup (5860936419) — do not rewrite/merge concurrently; prior Grok covered 4829336 not this head; await OpenAI exact-head review/merge; this App observe-only; HOLD binds (not merging); eng≠theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 22e79e8 (PR tip ac9cf41); required math-downstream-gates + formal evidence; Grok eng ACCEPT @ ac9cf41 (main 5860939592) + OpenAI receipt (5860954536); merge≠theorem; eng≠theorem; sci effect NONE — Math- tip"
     },
     {
       "work_id": "main-189-op-privacy-github-scope",
@@ -10081,7 +10087,7 @@
         "negative_run": "36358390847"
       },
       "claimed_at": "2026-09-27T23:26:20Z",
-      "heartbeat_at": "2026-09-27T23:29:18Z",
+      "heartbeat_at": "2026-09-27T23:50:02Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
