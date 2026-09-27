@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:15:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #172 tip 34807df eng ACCEPT DRAFT; trial #152/#153/#154 tip-drift converge \u2014 do not race. Updated 2026-09-27T20:15:20Z.",
+  "updated_at": "2026-09-27T20:19:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #172 tip 34807df DRAFT ACCEPT; trial tip-drift #154 tip 0bd79e1. Updated 2026-09-27T20:19:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8418,12 +8418,13 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 154,
         "pr_state": "open",
-        "head_oid": "e828d528894dfc41c2c537a40ceeddf34332460f",
+        "head_oid": "0bd79e1b8ba4ef4a7f59527d4ebc0517d26fea83",
         "draft": true,
-        "ci": "partial"
+        "ci": "pending",
+        "prior_oid": "e828d528894dfc41c2c537a40ceeddf34332460f"
       },
       "claimed_at": "2026-09-27T20:15:20Z",
-      "heartbeat_at": "2026-09-27T20:15:20Z",
+      "heartbeat_at": "2026-09-27T20:19:30Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8431,9 +8432,11 @@
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/154",
-        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859447061"
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859447061",
+        "https://github.com/d6g8k5htny-coder/trial/commit/0bd79e1b8ba4ef4a7f59527d4ebc0517d26fea83",
+        "https://github.com/d6g8k5htny-coder/trial/commit/8dfdb6f2682dd681c5a283c8748e36b9d8c1df15"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ e828d52; ancestry tip gate; tip-drift checks SUCCESS; converge via #153 preferred; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 0bd79e1 (via 8dfdb6f anonymous-first + Tip-drift gate step name); ancestry tip gate; tip-drift checks green; await sanity; converge via #153 preferred; do not race; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
