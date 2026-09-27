@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T19:32:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124); Math- tip 3b2ac59 (#91). main #122 tip 8c38e13 A1 AMEND applied; verify FAIL pinned_sources. Updated 2026-09-27T19:32:00Z.",
+  "updated_at": "2026-09-27T19:33:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 2cce7bf (#170 MERGED); hardening tip d4ad3bb (#171 MERGED); Math- tip 3b2ac59 (#91). main #122 tip 4d9784f CI repair; await verify. Updated 2026-09-27T19:33:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -828,10 +828,11 @@
         "merge_oid": "8e2eda4dec88661f4e80ee154a471bd1cab4525a",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "hardening_tip": true,
-        "claims_check_repair": "169"
+        "claims_check_repair": "169",
+        "claims_gate_repair": "171"
       },
       "claimed_at": "2026-09-25T19:16:00Z",
-      "heartbeat_at": "2026-09-27T19:05:00Z",
+      "heartbeat_at": "2026-09-27T19:33:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [
@@ -854,7 +855,7 @@
       ],
       "delegates_to": "main-112-tip-observe-e3cd7d4",
       "lanes_note": "PACKET.json overlap with #112 \u2014 serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
-      "blocked_reason": "RELEASED MERGED @ 8e2eda4 onto hardening (PR tip a3e4225); RN-UNIF walkdown scope; AMEND applied (5858581791); verify was FAIL 36340909390 (H3-RUNG-FLOOR) at tip \u2014 merge\u2260CI-green; process debt if still material; never MERGE_NOW doctrine stands; sci effect NONE | claims_check #134+#111 interaction repaired by #169 @ cad99e2; claims_gate verify-FAIL 36340909390 process debt if still material; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 8e2eda4 onto hardening (PR tip a3e4225); RN-UNIF walkdown scope; AMEND applied (5858581791); verify was FAIL 36340909390 (H3-RUNG-FLOOR) at tip \u2014 merge\u2260CI-green; process debt if still material; never MERGE_NOW doctrine stands; sci effect NONE | claims_check #134+#111 interaction repaired by #169 @ cad99e2; claims_gate verify-FAIL 36340909390 process debt if still material; sci effect NONE | claims_gate H3-RUNG-FLOOR unresolved_prose repaired by #171 @ d4ad3bb; sci effect NONE"
     },
     {
       "work_id": "math-20-chart-j0-gate-map",
@@ -2686,8 +2687,8 @@
         "branch": "chatgpt/sard-g-execution-repair-20260925",
         "pr": 122,
         "pr_state": "open",
-        "head_oid": "8c38e13ce54425920c4c2ead683ea1540c10fa8d",
-        "prior_oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54",
+        "head_oid": "4d9784f713df1973feb27f05d8daacd97445ef60",
+        "prior_oid": "8c38e13ce54425920c4c2ead683ea1540c10fa8d",
         "merge_base_oid": "7caac254cbba5f513b2dc0afb56b78a598bc0c93",
         "tree_oid": "c20b9638422c6cd594353aaae75a5e1a69fae3a6",
         "proof_blob": "8f86e0c9ef91fde473e2344a3e461c31f63f8529",
@@ -2697,14 +2698,16 @@
         "amend_applied_comment": "5859099591",
         "draft": false,
         "ready_for_review": true,
-        "ci": "verify_FAILURE",
+        "ci": "pending_verify",
         "ci_fail_run": "36344545141",
         "ci_push_fail": "36344543447",
         "ci_fail_reason": "pinned_sources_check SOURCE_MAP review_reports[] needs PINNED_SOURCES --write",
-        "base_branch": "chatgpt/drive-github-hardening-20260919"
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "ci_repair_oid": "4d9784f713df1973feb27f05d8daacd97445ef60",
+        "ci_repair_comment": "5859116302"
       },
       "claimed_at": "2026-09-26T01:07:40Z",
-      "heartbeat_at": "2026-09-27T19:32:00Z",
+      "heartbeat_at": "2026-09-27T19:33:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "ACTIVE",
       "write_scope": [],
@@ -2740,10 +2743,12 @@
         "https://github.com/d6g8k5htny-coder/main/commit/8c38e13ce54425920c4c2ead683ea1540c10fa8d",
         "https://github.com/d6g8k5htny-coder/main/commit/2e07c1071b480e87bf7c980cdfa14b8d99fa91b5",
         "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859099591",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36344545141"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36344545141",
+        "https://github.com/d6g8k5htny-coder/main/commit/4d9784f713df1973feb27f05d8daacd97445ef60",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859116302"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe @ 8c38e13 MERGEABLE ready_for_review (hardening); A1 geometry AMEND applied (5859099591) @ 2e07c10; CI verify FAIL 36344545141 (pinned_sources_check: SOURCE_MAP review_reports[] undeclared \u2014 regenerate PINNED_SOURCES --write); CI repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "ACTIVE observe @ 4d9784f MERGEABLE ready_for_review (hardening); A1 AMEND @ 2e07c10; CI repair delivered @ 4d9784f (5859116302) SOURCE_MAP off-tree cite shape; await hosted verify SUCCESS then land; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-52-d2-cumulative-confirm",
@@ -7954,18 +7959,19 @@
         "claims_check_repair": "169"
       },
       "claimed_at": "2026-09-27T18:40:00Z",
-      "heartbeat_at": "2026-09-27T19:05:00Z",
+      "heartbeat_at": "2026-09-27T19:33:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "SUPERSEDED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "delegates_to": "main-111-rn-unif-walkdown-scope",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36340909390",
-        "https://github.com/d6g8k5htny-coder/main/pull/111"
+        "https://github.com/d6g8k5htny-coder/main/pull/111",
+        "https://github.com/d6g8k5htny-coder/main/commit/d4ad3bbe9dc3eb9e7c6c61a3fe57dbdf3027e10b"
       ],
-      "blocked_reason": "SUPERSEDED: #111 MERGED; claims_check interaction repaired by #169 @ cad99e2; claims_gate H3-RUNG-FLOOR verify-FAIL 36340909390 process debt if still material on tip; sci effect NONE"
+      "blocked_reason": "RELEASED: claims_gate H3-RUNG-FLOOR debt repaired by #171 MERGED @ d4ad3bb; sci effect NONE"
     },
     {
       "work_id": "main-168-r2-source-reconcile",
@@ -8103,24 +8109,146 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 122,
-        "head_oid": "8c38e13ce54425920c4c2ead683ea1540c10fa8d",
+        "head_oid": "4d9784f713df1973feb27f05d8daacd97445ef60",
         "ci_fail_run": "36344545141",
         "ci_push_fail": "36344543447",
-        "base_branch": "chatgpt/drive-github-hardening-20260919"
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "delivery_oid": "4d9784f713df1973feb27f05d8daacd97445ef60",
+        "ci_repair_comment": "5859116302"
       },
       "claimed_at": "2026-09-27T19:32:00Z",
-      "heartbeat_at": "2026-09-27T19:32:00Z",
+      "heartbeat_at": "2026-09-27T19:33:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "delegates_to": "main-122-sard-g-execution-repair",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36344545141",
-        "https://github.com/d6g8k5htny-coder/main/pull/122"
+        "https://github.com/d6g8k5htny-coder/main/pull/122",
+        "https://github.com/d6g8k5htny-coder/main/commit/4d9784f713df1973feb27f05d8daacd97445ef60",
+        "https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5859116302"
       ],
-      "blocked_reason": "OFFERED CI repair after verify FAIL 36344545141: pinned_sources_check problems=3 (SOURCE_MAP review_reports[] undeclared; regenerate PINNED_SOURCES --write); this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: pinned_sources CI repair delivered @ 4d9784f (5859116302); await verify green; sci effect NONE"
+    },
+    {
+      "work_id": "main-170-grok-uploads-review-complete",
+      "scope": "Complete Grok uploads review: Part 1 + SUMMARY/REVIEW.md; finishes #167 follow-up",
+      "owner": {
+        "provider": "anthropic",
+        "model": "claude",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 170,
+        "pr_state": "merged",
+        "head_oid": "544fafbf035dc770aa454f48fc2c9aa48f3fdf47",
+        "merge_oid": "2cce7bf4c9d2381d95e532186bcc7aae67726d8a",
+        "base_branch": "main",
+        "successor_of": 167
+      },
+      "claimed_at": "2026-09-27T19:33:00Z",
+      "heartbeat_at": "2026-09-27T19:33:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/170",
+        "https://github.com/d6g8k5htny-coder/main/commit/2cce7bf4c9d2381d95e532186bcc7aae67726d8a",
+        "https://github.com/d6g8k5htny-coder/main/commit/544fafbf035dc770aa454f48fc2c9aa48f3fdf47"
+      ],
+      "blocked_reason": "RELEASED MERGED @ 2cce7bf (PR tip 544fafb); Grok uploads Part 1+SUMMARY; merge\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-171-h3-rung-floor-source-bind",
+      "scope": "Bind H3-RUNG-FLOOR to frozen repo bytes; fix claims_gate unresolved_prose after #111 merge-with-red-verify",
+      "owner": {
+        "provider": "cursor",
+        "model": null,
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 171,
+        "pr_state": "merged",
+        "head_oid": "78946c47a3f97ec52dc5b55ac1a011c3a8b2616a",
+        "merge_oid": "d4ad3bbe9dc3eb9e7c6c61a3fe57dbdf3027e10b",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "hardening_tip": true,
+        "repairs": "111-claims-gate"
+      },
+      "claimed_at": "2026-09-27T19:33:00Z",
+      "heartbeat_at": "2026-09-27T19:33:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/171",
+        "https://github.com/d6g8k5htny-coder/main/commit/d4ad3bbe9dc3eb9e7c6c61a3fe57dbdf3027e10b",
+        "https://github.com/d6g8k5htny-coder/main/commit/78946c47a3f97ec52dc5b55ac1a011c3a8b2616a"
+      ],
+      "blocked_reason": "RELEASED MERGED @ d4ad3bb onto hardening (PR tip 78946c4); H3-RUNG-FLOOR source bind; repairs #111 merge-with-red-verify claims_gate debt; merge\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-172-dropbox-reconciliation-tool",
+      "scope": "Dropbox reconciliation tool: find files not already in Git; custody/eng only",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 172,
+        "pr_state": "open",
+        "head_oid": "fc6898c365bf7bc3130b6f1266ef4147c645f94b",
+        "draft": true,
+        "base_branch": "main"
+      },
+      "claimed_at": "2026-09-27T19:33:00Z",
+      "heartbeat_at": "2026-09-27T19:33:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/172"
+      ],
+      "blocked_reason": "OFFERED observe DRAFT @ fc6898c; Dropbox reconciliation tool; custody/eng; do not race; sci effect NONE"
+    },
+    {
+      "work_id": "trial-150-dropbox-drive-gap-audit",
+      "scope": "Dropbox\u2192Drive/GitHub gap audit 2026-09-27; custody inventory; sci NONE",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 150,
+        "pr_state": "open",
+        "head_oid": "f78f651bd0c534274479cd8643fea8928f007235",
+        "draft": false
+      },
+      "claimed_at": "2026-09-27T19:33:00Z",
+      "heartbeat_at": "2026-09-27T19:33:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/150"
+      ],
+      "blocked_reason": "OFFERED observe @ f78f651; Dropbox\u2192Drive/GitHub gap audit; custody; do not race; sci effect NONE"
     }
   ]
 }
