@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:55:23Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 632cc5e (#159+#157). HOLD default binds (not merging). NA-0009 landed via #159. Updated 2026-09-27T21:55:23Z.",
+  "updated_at": "2026-09-27T21:57:39Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip d463b4c. HOLD default binds (not merging). main #172 tip 63dbb6f; trial #152 tip b6609be post-#159 sync. Updated 2026-09-27T21:57:39Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8229,17 +8229,18 @@
         "repo": "d6g8k5htny-coder/main",
         "pr": 172,
         "pr_state": "open",
-        "head_oid": "10cd4819963de9da84c6353cdc75d8d2cb2c9e72",
+        "head_oid": "63dbb6fc4505be017fb4ba49cf60772aa0fb1093",
         "draft": true,
         "base_branch": "main",
-        "prior_oid": "2e186de59c568f07df4a2bfb69e54a07d6e85605",
+        "prior_oid": "10cd4819963de9da84c6353cdc75d8d2cb2c9e72",
         "ci": "success",
         "branch": "claude/review-grok-github-uploads-gsthj3",
         "peer_accept": "5859448682",
-        "amend_oid": "34807df60207ca514ddb634c38c518f3799f27f2"
+        "amend_oid": "34807df60207ca514ddb634c38c518f3799f27f2",
+        "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T21:33:10Z",
+      "heartbeat_at": "2026-09-27T21:57:39Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8254,9 +8255,10 @@
         "https://github.com/d6g8k5htny-coder/main/commit/34807df60207ca514ddb634c38c518f3799f27f2",
         "https://github.com/d6g8k5htny-coder/main/commit/2e186de59c568f07df4a2bfb69e54a07d6e85605",
         "https://github.com/d6g8k5htny-coder/main/commit/29290c4d6937c635b21e2592d91e6923364ba149",
-        "https://github.com/d6g8k5htny-coder/main/commit/10cd4819963de9da84c6353cdc75d8d2cb2c9e72"
+        "https://github.com/d6g8k5htny-coder/main/commit/10cd4819963de9da84c6353cdc75d8d2cb2c9e72",
+        "https://github.com/d6g8k5htny-coder/main/commit/63dbb6fc4505be017fb4ba49cf60772aa0fb1093"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 10cd481; per-file extract errors (review residual); connector harvest + fail-closed allow-list; eng ACCEPT (5859448682); CI SUCCESS; await ready; do not race; custody/eng; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 63dbb6f MERGEABLE; tip adds owner standing privacy/relevance rule; verify/public-intake/public-shop SUCCESS; do not race; custody; sci effect NONE"
     },
     {
       "work_id": "trial-150-dropbox-drive-gap-audit",
@@ -8386,17 +8388,17 @@
         "branch": "cursor/tip-refresh-un-red-ci-ff72",
         "pr": 152,
         "pr_state": "open",
-        "head_oid": "92b97e9c4de5917c3ae8bef6eca7da219784df9c",
+        "head_oid": "b6609be2af9a602764aeb93eb6e6b6f7f3443cb8",
         "draft": true,
-        "ci": "partial",
+        "ci": "in_progress",
         "peer_coord": "5859447061",
-        "prior_oid": "b513d286d3a392341fd99a50e929ce228e4d00fa",
+        "prior_oid": "92b97e9c4de5917c3ae8bef6eca7da219784df9c",
         "stand_down_comment": "5859559952",
         "cherry_pick": "df6b700f",
         "confirm_155": "5859643161",
         "reshape_comment": "5859675264",
         "reshape_landed_comment": "5859758130",
-        "mergeable": "CONFLICTING",
+        "mergeable": "UNKNOWN",
         "author_mergeable_claim": "MERGEABLE",
         "api_mergeable": "MERGEABLE",
         "conflict_comment": "5859765464",
@@ -8404,7 +8406,7 @@
         "conflict_resolved_comment": "5859823983"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T21:33:10Z",
+      "heartbeat_at": "2026-09-27T21:57:39Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8425,9 +8427,10 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/df6b700fb07eb47e95ec39e264c238ea1ea0a3ec",
         "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859765464",
         "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859823983",
-        "https://github.com/d6g8k5htny-coder/trial/commit/92b97e9c4de5917c3ae8bef6eca7da219784df9c"
+        "https://github.com/d6g8k5htny-coder/trial/commit/92b97e9c4de5917c3ae8bef6eca7da219784df9c",
+        "https://github.com/d6g8k5htny-coder/trial/commit/b6609be2af9a602764aeb93eb6e6b6f7f3443cb8"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 92b97e9 MERGEABLE (5859823983): keep-both conflict resolved; 4-file apply_all + PATH_C_STRICT_TIP payload; tip-drift gates SUCCESS; await ready/land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ b6609be; main merge-sync after #159 NA-0009 land (7cd9ba8b); apply_all residual scope; CI in progress; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-153-path-c-descendant-ok",
