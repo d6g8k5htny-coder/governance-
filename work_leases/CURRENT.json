@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:16:50Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 3592abb (#188); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. #188 MERGED after Grok ACCEPT; Math- handoff 5860699760 WITHDRAWN \u2014 OpenAI resumes (5860739943); no duplicate. Updated 2026-09-27T23:16:50Z.",
+  "updated_at": "2026-09-27T23:21:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. Owner route Math-#96 @ 240a3a1 (OpenAI owns; Grok review-only); keep one watcher. Updated 2026-09-27T23:21:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9246,16 +9246,17 @@
         "coord_main95_comment": "5860640866",
         "source_main_pr": 188,
         "source_main_oid": "211999277ab8a363dd51320f970e8928b1e0f1e0",
-        "handoff_withdrawn_comment": "5860739943"
+        "handoff_withdrawn_comment": "5860739943",
+        "enforcement_pr": 96
       },
       "claimed_at": "2026-09-27T22:31:02Z",
-      "heartbeat_at": "2026-09-27T23:16:50Z",
+      "heartbeat_at": "2026-09-27T23:21:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ a663706 SIDE24 formal lane \u2014 keep separate; Cursor handoff WITHDRAWN (5860739943); OpenAI resumes required-check PR elsewhere; this App observe-only; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe DRAFT @ a663706 SIDE24 \u2014 keep separate from Math-#96 required-gates; owner route 5860770012; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/93",
         "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350",
@@ -9761,8 +9762,8 @@
       },
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
-        "pr": null,
-        "pr_state": "none",
+        "pr": 96,
+        "pr_state": "open",
         "handoff_comment": "5860699760",
         "handoff_pr": 93,
         "source_main_pr": 188,
@@ -9774,11 +9775,18 @@
           "test_required_formal_check.py": "6b6b94e59c2e351f071d58aa90e01bc909f58ebf"
         },
         "handoff_withdrawn_comment": "5860739943",
-        "handoff_status": "WITHDRAWN",
-        "implementer": "openai/chatgpt"
+        "handoff_status": "WITHDRAWN_ROUTED_TO_96",
+        "implementer": "openai/chatgpt",
+        "branch": "chatgpt/required-formal-enforcement-20260927",
+        "head_oid": "240a3a155150b6a702db208b85fa3bb6ea8ce662",
+        "draft": false,
+        "mergeable": "MERGEABLE",
+        "ci": "in_progress",
+        "owner_route_comment": "5860770012",
+        "reviewer": "grok-review-only"
       },
       "claimed_at": "2026-09-27T23:10:50Z",
-      "heartbeat_at": "2026-09-27T23:16:50Z",
+      "heartbeat_at": "2026-09-27T23:21:20Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9789,10 +9797,13 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860700400",
         "https://github.com/d6g8k5htny-coder/main/pull/188",
         "https://github.com/d6g8k5htny-coder/main/issues/95#issuecomment-5860640866",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860739943"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/93#issuecomment-5860739943",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/96",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/240a3a155150b6a702db208b85fa3bb6ea8ce662",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860770012"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe \u2014 Cursor handoff 5860699760 WITHDRAWN (5860739943; delivery failed); OpenAI/ChatGPT resumes narrow Math- required-check PR; do not duplicate; SIDE24 #93 untouched; main#95 coord; await fresh isolated PR; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 240a3a1 MERGEABLE Math-#96; OpenAI owns impl/integration; Grok review-only; owner route 5860770012 \u2014 do not duplicate workflow edits / no new watcher; await CI+review; do not merge negative-control; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-188-required-formal-check",
@@ -9876,6 +9887,72 @@
       ],
       "delegates_to": "main-188-required-formal-check",
       "blocked_reason": "RELEASED CLOSED UNMERGED NEVER-MERGE probe @ 3b8c454; hosted negative control (formal FAIL \u2192 verify FAIL exit1); history preserved; sci effect NONE"
+    },
+    {
+      "work_id": "math-96-required-formal-gates",
+      "scope": "Bind required math-downstream-gates to fresh formal evidence; port from main#188; eng only",
+      "owner": {
+        "provider": "openai",
+        "model": "chatgpt",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "branch": "chatgpt/required-formal-enforcement-20260927",
+        "pr": 96,
+        "pr_state": "open",
+        "head_oid": "240a3a155150b6a702db208b85fa3bb6ea8ce662",
+        "draft": false,
+        "mergeable": "MERGEABLE",
+        "ci": "in_progress",
+        "owner_route_comment": "5860770012",
+        "source_main_merge": "3592abbd5df433cb1816b69204e740a7cf00ca07",
+        "coord_issue": 95
+      },
+      "claimed_at": "2026-09-27T23:21:20Z",
+      "heartbeat_at": "2026-09-27T23:21:20Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/96",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/240a3a155150b6a702db208b85fa3bb6ea8ce662",
+        "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860770012",
+        "https://github.com/d6g8k5htny-coder/main/pull/188"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "OFFERED observe @ 240a3a1 MERGEABLE; OpenAI owns; Grok review-only; this App observe-only (no Math- push / no duplicate / keep one watcher); await hosted formal+aggregate; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "main-189-op-privacy-github-scope",
+      "scope": "OP-PRIVACY: owner name/Gmail allowed; rule covers GitHub only; eng/process",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 189,
+        "pr_state": "merged",
+        "merge_oid": "0a168ca512a9f861cce0ef67026ac04d5c35abb6",
+        "branch": "claude/review-grok-github-uploads-gsthj3"
+      },
+      "claimed_at": "2026-09-27T23:21:30Z",
+      "heartbeat_at": "2026-09-27T23:21:30Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/189",
+        "https://github.com/d6g8k5htny-coder/main/commit/0a168ca512a9f861cce0ef67026ac04d5c35abb6"
+      ],
+      "delegates_to": null,
+      "blocked_reason": "RELEASED MERGED @ 0a168ca \u2014 main tip; OP-PRIVACY GitHub-scope clarification; merge\u2260theorem; eng\u2260theorem; sci effect NONE"
     }
   ]
 }
