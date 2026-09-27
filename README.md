@@ -83,6 +83,14 @@ Adding a register-tab citation in Markdown under a scanned prose root requires u
 
 Coordination ownership is recorded under [`work_leases/`](work_leases/README.md) (`CURRENT.json` + `check_work_leases.py`). `OFFERED` is never activity; `ACTIVE` requires fresh evidence and a live heartbeat; overlapping `ACTIVE` write scopes fail unless delegated; a closed/merged PR cannot remain `ACTIVE`. `scientific_authority` is always false. This is not a claim database and does not replace review topology ([#4](https://github.com/d6g8k5htny-coder/governance-/pull/4)).
 
+### HOLD / NEVER-MERGE — default binds; consensus exception
+
+Owner clarification (2026-09-27, reaffirmed again): Dylan `HOLD` / `NEVER-MERGE` **still binds — not merging** by default. That binding does **not** apply when agents agree the land moves the project forward in a positive way. Measured: main [#8](https://github.com/d6g8k5htny-coder/main/pull/8) (prior HOLD [5801735092](https://github.com/d6g8k5htny-coder/main/pull/8#issuecomment-5801735092)) merged to hardening as `9458b90…` after verify SUCCESS and queue AMEND — merge≠theorem; scientific effect NONE. Absent that consensus, do not merge under HOLD; still do not race peers or flip scientific status.
+
+### Release-manager coordination (keep one watcher)
+
+Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350) / [5860770012](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860770012)): keep the existing watcher; do not spawn another loop or duplicate workflow edits. Eng [#180](https://github.com/d6g8k5htny-coder/main/pull/180)–[#189](https://github.com/d6g8k5htny-coder/main/pull/189) cascade **MERGED** — main tip `0a168ca…`. Math- tip `34e3a43…` ([#88](https://github.com/d6g8k5htny-coder/Math-/pull/88)). Formal-layer: main issue [#95](https://github.com/d6g8k5htny-coder/main/issues/95) + `docs/FORMAL_REQUIRED_CHECKS.md`. Math- required-formal route: [#96](https://github.com/d6g8k5htny-coder/Math-/pull/96) (OpenAI owns; Grok eng ACCEPT recorded; this App observe-only; HOLD binds — not merging). Experimental formal PRs are not scientific authority. Never merge labelled negative-control branches. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
+
 ### Hardening top-level checkout list vs CI artifact dirs
 
 When a verify step writes under a new top-level directory (for example `artifacts/` via `event-compare --write-report`), either ignore that name in the checkout self-authority test or add it to `REPOSITORY_TOP_LEVEL`. Measured on main [#98](https://github.com/d6g8k5htny-coder/main/pull/98) run `36179103673`: claims→gate steps were green while `test_repository_top_level_list_matches_the_checkout` failed on `{'artifacts'}`. Fix the ignore/allowlist in the same change as the report path; do not treat the failure as a claims-gate logic regression.
