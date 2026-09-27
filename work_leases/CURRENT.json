@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:10:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 932531a (#166); Math- tip 0be9c76 (#89). main #125 tip 1e6af5c CI green (verify 36339411569); #128 CLOSED UNMERGED AMEND-parked. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:10:00Z.",
+  "updated_at": "2026-09-27T18:11:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125 MERGED); Math- tip 0be9c76 (#89). main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:11:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3279,7 +3279,7 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "cursor/d5-shrinking-witness-bcee",
         "pr": 125,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "1e6af5c5ba2c783b5e1e71b8f9f92789c8fdffa4",
         "peer_amend": "5850462018",
         "prior_oid": "00c9d08a146c60cfc026f2167c5a1d9e5678e34d",
@@ -3288,12 +3288,13 @@
         "draft": false,
         "ready_for_review": true,
         "ci": "public-intake_SUCCESS+public-shop_SUCCESS+navigation_SUCCESS+verify_SUCCESS",
-        "ci_pass_run": "36339411569"
+        "ci_pass_run": "36339411569",
+        "merge_oid": "4cc4587379de266b6a84ad8df72583a6b2ece551"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-27T18:10:00Z",
+      "heartbeat_at": "2026-09-27T18:11:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -3305,10 +3306,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/125#issuecomment-5858398355",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36339411569",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36339411499",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36339411501"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36339411501",
+        "https://github.com/d6g8k5htny-coder/main/commit/4cc4587379de266b6a84ad8df72583a6b2ece551"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 1e6af5c MERGEABLE ready_for_review; AMEND applied (5858398355) @ c6276ec; CI green\u00d74 (verify SUCCESS 36339411569); await re-review/land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 4cc4587 (PR tip 1e6af5c); D5 shrinking witness m=2 upper bound; AMEND applied @ c6276ec; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-60-pin-microdisk-anisotropic",
@@ -6435,10 +6437,11 @@
         "head_oid": "1e6af5c5ba2c783b5e1e71b8f9f92789c8fdffa4",
         "finding_comment": "5850462018",
         "delivery_oid": "c6276ecafdcd16f3b8906e71cc94cd77364c8ab3",
-        "amend_applied_comment": "5858398355"
+        "amend_applied_comment": "5858398355",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T22:30:20Z",
-      "heartbeat_at": "2026-09-27T18:08:00Z",
+      "heartbeat_at": "2026-09-27T18:11:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -6447,10 +6450,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/125#issuecomment-5850462018",
         "https://github.com/d6g8k5htny-coder/main/commit/c6276ecafdcd16f3b8906e71cc94cd77364c8ab3",
-        "https://github.com/d6g8k5htny-coder/main/pull/125#issuecomment-5858398355"
+        "https://github.com/d6g8k5htny-coder/main/pull/125#issuecomment-5858398355",
+        "https://github.com/d6g8k5htny-coder/main/commit/4cc4587379de266b6a84ad8df72583a6b2ece551"
       ],
       "delegates_to": "main-125-d5-shrinking-witness",
-      "blocked_reason": "RELEASED: peer AMEND 5850462018 delivered @ c6276ec (5858398355); tip 1e6af5c; successor re-review OFFERED on observe lease; sci effect NONE"
+      "blocked_reason": "RELEASED: peer AMEND 5850462018 delivered @ c6276ec (5858398355); parent #125 MERGED @ 4cc4587; sci effect NONE"
     },
     {
       "work_id": "main-124-c1-object-amend",
