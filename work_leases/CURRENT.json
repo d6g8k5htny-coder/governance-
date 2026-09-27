@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:32:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 97bec0d (#71). Math- #73 tip 326bf3e ready_for_review; #124 tip 6ad685c await verify. Updated 2026-09-27T17:32:00Z.",
+  "updated_at": "2026-09-27T17:33:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip b63cccd (#73 MERGED after #72/#71/#60). main #124 tip 6ad685c await verify. Updated 2026-09-27T17:33:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -5519,23 +5519,28 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 72,
-        "head_oid": "cdb6bdd40b215b9974050b449e0161e31a54bafd",
+        "head_oid": "1b87d167dda5c2de316c4d53baa464fbe1cd9de0",
         "subject_main_pr": 125,
-        "copilot_review": "5330615944"
+        "copilot_review": "5330615944",
+        "merge_oid": "408cdef786e755a56a03e6f0c8a4370606b1152c",
+        "pr_state": "merged",
+        "draft": false
       },
       "claimed_at": "2026-09-26T18:02:30Z",
-      "heartbeat_at": "2026-09-27T14:12:40Z",
+      "heartbeat_at": "2026-09-27T17:33:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/72",
         "https://github.com/d6g8k5htny-coder/Math-/pull/72#pullrequestreview-5328284354",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/72#pullrequestreview-5330615944"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/72#pullrequestreview-5330615944",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/408cdef786e755a56a03e6f0c8a4370606b1152c",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/1b87d167dda5c2de316c4d53baa464fbe1cd9de0"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ cdb6bdd; Copilot (5330615944) Findings:None / closer look \u2014 probabilistic bound + crossover-scale qualification; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 408cdef (PR tip 1b87d16); merge\u2260theorem; Copilot closer-look process debt if still material; sci effect NONE"
     },
     {
       "work_id": "main-111-graph-conflict-amend",
@@ -6875,19 +6880,20 @@
         "repo": "d6g8k5htny-coder/Math-",
         "branch": "cursor/pr36-kernel-tail-review-2589",
         "pr": 73,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "326bf3eea0bcd9a47ded5a068c047d8bb0a5da31",
         "peer_amend": "5848453668",
         "copilot_review": "5330621041",
         "prior_oid": "5913b004f173cbf23a434828baf7e836a81413fd",
         "draft": false,
         "ready_for_review": true,
-        "ci": "math-downstream-gates_IN_PROGRESS"
+        "ci": "math-downstream-gates_IN_PROGRESS",
+        "merge_oid": "b63cccdd935bfa0d1bd5605c5e031413b510b1cd"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T17:32:00Z",
+      "heartbeat_at": "2026-09-27T17:33:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -6896,10 +6902,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#issuecomment-5848453668",
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5328284540",
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5330621041",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/326bf3eea0bcd9a47ded5a068c047d8bb0a5da31"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/326bf3eea0bcd9a47ded5a068c047d8bb0a5da31",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/b63cccdd935bfa0d1bd5605c5e031413b510b1cd"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 326bf3e MERGEABLE ready_for_review (was DRAFT @ 5913b00); tip=merge origin/main only; gates IN_PROGRESS; peer ACCEPT-at-scope+AMEND (5848453668) + Copilot (5330621041) still open; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ b63cccd (PR tip 326bf3e); merge\u2260theorem; peer/Copilot AMEND process debt if still material; sci effect NONE"
     },
     {
       "work_id": "math-73-kernel-tail-amend-repair",
@@ -6915,12 +6922,14 @@
         "head_oid": "326bf3eea0bcd9a47ded5a068c047d8bb0a5da31",
         "finding_comment": "5848453668",
         "copilot_review": "5330621041",
-        "draft": false
+        "draft": false,
+        "merge_oid": "b63cccdd935bfa0d1bd5605c5e031413b510b1cd",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T17:32:00Z",
+      "heartbeat_at": "2026-09-27T17:33:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -6928,10 +6937,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#issuecomment-5848453668",
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5328284540",
         "https://github.com/d6g8k5htny-coder/Math-/pull/73#pullrequestreview-5330621041",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/326bf3eea0bcd9a47ded5a068c047d8bb0a5da31"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/326bf3eea0bcd9a47ded5a068c047d8bb0a5da31",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/b63cccdd935bfa0d1bd5605c5e031413b510b1cd"
       ],
       "delegates_to": "math-73-pr36-kernel-tail-review",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair; tip 326bf3e main-merge only; this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #73 MERGED @ b63cccd; sci effect NONE"
     },
     {
       "work_id": "math-74-pr69-pin-microdisk-review",
