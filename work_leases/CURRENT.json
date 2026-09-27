@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:29:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 0333379 (#86). Math- #60 tip 4eaa851 ready_for_review (main merge); #124 tip 6ad685c await verify. Updated 2026-09-27T17:29:00Z.",
+  "updated_at": "2026-09-27T17:30:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip dbb9dcf; Math- tip 46a2a59 (#60 MERGED). Math- #71 tip fd2497d ready_for_review; #124 tip 6ad685c await verify. Updated 2026-09-27T17:30:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -3295,7 +3295,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 60,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "4eaa8512301b9290e148a63097361446cb9cd9a1",
         "note_blob": "36cc6cfcc0ab776bc22e5f1f480d4d264b1294a6",
         "note_sha256": "0351da0680e81c2b001338ede50770b9e00fa5cb09aab438940a9b81d56fd866",
@@ -3303,13 +3303,14 @@
         "copilot_review": "5330619015",
         "prior_oid": "ad27c6b8802167ae8798221a9fb8ba3365162b63",
         "draft": false,
-        "ci": "math-downstream-gates_SUCCESS+exact-check_SUCCESS",
-        "ready_for_review": true
+        "ci": "merged",
+        "ready_for_review": true,
+        "merge_oid": "46a2a596d312d11888164acfd1539771175afad0"
       },
       "claimed_at": "2026-09-26T01:45:30Z",
-      "heartbeat_at": "2026-09-27T17:29:00Z",
+      "heartbeat_at": "2026-09-27T17:30:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D5",
       "scientific_authority": false,
@@ -3327,10 +3328,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#pullrequestreview-5330619015",
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4115647653",
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#discussion_r4115647668",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/4eaa8512301b9290e148a63097361446cb9cd9a1"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/4eaa8512301b9290e148a63097361446cb9cd9a1",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/46a2a596d312d11888164acfd1539771175afad0"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE observe @ 4eaa851 MERGEABLE ready_for_review (was DRAFT @ ad27c6b); tip=merge origin/main only; CI green (gates+exact-check); peer AMEND (5848723841) + Copilot (5330619015) -O/Schur floor still open; converge #69; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 46a2a59 (PR tip 4eaa851); merge\u2260theorem; peer/Copilot eng AMEND findings (-O/Schur floor) remain process debt \u2014 converge #69/#74 successors; sci effect NONE"
     },
     {
       "work_id": "math-64-endpoint-hessian-erratum",
@@ -4062,17 +4064,21 @@
         "branch": "cursor/pr124-c1-c2-rereview-0f36",
         "pr": 71,
         "pr_state": "open",
-        "head_oid": "21e39741a1e604f57dc8997d286545f79bdbb602",
+        "head_oid": "fd2497d5b356242f19944e87cedc54921a4b492e",
         "subject_main_pr": 124,
         "subject_oid": "a380dcfb8f4a13e13ae8e13deb5d870dd8b75b25",
         "peer_amend": "5848500725",
         "copilot_review": "5330614086",
         "subject_oid_current": "079615e05a92048519c255cec2d86c981160cbf5",
-        "prior_copilot": "5328282950"
+        "prior_copilot": "5328282950",
+        "prior_oid": "21e39741a1e604f57dc8997d286545f79bdbb602",
+        "draft": false,
+        "ci": "math-downstream-gates_IN_PROGRESS",
+        "ready_for_review": true
       },
       "claimed_at": "2026-09-26T09:35:00Z",
-      "heartbeat_at": "2026-09-27T14:11:10Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T17:30:00Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -4085,10 +4091,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/71#discussion_r4113540626",
         "https://github.com/d6g8k5htny-coder/Math-/pull/71#pullrequestreview-5328282950",
         "https://github.com/d6g8k5htny-coder/Math-/pull/71#pullrequestreview-5330614086",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/71#discussion_r4115644208"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#discussion_r4115644208",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/fd2497d5b356242f19944e87cedc54921a4b492e"
       ],
       "delegates_to": "main-124-c1c2-rereview-offer",
-      "blocked_reason": "OFFERED observe DRAFT @ 21e3974; peer AMEND (5848500725) + Copilot (5328282950/5330614086): joint defect P((D(M)\u2260S)\u2229B_miss) still open; PREMISS\u2192PREMISE-Z-LOWER typo; tip still pins prior a380dcf while #124 @ 079615e; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ fd2497d MERGEABLE ready_for_review (was DRAFT @ 21e3974); tip=merge origin/main only; gates IN_PROGRESS; peer AMEND (5848500725) + Copilot (5330614086) joint-defect/PREMISE still open; retarget #124 tip 6ad685c; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-135-interval-prose-errata",
@@ -5417,15 +5424,16 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 71,
-        "head_oid": "21e39741a1e604f57dc8997d286545f79bdbb602",
+        "head_oid": "fd2497d5b356242f19944e87cedc54921a4b492e",
         "finding_comment": "5848500725",
         "subject_main_pr": 124,
         "copilot_review": "5330614086",
-        "prior_copilot": "5328282950"
+        "prior_copilot": "5328282950",
+        "draft": false
       },
       "claimed_at": "2026-09-26T17:54:55Z",
-      "heartbeat_at": "2026-09-27T14:11:10Z",
-      "expires_at": "2026-09-28T00:00:00Z",
+      "heartbeat_at": "2026-09-27T17:30:00Z",
+      "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
@@ -5435,10 +5443,11 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/71#discussion_r4113540626",
         "https://github.com/d6g8k5htny-coder/Math-/pull/71#pullrequestreview-5328282950",
         "https://github.com/d6g8k5htny-coder/Math-/pull/71#pullrequestreview-5330614086",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/71#discussion_r4115644208"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/71#discussion_r4115644208",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/fd2497d5b356242f19944e87cedc54921a4b492e"
       ],
       "delegates_to": "math-71-main124-c1c2-rereview",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair (joint-event + PREMISE spelling + retarget #124 tip 079615e); this App does not race; sci effect NONE"
+      "blocked_reason": "OFFERED peer AMEND+Copilot repair (joint-event + PREMISE spelling + retarget #124 tip 6ad685c); tip fd2497d main-merge only; this App does not race; sci effect NONE"
     },
     {
       "work_id": "math-78-vault-release-ops",
@@ -5717,22 +5726,25 @@
         "finding_comment": "5848723841",
         "converge_with_pr": 69,
         "copilot_review": "5330619015",
-        "draft": false
+        "draft": false,
+        "merge_oid": "46a2a596d312d11888164acfd1539771175afad0",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T18:26:15Z",
-      "heartbeat_at": "2026-09-27T17:29:00Z",
+      "heartbeat_at": "2026-09-27T17:30:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#issuecomment-5848723841",
         "https://github.com/d6g8k5htny-coder/Math-/pull/60#pullrequestreview-5330619015",
-        "https://github.com/d6g8k5htny-coder/Math-/commit/4eaa8512301b9290e148a63097361446cb9cd9a1"
+        "https://github.com/d6g8k5htny-coder/Math-/commit/4eaa8512301b9290e148a63097361446cb9cd9a1",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/46a2a596d312d11888164acfd1539771175afad0"
       ],
       "delegates_to": "math-60-pin-microdisk-anisotropic",
-      "blocked_reason": "OFFERED peer AMEND+Copilot repair (-O CI, Schur/covariance floor, decay regime); tip 4eaa851 main-merge only; this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #60 MERGED @ 46a2a59 without closing -O/Schur AMEND; successor work on #69/#74; sci effect NONE"
     },
     {
       "work_id": "math-52-normalization-wording-amend",
