@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:05:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 2cce7bf (#170); hardening tip 9458b90 (#8 MERGED); Math- tip 3b2ac59 (#91). HOLD yields when agents agree forward progress (owner clarification). Updated 2026-09-27T20:05:00Z.",
+  "updated_at": "2026-09-27T20:10:40Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173 MERGED); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #173 eng ACCEPT 5859411945 then land; merge\u2260theorem. Updated 2026-09-27T20:10:40Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8153,7 +8153,7 @@
         "successor_of": 167
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T19:33:00Z",
+      "heartbeat_at": "2026-09-27T20:10:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -8277,24 +8277,28 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 173,
-        "pr_state": "open",
+        "pr_state": "merged",
         "head_oid": "c5a7899636437e85ba39aa79febd384b50f32c0d",
         "draft": false,
         "base_branch": "main",
-        "ci": "success"
+        "ci": "success",
+        "merge_oid": "aad07fdbd73ee5d5113ab3cbcd317d7448581b14",
+        "peer_accept": "5859411945"
       },
       "claimed_at": "2026-09-27T19:57:20Z",
-      "heartbeat_at": "2026-09-27T20:01:00Z",
+      "heartbeat_at": "2026-09-27T20:10:40Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/173",
-        "https://github.com/d6g8k5htny-coder/main/commit/c5a7899636437e85ba39aa79febd384b50f32c0d"
+        "https://github.com/d6g8k5htny-coder/main/commit/c5a7899636437e85ba39aa79febd384b50f32c0d",
+        "https://github.com/d6g8k5htny-coder/main/pull/173#issuecomment-5859411945",
+        "https://github.com/d6g8k5htny-coder/main/commit/aad07fdbd73ee5d5113ab3cbcd317d7448581b14"
       ],
-      "blocked_reason": "OFFERED observe @ c5a7899 MERGEABLE CI SUCCESS; systematic source census / R2 reconcile; custody/eng; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ aad07fd (PR tip c5a7899); eng ACCEPT (5859411945) zero independence credit; archive-handling/coverage honesty OK; merge\u2260theorem; custody/eng; sci effect NONE \u2014 main tip"
     },
     {
       "work_id": "main-8-rn-sector-review-hold",
