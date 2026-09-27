@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:05:39Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4049386 (#177); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 040b07f. HOLD default binds (not merging). trial #149 MERGED; #156 CI green; Math- #87/#88 review-resolution ready for owner merge. Updated 2026-09-27T22:05:39Z.",
+  "updated_at": "2026-09-27T22:06:39Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip eaf1264 (#178); hardening tip a01c72f (#7); Math- tip 867d9e3 (#92); trial tip 5763708. HOLD default binds (not merging). Timer: watched PR tips unchanged (#172/#87/#88/#156). Updated 2026-09-27T22:06:39Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7334,7 +7334,7 @@
         "threads_resolved": "9/11"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:03:32Z",
+      "heartbeat_at": "2026-09-27T22:06:39Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7376,7 +7376,7 @@
         "threads_resolved": "9/11"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:03:32Z",
+      "heartbeat_at": "2026-09-27T22:06:39Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7418,7 +7418,7 @@
         "threads_resolved": "1/1"
       },
       "claimed_at": "2026-09-27T00:52:00Z",
-      "heartbeat_at": "2026-09-27T22:05:39Z",
+      "heartbeat_at": "2026-09-27T22:06:39Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -7460,7 +7460,7 @@
         "threads_resolved": "1/1"
       },
       "claimed_at": "2026-09-27T01:08:00Z",
-      "heartbeat_at": "2026-09-27T22:05:39Z",
+      "heartbeat_at": "2026-09-27T22:06:39Z",
       "expires_at": "2026-09-29T18:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8252,7 +8252,7 @@
         "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T21:57:39Z",
+      "heartbeat_at": "2026-09-27T22:06:39Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8613,7 +8613,7 @@
         "ci": "success"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T22:05:39Z",
+      "heartbeat_at": "2026-09-27T22:06:39Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8906,6 +8906,62 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/177",
         "https://github.com/d6g8k5htny-coder/main/commit/40493865b323f0376f09d553d78f705fe613492c"
+      ]
+    },
+    {
+      "work_id": "main-178-formal-verification-layer1",
+      "scope": "Layer 1 formal verification: Lean 4 SIDE24 pilot, registry, fail-closed gate",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 178,
+        "pr_state": "merged",
+        "merge_oid": "eaf12644bdcbf6176a9e216ffb4ab9304f17de12",
+        "head_oid": "eaf12644bdcbf6176a9e216ffb4ab9304f17de12"
+      },
+      "claimed_at": "2026-09-27T22:06:39Z",
+      "heartbeat_at": "2026-09-27T22:06:39Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "RELEASED MERGED @ eaf1264 \u2014 Layer 1 Lean SIDE24 formal verification pilot + registry; main tip; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 **main tip**",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/178",
+        "https://github.com/d6g8k5htny-coder/main/commit/eaf12644bdcbf6176a9e216ffb4ab9304f17de12"
+      ]
+    },
+    {
+      "work_id": "math-92-lean-proof-evidence-lane",
+      "scope": "Pinned Lean proof-evidence lane + preserved GP192 companions",
+      "owner": {
+        "provider": "mixed",
+        "model": null,
+        "agent": "mixed"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/Math-",
+        "pr": 92,
+        "pr_state": "merged",
+        "merge_oid": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+        "head_oid": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4"
+      },
+      "claimed_at": "2026-09-27T22:06:39Z",
+      "heartbeat_at": "2026-09-27T22:06:39Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "blocked_reason": "RELEASED MERGED @ 867d9e3 \u2014 Lean verification lane; preserve scientific verdicts; Math- tip; merge\u2260theorem; eng\u2260theorem; sci effect NONE \u2014 **Math- tip**",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/Math-/pull/92",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4"
       ]
     }
   ]
