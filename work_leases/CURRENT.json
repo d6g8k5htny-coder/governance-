@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:41:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 4cc4587 (#125); hardening tip a99bc52 (#136/#148 MERGED after #140); Math- tip 3b2ac59 (#91). main #111 verify FAIL 36340909390; #124 tip 6ad685c re-review OFFERED. Updated 2026-09-27T18:41:00Z.",
+  "updated_at": "2026-09-27T18:45:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168 MERGED); hardening tip 8e2eda4 (#111 after #110/#134/#148/#136/#140); Math- tip 3b2ac59 (#91). main #124 tip 6ad685c still OPEN on hardening; #111 verify-FAIL process debt. Updated 2026-09-27T18:45:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -497,7 +497,7 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "cursor/cellcount-pin-eeebb28e",
         "pr": 110,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "d89226cd8b5af8dd4f2ce429b6cc2e63aa98fb29",
         "peer_accept": "5848585085",
@@ -506,12 +506,15 @@
         "amend_applied_comment": "5858525383",
         "draft": false,
         "ready_for_review": true,
-        "ci": "pending_verify"
+        "ci": "pending_verify",
+        "merge_oid": "f67513328a44ceebaf774d8ab251ba9baf584aa4",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "hardening_tip": true
       },
       "claimed_at": "2026-09-25T18:14:00Z",
-      "heartbeat_at": "2026-09-27T18:32:00Z",
+      "heartbeat_at": "2026-09-27T18:45:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [
         "tests/test_cover.py"
       ],
@@ -522,10 +525,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/110#issuecomment-5848585085",
         "https://github.com/d6g8k5htny-coder/main/commit/d89226cd8b5af8dd4f2ce429b6cc2e63aa98fb29",
         "https://github.com/d6g8k5htny-coder/main/commit/3d87b415d2e1a249794e008a50619694dd48f070",
-        "https://github.com/d6g8k5htny-coder/main/pull/110#issuecomment-5858525383"
+        "https://github.com/d6g8k5htny-coder/main/pull/110#issuecomment-5858525383",
+        "https://github.com/d6g8k5htny-coder/main/commit/f67513328a44ceebaf774d8ab251ba9baf584aa4"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ d89226c MERGEABLE ready_for_review; polish AMEND applied (5858525383) @ 3d87b41 vs peer ACCEPT 5848585085; CI verify pending; await re-review/land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ f675133 onto hardening (PR tip d89226c); cellcount pin control 33; polish AMEND @ 3d87b41; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-105-contribution-plan",
@@ -807,7 +811,7 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "cursor/rn-unif-walkdown-scope-fixes-848aea2a",
         "pr": 111,
-        "pr_state": "open",
+        "pr_state": "merged",
         "issue": null,
         "head_oid": "a3e42254b43999971eab6ef4698ac073796d6deb",
         "peer_amend": "5848580662",
@@ -820,12 +824,15 @@
         "ci": "verify_FAILURE",
         "ci_fail_run": "36340909390",
         "ci_push_fail": "36340908705",
-        "ci_fail_reason": "claims_gate H3-RUNG-FLOOR UNSUPPORTED_CONTROLLING_PROMOTION+unresolved_prose"
+        "ci_fail_reason": "claims_gate H3-RUNG-FLOOR UNSUPPORTED_CONTROLLING_PROMOTION+unresolved_prose",
+        "merge_oid": "8e2eda4dec88661f4e80ee154a471bd1cab4525a",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "hardening_tip": true
       },
       "claimed_at": "2026-09-25T19:16:00Z",
-      "heartbeat_at": "2026-09-27T18:40:00Z",
+      "heartbeat_at": "2026-09-27T18:45:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [
         "docs/math_status/",
         "docs/RN_INNER_WEDGE.md",
@@ -841,11 +848,12 @@
         "https://github.com/d6g8k5htny-coder/main/commit/a3e42254b43999971eab6ef4698ac073796d6deb",
         "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5858581791",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36340909390",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36340908705"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36340908705",
+        "https://github.com/d6g8k5htny-coder/main/commit/8e2eda4dec88661f4e80ee154a471bd1cab4525a"
       ],
       "delegates_to": "main-112-tip-observe-e3cd7d4",
       "lanes_note": "PACKET.json overlap with #112 \u2014 serialize merges; OBL-H5-JETMOD/D3-LEMMA-RN-UNIF stay OPEN",
-      "blocked_reason": "OFFERED observe @ a3e4225 MERGEABLE ready_for_review; AMEND applied (5858581791); CI verify FAIL 36340909390 (claims_gate H3-RUNG-FLOOR UNSUPPORTED_CONTROLLING_PROMOTION / unresolved_prose binding); CI repair OFFERED; never MERGE_NOW; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 8e2eda4 onto hardening (PR tip a3e4225); RN-UNIF walkdown scope; AMEND applied (5858581791); verify was FAIL 36340909390 (H3-RUNG-FLOOR) at tip \u2014 merge\u2260CI-green; process debt if still material; never MERGE_NOW doctrine stands; sci effect NONE"
     },
     {
       "work_id": "math-20-chart-j0-gate-map",
@@ -4226,19 +4234,23 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "claude/firewalls-fail-closed",
         "pr": 134,
-        "pr_state": "open",
-        "head_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9",
+        "pr_state": "merged",
+        "head_oid": "8f5818098b0622c99f5b37b57f0184bf4f5fd0e0",
         "base_branch": "chatgpt/drive-github-hardening-20260919",
         "prior_oid": "1db16d1f59f4ef5821eccf996a6e6ea1afe3458b",
         "ci": "green_5_497ceff",
         "author_status": "waiting_on_reviewers",
         "repair_comment": "5847639970",
-        "peer_amend": "5848479354"
+        "peer_amend": "5848479354",
+        "merge_oid": "8fb541e3736e21dae02b1b10fbcc4722aceeb2c0",
+        "delivery_oid": "c86ef58d65f33dd90c1f3d5bc89c46d66f4cfe1a",
+        "amend_applied_comment": "5858666369",
+        "hardening_tip": true
       },
       "claimed_at": "2026-09-26T13:33:00Z",
-      "heartbeat_at": "2026-09-26T18:02:30Z",
+      "heartbeat_at": "2026-09-27T18:45:00Z",
       "expires_at": "2026-09-27T16:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -4257,10 +4269,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847639970",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36253041802",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36253037284",
-        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5848479354"
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5848479354",
+        "https://github.com/d6g8k5htny-coder/main/commit/8fb541e3736e21dae02b1b10fbcc4722aceeb2c0",
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5858666369",
+        "https://github.com/d6g8k5htny-coder/main/commit/c86ef58d65f33dd90c1f3d5bc89c46d66f4cfe1a"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ 497ceff; CI GREEN\u00d75; peer AMEND (5848479354): README FW-FLOAT-NOT-CERTIFIED overclaims empty-evidence; carrier-index if-exists fail-open; minor status-column TypeError + stale mutant counts; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 8fb541e onto hardening (PR tip 8f58180); claim-graph firewall; AMEND applied @ c86ef58 (5858666369); merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-137-landing-license-citation",
@@ -4708,15 +4723,23 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 134,
-        "head_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9",
+        "head_oid": "8f5818098b0622c99f5b37b57f0184bf4f5fd0e0",
         "prior_finding": "5847305100",
         "repair_comment": "5847639970",
-        "ci": "green_5"
+        "ci": "green_5",
+        "pr_state": "merged",
+        "merge_oid": "8fb541e3736e21dae02b1b10fbcc4722aceeb2c0",
+        "delivery_oid": "c86ef58d65f33dd90c1f3d5bc89c46d66f4cfe1a",
+        "amend_applied_comment": "5858666369",
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "hardening_tip": true,
+        "draft": false,
+        "ready_for_review": true
       },
       "claimed_at": "2026-09-26T15:53:30Z",
-      "heartbeat_at": "2026-09-26T17:51:55Z",
+      "heartbeat_at": "2026-09-27T18:45:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "SUPERSEDED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -4724,10 +4747,14 @@
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847639970",
         "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5847305100",
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36253041802",
-        "https://github.com/d6g8k5htny-coder/main/actions/runs/36253037284"
+        "https://github.com/d6g8k5htny-coder/main/actions/runs/36253037284",
+        "https://github.com/d6g8k5htny-coder/main/commit/8fb541e3736e21dae02b1b10fbcc4722aceeb2c0",
+        "https://github.com/d6g8k5htny-coder/main/commit/8f5818098b0622c99f5b37b57f0184bf4f5fd0e0",
+        "https://github.com/d6g8k5htny-coder/main/commit/c86ef58d65f33dd90c1f3d5bc89c46d66f4cfe1a",
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5858666369"
       ],
       "delegates_to": "main-134-claim-graph-firewall",
-      "blocked_reason": "SUPERSEDED by peer AMEND 5848479354 at same tip 497ceff; repair lease offered; sci effect NONE"
+      "blocked_reason": "RELEASED/SUPERSEDED path closed: parent #134 MERGED @ 8fb541e onto hardening; sci effect NONE"
     },
     {
       "work_id": "main-139-pinned-public-source-custody",
@@ -5446,21 +5473,27 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 134,
-        "head_oid": "497ceffb10ff4f44cc1880d58c26396b870636e9",
-        "finding_comment": "5848479354"
+        "head_oid": "8f5818098b0622c99f5b37b57f0184bf4f5fd0e0",
+        "finding_comment": "5848479354",
+        "pr_state": "merged",
+        "delivery_oid": "c86ef58d65f33dd90c1f3d5bc89c46d66f4cfe1a",
+        "amend_applied_comment": "5858666369"
       },
       "claimed_at": "2026-09-26T17:51:55Z",
-      "heartbeat_at": "2026-09-26T17:51:55Z",
+      "heartbeat_at": "2026-09-27T18:44:00Z",
       "expires_at": "2026-09-28T00:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
-        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5848479354"
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5848479354",
+        "https://github.com/d6g8k5htny-coder/main/commit/c86ef58d65f33dd90c1f3d5bc89c46d66f4cfe1a",
+        "https://github.com/d6g8k5htny-coder/main/commit/8fb541e3736e21dae02b1b10fbcc4722aceeb2c0",
+        "https://github.com/d6g8k5htny-coder/main/pull/134#issuecomment-5858666369"
       ],
       "delegates_to": "main-134-claim-graph-firewall",
-      "blocked_reason": "OFFERED peer AMEND repair; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: peer AMEND 5848479354 delivered @ c86ef58 (5858666369); parent #134 MERGED @ 8fb541e onto hardening (not main tip); sci effect NONE"
     },
     {
       "work_id": "main-150-museum-index-refresh",
@@ -5668,10 +5701,11 @@
         "finding_comment": "5848580662",
         "status_paths_touched": true,
         "delivery_oid": "a3e42254b43999971eab6ef4698ac073796d6deb",
-        "amend_applied_comment": "5858581791"
+        "amend_applied_comment": "5858581791",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T18:05:55Z",
-      "heartbeat_at": "2026-09-27T18:34:00Z",
+      "heartbeat_at": "2026-09-27T18:45:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -5683,7 +5717,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/111#issuecomment-5858581791"
       ],
       "delegates_to": "main-111-rn-unif-walkdown-scope",
-      "blocked_reason": "RELEASED: peer AMEND 5848580662 delivered @ a3e4225 (5858581791); successor re-review OFFERED on observe lease; sci effect NONE"
+      "blocked_reason": "RELEASED: AMEND delivered @ a3e4225 (5858581791); parent #111 MERGED @ 8e2eda4 onto hardening; sci effect NONE"
     },
     {
       "work_id": "main-110-ready-and-polish",
@@ -5700,10 +5734,11 @@
         "finding_comment": "5848585085",
         "verdict": "ACCEPT-at-stated-scope",
         "delivery_oid": "3d87b415d2e1a249794e008a50619694dd48f070",
-        "amend_applied_comment": "5858525383"
+        "amend_applied_comment": "5858525383",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T18:06:35Z",
-      "heartbeat_at": "2026-09-27T18:32:00Z",
+      "heartbeat_at": "2026-09-27T18:45:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -5715,7 +5750,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/110#issuecomment-5858525383"
       ],
       "delegates_to": "main-110-cellcount-pin",
-      "blocked_reason": "RELEASED: polish after peer ACCEPT delivered @ 3d87b41 (5858525383); tip d89226c; successor re-review OFFERED on observe lease; sci effect NONE"
+      "blocked_reason": "RELEASED: polish delivered @ 3d87b41 (5858525383); parent #110 MERGED @ f675133 onto hardening; sci effect NONE"
     },
     {
       "work_id": "math-69-continuum-transfer-amend",
@@ -7863,12 +7898,13 @@
         "head_oid": "a3e42254b43999971eab6ef4698ac073796d6deb",
         "ci_fail_run": "36340909390",
         "ci_push_fail": "36340908705",
-        "base_branch": "chatgpt/drive-github-hardening-20260919"
+        "base_branch": "chatgpt/drive-github-hardening-20260919",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-27T18:40:00Z",
-      "heartbeat_at": "2026-09-27T18:40:00Z",
+      "heartbeat_at": "2026-09-27T18:45:00Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -7877,7 +7913,37 @@
         "https://github.com/d6g8k5htny-coder/main/actions/runs/36340909390",
         "https://github.com/d6g8k5htny-coder/main/pull/111"
       ],
-      "blocked_reason": "OFFERED CI repair after verify FAIL 36340909390: H3-RUNG-FLOOR UNSUPPORTED_CONTROLLING_PROMOTION + CONTROLLING_SOURCE_REQUIRES_REVALIDATION + unresolved_prose; this App does not race; status paths \u2014 never MERGE_NOW; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #111 MERGED @ 8e2eda4 onto hardening with tip still verify-FAIL 36340909390; H3-RUNG-FLOOR process debt if still material on hardening tip; sci effect NONE"
+    },
+    {
+      "work_id": "main-168-r2-source-reconcile",
+      "scope": "Reconcile 143 R2 source rows; record owner rule-repair autonomy; no status promotion",
+      "owner": {
+        "provider": "mixed",
+        "model": "mixed",
+        "agent": "d6g8k5htny-coder"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/main",
+        "pr": 168,
+        "pr_state": "merged",
+        "head_oid": "d89d52817fcfed458398ba94553ae0a1a36bc396",
+        "merge_oid": "73eb8da0017c391240c6329db08425d11ff00650",
+        "base_branch": "main"
+      },
+      "claimed_at": "2026-09-27T18:45:00Z",
+      "heartbeat_at": "2026-09-27T18:45:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "RELEASED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/main/pull/168",
+        "https://github.com/d6g8k5htny-coder/main/commit/73eb8da0017c391240c6329db08425d11ff00650",
+        "https://github.com/d6g8k5htny-coder/main/commit/d89d52817fcfed458398ba94553ae0a1a36bc396"
+      ],
+      "blocked_reason": "RELEASED MERGED @ 73eb8da (PR tip d89d528); R2 source reconcile + autonomy record; merge\u2260theorem; sci effect NONE"
     }
   ]
 }
