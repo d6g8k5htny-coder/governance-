@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T17:51:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 46c0f69 (#163 MERGED); Math- tip 0be9c76 (#89). main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T17:51:00Z.",
+  "updated_at": "2026-09-27T17:55:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 7cf3bdb (#159 MERGED after #161 @ dc58979); Math- tip 0be9c76 (#89). Math- #46 CLOSED UNMERGED (5858193153). main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T17:55:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -2451,16 +2451,17 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 46,
-        "pr_state": "open",
+        "pr_state": "closed",
         "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee",
         "peer_amend": "5850565848",
         "merge_hold": "5851320572",
-        "copilot_review": "5330621632"
+        "copilot_review": "5330621632",
+        "close_comment": "5858193153"
       },
       "claimed_at": "2026-09-26T00:42:20Z",
-      "heartbeat_at": "2026-09-27T14:20:00Z",
+      "heartbeat_at": "2026-09-27T17:55:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -2472,10 +2473,12 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/46#pullrequestreview-5328282426",
         "https://github.com/d6g8k5htny-coder/Math-/pull/46#pullrequestreview-5330621632",
         "https://github.com/d6g8k5htny-coder/Math-/pull/46#discussion_r4115649667",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/46#discussion_r4115649731"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#discussion_r4115649731",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5858193153",
+        "https://github.com/d6g8k5htny-coder/Math-/commit/79a791a1f810dad5e695113fb0fa4d537d4d71ee"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 79a791a; peer AMEND (5850565848) + merge-hold (5851320572) + Copilot (5328282426/5330621632): undefined name f in exact_checks; headline omits hypotheses; typo/audit links; repair OFFERED; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED CLOSED UNMERGED @ 79a791a; close (5858193153): AGENTS.md forbids duplicate scientific-status registers (closed/open lemma/theorem maps); sci effect NONE"
     },
     {
       "work_id": "main-98-base-integration-1ae02b9",
@@ -6025,19 +6028,21 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 159,
-        "head_oid": "85c935ee77d58e2b0f614ad061732ad1ff316f50",
+        "head_oid": "db8cb1a82fceb497f0eda4046da60d4fd9b9dfa4",
         "peer_amend": "5850544205",
         "prior_oid": "39161a6d2a0c6a073055236d314066e4ac22eec7",
         "ci": "public-intake_SUCCESS+public-shop_SUCCESS+verify_SUCCESS",
         "result_delivery": "f21e222",
         "draft": false,
         "ready_for_review": true,
-        "amend_applied_comment": "5858229152"
+        "amend_applied_comment": "5858229152",
+        "merge_oid": "7cf3bdb3a602c4793fad5213b14c0d7a0d904862",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T17:47:00Z",
+      "heartbeat_at": "2026-09-27T17:55:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -6046,9 +6051,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205",
         "https://github.com/d6g8k5htny-coder/main/commit/85c935ee77d58e2b0f614ad061732ad1ff316f50",
         "https://github.com/d6g8k5htny-coder/main/commit/f21e222",
-        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5858229152"
+        "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5858229152",
+        "https://github.com/d6g8k5htny-coder/main/commit/7cf3bdb3a602c4793fad5213b14c0d7a0d904862",
+        "https://github.com/d6g8k5htny-coder/main/commit/db8cb1a82fceb497f0eda4046da60d4fd9b9dfa4"
       ],
-      "blocked_reason": "OFFERED observe @ 85c935e MERGEABLE ready_for_review; AMEND applied (5858229152) RESULT.md/IDENTITY+ERRATUM rewrite; CI green\u00d73; await re-review/land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 7cf3bdb (PR tip db8cb1a); Drive-to-GitHub map nav-only; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-161-lb-rate-kimi-thm023-hold",
@@ -6061,17 +6068,19 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 161,
-        "head_oid": "5a6046f25f24deda6685e5ebde2a81bd759eb52d",
+        "head_oid": "e5d42e1085d5e5e9d2474975a581a01bd83692d1",
         "peer_amend": "5850534745",
         "prior_oid": "43b3ced366fa30a4169f454f7a48802367b45758",
         "ci": "public-intake_SUCCESS+public-shop_SUCCESS+verify_SUCCESS",
         "amend_applied_comment": "5858253436",
-        "draft": false
+        "draft": false,
+        "merge_oid": "dc58979c19785c1a0ed701e66c53a48b81c8083d",
+        "pr_state": "merged"
       },
       "claimed_at": "2026-09-26T20:34:45Z",
-      "heartbeat_at": "2026-09-27T17:48:00Z",
+      "heartbeat_at": "2026-09-27T17:55:00Z",
       "expires_at": "2026-09-29T18:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -6079,9 +6088,11 @@
         "https://github.com/d6g8k5htny-coder/main/pull/161",
         "https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5850534745",
         "https://github.com/d6g8k5htny-coder/main/commit/5a6046f25f24deda6685e5ebde2a81bd759eb52d",
-        "https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5858253436"
+        "https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5858253436",
+        "https://github.com/d6g8k5htny-coder/main/commit/dc58979c19785c1a0ed701e66c53a48b81c8083d",
+        "https://github.com/d6g8k5htny-coder/main/commit/e5d42e1085d5e5e9d2474975a581a01bd83692d1"
       ],
-      "blocked_reason": "OFFERED observe @ 5a6046f MERGEABLE CI green\u00d73 (was 43b3ced BEHIND); AMEND applied (5858253436) F2/C031/constants; author intent merge after checks; await land; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ dc58979 (PR tip e5d42e1); LB-RATE/KIMI-THM-023 HOLD landing; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-80-contact-kernel-substitute",
@@ -6565,13 +6576,13 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 161,
-        "head_oid": "5a6046f25f24deda6685e5ebde2a81bd759eb52d",
+        "head_oid": "e5d42e1085d5e5e9d2474975a581a01bd83692d1",
         "finding_comment": "5850534745",
         "delivery_oid": "5a6046f25f24deda6685e5ebde2a81bd759eb52d",
         "amend_applied_comment": "5858253436"
       },
       "claimed_at": "2026-09-26T22:39:30Z",
-      "heartbeat_at": "2026-09-27T17:48:00Z",
+      "heartbeat_at": "2026-09-27T17:55:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -6580,10 +6591,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5850534745",
         "https://github.com/d6g8k5htny-coder/main/commit/5a6046f25f24deda6685e5ebde2a81bd759eb52d",
-        "https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5858253436"
+        "https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5858253436",
+        "https://github.com/d6g8k5htny-coder/main/commit/dc58979c19785c1a0ed701e66c53a48b81c8083d"
       ],
       "delegates_to": "main-161-lb-rate-kimi-thm023-hold",
-      "blocked_reason": "RELEASED: F2/C031/constants AMEND landed @ 5a6046f (5858253436); await merge; sci effect NONE"
+      "blocked_reason": "RELEASED: F2/C031/constants AMEND landed @ 5a6046f (5858253436); parent #161 MERGED @ dc58979; sci effect NONE"
     },
     {
       "work_id": "main-159-intake-packaging-amend",
@@ -6596,12 +6608,12 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 159,
-        "head_oid": "85c935ee77d58e2b0f614ad061732ad1ff316f50",
+        "head_oid": "db8cb1a82fceb497f0eda4046da60d4fd9b9dfa4",
         "finding_comment": "5850544205",
         "delivery_oid": "f21e222"
       },
       "claimed_at": "2026-09-26T22:40:30Z",
-      "heartbeat_at": "2026-09-27T17:44:30Z",
+      "heartbeat_at": "2026-09-27T17:55:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
       "state": "RELEASED",
       "write_scope": [],
@@ -6610,10 +6622,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5850544205",
         "https://github.com/d6g8k5htny-coder/main/commit/85c935ee77d58e2b0f614ad061732ad1ff316f50",
-        "https://github.com/d6g8k5htny-coder/main/commit/f21e222"
+        "https://github.com/d6g8k5htny-coder/main/commit/f21e222",
+        "https://github.com/d6g8k5htny-coder/main/commit/7cf3bdb3a602c4793fad5213b14c0d7a0d904862"
       ],
       "delegates_to": "main-159-drive-lane-map-incoming",
-      "blocked_reason": "RELEASED: RESULT.md+IDENTITY.json delivered @ f21e222 / tip 85c935e for peer AMEND 5850544205; successor re-review OFFERED on observe lease; sci effect NONE"
+      "blocked_reason": "RELEASED: RESULT.md+IDENTITY.json delivered @ f21e222 / tip 85c935e for peer AMEND 5850544205; parent #159 MERGED @ 7cf3bdb; sci effect NONE"
     },
     {
       "work_id": "math-59-proof-index-blocked-absent-followup",
@@ -6658,22 +6671,25 @@
         "head_oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee",
         "finding_comment": "5850565848",
         "merge_hold": "5851320572",
-        "copilot_review": "5330621632"
+        "copilot_review": "5330621632",
+        "pr_state": "closed",
+        "close_comment": "5858193153"
       },
       "claimed_at": "2026-09-26T22:45:00Z",
-      "heartbeat_at": "2026-09-27T14:20:00Z",
+      "heartbeat_at": "2026-09-27T17:55:00Z",
       "expires_at": "2026-09-29T12:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
       "evidence": [
         "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848",
         "https://github.com/d6g8k5htny-coder/Math-/pull/46#pullrequestreview-5328282426",
-        "https://github.com/d6g8k5htny-coder/Math-/pull/46#pullrequestreview-5330621632"
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#pullrequestreview-5330621632",
+        "https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5858193153"
       ],
       "delegates_to": "math-46-lemma-theorem-reading-maps",
-      "blocked_reason": "OFFERED peer AMEND+merge-hold+Copilot repair (exact_checks NameError + map headlines + audit links); this App does not race; sci effect NONE"
+      "blocked_reason": "SUPERSEDED: #46 CLOSED UNMERGED (5858193153); AGENTS.md forbids duplicate scientific-status registers; sci effect NONE"
     },
     {
       "work_id": "math-45-fail-closed-claim-audit",

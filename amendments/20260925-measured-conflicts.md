@@ -71,7 +71,7 @@
 | Math- [#59](https://github.com/d6g8k5htny-coder/Math-/pull/59) | **MERGED** `55a3ced…` — see later row; related [#80](https://github.com/d6g8k5htny-coder/Math-/pull/80) substitute remains open |
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | **CLOSED UNMERGED** NEVER-MAIN tip-observe ([5847478200](https://github.com/d6g8k5htny-coder/main/pull/112#issuecomment-5847478200)); Section3–5 ACCEPT notes retained on governance-; OBL-H5-JETMOD remains OPEN; sci effect NONE |
 | Math- [#49](https://github.com/d6g8k5htny-coder/Math-/pull/49) | **CLOSED** without merge — superseded; bytes already on main via PR25 `53320cb…` ([5848730830](https://github.com/d6g8k5htny-coder/Math-/pull/49#issuecomment-5848730830)); eng≠theorem |
-| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | tip `79a791a…` — peer **AMEND** 5850565848; see later row |
+| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | **CLOSED UNMERGED** ([5858193153](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5858193153)); see later row |
 | main [#121](https://github.com/d6g8k5htny-coder/main/pull/121)/[#124](https://github.com/d6g8k5htny-coder/main/pull/124) | #121 strict subset; prefer land [#124](https://github.com/d6g8k5htny-coder/main/pull/124) @ `079615e…` then CLOSE_SUPERSEDED ([5850479713](https://github.com/d6g8k5htny-coder/main/pull/121#issuecomment-5850479713)); eng≠theorem |
 | main [#122](https://github.com/d6g8k5htny-coder/main/pull/122) | tip `a1fc958…` **CI GREEN**; peer **AMEND** ([5848718687](https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5848718687)) A1 geometry still absent despite claim [5846575968](https://github.com/d6g8k5htny-coder/main/pull/122#issuecomment-5846575968); A6 conditional; repair **OFFERED**; eng≠theorem |
 | main [#128](https://github.com/d6g8k5htny-coder/main/pull/128) | tip `674f88c…` **CONFLICTING**; peer **AMEND** ([5850654979](https://github.com/d6g8k5htny-coder/main/pull/128#issuecomment-5850654979)) finite-r transfer/cross-term/τγ + Math- frontiers home; prior Codex AMEND 5842951887; repair **OFFERED**; recon≠theorem |
@@ -103,15 +103,15 @@
 | main [#156](https://github.com/d6g8k5htny-coder/main/pull/156) | **MERGED** `f9f1253…` intake non-finite JSON + source paths; eng |
 | main [#158](https://github.com/d6g8k5htny-coder/main/pull/158) | **MERGED** `6200dfd…` museum manifest cache; eng — **main tip** |
 | main [#157](https://github.com/d6g8k5htny-coder/main/pull/157) | **MERGED** `dbb9dcf…` Actions group bump; eng — **main tip** |
-| main [#159](https://github.com/d6g8k5htny-coder/main/pull/159) | tip `85c935e…` ready_for_review; AMEND applied ([5858229152](https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5858229152)); CI green×3; re-review **OFFERED**; eng≠theorem |
-| main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | tip `5a6046f…`; AMEND applied ([5858253436](https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5858253436)) F2/C031/constants; CI green×3; await land; eng≠theorem |
+| main [#159](https://github.com/d6g8k5htny-coder/main/pull/159) | **MERGED** `7cf3bdb…` (PR tip `db8cb1a…`); Drive-to-GitHub map nav-only; AMEND applied ([5858229152](https://github.com/d6g8k5htny-coder/main/pull/159#issuecomment-5858229152)); merge≠theorem; sci effect NONE — **main tip** |
+| main [#161](https://github.com/d6g8k5htny-coder/main/pull/161) | **MERGED** `dc58979…` (PR tip `e5d42e1…`); LB-RATE/KIMI-THM-023 HOLD; AMEND applied ([5858253436](https://github.com/d6g8k5htny-coder/main/pull/161#issuecomment-5858253436)); merge≠theorem; sci effect NONE |
 | main [#162](https://github.com/d6g8k5htny-coder/main/pull/162) | **MERGED** `64edf72…` public source storefront / notebook quickstart; eng — **main tip** |
 | main [#164](https://github.com/d6g8k5htny-coder/main/pull/164) | **MERGED** `b4cc529…` H5 inputs + loader review; eng — **main tip** |
 | main [#163](https://github.com/d6g8k5htny-coder/main/pull/163) | **MERGED** `46c0f69…` (PR tip `65e414f…`); incoming replay ledger; merge≠theorem; sci effect NONE |
 | Math- [#84](https://github.com/d6g8k5htny-coder/Math-/pull/84) | **MERGED** `bebe09d…` H5 ledger inputs + rim exponent disclose; eng |
 | Math- [#85](https://github.com/d6g8k5htny-coder/Math-/pull/85) | **MERGED** `5ed3b45…` custody erratum + pairing/P15 note; eng |
 | Math- [#86](https://github.com/d6g8k5htny-coder/Math-/pull/86) | **MERGED** `0333379…` @ expected-head `5d890b5…` ([5851109594](https://github.com/d6g8k5htny-coder/Math-/pull/86#issuecomment-5851109594)); eng/custody H5 rim contract; merge≠theorem — **Math- tip** |
-| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | tip `79a791a…`; peer **AMEND** ([5850565848](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848)) + merge-hold ([5851320572](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5851320572)) + Copilot ([5330621632](https://github.com/d6g8k5htny-coder/Math-/pull/46#pullrequestreview-5330621632)) exact_checks `NameError` + headline hypotheses; repair **OFFERED**; eng≠theorem |
+| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | **CLOSED UNMERGED** ([5858193153](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5858193153)): AGENTS.md forbids duplicate scientific-status registers (closed/open lemma/theorem maps); prior peer **AMEND** ([5850565848](https://github.com/d6g8k5htny-coder/Math-/pull/46#issuecomment-5850565848)); sci effect NONE |
 | Math- [#73](https://github.com/d6g8k5htny-coder/Math-/pull/73) | **MERGED** `b63cccd…` (PR tip `326bf3e…`); merge≠theorem; peer/Copilot AMEND process debt if still material; eng≠theorem |
 | Math- [#74](https://github.com/d6g8k5htny-coder/Math-/pull/74) | **CLOSED UNMERGED** ([5858193160](https://github.com/d6g8k5htny-coder/Math-/pull/74#issuecomment-5858193160)): ACCEPT of [#69](https://github.com/d6g8k5htny-coder/Math-/pull/69) withdrawn after [#82](https://github.com/d6g8k5htny-coder/Math-/pull/82)/[#90](https://github.com/d6g8k5htny-coder/Math-/pull/90); sci effect NONE |
 | Math- [#87](https://github.com/d6g8k5htny-coder/Math-/pull/87) | tip `0fab933…`; merge-hold ([5858208320](https://github.com/d6g8k5htny-coder/Math-/pull/87#issuecomment-5858208320)) denominator order `r^8/12` not `r^6/12`; prior Copilot residual; repair **OFFERED**; not theorem merge |
@@ -162,6 +162,7 @@
 | main [#112](https://github.com/d6g8k5htny-coder/main/pull/112) | CLOSED UNMERGED NEVER-MAIN tip-observe (5847478200); OBL-H5-JETMOD unchanged |
 | main [#129](https://github.com/d6g8k5htny-coder/main/pull/129) | CLOSED UNMERGED parked — design superseded by #138 front door (5847486750) |
 | Math- [#68](https://github.com/d6g8k5htny-coder/Math-/pull/68) | CLOSED UNMERGED — Section 9 Borel superseded by accepted parent |
+| Math- [#46](https://github.com/d6g8k5htny-coder/Math-/pull/46) | CLOSED UNMERGED — duplicate scientific-status maps vs AGENTS.md (5858193153) |
 
 ## This agent
 
