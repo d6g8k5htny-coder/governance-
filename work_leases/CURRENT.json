@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T22:53:40Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 648b024 (#184); hardening tip a01c72f (#7); Math- tip a650f66; trial tip eb03255. HOLD binds \u2014 not merging. #185 OP-PRIVACY MERGED cdf8722; #186 intake DRAFT observe; Math- #87 52c953c. Updated 2026-09-27T22:53:40Z.",
+  "updated_at": "2026-09-27T22:55:35Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 648b024 (#184); hardening tip a01c72f (#7); Math- tip a650f66; trial tip eb03255. HOLD binds \u2014 not merging. #186 tip ea1e934 READY CI SUCCESS; Math- #87 52c953c. Updated 2026-09-27T22:55:35Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8388,10 +8388,11 @@
         "narrow_successor_merge": "648b02439137a077029e9faa6504bb70896fbac6",
         "op_privacy_successor_pr": 185,
         "op_privacy_successor_merge": "cdf8722bd011f8c4c9beeb6616656a1a4882f90f",
-        "intake_successor_pr": 186
+        "intake_successor_pr": 186,
+        "intake_successor_oid": "ea1e934fdffcf7e5c1b9d0ea729f0137869338e7"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T22:53:40Z",
+      "heartbeat_at": "2026-09-27T22:55:35Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9636,15 +9637,18 @@
         "branch": "cursor/dropbox-intake-20260927-ac93",
         "pr": 186,
         "pr_state": "open",
-        "head_oid": "2927c82fe0beae4637f6edc8b9262373e0c940ff",
-        "draft": true,
+        "head_oid": "ea1e934fdffcf7e5c1b9d0ea729f0137869338e7",
+        "draft": false,
         "changed_files": 111,
         "ci": "success",
         "parent_pr": 172,
-        "parent_oid": "668711f78c3b46271ffd85f8d2197724e0000613"
+        "parent_oid": "668711f78c3b46271ffd85f8d2197724e0000613",
+        "prior_oid": "2927c82fe0beae4637f6edc8b9262373e0c940ff",
+        "ready_for_review": true,
+        "mergeable": "MERGEABLE"
       },
       "claimed_at": "2026-09-27T22:53:40Z",
-      "heartbeat_at": "2026-09-27T22:53:40Z",
+      "heartbeat_at": "2026-09-27T22:55:35Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9653,10 +9657,11 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/main/pull/186",
         "https://github.com/d6g8k5htny-coder/main/commit/2927c82fe0beae4637f6edc8b9262373e0c940ff",
-        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860534867"
+        "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5860534867",
+        "https://github.com/d6g8k5htny-coder/main/commit/ea1e934fdffcf7e5c1b9d0ea729f0137869338e7"
       ],
       "delegates_to": "main-172-dropbox-reconciliation-tool",
-      "blocked_reason": "OFFERED observe DRAFT @ 2927c82; 111 files intake successor of #172; CI SUCCESS; await source-custody/publication review; do not race; HOLD binds (not merging); custody; sci effect NONE"
+      "blocked_reason": "OFFERED observe READY @ ea1e934 MERGEABLE CI SUCCESS (111 files); undrafted ready_for_review; await source-custody/publication review; do not race; HOLD binds (not merging); custody; sci effect NONE"
     }
   ]
 }
