@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T20:19:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #172 tip 34807df DRAFT ACCEPT; trial tip-drift #154 tip 0bd79e1. Updated 2026-09-27T20:19:30Z.",
+  "updated_at": "2026-09-27T20:20:45Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip aad07fd (#173); hardening tip 9458b90 (#8); Math- tip 3b2ac59 (#91). #172 tip 2e186de DRAFT; trial #152 tip 0a26868. Updated 2026-09-27T20:20:45Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8210,17 +8210,17 @@
         "repo": "d6g8k5htny-coder/main",
         "pr": 172,
         "pr_state": "open",
-        "head_oid": "34807df60207ca514ddb634c38c518f3799f27f2",
+        "head_oid": "2e186de59c568f07df4a2bfb69e54a07d6e85605",
         "draft": true,
         "base_branch": "main",
-        "prior_oid": "7133503bb32c1b6151df8861e8807d881caa4190",
+        "prior_oid": "34807df60207ca514ddb634c38c518f3799f27f2",
         "ci": "success",
         "branch": "claude/review-grok-github-uploads-gsthj3",
         "peer_accept": "5859448682",
         "amend_oid": "34807df60207ca514ddb634c38c518f3799f27f2"
       },
       "claimed_at": "2026-09-27T19:33:00Z",
-      "heartbeat_at": "2026-09-27T20:15:20Z",
+      "heartbeat_at": "2026-09-27T20:20:45Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8232,9 +8232,11 @@
         "https://github.com/d6g8k5htny-coder/main/commit/fc6898c365bf7bc3130b6f1266ef4147c645f94b",
         "https://github.com/d6g8k5htny-coder/main/commit/7133503bb32c1b6151df8861e8807d881caa4190",
         "https://github.com/d6g8k5htny-coder/main/pull/172#issuecomment-5859448682",
-        "https://github.com/d6g8k5htny-coder/main/commit/34807df60207ca514ddb634c38c518f3799f27f2"
+        "https://github.com/d6g8k5htny-coder/main/commit/34807df60207ca514ddb634c38c518f3799f27f2",
+        "https://github.com/d6g8k5htny-coder/main/commit/2e186de59c568f07df4a2bfb69e54a07d6e85605",
+        "https://github.com/d6g8k5htny-coder/main/commit/29290c4d6937c635b21e2592d91e6923364ba149"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 34807df; eng ACCEPT (5859448682) + fail-closed stage allow-list AMEND; CI SUCCESS; await ready_for_review; do not race author; custody/eng; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 2e186de; connector harvest + fail-closed allow-list merged; prior eng ACCEPT (5859448682); CI SUCCESS; await ready; do not race; custody/eng; sci effect NONE"
     },
     {
       "work_id": "trial-150-dropbox-drive-gap-audit",
@@ -8358,13 +8360,14 @@
         "branch": "cursor/tip-refresh-un-red-ci-ff72",
         "pr": 152,
         "pr_state": "open",
-        "head_oid": "62bd6a2ac7050d598694083b23b84beaa52d827c",
+        "head_oid": "0a268688570656e7e5a4184d2a44b3bf2e65912b",
         "draft": true,
-        "ci": "partial_fail_sanity",
-        "peer_coord": "5859447061"
+        "ci": "pending_sanity",
+        "peer_coord": "5859447061",
+        "prior_oid": "62bd6a2ac7050d598694083b23b84beaa52d827c"
       },
       "claimed_at": "2026-09-27T20:01:00Z",
-      "heartbeat_at": "2026-09-27T20:15:20Z",
+      "heartbeat_at": "2026-09-27T20:20:45Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8374,9 +8377,10 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/152",
         "https://github.com/d6g8k5htny-coder/trial/commit/62bd6a2ac7050d598694083b23b84beaa52d827c",
         "https://github.com/d6g8k5htny-coder/trial/pull/150#issuecomment-5859154134",
-        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859447061"
+        "https://github.com/d6g8k5htny-coder/trial/pull/152#issuecomment-5859447061",
+        "https://github.com/d6g8k5htny-coder/trial/commit/0a268688570656e7e5a4184d2a44b3bf2e65912b"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ 62bd6a2; peer coord (5859447061): converge tip-drift with #153/#154 \u2014 prefer #153 land vehicle + cherry-pick semantic_already_applied; sanity FAIL; do not race peers; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ 0a26868; TIP_DRIFT tolerated dry-run assertion fix; peer coord converge via #153 (5859447061); tip-drift gates SUCCESS; await sanity; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-153-path-c-descendant-ok",
