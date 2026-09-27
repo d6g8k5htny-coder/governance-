@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T21:49:20Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 372da8f. HOLD default binds (not merging). trial #159 narrowed to git-ancestry-only @ 16a7a64; #155 d3fabdc; await CI. Updated 2026-09-27T21:49:20Z.",
+  "updated_at": "2026-09-27T21:52:23Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip f8591b0 (#176); hardening tip a01c72f (#7); Math- tip 3b2ac59 (#91); trial tip 4dd7bdc. HOLD default binds (not merging). trial #159 CI SUCCESS\u00d75 @ 16a7a64; #156 tip e9e98ee; #155 d3fabdc. Updated 2026-09-27T21:52:23Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -8540,7 +8540,7 @@
         "na0009_classify_commit": "5e10de34ba1d8d104236e8613887f2ea925b6061"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:49:20Z",
+      "heartbeat_at": "2026-09-27T21:52:23Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8568,7 +8568,7 @@
         "https://github.com/d6g8k5htny-coder/trial/commit/d3fabdc7b64316e4ec0b12aa5b7bfcc6ae4182cf",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860124874"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE; NA-0009 classify on tip; #159 narrowed to git-ancestry-only after fb1f6a54 (5860124874); both CI nearly green; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ d3fabdc MERGEABLE; NA-0009 classify on tip; #159 CI SUCCESS\u00d75 @ 16a7a64 (preferred git-ancestry vehicle); await land/reshape; do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "trial-156-main172-review-packet",
@@ -8582,13 +8582,14 @@
         "repo": "d6g8k5htny-coder/trial",
         "pr": 156,
         "pr_state": "open",
-        "head_oid": "bef4af3170d6bc79da11e0620ca7724ad770364e",
+        "head_oid": "e9e98eea367d47116995163d584f290dccca2d52",
         "draft": true,
-        "prior_oid": "6c27029a71b5cd52a69d5b55b377a46e475b61af",
-        "mergeable": "MERGEABLE"
+        "prior_oid": "bef4af3170d6bc79da11e0620ca7724ad770364e",
+        "mergeable": "MERGEABLE",
+        "ci": "partial_in_progress"
       },
       "claimed_at": "2026-09-27T20:30:20Z",
-      "heartbeat_at": "2026-09-27T21:13:40Z",
+      "heartbeat_at": "2026-09-27T21:52:23Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -8597,9 +8598,10 @@
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/156",
         "https://github.com/d6g8k5htny-coder/trial/commit/6c27029a71b5cd52a69d5b55b377a46e475b61af",
-        "https://github.com/d6g8k5htny-coder/trial/commit/bef4af3170d6bc79da11e0620ca7724ad770364e"
+        "https://github.com/d6g8k5htny-coder/trial/commit/bef4af3170d6bc79da11e0620ca7724ad770364e",
+        "https://github.com/d6g8k5htny-coder/trial/commit/e9e98eea367d47116995163d584f290dccca2d52"
       ],
-      "blocked_reason": "OFFERED observe DRAFT @ bef4af3 MERGEABLE; re-merged origin/main; review packet #172/#174; do not race; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe DRAFT @ e9e98ee MERGEABLE; tip moved (includes tip_drift git-ancestry hunk + test_tip_drift_class accept shared-transport); review packet for main #172/#174; sanity IN_PROGRESS; overlap observe vs #159 \u2014 do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-7-p15-foundation-review",
@@ -8819,25 +8821,26 @@
         "mergeable": "MERGEABLE",
         "prior_oid": "45784d6257105900dfaf0b8e3c899939a7fb6e49",
         "peer_verify_comment": "5860090020",
-        "ci": "in_progress",
+        "ci": "success",
         "rebase_note_comment": "5860124874",
         "scope_narrowed": "git_ancestry_only_2file"
       },
       "claimed_at": "2026-09-27T21:42:32Z",
-      "heartbeat_at": "2026-09-27T21:49:20Z",
+      "heartbeat_at": "2026-09-27T21:52:23Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
-      "blocked_reason": "OFFERED observe DRAFT @ 16a7a64 MERGEABLE; rebased onto fb1f6a54 \u2014 dropped test_intent hunk (option c already on main); 2-file git-ancestry-only (5860124874); peer verify 5860090020; CI nearly green (sanity IN_PROGRESS); await full green; do not race; eng\u2260theorem; sci effect NONE",
+      "blocked_reason": "OFFERED observe DRAFT @ 16a7a64 MERGEABLE; CI SUCCESS\u00d75 (run 36352797542) incl. sanity with live tip != BASE_TIP path; git-ancestry-only after fb1f6a54; peer verify 5860090020; await author land decision; HOLD binds (not merging) unless agent consensus; do not race; eng\u2260theorem; sci effect NONE",
       "evidence": [
         "https://github.com/d6g8k5htny-coder/trial/pull/159",
         "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860075158",
         "https://github.com/d6g8k5htny-coder/trial/commit/45784d6257105900dfaf0b8e3c899939a7fb6e49",
         "https://github.com/d6g8k5htny-coder/trial/commit/16a7a64ec11a2e1449712cc5a627dcf1d826a079",
         "https://github.com/d6g8k5htny-coder/trial/pull/159#issuecomment-5860090020",
-        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860124874"
+        "https://github.com/d6g8k5htny-coder/trial/pull/155#issuecomment-5860124874",
+        "https://github.com/d6g8k5htny-coder/trial/actions/runs/36352797542"
       ]
     }
   ]
