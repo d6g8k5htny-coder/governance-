@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:21:30Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. Owner route Math-#96 @ 240a3a1 (OpenAI owns; Grok review-only); keep one watcher. Updated 2026-09-27T23:21:30Z.",
+  "updated_at": "2026-09-27T23:23:30Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip a650f66; trial tip b1152e8. HOLD binds \u2014 not merging. Owner route Math-#96 @ 240a3a1 (OpenAI owns; Grok review-only); keep one watcher. Math-#96 CI SUCCESS @ 240a3a1. Updated 2026-09-27T23:21:30Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -9781,12 +9781,12 @@
         "head_oid": "240a3a155150b6a702db208b85fa3bb6ea8ce662",
         "draft": false,
         "mergeable": "MERGEABLE",
-        "ci": "in_progress",
+        "ci": "success",
         "owner_route_comment": "5860770012",
         "reviewer": "grok-review-only"
       },
       "claimed_at": "2026-09-27T23:10:50Z",
-      "heartbeat_at": "2026-09-27T23:21:20Z",
+      "heartbeat_at": "2026-09-27T23:23:30Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9803,7 +9803,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860770012"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 240a3a1 MERGEABLE Math-#96; OpenAI owns impl/integration; Grok review-only; owner route 5860770012 \u2014 do not duplicate workflow edits / no new watcher; await CI+review; do not merge negative-control; eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 240a3a1 MERGEABLE CI SUCCESS; OpenAI owns; Grok review-only; await eng review; this App observe-only; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-188-required-formal-check",
@@ -9904,13 +9904,13 @@
         "head_oid": "240a3a155150b6a702db208b85fa3bb6ea8ce662",
         "draft": false,
         "mergeable": "MERGEABLE",
-        "ci": "in_progress",
+        "ci": "success",
         "owner_route_comment": "5860770012",
         "source_main_merge": "3592abbd5df433cb1816b69204e740a7cf00ca07",
         "coord_issue": 95
       },
       "claimed_at": "2026-09-27T23:21:20Z",
-      "heartbeat_at": "2026-09-27T23:21:20Z",
+      "heartbeat_at": "2026-09-27T23:23:30Z",
       "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [],
@@ -9923,7 +9923,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/188"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 240a3a1 MERGEABLE; OpenAI owns; Grok review-only; this App observe-only (no Math- push / no duplicate / keep one watcher); await hosted formal+aggregate; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
+      "blocked_reason": "OFFERED observe @ 240a3a1 MERGEABLE CI SUCCESS; OpenAI owns; Grok review-only; await eng review; this App observe-only; HOLD binds (not merging); eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "main-189-op-privacy-github-scope",
