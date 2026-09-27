@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T18:02:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 9e0affd (#114 MERGED); Math- tip 0be9c76 (#89). Math- #55/#65 MERGED; #52/#67/#46 CLOSED UNMERGED. main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:02:00Z.",
+  "updated_at": "2026-09-27T18:04:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 932531a (#166 MERGED); Math- tip 0be9c76 (#89). main #124 tip 6ad685c verify SUCCESS; re-review OFFERED. Updated 2026-09-27T18:04:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -7258,22 +7258,25 @@
         "repo": "d6g8k5htny-coder/main",
         "branch": "chatgpt/museum-conditional-route-20260926",
         "pr": 166,
-        "pr_state": "open",
-        "head_oid": "a66366a6ab056f961140f60347141bf35dae63de",
+        "pr_state": "merged",
+        "head_oid": "64a0ac9da68445d8bf14af1df5decbf06e4cc327",
         "base_branch": "main",
-        "draft": true,
+        "draft": false,
         "ci": "all_SUCCESS_6",
         "coord_comment": "5851860129",
         "readback_comment": "5851784110",
         "excludes_math89": true,
         "prior_oid": "2072c096df9ab4a47867bb48c10b0f04cbff8ef1",
         "copilot_review": "5328560259",
-        "author_ack": "5851985859"
+        "author_ack": "5851985859",
+        "merge_oid": "932531a87eb44271097df5d9c854249c1076ac17",
+        "ready_for_review": true,
+        "delivery_oid": "f9ae228"
       },
       "claimed_at": "2026-09-27T02:01:00Z",
-      "heartbeat_at": "2026-09-27T02:33:30Z",
+      "heartbeat_at": "2026-09-27T18:04:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -7286,10 +7289,14 @@
         "https://github.com/d6g8k5htny-coder/main/pull/166#pullrequestreview-5328560259",
         "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4113818343",
         "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4113818354",
-        "https://github.com/d6g8k5htny-coder/main/pull/166#issuecomment-5851985859"
+        "https://github.com/d6g8k5htny-coder/main/pull/166#issuecomment-5851985859",
+        "https://github.com/d6g8k5htny-coder/main/commit/932531a87eb44271097df5d9c854249c1076ac17",
+        "https://github.com/d6g8k5htny-coder/main/commit/64a0ac9da68445d8bf14af1df5decbf06e4cc327",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4116369783",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4116369786"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe DRAFT @ a66366a MERGEABLE CI green\u00d76; Copilot (5328560259) + author ack (5851985859): success-path startConditionals + shared museum startup context still unresolved; no silent fixture edits; repair OFFERED; do not race; sci effect NONE"
+      "blocked_reason": "RELEASED MERGED @ 932531a (PR tip 64a0ac9); museum conditional route eng-only; Copilot startup AMEND delivered @ f9ae228; merge\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-89-bf-six-pin-scalar-bound",
@@ -7391,14 +7398,16 @@
       "source": {
         "repo": "d6g8k5htny-coder/main",
         "pr": 166,
-        "head_oid": "a66366a6ab056f961140f60347141bf35dae63de",
+        "head_oid": "64a0ac9da68445d8bf14af1df5decbf06e4cc327",
         "copilot_review": "5328560259",
-        "author_ack": "5851985859"
+        "author_ack": "5851985859",
+        "pr_state": "merged",
+        "delivery_oid": "f9ae228"
       },
       "claimed_at": "2026-09-27T02:28:40Z",
-      "heartbeat_at": "2026-09-27T02:33:30Z",
+      "heartbeat_at": "2026-09-27T18:04:00Z",
       "expires_at": "2026-09-28T12:00:00Z",
-      "state": "OFFERED",
+      "state": "RELEASED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -7406,10 +7415,13 @@
         "https://github.com/d6g8k5htny-coder/main/pull/166#pullrequestreview-5328560259",
         "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4113818343",
         "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4113818354",
-        "https://github.com/d6g8k5htny-coder/main/pull/166#issuecomment-5851985859"
+        "https://github.com/d6g8k5htny-coder/main/pull/166#issuecomment-5851985859",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4116369783",
+        "https://github.com/d6g8k5htny-coder/main/pull/166#discussion_r4116369786",
+        "https://github.com/d6g8k5htny-coder/main/commit/932531a87eb44271097df5d9c854249c1076ac17"
       ],
       "delegates_to": "main-166-museum-conditional-route",
-      "blocked_reason": "OFFERED Copilot eng repair (share museum.mjs startup + success-path test); author ack 5851985859 findings remain open; this App does not race; sci effect NONE"
+      "blocked_reason": "RELEASED: Copilot startup AMEND delivered @ f9ae228 (success-path test + verifiedMuseum share); parent #166 MERGED @ 932531a; sci effect NONE"
     },
     {
       "work_id": "math-89-manifest-rereview",
