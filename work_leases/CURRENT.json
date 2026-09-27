@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T19:15:00Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124); Math- tip 3b2ac59 (#91). trial #138 eng AMEND 5858907660 binding_order_permutation OFFERED. Updated 2026-09-27T19:15:00Z.",
+  "updated_at": "2026-09-27T19:16:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip 73eb8da (#168); hardening tip e7652a1 (#124); Math- tip 3b2ac59 (#91). trial #121 KEEP+MODIFY 5858938478; #138 binding_order AMEND OFFERED. Updated 2026-09-27T19:16:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -905,11 +905,13 @@
         "pr": 121,
         "pr_state": "open",
         "issue": null,
-        "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191"
+        "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191",
+        "peer_review": "5858938478",
+        "peer_verdict": "KEEP_MODIFY"
       },
       "claimed_at": "2026-09-25T20:05:12Z",
-      "heartbeat_at": "2026-09-27T19:15:00Z",
-      "expires_at": "2026-09-28T12:00:00Z",
+      "heartbeat_at": "2026-09-27T19:16:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
       "state": "OFFERED",
       "write_scope": [
         "experiments/p15_assumption_probe_20260925/"
@@ -924,10 +926,11 @@
         "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5842104261",
         "https://cursor.com/agents/bc-01a0cf1e-ebff-78a8-8a7a-9140fd59309a",
         "https://github.com/d6g8k5htny-coder/main/commit/7caac254cbba5f513b2dc0afb56b78a598bc0c93",
-        "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5842250272"
+        "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5842250272",
+        "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5858938478"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe trial #121 Path C eng; prior Batch 387 resume; do not race peer coordinator; sci effect NONE \u2014 note: lease was briefly mis-closed by main #121 supersede script; restored"
+      "blocked_reason": "OFFERED observe @ 391f6a8; peer KEEP+MODIFY (5858938478): README baseline framing (6 new vs M_* controls not 2/9 witness) + three maintenance notes (root-obj abort, panel index fragility, --output path); do not race; eng\u2260theorem; sci effect NONE"
     },
     {
       "work_id": "math-15-eng-review-cursor",
@@ -8038,6 +8041,35 @@
         "https://github.com/d6g8k5htny-coder/trial/actions/runs/36203541349"
       ],
       "blocked_reason": "OFFERED eng AMEND (5858907660): binding_order_permutation \u2192 coverage_repairs via positional field in coverage_sha256 + non-normalized node identity; design call (a)/(b); do not race PR98 owner; eng\u2260theorem; sci effect NONE"
+    },
+    {
+      "work_id": "trial-121-readme-baseline-amend",
+      "scope": "README: report 6 new vs SPEC M_* controls; note root-obj abort, panel index fragility, --output /tmp",
+      "owner": {
+        "provider": "cursor",
+        "model": "claude",
+        "agent": "cursor[bot]"
+      },
+      "source": {
+        "repo": "d6g8k5htny-coder/trial",
+        "pr": 121,
+        "head_oid": "391f6a8e421e61d888e7687f6847e62339eef191",
+        "finding_comment": "5858938478",
+        "draft": true
+      },
+      "claimed_at": "2026-09-27T19:16:00Z",
+      "heartbeat_at": "2026-09-27T19:16:00Z",
+      "expires_at": "2026-09-30T12:00:00Z",
+      "state": "OFFERED",
+      "write_scope": [],
+      "dependency_lane": "D0",
+      "scientific_authority": false,
+      "delegates_to": "trial-121-p15-assumption-probe",
+      "evidence": [
+        "https://github.com/d6g8k5htny-coder/trial/pull/121#issuecomment-5858938478",
+        "https://github.com/d6g8k5htny-coder/trial/pull/121"
+      ],
+      "blocked_reason": "OFFERED peer MODIFY repair (5858938478) after KEEP-as-optional-probe; this App does not race; sci effect NONE"
     }
   ]
 }
