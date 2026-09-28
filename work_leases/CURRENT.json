@@ -1,8 +1,8 @@
 {
   "schema": "governance.work-leases/v1",
   "scientific_authority": false,
-  "updated_at": "2026-09-27T23:50:02Z",
-  "notes": "Compact ledger. Sci effect NONE. Main tip 0a168ca (#189); hardening tip a01c72f (#7); Math- tip 22e79e8 (#96); trial tip 792ba7b (#121); governance- tip 365eafe (#5). HOLD binds — not merging open peers. #96 MERGED formal gates; no open Math PRs observed. Updated 2026-09-27T23:50:02Z.",
+  "updated_at": "2026-09-28T00:30:00Z",
+  "notes": "Compact ledger. Sci effect NONE. Main tip c1de68f (#192); hardening tip a01c72f (#7); Math- tip 48cfe40 (#98); trial tip a939c5c (OWNER STOP); governance- tip d47fd92 (#8). Required formal checks deployed in main (#188) and Math- (#96): OP-FORMAL-ENFORCEMENT-20260927-v1.0, evidence main audits/formal_enforcement/2026-09-27/ (#192). Temporary Math- default-merge coordination hold RELEASED (Math-#96 comment 5860985432; main#95 comment 5860996324). Cursor agents and lease-watch loops stopped per OWNER_STOP.md. Updated 2026-09-28T00:30:00Z.",
   "leases": [
     {
       "work_id": "main-98-claims-gate-adapter",
@@ -244,14 +244,15 @@
       "claimed_at": "2026-09-25T17:00:00Z",
       "heartbeat_at": "2026-09-25T17:00:00Z",
       "expires_at": "2026-09-26T17:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [
         "architecture/scientific_state/formal/"
       ],
       "dependency_lane": "D7",
       "scientific_authority": false,
       "evidence": [],
-      "delegates_to": null
+      "delegates_to": null,
+      "blocked_reason": "SUPERSEDED: formal enforcement deployed via main #188 / Math- #96 (OP-FORMAL-ENFORCEMENT-20260927-v1.0; evidence main audits/formal_enforcement/2026-09-27/, #192). main #95 closed 2026-09-27 for issue-list cleanup; its open obligations are not discharged."
     },
     {
       "work_id": "lane-d1-offer",
@@ -9837,7 +9838,7 @@
       "source": {
         "repo": "d6g8k5htny-coder/Math-",
         "pr": 96,
-        "pr_state": "open",
+        "pr_state": "merged",
         "handoff_comment": "5860699760",
         "handoff_pr": 93,
         "source_main_pr": 188,
@@ -9861,12 +9862,14 @@
         "evidence_comment": "5860810802",
         "positive_run": "36358309423",
         "negative_pr": 97,
-        "negative_run": "36358390847"
+        "negative_run": "36358390847",
+        "merge_oid": "22e79e84917e6bf5bec606c21ce713159d12dddf",
+        "final_deployment_comment": "5860985432"
       },
       "claimed_at": "2026-09-27T23:10:50Z",
       "heartbeat_at": "2026-09-27T23:27:35Z",
       "expires_at": "2026-09-30T12:00:00Z",
-      "state": "OFFERED",
+      "state": "SUPERSEDED",
       "write_scope": [],
       "dependency_lane": "D0",
       "scientific_authority": false,
@@ -9882,7 +9885,7 @@
         "https://github.com/d6g8k5htny-coder/Math-/pull/96#issuecomment-5860810802"
       ],
       "delegates_to": null,
-      "blocked_reason": "OFFERED observe @ 240a3a1 MERGEABLE CI SUCCESS; hosted pos/neg evidence (5860810802); #97 CLOSED UNMERGED probe; await Grok exact-head eng review; HOLD binds (not merging); eng≠theorem; sci effect NONE"
+      "blocked_reason": "SUPERSEDED by math-96-required-formal-gates: Math-#96 MERGED 22e79e8, landed push run 36359933550 success. Temporary Math- default-merge coordination hold RELEASED (Math-#96 comment 5860985432; main#95 comment 5860996324)."
     },
     {
       "work_id": "main-188-required-formal-check",
@@ -10006,7 +10009,8 @@
         "coordination_window": false,
         "merge_oid": "22e79e84917e6bf5bec606c21ce713159d12dddf",
         "final_evidence_comment": "5860954536",
-        "grok_accept_ac9cf41_comment": "5860939592"
+        "grok_accept_ac9cf41_comment": "5860939592",
+        "final_deployment_comment": "5860985432"
       },
       "claimed_at": "2026-09-27T23:21:20Z",
       "heartbeat_at": "2026-09-27T23:50:02Z",
@@ -10037,7 +10041,7 @@
         "https://github.com/d6g8k5htny-coder/main/pull/180#issuecomment-5860939592"
       ],
       "delegates_to": null,
-      "blocked_reason": "RELEASED MERGED @ 22e79e8 (PR tip ac9cf41); required math-downstream-gates + formal evidence; Grok eng ACCEPT @ ac9cf41 (main 5860939592) + OpenAI receipt (5860954536); merge≠theorem; eng≠theorem; sci effect NONE — Math- tip"
+      "blocked_reason": "RELEASED MERGED @ 22e79e8 (PR tip ac9cf41); required math-downstream-gates + formal evidence; Grok eng ACCEPT @ ac9cf41 (main 5860939592) + OpenAI receipt (5860954536); merge≠theorem; eng≠theorem; sci effect NONE — Math- tip Temporary Math- default-merge coordination hold RELEASED (Math-#96 comment 5860985432; main#95 comment 5860996324)."
     },
     {
       "work_id": "main-189-op-privacy-github-scope",
@@ -10112,15 +10116,16 @@
       "source": {
         "repo": "d6g8k5htny-coder/governance-",
         "branch": "cursor/lease-watch-followthrough-ab08",
-        "pr_state": "open",
+        "pr_state": "merged",
         "predecessor_pr": 5,
         "predecessor_merge": "365eafeed2f24d8448ee15514d89d0267f61c31e",
-        "pr": 6
+        "pr": 6,
+        "merge_oid": "5c5307baacd8527b513aff1fe14e2ead00de47f7"
       },
       "claimed_at": "2026-09-27T23:37:41Z",
       "heartbeat_at": "2026-09-27T23:37:57Z",
       "expires_at": "2026-10-02T12:00:00Z",
-      "state": "ACTIVE",
+      "state": "RELEASED",
       "write_scope": [
         "work_leases/CURRENT.json",
         "amendments/",
@@ -10134,7 +10139,7 @@
         "https://github.com/d6g8k5htny-coder/governance-/pull/6"
       ],
       "delegates_to": null,
-      "blocked_reason": "ACTIVE followthrough after #5 MERGED 365eafe; HOLD binds (not merging peers); sci effect NONE"
+      "blocked_reason": "RELEASED: governance- #6 MERGED 5c5307b; lease-watch loop stopped per OWNER_STOP.md (governance- #8, d47fd92)."
     }
   ]
 }
