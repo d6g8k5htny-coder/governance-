@@ -1,4 +1,4 @@
-# Cross-repository working contract
+# Governance — cross-repository working contract
 
 Effective 24 September 2026 for Dylan Roy's eight-repository research workspace. The owner's current instruction is to use these repositories appropriately to advance the project. The previous empty-shell and blanket never-main wording is superseded; this contract does not introduce another owner-approval queue.
 
