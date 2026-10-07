@@ -1,5 +1,58 @@
 # Governance — cross-repository working contract
 
+## Current entry — 7 October 2026
+
+This repository supplies cross-repository process and evidence guidance, not a
+scientific-status register. Start with the [main agent entry](https://github.com/d6g8k5htny-coder/main/blob/main/AGENTS.md)
+and [current working workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md).
+Use [main #275](https://github.com/d6g8k5htny-coder/main/issues/275) and the actual
+issue or PR for current tasks, and the [main #229 guide](https://github.com/d6g8k5htny-coder/main/issues/229#issuecomment-6038554880)
+for coordination. Keep one canonical claim in the relevant existing discussion;
+link it when coordination requires it. Read actual ownership, exact source/base,
+latest reviews and task-specific pickup or confirmation conditions before acting.
+An offer, a shared account, silence or elapsed time is not assignment or release.
+
+The September 27 blanket Cursor stop was lifted by the [October 5 owner decision](https://github.com/d6g8k5htny-coder/main/blob/4ff9e927ae5e2bd903b2e11780e78d4c40f71988/governance/OWNER_DECISION_20261005_CURSOR.md).
+The [October 7 local agent entry](https://github.com/d6g8k5htny-coder/governance-/blob/2894dd5f94c46a47d9f8df724a8e69f8a565360c/AGENTS.md)
+records its removal here. That supersession is not a release of another task's
+custody, a scientific acceptance, or permission to evade a platform denial.
+Cursor support remains requested and bounded; it creates no permanent windows,
+timers or loops. Preserve applicable explicit stops, never merge negative-control
+branches, and keep source review, required hosted checks and guarded integration
+separate. The historical consensus language below is not a platform or protection
+bypass. A denied action remains stopped, not delegated to a proxy.
+
+**Repository visibility is not payload-export permission.** The [October 6 surface decision](https://github.com/d6g8k5htny-coder/main/blob/4ff9e927ae5e2bd903b2e11780e78d4c40f71988/governance/OWNER_DECISION_20261006_SURFACES.md)
+keeps `sandbox`, `trial` and `google-drive` public. `trial` is the historical
+integration lab; `google-drive` contains selective source-bound public replicas,
+not a Drive backup. Archive/settings actions and their actual completion are
+tracked separately in [main #227](https://github.com/d6g8k5htny-coder/main/issues/227);
+this page does not perform or certify them. The older instruction to keep the
+`sandbox` repository private is historical. It does not authorize automatic
+cataloging or export of exploratory files, outputs, paths or hashes. Private
+material stays private; publish only appropriately scoped project material after
+the [privacy and provenance screen](https://github.com/d6g8k5htny-coder/main/blob/4ff9e927ae5e2bd903b2e11780e78d4c40f71988/governance/OP-PRIVACY-20260927.md).
+Do not change sharing or visibility merely because a source is readable. The
+privacy rule's later clarification leaves private Drive/Dropbox originals alone;
+this maintenance task neither searches nor changes those stores for privacy reasons.
+
+The [retained lease snapshot](work_leases/CURRENT.json) is dated September 28,
+2026. Its counts and the watcher/scheduler observations below are historical,
+not a current ownership census or evidence that an automation is enabled,
+stopped or running. Consult the actual task and scheduling instructions; do not
+create, restart or change a loop based on this README. No watcher, scheduler or
+additional ownership register is installed here. Scientific evidence, failed
+receipts, proof bytes, reviewer exposure and acceptance conditions keep their meaning.
+
+## Historical contract and measured records — September 2026
+
+The text below is retained from governance- `2894dd5f94c46a47d9f8df724a8e69f8a565360c`
+for historical context, not as a live queue, capability report or scheduler state.
+Resolve operational conflicts through the current sources above, without rewriting
+past authorship or outcomes. The only substitution inside the retained text is the
+broken relative `OWNER_STOP.md` URL, now an immutable link to its historical bytes.
+The old stop, watcher statements and private-repository wording are not reactivated.
+
 Effective 24 September 2026 for Dylan Roy's eight-repository research workspace. The owner's current instruction is to use these repositories appropriately to advance the project. The previous empty-shell and blanket never-main wording is superseded; this contract does not introduce another owner-approval queue.
 
 | Repository | Working responsibility |
@@ -89,7 +142,7 @@ Owner clarification (2026-09-27, reaffirmed again): Dylan `HOLD` / `NEVER-MERGE`
 
 ### Release-manager coordination (watcher stopped)
 
-Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350) / [5860770012](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860770012)): the watcher is stopped per [OWNER_STOP.md](OWNER_STOP.md); do not spawn another loop or duplicate workflow edits. Eng [#180](https://github.com/d6g8k5htny-coder/main/pull/180)–[#189](https://github.com/d6g8k5htny-coder/main/pull/189) cascade **MERGED** — main tip `0a168ca…`. Math- tip `22e79e8…` ([#96](https://github.com/d6g8k5htny-coder/Math-/pull/96)). Formal-layer: `docs/FORMAL_REQUIRED_CHECKS.md` in main and Math-; deployment evidence main [audits/formal_enforcement/2026-09-27/](https://github.com/d6g8k5htny-coder/main/tree/main/audits/formal_enforcement/2026-09-27) ([#192](https://github.com/d6g8k5htny-coder/main/pull/192)); main [#95](https://github.com/d6g8k5htny-coder/main/issues/95) is closed for issue-list cleanup (history kept; open obligations not discharged). Math- required-formal route: [#96](https://github.com/d6g8k5htny-coder/Math-/pull/96) **MERGED** `22e79e8…` (Grok eng ACCEPT + OpenAI receipt; merge≠theorem; HOLD still binds on other open peers); the temporary Math- default-merge coordination hold is **RELEASED** ([Math-#96 5860985432](https://github.com/d6g8k5htny-coder/Math-/pull/96#issuecomment-5860985432)). Experimental formal PRs are not scientific authority. Never merge labelled negative-control branches. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
+Owner/delegate notice ([5860429350](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860429350) / [5860770012](https://github.com/d6g8k5htny-coder/governance-/pull/5#issuecomment-5860770012)): the watcher is stopped per [OWNER_STOP.md](https://github.com/d6g8k5htny-coder/governance-/blob/a9a85ab48a73f3b66b14f68170b5709feb00c665/OWNER_STOP.md); do not spawn another loop or duplicate workflow edits. Eng [#180](https://github.com/d6g8k5htny-coder/main/pull/180)–[#189](https://github.com/d6g8k5htny-coder/main/pull/189) cascade **MERGED** — main tip `0a168ca…`. Math- tip `22e79e8…` ([#96](https://github.com/d6g8k5htny-coder/Math-/pull/96)). Formal-layer: `docs/FORMAL_REQUIRED_CHECKS.md` in main and Math-; deployment evidence main [audits/formal_enforcement/2026-09-27/](https://github.com/d6g8k5htny-coder/main/tree/main/audits/formal_enforcement/2026-09-27) ([#192](https://github.com/d6g8k5htny-coder/main/pull/192)); main [#95](https://github.com/d6g8k5htny-coder/main/issues/95) is closed for issue-list cleanup (history kept; open obligations not discharged). Math- required-formal route: [#96](https://github.com/d6g8k5htny-coder/Math-/pull/96) **MERGED** `22e79e8…` (Grok eng ACCEPT + OpenAI receipt; merge≠theorem; HOLD still binds on other open peers); the temporary Math- default-merge coordination hold is **RELEASED** ([Math-#96 5860985432](https://github.com/d6g8k5htny-coder/Math-/pull/96#issuecomment-5860985432)). Experimental formal PRs are not scientific authority. Never merge labelled negative-control branches. Task offer ≠ acknowledgment ≠ executed result ≠ eng review ≠ formal alignment. Scientific effect NONE.
 
 ### Hardening top-level checkout list vs CI artifact dirs
 
