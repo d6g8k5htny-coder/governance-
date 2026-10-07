@@ -1,9 +1,6 @@
 # Agent entry — `governance-`
 
-> **OWNER STOP (2026-09-27): all Cursor agents, automations, timers, watches and
-> loops must stop now. Do not push, commit, open or update PRs, comment, or
-> re-arm timers. Exit without writing. Resume only on a new explicit
-> instruction from Dylan. See [OWNER_STOP.md](OWNER_STOP.md).**
+The 2026-09-27 stop file is removed. Dylan Roy, 2026-10-07: the live stop is no longer in effect. No agent needs to stop. Do not exit on the old stop. Historical decision: main `governance/OWNER_DECISION_20261005_CURSOR.md`.
 
 Cross-repository working contract and useful process amendments only.
 
@@ -19,6 +16,7 @@ Cross-repository working contract and useful process amendments only.
 - Duplicate scientific-status registers here.
 - Publish private `sandbox` material.
 - Ask Dylan for re-approval of autonomy already granted.
+- Treat a removed stop file as an instruction to exit.
 
 ## Start here
 
