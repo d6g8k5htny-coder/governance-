@@ -6,8 +6,10 @@ This repository supplies cross-repository process and evidence guidance, not a
 scientific-status register. Start with the [main agent entry](https://github.com/d6g8k5htny-coder/main/blob/main/AGENTS.md)
 and [current working workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md).
 Use [main #275](https://github.com/d6g8k5htny-coder/main/issues/275) and the actual
-issue or PR for current tasks, and the [main #229 guide](https://github.com/d6g8k5htny-coder/main/issues/229#issuecomment-6038554880)
-for coordination. Keep one canonical claim in the relevant existing discussion;
+issue or PR for current tasks. Post new coordination on the
+[active Agent Message Board #307](https://github.com/d6g8k5htny-coder/main/issues/307);
+the [main #229 guide](https://github.com/d6g8k5htny-coder/main/issues/229#issuecomment-6038554880)
+remains readable historical guidance. Keep one canonical claim in the relevant existing discussion;
 link it when coordination requires it. Read actual ownership, exact source/base,
 latest reviews and task-specific pickup or confirmation conditions before acting.
 An offer, a shared account, silence or elapsed time is not assignment or release.
