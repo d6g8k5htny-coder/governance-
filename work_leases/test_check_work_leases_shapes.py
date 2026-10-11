@@ -1,13 +1,10 @@
-"""Regression and preservation controls for check_work_leases.py (scientific effect NONE).
+"""Mixed regression and preservation controls for check_work_leases.py (scientific effect NONE).
 
 Run: python3 -B -S -m unittest work_leases.test_check_work_leases_shapes -v
-WriteScopeShape holds regression tests: each fails (or crashes) against the pre-repair
-checker — a string write_scope was iterated char-by-char, evading the overlap check, and
-malformed scopes reached the pairwise comparison and crashed path_overlap's string methods.
-PathOverlapClassification holds preservation controls: they pass on the pre-repair checker
-too, pinning the intended prefix semantics (marked directories, extensionless names, dotted
-directories, dotted files vs siblings) while the classifier is repaired. This module does
-not cover the Taylor-script assertion; that lives in the amendments checker itself.
+Covers malformed write_scope shapes, ACTIVE overlap detection, and component-prefix
+semantics. Regression baselines are identified in the amendment history (main#307):
+some controls fail or crash on the pre-repair checker, others pin behavior that already
+held. This suite does not execute the Taylor checker.
 """
 import unittest
 from datetime import datetime, timedelta, timezone
