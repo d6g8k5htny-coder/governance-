@@ -1,1 +1,53 @@
-IiIiTmVnYXRpdmUgY29udHJvbHMgZm9yIGNoZWNrX3dvcmtfbGVhc2VzLnB5IChzY2llbnRpZmljIGVmZmVjdCBOT05FKS4KClJ1bjogcHl0aG9uMyAtQiAtUyAtbSB1bml0dGVzdCB3b3JrX2xlYXNlcy50ZXN0X2NoZWNrX3dvcmtfbGVhc2VzX3NoYXBlcyAtdgpFYWNoIHRlc3QgZmFpbHMgYWdhaW5zdCB0aGUgcHJlLXJlcGFpciBjaGVja2VyIChzdHJpbmcgd3JpdGVfc2NvcGUgZXZhZGVkIHRoZSBvdmVybGFwIGNoZWNrOwpMSUNFTlNFLXN0eWxlIHNjb3BlcyB3ZXJlIG1pc2NsYXNzaWZpZWQ7IGBvciBUcnVlYCBtYWRlIHRoZSBUYXlsb3IgcmVncmVzc2lvbiB2YWN1b3VzKS4KIiIiCmltcG9ydCB1bml0dGVzdApmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZWRlbHRhLCB0aW1lem9uZQoKZnJvbSB3b3JrX2xlYXNlcyBpbXBvcnQgY2hlY2tfd29ya19sZWFzZXMgYXMgYwoKTk9XID0gZGF0ZXRpbWUoMjAyNiwgMTAsIDEyLCB0emluZm89dGltZXpvbmUudXRjKQoKCmRlZiBsZWFzZSh3aWQsIHNjb3BlLCAqKmV4dHJhKToKICAgIGJhc2UgPSB7IndvcmtfaWQiOiB3aWQsICJzdGF0ZSI6ICJBQ1RJVkUiLCAic2NpZW50aWZpY19hdXRob3JpdHkiOiBGYWxzZSwgImV2aWRlbmNlIjogWyJ4Il0sCiAgICAgICAgICAgICJleHBpcmVzX2F0IjogKE5PVyArIHRpbWVkZWx0YShob3Vycz0xKSkuaXNvZm9ybWF0KCksICJoZWFydGJlYXRfYXQiOiBOT1cuaXNvZm9ybWF0KCksCiAgICAgICAgICAgICJ3cml0ZV9zY29wZSI6IHNjb3BlfQogICAgYmFzZS51cGRhdGUoZXh0cmEpCiAgICByZXR1cm4gYmFzZQoKCmNsYXNzIFdyaXRlU2NvcGVTaGFwZSh1bml0dGVzdC5UZXN0Q2FzZSk6CiAgICBkZWYgdGVzdF9zdHJpbmdfd3JpdGVfc2NvcGVfaXNfcmVmdXNlZF9ub3RfaXRlcmF0ZWQoc2VsZik6CiAgICAgICAgcHJvYmxlbXMgPSBjLmNoZWNrX2xlZGdlcih7ImxlYXNlcyI6IFtsZWFzZSgiYSIsICJkb2NzLyIpLCBsZWFzZSgiYiIsIFsiZG9jcy94Lm1kIl0pXX0sIG5vdz1OT1cpCiAgICAgICAgc2VsZi5hc3NlcnRUcnVlKGFueSgid3JpdGVfc2NvcGUgbXVzdCBiZSBhIGxpc3QiIGluIHAgZm9yIHAgaW4gcHJvYmxlbXMpLCBwcm9ibGVtcykKCiAgICBkZWYgdGVzdF9saXN0X29mX25vbl9zdHJpbmdzX2lzX3JlZnVzZWQoc2VsZik6CiAgICAgICAgcHJvYmxlbXMgPSBjLmNoZWNrX2xlZGdlcih7ImxlYXNlcyI6IFtsZWFzZSgiYSIsIFsiZG9jcy8iLCAzXSldfSwgbm93PU5PVykKICAgICAgICBzZWxmLmFzc2VydFRydWUoYW55KCJ3cml0ZV9zY29wZSBtdXN0IGJlIGEgbGlzdCIgaW4gcCBmb3IgcCBpbiBwcm9ibGVtcyksIHByb2JsZW1zKQoKICAgIGRlZiB0ZXN0X3R3b19hY3RpdmVfb3ZlcmxhcHBpbmdfbGlzdHNfc3RpbGxfY29sbGlkZShzZWxmKToKICAgICAgICBwcm9ibGVtcyA9IGMuY2hlY2tfbGVkZ2VyKHsibGVhc2VzIjogW2xlYXNlKCJhIiwgWyJkb2NzLyJdKSwgbGVhc2UoImIiLCBbImRvY3MveC5tZCJdKV19LCBub3c9Tk9XKQogICAgICAgIHNlbGYuYXNzZXJ0VHJ1ZShhbnkoIkFDVElWRSB3cml0ZV9zY29wZSBvdmVybGFwIiBpbiBwIGZvciBwIGluIHByb2JsZW1zKSwgcHJvYmxlbXMpCgoKY2xhc3MgUGF0aE92ZXJsYXBDbGFzc2lmaWNhdGlvbih1bml0dGVzdC5UZXN0Q2FzZSk6CiAgICBkZWYgdGVzdF9tYXJrZWRfZGlyZWN0b3J5X2NvbGxpZGVzX3dpdGhfY2hpbGQoc2VsZik6CiAgICAgICAgc2VsZi5hc3NlcnRUcnVlKGMucGF0aF9vdmVybGFwKCJkb2NzLyIsICJkb2NzL3gubWQiKSkKCiAgICBkZWYgdGVzdF9zaWJsaW5nX2ZpbGVzX2RvX25vdF9jb2xsaWRlKHNlbGYpOgogICAgICAgIHNlbGYuYXNzZXJ0RmFsc2UoYy5wYXRoX292ZXJsYXAoImRvY3MvYS5tZCIsICJkb2NzL2IubWQiKSkKCiAgICBkZWYgdGVzdF9leHRlbnNpb25sZXNzX25hbWVfaXNfYV9kaXJlY3RvcnlfY2xhaW0oc2VsZik6CiAgICAgICAgc2VsZi5hc3NlcnRUcnVlKGMucGF0aF9vdmVybGFwKCJMSUNFTlNFIiwgIkxJQ0VOU0UvYW55dGhpbmciKSkKICAgICAgICBzZWxmLmFzc2VydFRydWUoYy5wYXRoX292ZXJsYXAoIkxJQ0VOU0UiLCAiTElDRU5TRSIpKQoKICAgIGRlZiB0ZXN0X2RvdHRlZF9maWxlX2lzX25vdF9hX3ByZWZpeChzZWxmKToKICAgICAgICBzZWxmLmFzc2VydEZhbHNlKGMucGF0aF9vdmVybGFwKCJkb2NzL2EubWQiLCAiZG9jcy9hLm1kLmJhayIpKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICB1bml0dGVzdC5tYWluKCkK
+"""Negative controls for check_work_leases.py (scientific effect NONE).
+
+Run: python3 -B -S -m unittest work_leases.test_check_work_leases_shapes -v
+Each test fails against the pre-repair checker (string write_scope evaded the overlap check;
+LICENSE-style scopes were misclassified; `or True` made the Taylor regression vacuous).
+"""
+import unittest
+from datetime import datetime, timedelta, timezone
+
+from work_leases import check_work_leases as c
+
+NOW = datetime(2026, 10, 12, tzinfo=timezone.utc)
+
+
+def lease(wid, scope, **extra):
+    base = {"work_id": wid, "state": "ACTIVE", "scientific_authority": False, "evidence": ["x"],
+            "expires_at": (NOW + timedelta(hours=1)).isoformat(), "heartbeat_at": NOW.isoformat(),
+            "write_scope": scope}
+    base.update(extra)
+    return base
+
+
+class WriteScopeShape(unittest.TestCase):
+    def test_string_write_scope_is_refused_not_iterated(self):
+        problems = c.check_ledger({"leases": [lease("a", "docs/"), lease("b", ["docs/x.md"])]}, now=NOW)
+        self.assertTrue(any("write_scope must be a list" in p for p in problems), problems)
+
+    def test_list_of_non_strings_is_refused(self):
+        problems = c.check_ledger({"leases": [lease("a", ["docs/", 3])]}, now=NOW)
+        self.assertTrue(any("write_scope must be a list" in p for p in problems), problems)
+
+    def test_two_active_overlapping_lists_still_collide(self):
+        problems = c.check_ledger({"leases": [lease("a", ["docs/"]), lease("b", ["docs/x.md"])]}, now=NOW)
+        self.assertTrue(any("ACTIVE write_scope overlap" in p for p in problems), problems)
+
+
+class PathOverlapClassification(unittest.TestCase):
+    def test_marked_directory_collides_with_child(self):
+        self.assertTrue(c.path_overlap("docs/", "docs/x.md"))
+
+    def test_sibling_files_do_not_collide(self):
+        self.assertFalse(c.path_overlap("docs/a.md", "docs/b.md"))
+
+    def test_extensionless_name_is_a_directory_claim(self):
+        self.assertTrue(c.path_overlap("LICENSE", "LICENSE/anything"))
+        self.assertTrue(c.path_overlap("LICENSE", "LICENSE"))
+
+    def test_dotted_file_is_not_a_prefix(self):
+        self.assertFalse(c.path_overlap("docs/a.md", "docs/a.md.bak"))
+
+
+if __name__ == "__main__":
+    unittest.main()
