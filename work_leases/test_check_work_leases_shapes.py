@@ -48,6 +48,18 @@ class WriteScopeShape(unittest.TestCase):
         self.assertTrue(any("write_scope must be a list" in p for p in problems), problems)
         self.assertFalse(any("ACTIVE write_scope overlap" in p for p in problems), problems)
 
+    def test_dotted_directory_prefix_collides_with_child(self):
+        # G16-R1 regression: ".github" is a directory claim (leading dot is not
+        # an extension), so it collides with ".github/workflows/check.yml".
+        # Both orders; ledger-level scientific_authority=False per the fixture.
+        doc = lambda a, b: {"scientific_authority": False,
+                            "leases": [lease("a", [a]), lease("b", [b])]}
+        for a, b in [(".github", ".github/workflows/check.yml"),
+                     (".github/workflows/check.yml", ".github")]:
+            with self.subTest(a=a, b=b):
+                problems = c.check_ledger(doc(a, b), now=NOW)
+                self.assertTrue(any("ACTIVE write_scope overlap" in p for p in problems), problems)
+
 
 class PathOverlapClassification(unittest.TestCase):
     def test_marked_directory_collides_with_child(self):

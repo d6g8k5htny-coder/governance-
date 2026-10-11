@@ -49,11 +49,13 @@ def path_overlap(a: str, b: str) -> bool:
     b = b.rstrip("/")
     if a == b:
         return True
-    # Classification: an explicit "dir/" is a directory; otherwise a last component with a dot is a
-    # file ("LICENSE" without a dot is a directory claim, which is the conservative reading: it
+    # Classification: an explicit "dir/" is a directory; otherwise a last component with a real
+    # extension is a file. A leading dot is not an extension (Path(".github").suffix == ""), so
+    # dotted directory names like ".github" stay directory claims and keep their prefix collisions;
+    # "LICENSE" without an extension is likewise a directory claim (conservative reading: it
     # collides with anything beneath it). The former fallback `"/" not in a + "/"` was always false.
-    a_is_file = (not a_marked_dir) and "." in Path(a).name
-    b_is_file = (not b_marked_dir) and "." in Path(b).name
+    a_is_file = (not a_marked_dir) and bool(Path(a).suffix)
+    b_is_file = (not b_marked_dir) and bool(Path(b).suffix)
     if a_is_file and b_is_file:
         return a == b
     # Treat trailing-path as directory prefix when either side looks like a dir claim.
