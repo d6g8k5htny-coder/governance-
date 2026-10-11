@@ -42,40 +42,20 @@ def path_overlap(a: str, b: str) -> bool:
     """True when two write_scope entries collide (exact or prefix)."""
     if not a or not b:
         return False
-    # A trailing "/" is an explicit directory marker; remember it before stripping it.
-    a_marked_dir = a.endswith("/")
-    b_marked_dir = b.endswith("/")
+    # A trailing "/" is an explicit directory marker; strip it for comparison.
     a = a.rstrip("/")
     b = b.rstrip("/")
     if a == b:
         return True
-    # Classification: an explicit "dir/" is a directory; otherwise a last component with a real
-    # extension is a file. A leading dot is not an extension (Path(".github").suffix == ""), so
-    # dotted directory names like ".github" stay directory claims and keep their prefix collisions;
-    # "LICENSE" without an extension is likewise a directory claim (conservative reading: it
-    # collides with anything beneath it). The former fallback `"/" not in a + "/"` was always false.
-    a_is_file = (not a_marked_dir) and bool(Path(a).suffix)
-    b_is_file = (not b_marked_dir) and bool(Path(b).suffix)
-    if a_is_file and b_is_file:
-        return a == b
-    # Treat trailing-path as directory prefix when either side looks like a dir claim.
-    a_pref = a if a_is_file else a + "/"
-    b_pref = b if b_is_file else b + "/"
-    if not a_is_file and (b == a or b.startswith(a + "/")):
-        return True
-    if not b_is_file and (a == b or a.startswith(b + "/")):
-        return True
-    # File under directory
-    if a_is_file and not b_is_file and a.startswith(b + "/"):
-        return True
-    if b_is_file and not a_is_file and b.startswith(a + "/"):
-        return True
-    # Also: exact directory string without slash vs child
-    if not a_is_file and b.startswith(a_pref):
-        return True
-    if not b_is_file and a.startswith(b_pref):
-        return True
-    return False
+    # Component-prefix rule: a scope collides with anything beneath it at a path-component
+    # boundary. This is the conservative reading of the write_scope contract ("path prefixes
+    # this lease may edit") and needs no file-vs-directory guessing from the name: ".github"
+    # and "docs.v1" collide with their children, "docs/" still collides, while "docs/a.md"
+    # does not collide with the sibling "docs/a.md.bak". Name-based classification (dot in
+    # basename, suffix heuristics) was tried and misclassified dotted directory prefixes, so
+    # it is intentionally not used here. The former fallback `"/" not in a + "/"` was dead
+    # code (always false) and is gone.
+    return b.startswith(a + "/") or a.startswith(b + "/")
 
 
 def scopes_overlap(left: list[str], right: list[str]) -> list[tuple[str, str]]:

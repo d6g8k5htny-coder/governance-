@@ -1,8 +1,13 @@
-"""Negative controls for check_work_leases.py (scientific effect NONE).
+"""Regression and preservation controls for check_work_leases.py (scientific effect NONE).
 
 Run: python3 -B -S -m unittest work_leases.test_check_work_leases_shapes -v
-Each test fails against the pre-repair checker (string write_scope evaded the overlap check;
-LICENSE-style scopes were misclassified; `or True` made the Taylor regression vacuous).
+WriteScopeShape holds regression tests: each fails (or crashes) against the pre-repair
+checker — a string write_scope was iterated char-by-char, evading the overlap check, and
+malformed scopes reached the pairwise comparison and crashed path_overlap's string methods.
+PathOverlapClassification holds preservation controls: they pass on the pre-repair checker
+too, pinning the intended prefix semantics (marked directories, extensionless names, dotted
+directories, dotted files vs siblings) while the classifier is repaired. This module does
+not cover the Taylor-script assertion; that lives in the amendments checker itself.
 """
 import unittest
 from datetime import datetime, timedelta, timezone
@@ -49,13 +54,25 @@ class WriteScopeShape(unittest.TestCase):
         self.assertFalse(any("ACTIVE write_scope overlap" in p for p in problems), problems)
 
     def test_dotted_directory_prefix_collides_with_child(self):
-        # G16-R1 regression: ".github" is a directory claim (leading dot is not
-        # an extension), so it collides with ".github/workflows/check.yml".
+        # G16-R1 regression: ".github" collides with ".github/workflows/check.yml"
+        # via the component-prefix rule (no file-vs-directory guessing).
         # Both orders; ledger-level scientific_authority=False per the fixture.
         doc = lambda a, b: {"scientific_authority": False,
                             "leases": [lease("a", [a]), lease("b", [b])]}
         for a, b in [(".github", ".github/workflows/check.yml"),
                      (".github/workflows/check.yml", ".github")]:
+            with self.subTest(a=a, b=b):
+                problems = c.check_ledger(doc(a, b), now=NOW)
+                self.assertTrue(any("ACTIVE write_scope overlap" in p for p in problems), problems)
+
+    def test_dotted_version_directory_prefix_collides(self):
+        # G16-R1 successor: an ordinary dotted directory prefix ("docs.v1") also
+        # collides with its children. A suffix is lexical evidence, not proof of
+        # a file, so component-prefix conflicts are preserved without guessing.
+        doc = lambda a, b: {"scientific_authority": False,
+                            "leases": [lease("a", [a]), lease("b", [b])]}
+        for a, b in [("docs.v1", "docs.v1/child.md"),
+                     ("docs.v1/child.md", "docs.v1")]:
             with self.subTest(a=a, b=b):
                 problems = c.check_ledger(doc(a, b), now=NOW)
                 self.assertTrue(any("ACTIVE write_scope overlap" in p for p in problems), problems)
@@ -74,6 +91,13 @@ class PathOverlapClassification(unittest.TestCase):
 
     def test_dotted_file_is_not_a_prefix(self):
         self.assertFalse(c.path_overlap("docs/a.md", "docs/a.md.bak"))
+
+    def test_marked_dotted_directory_collides_with_child(self):
+        # Explicit trailing-slash marker: a marked directory collides with its
+        # children. (The plain "docs/" control passed the old implementation too;
+        # this dotted variant distinguishes the trailing-marker repair.)
+        self.assertTrue(c.path_overlap("docs/a.md/", "docs/a.md/child.txt"))
+        self.assertTrue(c.path_overlap("docs/a.md/child.txt", "docs/a.md/"))
 
 
 if __name__ == "__main__":
