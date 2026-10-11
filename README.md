@@ -33,7 +33,7 @@ this page does not perform or certify them. The older instruction to keep the
 `sandbox` repository private is historical. It does not authorize automatic
 cataloging or export of exploratory files, outputs, paths or hashes. Private
 material stays private; publish only appropriately scoped project material after
-the [privacy and provenance screen](https://github.com/d6g8k5htny-coder/main/blob/4ff9e927ae5e2bd903b2e11780e78d4c40f71988/governance/OP-PRIVACY-20260927.md).
+the [current privacy rule and owner-authorized publication scope](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-PRIVACY-20260927.md#current-owner-authorized-publication-scope).
 Do not change sharing or visibility merely because a source is readable. The
 privacy rule's later clarification leaves private Drive/Dropbox originals alone;
 this maintenance task neither searches nor changes those stores for privacy reasons.
