@@ -125,6 +125,17 @@ def check_lease(lease: dict[str, Any], now: datetime, problems: list[str]) -> No
         )
 
 
+def _write_scope_shape_ok(lease: dict[str, Any]) -> bool:
+    """True when write_scope is absent or a list of nonempty strings.
+
+    Malformed scopes are already reported by check_lease; they must be
+    excluded here, because the pairwise scopes_overlap comparison below
+    calls path_overlap's string methods and crashes on non-string entries.
+    """
+    scope = lease.get("write_scope")
+    return scope is None or (isinstance(scope, list) and all(isinstance(p, str) and p for p in scope))
+
+
 def check_ledger(doc: dict[str, Any], now: datetime | None = None) -> list[str]:
     now = now or datetime.now(timezone.utc)
     problems: list[str] = []
@@ -147,7 +158,7 @@ def check_ledger(doc: dict[str, Any], now: datetime | None = None) -> list[str]:
         seen[wid] = lease
         check_lease(lease, now, problems)
 
-    active = [L for L in seen.values() if L.get("state") == "ACTIVE"]
+    active = [L for L in seen.values() if L.get("state") == "ACTIVE" and _write_scope_shape_ok(L)]
     for i, a in enumerate(active):
         for b in active[i + 1 :]:
             hits = scopes_overlap(a.get("write_scope") or [], b.get("write_scope") or [])

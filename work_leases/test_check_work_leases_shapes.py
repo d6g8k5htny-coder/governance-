@@ -33,6 +33,21 @@ class WriteScopeShape(unittest.TestCase):
         problems = c.check_ledger({"leases": [lease("a", ["docs/"]), lease("b", ["docs/x.md"])]}, now=NOW)
         self.assertTrue(any("ACTIVE write_scope overlap" in p for p in problems), problems)
 
+    def test_malformed_scope_excluded_from_pairwise_not_crashed(self):
+        # Two-row regression: [3] vs ['docs/x.md']. The malformed row is
+        # reported and excluded from pairwise comparison; it must not reach
+        # path_overlap's string methods (AttributeError pre-fix).
+        problems = c.check_ledger({"leases": [lease("a", [3]), lease("b", ["docs/x.md"])]}, now=NOW)
+        self.assertTrue(any("write_scope must be a list" in p for p in problems), problems)
+        self.assertFalse(any("ACTIVE write_scope overlap" in p for p in problems), problems)
+
+    def test_noniterable_scope_excluded_from_pairwise(self):
+        # Non-list scope (int 3) against another ACTIVE row: reported and
+        # excluded; scopes_overlap must never iterate a non-list.
+        problems = c.check_ledger({"leases": [lease("a", 3), lease("b", ["docs/x.md"])]}, now=NOW)
+        self.assertTrue(any("write_scope must be a list" in p for p in problems), problems)
+        self.assertFalse(any("ACTIVE write_scope overlap" in p for p in problems), problems)
+
 
 class PathOverlapClassification(unittest.TestCase):
     def test_marked_directory_collides_with_child(self):
