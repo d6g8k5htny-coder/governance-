@@ -31,5 +31,5 @@ Machine-readable leases so agents can see who owns which write scopes without tr
 
 ## Files
 
-- `CURRENT.json` — compact live ledger
+- `CURRENT.json` — retained historical lease snapshot (dated 2026-09-28), **not** a live ledger. Its counts are historical, not a current ownership census; see the [root README](../README.md) for the current characterization. For live coordination state, consult the actual task/scheduling instructions and the [coordination board](https://github.com/d6g8k5htny-coder/main/issues/307).
 - `check_work_leases.py` — fail-closed checker (stdlib only)
