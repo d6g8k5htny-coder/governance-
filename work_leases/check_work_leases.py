@@ -42,39 +42,20 @@ def path_overlap(a: str, b: str) -> bool:
     """True when two write_scope entries collide (exact or prefix)."""
     if not a or not b:
         return False
+    # A trailing "/" is an explicit directory marker; strip it for comparison.
     a = a.rstrip("/")
     b = b.rstrip("/")
     if a == b:
         return True
-    # Directory prefix: "docs/" overlaps "docs/foo.md"; file vs sibling file does not.
-    if a.endswith((".py", ".md", ".json", ".yml", ".yaml")) or "/" not in a + "/":
-        a_is_file = "." in Path(a).name
-    else:
-        a_is_file = False
-    if b.endswith((".py", ".md", ".json", ".yml", ".yaml")) or "/" not in b + "/":
-        b_is_file = "." in Path(b).name
-    else:
-        b_is_file = False
-    if a_is_file and b_is_file:
-        return a == b
-    # Treat trailing-path as directory prefix when either side looks like a dir claim.
-    a_pref = a if a_is_file else a + "/"
-    b_pref = b if b_is_file else b + "/"
-    if not a_is_file and (b == a or b.startswith(a + "/")):
-        return True
-    if not b_is_file and (a == b or a.startswith(b + "/")):
-        return True
-    # File under directory
-    if a_is_file and not b_is_file and a.startswith(b + "/"):
-        return True
-    if b_is_file and not a_is_file and b.startswith(a + "/"):
-        return True
-    # Also: exact directory string without slash vs child
-    if not a_is_file and b.startswith(a_pref):
-        return True
-    if not b_is_file and a.startswith(b_pref):
-        return True
-    return False
+    # Component-prefix rule: a scope collides with anything beneath it at a path-component
+    # boundary. This is the conservative reading of the write_scope contract ("path prefixes
+    # this lease may edit") and needs no file-vs-directory guessing from the name: ".github"
+    # and "docs.v1" collide with their children, "docs/" still collides, while "docs/a.md"
+    # does not collide with the sibling "docs/a.md.bak". Name-based classification (dot in
+    # basename, suffix heuristics) was tried and misclassified dotted directory prefixes, so
+    # it is intentionally not used here. The former fallback `"/" not in a + "/"` was dead
+    # code (always false) and is gone.
+    return b.startswith(a + "/") or a.startswith(b + "/")
 
 
 def scopes_overlap(left: list[str], right: list[str]) -> list[tuple[str, str]]:
@@ -98,6 +79,11 @@ def check_lease(lease: dict[str, Any], now: datetime, problems: list[str]) -> No
         return
     if lease.get("scientific_authority") is not False:
         problems.append(f"{wid}: scientific_authority must be false")
+    scope = lease.get("write_scope")
+    if scope is not None and not (isinstance(scope, list) and all(isinstance(p, str) and p for p in scope)):
+        # A string here would be iterated character by character by scopes_overlap and evade the
+        # ACTIVE overlap check; refuse the shape instead of guessing what was meant.
+        problems.append(f"{wid}: write_scope must be a list of nonempty strings, got {type(scope).__name__}")
     if state != "ACTIVE":
         return
     evidence = lease.get("evidence") or []
@@ -119,6 +105,17 @@ def check_lease(lease: dict[str, Any], now: datetime, problems: list[str]) -> No
         problems.append(
             f"{wid}: ACTIVE lease has pr_state={pr_state!r}; release/supersede when PR closes"
         )
+
+
+def _write_scope_shape_ok(lease: dict[str, Any]) -> bool:
+    """True when write_scope is absent or a list of nonempty strings.
+
+    Malformed scopes are already reported by check_lease; they must be
+    excluded here, because the pairwise scopes_overlap comparison below
+    calls path_overlap's string methods and crashes on non-string entries.
+    """
+    scope = lease.get("write_scope")
+    return scope is None or (isinstance(scope, list) and all(isinstance(p, str) and p for p in scope))
 
 
 def check_ledger(doc: dict[str, Any], now: datetime | None = None) -> list[str]:
@@ -143,7 +140,7 @@ def check_ledger(doc: dict[str, Any], now: datetime | None = None) -> list[str]:
         seen[wid] = lease
         check_lease(lease, now, problems)
 
-    active = [L for L in seen.values() if L.get("state") == "ACTIVE"]
+    active = [L for L in seen.values() if L.get("state") == "ACTIVE" and _write_scope_shape_ok(L)]
     for i, a in enumerate(active):
         for b in active[i + 1 :]:
             hits = scopes_overlap(a.get("write_scope") or [], b.get("write_scope") or [])

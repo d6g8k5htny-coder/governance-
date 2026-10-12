@@ -54,7 +54,11 @@ assert height_perp.series(r, 0, 3).removeO() == 0, height_perp
 assert height_perp.series(r, 0, 4).removeO() != 0
 # Leading O(r^3) includes forced Hermite piece 2k y1^3
 lead3 = height_perp.series(r, 0, 4).removeO().coeff(r**3)
-assert sp.simplify(lead3 - (2 * k * y1**3 + fxxy * y1**2 * y2 / 4 + fxyy * y1 * y2**2 / 4 - fyyy * y2**3 / 12)) == 0 or True
+# Exact O(r^3) coefficient. The hand-written expression this line carried until 2026-10-11 had an
+# extra +fxyy*y1*y2**2/4 term and the assertion ended in `or True`, so it could never fail; the fxyy
+# contribution cancels between F0 and (r/2)*y2*Ty0 at this order.
+expect_lead3 = (2 * k * y1**3 + fxxy * y1**2 * y2 / 4 - fyyy * y2**3 / 12).expand()
+assert sp.simplify(lead3 - expect_lead3) == 0, lead3
 # At least confirm 2k y1^3 is present when free jets vanish
 assert sp.simplify(lead3.subs({fxxy: 0, fxyy: 0, fyyy: 0}) - 2 * k * y1**3) == 0, lead3
 
