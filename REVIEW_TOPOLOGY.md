@@ -1,5 +1,20 @@
 # Review topology v1.1 — source-bound review without self-acceptance
 
+## Current operating precedence — 12 October 2026
+
+For current work, follow this repository's [README](README.md#current-entry--7-october-2026)
+and main's [current workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md);
+coordinate through the [active board #307](https://github.com/d6g8k5htny-coder/main/issues/307)
+and the actual task discussion. The September proposal below is preserved unchanged.
+Its 120-minute expiry/reassignment and Downstream Closure Loop wording does not
+itself release custody or authorize a scheduler.
+
+Current task-specific ownership and the workflow's explicit scoped handoff,
+release or confirmed lease-expiry requirements govern. Reconcile current refs,
+claims and findings before acting; age, silence or a shared identity alone is not
+release. This pointer changes no acceptance status, review requirement, scientific
+predicate, explicit stop, platform restriction or required check.
+
 Object: REVIEW-TOPOLOGY-20260925-v1.1. Author: OpenAI / ChatGPT.
 Disposition: AUTHOR AMENDMENT; fresh nonauthor policy review required.
 Scientific effect: NONE. This document is a proposed working rule, not a deployed validator, theorem-acceptance record, or second status database.
