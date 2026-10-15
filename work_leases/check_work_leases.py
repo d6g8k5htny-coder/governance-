@@ -30,6 +30,8 @@ DEFAULT_LEDGER = ROOT / "CURRENT.json"
 
 
 def parse_ts(value: str) -> datetime:
+    if not isinstance(value, str):
+        raise ValueError("timestamp must be a string")
     if value.endswith("Z"):
         value = value[:-1] + "+00:00"
     dt = datetime.fromisoformat(value)
@@ -74,7 +76,7 @@ def delegation_allows(a: dict[str, Any], b: dict[str, Any]) -> bool:
 def check_lease(lease: dict[str, Any], now: datetime, problems: list[str]) -> None:
     wid = lease.get("work_id", "<missing>")
     state = lease.get("state")
-    if state not in ALLOWED_STATES:
+    if not isinstance(state, str) or state not in ALLOWED_STATES:
         problems.append(f"{wid}: invalid state {state!r}")
         return
     if lease.get("scientific_authority") is not False:
@@ -99,8 +101,16 @@ def check_lease(lease: dict[str, Any], now: datetime, problems: list[str]) -> No
         problems.append(f"{wid}: heartbeat_at must be before expires_at")
     if now >= expires:
         problems.append(f"{wid}: ACTIVE lease expired at {lease['expires_at']} (stale; move to BLOCKED/RELEASED)")
-    source = lease.get("source") or {}
+    source = lease.get("source")
+    if source is None:
+        source = {}
+    elif not isinstance(source, dict):
+        problems.append(f"{wid}: source must be an object or null")
+        return
     pr_state = source.get("pr_state")
+    if pr_state is not None and not isinstance(pr_state, str):
+        problems.append(f"{wid}: source.pr_state must be a string or null")
+        return
     if pr_state in CLOSED_PR_STATES:
         problems.append(
             f"{wid}: ACTIVE lease has pr_state={pr_state!r}; release/supersede when PR closes"
@@ -119,6 +129,8 @@ def _write_scope_shape_ok(lease: dict[str, Any]) -> bool:
 
 
 def check_ledger(doc: dict[str, Any], now: datetime | None = None) -> list[str]:
+    if not isinstance(doc, dict):
+        return ["ledger must be an object"]
     now = now or datetime.now(timezone.utc)
     problems: list[str] = []
     if doc.get("scientific_authority") is not False:
