@@ -4,6 +4,11 @@ The 27 September 2026 owner stop is no longer in effect (Dylan Roy, 7 October 20
 
 Cross-repository working contract and useful process amendments only.
 
+Current and future agents: read the [complete 15 October owner mandate](https://github.com/d6g8k5htny-coder/main/blob/b665307520948308a53d190d7341bf301df3b3a2/governance/OWNER_MANDATE_20261015.md)
+alongside the [existing standing delegation](https://github.com/d6g8k5htny-coder/main/blob/b665307520948308a53d190d7341bf301df3b3a2/governance/OP-AUTONOMY-20260923-v2.1.md).
+Carry both links into task handoffs. This pointer grants no new platform permissions,
+review exceptions, scientific authority or access to private material.
+
 ## Always
 
 - Coordinate via [`main`](https://github.com/d6g8k5htny-coder/main) campaign work; this repo’s [README](README.md) is the working contract.
