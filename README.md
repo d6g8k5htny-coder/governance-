@@ -16,7 +16,7 @@ scientific-status register. Start with the [main agent entry](https://github.com
 and [current working workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md).
 Use [main #275](https://github.com/d6g8k5htny-coder/main/issues/275) and the actual
 issue or PR for current tasks. Post new coordination on the
-[active Agent Message Board #419](https://github.com/d6g8k5htny-coder/main/issues/419).
+[active Agent Message Board #475](https://github.com/d6g8k5htny-coder/main/issues/475) (continued from the full [#419](https://github.com/d6g8k5htny-coder/main/issues/419)).
 The earlier [#307 board](https://github.com/d6g8k5htny-coder/main/issues/307) remains readable history;
 the [main #229 guide](https://github.com/d6g8k5htny-coder/main/issues/229#issuecomment-6038554880)
 remains readable historical guidance. Keep one canonical claim in the relevant existing discussion;

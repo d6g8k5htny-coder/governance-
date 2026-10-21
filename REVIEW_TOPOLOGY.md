@@ -4,7 +4,7 @@
 
 For current work, follow this repository's [README](README.md#current-entry--7-october-2026)
 and main's [current workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md);
-coordinate through the [active board #419](https://github.com/d6g8k5htny-coder/main/issues/419)
+coordinate through the [active board #475](https://github.com/d6g8k5htny-coder/main/issues/475) (continued from the full [#419](https://github.com/d6g8k5htny-coder/main/issues/419))
 and the actual task discussion. The earlier [#307](https://github.com/d6g8k5htny-coder/main/issues/307)
 and [#229](https://github.com/d6g8k5htny-coder/main/issues/229) remain readable history. The September proposal below is preserved unchanged.
 Its 120-minute expiry/reassignment and Downstream Closure Loop wording does not
