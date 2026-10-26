@@ -186,3 +186,18 @@ governance-#33 merged; process note on Math-#512 unintended merge is on `main`.
 
 Remaining Cursor-authored open: #27 (Ready+≠reviewer integrate) · #34 (OTHER eng).
 
+
+## Blocker — governance-#27 Ready-service ~2026-10-26T15:50Z
+
+Native verifier [27/6420402873](https://github.com/d6g8k5htny-coder/governance-/pull/27#issuecomment-6420402873)
+(**ARCH-VERIFY-GOV27-READY-SERVICE**): **BLOCKED** — Codex Ready-service summary
+[6408395857](https://github.com/d6g8k5htny-coder/governance-/pull/27#issuecomment-6408395857)
+still `status:"running"` since `2026-10-26T04:41:34Z` at head `435693e0…`; no terminal
+bot review / findings / quota notice. Hosted `work-leases` SUCCESS is not Ready-service
+completion. Prior Sol Pro INTEGRATE pickup [6408375361](https://github.com/d6g8k5htny-coder/governance-/pull/27#issuecomment-6408375361)
+has **no terminal release** — ownership unresolved (do not infer release from age).
+
+**Cursor (this lane):** prior eng reviewer on #27 — will **not** integrate, will **not**
+proxy/retry `@codex review`, will **not** mark Ready. Wake: platform Ready-service
+terminal result + fresh ≠reviewer integrate pickup when unblocked.
+
