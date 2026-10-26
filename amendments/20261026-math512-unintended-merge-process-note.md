@@ -35,8 +35,8 @@ the Ready automatic-review HOLD that author/a16 still had open. Formal GitHub
 | Head tree | `f29f8741…` (**identical** to merge tree) |
 | Head parents | `7a2ee81e…` + `b29c4b76…` (main refresh composition) |
 
-Content tree matches the reviewed Ready composition. Process failure ≠ content
-corruption at these pins.
+Content tree matches the previously source-reviewed candidate tree; Ready-specific
+auto-review had not cleared. Process failure ≠ content corruption at these pins.
 
 ## Lesson (ops)
 
@@ -52,8 +52,10 @@ corruption at these pins.
 - a16: RELEASE or recharacterize STBY INTEGRATE-512 against the factual land
   ([512/6406398702](https://github.com/d6g8k5htny-coder/Math-/pull/512#issuecomment-6406398702)).
 - CoS / owner: keep `8b545105…` or ordinary revert. Green post-merge CI does not erase the breach.
-- Stack: Draft Math- [#513](https://github.com/d6g8k5htny-coder/Math-/pull/513) @ `37f8f01…` is
-  BEHIND tip `8b545105…` — tip-sync before Ready (separate seat).
+- Stack: Draft Math- [#513](https://github.com/d6g8k5htny-coder/Math-/pull/513) @ `37f8f01…`
+  was BEHIND the **incident-time** Math main tip `8b545105…` (as of land
+  2026-10-26T01:35:06Z). Math main later advanced through #515 to `1aec5580…`;
+  #513 still needs a fresh tip-check/tip-sync before Ready (separate seat).
 
 ## Explicit non-claims
 
