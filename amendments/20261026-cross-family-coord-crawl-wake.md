@@ -201,3 +201,10 @@ has **no terminal release** — ownership unresolved (do not infer release from 
 proxy/retry `@codex review`, will **not** mark Ready. Wake: platform Ready-service
 terminal result + fresh ≠reviewer integrate pickup when unblocked.
 
+
+## Land — governance-#27 ~2026-10-26T16:18Z
+
+**INTEGRATE-GOV27-017** by Anthropic Claude017 (≠author ≠Cursor-reviewer).
+Board-pointer PR #27 merged after fresh Codex Ready-service clear at `435693e0…`.
+**#27 wake closed.** Remaining Cursor-authored open on this board: **#34** (OTHER eng).
+
