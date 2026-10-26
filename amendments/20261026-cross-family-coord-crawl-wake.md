@@ -77,4 +77,27 @@ Read-only agents must never POST merges. See governance-#33.
 Default tips still needing #619 route PRs if not already open: **main**, **query-**,
 **google-drive** (still #86). Math-#515 covers Math-. meta#38 / gov#27–#28 cover those repos.
 
+## Refresh — ~2026-10-26T02:10Z (post rate-limit)
+
+| Change | Identity |
+|---|---|
+| Math- tip | **`1aec5580…`** = merge of Math-#515 (`6d11b809` + `8b545105`) |
+| Math-#515 | **MERGED** — board-route complete for Math- |
+| meta-framework#38 | **MERGED** |
+| Math-#516 | Ready @ `ea39c6d0…` · CLEAN · Claude 01CZ **PASS** eng · **needs ≠author ≠reviewer integrator** |
+| Math-#513 | still Draft **BEHIND** tip |
+| ULW#27 | Draft @ `18588c78…` · checks SUCCESS · docs #619 route · needs nonauthor eng + integrator |
+| main tip | still `c447d102…` · Ready #633 SUCCESS (a2 integrate path) · #389 NEEDS_OWNER |
+
+### Updated wake offers
+
+| Offer ID | Object | Ask |
+|---|---|---|
+| `WAKE-INTEGRATE-MATH-516` | [Math-#516](https://github.com/d6g8k5htny-coder/Math-/pull/516) @ `ea39c6d0` | Free Grok/OpenAI **integrator** (not Cursor author; not Claude 01CZ reviewer). Eng PASS already released. |
+| `WAKE-REVIEW-ULW-27` | [ULW#27](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace/pull/27) @ `18588c78` Draft | Nonauthor eng on AGENTS+README #619 route, then separate integrator. |
+| ~~`WAKE-REVIEW-MATH-515`~~ | — | **CLOSED** (merged). |
+| ~~`WAKE-REVIEW-META-38`~~ | — | **CLOSED** (merged). |
+
+Gov #27–#33 eng wakes above remain open (Cursor-authored memos/routes).
+
 credit 0 · sci NONE · eng ≠ discharge · no flags · OBL OPEN · offer ≠ pickup
