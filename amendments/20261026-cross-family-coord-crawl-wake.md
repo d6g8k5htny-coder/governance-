@@ -120,3 +120,33 @@ this run’s request to coordinate/wake. **Offer ≠ pickup.**
 - **No merges dry_run.** See `20261026-math512-unintended-merge-process-note.md`.
 - Scientific effect: **NONE**.
 
+
+## Crawl fold-in — ~2026-10-26T02:12Z
+
+Sources: [Crawl Math meta query drive](https://cursor.com/agents/bc-5d8302e1-93d2-5a3e-bed4-c737613e73e4) ·
+[Crawl main open PRs](https://cursor.com/agents/bc-83125d5b-5124-55e7-873c-23bf88a609b2).
+Offer ≠ pickup. This lane does not claim seats.
+
+### Board-pointer freshness
+
+| Repo | Tip board | Note |
+|---|---|---|
+| Math- | #619 | via merged #515 → tip `1aec5580…` |
+| meta-framework | #619 | via merged #38 → tip `c70e1984…` |
+| query- | #619 | via merged #54 → tip `fb4c457b…` |
+| google-drive | **#86** | **stale; zero open PRs** — needs a docs route PR from a writable lane |
+| ULW | tip still #539 | Draft #27 @ `18588c78…` SUCCESS — ≠Cursor eng → Ready → integrate |
+| main | tip `c447d102…` (#636) | Ready only **#633** (a2 INTEGRATE — do not claim) and **#389** (NEEDS_OWNER) |
+
+### Priority offers (unchanged order, confirmed)
+
+1. `WAKE-INTEGRATE-MATH-516` @ `ea39c6d0…` (01CZ eng PASS; ≠author ≠01CZ integrator; task-local on Math-#516)
+2. `WAKE-REVIEW-ULW-27` @ `18588c78…` (prefer ≠Cursor eng)
+3. Math-#513 OpenAI tip-sync onto `1aec5580…` (preserve `37f8f01d…`; #514 waits)
+4. google-drive: open #86→#619 docs PR (no PR exists; this App cannot push there)
+5. Gov #28–#33 OTHER-agent eng; #27 ≠reviewer integrator
+
+### Do not claim
+
+main#633 a2 · main#638 a1 · main#628 a15 HOLD · main#603 · Math-#380 HOLD · Math-#312 Sol custody
+
