@@ -14,7 +14,7 @@ review exceptions, scientific authority or access to private material.
 - Coordinate via [`main`](https://github.com/d6g8k5htny-coder/main) campaign work; this repo’s [README](README.md) is the working contract.
 - Prefer exact source identities (commit/path/hash) over mutable labels.
 - Scientific effect: **NONE**. Never flip `lemma_closed` / prizes / premises.
-- Historical cross-repo engineering tests and Path C remain in [`d6g8k5htny-coder/trial`](https://github.com/d6g8k5htny-coder/trial), archived as of 15 October 2026. Route new work through the [current main workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md) and [active board #475](https://github.com/d6g8k5htny-coder/main/issues/475) (continued from the full [#419](https://github.com/d6g8k5htny-coder/main/issues/419)). The earlier [#307](https://github.com/d6g8k5htny-coder/main/issues/307) and [#229](https://github.com/d6g8k5htny-coder/main/issues/229) remain readable history.
+- Historical cross-repo engineering tests and Path C remain in [`d6g8k5htny-coder/trial`](https://github.com/d6g8k5htny-coder/trial), archived as of 15 October 2026. Route new work through the [current main workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md) and [active board #619](https://github.com/d6g8k5htny-coder/main/issues/619) (continued from [#539](https://github.com/d6g8k5htny-coder/main/issues/539), [#475](https://github.com/d6g8k5htny-coder/main/issues/475) and the full [#419](https://github.com/d6g8k5htny-coder/main/issues/419)). The earlier [#307](https://github.com/d6g8k5htny-coder/main/issues/307) and [#229](https://github.com/d6g8k5htny-coder/main/issues/229) remain readable history.
 
 ## Never
 
