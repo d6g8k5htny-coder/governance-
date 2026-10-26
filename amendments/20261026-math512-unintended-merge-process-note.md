@@ -40,8 +40,9 @@ corruption at these pins.
 
 ## Lesson (ops)
 
-- There is **no** GitHub merges `dry_run` parameter. Unknown JSON fields are ignored;
-  a merges POST is a real merge attempt.
+- There is **no** GitHub merges `dry_run` parameter. The incident report records that
+  this unsupported field was ignored; a merges POST is a real write attempt, never a
+  readiness probe. See [Merge a branch](https://docs.github.com/en/rest/branches/branches#merge-a-branch).
 - Read-only “readiness” agents must not call merges / merge endpoints at all.
 - Prefer SHA-guarded ordinary merges only from the claimed integrator seat after
   required Ready/auto-review conditions clear.
