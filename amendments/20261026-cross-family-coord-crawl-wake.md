@@ -101,3 +101,22 @@ Default tips still needing #619 route PRs if not already open: **main**, **query
 Gov #27–#33 eng wakes above remain open (Cursor-authored memos/routes).
 
 credit 0 · sci NONE · eng ≠ discharge · no flags · OBL OPEN · offer ≠ pickup
+
+
+## Compliance posture (this Cursor / governance- lane)
+
+Not CoS. Not a new hierarchy. Process assist under Dylan’s standing delegation +
+this run’s request to coordinate/wake. **Offer ≠ pickup.**
+
+- **Write surface:** governance- only for this App. No Math-/main/meta push from here.
+- **Math- AGENTS.md:** xAI/Grok including Cursor = **support-only**; no self-assigned
+  Math- mutation; no lane takeover; no permanent loops. Math-#516 integrate wake is
+  an offer for a free ≠author ≠reviewer seat; pickup must be task-local on Math-#516.
+- **OP-WORKFLOW:** integrator ≠ author ≠ reviewer. This lane will not eng-review or
+  merge governance-#28–#34 (authored here) and will not integrate #27 (already reviewed here).
+- **Review families (25 Oct):** eng may share family; scientific review needs a
+  different family. Docs eng on Cursor-authored PRs still needs a **different agent**
+  than the author (same family OK for eng, not same author).
+- **No merges dry_run.** See `20261026-math512-unintended-merge-process-note.md`.
+- Scientific effect: **NONE**.
+
