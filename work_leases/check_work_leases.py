@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import posixpath
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -25,6 +26,7 @@ from typing import Any
 
 ALLOWED_STATES = frozenset({"OFFERED", "ACTIVE", "BLOCKED", "RELEASED", "SUPERSEDED"})
 CLOSED_PR_STATES = frozenset({"closed", "merged"})
+SCHEMA = "governance.work-leases/v1"
 ROOT = Path(__file__).resolve().parent
 DEFAULT_LEDGER = ROOT / "CURRENT.json"
 
@@ -40,14 +42,22 @@ def parse_ts(value: str) -> datetime:
     return dt.astimezone(timezone.utc)
 
 
+def normalized_scope_path(path: str) -> str:
+    """Normalize a lexical POSIX scope without resolving filesystem links."""
+    normalized = posixpath.normpath(path)
+    if (path.startswith("/") or "\\" in path or ":" in path or "\0" in path
+            or normalized == ".." or normalized.startswith("../")):
+        raise ValueError("write_scope path must be repository-relative: " + ascii(path))
+    return normalized
+
+
 def path_overlap(a: str, b: str) -> bool:
     """True when two write_scope entries collide (exact or prefix)."""
     if not a or not b:
         return False
-    # A trailing "/" is an explicit directory marker; strip it for comparison.
-    a = a.rstrip("/")
-    b = b.rstrip("/")
-    if a == b:
+    a = normalized_scope_path(a)
+    b = normalized_scope_path(b)
+    if a == b or a == "." or b == ".":
         return True
     # Component-prefix rule: a scope collides with anything beneath it at a path-component
     # boundary. This is the conservative reading of the write_scope contract ("path prefixes
@@ -86,11 +96,18 @@ def check_lease(lease: dict[str, Any], now: datetime, problems: list[str]) -> No
         # A string here would be iterated character by character by scopes_overlap and evade the
         # ACTIVE overlap check; refuse the shape instead of guessing what was meant.
         problems.append(f"{wid}: write_scope must be a list of nonempty strings, got {type(scope).__name__}")
+    elif scope is not None:
+        for path in scope:
+            try:
+                normalized_scope_path(path)
+            except ValueError as exc:
+                problems.append(f"{wid}: {exc}")
     if state != "ACTIVE":
         return
-    evidence = lease.get("evidence") or []
-    if not evidence:
-        problems.append(f"{wid}: ACTIVE requires nonempty evidence")
+    evidence = lease.get("evidence")
+    if (not isinstance(evidence, list) or not evidence
+            or not all(isinstance(item, str) and item.strip() for item in evidence)):
+        problems.append(f"{wid}: ACTIVE requires nonempty evidence list of nonempty strings")
     try:
         expires = parse_ts(lease["expires_at"])
         heartbeat = parse_ts(lease["heartbeat_at"])
@@ -118,14 +135,23 @@ def check_lease(lease: dict[str, Any], now: datetime, problems: list[str]) -> No
 
 
 def _write_scope_shape_ok(lease: dict[str, Any]) -> bool:
-    """True when write_scope is absent or a list of nonempty strings.
+    """True when write_scope is absent or a list of safe nonempty strings.
 
     Malformed scopes are already reported by check_lease; they must be
     excluded here, because the pairwise scopes_overlap comparison below
     calls path_overlap's string methods and crashes on non-string entries.
     """
     scope = lease.get("write_scope")
-    return scope is None or (isinstance(scope, list) and all(isinstance(p, str) and p for p in scope))
+    if scope is None:
+        return True
+    if not (isinstance(scope, list) and all(isinstance(p, str) and p for p in scope)):
+        return False
+    try:
+        for path in scope:
+            normalized_scope_path(path)
+    except ValueError:
+        return False
+    return True
 
 
 def check_ledger(doc: dict[str, Any], now: datetime | None = None) -> list[str]:
@@ -133,6 +159,9 @@ def check_ledger(doc: dict[str, Any], now: datetime | None = None) -> list[str]:
         return ["ledger must be an object"]
     now = now or datetime.now(timezone.utc)
     problems: list[str] = []
+    schema = doc.get("schema", SCHEMA)
+    if not isinstance(schema, str) or schema != SCHEMA:
+        problems.append(f"unsupported ledger schema {ascii(schema)}; expected {SCHEMA!r}")
     if doc.get("scientific_authority") is not False:
         problems.append("ledger scientific_authority must be false")
     leases = doc.get("leases")
@@ -249,6 +278,16 @@ def self_test() -> None:
         raise AssertionError("OFFERED lease must not be treated as ACTIVE failure")
 
 
+def unique_json_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    """Refuse duplicate members, including escaped spellings and nested keys."""
+    result: dict[str, Any] = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError("duplicate JSON member " + ascii(key))
+        result[key] = value
+    return result
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--ledger", type=Path, default=DEFAULT_LEDGER)
@@ -265,7 +304,12 @@ def main(argv: list[str] | None = None) -> int:
         print("work_leases self-test: OK")
         return 0
 
-    doc = json.loads(args.ledger.read_text(encoding="utf-8"))
+    try:
+        doc = json.loads(args.ledger.read_text(encoding="utf-8"), object_pairs_hook=unique_json_object)
+    except ValueError as exc:
+        print("work_leases: FAIL", file=sys.stderr)
+        print(f"  - {exc}", file=sys.stderr)
+        return 1
     now = parse_ts(args.now) if args.now else datetime.now(timezone.utc)
     problems = check_ledger(doc, now=now)
     if problems:

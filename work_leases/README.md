@@ -23,11 +23,21 @@ Machine-readable leases so agents can see who owns which write scopes without tr
 ## Rules (enforced by `check_work_leases.py`)
 
 1. `OFFERED` is never treated as `ACTIVE`.
-2. `ACTIVE` requires nonempty `evidence` and `heartbeat_at` before `expires_at`.
+2. `ACTIVE` requires `evidence` to be a nonempty list of nonblank strings, and `heartbeat_at` before `expires_at`. The checker validates the evidence shape; it does not fetch or authenticate the references.
 3. Stale heartbeat (`heartbeat_at` ≥ `expires_at` or clock past `expires_at`) must not remain `ACTIVE` — use `BLOCKED` or `RELEASED`.
-4. Two `ACTIVE` leases with overlapping `write_scope` paths fail unless one lists the other in `delegates_to`.
+4. Two `ACTIVE` leases with overlapping `write_scope` paths fail unless one lists the other in `delegates_to`. Comparison normalizes POSIX `.`, `..` and repeated separators; `.` covers the repository. Absolute paths, parent escapes, backslashes, colons and NULs are refused. This is lexical path comparison; it does not resolve filesystem links.
 5. An `ACTIVE` lease whose `source.pr_state` is `closed` or `merged` fails (lease must be `RELEASED` / `SUPERSEDED`).
 6. Reviewer independence lineage is **not** recorded here; see `REVIEW_TOPOLOGY.md` / governance- [#4](https://github.com/d6g8k5htny-coder/governance-/pull/4). Writer ownership ≠ reviewer key.
+7. A declared `schema` must be `governance.work-leases/v1`. Omitted schemas retain legacy API and CLI compatibility.
+8. JSON duplicate members are refused at every nesting level, including keys spelled with escapes. Malformed JSON fails with a diagnostic and a nonzero exit status.
+
+Run the input and collision controls in both modes:
+
+```bash
+python -B -S -m unittest discover -s work_leases -p 'test_*.py' -v
+python -B -O -S -m unittest discover -s work_leases -p 'test_*.py' -v
+python -B -S work_leases/check_work_leases.py --self-test
+```
 
 ## Files
 
